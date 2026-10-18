@@ -35,6 +35,9 @@ def main():
     assert (rent, beds) == (2100, 2) and "Tiny" in title, (rent, beds, title)
     rent, beds, _ = ia.details_near(raw, found[("zoopla", "74512345")], None, pos[1])
     assert rent == round(950 * 52 / 12) and beds == 4, (rent, beds)
+    raw = "https://www.rightmove.co.uk/properties/94388301 Mascotte Road, London, SW15 £3,748 pcm 4 bedroom"
+    rent, beds, title = ia.details_near(raw, 0, None)
+    assert title.startswith("Mascotte Road") and (rent, beds) == (3748, 4), (rent, beds, title)
     existing = [{"id": "onthemarket-1", "title": "Mascotte Road, London, SW15", "rent": 3748}]
     assert ia.same_home(existing, "Mascotte Road, Putney SW15", 3750) is existing[0]
     assert ia.same_home(existing, "Mascotte Road, Putney SW15", 4200) is None

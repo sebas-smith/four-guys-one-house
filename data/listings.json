@@ -9615,13 +9615,15 @@
   "url": "https://www.zoopla.co.uk/to-rent/details/66815210/",
   "links": [
    "https://www.zoopla.co.uk/to-rent/details/66815210/",
-   "https://www.onthemarket.com/details/14459988/"
+   "https://www.onthemarket.com/details/14459988/",
+   "https://www.rightmove.co.uk/properties/94388301"
   ],
   "source": "sweep",
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "From an email on 2026-10-18: Test listing for the tracker"
   ]
  },
  {
@@ -11778,26 +11780,6 @@
   "checked": "2026-10-18",
   "notes": [
    "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "rightmove-94388301",
-  "title": "https://www.rightmove.co.uk/properties/94388301 Mascotte Road, London, SW15",
-  "area": "SW15",
-  "rent": 3748,
-  "beds": 4,
-  "baths": null,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/94388301",
-  "links": [
-   "https://www.rightmove.co.uk/properties/94388301"
-  ],
-  "source": "alert",
-  "added": "2026-10-18",
-  "notes": [
-   "From an email on 2026-10-18: Test listing for the tracker"
   ]
  }
 ]

@@ -116,7 +116,8 @@ def details_near(raw, pos, next_pos, prev_pos=None):
     m = closest(BEDS)
     beds = int(m.group(1)) if m else None
     m = closest(ADDRESS)
-    title = re.sub(r"\s+", " ", m.group(0)).strip(" ,-") if m else ""
+    title = re.sub(r"https?://\S+|\s+", " ", m.group(0)).strip(" ,-") if m else ""
+    title = re.sub(r"\s+", " ", title)
     return rent, beds, title
 
 
