@@ -7,7 +7,10 @@ const TARGET_PP = 1000, MAX_PP = 1200, PEOPLE = 4, PAGE = 60;
 const SITE = {
   rightmove: "Rightmove", zoopla: "Zoopla", openrent: "OpenRent", onthemarket: "OnTheMarket",
   foxtons: "Foxtons", jacksonsestateagents: "Jacksons", dexters: "Dexters", kfh: "KFH", hamptons: "Hamptons",
-  grovesresidential: "Groves", cound: "Cound",
+  grovesresidential: "Groves", cound: "Cound", marshandparsons: "Marsh & Parsons", hawesandco: "Hawes & Co",
+  savills: "Savills", knightfrank: "Knight Frank", chestertons: "Chestertons", winkworth: "Winkworth",
+  johndwood: "John D Wood", barnardmarcus: "Barnard Marcus", douglasandgordon: "Douglas & Gordon",
+  robertholmes: "Robert Holmes", andrewsonline: "Andrews", bairstoweves: "Bairstow Eves",
 };
 const $ = (id) => document.getElementById(id);
 
@@ -64,7 +67,7 @@ function card(r) {
   const meta = el("div", "meta");
   if (r.status === "new" && isRecent(r)) meta.append(el("span", "tag new", "New"));
   else meta.append(el("span", "tag status", STATUS[r.status] || r.status));
-  for (const b of [r.area, r.beds && `${r.beds} bed`, r.baths && `${r.baths} bath`, r.available ? `Available ${r.available.replace(/^available\s*/i, "")}` : "Availability unknown"]) {
+  for (const b of [r.area, r.beds && `${r.beds} bed`, r.baths && `${r.baths} bath`, r.available ? `Available ${r.available.replace(/^(availability date|available( from)?)\s*:?\s*/i, "")}` : "Availability unknown"]) {
     if (b) meta.append(el("span", null, b));
   }
   if (r.added) meta.append(el("span", null, `Added ${day(r.added)}`));
