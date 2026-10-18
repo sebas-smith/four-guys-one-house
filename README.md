@@ -9,7 +9,8 @@ Site: https://sebas-smith.github.io/four-guys-one-house/
 
 - Areas: Putney, Southfields, Earlsfield, Wandsworth, Tooting, Balham, Wimbledon, Raynes Park,
   Clapham South borders.
-- Excluded: Isleworth, Osterley, New Malden, Twickenham, Whitton.
+- Roehampton too.
+- Excluded: Isleworth, Osterley, New Malden, Hounslow, Twickenham, Whitton (TW and KT3 postcodes).
 - Whole property, 4+ bedrooms, £3,000 to £5,000 pcm tracked (recommend up to £4,800).
 
 ## How it works
@@ -20,14 +21,20 @@ Site: https://sebas-smith.github.io/four-guys-one-house/
   and commits it as `sweeps/YYYY-MM-DD.csv`. `.github/workflows/sweep.yml` then runs
   `scripts/merge_sweep.py` on it, which adds new homes, updates prices and marks let homes gone.
   It never overrides a status one of us set. The git history shows what changed each day.
+- Every morning at 05:00 UTC `.github/workflows/check.yml` runs `scripts/check_live.py`, which opens
+  each live home's adverts and marks it gone when they're let agreed, under offer or taken down
+  (warning only if another advert is still live). The sweep workflow runs it on that day's new homes.
+  Rightmove and OnTheMarket work from GitHub; Zoopla, OpenRent and Jacksons/Hamptons-style agent
+  sites block it, so those links are skipped.
+- `scripts/stations.py` adds the nearest station and walk time; `scripts/dedupe.py` merges duplicates.
 
 ## Alert emails
 
-Portal alerts go to a shared Google Group, so all four of us get them by email for quick checks.
-A bot Gmail account is also in the group. Every 15 minutes, `.github/workflows/alerts.yml` runs
+Portal alerts go straight to the bot Gmail, 4guysonehouse@gmail.com (no Google Group: nobody wanted
+the emails). Housemates can read that inbox through Gmail delegation. Every 15 minutes, `.github/workflows/alerts.yml` runs
 `scripts/ingest_alerts.py`. That reads the bot inbox, adds any new Rightmove, Zoopla, OnTheMarket or
-OpenRent listing link to `data/listings.json`, and commits. Forward any listing email to the group
-and it gets added too.
+OpenRent listing link to `data/listings.json`, and commits. Forward any listing email to the bot
+address and it gets added too.
 
 If a portal email can't be read (for example, the portal changed its layout), the Action fails
 and GitHub emails the repo owner. Parser tests: `python scripts/test_ingest.py`.
@@ -38,11 +45,10 @@ and GitHub emails the repo owner. Parser tests: `python scripts/test_ingest.py`.
    (Google Account > Security > App passwords).
 2. In this repo: Settings > Secrets and variables > Actions > New repository secret. Add
    `GMAIL_ADDRESS` (the bot's address) and `GMAIL_APP_PASSWORD` (the app password).
-3. Create a Google Group at groups.google.com. Add all four of us plus the bot address.
-   Set "Who can post" to members only.
-4. On Rightmove, Zoopla and OnTheMarket, make one saved search each: draw the areas on the map,
-   4+ beds, £3,000 to £4,800 pcm, to rent, "instant" email alerts, sent to the group address.
-   Someone in the group clicks the confirmation email each portal sends.
+3. Create accounts on Rightmove, Zoopla, OnTheMarket and OpenRent with the bot address. Make one
+   saved search each: draw the areas on the map, 4+ beds, £3,000 to £5,000 pcm, to rent,
+   "instant" email alerts.
+4. Gmail settings > Accounts > Grant access to your account: add each housemate as a delegate.
 
 ## Run locally
 
@@ -69,4 +75,5 @@ Edit its `status` in `data/listings.json` and commit:
 
 `id`, `title`, `area`, `rent` (monthly £), `beds`, `baths`, `available`, `sharers` (`ok` / `unknown` / `no`),
 `status`, `url` (main link), `links` (every known source), `source` (`import` / `search` / `manual`),
-`added` (YYYY-MM-DD), `notes` (list of strings).
+`added` (YYYY-MM-DD), `checked`, `notes` (list of strings), `prices` (list of `[date, rent, site]`),
+`station` (`{name, kind, walk}` minutes), `off_market` (`{why, checked}`, set by `check_live.py`).
