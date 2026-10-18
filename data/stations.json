@@ -1,0 +1,404 @@
+[
+ {
+  "name": "Balham",
+  "kind": "Tube",
+  "lat": 51.44339,
+  "lon": -0.1529
+ },
+ {
+  "name": "Barnes",
+  "kind": "Rail",
+  "lat": 51.46678,
+  "lon": -0.24118
+ },
+ {
+  "name": "Barnes Bridge",
+  "kind": "Rail",
+  "lat": 51.47201,
+  "lon": -0.25263
+ },
+ {
+  "name": "Battersea Park",
+  "kind": "Rail",
+  "lat": 51.47761,
+  "lon": -0.14758
+ },
+ {
+  "name": "Battersea Power Station",
+  "kind": "Tube",
+  "lat": 51.47962,
+  "lon": -0.14297
+ },
+ {
+  "name": "Berrylands",
+  "kind": "Rail",
+  "lat": 51.39901,
+  "lon": -0.28091
+ },
+ {
+  "name": "Brixton",
+  "kind": "Tube",
+  "lat": 51.46261,
+  "lon": -0.11471
+ },
+ {
+  "name": "Chiswick",
+  "kind": "Rail",
+  "lat": 51.48115,
+  "lon": -0.26818
+ },
+ {
+  "name": "Clapham Common",
+  "kind": "Tube",
+  "lat": 51.46207,
+  "lon": -0.13736
+ },
+ {
+  "name": "Clapham High Street",
+  "kind": "Overground",
+  "lat": 51.46549,
+  "lon": -0.13231
+ },
+ {
+  "name": "Clapham Junction",
+  "kind": "Rail",
+  "lat": 51.46446,
+  "lon": -0.17052
+ },
+ {
+  "name": "Clapham North",
+  "kind": "Tube",
+  "lat": 51.4653,
+  "lon": -0.12964
+ },
+ {
+  "name": "Clapham South",
+  "kind": "Tube",
+  "lat": 51.45284,
+  "lon": -0.14755
+ },
+ {
+  "name": "Colliers Wood",
+  "kind": "Tube",
+  "lat": 51.41827,
+  "lon": -0.17786
+ },
+ {
+  "name": "Earlsfield",
+  "kind": "Rail",
+  "lat": 51.4424,
+  "lon": -0.18769
+ },
+ {
+  "name": "East Putney",
+  "kind": "Tube",
+  "lat": 51.45861,
+  "lon": -0.21124
+ },
+ {
+  "name": "Fulham Broadway",
+  "kind": "Tube",
+  "lat": 51.48083,
+  "lon": -0.1945
+ },
+ {
+  "name": "Haydons Road",
+  "kind": "Rail",
+  "lat": 51.42536,
+  "lon": -0.18834
+ },
+ {
+  "name": "Herne Hill",
+  "kind": "Rail",
+  "lat": 51.45347,
+  "lon": -0.10228
+ },
+ {
+  "name": "Imperial Wharf",
+  "kind": "Rail",
+  "lat": 51.4751,
+  "lon": -0.18293
+ },
+ {
+  "name": "Kennington",
+  "kind": "Tube",
+  "lat": 51.48829,
+  "lon": -0.10588
+ },
+ {
+  "name": "Kew Bridge",
+  "kind": "Rail",
+  "lat": 51.48972,
+  "lon": -0.28834
+ },
+ {
+  "name": "Kew Gardens",
+  "kind": "Tube",
+  "lat": 51.47713,
+  "lon": -0.28496
+ },
+ {
+  "name": "Loughborough Junction",
+  "kind": "Rail",
+  "lat": 51.46626,
+  "lon": -0.10216
+ },
+ {
+  "name": "Malden Manor",
+  "kind": "Rail",
+  "lat": 51.38472,
+  "lon": -0.26125
+ },
+ {
+  "name": "Mitcham Eastfields",
+  "kind": "Rail",
+  "lat": 51.4074,
+  "lon": -0.15487
+ },
+ {
+  "name": "Mitcham Junction",
+  "kind": "Rail",
+  "lat": 51.39294,
+  "lon": -0.15778
+ },
+ {
+  "name": "Morden",
+  "kind": "Tube",
+  "lat": 51.40276,
+  "lon": -0.19476
+ },
+ {
+  "name": "Morden South",
+  "kind": "Rail",
+  "lat": 51.39568,
+  "lon": -0.19924
+ },
+ {
+  "name": "Mortlake",
+  "kind": "Rail",
+  "lat": 51.46806,
+  "lon": -0.26737
+ },
+ {
+  "name": "Motspur Park",
+  "kind": "Rail",
+  "lat": 51.39487,
+  "lon": -0.23961
+ },
+ {
+  "name": "New Malden",
+  "kind": "Rail",
+  "lat": 51.40396,
+  "lon": -0.25576
+ },
+ {
+  "name": "Nine Elms",
+  "kind": "Tube",
+  "lat": 51.48018,
+  "lon": -0.12969
+ },
+ {
+  "name": "Norbiton",
+  "kind": "Rail",
+  "lat": 51.41231,
+  "lon": -0.28408
+ },
+ {
+  "name": "Norbury",
+  "kind": "Rail",
+  "lat": 51.41137,
+  "lon": -0.1218
+ },
+ {
+  "name": "North Sheen",
+  "kind": "Rail",
+  "lat": 51.46532,
+  "lon": -0.28658
+ },
+ {
+  "name": "Oval",
+  "kind": "Tube",
+  "lat": 51.48183,
+  "lon": -0.1124
+ },
+ {
+  "name": "Parsons Green",
+  "kind": "Tube",
+  "lat": 51.47508,
+  "lon": -0.20155
+ },
+ {
+  "name": "Pimlico",
+  "kind": "Tube",
+  "lat": 51.48916,
+  "lon": -0.13533
+ },
+ {
+  "name": "Putney",
+  "kind": "Rail",
+  "lat": 51.46093,
+  "lon": -0.21535
+ },
+ {
+  "name": "Putney Bridge",
+  "kind": "Tube",
+  "lat": 51.4683,
+  "lon": -0.20879
+ },
+ {
+  "name": "Queenstown Road",
+  "kind": "Rail",
+  "lat": 51.47522,
+  "lon": -0.14629
+ },
+ {
+  "name": "Raynes Park",
+  "kind": "Rail",
+  "lat": 51.40897,
+  "lon": -0.23054
+ },
+ {
+  "name": "South Merton",
+  "kind": "Rail",
+  "lat": 51.40333,
+  "lon": -0.20552
+ },
+ {
+  "name": "South Wimbledon",
+  "kind": "Tube",
+  "lat": 51.41538,
+  "lon": -0.19225
+ },
+ {
+  "name": "Southfields",
+  "kind": "Tube",
+  "lat": 51.44578,
+  "lon": -0.20661
+ },
+ {
+  "name": "St Helier",
+  "kind": "Rail",
+  "lat": 51.38945,
+  "lon": -0.19886
+ },
+ {
+  "name": "Stockwell",
+  "kind": "Tube",
+  "lat": 51.47221,
+  "lon": -0.1225
+ },
+ {
+  "name": "Streatham",
+  "kind": "Rail",
+  "lat": 51.42596,
+  "lon": -0.13131
+ },
+ {
+  "name": "Streatham Common",
+  "kind": "Rail",
+  "lat": 51.41857,
+  "lon": -0.13593
+ },
+ {
+  "name": "Streatham Hill",
+  "kind": "Rail",
+  "lat": 51.43833,
+  "lon": -0.12779
+ },
+ {
+  "name": "Thornton Heath",
+  "kind": "Rail",
+  "lat": 51.39894,
+  "lon": -0.10052
+ },
+ {
+  "name": "Tooting",
+  "kind": "Rail",
+  "lat": 51.41985,
+  "lon": -0.16132
+ },
+ {
+  "name": "Tooting Bec",
+  "kind": "Tube",
+  "lat": 51.43562,
+  "lon": -0.15972
+ },
+ {
+  "name": "Tooting Broadway",
+  "kind": "Tube",
+  "lat": 51.42774,
+  "lon": -0.16829
+ },
+ {
+  "name": "Tulse Hill",
+  "kind": "Rail",
+  "lat": 51.43993,
+  "lon": -0.10485
+ },
+ {
+  "name": "Vauxhall",
+  "kind": "Tube",
+  "lat": 51.48585,
+  "lon": -0.12275
+ },
+ {
+  "name": "Wandsworth Common",
+  "kind": "Rail",
+  "lat": 51.44612,
+  "lon": -0.16352
+ },
+ {
+  "name": "Wandsworth Road",
+  "kind": "Overground",
+  "lat": 51.46996,
+  "lon": -0.13844
+ },
+ {
+  "name": "Wandsworth Town",
+  "kind": "Rail",
+  "lat": 51.46096,
+  "lon": -0.18825
+ },
+ {
+  "name": "West Brompton",
+  "kind": "Tube",
+  "lat": 51.48698,
+  "lon": -0.19519
+ },
+ {
+  "name": "West Dulwich",
+  "kind": "Rail",
+  "lat": 51.44028,
+  "lon": -0.09089
+ },
+ {
+  "name": "West Norwood",
+  "kind": "Rail",
+  "lat": 51.43163,
+  "lon": -0.10349
+ },
+ {
+  "name": "Wimbledon",
+  "kind": "Tube",
+  "lat": 51.42203,
+  "lon": -0.20521
+ },
+ {
+  "name": "Wimbledon Chase",
+  "kind": "Rail",
+  "lat": 51.41025,
+  "lon": -0.21479
+ },
+ {
+  "name": "Wimbledon Park",
+  "kind": "Tube",
+  "lat": 51.43406,
+  "lon": -0.19904
+ },
+ {
+  "name": "Worcester Park",
+  "kind": "Rail",
+  "lat": 51.38143,
+  "lon": -0.24496
+ }
+]

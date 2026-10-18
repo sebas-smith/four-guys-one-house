@@ -12,7 +12,7 @@ import re
 import sys
 from pathlib import Path
 
-from ingest_alerts import merge_price, same_home
+from ingest_alerts import merge_price, record_price, same_home, site_name
 
 ROOT = Path(__file__).resolve().parent.parent
 LISTINGS = ROOT / "data" / "listings.json"
@@ -59,6 +59,16 @@ def sweep_status(s):
     return "new"  # live, or unverified: still worth reviewing
 
 
+def portal_history(home, row, rent, site):
+    """Optional sweep columns previous_rent_gbp / price_reduced_on: a cut the portal shows from before we saw it."""
+    prev = num(row.get("previous_rent_gbp") or "")
+    if prev and rent and prev != rent and not any(p[1] == prev for p in home.get("prices", [])):
+        home.setdefault("prices", []).insert(0, ["", prev, site])
+        when = (row.get("price_reduced_on") or "")[:10]
+        if when and home["prices"][-1][1] == rent and not home["prices"][-1][0]:
+            home["prices"][-1][0] = when
+
+
 def clean_links(raw):
     links = []
     for u in raw.split("|"):
@@ -92,9 +102,10 @@ def main(src, dry):
         avail = row["availability"].strip()
         avail = "" if avail.lower() in ("not stated", "unavailable", "ask agent") else avail[:40]
 
+        url = next((u for k in ("rightmove", "zoopla", "onthemarket", "openrent") for u in links if k in u), links[0] if links else "")
         match = by_id.get(lid) or next((by_key[k] for k in keys(links) if k in by_key), None)
         if not match and status != "gone":
-            match = same_home(listings, row["address_or_area"], rent, num(row["bedrooms"]), num(row["bathrooms"]), links)
+            match = same_home(listings, row["address_or_area"], rent, num(row["bedrooms"]), num(row["bathrooms"]), links, avail)
         if match:
             notes = match.setdefault("notes", [])
 
@@ -104,12 +115,14 @@ def main(src, dry):
 
             if not keys(match["links"]) <= keys(links):
                 # The row only saw some of this home's adverts; another portal may show a different price.
-                merge_price(match, rent, f"sweep {checked}")
+                merge_price(match, rent, f"sweep {checked}", checked, site_name(url))
             else:
                 if rent and match.get("rent") and rent != match["rent"]:
                     note(f"Price changed from £{match['rent']:,} to £{rent:,} ({checked}).")
                 if rent:
+                    record_price(match, rent, checked, site_name(url))
                     match["rent"] = rent
+            portal_history(match, row, rent, site_name(url))
             if avail:
                 match["available"] = avail
             for u in links:
@@ -133,7 +146,6 @@ def main(src, dry):
         else:
             if status == "gone":
                 continue  # never seen live by us; no point adding a dead advert
-            url = next((u for k in ("rightmove", "zoopla", "onthemarket", "openrent") for u in links if k in u), links[0] if links else "")
             rec = {
                 "id": lid, "title": row["address_or_area"].strip() or row["area"], "area": row["area"],
                 "rent": rent, "beds": num(row["bedrooms"]), "baths": num(row["bathrooms"]), "available": avail,
@@ -142,6 +154,8 @@ def main(src, dry):
                 "url": url, "links": links, "source": "sweep", "added": row["first_seen"] or checked,
                 "checked": checked, "notes": [f"Found by ChatGPT sweep ({row['status']})."],
             }
+            record_price(rec, rent, rec["added"], site_name(url))
+            portal_history(rec, row, rent, site_name(url))
             listings.append(rec)
             by_id[lid] = rec
             for k in keys(links):

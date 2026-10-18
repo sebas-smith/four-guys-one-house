@@ -131,44 +131,93 @@ def area_from(title):
     return m.group(1) if m else ""
 
 
+STREET = re.compile(r"\b(rd|road|street|avenue|lane|gardens|close|way|grove|place|mews|row|crescent|hill|drive|terrace|"
+                    r"square|walk|court|park|rise|vale|green|parade|yard|wharf|house|common)\b", re.I)
+MONTHS = {m: i + 1 for i, m in enumerate("jan feb mar apr may jun jul aug sep oct nov dec".split())}
+
+
 def street(title):
-    """'Mascotte Road, London, SW15' -> 'mascotte road'."""
-    return re.sub(r"\s+", " ", re.split(r"[,.]", title or "")[0]).strip().lower()
+    """The street in a title, lower case, or "" if there isn't one.
+
+    'Mascotte Road, London, SW15' -> 'mascotte road'; '8 Bucharest Road Battersea' -> 'bucharest road';
+    'Firstway, London' -> 'firstway'; 'Raynes Park, London' -> ''.
+    """
+    first = re.split(r",|\.\s+(?=[A-Z]{1,2}\d)|\s+[-–—�]\s+", title or "")[0]
+    first = re.sub(r"\s+", " ", first).strip()
+    m = ([None] + list(STREET.finditer(first)))[-1]  # last one: "St Ann's Park Road" ends at Road
+    if m and not re.fullmatch(r"(raynes|colliers|putney|wimbledon|clapham)\s+\w+", first[:m.end()], re.I):
+        return re.sub(r"^\d+\s+", "", first[:m.end()]).lower().replace(" rd", " road")
+    return first.lower() if re.search(r"\w(way|heath|view|side)$", first, re.I) else ""
+
+
+def avail_date(text):
+    """'Availability date: 24 Oct 2026', '24/10/2026', '2026-10-24' -> '2026-10-24'; anything else -> None."""
+    t = (text or "").lower()
+    m = re.search(r"(\d{4})-(\d\d)-(\d\d)", t)
+    if m:
+        return m.group(0)
+    m = re.search(r"\b(\d{1,2})/(\d{1,2})/(\d{4})\b", t)
+    if m:
+        return f"{m.group(3)}-{int(m.group(2)):02}-{int(m.group(1)):02}"
+    m = re.search(r"\b(\d{1,2})(?:st|nd|rd|th)?\s+([a-z]{3})[a-z]*,?\s+(\d{4})", t)
+    if m and m.group(2) in MONTHS:
+        return f"{m.group(3)}-{MONTHS[m.group(2)]:02}-{int(m.group(1)):02}"
+    return None
 
 
 def sites(urls):
     return {re.sub(r"^www\.", "", urlparse(u).hostname or "") for u in urls if u}
 
 
-def same_home(listings, title, rent, beds=None, baths=None, links=()):
-    """An existing home that is the same advert on another portal: same street and beds, about the same rent.
+def same_home(listings, title, rent, beds=None, baths=None, links=(), available=None):
+    """An existing home that is the same advert on another portal.
 
-    Within £50 counts as the same. Up to 8% apart also counts when beds and baths match and the two
-    were found on different sites, since a price cut often reaches one portal before another.
+    Same street and beds within £50 counts as the same. Up to 8% apart also counts when beds and baths
+    match and the two were found on different sites, since a price cut often reaches one portal before
+    another. Without a street, rent within £50 plus the same beds, baths and move-in date counts.
     """
-    hosts = sites(links)
-    s = street(title)
-    if not s or not rent or not re.search(r"\b(road|street|avenue|lane|gardens|close|way|grove|place|mews|row|crescent|hill|drive|terrace|square|walk)\b", s):
+    if not rent:
         return None
+    hosts, s, when = sites(links), street(title), avail_date(available)
 
     def same(r):
-        if r.get("status") == "gone" or street(r.get("title")) != s or not r.get("rent"):
+        if r.get("status") == "gone" or not r.get("rent"):
             return False
         if beds and r.get("beds") and beds != r["beds"]:
             return False
-        if abs(r["rent"] - rent) <= 50:
-            return True
-        return bool(beds and baths and baths == r.get("baths") and hosts
-                    and not hosts & sites(r.get("links", []))
-                    and abs(r["rent"] - rent) <= 0.08 * max(r["rent"], rent))
+        other = street(r.get("title"))
+        if s and other:
+            if s != other:
+                return False
+            if abs(r["rent"] - rent) <= 50:
+                return True
+            return bool(beds and baths and baths == r.get("baths") and hosts
+                        and not hosts & sites(r.get("links", []))
+                        and abs(r["rent"] - rent) <= 0.08 * max(r["rent"], rent))
+        return bool(when and when == avail_date(r.get("available")) and beds and baths
+                    and baths == r.get("baths") and abs(r["rent"] - rent) <= 50)
 
     return next((r for r in listings if same(r)), None)
 
 
-def merge_price(home, rent, where):
+def site_name(url):
+    return re.sub(r"^www\.", "", urlparse(url).hostname or "").split(".")[0] if url else ""
+
+
+def record_price(home, rent, when, site=""):
+    """Add [date, rent, site] to the home's price history when we see a price it hasn't had there before."""
+    if not rent:
+        return
+    history = home.setdefault("prices", [])
+    if not any(p[1] == rent and p[2] == site for p in history) or history[-1][1] != rent:
+        history.append([when, rent, site])
+
+
+def merge_price(home, rent, where, when="", site=""):
     """Keep the lower price when two portals disagree, and say so in a note."""
+    record_price(home, rent, when, site)
     if rent and home.get("rent") and abs(home["rent"] - rent) > 50:
-        note = f"Prices differ across sites: £{max(home['rent'], rent):,} vs £{min(home['rent'], rent):,} ({where}). Showing the lower."
+        note = f"Prices differ across sites: £{max(home['rent'], rent):,} vs £{min(home['rent'], rent):,}. Showing the lower; see price history."
         if note not in home.setdefault("notes", []):
             home["notes"].append(note)
         home["rent"] = min(home["rent"], rent)
@@ -228,7 +277,7 @@ def main():
             dup = same_home(listings, title, rent, beds, None, [url])
             if dup:
                 dup.setdefault("links", []).append(url)
-                merge_price(dup, rent, f"{portal.title()} email {when}")
+                merge_price(dup, rent, f"{portal.title()} email {when}", when, portal)
                 known.add((portal, pid))
                 added.append(f"{portal}-{pid} linked to existing {dup['id']}")
                 continue
@@ -238,6 +287,7 @@ def main():
                 "url": url, "links": [url], "source": "alert", "added": when,
                 "notes": [f"From an email on {when}: {subject[:120]}"],
             })
+            record_price(listings[-1], rent, when, portal)
             known.add((portal, pid))
             added.append(f"{portal}-{pid} {title} £{rent}")
         processed.append(mid)

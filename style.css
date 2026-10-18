@@ -62,6 +62,10 @@ h1 { font-family: var(--display); font-stretch: 80%; font-weight: 800; font-size
 .tag.status { color: var(--ink); }
 .tag.new { background: var(--sign); color: var(--sign-ink); }
 .tag.warn { color: var(--warn); }
+.tag.star { background: var(--accent); color: var(--bg); }
+.meta .near { color: var(--accent); font-weight: 600; }
+.was { font-size: 12px; color: var(--muted); text-decoration: line-through; }
+.history { color: var(--ink); font-weight: 600; }
 details.notes { grid-column: 1 / -1; font-size: 13px; color: var(--muted); }
 details.notes summary { cursor: pointer; }
 details.notes p { margin: 4px 0 0; overflow-wrap: anywhere; }

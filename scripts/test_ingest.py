@@ -46,6 +46,16 @@ def main():
     assert ia.same_home(cut, "Carlton Drive, Putney Hill SW15", 3850, 4, 2, ["https://www.zoopla.co.uk/x"]) is cut[0]
     assert ia.same_home(cut, "Carlton Drive, Putney Hill SW15", 3850, 4, 3, ["https://www.zoopla.co.uk/x"]) is None
     assert ia.same_home(cut, "Carlton Drive, Putney Hill SW15", 3850) is None
+    for t, want in [("Firstway, London, SW20", "firstway"), ("8 Bucharest Road Battersea, SW18", "bucharest road"),
+                    ("Raynes Park, London", ""), ("Farnham Gardens – London Property Guru advert", "farnham gardens"),
+                    ("Chasefield Rd, London SW17", "chasefield road"), ("St. Ann's Park Road", "st. ann's park road")]:
+        assert ia.street(t) == want, (t, ia.street(t))
+    for t, want in [("Availability date: 24 Oct 2026", "2026-10-24"), ("24/10/2026", "2026-10-24"),
+                    ("24 October 2026", "2026-10-24"), ("Available now", None)]:
+        assert ia.avail_date(t) == want, (t, ia.avail_date(t))
+    fairway = [{"title": "Fairway, London SW20", "rent": 3750, "beds": 5, "baths": 2, "available": "24/10/2026"}]
+    assert ia.same_home(fairway, "Raynes Park, London", 3750, 5, 2, (), "Availability date: 24 Oct 2026") is fairway[0]
+    assert ia.same_home(fairway, "Raynes Park, London", 3750, 5, 2, (), "1 Nov 2026") is None
     ia.merge_price(cut[0], 3850, "test")
     assert cut[0]["rent"] == 3850 and "£4,000 vs £3,850" in cut[0]["notes"][0], cut[0]
     print("ok")
