@@ -7,7 +7,8 @@ Read README.md first: it explains the search, the data and every script and work
 - Site live: https://sebas-smith.github.io/four-guys-one-house/ (Standouts tab first).
 - ChatGPT scheduled task "SW London house sweep" runs daily 18:00 Europe/London and commits
   `sweeps/YYYY-MM-DD.csv` through its GitHub connector. It also checks the previous sweep merged.
-  It sometimes marks let-agreed homes live; `check_live.py` corrects that.
+  Since 18 Oct its instructions say to open each advert and only call it live with no "Let agreed"/
+  "Under offer" label, else "unverified" (merged as To review). `check_live.py` still double-checks.
 - Bot Gmail 4guysonehouse@gmail.com is set up (repo secrets `GMAIL_ADDRESS`, `GMAIL_APP_PASSWORD`);
   `alerts.yml` reads it every 15 minutes. End-to-end test passed.
 - First `check_live.py` run took 86 homes off the market; about 218 active now.
