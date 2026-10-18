@@ -12,6 +12,8 @@ import re
 import sys
 from pathlib import Path
 
+from ingest_alerts import same_home
+
 ROOT = Path(__file__).resolve().parent.parent
 LISTINGS = ROOT / "data" / "listings.json"
 PERSON_SET = {"shortlist", "viewing", "applied", "no"}
@@ -87,6 +89,8 @@ def main(src, dry):
         avail = "" if avail.lower() in ("not stated", "unavailable", "ask agent") else avail[:40]
 
         match = by_id.get(lid) or next((by_key[k] for k in keys(links) if k in by_key), None)
+        if not match and status != "gone":
+            match = same_home(listings, row["address_or_area"], rent, num(row["bedrooms"]))
         if match:
             notes = match.setdefault("notes", [])
 

@@ -1041,12 +1041,14 @@
   "status": "new",
   "url": "https://www.foxtons.co.uk/properties-to-rent/sw19/chpk2597653",
   "links": [
-   "https://www.foxtons.co.uk/properties-to-rent/sw19/chpk2597653"
+   "https://www.foxtons.co.uk/properties-to-rent/sw19/chpk2597653",
+   "https://www.onthemarket.com/details/20313789/"
   ],
   "source": "import",
   "added": "2026-10-06",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: recheck)."
+   "Imported from the old ChatGPT tracker (status: recheck).",
+   "Found by ChatGPT sweep (live)."
   ],
   "checked": "2026-10-18"
  },
@@ -1082,17 +1084,22 @@
   "rent": 4500,
   "beds": 4,
   "baths": 2,
-  "available": "",
+  "available": "Not stated; January unconfirmed",
   "sharers": "unknown",
   "status": "new",
   "url": "https://www.foxtons.co.uk/properties-to-rent/sw18/chpk2611532",
   "links": [
-   "https://www.foxtons.co.uk/properties-to-rent/sw18/chpk2611532"
+   "https://www.foxtons.co.uk/properties-to-rent/sw18/chpk2611532",
+   "https://www.foxtons.co.uk/properties-to-rent/sw18/chpk2611474",
+   "https://www.rightmove.co.uk/properties/92503911",
+   "https://www.zoopla.co.uk/to-rent/details/74092689/",
+   "https://www.onthemarket.com/details/20227646/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: recheck)."
+   "Imported from the old ChatGPT tracker (status: recheck).",
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
   "checked": "2026-10-18"
  },
@@ -1286,18 +1293,21 @@
   "rent": 3000,
   "beds": 4,
   "baths": 1,
-  "available": "",
+  "available": "Available now",
   "sharers": "unknown",
   "status": "new",
   "url": "https://www.foxtons.co.uk/properties-to-rent/sm4/chpk4086141",
   "links": [
    "https://www.foxtons.co.uk/properties-to-rent/sm4/chpk4086141",
-   "https://www.onthemarket.com/details/20293443/"
+   "https://www.onthemarket.com/details/20293443/",
+   "https://www.onthemarket.com/details/20349748/",
+   "https://www.onthemarket.com/details/20488973/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: recheck)."
+   "Imported from the old ChatGPT tracker (status: recheck).",
+   "Found by ChatGPT sweep (live)."
   ],
   "checked": "2026-10-18"
  },
@@ -2125,12 +2135,14 @@
   "status": "new",
   "url": "https://www.jacksonsestateagents.com/properties/21463969/lettings",
   "links": [
-   "https://www.jacksonsestateagents.com/properties/21463969/lettings"
+   "https://www.jacksonsestateagents.com/properties/21463969/lettings",
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/BHL130148/ashvale-road/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: unavailable)."
+   "Imported from the old ChatGPT tracker (status: unavailable).",
+   "Found by ChatGPT sweep (live)."
   ],
   "checked": "2026-10-18"
  },
@@ -2141,17 +2153,19 @@
   "rent": 3800,
   "beds": 4,
   "baths": 2,
-  "available": "",
+  "available": "4 November 2026",
   "sharers": "no",
   "status": "new",
   "url": "https://www.jacksonsestateagents.com/properties/21552573/lettings",
   "links": [
-   "https://www.jacksonsestateagents.com/properties/21552573/lettings"
+   "https://www.jacksonsestateagents.com/properties/21552573/lettings",
+   "https://www.zoopla.co.uk/to-rent/details/74519021/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: unavailable)."
+   "Imported from the old ChatGPT tracker (status: unavailable).",
+   "Found by ChatGPT sweep (live)."
   ],
   "checked": "2026-10-18"
  },
@@ -2254,7 +2268,8 @@
    "https://www.jacksonsestateagents.com/properties/21888244/lettings",
    "https://www.rightmove.co.uk/properties/90845700",
    "https://www.zoopla.co.uk/to-rent/details/73592815/",
-   "https://www.onthemarket.com/details/19834258/"
+   "https://www.onthemarket.com/details/19834258/",
+   "https://www.zoopla.co.uk/to-rent/details/73541680/"
   ],
   "source": "import",
   "added": "2026-09-25",
@@ -2753,14 +2768,17 @@
   "url": "https://www.rightmove.co.uk/properties/91742172",
   "links": [
    "https://www.openrent.co.uk/property-to-rent/mitcham/4-bed-terraced-house-edenvale-road-cr4/2995888",
-   "https://www.rightmove.co.uk/properties/91742172"
+   "https://www.rightmove.co.uk/properties/91742172",
+   "https://www.rightmove.co.uk/properties/93822087",
+   "https://www.onthemarket.com/details/20455577/"
   ],
   "source": "import",
   "added": "2026-10-11",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-11.",
    "Availability: Available now; advert says ready September/October 2026",
-   "Price changed from £3,200 to £3,000 (2026-10-18)."
+   "Price changed from £3,200 to £3,000 (2026-10-18).",
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-02."
   ],
   "checked": "2026-10-18"
  },
@@ -3492,12 +3510,14 @@
   "url": "https://www.rightmove.co.uk/properties/150435635",
   "links": [
    "https://www.rightmove.co.uk/properties/150435635",
-   "https://www.zoopla.co.uk/to-rent/details/67871185/"
+   "https://www.zoopla.co.uk/to-rent/details/67871185/",
+   "https://www.onthemarket.com/details/15240088/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
+   "Found by ChatGPT sweep (live)."
   ],
   "checked": "2026-10-18"
  },
@@ -3768,7 +3788,9 @@
   "url": "https://www.rightmove.co.uk/properties/91653288",
   "links": [
    "https://www.rightmove.co.uk/properties/91653288",
-   "https://www.zoopla.co.uk/to-rent/details/73894761/"
+   "https://www.zoopla.co.uk/to-rent/details/73894761/",
+   "https://www.rightmove.co.uk/properties/91373505",
+   "https://www.zoopla.co.uk/to-rent/details/73825457/"
   ],
   "source": "import",
   "added": "2026-09-24",
@@ -4484,12 +4506,14 @@
   "url": "https://www.rightmove.co.uk/properties/92961600",
   "links": [
    "https://www.rightmove.co.uk/properties/92961600",
-   "https://www.zoopla.co.uk/to-rent/details/74199871/"
+   "https://www.zoopla.co.uk/to-rent/details/74199871/",
+   "https://www.onthemarket.com/details/20303774/"
   ],
   "source": "import",
   "added": "2026-10-02",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
+   "Found by ChatGPT sweep (live)."
   ],
   "checked": "2026-10-18"
  },
@@ -4549,12 +4573,14 @@
   "url": "https://www.rightmove.co.uk/properties/93122811",
   "links": [
    "https://www.rightmove.co.uk/properties/93122811",
-   "https://www.rightmove.co.uk/properties/94123002"
+   "https://www.rightmove.co.uk/properties/94123002",
+   "https://www.onthemarket.com/details/4446834/"
   ],
   "source": "import",
   "added": "2026-09-28",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-13."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-13.",
+   "Found by ChatGPT sweep (live)."
   ],
   "checked": "2026-10-18"
  },
@@ -4592,12 +4618,14 @@
   "url": "https://www.rightmove.co.uk/properties/93149787",
   "links": [
    "https://www.rightmove.co.uk/properties/93149787",
-   "https://www.onthemarket.com/details/9679602/"
+   "https://www.onthemarket.com/details/9679602/",
+   "https://www.onthemarket.com/details/18656989/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-10."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-10.",
+   "Found by ChatGPT sweep (live)."
   ],
   "checked": "2026-10-18"
  },
@@ -4638,12 +4666,14 @@
    "https://www.rightmove.co.uk/properties/93650802",
    "https://www.zoopla.co.uk/to-rent/details/74277584/",
    "https://www.onthemarket.com/details/20077691/",
-   "https://www.onthemarket.com/details/20367770/"
+   "https://www.onthemarket.com/details/20367770/",
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR1425132/beverley-avenue/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-09."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-09.",
+   "Found by ChatGPT sweep (live; results-page evidence only)."
   ],
   "checked": "2026-10-18"
  },
@@ -4724,14 +4754,16 @@
   "status": "no",
   "url": "https://www.rightmove.co.uk/properties/93369033",
   "links": [
-   "https://www.rightmove.co.uk/properties/93369033"
+   "https://www.rightmove.co.uk/properties/93369033",
+   "https://www.onthemarket.com/details/20373445/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck).",
    "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18.",
-   "Advert shows removed (2026-10-18)."
+   "Advert shows removed (2026-10-18).",
+   "Found by ChatGPT sweep (live)."
   ],
   "checked": "2026-10-18"
  },
@@ -5039,13 +5071,15 @@
   "status": "no",
   "url": "https://www.rightmove.co.uk/properties/93694083",
   "links": [
-   "https://www.rightmove.co.uk/properties/93694083"
+   "https://www.rightmove.co.uk/properties/93694083",
+   "https://www.zoopla.co.uk/to-rent/details/41803681/"
   ],
   "source": "import",
   "added": "2026-10-12",
   "notes": [
    "Imported from the old ChatGPT tracker (status: excluded). Last checked 2026-10-12.",
-   "Advert says not suitable for sharers."
+   "Advert says not suitable for sharers.",
+   "Imported from the old ChatGPT tracker (status: screened)."
   ],
   "checked": "2026-10-18"
  },
@@ -5183,29 +5217,6 @@
   "checked": "2026-10-18"
  },
  {
-  "id": "rightmove-93822087",
-  "title": "Edenvale Road",
-  "area": "Tooting",
-  "rent": 3000,
-  "beds": 4,
-  "baths": 1,
-  "available": "Ask agent",
-  "sharers": "ok",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/93822087",
-  "links": [
-   "https://www.rightmove.co.uk/properties/93822087",
-   "https://www.onthemarket.com/details/20455577/"
-  ],
-  "source": "import",
-  "added": "2026-10-02",
-  "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-02.",
-   "Price changed from £3,200 to £3,000 (2026-10-18)."
-  ],
-  "checked": "2026-10-18"
- },
- {
   "id": "rightmove-93834573",
   "title": "Florence Road",
   "area": "Wimbledon",
@@ -5265,12 +5276,14 @@
   "links": [
    "https://www.rightmove.co.uk/properties/93858993",
    "https://www.zoopla.co.uk/to-rent/details/69341394/",
-   "https://www.onthemarket.com/details/20461980/"
+   "https://www.onthemarket.com/details/20461980/",
+   "https://www.johndwood.co.uk/properties/22182273/lettings/WIL250259"
   ],
   "source": "import",
   "added": "2026-10-02",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
+   "Found by ChatGPT sweep (live)."
   ],
   "checked": "2026-10-18"
  },
@@ -5335,12 +5348,14 @@
   "links": [
    "https://www.rightmove.co.uk/properties/93960771",
    "https://www.zoopla.co.uk/to-rent/details/73573147/",
-   "https://www.onthemarket.com/details/19817340/"
+   "https://www.onthemarket.com/details/19817340/",
+   "https://www.johndwood.co.uk/properties/22191327/lettings/SOL230069"
   ],
   "source": "import",
   "added": "2026-10-06",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-06."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-06.",
+   "Found by ChatGPT sweep (live)."
   ],
   "checked": "2026-10-18"
  },
@@ -5381,13 +5396,15 @@
   "url": "https://www.rightmove.co.uk/properties/93983979",
   "links": [
    "https://www.rightmove.co.uk/properties/93983979",
-   "https://www.zoopla.co.uk/to-rent/details/74432592/"
+   "https://www.zoopla.co.uk/to-rent/details/74432592/",
+   "https://www.onthemarket.com/details/20485406/"
   ],
   "source": "import",
   "added": "2026-10-06",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-06.",
-   "Price changed from £4,000 to £3,900 (2026-10-18)."
+   "Price changed from £4,000 to £3,900 (2026-10-18).",
+   "Found by ChatGPT sweep (live)."
   ],
   "checked": "2026-10-18"
  },
@@ -5405,12 +5422,14 @@
   "links": [
    "https://www.dexters.co.uk/property-for-rent/flat-to-rent-in-upper-richmond-road-london-sw15/285425",
    "https://www.rightmove.co.uk/properties/93989001",
-   "https://www.zoopla.co.uk/to-rent/details/74434093/"
+   "https://www.zoopla.co.uk/to-rent/details/74434093/",
+   "https://www.onthemarket.com/details/20486439/"
   ],
   "source": "import",
   "added": "2026-10-06",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-08."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-08.",
+   "Found by ChatGPT sweep (live)."
   ],
   "checked": "2026-10-18"
  },
@@ -5495,13 +5514,15 @@
   "url": "https://www.rightmove.co.uk/properties/94031274",
   "links": [
    "https://www.rightmove.co.uk/properties/94031274",
-   "https://www.onthemarket.com/details/15682334/"
+   "https://www.onthemarket.com/details/15682334/",
+   "https://www.zoopla.co.uk/to-rent/details/67872530/"
   ],
   "source": "import",
   "added": "2026-10-07",
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck). Last checked 2026-10-07.",
-   "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18."
+   "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18.",
+   "Imported from the old ChatGPT tracker (status: recheck)."
   ],
   "checked": "2026-10-18"
  },
@@ -5562,12 +5583,14 @@
   "links": [
    "https://www.rightmove.co.uk/properties/94130985",
    "https://www.zoopla.co.uk/to-rent/details/71460286/",
-   "https://www.onthemarket.com/details/17941190/"
+   "https://www.onthemarket.com/details/17941190/",
+   "https://www.hawesandco.co.uk/property/property-to-rent-cannon-close-raynes-park-sw20-id-hrp250668"
   ],
   "source": "import",
   "added": "2026-10-09",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-09."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-09.",
+   "Found by ChatGPT sweep (live)."
   ],
   "checked": "2026-10-18"
  },
@@ -5607,7 +5630,8 @@
   "url": "https://www.rightmove.co.uk/properties/94244127",
   "links": [
    "https://www.rightmove.co.uk/properties/94244127",
-   "https://www.onthemarket.com/details/20539732/"
+   "https://www.onthemarket.com/details/20539732/",
+   "https://www.zoopla.co.uk/to-rent/details/74494263/"
   ],
   "source": "import",
   "added": "2026-10-13",
@@ -5628,14 +5652,17 @@
   "status": "no",
   "url": "https://www.rightmove.co.uk/properties/94257036",
   "links": [
-   "https://www.rightmove.co.uk/properties/94257036"
+   "https://www.rightmove.co.uk/properties/94257036",
+   "https://www.zoopla.co.uk/to-rent/details/74497138/"
   ],
   "source": "import",
   "added": "2026-10-13",
   "notes": [
    "Imported from the old ChatGPT tracker (status: excluded).",
    "Advert says not suitable for sharers.",
-   "Advert shows removed (2026-10-18)."
+   "Advert shows removed (2026-10-18).",
+   "Imported from the old ChatGPT tracker (status: recheck).",
+   "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18."
   ],
   "checked": "2026-10-18"
  },
@@ -5668,18 +5695,20 @@
   "beds": 4,
   "baths": 2,
   "available": "2026-09-22",
-  "sharers": "unknown",
+  "sharers": "ok",
   "status": "new",
   "url": "https://www.rightmove.co.uk/properties/92541024",
   "links": [
    "https://www.rightmove.co.uk/properties/92541024",
    "https://www.zoopla.co.uk/to-rent/details/59608909/",
-   "https://www.onthemarket.com/details/19053407/"
+   "https://www.onthemarket.com/details/19053407/",
+   "https://www.zoopla.co.uk/to-rent/details/73965091/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-25."
+   "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-25.",
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
   "checked": "2026-10-18"
  },
@@ -5813,28 +5842,6 @@
   ]
  },
  {
-  "id": "zoopla-67872530",
-  "title": "The Crescent",
-  "area": "New Malden",
-  "rent": 3000,
-  "beds": 4,
-  "baths": 3,
-  "available": "9 November 2026",
-  "sharers": "unknown",
-  "status": "no",
-  "url": "https://www.zoopla.co.uk/to-rent/details/67872530/",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/67872530/"
-  ],
-  "source": "import",
-  "added": "2026-10-13",
-  "notes": [
-   "Imported from the old ChatGPT tracker (status: recheck).",
-   "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18."
-  ],
-  "checked": "2026-10-18"
- },
- {
   "id": "zoopla-67931722",
   "title": "Westway",
   "area": "Raynes Park",
@@ -5934,12 +5941,14 @@
   "url": "https://www.rightmove.co.uk/properties/93598026",
   "links": [
    "https://www.rightmove.co.uk/properties/93598026",
-   "https://www.zoopla.co.uk/to-rent/details/68443899/"
+   "https://www.zoopla.co.uk/to-rent/details/68443899/",
+   "https://www.onthemarket.com/details/15899072/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
+   "Found by ChatGPT sweep (live)."
   ],
   "checked": "2026-10-18"
  },
@@ -5978,12 +5987,14 @@
   "status": "new",
   "url": "https://www.zoopla.co.uk/to-rent/details/70347757/",
   "links": [
-   "https://www.zoopla.co.uk/to-rent/details/70347757/"
+   "https://www.zoopla.co.uk/to-rent/details/70347757/",
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2165684/strathearn-road/"
   ],
   "source": "import",
   "added": "2026-10-04",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
+   "Found by ChatGPT sweep (live)."
   ],
   "checked": "2026-10-18"
  },
@@ -6000,12 +6011,14 @@
   "url": "https://www.rightmove.co.uk/properties/92360187",
   "links": [
    "https://www.rightmove.co.uk/properties/92360187",
-   "https://www.zoopla.co.uk/to-rent/details/70641833/"
+   "https://www.zoopla.co.uk/to-rent/details/70641833/",
+   "https://www.onthemarket.com/details/17421428/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-10."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-10.",
+   "Found by ChatGPT sweep (live)."
   ],
   "checked": "2026-10-18"
  },
@@ -6084,17 +6097,19 @@
   "rent": 3500,
   "beds": 4,
   "baths": 2,
-  "available": "",
+  "available": "Availability date: 28 Jun 2026",
   "sharers": "ok",
   "status": "new",
   "url": "https://www.zoopla.co.uk/to-rent/details/73262644/",
   "links": [
-   "https://www.zoopla.co.uk/to-rent/details/73262644/"
+   "https://www.zoopla.co.uk/to-rent/details/73262644/",
+   "https://www.onthemarket.com/details/19548600/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
+   "Found by ChatGPT sweep (live)."
   ],
   "checked": "2026-10-18"
  },
@@ -6152,13 +6167,15 @@
   "status": "no",
   "url": "https://www.zoopla.co.uk/to-rent/details/73446693/",
   "links": [
-   "https://www.zoopla.co.uk/to-rent/details/73446693/"
+   "https://www.zoopla.co.uk/to-rent/details/73446693/",
+   "https://www.zoopla.co.uk/to-rent/details/74129310/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck). Last checked 2026-09-25.",
-   "Price changed from £3,500 to £3,250 (2026-10-18)."
+   "Price changed from £3,500 to £3,250 (2026-10-18).",
+   "Imported from the old ChatGPT tracker (status: recheck)."
   ],
   "checked": "2026-10-18"
  },
@@ -6201,27 +6218,6 @@
   "added": "2026-09-24",
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck)."
-  ],
-  "checked": "2026-10-18"
- },
- {
-  "id": "zoopla-73541680",
-  "title": "Freshford Street",
-  "area": "Earlsfield",
-  "rent": 5000,
-  "beds": 4,
-  "baths": 4,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.zoopla.co.uk/to-rent/details/73541680/",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/73541680/"
-  ],
-  "source": "import",
-  "added": "2026-09-25",
-  "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
   "checked": "2026-10-18"
  },
@@ -6370,12 +6366,14 @@
   "url": "https://www.rightmove.co.uk/properties/91352508",
   "links": [
    "https://www.rightmove.co.uk/properties/91352508",
-   "https://www.zoopla.co.uk/to-rent/details/73821056/"
+   "https://www.zoopla.co.uk/to-rent/details/73821056/",
+   "https://www.onthemarket.com/details/20012052/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
+   "Found by ChatGPT sweep (live)."
   ],
   "checked": "2026-10-18"
  },
@@ -6401,28 +6399,6 @@
    "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-25."
   ],
   "checked": "2026-10-18"
- },
- {
-  "id": "zoopla-73825457",
-  "title": "Syon Park Gardens",
-  "area": "Isleworth",
-  "rent": 3000,
-  "beds": 4,
-  "baths": 2,
-  "available": "2026-09-14 (advertised)",
-  "sharers": "ok",
-  "status": "no",
-  "url": "https://www.rightmove.co.uk/properties/91373505",
-  "links": [
-   "https://www.rightmove.co.uk/properties/91373505",
-   "https://www.zoopla.co.uk/to-rent/details/73825457/"
-  ],
-  "source": "import",
-  "added": "2026-09-25",
-  "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18."
-  ]
  },
  {
   "id": "zoopla-73827362",
@@ -6614,12 +6590,14 @@
   "url": "https://www.rightmove.co.uk/properties/91725189",
   "links": [
    "https://www.rightmove.co.uk/properties/91725189",
-   "https://www.zoopla.co.uk/to-rent/details/73914959/"
+   "https://www.zoopla.co.uk/to-rent/details/73914959/",
+   "https://www.onthemarket.com/details/20085094/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
+   "Found by ChatGPT sweep (live)."
   ],
   "checked": "2026-10-18"
  },
@@ -6738,27 +6716,6 @@
   "checked": "2026-10-18"
  },
  {
-  "id": "zoopla-73965091",
-  "title": "Graveney Road",
-  "area": "Tooting",
-  "rent": 3850,
-  "beds": 4,
-  "baths": 3,
-  "available": "28 September 2026",
-  "sharers": "ok",
-  "status": "new",
-  "url": "https://www.zoopla.co.uk/to-rent/details/73965091/",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/73965091/"
-  ],
-  "source": "import",
-  "added": "2026-09-25",
-  "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
-  ],
-  "checked": "2026-10-18"
- },
- {
   "id": "zoopla-73969552",
   "title": "Smallberry Avenue",
   "area": "Isleworth",
@@ -6833,12 +6790,18 @@
   "url": "https://www.rightmove.co.uk/properties/92034240",
   "links": [
    "https://www.rightmove.co.uk/properties/92034240",
-   "https://www.zoopla.co.uk/to-rent/details/73986144/"
+   "https://www.zoopla.co.uk/to-rent/details/73986144/",
+   "https://www.rightmove.co.uk/properties/92398824",
+   "https://www.zoopla.co.uk/to-rent/details/74068659/",
+   "https://www.hamptons.co.uk/properties/22043617/lettings/P326245",
+   "https://www.onthemarket.com/details/20208894/",
+   "https://www.onthemarket.com/details/20142968/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
+   "Found by ChatGPT sweep (live)."
   ],
   "checked": "2026-10-18"
  },
@@ -6993,54 +6956,6 @@
   "checked": "2026-10-18"
  },
  {
-  "id": "zoopla-74068659",
-  "title": "Wimbledon Park Road",
-  "area": "Wandsworth",
-  "rent": 4800,
-  "beds": 4,
-  "baths": 2,
-  "available": "2026-09-11 (advertised)",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/92398824",
-  "links": [
-   "https://www.rightmove.co.uk/properties/92398824",
-   "https://www.zoopla.co.uk/to-rent/details/74068659/",
-   "https://www.hamptons.co.uk/properties/22043617/lettings/P326245",
-   "https://www.onthemarket.com/details/20208894/"
-  ],
-  "source": "import",
-  "added": "2026-09-25",
-  "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
-  ],
-  "checked": "2026-10-18"
- },
- {
-  "id": "zoopla-74092689",
-  "title": "Astonville Street",
-  "area": "Southfields / Wandsworth",
-  "rent": 4500,
-  "beds": 4,
-  "baths": 2,
-  "available": "Not stated; January unconfirmed",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/92503911",
-  "links": [
-   "https://www.foxtons.co.uk/properties-to-rent/sw18/chpk2611474",
-   "https://www.rightmove.co.uk/properties/92503911",
-   "https://www.zoopla.co.uk/to-rent/details/74092689/",
-   "https://www.onthemarket.com/details/20227646/"
-  ],
-  "source": "import",
-  "added": "2026-09-25",
-  "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
-  ],
-  "checked": "2026-10-18"
- },
- {
   "id": "zoopla-74095685",
   "title": "Beaford Grove",
   "area": "Wimbledon",
@@ -7152,27 +7067,6 @@
   "checked": "2026-10-18"
  },
  {
-  "id": "zoopla-74129310",
-  "title": "Southdown Road",
-  "area": "Raynes Park",
-  "rent": 3300,
-  "beds": 4,
-  "baths": null,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.zoopla.co.uk/to-rent/details/74129310/",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74129310/"
-  ],
-  "source": "import",
-  "added": "2026-09-25",
-  "notes": [
-   "Imported from the old ChatGPT tracker (status: recheck)."
-  ],
-  "checked": "2026-10-18"
- },
- {
   "id": "zoopla-74154343",
   "title": "Rayleigh Road",
   "area": "Wimbledon",
@@ -7227,13 +7121,15 @@
   "status": "new",
   "url": "https://www.zoopla.co.uk/to-rent/details/74161959/",
   "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74161959/"
+   "https://www.zoopla.co.uk/to-rent/details/74161959/",
+   "https://www.zoopla.co.uk/to-rent/details/74253343/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck).",
-   "Availability: 19 October 2026 - ...Listed on 22nd Sep 2026】"
+   "Availability: 19 October 2026 - ...Listed on 22nd Sep 2026】",
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
   "checked": "2026-10-18"
  },
@@ -7381,14 +7277,16 @@
   "url": "https://www.rightmove.co.uk/properties/93120801",
   "links": [
    "https://www.rightmove.co.uk/properties/93120801",
-   "https://www.zoopla.co.uk/to-rent/details/74235520/"
+   "https://www.zoopla.co.uk/to-rent/details/74235520/",
+   "https://www.onthemarket.com/details/20330932/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
    "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18.",
-   "Price changed from £4,500 to £4,300 (2026-10-18)."
+   "Price changed from £4,500 to £4,300 (2026-10-18).",
+   "Found by ChatGPT sweep (live)."
   ],
   "checked": "2026-10-18"
  },
@@ -7429,12 +7327,14 @@
   "url": "https://www.rightmove.co.uk/properties/93131823",
   "links": [
    "https://www.rightmove.co.uk/properties/93131823",
-   "https://www.zoopla.co.uk/to-rent/details/74237839/"
+   "https://www.zoopla.co.uk/to-rent/details/74237839/",
+   "https://www.onthemarket.com/details/20333051/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
+   "Found by ChatGPT sweep (live)."
   ],
   "checked": "2026-10-18"
  },
@@ -7474,12 +7374,14 @@
   "url": "https://www.rightmove.co.uk/properties/93139128",
   "links": [
    "https://www.rightmove.co.uk/properties/93139128",
-   "https://www.zoopla.co.uk/to-rent/details/74240021/"
+   "https://www.zoopla.co.uk/to-rent/details/74240021/",
+   "https://www.onthemarket.com/details/20334785/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
+   "Found by ChatGPT sweep (live)."
   ],
   "checked": "2026-10-18"
  },
@@ -7502,27 +7404,6 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
    "Marked gone: advert shows let agreed (2026-10-18)."
-  ],
-  "checked": "2026-10-18"
- },
- {
-  "id": "zoopla-74253343",
-  "title": "Farnham Gardens",
-  "area": "Raynes Park",
-  "rent": 3000,
-  "beds": 4,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.zoopla.co.uk/to-rent/details/74253343/",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74253343/"
-  ],
-  "source": "import",
-  "added": "2026-09-25",
-  "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
   "checked": "2026-10-18"
  },
@@ -7925,12 +7806,14 @@
   "status": "new",
   "url": "https://www.zoopla.co.uk/to-rent/details/74396590/",
   "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74396590/"
+   "https://www.zoopla.co.uk/to-rent/details/74396590/",
+   "https://www.onthemarket.com/details/20456968/"
   ],
   "source": "import",
   "added": "2026-10-04",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
+   "Found by ChatGPT sweep (live)."
   ],
   "checked": "2026-10-18"
  },
@@ -8038,49 +7921,6 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck)."
   ]
- },
- {
-  "id": "zoopla-74494263",
-  "title": "Pine Grove, Wimbledon, London SW19",
-  "area": "Wimbledon",
-  "rent": 4500,
-  "beds": 4,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.zoopla.co.uk/to-rent/details/74494263/",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74494263/"
-  ],
-  "source": "import",
-  "added": "2026-10-13",
-  "notes": [
-   "Imported from the old ChatGPT tracker (status: recheck)."
-  ],
-  "checked": "2026-10-18"
- },
- {
-  "id": "zoopla-74497138",
-  "title": "Long Walk, New Malden KT3",
-  "area": "New Malden",
-  "rent": 3100,
-  "beds": 4,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "no",
-  "url": "https://www.zoopla.co.uk/to-rent/details/74497138/",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74497138/"
-  ],
-  "source": "import",
-  "added": "2026-10-13",
-  "notes": [
-   "Imported from the old ChatGPT tracker (status: recheck).",
-   "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18."
-  ],
-  "checked": "2026-10-18"
  },
  {
   "id": "foxtons-chpk0442772",
@@ -8396,12 +8236,14 @@
   "status": "no",
   "url": "https://www.rightmove.co.uk/properties/92211834",
   "links": [
-   "https://www.rightmove.co.uk/properties/92211834"
+   "https://www.rightmove.co.uk/properties/92211834",
+   "https://www.zoopla.co.uk/to-rent/details/51908244/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: screened; advertised)."
+   "Imported from the old ChatGPT tracker (status: screened; advertised).",
+   "Imported from the old ChatGPT tracker (status: screened)."
   ]
  },
  {
@@ -8442,47 +8284,6 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: screened; advertised)."
-  ]
- },
- {
-  "id": "zoopla-41803681",
-  "title": "Fullerton Road, Wandsworth SW18",
-  "area": "Unverified geography",
-  "rent": 5000,
-  "beds": 4,
-  "baths": 2,
-  "available": "",
-  "sharers": "no",
-  "status": "no",
-  "url": "https://www.zoopla.co.uk/to-rent/details/41803681/",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/41803681/"
-  ],
-  "source": "import",
-  "added": "2026-10-12",
-  "notes": [
-   "Imported from the old ChatGPT tracker (status: screened)."
-  ],
-  "checked": "2026-10-18"
- },
- {
-  "id": "zoopla-51908244",
-  "title": "Cole Park Road, Twickenham TW1",
-  "area": "Unverified geography",
-  "rent": 4000,
-  "beds": 4,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "no",
-  "url": "https://www.zoopla.co.uk/to-rent/details/51908244/",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/51908244/"
-  ],
-  "source": "import",
-  "added": "2026-10-04",
-  "notes": [
-   "Imported from the old ChatGPT tracker (status: screened)."
   ]
  },
  {
@@ -8577,26 +8378,7 @@
   "status": "no",
   "url": "https://www.zoopla.co.uk/to-rent/details/74331671/",
   "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74331671/"
-  ],
-  "source": "import",
-  "added": "2026-09-25",
-  "notes": [
-   "Imported from the old ChatGPT tracker (status: screened; advertised). Last checked 2026-09-25."
-  ]
- },
- {
-  "id": "zoopla-74332449",
-  "title": "The Drive",
-  "area": "Outside agreed scope",
-  "rent": 3500,
-  "beds": 4,
-  "baths": 5,
-  "available": "10 November 2026",
-  "sharers": "unknown",
-  "status": "no",
-  "url": "https://www.zoopla.co.uk/to-rent/details/74332449/",
-  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74331671/",
    "https://www.zoopla.co.uk/to-rent/details/74332449/"
   ],
   "source": "import",
@@ -8613,31 +8395,11 @@
   "beds": 4,
   "baths": 2,
   "available": "",
-  "sharers": "unknown",
+  "sharers": "ok",
   "status": "new",
   "url": "https://www.rightmove.co.uk/properties/94263075",
   "links": [
-   "https://www.rightmove.co.uk/properties/94263075"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "zoopla-65830352",
-  "title": "Alderbrook Road, Balham SW12",
-  "area": "Balham",
-  "rent": 5000,
-  "beds": 4,
-  "baths": 2,
-  "available": "",
-  "sharers": "ok",
-  "status": "new",
-  "url": "https://www.zoopla.co.uk/to-rent/details/65830352/",
-  "links": [
+   "https://www.rightmove.co.uk/properties/94263075",
    "https://www.zoopla.co.uk/to-rent/details/65830352/"
   ],
   "source": "sweep",
@@ -8680,7 +8442,8 @@
   "status": "new",
   "url": "https://www.zoopla.co.uk/to-rent/details/74489197/",
   "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74489197/"
+   "https://www.zoopla.co.uk/to-rent/details/74489197/",
+   "https://www.rightmove.co.uk/properties/94227492"
   ],
   "source": "sweep",
   "added": "2026-10-18",
@@ -8743,7 +8506,8 @@
   "status": "new",
   "url": "https://www.zoopla.co.uk/to-rent/details/73897773/",
   "links": [
-   "https://www.zoopla.co.uk/to-rent/details/73897773/"
+   "https://www.zoopla.co.uk/to-rent/details/73897773/",
+   "https://www.rightmove.co.uk/properties/91669116"
   ],
   "source": "sweep",
   "added": "2026-10-18",
@@ -8788,28 +8552,9 @@
   "status": "new",
   "url": "https://www.onthemarket.com/details/20530138/",
   "links": [
-   "https://www.onthemarket.com/details/20530138/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "zoopla-74492075",
-  "title": "Prescott Place, London SW4",
-  "area": "Clapham Common",
-  "rent": 4800,
-  "beds": 4,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.zoopla.co.uk/to-rent/details/74492075/",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74492075/"
+   "https://www.onthemarket.com/details/20530138/",
+   "https://www.zoopla.co.uk/to-rent/details/74492075/",
+   "https://www.rightmove.co.uk/properties/94233009"
   ],
   "source": "sweep",
   "added": "2026-10-18",
@@ -8830,7 +8575,10 @@
   "status": "no",
   "url": "https://www.zoopla.co.uk/to-rent/details/74494165/",
   "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74494165/"
+   "https://www.zoopla.co.uk/to-rent/details/74494165/",
+   "https://www.hamptons.co.uk/properties/22213601/lettings/P329721",
+   "https://www.onthemarket.com/details/20539664/",
+   "https://www.rightmove.co.uk/properties/94243686"
   ],
   "source": "sweep",
   "added": "2026-10-18",
@@ -9127,72 +8875,8 @@
   "status": "new",
   "url": "https://www.rightmove.co.uk/properties/94415574",
   "links": [
-   "https://www.rightmove.co.uk/properties/94415574"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "rightmove-94411203",
-  "title": "Montefiore Street, Clapham",
-  "area": "Clapham South",
-  "rent": 4500,
-  "beds": 4,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/94411203",
-  "links": [
+   "https://www.rightmove.co.uk/properties/94415574",
    "https://www.rightmove.co.uk/properties/94411203"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "rightmove-94233009",
-  "title": "Prescott Place",
-  "area": "Clapham South",
-  "rent": 4800,
-  "beds": 4,
-  "baths": 2,
-  "available": "Now",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/94233009",
-  "links": [
-   "https://www.rightmove.co.uk/properties/94233009"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "rightmove-94243686",
-  "title": "Sycamore Mews, Clapham Old Town. SW4",
-  "area": "Clapham South",
-  "rent": 4000,
-  "beds": 4,
-  "baths": 2,
-  "available": "21/11/2026",
-  "sharers": "no",
-  "status": "no",
-  "url": "https://www.rightmove.co.uk/properties/94243686",
-  "links": [
-   "https://www.hamptons.co.uk/properties/22213601/lettings/P329721",
-   "https://www.onthemarket.com/details/20539664/",
-   "https://www.rightmove.co.uk/properties/94243686"
   ],
   "source": "sweep",
   "added": "2026-10-18",
@@ -9314,54 +8998,14 @@
   "rent": 4995,
   "beds": 5,
   "baths": 2,
-  "available": "",
+  "available": "2027-10-07",
   "sharers": "unknown",
   "status": "new",
   "url": "https://www.rightmove.co.uk/properties/93328425",
   "links": [
    "https://www.onthemarket.com/details/20370358/",
-   "https://www.rightmove.co.uk/properties/93328425"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "zoopla-74280381",
-  "title": "Bucharest Road, Battersea SW18",
-  "area": "Earlsfield",
-  "rent": 4995,
-  "beds": 5,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.zoopla.co.uk/to-rent/details/74280381/",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74280381/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "onthemarket-19872255",
-  "title": "Bucharest Road, London, SW18",
-  "area": "Earlsfield",
-  "rent": 5000,
-  "beds": 5,
-  "baths": 3,
-  "available": "2027-10-07",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/90541779",
-  "links": [
+   "https://www.rightmove.co.uk/properties/93328425",
+   "https://www.zoopla.co.uk/to-rent/details/74280381/",
    "https://www.onthemarket.com/details/19872255/",
    "https://www.rightmove.co.uk/properties/90541779"
   ],
@@ -9369,28 +9013,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
+   "Found by ChatGPT sweep (live).",
    "Found by ChatGPT sweep (live; conflicting let-agreed advert)."
-  ]
- },
- {
-  "id": "onthemarket-20303774",
-  "title": "Earlsfield Road, London, SW18",
-  "area": "Earlsfield",
-  "rent": 5000,
-  "beds": 4,
-  "baths": 2,
-  "available": "Availability date: 16 Oct 2026",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/20303774/",
-  "links": [
-   "https://www.onthemarket.com/details/20303774/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
   ]
  },
  {
@@ -9428,27 +9052,6 @@
   "url": "https://www.onthemarket.com/details/20344440/",
   "links": [
    "https://www.onthemarket.com/details/20344440/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "onthemarket-20485406",
-  "title": "Kimber Road, London",
-  "area": "Earlsfield",
-  "rent": 3900,
-  "beds": 4,
-  "baths": 2,
-  "available": "Available now",
-  "sharers": "ok",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/20485406/",
-  "links": [
-   "https://www.onthemarket.com/details/20485406/"
   ],
   "source": "sweep",
   "added": "2026-10-18",
@@ -9532,48 +9135,8 @@
   "status": "new",
   "url": "https://www.zoopla.co.uk/to-rent/details/74500221/",
   "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74500221/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "onthemarket-20545150",
-  "title": "Squarey Street, Earlsfield, London, SW17",
-  "area": "Earlsfield",
-  "rent": 4500,
-  "beds": 4,
-  "baths": 2,
-  "available": "Availability date: 20 Nov 2026",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/20545150/",
-  "links": [
-   "https://www.onthemarket.com/details/20545150/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "rightmove-94271229",
-  "title": "Squarey Street, Earlsfield, London, SW17",
-  "area": "Earlsfield",
-  "rent": 4500,
-  "beds": 4,
-  "baths": 2,
-  "available": "20/11/2026",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/94271229",
-  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74500221/",
+   "https://www.onthemarket.com/details/20545150/",
    "https://www.rightmove.co.uk/properties/94271229"
   ],
   "source": "sweep",
@@ -9659,27 +9222,7 @@
   "url": "https://www.rightmove.co.uk/properties/94383156",
   "links": [
    "https://www.onthemarket.com/details/20565757/",
-   "https://www.rightmove.co.uk/properties/94383156"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "zoopla-74526641",
-  "title": "Waynflete Street, Earlsfield SW18",
-  "area": "Earlsfield",
-  "rent": 3500,
-  "beds": 4,
-  "baths": 1,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.zoopla.co.uk/to-rent/details/74526641/",
-  "links": [
+   "https://www.rightmove.co.uk/properties/94383156",
    "https://www.zoopla.co.uk/to-rent/details/74526641/"
   ],
   "source": "sweep",
@@ -9735,27 +9278,6 @@
   ]
  },
  {
-  "id": "onthemarket-20330932",
-  "title": "Branksome Way, New Malden, KT3",
-  "area": "New Malden",
-  "rent": 4300,
-  "beds": 4,
-  "baths": 2,
-  "available": "Available now",
-  "sharers": "unknown",
-  "status": "no",
-  "url": "https://www.onthemarket.com/details/20330932/",
-  "links": [
-   "https://www.onthemarket.com/details/20330932/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
   "id": "onthemarket-20017322",
   "title": "Gainsborough Road, New Malden KT3",
   "area": "New Malden",
@@ -9789,27 +9311,6 @@
   "url": "https://www.onthemarket.com/details/16739832/",
   "links": [
    "https://www.onthemarket.com/details/16739832/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "onthemarket-20373445",
-  "title": "Malden Road, New Malden KT3",
-  "area": "New Malden",
-  "rent": 4250,
-  "beds": 4,
-  "baths": 3,
-  "available": "",
-  "sharers": "unknown",
-  "status": "no",
-  "url": "https://www.onthemarket.com/details/20373445/",
-  "links": [
-   "https://www.onthemarket.com/details/20373445/"
   ],
   "source": "sweep",
   "added": "2026-10-18",
@@ -9893,50 +9394,9 @@
   "status": "new",
   "url": "https://www.zoopla.co.uk/to-rent/details/74509785/",
   "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74509785/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "rightmove-94312734",
-  "title": "Alton Road, Putney, London, SW15",
-  "area": "Putney",
-  "rent": 3600,
-  "beds": 4,
-  "baths": 1,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/94312734",
-  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74509785/",
    "https://www.onthemarket.com/details/20553461/",
    "https://www.rightmove.co.uk/properties/94312734"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "john-d-wood-22191327",
-  "title": "Brathway Road, London, SW18",
-  "area": "Putney",
-  "rent": 3900,
-  "beds": 4,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.johndwood.co.uk/properties/22191327/lettings/SOL230069",
-  "links": [
-   "https://www.johndwood.co.uk/properties/22191327/lettings/SOL230069"
   ],
   "source": "sweep",
   "added": "2026-10-18",
@@ -9979,13 +9439,15 @@
   "url": "https://www.rightmove.co.uk/properties/94306125",
   "links": [
    "https://www.onthemarket.com/details/17725282/",
-   "https://www.rightmove.co.uk/properties/94306125"
+   "https://www.rightmove.co.uk/properties/94306125",
+   "https://www.chestertons.co.uk/properties/22216502/lettings/AFL160021"
   ],
   "source": "sweep",
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Found by ChatGPT sweep (live; results-page evidence only)."
   ]
  },
  {
@@ -10010,50 +9472,8 @@
   ]
  },
  {
-  "id": "chestertons-22216502",
-  "title": "Carlton Drive, Putney, London, SW15",
-  "area": "Putney",
-  "rent": 4000,
-  "beds": 4,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.chestertons.co.uk/properties/22216502/lettings/AFL160021",
-  "links": [
-   "https://www.chestertons.co.uk/properties/22216502/lettings/AFL160021"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live; results-page evidence only)."
-  ]
- },
- {
   "id": "zoopla-74516794",
   "title": "Chartfield Avenue, London SW15",
-  "area": "Putney",
-  "rent": 4500,
-  "beds": 4,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.zoopla.co.uk/to-rent/details/74516794/",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74516794/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "onthemarket-20375538",
-  "title": "Chartfield Avenue, London, SW15",
   "area": "Putney",
   "rent": 4500,
   "beds": 4,
@@ -10061,29 +9481,10 @@
   "available": "Available now",
   "sharers": "unknown",
   "status": "new",
-  "url": "https://www.onthemarket.com/details/20375538/",
+  "url": "https://www.zoopla.co.uk/to-rent/details/74516794/",
   "links": [
-   "https://www.onthemarket.com/details/20375538/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "rightmove-94292643",
-  "title": "Chartfield Avenue, London, SW15",
-  "area": "Putney",
-  "rent": 4500,
-  "beds": 4,
-  "baths": 2,
-  "available": "Now",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/94292643",
-  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74516794/",
+   "https://www.onthemarket.com/details/20375538/",
    "https://www.rightmove.co.uk/properties/94292643"
   ],
   "source": "sweep",
@@ -10105,7 +9506,9 @@
   "status": "new",
   "url": "https://www.onthemarket.com/details/20082185/",
   "links": [
-   "https://www.onthemarket.com/details/20082185/"
+   "https://www.onthemarket.com/details/20082185/",
+   "https://www.zoopla.co.uk/to-rent/details/73906920/",
+   "https://www.rightmove.co.uk/properties/91708623"
   ],
   "source": "sweep",
   "added": "2026-10-18",
@@ -10179,27 +9582,6 @@
   ]
  },
  {
-  "id": "onthemarket-15899072",
-  "title": "Fairdale Gardens, London, SW15",
-  "area": "Putney",
-  "rent": 4100,
-  "beds": 4,
-  "baths": 2,
-  "available": "Availability date: 13 Nov 2026",
-  "sharers": "ok",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/15899072/",
-  "links": [
-   "https://www.onthemarket.com/details/15899072/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
   "id": "onthemarket-15746713",
   "title": "Lainson Street, London",
   "area": "Putney",
@@ -10232,7 +9614,8 @@
   "status": "new",
   "url": "https://www.zoopla.co.uk/to-rent/details/66815210/",
   "links": [
-   "https://www.zoopla.co.uk/to-rent/details/66815210/"
+   "https://www.zoopla.co.uk/to-rent/details/66815210/",
+   "https://www.onthemarket.com/details/14459988/"
   ],
   "source": "sweep",
   "added": "2026-10-18",
@@ -10275,27 +9658,7 @@
   "url": "https://www.rightmove.co.uk/properties/94284747",
   "links": [
    "https://www.onthemarket.com/details/20547683/",
-   "https://www.rightmove.co.uk/properties/94284747"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "zoopla-74500630",
-  "title": "Merton Road, Putney SW18",
-  "area": "Putney",
-  "rent": 4500,
-  "beds": 5,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.zoopla.co.uk/to-rent/details/74500630/",
-  "links": [
+   "https://www.rightmove.co.uk/properties/94284747",
    "https://www.zoopla.co.uk/to-rent/details/74500630/"
   ],
   "source": "sweep",
@@ -10318,27 +9681,6 @@
   "url": "https://www.onthemarket.com/details/20146164/",
   "links": [
    "https://www.onthemarket.com/details/20146164/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "onthemarket-18656989",
-  "title": "Sefton Street, West Putney, London, SW15",
-  "area": "Putney",
-  "rent": 4500,
-  "beds": 4,
-  "baths": 2,
-  "available": "Availability date: 19 Nov 2026",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/18656989/",
-  "links": [
-   "https://www.onthemarket.com/details/18656989/"
   ],
   "source": "sweep",
   "added": "2026-10-18",
@@ -10404,49 +9746,8 @@
   "status": "new",
   "url": "https://www.zoopla.co.uk/to-rent/details/73832947/",
   "links": [
-   "https://www.zoopla.co.uk/to-rent/details/73832947/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "zoopla-74401402",
-  "title": "Ullswater Crescent, Putney SW15",
-  "area": "Putney",
-  "rent": 3695,
-  "beds": 5,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.zoopla.co.uk/to-rent/details/74401402/",
-  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/73832947/",
    "https://www.zoopla.co.uk/to-rent/details/74401402/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "onthemarket-20486439",
-  "title": "Upper Richmond Road, London SW15",
-  "area": "Putney",
-  "rent": 4000,
-  "beds": 4,
-  "baths": 1,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/20486439/",
-  "links": [
-   "https://www.onthemarket.com/details/20486439/"
   ],
   "source": "sweep",
   "added": "2026-10-18",
@@ -10468,27 +9769,6 @@
   "url": "https://www.onthemarket.com/details/20275231/",
   "links": [
    "https://www.onthemarket.com/details/20275231/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "onthemarket-20334785",
-  "title": "Whitlock Drive, London, SW19",
-  "area": "Putney",
-  "rent": 3250,
-  "beds": 4,
-  "baths": 3,
-  "available": "Availability date: 5 Oct 2027; Available",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/20334785/",
-  "links": [
-   "https://www.onthemarket.com/details/20334785/"
   ],
   "source": "sweep",
   "added": "2026-10-18",
@@ -10624,48 +9904,6 @@
   ]
  },
  {
-  "id": "zoopla-73906920",
-  "title": "Danebury Avenue, Roehampton SW15",
-  "area": "Roehampton",
-  "rent": 3300,
-  "beds": 6,
-  "baths": 2,
-  "available": "",
-  "sharers": "ok",
-  "status": "new",
-  "url": "https://www.zoopla.co.uk/to-rent/details/73906920/",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/73906920/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "rightmove-91708623",
-  "title": "Danebury Avenue, Roehampton, SW15",
-  "area": "Roehampton",
-  "rent": 3300,
-  "beds": 6,
-  "baths": 2,
-  "available": "Now",
-  "sharers": "ok",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/91708623",
-  "links": [
-   "https://www.rightmove.co.uk/properties/91708623"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
   "id": "zoopla-74509791",
   "title": "Ibsley Gardens, Roehampton, London SW15",
   "area": "Roehampton",
@@ -10677,27 +9915,7 @@
   "status": "new",
   "url": "https://www.zoopla.co.uk/to-rent/details/74509791/",
   "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74509791/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "rightmove-94312737",
-  "title": "Ibsley Gardens, Roehampton, London, SW15",
-  "area": "Roehampton",
-  "rent": 3600,
-  "beds": 4,
-  "baths": 1,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/94312737",
-  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74509791/",
    "https://www.onthemarket.com/details/20553462/",
    "https://www.rightmove.co.uk/properties/94312737"
   ],
@@ -10817,27 +10035,6 @@
   ]
  },
  {
-  "id": "onthemarket-20142968",
-  "title": "Wimbledon Park Road, Southfields, London, SW18",
-  "area": "Southfields",
-  "rent": 4800,
-  "beds": 4,
-  "baths": 2,
-  "available": "Available now",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/20142968/",
-  "links": [
-   "https://www.onthemarket.com/details/20142968/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
   "id": "onthemarket-20468697",
   "title": "81 TOTTERDOWN STREET SW17",
   "area": "Tooting",
@@ -10850,27 +10047,6 @@
   "url": "https://www.onthemarket.com/details/20468697/",
   "links": [
    "https://www.onthemarket.com/details/20468697/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "onthemarket-15240088",
-  "title": "Beechcroft Road, Tooting, SW17",
-  "area": "Tooting",
-  "rent": 3900,
-  "beds": 4,
-  "baths": 1,
-  "available": "Availability date: 1 Dec 2026",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/15240088/",
-  "links": [
-   "https://www.onthemarket.com/details/15240088/"
   ],
   "source": "sweep",
   "added": "2026-10-18",
@@ -10943,27 +10119,6 @@
   ]
  },
  {
-  "id": "onthemarket-20012052",
-  "title": "Brightwell Crescent, London SW17",
-  "area": "Tooting",
-  "rent": 3750,
-  "beds": 4,
-  "baths": 2,
-  "available": "Availability date: 1 Sep 2026",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/20012052/",
-  "links": [
-   "https://www.onthemarket.com/details/20012052/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
   "id": "rightmove-94316217",
   "title": "Broadwater Road, Tooting",
   "area": "Tooting",
@@ -10976,27 +10131,7 @@
   "url": "https://www.rightmove.co.uk/properties/94316217",
   "links": [
    "https://www.onthemarket.com/details/20553820/",
-   "https://www.rightmove.co.uk/properties/94316217"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "zoopla-74510752",
-  "title": "Broadwater Road, Tooting SW17",
-  "area": "Tooting",
-  "rent": 3100,
-  "beds": 4,
-  "baths": 1,
-  "available": "7 December 2026",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.zoopla.co.uk/to-rent/details/74510752/",
-  "links": [
+   "https://www.rightmove.co.uk/properties/94316217",
    "https://www.zoopla.co.uk/to-rent/details/74510752/"
   ],
   "source": "sweep",
@@ -11060,27 +10195,7 @@
   "status": "new",
   "url": "https://www.zoopla.co.uk/to-rent/details/64980972/",
   "links": [
-   "https://www.zoopla.co.uk/to-rent/details/64980972/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "zoopla-65556264",
-  "title": "Charlmont Road, London SW17",
-  "area": "Tooting",
-  "rent": 4250,
-  "beds": 6,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.zoopla.co.uk/to-rent/details/65556264/",
-  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/64980972/",
    "https://www.zoopla.co.uk/to-rent/details/65556264/"
   ],
   "source": "sweep",
@@ -11103,27 +10218,6 @@
   "url": "https://www.zoopla.co.uk/to-rent/details/74509612/",
   "links": [
    "https://www.zoopla.co.uk/to-rent/details/74509612/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "onthemarket-20333051",
-  "title": "Chasefield Road, London SW17",
-  "area": "Tooting",
-  "rent": 3000,
-  "beds": 4,
-  "baths": 1,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/20333051/",
-  "links": [
-   "https://www.onthemarket.com/details/20333051/"
   ],
   "source": "sweep",
   "added": "2026-10-18",
@@ -11165,48 +10259,8 @@
   "status": "new",
   "url": "https://www.zoopla.co.uk/to-rent/details/74509837/",
   "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74509837/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "onthemarket-20553364",
-  "title": "Deal Road, Tooting, SW17",
-  "area": "Tooting",
-  "rent": 3200,
-  "beds": 4,
-  "baths": 1,
-  "available": "Availability date: 14 Nov 2026",
-  "sharers": "ok",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/20553364/",
-  "links": [
-   "https://www.onthemarket.com/details/20553364/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "rightmove-94313652",
-  "title": "Deal Road, Tooting, SW17",
-  "area": "Tooting",
-  "rent": 3200,
-  "beds": 4,
-  "baths": 1,
-  "available": "14/11/2026",
-  "sharers": "ok",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/94313652",
-  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74509837/",
+   "https://www.onthemarket.com/details/20553364/",
    "https://www.rightmove.co.uk/properties/94313652"
   ],
   "source": "sweep",
@@ -11270,27 +10324,7 @@
   "status": "new",
   "url": "https://www.onthemarket.com/details/20462351/",
   "links": [
-   "https://www.onthemarket.com/details/20462351/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "onthemarket-20462359",
-  "title": "Fishponds Road, London SW17",
-  "area": "Tooting",
-  "rent": 4000,
-  "beds": 4,
-  "baths": 3,
-  "available": "Availability date: 26 Jun 2027",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/20462359/",
-  "links": [
+   "https://www.onthemarket.com/details/20462351/",
    "https://www.onthemarket.com/details/20462359/"
   ],
   "source": "sweep",
@@ -11472,27 +10506,6 @@
   ]
  },
  {
-  "id": "zoopla-74519021",
-  "title": "Massingberd Way, London SW17",
-  "area": "Tooting",
-  "rent": 3800,
-  "beds": 4,
-  "baths": 2,
-  "available": "4 November 2026",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.zoopla.co.uk/to-rent/details/74519021/",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74519021/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
   "id": "onthemarket-20227896",
   "title": "Maybury Street, London",
   "area": "Tooting",
@@ -11547,27 +10560,6 @@
   "url": "https://www.onthemarket.com/details/20462393/",
   "links": [
    "https://www.onthemarket.com/details/20462393/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "onthemarket-17421428",
-  "title": "Pevensey Road, Tooting, London, SW17",
-  "area": "Tooting",
-  "rent": 3500,
-  "beds": 4,
-  "baths": 1,
-  "available": "Availability date: 19 Oct 2026",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/17421428/",
-  "links": [
-   "https://www.onthemarket.com/details/17421428/"
   ],
   "source": "sweep",
   "added": "2026-10-18",
@@ -11851,48 +10843,6 @@
   ]
  },
  {
-  "id": "onthemarket-4446834",
-  "title": "Buckmaster Road, London, SW11",
-  "area": "Wandsworth",
-  "rent": 4500,
-  "beds": 4,
-  "baths": 2,
-  "available": "Availability date: 30 Oct 2026",
-  "sharers": "ok",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/4446834/",
-  "links": [
-   "https://www.onthemarket.com/details/4446834/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "rightmove-94227492",
-  "title": "Byrne Road, Wandsworth, London",
-  "area": "Wandsworth",
-  "rent": 5000,
-  "beds": 5,
-  "baths": 2,
-  "available": "07/12/2026",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/94227492",
-  "links": [
-   "https://www.rightmove.co.uk/properties/94227492"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
   "id": "openrent-3038288",
   "title": "himley road sw17",
   "area": "Wandsworth",
@@ -12003,27 +10953,6 @@
   ]
  },
  {
-  "id": "onthemarket-19548600",
-  "title": "All Saints Road, South Wimbledon, SW19",
-  "area": "Wimbledon",
-  "rent": 3500,
-  "beds": 4,
-  "baths": 2,
-  "available": "Availability date: 28 Jun 2026",
-  "sharers": "ok",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/19548600/",
-  "links": [
-   "https://www.onthemarket.com/details/19548600/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
   "id": "onthemarket-18488646",
   "title": "Amity Grove, London, SW20",
   "area": "Wimbledon",
@@ -12045,27 +10974,6 @@
   ]
  },
  {
-  "id": "marsh---parsons-rps_mpa-vbr1425132",
-  "title": "Beverley Avenue",
-  "area": "Wimbledon",
-  "rent": 4199,
-  "beds": 4,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR1425132/beverley-avenue/",
-  "links": [
-   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR1425132/beverley-avenue/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live; results-page evidence only)."
-  ]
- },
- {
   "id": "rightmove-93173022",
   "title": "Buckleigh Avenue, Wimbledon",
   "area": "Wimbledon",
@@ -12078,27 +10986,7 @@
   "url": "https://www.rightmove.co.uk/properties/93173022",
   "links": [
    "https://www.onthemarket.com/details/20341486/",
-   "https://www.rightmove.co.uk/properties/93173022"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "zoopla-74245952",
-  "title": "Buckleigh Avenue, Wimbledon SW20",
-  "area": "Wimbledon",
-  "rent": 3500,
-  "beds": 5,
-  "baths": 2,
-  "available": "14 November 2026",
-  "sharers": "ok",
-  "status": "new",
-  "url": "https://www.zoopla.co.uk/to-rent/details/74245952/",
-  "links": [
+   "https://www.rightmove.co.uk/properties/93173022",
    "https://www.zoopla.co.uk/to-rent/details/74245952/"
   ],
   "source": "sweep",
@@ -12141,27 +11029,7 @@
   "status": "new",
   "url": "https://www.zoopla.co.uk/to-rent/details/74443790/",
   "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74443790/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "rightmove-94026102",
-  "title": "Coombe Lane, London, SW20",
-  "area": "Wimbledon",
-  "rent": 5000,
-  "beds": 6,
-  "baths": 3,
-  "available": "08/01/2027",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/94026102",
-  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74443790/",
    "https://www.onthemarket.com/details/20493859/",
    "https://www.rightmove.co.uk/properties/94026102"
   ],
@@ -12278,27 +11146,6 @@
   ]
  },
  {
-  "id": "onthemarket-20313789",
-  "title": "Faraday Road, SW19",
-  "area": "Wimbledon",
-  "rent": 4200,
-  "beds": 4,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/20313789/",
-  "links": [
-   "https://www.onthemarket.com/details/20313789/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
   "id": "onthemarket-19704689",
   "title": "Firstway, London",
   "area": "Wimbledon",
@@ -12332,27 +11179,6 @@
   "url": "https://www.onthemarket.com/details/20198775/",
   "links": [
    "https://www.onthemarket.com/details/20198775/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "onthemarket-20456968",
-  "title": "Haydons Road, South wimbledon, London, SW19 1HQ",
-  "area": "Wimbledon",
-  "rent": 3200,
-  "beds": 4,
-  "baths": 1,
-  "available": "Available now",
-  "sharers": "ok",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/20456968/",
-  "links": [
-   "https://www.onthemarket.com/details/20456968/"
   ],
   "source": "sweep",
   "added": "2026-10-18",
@@ -12417,48 +11243,6 @@
   "url": "https://www.onthemarket.com/details/20113695/",
   "links": [
    "https://www.onthemarket.com/details/20113695/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "onthemarket-20349748",
-  "title": "Martin Grove, Morden SM4",
-  "area": "Wimbledon",
-  "rent": 3000,
-  "beds": 4,
-  "baths": 1,
-  "available": "Available now",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/20349748/",
-  "links": [
-   "https://www.onthemarket.com/details/20349748/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "onthemarket-20488973",
-  "title": "Martin Grove, Morden, SM4",
-  "area": "Wimbledon",
-  "rent": 3000,
-  "beds": 4,
-  "baths": 1,
-  "available": "Available now",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/20488973/",
-  "links": [
-   "https://www.onthemarket.com/details/20488973/"
   ],
   "source": "sweep",
   "added": "2026-10-18",
@@ -12533,48 +11317,6 @@
   ]
  },
  {
-  "id": "onthemarket-20085094",
-  "title": "Queens Road, Wimbledon, SW19",
-  "area": "Wimbledon",
-  "rent": 3500,
-  "beds": 4,
-  "baths": 1,
-  "available": "Available now",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/20085094/",
-  "links": [
-   "https://www.onthemarket.com/details/20085094/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "john-d-wood-22182273",
-  "title": "Richmond Road, London, SW20",
-  "area": "Wimbledon",
-  "rent": 3400,
-  "beds": 4,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.johndwood.co.uk/properties/22182273/lettings/WIL250259",
-  "links": [
-   "https://www.johndwood.co.uk/properties/22182273/lettings/WIL250259"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
   "id": "onthemarket-20506854",
   "title": "Sandbourne Avenue, Merton, SW19",
   "area": "Wimbledon",
@@ -12628,48 +11370,8 @@
   "status": "new",
   "url": "https://www.zoopla.co.uk/to-rent/details/72010768/",
   "links": [
-   "https://www.zoopla.co.uk/to-rent/details/72010768/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "onthemarket-17570566",
-  "title": "Western Road, Merton, SW19",
-  "area": "Wimbledon",
-  "rent": 4750,
-  "beds": 5,
-  "baths": 3,
-  "available": "Availability date: 30 Nov 2026",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/17570566/",
-  "links": [
-   "https://www.onthemarket.com/details/17570566/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "rightmove-93945345",
-  "title": "Western Road, Merton, SW19",
-  "area": "Wimbledon",
-  "rent": 4750,
-  "beds": 5,
-  "baths": 3,
-  "available": "30/11/2026",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/93945345",
-  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/72010768/",
+   "https://www.onthemarket.com/details/17570566/",
    "https://www.rightmove.co.uk/properties/93945345"
   ],
   "source": "sweep",
@@ -12701,27 +11403,6 @@
   ]
  },
  {
-  "id": "rightmove-91669116",
-  "title": "Lexton Gardens, Streatham Hill / Balham, London",
-  "area": "Balham",
-  "rent": 4500,
-  "beds": 5,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/91669116",
-  "links": [
-   "https://www.rightmove.co.uk/properties/91669116"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
   "id": "onthemarket-20365669",
   "title": "Clarence Crescent, LONDON",
   "area": "Clapham South",
@@ -12743,48 +11424,6 @@
   ]
  },
  {
-  "id": "onthemarket-14459988",
-  "title": "Mascotte Road, London, SW15",
-  "area": "Putney",
-  "rent": 3748,
-  "beds": 4,
-  "baths": 3,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/14459988/",
-  "links": [
-   "https://www.onthemarket.com/details/14459988/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "hawes-co-hrp250668",
-  "title": "Cannon Close, Raynes Park, SW20",
-  "area": "Raynes Park",
-  "rent": 3250,
-  "beds": 4,
-  "baths": 2,
-  "available": "2026-11-04",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.hawesandco.co.uk/property/property-to-rent-cannon-close-raynes-park-sw20-id-hrp250668",
-  "links": [
-   "https://www.hawesandco.co.uk/property/property-to-rent-cannon-close-raynes-park-sw20-id-hrp250668"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
   "id": "marsh-parsons-vbr1424319",
   "title": "Hillview, Raynes Park SW20",
   "area": "Raynes Park",
@@ -12797,27 +11436,6 @@
   "url": "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR1424319/hillview/",
   "links": [
    "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR1424319/hillview/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "marsh-parsons-bhl130148",
-  "title": "Ashvale Road, Tooting SW17",
-  "area": "Tooting",
-  "rent": 4151,
-  "beds": 4,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.marshandparsons.co.uk/properties-to-rent/london/property/BHL130148/ashvale-road/",
-  "links": [
-   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/BHL130148/ashvale-road/"
   ],
   "source": "sweep",
   "added": "2026-10-18",
@@ -13154,27 +11772,6 @@
   "url": "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR1394603/savona-close/",
   "links": [
    "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR1394603/savona-close/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "marsh-parsons-vbr2165684",
-  "title": "Strathearn Road, Wimbledon SW19",
-  "area": "Wimbledon",
-  "rent": 4498,
-  "beds": 4,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2165684/strathearn-road/",
-  "links": [
-   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2165684/strathearn-road/"
   ],
   "source": "sweep",
   "added": "2026-10-18",

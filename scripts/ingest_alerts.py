@@ -129,6 +129,21 @@ def area_from(title):
     return m.group(1) if m else ""
 
 
+def street(title):
+    """'Mascotte Road, London, SW15' -> 'mascotte road'."""
+    return re.sub(r"\s+", " ", (title or "").split(",")[0]).strip().lower()
+
+
+def same_home(listings, title, rent, beds=None):
+    """An existing home on the same street, same beds, about the same rent: the same advert on another portal."""
+    s = street(title)
+    if not s or not rent or not re.search(r"\b(road|street|avenue|lane|gardens|close|way|grove|place|mews|row|crescent|hill|drive|terrace|square|walk)\b", s):
+        return None
+    return next((r for r in listings
+                 if r.get("status") != "gone" and street(r.get("title")) == s and r.get("rent")
+                 and abs(r["rent"] - rent) <= 50 and not (beds and r.get("beds") and beds != r["beds"])), None)
+
+
 def main():
     if not os.environ.get("GMAIL_ADDRESS") or not os.environ.get("GMAIL_APP_PASSWORD"):
         print("Gmail secrets not set yet; skipping.")
@@ -180,6 +195,12 @@ def main():
                 when = parsedate_to_datetime(msg["Date"]).date().isoformat()
             except Exception:
                 when = today
+            dup = same_home(listings, title, rent, beds)
+            if dup:
+                dup.setdefault("links", []).append(url)
+                known.add((portal, pid))
+                added.append(f"{portal}-{pid} linked to existing {dup['id']}")
+                continue
             listings.append({
                 "id": f"{portal}-{pid}", "title": title or f"{portal.title()} listing {pid}", "area": area_from(title),
                 "rent": rent, "beds": beds, "baths": None, "available": "", "sharers": "unknown", "status": "new",
