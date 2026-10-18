@@ -19,7 +19,8 @@ const gbp = (n) => "£" + Math.round(n).toLocaleString("en-GB");
 function site(url) {
   try { const h = new URL(url).hostname.replace(/^www\./, "").split(".")[0]; return SITE[h] || h; } catch { return "listing"; }
 }
-const isRecent = (r) => r.added && Date.now() - Date.parse(r.added) < 3 * 864e5;
+const day = (iso) => new Date(iso + "T12:00:00").toLocaleDateString("en-GB", { day: "numeric", month: "short" });
+const isRecent =(r) => r.added && Date.now() - Date.parse(r.added) < 3 * 864e5;
 function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
 
 function matches(r) {
@@ -66,6 +67,7 @@ function card(r) {
   for (const b of [r.area, r.beds && `${r.beds} bed`, r.baths && `${r.baths} bath`, r.available ? `Available ${r.available.replace(/^available\s*/i, "")}` : "Availability unknown"]) {
     if (b) meta.append(el("span", null, b));
   }
+  if (r.added) meta.append(el("span", null, `Added ${day(r.added)}`));
   if (r.sharers === "ok") meta.append(el("span", "tag", "Sharers OK"));
   if (r.sharers === "no") meta.append(el("span", "tag warn", "No sharers"));
   where.append(meta);
