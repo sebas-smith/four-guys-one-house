@@ -1610,7 +1610,7 @@
   "baths": 3,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.foxtons.co.uk/properties-to-rent/sw19/chpk2597653",
   "links": [
    "https://www.foxtons.co.uk/properties-to-rent/sw19/chpk2597653",
@@ -1620,7 +1620,8 @@
   "added": "2026-10-06",
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck).",
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -1634,7 +1635,11 @@
     4200,
     "foxtons"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "foxtons-chpk2610332",
@@ -1879,7 +1884,8 @@
   "added": "2026-09-24",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified).",
-   "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18."
+   "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18.",
+   "Advert taken down on Foxtons (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -1893,7 +1899,11 @@
     2700,
     "foxtons"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Foxtons",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "foxtons-chpk2864956",
@@ -3670,7 +3680,8 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
    "Advert says not suitable for sharers.",
-   "Price changed from £3,900 to £3,700 (2026-10-18)."
+   "Price changed from £3,900 to £3,700 (2026-10-18).",
+   "Advert taken down on Rightmove (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -3689,7 +3700,11 @@
     3700,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "jacksons-22114280",
@@ -4773,7 +4788,7 @@
   "baths": 3,
   "available": "31 October, 2026",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/93525720",
   "links": [
    "https://www.openrent.co.uk/property-to-rent/london/4-bed-semi-detached-house-wadham-road-sw15/3028882",
@@ -4783,7 +4798,8 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
+   "Advert taken down on Rightmove (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -4797,7 +4813,11 @@
     4000,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "openrent-3029005",
@@ -5728,7 +5748,7 @@
   "baths": 3,
   "available": "2026-08-13 (advertised)",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/90369216",
   "links": [
    "https://www.rightmove.co.uk/properties/90369216",
@@ -5737,7 +5757,8 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: unavailable)."
+   "Imported from the old ChatGPT tracker (status: unavailable).",
+   "Let agreed on Rightmove (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -5751,7 +5772,11 @@
     3600,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "rightmove-90625782",
@@ -5908,7 +5933,8 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
    "Availability: 14 September 2026 in features; date field says ask agent",
-   "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18."
+   "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18.",
+   "Let agreed on Rightmove (18 Oct)."
   ],
   "station": {
    "name": "Kew Gardens",
@@ -5921,7 +5947,11 @@
     3000,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "rightmove-91683924",
@@ -6159,7 +6189,7 @@
   "baths": 2,
   "available": "2026-10-06",
   "sharers": "ok",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/91960815",
   "links": [
    "https://www.rightmove.co.uk/properties/91960815",
@@ -6168,7 +6198,8 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: unavailable)."
+   "Imported from the old ChatGPT tracker (status: unavailable).",
+   "Let agreed on Rightmove (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -6182,7 +6213,11 @@
     3250,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "rightmove-91970049",
@@ -6547,7 +6582,7 @@
   "baths": 2,
   "available": "2026-10-20",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/92343588",
   "links": [
    "https://www.rightmove.co.uk/properties/92343588",
@@ -6559,7 +6594,8 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable).",
    "Prices differ across sites: £4,602 vs £4,300. Showing the lower; see price history.",
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on Rightmove (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -6578,7 +6614,11 @@
     4300,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "rightmove-92506221",
@@ -6622,7 +6662,7 @@
   "baths": 3,
   "available": "2027-10-16",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/92520237",
   "links": [
    "https://www.rightmove.co.uk/properties/92520237",
@@ -6631,7 +6671,8 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: unavailable)."
+   "Imported from the old ChatGPT tracker (status: unavailable).",
+   "Let agreed on Rightmove (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -6645,7 +6686,11 @@
     4750,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "rightmove-92526762",
@@ -6794,7 +6839,8 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: excluded).",
    "Advert says not suitable for sharers.",
-   "Advert shows removed; outside current rent band; bedroom count below current scope (2026-10-18)."
+   "Advert shows removed; outside current rent band; bedroom count below current scope (2026-10-18).",
+   "Advert taken down on Rightmove (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -6808,7 +6854,11 @@
     2950,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "rightmove-92693592",
@@ -6819,7 +6869,7 @@
   "baths": 3,
   "available": "2026-09-26",
   "sharers": "no",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/92693592",
   "links": [
    "https://www.rightmove.co.uk/properties/92693592",
@@ -6831,7 +6881,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable).",
-   "Advert says not suitable for sharers."
+   "Advert says not suitable for sharers.",
+   "Let agreed on Rightmove (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -6845,7 +6896,11 @@
     4000,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "rightmove-92787720",
@@ -7060,7 +7115,7 @@
   "baths": 1,
   "available": "2027-09-09",
   "sharers": "ok",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/93037332",
   "links": [
    "https://www.rightmove.co.uk/properties/93037332",
@@ -7069,7 +7124,8 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: unavailable)."
+   "Imported from the old ChatGPT tracker (status: unavailable).",
+   "Let agreed on Rightmove (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -7083,7 +7139,11 @@
     4700,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "rightmove-93106824",
@@ -7196,7 +7256,7 @@
   "baths": 2,
   "available": "20/11/2026",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/93149787",
   "links": [
    "https://www.rightmove.co.uk/properties/93149787",
@@ -7207,7 +7267,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-10.",
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -7221,7 +7282,11 @@
     4500,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "rightmove-93248712",
@@ -7348,7 +7413,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck).",
-   "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18."
+   "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18.",
+   "Advert taken down on Rightmove (18 Oct)."
   ],
   "station": {
    "name": "North Sheen",
@@ -7361,7 +7427,11 @@
     3000,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "rightmove-93346608",
@@ -7419,7 +7489,8 @@
    "Imported from the old ChatGPT tracker (status: recheck).",
    "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18.",
    "Advert shows removed (2026-10-18).",
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -7433,7 +7504,11 @@
     4250,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "rightmove-93374694",
@@ -7477,7 +7552,7 @@
   "baths": 2,
   "available": "2026-11-09",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/93403266",
   "links": [
    "https://www.rightmove.co.uk/properties/93403266",
@@ -7487,7 +7562,8 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: unavailable)."
+   "Imported from the old ChatGPT tracker (status: unavailable).",
+   "Let agreed on Rightmove (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -7501,7 +7577,11 @@
     4350,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "rightmove-93406731",
@@ -8481,7 +8561,7 @@
   "baths": 2,
   "available": "2026-10-19",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/94010418",
   "links": [
    "https://www.rightmove.co.uk/properties/94010418",
@@ -8491,7 +8571,8 @@
   "source": "import",
   "added": "2026-10-07",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-07."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-07.",
+   "Let agreed on Rightmove (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -8505,7 +8586,11 @@
     4000,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "rightmove-94017900",
@@ -8726,7 +8811,7 @@
   "baths": 2,
   "available": "Available now; short let",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/94244127",
   "links": [
    "https://www.rightmove.co.uk/properties/94244127",
@@ -8736,7 +8821,8 @@
   "source": "import",
   "added": "2026-10-13",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: recheck)."
+   "Imported from the old ChatGPT tracker (status: recheck).",
+   "Let agreed on Rightmove (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -8750,7 +8836,11 @@
     4500,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "rightmove-94257036",
@@ -8774,7 +8864,8 @@
    "Advert says not suitable for sharers.",
    "Advert shows removed (2026-10-18).",
    "Imported from the old ChatGPT tracker (status: recheck).",
-   "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18."
+   "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18.",
+   "Advert taken down on Rightmove (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -8788,7 +8879,11 @@
     3100,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "zoopla-41941286",
@@ -8832,7 +8927,7 @@
   "baths": 2,
   "available": "2026-09-22",
   "sharers": "ok",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/92541024",
   "links": [
    "https://www.rightmove.co.uk/properties/92541024",
@@ -8844,7 +8939,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-25.",
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
+   "Let agreed on Rightmove (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -8858,7 +8954,11 @@
     3900,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "zoopla-61077192",
@@ -8930,7 +9030,7 @@
   "baths": 2,
   "available": "2026-11-07",
   "sharers": "ok",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/92999544",
   "links": [
    "https://www.rightmove.co.uk/properties/92999544",
@@ -8940,7 +9040,8 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-25."
+   "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-25.",
+   "Let agreed on Rightmove (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -8954,7 +9055,11 @@
     4400,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "zoopla-62855339",
@@ -9072,7 +9177,8 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck).",
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18."
+   "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18.",
+   "Advert taken down on Zoopla (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -9086,7 +9192,11 @@
     3000,
     ""
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Zoopla",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "zoopla-68020927",
@@ -9130,7 +9240,7 @@
   "baths": 1,
   "available": "Now",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/93111720",
   "links": [
    "https://www.rightmove.co.uk/properties/93111720",
@@ -9140,7 +9250,8 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
+   "Let agreed on Rightmove (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -9154,7 +9265,11 @@
     3800,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "zoopla-68271860",
@@ -9201,7 +9316,7 @@
   "baths": 2,
   "available": "13 November 2026",
   "sharers": "ok",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/93598026",
   "links": [
    "https://www.rightmove.co.uk/properties/93598026",
@@ -9212,7 +9327,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -9226,7 +9342,11 @@
     4100,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "zoopla-68445983",
@@ -9376,7 +9496,7 @@
   "baths": 3,
   "available": "2026-08-07 (advertised)",
   "sharers": "no",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/89618682",
   "links": [
    "https://www.rightmove.co.uk/properties/89618682",
@@ -9387,7 +9507,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Advert says not suitable for sharers."
+   "Advert says not suitable for sharers.",
+   "Let agreed on Rightmove (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -9401,7 +9522,11 @@
     4000,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "zoopla-71874543",
@@ -9771,7 +9896,7 @@
   "baths": 2,
   "available": "",
   "sharers": "ok",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/91270575",
   "links": [
    "https://www.jacksonsestateagents.com/properties/21962465/lettings",
@@ -9781,7 +9906,8 @@
   "source": "import",
   "added": "2026-09-24",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-25."
+   "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-25.",
+   "Advert taken down on Rightmove (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -9795,7 +9921,11 @@
     4000,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "zoopla-73821056",
@@ -9842,7 +9972,7 @@
   "baths": 2,
   "available": "8 October 2026",
   "sharers": "ok",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/91371726",
   "links": [
    "https://www.rightmove.co.uk/properties/91371726",
@@ -9852,7 +9982,8 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-25."
+   "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-25.",
+   "Let agreed on Rightmove (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -9866,7 +9997,11 @@
     4900,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "zoopla-73827362",
@@ -10024,7 +10159,8 @@
   "source": "import",
   "added": "2026-09-24",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: excluded)."
+   "Imported from the old ChatGPT tracker (status: excluded).",
+   "Let agreed on Rightmove (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -10038,7 +10174,11 @@
     4000,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "zoopla-73882495",
@@ -10148,7 +10288,7 @@
   "baths": 2,
   "available": "2026-11-11",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/91734735",
   "links": [
    "https://www.rightmove.co.uk/properties/91734735",
@@ -10159,7 +10299,8 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-25."
+   "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-25.",
+   "Let agreed on Rightmove (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -10173,7 +10314,11 @@
     3750,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "zoopla-73939519",
@@ -10598,7 +10743,8 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
+   "Let agreed on Rightmove (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -10612,7 +10758,11 @@
     4000,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "zoopla-74095685",
@@ -10623,7 +10773,7 @@
   "baths": 2,
   "available": "2026-10-23",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/92520564",
   "links": [
    "https://www.rightmove.co.uk/properties/92520564",
@@ -10634,7 +10784,8 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: recheck). Last checked 2026-09-25."
+   "Imported from the old ChatGPT tracker (status: recheck). Last checked 2026-09-25.",
+   "Let agreed on Rightmove (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -10648,7 +10799,11 @@
     4500,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "zoopla-74096332",
@@ -10827,7 +10982,7 @@
   "baths": 2,
   "available": "19 October 2026 - ...Listed on 22nd Sep ",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.zoopla.co.uk/to-rent/details/74161959/",
   "links": [
    "https://www.zoopla.co.uk/to-rent/details/74161959/",
@@ -10840,7 +10995,8 @@
    "Imported from the old ChatGPT tracker (status: recheck).",
    "Availability: 19 October 2026 - ...Listed on 22nd Sep 2026】",
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
+   "Advert taken down on Zoopla (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -10854,7 +11010,11 @@
     3000,
     ""
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Zoopla",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "zoopla-74168792",
@@ -11001,7 +11161,7 @@
   "baths": 3,
   "available": "2027-10-10",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/92706903",
   "links": [
    "https://www.rightmove.co.uk/properties/92706903",
@@ -11012,7 +11172,8 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-30."
+   "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-30.",
+   "Let agreed on Rightmove (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -11026,7 +11187,11 @@
     4500,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "zoopla-74209767",
@@ -11114,7 +11279,7 @@
   "baths": 2,
   "available": "2026-11-10",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/93130332",
   "links": [
    "https://www.rightmove.co.uk/properties/93130332",
@@ -11125,7 +11290,8 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-25."
+   "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-25.",
+   "Let agreed on Rightmove (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -11139,7 +11305,11 @@
     3500,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "zoopla-74237839",
@@ -11222,7 +11392,7 @@
   "baths": 3,
   "available": "2027-10-05",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/93139128",
   "links": [
    "https://www.rightmove.co.uk/properties/93139128",
@@ -11233,7 +11403,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on Rightmove (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -11247,7 +11418,11 @@
     3250,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "zoopla-74243949",
@@ -11752,7 +11927,7 @@
   "baths": 2,
   "available": "Available as furnished or unfurnished",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/93591633",
   "links": [
    "https://www.rightmove.co.uk/properties/93591633",
@@ -11762,7 +11937,8 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-25."
+   "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-25.",
+   "Let agreed on Rightmove (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -11776,7 +11952,11 @@
     3900,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "zoopla-74343475",
@@ -11831,7 +12011,8 @@
   "added": "2026-09-30",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
-   "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18."
+   "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18.",
+   "Advert taken down on Zoopla (18 Oct)."
   ],
   "station": {
    "name": "Tooting",
@@ -11844,7 +12025,11 @@
     3500,
     "zoopla"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Zoopla",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "zoopla-74396590",
@@ -12482,7 +12667,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: screened; advertised).",
-   "Imported from the old ChatGPT tracker (status: screened)."
+   "Imported from the old ChatGPT tracker (status: screened).",
+   "Advert taken down on Rightmove (18 Oct)."
   ],
   "prices": [
    [
@@ -12490,7 +12676,11 @@
     3950,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "rightmove-92323701",
@@ -12541,7 +12731,8 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: screened; advertised)."
+   "Imported from the old ChatGPT tracker (status: screened; advertised).",
+   "Advert taken down on Rightmove (18 Oct)."
   ],
   "station": {
    "name": "Tooting",
@@ -12554,7 +12745,11 @@
     3750,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Rightmove",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "zoopla-71820603",
@@ -12750,7 +12945,7 @@
   "baths": 1,
   "available": "Availability date: 8 Nov 2026",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/13142280/",
   "links": [
    "https://www.onthemarket.com/details/13142280/"
@@ -12759,7 +12954,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Clapham South",
@@ -12772,7 +12968,11 @@
     3800,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "zoopla-74489197",
@@ -13500,7 +13700,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live; conflicting let-agreed advert)."
+   "Found by ChatGPT sweep (live; conflicting let-agreed advert).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Clapham Common",
@@ -13513,7 +13714,11 @@
     4750,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "rightmove-93944349",
@@ -13590,7 +13795,7 @@
   "baths": 2,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20361129/",
   "links": [
    "https://www.onthemarket.com/details/20361129/"
@@ -13599,7 +13804,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Wandsworth Town",
@@ -13612,7 +13818,11 @@
     4500,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "rightmove-93328425",
@@ -13623,7 +13833,7 @@
   "baths": 2,
   "available": "2027-10-07",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/93328425",
   "links": [
    "https://www.onthemarket.com/details/20370358/",
@@ -13639,7 +13849,8 @@
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Found by ChatGPT sweep (live; conflicting let-agreed advert).",
-   "Found by ChatGPT sweep (live; results-page evidence only)."
+   "Found by ChatGPT sweep (live; results-page evidence only).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Earlsfield",
@@ -13652,7 +13863,11 @@
     4995,
     ""
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "onthemarket-19830945",
@@ -13663,7 +13878,7 @@
   "baths": 1,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/19779878/",
   "links": [
    "https://www.onthemarket.com/details/19779878/",
@@ -13673,7 +13888,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Tooting Broadway",
@@ -13686,7 +13902,11 @@
     3000,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "onthemarket-20344440",
@@ -13730,7 +13950,7 @@
   "baths": 2,
   "available": "Availability date: 19 Oct 2026",
   "sharers": "ok",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20492025/",
   "links": [
    "https://www.onthemarket.com/details/20492025/"
@@ -13739,7 +13959,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Earlsfield",
@@ -13752,7 +13973,11 @@
     4000,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "onthemarket-20462375",
@@ -13763,7 +13988,7 @@
   "baths": 2,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20462375/",
   "links": [
    "https://www.onthemarket.com/details/20462375/"
@@ -13772,7 +13997,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Tooting Broadway",
@@ -13785,7 +14011,11 @@
     3795,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "jacksons-20832295",
@@ -13829,7 +14059,7 @@
   "baths": 2,
   "available": "Availability date: 20 Oct 2026",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20231361/",
   "links": [
    "https://www.onthemarket.com/details/20231361/"
@@ -13838,7 +14068,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Earlsfield",
@@ -13851,7 +14082,11 @@
     5000,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "jacksons-17725899",
@@ -14010,7 +14245,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Malden Manor",
@@ -14023,7 +14259,11 @@
     4500,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "onthemarket-16739832",
@@ -14076,7 +14316,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "New Malden",
@@ -14089,7 +14330,11 @@
     4150,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "openrent-2391338",
@@ -14142,7 +14387,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Motspur Park",
@@ -14155,7 +14401,11 @@
     3100,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "zoopla-74509785",
@@ -14314,7 +14564,7 @@
   "baths": 3,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/8848009/",
   "links": [
    "https://www.onthemarket.com/details/8848009/"
@@ -14323,7 +14573,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Putney",
@@ -14336,7 +14587,11 @@
     3750,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "onthemarket-20043391",
@@ -14347,7 +14602,7 @@
   "baths": 3,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/91482237",
   "links": [
    "https://www.onthemarket.com/details/20043391/",
@@ -14357,7 +14612,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live; conflicting let-agreed advert)."
+   "Found by ChatGPT sweep (live; conflicting let-agreed advert).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Barnes",
@@ -14370,7 +14626,11 @@
     4350,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "onthemarket-10273374",
@@ -14381,7 +14641,7 @@
   "baths": 2,
   "available": "Availability date: 27 Aug 2024",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/10273374/",
   "links": [
    "https://www.onthemarket.com/details/10273374/"
@@ -14390,7 +14650,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "East Putney",
@@ -14403,7 +14664,11 @@
     3600,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "onthemarket-15746713",
@@ -14414,7 +14679,7 @@
   "baths": 3,
   "available": "Availability date: 31 Oct 2026",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/15746713/",
   "links": [
    "https://www.onthemarket.com/details/15746713/"
@@ -14423,7 +14688,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Southfields",
@@ -14436,7 +14702,11 @@
     4400,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "zoopla-66815210",
@@ -14520,7 +14790,7 @@
   "baths": 3,
   "available": "Availability date: 30 Sep 2026",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20146164/",
   "links": [
    "https://www.onthemarket.com/details/20146164/"
@@ -14529,7 +14799,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "East Putney",
@@ -14542,7 +14813,11 @@
     4300,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "rightmove-93656460",
@@ -14625,7 +14900,7 @@
   "baths": 2,
   "available": "Availability date: 26 Oct 2026",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20275231/",
   "links": [
    "https://www.onthemarket.com/details/20275231/"
@@ -14634,7 +14909,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "East Putney",
@@ -14647,7 +14923,11 @@
     4950,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "onthemarket-19834910",
@@ -14658,7 +14938,7 @@
   "baths": 2,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/19834910/",
   "links": [
    "https://www.onthemarket.com/details/19834910/"
@@ -14667,7 +14947,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Motspur Park",
@@ -14680,7 +14961,11 @@
     3180,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "onthemarket-20268934",
@@ -14863,7 +15148,7 @@
   "baths": 2,
   "available": "Availability date: 29 Sep 2031",
   "sharers": "ok",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20074244/",
   "links": [
    "https://www.onthemarket.com/details/20074244/"
@@ -14872,7 +15157,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Southfields",
@@ -14885,7 +15171,11 @@
     4600,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "foxtons-chpk0011995",
@@ -14929,7 +15219,7 @@
   "baths": 2,
   "available": "Availability date: 28 Nov 2026",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20459093/",
   "links": [
    "https://www.onthemarket.com/details/20459093/"
@@ -14938,7 +15228,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Southfields",
@@ -14951,7 +15242,11 @@
     4750,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "rightmove-93002520",
@@ -14998,7 +15293,7 @@
   "baths": 2,
   "available": "Availability date: 20 Aug 2027; Availabl",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20462338/",
   "links": [
    "https://www.onthemarket.com/details/20462338/"
@@ -15007,7 +15302,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Tooting",
@@ -15020,7 +15316,11 @@
     4000,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "onthemarket-17023954",
@@ -15031,7 +15331,7 @@
   "baths": 2,
   "available": "Availability date: 2 Nov 2026",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/17023954/",
   "links": [
    "https://www.onthemarket.com/details/17023954/"
@@ -15040,7 +15340,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Tooting Broadway",
@@ -15053,7 +15354,11 @@
     3700,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "onthemarket-20387939",
@@ -15064,7 +15369,7 @@
   "baths": 2,
   "available": "Availability date: 16 Nov 2026",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20387939/",
   "links": [
    "https://www.onthemarket.com/details/20387939/"
@@ -15073,7 +15378,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Colliers Wood",
@@ -15086,7 +15392,11 @@
     4000,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "rightmove-94316217",
@@ -15132,7 +15442,7 @@
   "baths": 3,
   "available": "Availability date: 25 Jul 2028",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20462342/",
   "links": [
    "https://www.onthemarket.com/details/20462342/"
@@ -15141,7 +15451,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Tooting Bec",
@@ -15154,7 +15465,11 @@
     4450,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "zoopla-69903168",
@@ -15300,7 +15615,7 @@
   "baths": 1,
   "available": "Availability date: 9 Oct 2027",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20462346/",
   "links": [
    "https://www.onthemarket.com/details/20462346/"
@@ -15309,7 +15624,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Streatham Common",
@@ -15322,7 +15638,11 @@
     3000,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "onthemarket-20462420",
@@ -15333,7 +15653,7 @@
   "baths": 3,
   "available": "Availability date: 4 Sep 2027",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20462420/",
   "links": [
    "https://www.onthemarket.com/details/20462420/"
@@ -15342,7 +15662,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Tooting Broadway",
@@ -15355,7 +15676,11 @@
     4200,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "onthemarket-20462351",
@@ -15366,7 +15691,7 @@
   "baths": 2,
   "available": "Availability date: 30 May 2027",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20462351/",
   "links": [
    "https://www.onthemarket.com/details/20462351/",
@@ -15376,7 +15701,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Tooting Broadway",
@@ -15389,7 +15715,11 @@
     4000,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "zoopla-64731392",
@@ -15433,7 +15763,7 @@
   "baths": 2,
   "available": "Availability date: 14 Dec 2026",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20462317/",
   "links": [
    "https://www.onthemarket.com/details/20462317/"
@@ -15442,7 +15772,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Tooting Bec",
@@ -15455,7 +15786,11 @@
     3400,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "onthemarket-20462340",
@@ -15466,7 +15801,7 @@
   "baths": 2,
   "available": "Availability date: 5 Jun 2027",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20462340/",
   "links": [
    "https://www.onthemarket.com/details/20462340/",
@@ -15477,7 +15812,8 @@
   "checked": "2026-10-18",
   "notes": [
    "Found by ChatGPT sweep (live).",
-   "Prices differ across sites: £4,100 vs £4,000. Showing the lower; see price history."
+   "Prices differ across sites: £4,100 vs £4,000. Showing the lower; see price history.",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Tooting Broadway",
@@ -15495,7 +15831,11 @@
     4000,
     "marshandparsons"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "onthemarket-20187375",
@@ -15506,7 +15846,7 @@
   "baths": 4,
   "available": "2026-10-17",
   "sharers": "ok",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20187375/",
   "links": [
    "https://www.hamptons.co.uk/properties/22034192/lettings/P326922",
@@ -15516,7 +15856,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live; conflicting let-agreed advert)."
+   "Found by ChatGPT sweep (live; conflicting let-agreed advert).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Tooting Broadway",
@@ -15529,7 +15870,11 @@
     4700,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "openrent-3077153",
@@ -15603,7 +15948,7 @@
   "baths": 2,
   "available": "Availability date: 26 Jul 2027",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20462332/",
   "links": [
    "https://www.onthemarket.com/details/20462332/"
@@ -15612,7 +15957,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Tooting Bec",
@@ -15625,7 +15971,11 @@
     3800,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "onthemarket-20227896",
@@ -15636,7 +15986,7 @@
   "baths": 2,
   "available": "Available as furnished or unfurnished",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20227896/",
   "links": [
    "https://www.onthemarket.com/details/20227896/"
@@ -15645,7 +15995,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Tooting Broadway",
@@ -15658,7 +16009,11 @@
     3900,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "onthemarket-20462376",
@@ -15669,7 +16024,7 @@
   "baths": 3,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20462376/",
   "links": [
    "https://www.onthemarket.com/details/20462376/"
@@ -15678,7 +16033,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Streatham Common",
@@ -15691,7 +16047,11 @@
     3900,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "onthemarket-20462393",
@@ -15702,7 +16062,7 @@
   "baths": 2,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20462393/",
   "links": [
    "https://www.onthemarket.com/details/20462393/"
@@ -15711,7 +16071,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Tooting",
@@ -15724,7 +16085,11 @@
     3900,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "onthemarket-20462398",
@@ -15735,7 +16100,7 @@
   "baths": 3,
   "available": "Availability date: 28 Aug 2027",
   "sharers": "ok",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20462398/",
   "links": [
    "https://www.onthemarket.com/details/20462398/"
@@ -15744,7 +16109,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Tooting",
@@ -15757,7 +16123,11 @@
     3900,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "onthemarket-11732556",
@@ -15768,7 +16138,7 @@
   "baths": 1,
   "available": "Availability date: 7 Aug 2027",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/11732556/",
   "links": [
    "https://www.onthemarket.com/details/11732556/"
@@ -15777,7 +16147,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Tooting Broadway",
@@ -15790,7 +16161,11 @@
     3000,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "onthemarket-20462365",
@@ -15801,7 +16176,7 @@
   "baths": 1,
   "available": "Availability date: 30 Apr 2027",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20462365/",
   "links": [
    "https://www.onthemarket.com/details/20462365/"
@@ -15810,7 +16185,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Tooting Bec",
@@ -15823,7 +16199,11 @@
     3600,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "onthemarket-20041014",
@@ -15867,7 +16247,7 @@
   "baths": 1,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20033441/",
   "links": [
    "https://www.onthemarket.com/details/20033441/"
@@ -15876,7 +16256,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Tooting Broadway",
@@ -15889,7 +16270,11 @@
     3599,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "zoopla-34024705",
@@ -15999,7 +16384,7 @@
   "baths": 2,
   "available": "2026-10-19",
   "sharers": "ok",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/92580267",
   "links": [
    "https://www.onthemarket.com/details/20239106/",
@@ -16009,7 +16394,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live; conflicting let-agreed advert)."
+   "Found by ChatGPT sweep (live; conflicting let-agreed advert).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Colliers Wood",
@@ -16022,7 +16408,11 @@
     4700,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "marsh---parsons-rps_mpa-vbr2302355",
@@ -16236,7 +16626,7 @@
   "baths": 2,
   "available": "Availability date: 24 Sep 2026",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20231339/",
   "links": [
    "https://www.onthemarket.com/details/20231339/"
@@ -16245,7 +16635,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Tooting Broadway",
@@ -16258,7 +16649,11 @@
     4200,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "jacksons-18858213",
@@ -16302,7 +16697,7 @@
   "baths": 2,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20382446/",
   "links": [
    "https://www.onthemarket.com/details/20382446/"
@@ -16311,7 +16706,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Wandsworth Common",
@@ -16324,7 +16720,11 @@
     4500,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "onthemarket-18488646",
@@ -16466,7 +16866,7 @@
   "baths": 3,
   "available": "Availability date: 11 Jul 2027",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20462430/",
   "links": [
    "https://www.onthemarket.com/details/20462430/"
@@ -16475,7 +16875,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Raynes Park",
@@ -16488,7 +16889,11 @@
     3900,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "onthemarket-20219261",
@@ -16499,7 +16904,7 @@
   "baths": 2,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/92454327",
   "links": [
    "https://www.onthemarket.com/details/20219261/",
@@ -16509,7 +16914,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live; conflicting let-agreed advert)."
+   "Found by ChatGPT sweep (live; conflicting let-agreed advert).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "South Merton",
@@ -16522,7 +16928,11 @@
     5000,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "onthemarket-20104198",
@@ -16533,7 +16943,7 @@
   "baths": 2,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20104198/",
   "links": [
    "https://www.onthemarket.com/details/20104198/"
@@ -16542,7 +16952,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Raynes Park",
@@ -16555,7 +16966,11 @@
     4500,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "onthemarket-20113695",
@@ -16566,7 +16981,7 @@
   "baths": 1,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20113695/",
   "links": [
    "https://www.onthemarket.com/details/20113695/"
@@ -16575,7 +16990,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "South Wimbledon",
@@ -16588,7 +17004,11 @@
     3250,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "onthemarket-19815731",
@@ -16599,7 +17019,7 @@
   "baths": 2,
   "available": "Availability date: 15 Sep 2026; Availabl",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/19815731/",
   "links": [
    "https://www.onthemarket.com/details/19815731/"
@@ -16608,7 +17028,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "South Wimbledon",
@@ -16621,7 +17042,11 @@
     3300,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "rightmove-94132983",
@@ -16667,7 +17092,7 @@
   "baths": 3,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20122205/",
   "links": [
    "https://www.onthemarket.com/details/20122205/"
@@ -16676,7 +17101,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Raynes Park",
@@ -16689,7 +17115,11 @@
     4350,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-18"
+  }
  },
  {
   "id": "zoopla-72010768",
