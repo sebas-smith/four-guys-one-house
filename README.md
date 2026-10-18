@@ -5,6 +5,13 @@ Target £4,000/month (£1,000 each), max £4,800 (£1,200 each), before bills.
 
 Site: https://sebas-smith.github.io/four-guys-one-house/
 
+## Search scope
+
+- Areas: Putney, Southfields, Earlsfield, Wandsworth, Tooting, Balham, Wimbledon, Raynes Park,
+  Clapham South borders.
+- Excluded: Isleworth, Osterley, New Malden, Twickenham, Whitton.
+- Whole property, 4+ bedrooms, £3,000 to £5,000 pcm tracked (recommend up to £4,800).
+
 ## How it works
 
 - `data/listings.json` is the whole list. One object per home.

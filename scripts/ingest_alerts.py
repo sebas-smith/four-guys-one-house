@@ -33,6 +33,7 @@ PORTALS = [
 PORTAL_SENDERS = ("rightmove", "zoopla", "onthemarket", "openrent")
 TRACKING_HOST = re.compile(r"https?://[^\s\"'<>]*(?:rightmove|zoopla|onthemarket|openrent)[^\s\"'<>]*", re.I)
 MIN_RENT, MAX_RENT, MIN_BEDS = 3000, 5000, 4
+EXCLUDED_AREAS = re.compile(r"isleworth|osterley|new malden|hounslow|twickenham|whitton|\b(TW[1-9]|KT3)\b", re.I)
 
 
 def decoded(value):
@@ -171,6 +172,8 @@ def main():
             if rent and not (MIN_RENT <= rent <= MAX_RENT):
                 continue
             if beds and beds < MIN_BEDS:
+                continue
+            if EXCLUDED_AREAS.search(title):
                 continue
             url = dict((p, t) for p, _, t in PORTALS)[portal].format(pid)
             try:
