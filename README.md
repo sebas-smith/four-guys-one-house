@@ -16,7 +16,10 @@ Site: https://sebas-smith.github.io/four-guys-one-house/
 
 - `data/listings.json` is the whole list. One object per home.
 - `index.html`, `app.js`, `style.css` are a static page that reads it. No build step.
-- A daily search adds new homes to `data/listings.json` and commits them, so the git history shows what changed each day.
+- Every evening a ChatGPT scheduled task searches the portals and agents, generates a CSV with code,
+  and commits it as `sweeps/YYYY-MM-DD.csv`. `.github/workflows/sweep.yml` then runs
+  `scripts/merge_sweep.py` on it, which adds new homes, updates prices and marks let homes gone.
+  It never overrides a status one of us set. The git history shows what changed each day.
 
 ## Alert emails
 

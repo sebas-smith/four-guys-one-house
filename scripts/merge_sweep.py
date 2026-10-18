@@ -15,6 +15,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 LISTINGS = ROOT / "data" / "listings.json"
 PERSON_SET = {"shortlist", "viewing", "applied", "no"}
+REQUIRED = {"id", "address_or_area", "area", "monthly_rent_gbp", "bedrooms", "bathrooms", "availability",
+            "status", "first_seen", "sharer_suitability", "listing_urls", "checked_at"}
 EXCLUDED_AREAS = re.compile(r"isleworth|osterley|new malden|hounslow|twickenham|whitton", re.I)
 LINK_KEYS = [
     re.compile(r"rightmove\.co\.uk/properties/(\d+)"),
@@ -69,6 +71,9 @@ def main(src, dry):
             by_key.setdefault(k, r)
 
     rows = list(csv.DictReader(open(src, encoding="utf-8-sig")))
+    missing = REQUIRED - set(rows[0] if rows else [])
+    if missing:
+        sys.exit(f"{src} is missing columns: {', '.join(sorted(missing))}")
     added = updated = gone = 0
     for row in rows:
         lid = re.sub(r"[^A-Za-z0-9_.-]", "-", row["id"]).lower()
@@ -84,8 +89,13 @@ def main(src, dry):
         match = by_id.get(lid) or next((by_key[k] for k in keys(links) if k in by_key), None)
         if match:
             notes = match.setdefault("notes", [])
+
+            def note(text):
+                if text not in notes:
+                    notes.append(text)
+
             if rent and match.get("rent") and rent != match["rent"]:
-                notes.append(f"Price changed from £{match['rent']:,} to £{rent:,} ({checked}).")
+                note(f"Price changed from £{match['rent']:,} to £{rent:,} ({checked}).")
             if rent:
                 match["rent"] = rent
             if avail:
@@ -99,10 +109,10 @@ def main(src, dry):
                 match["sharers"] = "no"
             if status == "gone" and match["status"] != "gone":
                 if match["status"] in PERSON_SET:
-                    notes.append(f"Advert shows {row['status']} ({checked}).")
+                    note(f"Advert shows {row['status']} ({checked}).")
                 else:
                     match["status"] = "gone"
-                    notes.append(f"Marked gone: advert shows {row['status']} ({checked}).")
+                    note(f"Marked gone: advert shows {row['status']} ({checked}).")
                 gone += 1
             elif match["status"] not in PERSON_SET and match["status"] != status:
                 match["status"] = status

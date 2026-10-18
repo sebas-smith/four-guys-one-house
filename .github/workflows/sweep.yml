@@ -1,0 +1,39 @@
+name: Merge daily sweep
+
+on:
+  push:
+    paths:
+      - "sweeps/*.csv"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: listings
+  cancel-in-progress: false
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Merge new sweep files
+        run: |
+          files=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- 'sweeps/*.csv')
+          if [ -z "$files" ]; then echo "No new sweep files"; exit 0; fi
+          for f in $files; do python scripts/merge_sweep.py "$f"; done
+      - name: Commit
+        run: |
+          git config user.name "four-guys-bot"
+          git config user.email "four-guys-bot@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Merge daily sweep"
+          git pull --rebase
+          git push
