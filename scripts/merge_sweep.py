@@ -139,7 +139,8 @@ def main(src, dry):
                     match["status"] = "gone"
                     note(f"Marked gone: advert shows {row['status']} ({checked}).")
                 gone += 1
-            elif match["status"] not in PERSON_SET and match["status"] != status:
+            elif match["status"] not in PERSON_SET and match["status"] != status and not match.get("off_market"):
+                # check_live.py read the advert itself; trust that over the sweep saying live
                 match["status"] = status
             match["checked"] = checked
             updated += 1

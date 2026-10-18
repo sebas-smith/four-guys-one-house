@@ -78,6 +78,7 @@ function card(r) {
   }
   if (r.station) meta.append(el("span", r.station.walk <= STANDOUT.walk ? "near" : null, `${r.station.walk} min walk to ${r.station.name} (${r.station.kind})`));
   if (r.added) meta.append(el("span", null, `Added ${day(r.added)}`));
+  if (r.off_market) meta.append(el("span", "tag warn", `${r.off_market.why} (${day(r.off_market.checked)})`));
   if (r.sharers === "ok") meta.append(el("span", "tag", "Sharers OK"));
   if (r.sharers === "no") meta.append(el("span", "tag warn", "No sharers"));
   where.append(meta);

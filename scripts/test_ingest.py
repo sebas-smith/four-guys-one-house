@@ -58,6 +58,18 @@ def main():
     assert ia.same_home(fairway, "Raynes Park, London", 3750, 5, 2, (), "1 Nov 2026") is None
     ia.merge_price(cut[0], 3850, "test")
     assert cut[0]["rent"] == 3850 and "£4,000 vs £3,850" in cut[0]["notes"][0], cut[0]
+    import check_live as cl
+    otm = "https://www.onthemarket.com/details/8848009/"
+    assert cl.verdict(otm, 200, otm, '{"labelText":"Let agreed"}') == "let"
+    assert cl.verdict(otm, 200, otm, '{"labelText":"Reduced"}') == "live"
+    rm = "https://www.rightmove.co.uk/properties/90369216"
+    assert cl.verdict(rm, 200, rm, '<span class="ksc_lozenge">LET AGREED</span>') == "let"
+    assert cl.verdict(rm, 200, rm, 'href="?includeLetAgreed=true"') == "live"
+    assert cl.verdict(rm, 410, rm, "") == "removed"
+    zp = "https://www.zoopla.co.uk/to-rent/details/74268053/"
+    assert cl.verdict(zp, 200, "https://www.zoopla.co.uk/to-rent/property/london/longmead-road/", "") == "removed"
+    assert cl.verdict(zp, 200, zp, '\\"listingStatus\\":\\"to_rent\\"') == "live"
+    assert cl.verdict("https://www.jacksonsestateagents.com/properties/1/lettings", 403, "", "") is None
     print("ok")
 
 
