@@ -9,7 +9,7 @@ import json
 import sys
 from pathlib import Path
 
-from ingest_alerts import LISTINGS, same_home
+from ingest_alerts import LISTINGS, merge_price, same_home
 
 RANK = {"applied": 5, "viewing": 4, "shortlist": 3, "no": 2, "new": 1, "gone": 0}
 
@@ -18,10 +18,11 @@ def main(dry):
     listings = json.load(open(LISTINGS, encoding="utf-8"))
     kept, merged = [], 0
     for r in listings:
-        m = same_home(kept, r.get("title"), r.get("rent"), r.get("beds")) if r["status"] != "gone" else None
+        m = same_home(kept, r.get("title"), r.get("rent"), r.get("beds"), r.get("baths"), r.get("links", [])) if r["status"] != "gone" else None
         if not m:
             kept.append(r)
             continue
+        merge_price(m, r.get("rent"), f"{r['id']} vs {m['id']}")
         for u in r.get("links", []):
             if u not in m["links"]:
                 m["links"].append(u)

@@ -1752,17 +1752,22 @@
   "rent": 4250,
   "beds": 4,
   "baths": 2,
-  "available": "",
+  "available": "20 November 2026",
   "sharers": "ok",
   "status": "new",
   "url": "https://www.jacksonsestateagents.com/properties/20294896/lettings",
   "links": [
-   "https://www.jacksonsestateagents.com/properties/20294896/lettings"
+   "https://www.jacksonsestateagents.com/properties/20294896/lettings",
+   "https://www.zoopla.co.uk/to-rent/details/74500221/",
+   "https://www.onthemarket.com/details/20545150/",
+   "https://www.rightmove.co.uk/properties/94271229"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: unavailable)."
+   "Imported from the old ChatGPT tracker (status: unavailable).",
+   "Prices differ across sites: £4,500 vs £4,250 (zoopla-74500221 vs jacksons-20294896). Showing the lower.",
+   "Found by ChatGPT sweep (live)."
   ],
   "checked": "2026-10-18"
  },
@@ -1815,17 +1820,23 @@
   "rent": 4500,
   "beds": 4,
   "baths": 3,
-  "available": "",
+  "available": "Ask agent",
   "sharers": "ok",
   "status": "new",
   "url": "https://www.jacksonsestateagents.com/properties/20627612/lettings",
   "links": [
-   "https://www.jacksonsestateagents.com/properties/20627612/lettings"
+   "https://www.jacksonsestateagents.com/properties/20627612/lettings",
+   "https://www.dexters.co.uk/property-for-rent/house-to-rent-in-garratt-lane-london-sw17/285401",
+   "https://www.rightmove.co.uk/properties/93951570",
+   "https://www.zoopla.co.uk/to-rent/details/74425759/",
+   "https://www.onthemarket.com/details/20480305/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: unavailable)."
+   "Imported from the old ChatGPT tracker (status: unavailable).",
+   "Prices differ across sites: £4,700 vs £4,500 (rightmove-93951570 vs jacksons-20627612). Showing the lower.",
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-06."
   ],
   "checked": "2026-10-18"
  },
@@ -1959,7 +1970,7 @@
   "id": "jacksons-20994488",
   "title": "Franciscan Road",
   "area": "Tooting",
-  "rent": 4000,
+  "rent": 3800,
   "beds": 4,
   "baths": 2,
   "available": "",
@@ -1967,12 +1978,15 @@
   "status": "new",
   "url": "https://www.jacksonsestateagents.com/properties/20994488/lettings",
   "links": [
-   "https://www.jacksonsestateagents.com/properties/20994488/lettings"
+   "https://www.jacksonsestateagents.com/properties/20994488/lettings",
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2454088/franciscan-road/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: unavailable)."
+   "Imported from the old ChatGPT tracker (status: unavailable).",
+   "Prices differ across sites: £4,000 vs £3,800 (marsh-parsons-vbr2454088 vs jacksons-20994488). Showing the lower.",
+   "Found by ChatGPT sweep (live)."
   ],
   "checked": "2026-10-18"
  },
@@ -4200,12 +4214,15 @@
   "url": "https://www.rightmove.co.uk/properties/92343588",
   "links": [
    "https://www.rightmove.co.uk/properties/92343588",
-   "https://www.onthemarket.com/details/20200371/"
+   "https://www.onthemarket.com/details/20200371/",
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2325196/ashen-grove/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: unavailable)."
+   "Imported from the old ChatGPT tracker (status: unavailable).",
+   "Prices differ across sites: £4,602 vs £4,300 (marsh-parsons-vbr2325196 vs rightmove-92343588). Showing the lower.",
+   "Found by ChatGPT sweep (live)."
   ],
   "checked": "2026-10-18"
  },
@@ -5307,30 +5324,6 @@
   "added": "2026-10-03",
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck)."
-  ],
-  "checked": "2026-10-18"
- },
- {
-  "id": "rightmove-93951570",
-  "title": "Garratt Lane",
-  "area": "Tooting",
-  "rent": 4700,
-  "beds": 4,
-  "baths": 3,
-  "available": "Ask agent",
-  "sharers": "ok",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/93951570",
-  "links": [
-   "https://www.dexters.co.uk/property-for-rent/house-to-rent-in-garratt-lane-london-sw17/285401",
-   "https://www.rightmove.co.uk/properties/93951570",
-   "https://www.zoopla.co.uk/to-rent/details/74425759/",
-   "https://www.onthemarket.com/details/20480305/"
-  ],
-  "source": "import",
-  "added": "2026-10-06",
-  "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-06."
   ],
   "checked": "2026-10-18"
  },
@@ -9124,29 +9117,6 @@
   ]
  },
  {
-  "id": "zoopla-74500221",
-  "title": "Squarey Street, Earlsfield, London SW17",
-  "area": "Earlsfield",
-  "rent": 4500,
-  "beds": 4,
-  "baths": 2,
-  "available": "20 November 2026",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.zoopla.co.uk/to-rent/details/74500221/",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74500221/",
-   "https://www.onthemarket.com/details/20545150/",
-   "https://www.rightmove.co.uk/properties/94271229"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
   "id": "onthemarket-20231361",
   "title": "Steerforth Street, London, SW18",
   "area": "Earlsfield",
@@ -9428,9 +9398,9 @@
  },
  {
   "id": "rightmove-94306125",
-  "title": "Carlton Drive, \nPutney Hill, SW15",
+  "title": "Carlton Drive, Putney Hill, SW15",
   "area": "Putney",
-  "rent": 4000,
+  "rent": 3850,
   "beds": 4,
   "baths": 2,
   "available": "04/12/2026",
@@ -9440,35 +9410,16 @@
   "links": [
    "https://www.onthemarket.com/details/17725282/",
    "https://www.rightmove.co.uk/properties/94306125",
-   "https://www.chestertons.co.uk/properties/22216502/lettings/AFL160021"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live).",
-   "Found by ChatGPT sweep (live; results-page evidence only)."
-  ]
- },
- {
-  "id": "zoopla-71123927",
-  "title": "Carlton Drive, Putney Hill SW15",
-  "area": "Putney",
-  "rent": 3850,
-  "beds": 4,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.zoopla.co.uk/to-rent/details/71123927/",
-  "links": [
+   "https://www.chestertons.co.uk/properties/22216502/lettings/AFL160021",
    "https://www.zoopla.co.uk/to-rent/details/71123927/"
   ],
   "source": "sweep",
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Found by ChatGPT sweep (live; results-page evidence only).",
+   "Prices differ across sites: £4,000 vs £3,850 (zoopla-71123927 vs rightmove-94306125). Showing the lower."
   ]
  },
  {
@@ -10403,7 +10354,7 @@
   "id": "onthemarket-20462340",
   "title": "Gassiot Road, London SW17",
   "area": "Tooting",
-  "rent": 4100,
+  "rent": 4000,
   "beds": 4,
   "baths": 2,
   "available": "Availability date: 5 Jun 2027",
@@ -10411,13 +10362,15 @@
   "status": "new",
   "url": "https://www.onthemarket.com/details/20462340/",
   "links": [
-   "https://www.onthemarket.com/details/20462340/"
+   "https://www.onthemarket.com/details/20462340/",
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/TOO250098/gassiot-road/"
   ],
   "source": "sweep",
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Prices differ across sites: £4,100 vs £4,000 (marsh-parsons-too250098 vs onthemarket-20462340). Showing the lower."
   ]
  },
  {
@@ -11468,48 +11421,6 @@
   ]
  },
  {
-  "id": "marsh-parsons-vbr2454088",
-  "title": "Franciscan Road, SW17",
-  "area": "Tooting",
-  "rent": 3800,
-  "beds": 4,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2454088/franciscan-road/",
-  "links": [
-   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2454088/franciscan-road/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "marsh-parsons-too250098",
-  "title": "Gassiot Road, Tooting SW17",
-  "area": "Tooting",
-  "rent": 4000,
-  "beds": 4,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.marshandparsons.co.uk/properties-to-rent/london/property/TOO250098/gassiot-road/",
-  "links": [
-   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/TOO250098/gassiot-road/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
   "id": "marsh-parsons-csv160252",
   "title": "Mantilla Road, SW17",
   "area": "Tooting",
@@ -11606,27 +11517,6 @@
   "url": "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR1425883/alwyne-road/",
   "links": [
    "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR1425883/alwyne-road/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-10-18",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ]
- },
- {
-  "id": "marsh-parsons-vbr2325196",
-  "title": "Ashen Grove, Wimbledon Park SW19",
-  "area": "Wimbledon",
-  "rent": 4602,
-  "beds": 4,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2325196/ashen-grove/",
-  "links": [
-   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2325196/ashen-grove/"
   ],
   "source": "sweep",
   "added": "2026-10-18",

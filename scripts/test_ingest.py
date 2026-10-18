@@ -42,6 +42,12 @@ def main():
     assert ia.same_home(existing, "Mascotte Road, Putney SW15", 3750) is existing[0]
     assert ia.same_home(existing, "Mascotte Road, Putney SW15", 4200) is None
     assert ia.same_home(existing, "London SW15", 3748) is None
+    cut = [{"id": "rightmove-1", "title": "Carlton Drive, \nPutney Hill, SW15", "rent": 4000, "beds": 4, "baths": 2, "links": ["https://www.rightmove.co.uk/y"]}]
+    assert ia.same_home(cut, "Carlton Drive, Putney Hill SW15", 3850, 4, 2, ["https://www.zoopla.co.uk/x"]) is cut[0]
+    assert ia.same_home(cut, "Carlton Drive, Putney Hill SW15", 3850, 4, 3, ["https://www.zoopla.co.uk/x"]) is None
+    assert ia.same_home(cut, "Carlton Drive, Putney Hill SW15", 3850) is None
+    ia.merge_price(cut[0], 3850, "test")
+    assert cut[0]["rent"] == 3850 and "£4,000 vs £3,850" in cut[0]["notes"][0], cut[0]
     print("ok")
 
 

@@ -18,6 +18,7 @@ import urllib.request
 from email.header import decode_header, make_header
 from email.utils import parsedate_to_datetime
 from pathlib import Path
+from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parent.parent
 LISTINGS = ROOT / "data" / "listings.json"
@@ -132,17 +133,45 @@ def area_from(title):
 
 def street(title):
     """'Mascotte Road, London, SW15' -> 'mascotte road'."""
-    return re.sub(r"\s+", " ", (title or "").split(",")[0]).strip().lower()
+    return re.sub(r"\s+", " ", re.split(r"[,.]", title or "")[0]).strip().lower()
 
 
-def same_home(listings, title, rent, beds=None):
-    """An existing home on the same street, same beds, about the same rent: the same advert on another portal."""
+def sites(urls):
+    return {re.sub(r"^www\.", "", urlparse(u).hostname or "") for u in urls if u}
+
+
+def same_home(listings, title, rent, beds=None, baths=None, links=()):
+    """An existing home that is the same advert on another portal: same street and beds, about the same rent.
+
+    Within £50 counts as the same. Up to 8% apart also counts when beds and baths match and the two
+    were found on different sites, since a price cut often reaches one portal before another.
+    """
+    hosts = sites(links)
     s = street(title)
     if not s or not rent or not re.search(r"\b(road|street|avenue|lane|gardens|close|way|grove|place|mews|row|crescent|hill|drive|terrace|square|walk)\b", s):
         return None
-    return next((r for r in listings
-                 if r.get("status") != "gone" and street(r.get("title")) == s and r.get("rent")
-                 and abs(r["rent"] - rent) <= 50 and not (beds and r.get("beds") and beds != r["beds"])), None)
+
+    def same(r):
+        if r.get("status") == "gone" or street(r.get("title")) != s or not r.get("rent"):
+            return False
+        if beds and r.get("beds") and beds != r["beds"]:
+            return False
+        if abs(r["rent"] - rent) <= 50:
+            return True
+        return bool(beds and baths and baths == r.get("baths") and hosts
+                    and not hosts & sites(r.get("links", []))
+                    and abs(r["rent"] - rent) <= 0.08 * max(r["rent"], rent))
+
+    return next((r for r in listings if same(r)), None)
+
+
+def merge_price(home, rent, where):
+    """Keep the lower price when two portals disagree, and say so in a note."""
+    if rent and home.get("rent") and abs(home["rent"] - rent) > 50:
+        note = f"Prices differ across sites: £{max(home['rent'], rent):,} vs £{min(home['rent'], rent):,} ({where}). Showing the lower."
+        if note not in home.setdefault("notes", []):
+            home["notes"].append(note)
+        home["rent"] = min(home["rent"], rent)
 
 
 def main():
@@ -196,9 +225,10 @@ def main():
                 when = parsedate_to_datetime(msg["Date"]).date().isoformat()
             except Exception:
                 when = today
-            dup = same_home(listings, title, rent, beds)
+            dup = same_home(listings, title, rent, beds, None, [url])
             if dup:
                 dup.setdefault("links", []).append(url)
+                merge_price(dup, rent, f"{portal.title()} email {when}")
                 known.add((portal, pid))
                 added.append(f"{portal}-{pid} linked to existing {dup['id']}")
                 continue

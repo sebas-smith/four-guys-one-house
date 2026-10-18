@@ -12,7 +12,7 @@ import re
 import sys
 from pathlib import Path
 
-from ingest_alerts import same_home
+from ingest_alerts import merge_price, same_home
 
 ROOT = Path(__file__).resolve().parent.parent
 LISTINGS = ROOT / "data" / "listings.json"
@@ -90,7 +90,7 @@ def main(src, dry):
 
         match = by_id.get(lid) or next((by_key[k] for k in keys(links) if k in by_key), None)
         if not match and status != "gone":
-            match = same_home(listings, row["address_or_area"], rent, num(row["bedrooms"]))
+            match = same_home(listings, row["address_or_area"], rent, num(row["bedrooms"]), num(row["bathrooms"]), links)
         if match:
             notes = match.setdefault("notes", [])
 
@@ -98,10 +98,14 @@ def main(src, dry):
                 if text not in notes:
                     notes.append(text)
 
-            if rent and match.get("rent") and rent != match["rent"]:
-                note(f"Price changed from £{match['rent']:,} to £{rent:,} ({checked}).")
-            if rent:
-                match["rent"] = rent
+            if not keys(match["links"]) <= keys(links):
+                # The row only saw some of this home's adverts; another portal may show a different price.
+                merge_price(match, rent, f"sweep {checked}")
+            else:
+                if rent and match.get("rent") and rent != match["rent"]:
+                    note(f"Price changed from £{match['rent']:,} to £{rent:,} ({checked}).")
+                if rent:
+                    match["rent"] = rent
             if avail:
                 match["available"] = avail
             for u in links:
