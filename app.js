@@ -94,11 +94,14 @@ function card(r) {
   } else price.append(el("div", "pp", "Price unknown"));
 
   const actions = el("div", "actions");
-  if (r.url) {
-    const a = el("a", "open", `Open on ${site(r.url)} ↗`); a.href = r.url; a.target = "_blank"; a.rel = "noopener";
+  // Open the site showing the current (lowest) price first.
+  const cheapest = (r.prices || []).find((x) => x[1] === r.rent && x[2]);
+  const main = (cheapest && (r.links || []).find((u) => u.includes(cheapest[2]))) || r.url;
+  if (main) {
+    const a = el("a", "open", `Open on ${site(main)} ↗`); a.href = main; a.target = "_blank"; a.rel = "noopener";
     actions.append(a);
   }
-  const others = (r.links || []).filter((u) => u !== r.url);
+  const others = (r.links || []).filter((u) => u !== main);
   if (others.length) {
     const alt = el("span", "alt", "Also on ");
     others.forEach((u, i) => {
