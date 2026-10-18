@@ -36,6 +36,10 @@ def keys(urls):
             m = rx.search(u)
             if m:
                 out.add((i, m.group(1).lower()))
+                break
+        else:
+            if u:  # any other agent site: the link itself, ignoring scheme, www, query and trailing slash
+                out.add(("url", re.sub(r"^https?://(www\.)?|[?#].*$|/$", "", u.strip().lower())))
     return out
 
 
