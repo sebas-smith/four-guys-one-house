@@ -3,8 +3,9 @@
 Usage: python scripts/check_live.py [--added YYYY-MM-DD] [--dry-run]
 
 Reads the pages directly (Rightmove, OnTheMarket, Zoopla, OpenRent, Foxtons; other sites only
-when they return 404/410). A home is off the market if any advert says let agreed or under offer,
-or if no advert is live and at least one has been taken down. Homes a person has moved on
+when they return 404/410). A home is off the market if an advert says let agreed or under offer,
+or has been taken down, and no other advert is live. Let agreed on one site but live on another
+gets a warning but stays on the list. Homes a person has moved on
 (shortlist, viewing, applied) keep their status and get a note; new ones are marked gone. A home
 the checker marked gone comes back if an advert is live again. Sites that block us are skipped.
 --added only checks homes added on that date (used after a sweep).
@@ -26,6 +27,10 @@ NAMES = {"rightmove": "Rightmove", "onthemarket": "OnTheMarket", "zoopla": "Zoop
 
 def site_of(url):
     return url.split("/")[2].replace("www.", "").split(".")[0]
+
+
+def name(url):
+    return NAMES.get(site_of(url), site_of(url))
 
 
 def verdict(url, code, final, html):
@@ -93,12 +98,14 @@ def main():
         live = [u for u, v in results.items() if v == "live"]
         if let or (removed and not live):
             u = (let or removed)[0]
-            why = f"{'Let agreed' if let else 'Advert taken down'} on {NAMES.get(site_of(u), site_of(u))}"
+            why = f"{'Let agreed' if let else 'Advert taken down'} on {name(u)}"
+            if live:  # often an old advert of a relisted home, or an agent slow to update one site
+                why += f", still live on {name(live[0])}"
             if home.get("off_market", {}).get("why") != why:
                 home["off_market"] = {"why": why, "checked": today}
                 home.setdefault("notes", []).append(f"{why} ({day}).")
                 if home["status"] not in PERSON_SET:
-                    home["status"] = "gone"
+                    home["status"] = "new" if live else "gone"
                 gone += 1
                 print(f"gone  {home['title'][:40]:40} {why}  {u}")
             home["off_market"]["checked"] = today
@@ -106,7 +113,7 @@ def main():
             del home["off_market"]
             if home["status"] == "gone":
                 home["status"] = "new"
-            home.setdefault("notes", []).append(f"Advert live again on {NAMES.get(site_of(live[0]), site_of(live[0]))} ({day}).")
+            home.setdefault("notes", []).append(f"Advert live again on {name(live[0])} ({day}).")
             back += 1
             print(f"back  {home['title'][:40]}")
         if checked % 50 == 0:

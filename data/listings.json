@@ -4788,7 +4788,7 @@
   "baths": 3,
   "available": "31 October, 2026",
   "sharers": "unknown",
-  "status": "gone",
+  "status": "new",
   "url": "https://www.rightmove.co.uk/properties/93525720",
   "links": [
    "https://www.openrent.co.uk/property-to-rent/london/4-bed-semi-detached-house-wadham-road-sw15/3028882",
@@ -4798,8 +4798,7 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Advert taken down on Rightmove (18 Oct)."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -4813,11 +4812,7 @@
     4000,
     "rightmove"
    ]
-  ],
-  "off_market": {
-   "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-18"
-  }
+  ]
  },
  {
   "id": "openrent-3029005",
@@ -7256,7 +7251,7 @@
   "baths": 2,
   "available": "20/11/2026",
   "sharers": "unknown",
-  "status": "gone",
+  "status": "new",
   "url": "https://www.rightmove.co.uk/properties/93149787",
   "links": [
    "https://www.rightmove.co.uk/properties/93149787",
@@ -7268,7 +7263,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-10.",
    "Found by ChatGPT sweep (live).",
-   "Let agreed on OnTheMarket (18 Oct)."
+   "Let agreed on OnTheMarket, still live on Rightmove (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -7284,7 +7279,7 @@
    ]
   ],
   "off_market": {
-   "why": "Let agreed on OnTheMarket",
+   "why": "Let agreed on OnTheMarket, still live on Rightmove",
    "checked": "2026-10-18"
   }
  },
@@ -9316,7 +9311,7 @@
   "baths": 2,
   "available": "13 November 2026",
   "sharers": "ok",
-  "status": "gone",
+  "status": "new",
   "url": "https://www.rightmove.co.uk/properties/93598026",
   "links": [
    "https://www.rightmove.co.uk/properties/93598026",
@@ -9328,7 +9323,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
    "Found by ChatGPT sweep (live).",
-   "Let agreed on OnTheMarket (18 Oct)."
+   "Let agreed on OnTheMarket, still live on Rightmove (18 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -9344,7 +9339,7 @@
    ]
   ],
   "off_market": {
-   "why": "Let agreed on OnTheMarket",
+   "why": "Let agreed on OnTheMarket, still live on Rightmove",
    "checked": "2026-10-18"
   }
  },
@@ -13833,7 +13828,7 @@
   "baths": 2,
   "available": "2027-10-07",
   "sharers": "unknown",
-  "status": "gone",
+  "status": "new",
   "url": "https://www.rightmove.co.uk/properties/93328425",
   "links": [
    "https://www.onthemarket.com/details/20370358/",
@@ -13850,7 +13845,7 @@
    "Found by ChatGPT sweep (live).",
    "Found by ChatGPT sweep (live; conflicting let-agreed advert).",
    "Found by ChatGPT sweep (live; results-page evidence only).",
-   "Let agreed on OnTheMarket (18 Oct)."
+   "Let agreed on OnTheMarket, still live on OnTheMarket (18 Oct)."
   ],
   "station": {
    "name": "Earlsfield",
@@ -13865,7 +13860,7 @@
    ]
   ],
   "off_market": {
-   "why": "Let agreed on OnTheMarket",
+   "why": "Let agreed on OnTheMarket, still live on OnTheMarket",
    "checked": "2026-10-18"
   }
  },
