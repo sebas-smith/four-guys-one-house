@@ -7316,9 +7316,9 @@
   "rent": 4500,
   "beds": 4,
   "baths": 2,
-  "available": "20/11/2026",
+  "available": "2026-11-20",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/93149787",
   "links": [
    "https://www.rightmove.co.uk/properties/93149787",
@@ -7331,7 +7331,8 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-10.",
    "Found by ChatGPT sweep (live).",
-   "Let agreed on OnTheMarket, still live on Rightmove (18 Oct)."
+   "Let agreed on OnTheMarket, still live on Rightmove (18 Oct).",
+   "Marked gone: advert shows let agreed (2026-10-19)."
   ],
   "checked": "2026-10-19",
   "station": {
@@ -8482,7 +8483,7 @@
   "rent": 4200,
   "beds": 4,
   "baths": 4,
-  "available": "31/10/2026",
+  "available": "2026-10-31",
   "sharers": "ok",
   "status": "new",
   "url": "https://www.rightmove.co.uk/properties/93981180",
@@ -9403,9 +9404,9 @@
   "rent": 4100,
   "beds": 4,
   "baths": 2,
-  "available": "13 November 2026",
+  "available": "2026-11-13",
   "sharers": "ok",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/93598026",
   "links": [
    "https://www.rightmove.co.uk/properties/93598026",
@@ -9418,7 +9419,8 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
    "Found by ChatGPT sweep (live).",
-   "Let agreed on OnTheMarket, still live on Rightmove (18 Oct)."
+   "Let agreed on OnTheMarket, still live on Rightmove (18 Oct).",
+   "Marked gone: advert shows let agreed (2026-10-19)."
   ],
   "checked": "2026-10-19",
   "station": {
