@@ -1236,7 +1236,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -1254,7 +1254,7 @@
   "id": "foxtons-chpk0331619",
   "title": "Kingston Road",
   "area": "Raynes Park",
-  "rent": 3500,
+  "rent": 3495,
   "beds": 4,
   "baths": 2,
   "available": "Ask agent",
@@ -1271,9 +1271,10 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
-   "Price changed from £3,900 to £3,500 (2026-10-18)."
+   "Price changed from £3,900 to £3,500 (2026-10-18).",
+   "Price changed from £3,500 to £3,495 (2026-10-19)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -1288,6 +1289,11 @@
    [
     "2026-10-18",
     3500,
+    "rightmove"
+   ],
+   [
+    "2026-10-19",
+    3495,
     "rightmove"
    ]
   ]
@@ -1413,7 +1419,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Barnes",
    "kind": "Rail",
@@ -1482,7 +1488,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Balham",
    "kind": "Tube",
@@ -1555,7 +1561,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-13.",
    "Imported from the old ChatGPT tracker (status: recheck)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -1566,6 +1572,11 @@
     "",
     4000,
     ""
+   ],
+   [
+    "2026-10-19",
+    4000,
+    "rightmove"
    ]
   ]
  },
@@ -2316,7 +2327,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Wandsworth Town",
    "kind": "Rail",
@@ -2349,7 +2360,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -2382,7 +2393,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Tooting Bec",
    "kind": "Tube",
@@ -2415,7 +2426,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Tooting Bec",
    "kind": "Tube",
@@ -2448,7 +2459,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Tooting Bec",
    "kind": "Tube",
@@ -2481,7 +2492,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Wimbledon Park",
    "kind": "Tube",
@@ -2514,7 +2525,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -2547,7 +2558,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -2580,7 +2591,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Wandsworth Town",
    "kind": "Rail",
@@ -2613,7 +2624,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Tooting Bec",
    "kind": "Tube",
@@ -2646,7 +2657,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Tooting",
    "kind": "Rail",
@@ -2679,7 +2690,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -2712,7 +2723,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Tooting",
    "kind": "Rail",
@@ -2733,7 +2744,7 @@
   "rent": 4250,
   "beds": 4,
   "baths": 2,
-  "available": "20 November 2026",
+  "available": "2026-11-20",
   "sharers": "ok",
   "status": "new",
   "url": "https://www.jacksonsestateagents.com/properties/20294896/lettings",
@@ -2741,7 +2752,8 @@
    "https://www.jacksonsestateagents.com/properties/20294896/lettings",
    "https://www.zoopla.co.uk/to-rent/details/74500221/",
    "https://www.onthemarket.com/details/20545150/",
-   "https://www.rightmove.co.uk/properties/94271229"
+   "https://www.rightmove.co.uk/properties/94271229",
+   "https://www.jacksonsestateagents.com/properties/21403304/lettings"
   ],
   "source": "import",
   "added": "2026-09-25",
@@ -2750,7 +2762,7 @@
    "Prices differ across sites: £4,500 vs £4,250. Showing the lower; see price history.",
    "Found by ChatGPT sweep (live)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -2766,6 +2778,11 @@
     "2026-10-18",
     4250,
     "jacksonsestateagents"
+   ],
+   [
+    "2026-10-19",
+    4250,
+    "rightmove"
    ]
   ]
  },
@@ -2788,7 +2805,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -2821,7 +2838,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -2860,7 +2877,7 @@
    "Prices differ across sites: £4,700 vs £4,500. Showing the lower; see price history.",
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-06."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Haydons Road",
    "kind": "Rail",
@@ -2876,6 +2893,11 @@
     "2026-10-18",
     4500,
     "jacksonsestateagents"
+   ],
+   [
+    "2026-10-19",
+    4500,
+    "rightmove"
    ]
   ]
  },
@@ -2898,7 +2920,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -2931,7 +2953,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Tooting Bec",
    "kind": "Tube",
@@ -2964,7 +2986,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Tooting",
    "kind": "Rail",
@@ -2997,7 +3019,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -3030,7 +3052,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -3063,7 +3085,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Balham",
    "kind": "Tube",
@@ -3081,7 +3103,7 @@
   "id": "jacksons-20994488",
   "title": "Franciscan Road",
   "area": "Tooting",
-  "rent": 3800,
+  "rent": 4000,
   "beds": 4,
   "baths": 2,
   "available": "",
@@ -3097,9 +3119,10 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable).",
    "Prices differ across sites: £4,000 vs £3,800. Showing the lower; see price history.",
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Price changed from £3,800 to £4,000 (2026-10-19)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -3115,6 +3138,11 @@
     "2026-10-18",
     3800,
     "marshandparsons"
+   ],
+   [
+    "2026-10-19",
+    4000,
+    "jacksonsestateagents"
    ]
   ]
  },
@@ -3137,7 +3165,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Tooting Bec",
    "kind": "Tube",
@@ -3170,7 +3198,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Tooting Bec",
    "kind": "Tube",
@@ -3203,7 +3231,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -3236,7 +3264,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Streatham Common",
    "kind": "Rail",
@@ -3269,7 +3297,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Balham",
    "kind": "Tube",
@@ -3302,7 +3330,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Tooting Bec",
    "kind": "Tube",
@@ -3370,7 +3398,7 @@
    "Imported from the old ChatGPT tracker (status: unavailable).",
    "Found by ChatGPT sweep (live)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -3391,7 +3419,7 @@
   "rent": 3800,
   "beds": 4,
   "baths": 2,
-  "available": "4 November 2026",
+  "available": "2026-11-04",
   "sharers": "no",
   "status": "new",
   "url": "https://www.jacksonsestateagents.com/properties/21552573/lettings",
@@ -3405,7 +3433,7 @@
    "Imported from the old ChatGPT tracker (status: unavailable).",
    "Found by ChatGPT sweep (live)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Tooting Bec",
    "kind": "Tube",
@@ -3416,6 +3444,11 @@
     "2026-09-25",
     3800,
     "jacksonsestateagents"
+   ],
+   [
+    "2026-10-19",
+    3800,
+    "zoopla"
    ]
   ]
  },
@@ -3438,7 +3471,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -3471,7 +3504,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Balham",
    "kind": "Tube",
@@ -3537,7 +3570,7 @@
    "Imported from the old ChatGPT tracker (status: unavailable).",
    "Advert says not suitable for sharers."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Balham",
    "kind": "Tube",
@@ -3609,7 +3642,7 @@
    "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-25.",
    "Advert says not suitable for sharers."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Clapham South",
    "kind": "Tube",
@@ -4086,7 +4119,7 @@
   "id": "openrent-2923219",
   "title": "St. Ann's Park Road",
   "area": "Wandsworth",
-  "rent": 4950,
+  "rent": 4395,
   "beds": 4,
   "baths": 2,
   "available": "22 October, 2026",
@@ -4108,9 +4141,10 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-12.",
-   "Price changed from £4,590 to £4,950 (2026-10-18)."
+   "Price changed from £4,590 to £4,950 (2026-10-18).",
+   "Price changed from £4,950 to £4,395 (2026-10-19)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Wandsworth Town",
    "kind": "Rail",
@@ -4125,6 +4159,11 @@
    [
     "2026-10-18",
     4950,
+    "rightmove"
+   ],
+   [
+    "2026-10-19",
+    4395,
     "rightmove"
    ]
   ]
@@ -4236,7 +4275,7 @@
   "baths": 2,
   "available": "Now",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/89614338",
   "links": [
    "https://www.openrent.co.uk/property-to-rent/london/4-bed-terraced-house-firstway-sw20/2957437",
@@ -4252,9 +4291,10 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-25.",
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Marked gone: advert shows let agreed (2026-10-19)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -4265,6 +4305,11 @@
     "",
     3800,
     ""
+   ],
+   [
+    "2026-10-19",
+    3800,
+    "rightmove"
    ]
   ]
  },
@@ -4492,10 +4537,10 @@
   "id": "openrent-3009117",
   "title": "Pentney Road",
   "area": "Balham",
-  "rent": 5000,
+  "rent": 4800,
   "beds": 4,
   "baths": 2,
-  "available": "30 October, 2026",
+  "available": "2026-10-30",
   "sharers": "ok",
   "status": "new",
   "url": "https://www.rightmove.co.uk/properties/93449391",
@@ -4508,9 +4553,10 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
+   "Price changed from £5,000 to £4,800 (2026-10-19)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Balham",
    "kind": "Tube",
@@ -4520,6 +4566,11 @@
    [
     "2026-09-25",
     5000,
+    "rightmove"
+   ],
+   [
+    "2026-10-19",
+    4800,
     "rightmove"
    ]
   ]
@@ -4595,7 +4646,7 @@
   "id": "openrent-3016979",
   "title": "Seely Road",
   "area": "Tooting",
-  "rent": 3800,
+  "rent": 3700,
   "beds": 4,
   "baths": 2,
   "available": "Today",
@@ -4611,9 +4662,10 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-07."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-07.",
+   "Price changed from £3,800 to £3,700 (2026-10-19)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Tooting",
    "kind": "Rail",
@@ -4623,6 +4675,11 @@
    [
     "2026-09-25",
     3800,
+    "rightmove"
+   ],
+   [
+    "2026-10-19",
+    3700,
     "rightmove"
    ]
   ]
@@ -6597,7 +6654,7 @@
    "Found by ChatGPT sweep (live).",
    "Let agreed on Rightmove (18 Oct)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Wimbledon Park",
    "kind": "Tube",
@@ -7266,7 +7323,8 @@
   "links": [
    "https://www.rightmove.co.uk/properties/93149787",
    "https://www.onthemarket.com/details/9679602/",
-   "https://www.onthemarket.com/details/18656989/"
+   "https://www.onthemarket.com/details/18656989/",
+   "https://search.savills.com/property-detail/gbpurepul200095l"
   ],
   "source": "import",
   "added": "2026-09-25",
@@ -7275,7 +7333,7 @@
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket, still live on Rightmove (18 Oct)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Barnes",
    "kind": "Rail",
@@ -7286,6 +7344,11 @@
     "2026-09-25",
     4500,
     "rightmove"
+   ],
+   [
+    "2026-10-19",
+    4500,
+    "search"
    ]
   ],
   "off_market": {
@@ -7353,7 +7416,7 @@
    "Found by ChatGPT sweep (live; results-page evidence only).",
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-10."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "New Malden",
    "kind": "Rail",
@@ -7364,6 +7427,11 @@
     "",
     4200,
     ""
+   ],
+   [
+    "2026-10-19",
+    4200,
+    "rightmove"
    ]
   ]
  },
@@ -8421,7 +8489,8 @@
   "links": [
    "https://www.rightmove.co.uk/properties/93981180",
    "https://www.zoopla.co.uk/to-rent/details/64640284/",
-   "https://www.onthemarket.com/details/20485328/"
+   "https://www.onthemarket.com/details/20485328/",
+   "https://www.barnardmarcus.co.uk/properties/22192437/lettings/P5516F5615-388DD828"
   ],
   "source": "import",
   "added": "2026-10-06",
@@ -8429,7 +8498,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-06.",
    "Price changed from £4,300 to £4,200 (2026-10-18)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -8445,6 +8514,11 @@
     "2026-10-18",
     4200,
     "rightmove"
+   ],
+   [
+    "2026-10-19",
+    4200,
+    "barnardmarcus"
    ]
   ]
  },
@@ -9336,7 +9410,8 @@
   "links": [
    "https://www.rightmove.co.uk/properties/93598026",
    "https://www.zoopla.co.uk/to-rent/details/68443899/",
-   "https://www.onthemarket.com/details/15899072/"
+   "https://www.onthemarket.com/details/15899072/",
+   "https://www.chestertons.co.uk/properties/22154019/lettings/PUL080271"
   ],
   "source": "import",
   "added": "2026-09-25",
@@ -9345,7 +9420,7 @@
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket, still live on Rightmove (18 Oct)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Barnes",
    "kind": "Rail",
@@ -9356,6 +9431,11 @@
     "2026-09-25",
     4100,
     "rightmove"
+   ],
+   [
+    "2026-10-19",
+    4100,
+    "chestertons"
    ]
   ],
   "off_market": {
@@ -9419,7 +9499,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
    "Found by ChatGPT sweep (live)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Wimbledon",
    "kind": "Tube",
@@ -10833,7 +10913,7 @@
   "beds": 4,
   "baths": 2,
   "available": "Not stated; January unconfirmed",
-  "sharers": "unknown",
+  "sharers": "no",
   "status": "new",
   "url": "https://www.rightmove.co.uk/properties/92522283",
   "links": [
@@ -10846,7 +10926,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Southfields",
    "kind": "Tube",
@@ -11048,7 +11128,7 @@
   "rent": 3500,
   "beds": 4,
   "baths": 2,
-  "available": "18 September 2026",
+  "available": "2026-09-18",
   "sharers": "ok",
   "status": "new",
   "url": "https://www.zoopla.co.uk/to-rent/details/74168792/",
@@ -11063,7 +11143,7 @@
    "Prices differ across sites: £3,650 vs £3,500. Showing the lower; see price history.",
    "Found by ChatGPT sweep (live)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "station": {
    "name": "Haydons Road",
    "kind": "Rail",
@@ -11074,6 +11154,11 @@
     "",
     3650,
     ""
+   ],
+   [
+    "2026-10-19",
+    3500,
+    "zoopla"
    ]
   ]
  },
@@ -13065,7 +13150,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "notes": [
    "Found by ChatGPT sweep (live; results-page evidence only)."
   ],
@@ -13098,7 +13183,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "notes": [
    "Found by ChatGPT sweep (live; results-page evidence only)."
   ],
@@ -13272,7 +13357,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -13305,7 +13390,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -13438,7 +13523,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -13572,7 +13657,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -13810,7 +13895,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -14074,7 +14159,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -14145,7 +14230,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -15163,7 +15248,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -15234,7 +15319,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -15595,7 +15680,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -15837,10 +15922,10 @@
   "id": "onthemarket-20462340",
   "title": "Gassiot Road, London SW17",
   "area": "Tooting",
-  "rent": 4000,
+  "rent": 4100,
   "beds": 4,
   "baths": 2,
-  "available": "Availability date: 5 Jun 2027",
+  "available": "2027-06-05",
   "sharers": "unknown",
   "status": "gone",
   "url": "https://www.onthemarket.com/details/20462340/",
@@ -15850,11 +15935,12 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Prices differ across sites: £4,100 vs £4,000. Showing the lower; see price history.",
-   "Let agreed on OnTheMarket (18 Oct)."
+   "Let agreed on OnTheMarket (18 Oct).",
+   "Price changed from £4,000 to £4,100 (2026-10-19)."
   ],
   "station": {
    "name": "Tooting Broadway",
@@ -15871,6 +15957,11 @@
     "2026-10-18",
     4000,
     "marshandparsons"
+   ],
+   [
+    "2026-10-19",
+    4100,
+    "onthemarket"
    ]
   ],
   "off_market": {
@@ -16712,7 +16803,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17246,7 +17337,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17279,7 +17370,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17312,7 +17403,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17345,7 +17436,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17378,7 +17469,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17411,7 +17502,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17444,7 +17535,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17477,7 +17568,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17510,7 +17601,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17543,7 +17634,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17576,7 +17667,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17609,7 +17700,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17642,7 +17733,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17675,7 +17766,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17691,5 +17782,174 @@
     "marshandparsons"
    ]
   ]
+ },
+ {
+  "id": "rampton-baseley-21813164",
+  "title": "Burntwood Lane, London, SW17",
+  "area": "Earlsfield",
+  "rent": 4000,
+  "beds": 4,
+  "baths": 3,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.ramptonbaseley.com/properties/21813164/lettings/BAL250138",
+  "links": [
+   "https://www.ramptonbaseley.com/properties/21813164/lettings/BAL250138"
+  ],
+  "source": "sweep",
+  "added": "2026-10-19",
+  "checked": "2026-10-19",
+  "notes": [
+   "Found by ChatGPT sweep (unverified)."
+  ],
+  "prices": [
+   [
+    "2026-10-19",
+    4000,
+    "ramptonbaseley"
+   ]
+  ],
+  "station": {
+   "name": "Wandsworth Common",
+   "kind": "Rail",
+   "walk": 15
+  }
+ },
+ {
+  "id": "chestertons-22037574",
+  "title": "Ashen Grove, London, SW19",
+  "area": "Southfields",
+  "rent": 4300,
+  "beds": 4,
+  "baths": 2,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.chestertons.co.uk/properties/22037574/lettings/HEA745668",
+  "links": [
+   "https://www.chestertons.co.uk/properties/22037574/lettings/HEA745668"
+  ],
+  "source": "sweep",
+  "added": "2026-10-19",
+  "checked": "2026-10-19",
+  "notes": [
+   "Found by ChatGPT sweep (unverified)."
+  ],
+  "prices": [
+   [
+    "2026-10-19",
+    4300,
+    "chestertons"
+   ]
+  ],
+  "station": {
+   "name": "Wimbledon Park",
+   "kind": "Tube",
+   "walk": 7
+  }
+ },
+ {
+  "id": "zoopla-71454331",
+  "title": "Graveney Road, Tooting, London SW17",
+  "area": "Tooting",
+  "rent": 3600,
+  "beds": 4,
+  "baths": 1,
+  "available": "2026-11-27",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/94460625",
+  "links": [
+   "https://www.onthemarket.com/details/17937659/",
+   "https://www.rightmove.co.uk/properties/94460625",
+   "https://www.zoopla.co.uk/to-rent/details/71454331/"
+  ],
+  "source": "sweep",
+  "added": "2026-10-19",
+  "checked": "2026-10-19",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-19",
+    3600,
+    "rightmove"
+   ]
+  ],
+  "station": {
+   "name": "Tooting Broadway",
+   "kind": "Tube",
+   "walk": 4
+  }
+ },
+ {
+  "id": "rampton-baseley-22193006",
+  "title": "Beechcroft Road, London, SW17",
+  "area": "Wandsworth",
+  "rent": 4000,
+  "beds": 4,
+  "baths": 2,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.ramptonbaseley.com/properties/22193006/lettings/BAL260230",
+  "links": [
+   "https://www.ramptonbaseley.com/properties/22193006/lettings/BAL260230"
+  ],
+  "source": "sweep",
+  "added": "2026-10-19",
+  "checked": "2026-10-19",
+  "notes": [
+   "Found by ChatGPT sweep (unverified)."
+  ],
+  "prices": [
+   [
+    "2026-10-19",
+    4000,
+    "ramptonbaseley"
+   ]
+  ],
+  "station": {
+   "name": "Wandsworth Common",
+   "kind": "Rail",
+   "walk": 12
+  }
+ },
+ {
+  "id": "zoopla-74546235",
+  "title": "Hamilton Road, Wimbledon SW19",
+  "area": "Wimbledon",
+  "rent": 3700,
+  "beds": 4,
+  "baths": 3,
+  "available": "2026-12-15",
+  "sharers": "ok",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/94467732",
+  "links": [
+   "https://www.onthemarket.com/details/20580410/",
+   "https://www.rightmove.co.uk/properties/94467732",
+   "https://www.zoopla.co.uk/to-rent/details/74546235/"
+  ],
+  "source": "sweep",
+  "added": "2026-10-19",
+  "checked": "2026-10-19",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-19",
+    3700,
+    "rightmove"
+   ]
+  ],
+  "station": {
+   "name": "South Wimbledon",
+   "kind": "Tube",
+   "walk": 3
+  }
  }
 ]
