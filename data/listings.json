@@ -1638,7 +1638,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -1902,7 +1902,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Foxtons",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -3703,7 +3703,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -4788,7 +4788,7 @@
   "baths": 3,
   "available": "31 October, 2026",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/93525720",
   "links": [
    "https://www.openrent.co.uk/property-to-rent/london/4-bed-semi-detached-house-wadham-road-sw15/3028882",
@@ -4798,7 +4798,8 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
+   "Advert taken down on Rightmove (19 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -4812,7 +4813,11 @@
     4000,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Rightmove",
+   "checked": "2026-10-19"
+  }
  },
  {
   "id": "openrent-3029005",
@@ -5770,7 +5775,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -5945,7 +5950,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -6211,7 +6216,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -6612,7 +6617,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -6684,7 +6689,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -6852,7 +6857,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -6894,7 +6899,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -7137,7 +7142,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -7182,7 +7187,7 @@
   "baths": 2,
   "available": "30/10/2026",
   "sharers": "ok",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/93122811",
   "links": [
    "https://www.rightmove.co.uk/properties/93122811",
@@ -7193,7 +7198,8 @@
   "added": "2026-09-28",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-13.",
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on Rightmove (19 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -7207,7 +7213,11 @@
     4500,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-19"
+  }
  },
  {
   "id": "rightmove-93129159",
@@ -7280,7 +7290,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket, still live on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -7425,7 +7435,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -7502,7 +7512,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -7575,7 +7585,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -7915,7 +7925,8 @@
   "added": "2026-09-28",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
-   "Price changed from £3,000 to £2,900 (2026-10-18)."
+   "Price changed from £3,000 to £2,900 (2026-10-18).",
+   "Advert taken down on Rightmove (19 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -7934,7 +7945,11 @@
     2900,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Rightmove",
+   "checked": "2026-10-19"
+  }
  },
  {
   "id": "rightmove-93683103",
@@ -8584,7 +8599,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -8700,7 +8715,7 @@
   "baths": 3,
   "available": "12/11/2026",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/94082358",
   "links": [
    "https://www.rightmove.co.uk/properties/94082358",
@@ -8709,7 +8724,8 @@
   "source": "import",
   "added": "2026-10-08",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-08."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-08.",
+   "Let agreed on Rightmove (19 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -8723,7 +8739,11 @@
     4250,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-19"
+  }
  },
  {
   "id": "rightmove-94130985",
@@ -8834,7 +8854,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -8877,7 +8897,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -8952,7 +8972,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -9053,7 +9073,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -9190,7 +9210,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Zoopla",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -9263,7 +9283,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -9340,7 +9360,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket, still live on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -9467,7 +9487,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck).",
-   "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18."
+   "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18.",
+   "Advert taken down on Zoopla (19 Oct)."
   ],
   "station": {
    "name": "Kew Gardens",
@@ -9480,7 +9501,11 @@
     3300,
     "zoopla"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Zoopla",
+   "checked": "2026-10-19"
+  }
  },
  {
   "id": "zoopla-70803970",
@@ -9520,7 +9545,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -9919,7 +9944,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -9995,7 +10020,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -10172,7 +10197,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -10312,7 +10337,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -10756,7 +10781,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -10797,7 +10822,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -10844,7 +10869,7 @@
   "baths": 1,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.zoopla.co.uk/to-rent/details/74104280/",
   "links": [
    "https://www.zoopla.co.uk/to-rent/details/74104280/"
@@ -10852,7 +10877,8 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: recheck)."
+   "Imported from the old ChatGPT tracker (status: recheck).",
+   "Advert taken down on Zoopla (19 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -10866,7 +10892,11 @@
     3395,
     "zoopla"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Zoopla",
+   "checked": "2026-10-19"
+  }
  },
  {
   "id": "zoopla-74110803",
@@ -11008,7 +11038,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Zoopla",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -11185,7 +11215,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -11303,7 +11333,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -11399,7 +11429,8 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
    "Found by ChatGPT sweep (live).",
-   "Let agreed on Rightmove (18 Oct)."
+   "Let agreed on Rightmove (18 Oct).",
+   "Let agreed on OnTheMarket (19 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -11415,8 +11446,8 @@
    ]
   ],
   "off_market": {
-   "why": "Let agreed on Rightmove",
-   "checked": "2026-10-18"
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-19"
   }
  },
  {
@@ -11470,7 +11501,8 @@
   "added": "2026-09-24",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-12.",
-   "Price changed from £3,100 to £2,950 (2026-10-18)."
+   "Price changed from £3,100 to £2,950 (2026-10-18).",
+   "Advert taken down on Zoopla (19 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -11489,7 +11521,11 @@
     2950,
     "zoopla"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Zoopla",
+   "checked": "2026-10-19"
+  }
  },
  {
   "id": "zoopla-74262411",
@@ -11680,7 +11716,7 @@
   "baths": 3,
   "available": "Now",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.zoopla.co.uk/to-rent/details/74292204/",
   "links": [
    "https://www.zoopla.co.uk/to-rent/details/74292204/"
@@ -11688,7 +11724,8 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
+   "Let agreed on Zoopla (19 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -11702,7 +11739,11 @@
     4200,
     "zoopla"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Zoopla",
+   "checked": "2026-10-19"
+  }
  },
  {
   "id": "zoopla-74301701",
@@ -11950,7 +11991,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -12023,7 +12064,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Zoopla",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -12674,7 +12715,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -12743,7 +12784,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -12906,7 +12947,7 @@
   "baths": 2,
   "available": "",
   "sharers": "ok",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/94263075",
   "links": [
    "https://www.rightmove.co.uk/properties/94263075",
@@ -12916,7 +12957,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on Rightmove (19 Oct)."
   ],
   "station": {
    "name": "Clapham South",
@@ -12929,7 +12971,11 @@
     5000,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-19"
+  }
  },
  {
   "id": "onthemarket-13142280",
@@ -12966,7 +13012,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -13712,7 +13758,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -13816,7 +13862,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -13861,7 +13907,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket, still live on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -13900,7 +13946,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -13971,7 +14017,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -14009,7 +14055,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -14080,7 +14126,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -14257,7 +14303,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -14328,7 +14374,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -14399,7 +14445,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -14585,7 +14631,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -14624,7 +14670,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -14662,7 +14708,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -14700,7 +14746,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -14811,7 +14857,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -14921,7 +14967,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -14959,7 +15005,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -15169,7 +15215,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -15240,7 +15286,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -15314,7 +15360,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -15352,7 +15398,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -15390,7 +15436,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -15463,7 +15509,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -15636,7 +15682,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -15674,7 +15720,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -15713,7 +15759,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -15784,7 +15830,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -15829,7 +15875,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -15868,7 +15914,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -15969,7 +16015,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -16007,7 +16053,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -16045,7 +16091,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -16083,7 +16129,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -16121,7 +16167,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -16159,7 +16205,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -16197,7 +16243,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -16268,7 +16314,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -16406,7 +16452,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -16647,7 +16693,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -16718,7 +16764,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -16887,7 +16933,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -16926,7 +16972,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -16964,7 +17010,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -17002,7 +17048,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -17040,7 +17086,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
@@ -17113,7 +17159,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-18"
+   "checked": "2026-10-19"
   }
  },
  {
