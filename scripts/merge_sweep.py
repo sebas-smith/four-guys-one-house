@@ -22,7 +22,7 @@ PERSON_SET = {"shortlist", "viewing", "applied", "no"}
 PORTALS = {"rightmove", "zoopla", "onthemarket", "openrent"}
 REQUIRED = {"id", "address_or_area", "area", "monthly_rent_gbp", "bedrooms", "bathrooms", "availability",
             "status", "first_seen", "sharer_suitability", "listing_urls", "checked_at"}
-EXCLUDED_AREAS = re.compile(r"isleworth|osterley|new malden|hounslow|twickenham|whitton", re.I)
+EXCLUDED_AREAS = re.compile(r"isleworth|osterley|new malden|hounslow|twickenham|whitton|brixton|streatham|\b(TW[1-9]|KT3|SW2|SW16|SE\d{1,2})\b", re.I)
 LINK_KEYS = [
     re.compile(r"rightmove\.co\.uk/properties/(\d+)"),
     re.compile(r"zoopla\.co\.uk/to-rent/details/(\d+)"),

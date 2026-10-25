@@ -34,7 +34,7 @@ PORTALS = [
 PORTAL_SENDERS = ("rightmove", "zoopla", "onthemarket", "openrent")
 TRACKING_HOST = re.compile(r"https?://[^\s\"'<>]*(?:rightmove|zoopla|onthemarket|openrent)[^\s\"'<>]*", re.I)
 MIN_RENT, MAX_RENT, MIN_BEDS = 3000, 5000, 4
-EXCLUDED_AREAS = re.compile(r"isleworth|osterley|new malden|hounslow|twickenham|whitton|\b(TW[1-9]|KT3)\b", re.I)
+EXCLUDED_AREAS = re.compile(r"isleworth|osterley|new malden|hounslow|twickenham|whitton|brixton|streatham|\b(TW[1-9]|KT3|SW2|SW16|SE\d{1,2})\b", re.I)
 
 
 def decoded(value):

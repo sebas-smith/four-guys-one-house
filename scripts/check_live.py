@@ -2,7 +2,8 @@
 
 Usage: python scripts/check_live.py [--added YYYY-MM-DD] [--dry-run]
 
-Reads the pages directly (Rightmove, OnTheMarket, Zoopla, OpenRent, Foxtons; other sites only
+Reads the pages directly (Rightmove, OnTheMarket, Zoopla, OpenRent, Foxtons, Marsh & Parsons via its
+API, since its let adverts stay up unlabelled; other sites only
 when they return 404/410). A home is off the market if an advert says let agreed or under offer,
 or has been taken down, and no other advert is live. Let agreed on one site but live on another
 gets a warning but stays on the list. Homes a person has moved on
@@ -63,6 +64,21 @@ def verdict(url, code, final, html):
         return "live" if re.search(r"/\d+/?$", final) else "removed"
     if site == "foxtons":
         return "removed" if "#gone" in final or final.rstrip("/") != url.rstrip("/") else "live"
+    if site == "marshandparsons":
+        # M&P keeps let adverts up with no label; its own API has the real status
+        pid = re.search(r"if\(b == '([0-9a-f]{24})'\)", html)
+        if not pid:
+            return None
+        try:
+            found = requests.get(f"https://api.marshandparsons.co.uk/api/properties?ids={pid.group(1)}", impersonate="chrome", timeout=40).json().get("properties")
+        except Exception:  # noqa: BLE001
+            return None
+        if not found:
+            return "removed"
+        rps = found[0].get("rawRPSData", {})
+        if rps.get("InternalLettingStatus") != "To Let" or found[0].get("redTag"):
+            return "let"
+        return "live" if rps.get("MarketedOnInternet") else "removed"
     return None
 
 
@@ -128,6 +144,8 @@ def main():
             gone += 1
             print(f"gone  {home['title'][:40]:40} {why}")
         home.pop("sweep_gone", None)
+        if any(results.values()):
+            home["checked"] = today  # the sweep only rechecks homes this script can't read
         if checked % 50 == 0:
             print(f"... {checked} homes checked")
     if "--dry-run" not in args:
