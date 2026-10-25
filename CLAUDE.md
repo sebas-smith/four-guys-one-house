@@ -16,7 +16,13 @@ Read README.md first: it explains the search, the data and every script and work
   Seb is signed in to the bot Gmail in Chrome as the second account (`mail.google.com/mail/u/1/`).
 - Portal alerts set up 25 Oct on all four portals, signed in as the bot in Chrome
   (see README "One-time setup" and `scripts/search_area.py`). Area now includes Fulham and
-  Hammersmith. The ChatGPT sweep's own instructions don't mention those two yet.
+  Hammersmith.
+- ChatGPT task instructions rewritten 25 Oct (copy in git history of this note's commit message isn't
+  kept; read them in ChatGPT > Scheduled > SW London house sweep > Edit). Now: agent websites first,
+  daily rechecks only of homes with no Rightmove/OnTheMarket/Marsh & Parsons link, a short portal
+  backstop, Marsh & Parsons-only homes reported "unverified", "removed" only when every advert is down.
+- Marsh & Parsons leaves let adverts up unlabelled; `check_live.py` asks its API instead.
+  `check_live.py` sets `checked` whenever it reads an advert.
 
 ## Next steps
 
