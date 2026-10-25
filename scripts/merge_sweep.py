@@ -3,7 +3,8 @@
 Usage: python scripts/merge_sweep.py path/to/housing-sweep.csv [--dry-run]
 
 Matches homes by id or by any shared portal listing link. Updates rent, availability,
-links and status from the sweep. Never overrides a status a person set (shortlist,
+links and status from the sweep. A row's links that belong to another home, or that are a second
+advert on a portal the home is already on (and the row's rent, beds or baths differ), aren't added. Never overrides a status a person set (shortlist,
 viewing, applied, no). When the sweep says let agreed or removed, the home is only flagged
 (sweep_gone); check_live.py opens the adverts and decides.
 """
@@ -18,6 +19,7 @@ from ingest_alerts import merge_price, record_price, same_home, site_name
 ROOT = Path(__file__).resolve().parent.parent
 LISTINGS = ROOT / "data" / "listings.json"
 PERSON_SET = {"shortlist", "viewing", "applied", "no"}
+PORTALS = {"rightmove", "zoopla", "onthemarket", "openrent"}
 REQUIRED = {"id", "address_or_area", "area", "monthly_rent_gbp", "bedrooms", "bathrooms", "availability",
             "status", "first_seen", "sharer_suitability", "listing_urls", "checked_at"}
 EXCLUDED_AREAS = re.compile(r"isleworth|osterley|new malden|hounslow|twickenham|whitton", re.I)
@@ -91,7 +93,7 @@ def main(src, dry):
     missing = REQUIRED - set(rows[0] if rows else [])
     if missing:
         sys.exit(f"{src} is missing columns: {', '.join(sorted(missing))}")
-    added = updated = gone = 0
+    added = updated = gone = skipped = 0
     for row in rows:
         lid = re.sub(r"[^A-Za-z0-9_.-]", "-", row["id"]).lower()
         links = clean_links(row["listing_urls"])
@@ -108,6 +110,8 @@ def main(src, dry):
         if not match and status != "gone":
             match = same_home(listings, row["address_or_area"], rent, num(row["bedrooms"]), num(row["bathrooms"]), links, avail)
         if match:
+            # Compared before the row updates the home: does the row describe this same home?
+            fits = rent == match.get("rent") and num(row["bedrooms"]) == match.get("beds") and num(row["bathrooms"]) == match.get("baths")
             notes = match.setdefault("notes", [])
 
             def note(text):
@@ -127,8 +131,19 @@ def main(src, dry):
             if avail:
                 match["available"] = avail
             for u in links:
-                if u not in match["links"]:
-                    match["links"].append(u)
+                if u in match["links"]:
+                    continue
+                # A sweep row sometimes bundles adverts for several flats on one street. Leave out
+                # adverts another home already has, and extra adverts on a portal this home is
+                # already on unless the row matches the home (then it's a relist).
+                owner = next((by_key[k] for k in keys([u]) if k in by_key), match)
+                portal = site_name(u) in PORTALS and site_name(u) in {site_name(v) for v in match["links"]}
+                if owner is not match or (portal and not fits):
+                    skipped += 1
+                    continue
+                match["links"].append(u)
+                for k in keys([u]):
+                    by_key.setdefault(k, match)
             if row["sharer_suitability"] == "advertised":
                 match["sharers"] = "ok"
             elif row["sharer_suitability"] == "excluded":
@@ -167,6 +182,8 @@ def main(src, dry):
     if not dry:
         json.dump(listings, open(LISTINGS, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
     print(f"{len(rows)} sweep rows: {added} added, {updated} updated ({gone} said to be gone, to check). Total {len(listings)}.")
+    if skipped:
+        print(f"{skipped} links left off homes: another home has them, or another advert on the same portal")
 
 
 if __name__ == "__main__":

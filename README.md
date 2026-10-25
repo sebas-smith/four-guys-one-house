@@ -27,6 +27,9 @@ Site: https://sebas-smith.github.io/four-guys-one-house/
   Rightmove and OnTheMarket work from GitHub; Zoopla, OpenRent and Jacksons/Hamptons-style agent
   sites block it, so those links are skipped.
 - `scripts/stations.py` adds the nearest station and walk time; `scripts/dedupe.py` merges duplicates.
+  Two adverts on the same portal are never merged into one home (a street often has several similar
+  homes at one price), and a sweep row's links that already belong to another home stay there.
+  `scripts/split_merged.py` was a one-off (25 Oct) that split homes merged by mistake.
 
 ## Alert emails
 
@@ -78,4 +81,5 @@ Edit its `status` in `data/listings.json` and commit:
 `id`, `title`, `area`, `rent` (monthly £), `beds`, `baths`, `available`, `sharers` (`ok` / `unknown` / `no`),
 `status`, `url` (main link), `links` (every known source), `source` (`import` / `search` / `manual`),
 `added` (YYYY-MM-DD), `checked`, `notes` (list of strings), `prices` (list of `[date, rent, site]`),
-`station` (`{name, kind, walk}` minutes), `off_market` (`{why, checked}`, set by `check_live.py`).
+`station` (`{name, kind, walk}` minutes), `off_market` (`{why, checked}`, set by `check_live.py`),
+`not_same` (ids of homes that look alike but aren't; `dedupe.py` never merges them).

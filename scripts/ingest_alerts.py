@@ -169,12 +169,17 @@ def sites(urls):
     return {re.sub(r"^www\.", "", urlparse(u).hostname or "") for u in urls if u}
 
 
+PORTAL_SITES = {"rightmove.co.uk", "zoopla.co.uk", "onthemarket.com", "openrent.co.uk"}
+
+
 def same_home(listings, title, rent, beds=None, baths=None, links=(), available=None):
     """An existing home that is the same advert on another portal.
 
-    Same street and beds within £50 counts as the same. Up to 8% apart also counts when beds and baths
-    match and the two were found on different sites, since a price cut often reaches one portal before
-    another. Without a street, rent within £50 plus the same beds, baths and move-in date counts.
+    Same street, beds and baths within £50 counts as the same. Up to 8% apart also counts when beds and
+    baths match and both were found on portals but different ones, since a price cut often reaches one
+    portal before another. Without a street, rent within £50 plus the same beds, baths and move-in date
+    counts. A second advert on a portal the home is already on counts as a different home: streets often
+    have several similar homes at one price, and we don't know the agent to tell a relist apart.
     """
     if not rent:
         return None
@@ -185,14 +190,19 @@ def same_home(listings, title, rent, beds=None, baths=None, links=(), available=
             return False
         if beds and r.get("beds") and beds != r["beds"]:
             return False
+        if baths and r.get("baths") and baths != r["baths"]:
+            return False
+        theirs = sites(r.get("links", []))
+        if hosts & theirs & PORTAL_SITES:
+            return False
         other = street(r.get("title"))
         if s and other:
             if s != other:
                 return False
             if abs(r["rent"] - rent) <= 50:
                 return True
-            return bool(beds and baths and baths == r.get("baths") and hosts
-                        and not hosts & sites(r.get("links", []))
+            return bool(beds and baths and baths == r.get("baths") and hosts & PORTAL_SITES
+                        and theirs & PORTAL_SITES and not hosts & theirs
                         and abs(r["rent"] - rent) <= 0.08 * max(r["rent"], rent))
         return bool(when and when == avail_date(r.get("available")) and beds and baths
                     and baths == r.get("baths") and abs(r["rent"] - rent) <= 50)

@@ -20,6 +20,41 @@ Forwarded: https://www.zoopla.co.uk/to-rent/details/74512345/ Garratt Lane, Earl
 """
 
 
+def sweep_links():
+    """A sweep row that bundles another home's adverts, or a second Rightmove advert at another price, leaves them off."""
+    import csv
+    import json
+    import tempfile
+    import merge_sweep as ms
+    home = {"id": "openrent-1", "title": "Firstway", "rent": 3800, "beds": 4, "baths": 2, "status": "new", "notes": [],
+            "links": ["https://www.openrent.co.uk/1234567", "https://www.rightmove.co.uk/properties/11"]}
+    other = {"id": "foxtons-1", "title": "Firstway", "rent": 4000, "beds": 4, "baths": 2, "status": "new", "notes": [],
+             "links": ["https://www.onthemarket.com/details/22/"]}
+    row = {"id": "openrent-1", "address_or_area": "Firstway", "area": "Raynes Park", "monthly_rent_gbp": "3800", "bedrooms": "4",
+           "bathrooms": "2", "availability": "", "status": "live", "first_seen": "", "sharer_suitability": "", "checked_at": "2026-10-25",
+           "listing_urls": "https://www.openrent.co.uk/1234567|https://www.onthemarket.com/details/22/|https://www.kfh.co.uk/x-52503/"}
+    with tempfile.TemporaryDirectory() as d:
+        ms.LISTINGS = Path(d) / "listings.json"
+        src = Path(d) / "sweep.csv"
+
+        def run(rows, homes):
+            json.dump(homes, open(ms.LISTINGS, "w", encoding="utf-8"))
+            with open(src, "w", newline="", encoding="utf-8") as f:
+                w = csv.DictWriter(f, fieldnames=list(rows[0]))
+                w.writeheader()
+                w.writerows(rows)
+            ms.main(src, False)
+            return {r["id"]: r for r in json.load(open(ms.LISTINGS, encoding="utf-8"))}
+
+        out = run([row], [home, other])
+        assert out["openrent-1"]["links"] == home["links"] + ["https://www.kfh.co.uk/x-52503/"], out["openrent-1"]["links"]
+        assert out["foxtons-1"]["links"] == other["links"]
+        relist = dict(row, listing_urls="https://www.openrent.co.uk/1234567|https://www.rightmove.co.uk/properties/12")
+        assert "https://www.rightmove.co.uk/properties/12" in run([relist], [home])["openrent-1"]["links"]
+        cheaper = dict(relist, monthly_rent_gbp="3500")
+        assert "https://www.rightmove.co.uk/properties/12" not in run([cheaper], [home])["openrent-1"]["links"]
+
+
 def main():
     msg = email.message_from_string(SAMPLE)
     raw, _ = ia.body_text(msg)
@@ -56,6 +91,17 @@ def main():
     fairway = [{"title": "Fairway, London SW20", "rent": 3750, "beds": 5, "baths": 2, "available": "24/10/2026"}]
     assert ia.same_home(fairway, "Raynes Park, London", 3750, 5, 2, (), "Availability date: 24 Oct 2026") is fairway[0]
     assert ia.same_home(fairway, "Raynes Park, London", 3750, 5, 2, (), "1 Nov 2026") is None
+    # Several similar homes on one street: a second advert on a portal the home is already on is another home.
+    rm = [{"id": "rightmove-1", "title": "Firstway, London SW20", "rent": 4000, "beds": 4, "baths": 2, "links": ["https://www.rightmove.co.uk/properties/1"]}]
+    assert ia.same_home(rm, "Firstway, SW20", 4000, 4, 2, ["https://www.rightmove.co.uk/properties/2"]) is None
+    assert ia.same_home(rm, "Firstway, SW20", 4000, 4, 2, ["https://www.zoopla.co.uk/to-rent/details/2/", "https://www.rightmove.co.uk/properties/2"]) is None
+    assert ia.same_home(rm, "Firstway, SW20", 3980, 4, 2, ["https://www.zoopla.co.uk/to-rent/details/2/"]) is rm[0]
+    bucharest = [{"title": "Bucharest Road, Battersea", "rent": 4995, "beds": 5, "baths": 2, "links": ["https://www.dexters.co.uk/x"]}]
+    assert ia.same_home(bucharest, "Bucharest Road, London, SW18", 5000, 5, 3, ["https://www.onthemarket.com/details/3/"]) is None
+    # The 8% price-cut rule is for portals lagging each other, not an agent's own site against a portal.
+    jacksons = [{"title": "Squarey Street", "rent": 4250, "beds": 4, "baths": 2, "links": ["https://www.jacksonsestateagents.com/properties/1/lettings"]}]
+    assert ia.same_home(jacksons, "Squarey Street, Earlsfield", 4500, 4, 2, ["https://www.zoopla.co.uk/to-rent/details/4/"]) is None
+    sweep_links()
     ia.merge_price(cut[0], 3850, "test")
     assert cut[0]["rent"] == 3850 and "£4,000 vs £3,850" in cut[0]["notes"][0], cut[0]
     import check_live as cl

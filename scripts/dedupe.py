@@ -3,7 +3,8 @@
 Usage: python scripts/dedupe.py [--dry-run]
 
 Keeps the first-added record, moves the other's links and notes onto it, and removes the other.
-A status one of us set (shortlist, viewing, applied, no) wins over "new".
+A status one of us set (shortlist, viewing, applied, no) wins over "new". Homes listed in each
+other's `not_same` are never merged.
 """
 import json
 import sys
@@ -18,7 +19,9 @@ def main(dry):
     listings = json.load(open(LISTINGS, encoding="utf-8"))
     kept, merged = [], 0
     for r in listings:
-        m = same_home(kept, r.get("title"), r.get("rent"), r.get("beds"), r.get("baths"), r.get("links", []), r.get("available")) if r["status"] != "gone" else None
+        # not_same: homes split apart by hand (split_merged.py) after being wrongly merged
+        apart = [k for k in kept if k["id"] not in r.get("not_same", []) and r["id"] not in k.get("not_same", [])]
+        m = same_home(apart, r.get("title"), r.get("rent"), r.get("beds"), r.get("baths"), r.get("links", []), r.get("available")) if r["status"] != "gone" else None
         if not m:
             kept.append(r)
             continue
