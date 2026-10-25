@@ -8,7 +8,9 @@ or has been taken down, and no other advert is live. Let agreed on one site but 
 gets a warning but stays on the list. Homes a person has moved on
 (shortlist, viewing, applied) keep their status and get a note; new ones are marked gone. A home
 the checker marked gone comes back if an advert is live again. Sites that block us are skipped.
---added only checks homes added on that date (used after a sweep).
+Homes the ChatGPT sweep says are let (sweep_gone) are checked the same way; if none of their
+adverts can be read, the sweep's word stands.
+--added only checks homes added on that date, plus any the sweep flagged (used after a sweep).
 """
 import datetime
 import json
@@ -82,9 +84,10 @@ def main():
     gone = back = checked = 0
     for home in listings:
         mine = bool(home.get("off_market"))
-        if only and home.get("added") != only:
+        flagged = home.get("sweep_gone")
+        if only and home.get("added") != only and not flagged:
             continue
-        if home.get("status") == "gone" and not mine:
+        if home.get("status") == "gone" and not mine and not flagged:
             continue
         results = {}
         for url in home.get("links") or [home.get("url")]:
@@ -104,18 +107,27 @@ def main():
             if home.get("off_market", {}).get("why") != why:
                 home["off_market"] = {"why": why, "checked": today}
                 home.setdefault("notes", []).append(f"{why} ({day}).")
-                if home["status"] not in PERSON_SET:
-                    home["status"] = "new" if live else "gone"
                 gone += 1
                 print(f"gone  {home['title'][:40]:40} {why}  {u}")
+            if home["status"] not in PERSON_SET:
+                home["status"] = "new" if live else "gone"
             home["off_market"]["checked"] = today
-        elif live and mine:
-            del home["off_market"]
+        elif live and (mine or flagged):
+            home.pop("off_market", None)
             if home["status"] == "gone":
                 home["status"] = "new"
-            home.setdefault("notes", []).append(f"Advert live again on {name(live[0])} ({day}).")
-            back += 1
-            print(f"back  {home['title'][:40]}")
+                back += 1
+                print(f"back  {home['title'][:40]}")
+            home.setdefault("notes", []).append(f"Advert live on {name(live[0])} ({day}).")
+        elif flagged and not any(results.values()):
+            # Nothing we can read (agent sites, Zoopla or OpenRent blocking us): go with the sweep.
+            why = "ChatGPT sweep says let agreed"
+            home["off_market"] = {"why": why, "checked": today}
+            if home["status"] not in PERSON_SET:
+                home["status"] = "gone"
+            gone += 1
+            print(f"gone  {home['title'][:40]:40} {why}")
+        home.pop("sweep_gone", None)
         if checked % 50 == 0:
             print(f"... {checked} homes checked")
     if "--dry-run" not in args:

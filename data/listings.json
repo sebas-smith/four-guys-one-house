@@ -1065,7 +1065,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Marked gone: advert shows removed (2026-10-18)."
+   "Marked gone: advert shows removed (2026-10-18).",
+   "Advert taken down on dexters (25 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -1079,7 +1080,11 @@
     4800,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on dexters",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "dexters-280816",
@@ -2326,7 +2331,11 @@
     3200,
     "hamptons"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-13159180",
@@ -2360,7 +2369,11 @@
     3000,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-15705926",
@@ -2394,7 +2407,11 @@
     4000,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-15981935",
@@ -2428,7 +2445,11 @@
     3500,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-18298381",
@@ -2462,7 +2483,11 @@
     4200,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-18401236",
@@ -2496,7 +2521,11 @@
     4200,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-18963461",
@@ -2530,7 +2559,11 @@
     3800,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-19102996",
@@ -2564,7 +2597,11 @@
     3800,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-19642373",
@@ -2598,7 +2635,11 @@
     4250,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-19677935",
@@ -2632,7 +2673,11 @@
     4350,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-20120146",
@@ -2666,7 +2711,11 @@
     3500,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-20199446",
@@ -2700,7 +2749,11 @@
     4000,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-20204487",
@@ -2734,7 +2787,11 @@
     3500,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-20283129",
@@ -2768,7 +2825,11 @@
     3400,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-20294896",
@@ -2779,7 +2840,7 @@
   "baths": 2,
   "available": "2026-11-20",
   "sharers": "ok",
-  "status": "gone",
+  "status": "new",
   "url": "https://www.jacksonsestateagents.com/properties/20294896/lettings",
   "links": [
    "https://www.jacksonsestateagents.com/properties/20294896/lettings",
@@ -2795,7 +2856,8 @@
    "Imported from the old ChatGPT tracker (status: unavailable).",
    "Prices differ across sites: £4,500 vs £4,250. Showing the lower; see price history.",
    "Found by ChatGPT sweep (live).",
-   "Marked gone: advert shows let agreed (2026-10-20)."
+   "Marked gone: advert shows let agreed (2026-10-20).",
+   "Advert live on Zoopla (25 Oct)."
   ],
   "checked": "2026-10-24",
   "station": {
@@ -2853,7 +2915,11 @@
     3750,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-20541304",
@@ -2887,7 +2953,11 @@
     4000,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-20627612",
@@ -2898,7 +2968,7 @@
   "baths": 3,
   "available": "Ask agent",
   "sharers": "ok",
-  "status": "gone",
+  "status": "new",
   "url": "https://www.jacksonsestateagents.com/properties/20627612/lettings",
   "links": [
    "https://www.jacksonsestateagents.com/properties/20627612/lettings",
@@ -2913,7 +2983,8 @@
    "Imported from the old ChatGPT tracker (status: unavailable).",
    "Prices differ across sites: £4,700 vs £4,500. Showing the lower; see price history.",
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-06.",
-   "Marked gone: advert shows let agreed (2026-10-20)."
+   "Marked gone: advert shows let agreed (2026-10-20).",
+   "Advert live on Rightmove (25 Oct)."
   ],
   "checked": "2026-10-24",
   "station": {
@@ -2971,7 +3042,11 @@
     4300,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-20727331",
@@ -3005,7 +3080,11 @@
     4500,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-20817008",
@@ -3039,7 +3118,11 @@
     4000,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-20835828",
@@ -3073,7 +3156,11 @@
     4500,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-20849402",
@@ -3107,7 +3194,11 @@
     4350,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-20972004",
@@ -3141,7 +3232,11 @@
     4400,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-20994488",
@@ -3189,7 +3284,11 @@
     4000,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-21101272",
@@ -3223,7 +3322,11 @@
     3600,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-21144847",
@@ -3257,7 +3360,11 @@
     4500,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-21219726",
@@ -3291,7 +3398,11 @@
     3400,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-21342545",
@@ -3325,7 +3436,11 @@
     3700,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-21361194",
@@ -3359,7 +3474,11 @@
     4100,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-21373373",
@@ -3393,7 +3512,11 @@
     3400,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-21403304",
@@ -3427,7 +3550,11 @@
     4250,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-21463969",
@@ -3463,7 +3590,11 @@
     4200,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-21552573",
@@ -3474,7 +3605,7 @@
   "baths": 2,
   "available": "2026-11-04",
   "sharers": "no",
-  "status": "gone",
+  "status": "new",
   "url": "https://www.jacksonsestateagents.com/properties/21552573/lettings",
   "links": [
    "https://www.jacksonsestateagents.com/properties/21552573/lettings",
@@ -3485,7 +3616,8 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable).",
    "Found by ChatGPT sweep (live).",
-   "Marked gone: advert shows let agreed (2026-10-20)."
+   "Marked gone: advert shows let agreed (2026-10-20).",
+   "Advert live on Zoopla (25 Oct)."
   ],
   "checked": "2026-10-24",
   "station": {
@@ -3538,7 +3670,11 @@
     4500,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-21651033",
@@ -3572,7 +3708,11 @@
     4600,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-21676569",
@@ -3639,7 +3779,11 @@
     4750,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-21888244",
@@ -3698,7 +3842,8 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-25.",
    "Advert says not suitable for sharers.",
-   "Marked gone: advert shows let agreed (2026-10-20)."
+   "Marked gone: advert shows let agreed (2026-10-20).",
+   "Advert taken down on Zoopla (25 Oct)."
   ],
   "checked": "2026-10-20",
   "station": {
@@ -3712,7 +3857,11 @@
     3800,
     "zoopla"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Zoopla",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-22054006",
@@ -3806,7 +3955,7 @@
   "baths": 1,
   "available": "",
   "sharers": "ok",
-  "status": "gone",
+  "status": "new",
   "url": "https://www.rightmove.co.uk/properties/92636115",
   "links": [
    "https://www.jacksonsestateagents.com/properties/22114280/lettings",
@@ -3819,7 +3968,8 @@
   "added": "2026-09-24",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Marked gone: advert shows removed (2026-10-18)."
+   "Marked gone: advert shows removed (2026-10-18).",
+   "Advert live on OnTheMarket (25 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -3890,7 +4040,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Marked gone: advert shows let agreed (2026-10-18)."
+   "Marked gone: advert shows let agreed (2026-10-18).",
+   "Advert taken down on Rightmove (25 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -3904,7 +4055,11 @@
     3700,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Rightmove",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "kfh-13018",
@@ -3968,7 +4123,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck).",
-   "Marked gone: advert shows removed (2026-10-18)."
+   "Marked gone: advert shows removed (2026-10-18).",
+   "Advert taken down on kfh (25 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -3982,7 +4138,11 @@
     4250,
     "kfh"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on kfh",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "kfh-39527",
@@ -4099,7 +4259,8 @@
   "added": "2026-10-10",
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck).",
-   "Marked gone: advert shows let agreed (2026-10-20)."
+   "Marked gone: advert shows let agreed (2026-10-20).",
+   "Let agreed on OpenRent (25 Oct)."
   ],
   "checked": "2026-10-20",
   "station": {
@@ -4113,7 +4274,11 @@
     3500,
     "openrent"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OpenRent",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "openrent-2684218",
@@ -4262,7 +4427,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Marked gone: advert shows removed (2026-10-18)."
+   "Marked gone: advert shows removed (2026-10-18).",
+   "Let agreed on OpenRent (25 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -4276,7 +4442,11 @@
     4500,
     "openrent"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OpenRent",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "openrent-2932231",
@@ -4351,7 +4521,7 @@
   "baths": 2,
   "available": "Now",
   "sharers": "unknown",
-  "status": "gone",
+  "status": "new",
   "url": "https://www.rightmove.co.uk/properties/89614338",
   "links": [
    "https://www.openrent.co.uk/property-to-rent/london/4-bed-terraced-house-firstway-sw20/2957437",
@@ -4376,7 +4546,8 @@
    "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-25.",
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
    "Found by ChatGPT sweep (live).",
-   "Marked gone: advert shows let agreed (2026-10-19)."
+   "Marked gone: advert shows let agreed (2026-10-19).",
+   "Let agreed on OpenRent, still live on Rightmove (25 Oct)."
   ],
   "checked": "2026-10-24",
   "station": {
@@ -4395,7 +4566,11 @@
     3800,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OpenRent, still live on Rightmove",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "openrent-2968638",
@@ -4441,7 +4616,7 @@
   "baths": 1,
   "available": "Today",
   "sharers": "ok",
-  "status": "gone",
+  "status": "new",
   "url": "https://www.rightmove.co.uk/properties/91951278",
   "links": [
    "https://www.openrent.co.uk/property-to-rent/wimbledon/4-bed-penthouse-raymond-road-sw19/2993505",
@@ -4453,7 +4628,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Marked gone: advert shows let agreed (2026-10-24)."
+   "Marked gone: advert shows let agreed (2026-10-24).",
+   "Let agreed on OpenRent, still live on OnTheMarket (25 Oct)."
   ],
   "checked": "2026-10-24",
   "station": {
@@ -4467,7 +4643,11 @@
     3520,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OpenRent, still live on OnTheMarket",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "openrent-2995888",
@@ -4566,7 +4746,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Marked gone: advert shows removed; results-page evidence only (2026-10-18)."
+   "Marked gone: advert shows removed; results-page evidence only (2026-10-18).",
+   "Let agreed on OpenRent (25 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -4580,7 +4761,11 @@
     3985,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OpenRent",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "openrent-3008276",
@@ -5500,7 +5685,8 @@
   "added": "2026-10-10",
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck).",
-   "Marked gone: advert shows removed (2026-10-18)."
+   "Marked gone: advert shows removed (2026-10-18).",
+   "Let agreed on OpenRent (25 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -5514,7 +5700,11 @@
     4950,
     "openrent"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OpenRent",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "openrent-3066398",
@@ -5713,7 +5903,8 @@
   "added": "2026-09-24",
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck).",
-   "Marked gone: advert shows removed (2026-10-18)."
+   "Marked gone: advert shows removed (2026-10-18).",
+   "Advert taken down on Rightmove (25 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -5727,7 +5918,11 @@
     4500,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Rightmove",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "rightmove-174780059",
@@ -5949,7 +6144,8 @@
   "added": "2026-09-24",
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck).",
-   "Marked gone: advert shows removed (2026-10-18)."
+   "Marked gone: advert shows removed (2026-10-18).",
+   "Advert taken down on Rightmove (25 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -5963,7 +6159,11 @@
     4100,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Rightmove",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "rightmove-90773613",
@@ -6156,7 +6356,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck).",
-   "Marked gone: advert shows removed (2026-10-18)."
+   "Marked gone: advert shows removed (2026-10-18).",
+   "Advert taken down on Rightmove (25 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -6170,7 +6371,11 @@
     4800,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Rightmove",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "rightmove-91826298",
@@ -6710,7 +6915,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck).",
-   "Marked gone: advert shows removed (2026-10-18)."
+   "Marked gone: advert shows removed (2026-10-18).",
+   "Advert taken down on Rightmove (25 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -6724,7 +6930,11 @@
     3750,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Rightmove",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "rightmove-92343588",
@@ -7210,7 +7420,8 @@
   "added": "2026-09-24",
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck).",
-   "Marked gone: advert shows removed (2026-10-18)."
+   "Marked gone: advert shows removed (2026-10-18).",
+   "Let agreed on OpenRent (25 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -7224,7 +7435,11 @@
     4300,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OpenRent",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "rightmove-92961600",
@@ -7418,7 +7633,7 @@
   "baths": 2,
   "available": "2026-11-20",
   "sharers": "unknown",
-  "status": "gone",
+  "status": "new",
   "url": "https://www.rightmove.co.uk/properties/93149787",
   "links": [
    "https://www.rightmove.co.uk/properties/93149787",
@@ -7812,7 +8027,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
-   "Marked gone: advert shows let agreed (2026-10-18)."
+   "Marked gone: advert shows let agreed (2026-10-18).",
+   "Let agreed on Rightmove (25 Oct)."
   ],
   "checked": "2026-10-21",
   "station": {
@@ -7826,7 +8042,11 @@
     4000,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "rightmove-93439104",
@@ -7847,7 +8067,8 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck).",
    "Price changed from £3,500 to £3,200 (2026-10-18).",
-   "Marked gone: advert shows let agreed; bedroom count below current scope (2026-10-18)."
+   "Marked gone: advert shows let agreed; bedroom count below current scope (2026-10-18).",
+   "Let agreed on Rightmove (25 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -7866,7 +8087,11 @@
     3200,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "rightmove-93482223",
@@ -7886,7 +8111,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck).",
-   "Marked gone: advert shows removed (2026-10-18)."
+   "Marked gone: advert shows removed (2026-10-18).",
+   "Advert taken down on Rightmove (25 Oct)."
   ],
   "checked": "2026-10-18",
   "prices": [
@@ -7895,7 +8121,11 @@
     3800,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Rightmove",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "rightmove-93486795",
@@ -8221,7 +8451,8 @@
   "added": "2026-09-29",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-29.",
-   "Marked gone: advert shows removed (2026-10-18)."
+   "Marked gone: advert shows removed (2026-10-18).",
+   "Advert taken down on Rightmove (25 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -8235,7 +8466,11 @@
     3800,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Rightmove",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "rightmove-93718776",
@@ -9018,7 +9253,8 @@
   "added": "2026-10-13",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-13.",
-   "Marked gone: advert shows let agreed (2026-10-18)."
+   "Marked gone: advert shows let agreed (2026-10-18).",
+   "Let agreed on Rightmove (25 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -9032,7 +9268,11 @@
     4250,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "rightmove-94244127",
@@ -9135,7 +9375,8 @@
   "added": "2026-09-27",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-08.",
-   "Marked gone: advert shows removed (2026-10-20)."
+   "Marked gone: advert shows removed (2026-10-20).",
+   "Advert taken down on Zoopla (25 Oct)."
   ],
   "checked": "2026-10-20",
   "station": {
@@ -9149,7 +9390,11 @@
     4151,
     "zoopla"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Zoopla",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "zoopla-59608909",
@@ -9245,7 +9490,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified).",
-   "Marked gone: advert shows let agreed (2026-10-20)."
+   "Marked gone: advert shows let agreed (2026-10-20).",
+   "Let agreed on Zoopla (25 Oct)."
   ],
   "prices": [
    [
@@ -9254,7 +9500,11 @@
     "zoopla"
    ]
   ],
-  "checked": "2026-10-20"
+  "checked": "2026-10-20",
+  "off_market": {
+   "why": "Let agreed on Zoopla",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "zoopla-62446141",
@@ -9382,7 +9632,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified).",
-   "Marked gone: advert shows let agreed (2026-10-20)."
+   "Marked gone: advert shows let agreed (2026-10-20).",
+   "Let agreed on Zoopla (25 Oct)."
   ],
   "prices": [
    [
@@ -9391,7 +9642,11 @@
     "zoopla"
    ]
   ],
-  "checked": "2026-10-20"
+  "checked": "2026-10-20",
+  "off_market": {
+   "why": "Let agreed on Zoopla",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "zoopla-67931722",
@@ -9617,7 +9872,8 @@
   "added": "2026-10-06",
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck).",
-   "Marked gone: advert shows removed (2026-10-18)."
+   "Marked gone: advert shows removed (2026-10-18).",
+   "Advert taken down on Rightmove (25 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -9631,7 +9887,11 @@
     4300,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Rightmove",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "zoopla-70347757",
@@ -9951,7 +10211,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Marked gone: advert shows removed (2026-10-20)."
+   "Marked gone: advert shows removed (2026-10-20).",
+   "Advert taken down on Zoopla (25 Oct)."
   ],
   "checked": "2026-10-20",
   "prices": [
@@ -9960,7 +10221,11 @@
     4600,
     "zoopla"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Zoopla",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "zoopla-73508206",
@@ -9980,7 +10245,8 @@
   "added": "2026-09-24",
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck).",
-   "Marked gone: advert shows removed (2026-10-20)."
+   "Marked gone: advert shows removed (2026-10-20).",
+   "Advert taken down on Zoopla (25 Oct)."
   ],
   "checked": "2026-10-20",
   "station": {
@@ -9994,7 +10260,11 @@
     4250,
     "zoopla"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Zoopla",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "zoopla-73544808",
@@ -10052,7 +10322,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Marked gone: advert shows let agreed (2026-10-18)."
+   "Marked gone: advert shows let agreed (2026-10-18).",
+   "Let agreed on Zoopla (25 Oct)."
   ],
   "checked": "2026-10-18",
   "prices": [
@@ -10061,7 +10332,11 @@
     3000,
     "zoopla"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Zoopla",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "zoopla-73595338",
@@ -10083,7 +10358,8 @@
    "Imported from the old ChatGPT tracker (status: recheck).",
    "Availability: 21 September 2026, this beautifully renovated contemporary family \"smart\" home has been ...Listed on 6th Jun 2026 Reduced】",
    "Price changed from £3,500 to £3,200 (2026-10-18).",
-   "Marked gone: advert shows let agreed; bedroom count below current scope (2026-10-18)."
+   "Marked gone: advert shows let agreed; bedroom count below current scope (2026-10-18).",
+   "Let agreed on Zoopla (25 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -10102,7 +10378,11 @@
     3200,
     "zoopla"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Zoopla",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "zoopla-73724502",
@@ -10329,7 +10609,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Marked gone: advert shows let agreed (2026-10-18)."
+   "Marked gone: advert shows let agreed (2026-10-18).",
+   "Let agreed on Zoopla (25 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -10343,7 +10624,11 @@
     3599,
     "zoopla"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Zoopla",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "zoopla-73849075",
@@ -10364,7 +10649,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Marked gone: advert shows removed (2026-10-18)."
+   "Marked gone: advert shows removed (2026-10-18).",
+   "Advert taken down on Rightmove (25 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -10378,7 +10664,11 @@
     4950,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Rightmove",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "zoopla-73877978",
@@ -10398,7 +10688,8 @@
   "added": "2026-09-24",
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck).",
-   "Marked gone: advert shows removed (2026-10-20)."
+   "Marked gone: advert shows removed (2026-10-20).",
+   "Advert taken down on Zoopla (25 Oct)."
   ],
   "checked": "2026-10-20",
   "station": {
@@ -10412,7 +10703,11 @@
     3400,
     "zoopla"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Zoopla",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "zoopla-73878805",
@@ -10506,7 +10801,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Marked gone: advert shows removed (2026-10-18)."
+   "Marked gone: advert shows removed (2026-10-18).",
+   "Advert taken down on Rightmove (25 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -10520,7 +10816,11 @@
     4000,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Rightmove",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "zoopla-73914959",
@@ -10618,7 +10918,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Marked gone: advert shows let agreed (2026-10-18)."
+   "Marked gone: advert shows let agreed (2026-10-18).",
+   "Let agreed on Rightmove (25 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -10632,7 +10933,11 @@
     4500,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "zoopla-73947611",
@@ -10653,7 +10958,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Marked gone: advert shows removed (2026-10-18)."
+   "Marked gone: advert shows removed (2026-10-18).",
+   "Advert taken down on Rightmove (25 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -10667,7 +10973,11 @@
     4800,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Rightmove",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "zoopla-73960794",
@@ -10890,7 +11200,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Marked gone: advert shows removed (2026-10-18)."
+   "Marked gone: advert shows removed (2026-10-18).",
+   "Advert taken down on Rightmove (25 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -10904,7 +11215,11 @@
     5000,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Rightmove",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "zoopla-74014225",
@@ -11181,7 +11496,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Marked gone: advert shows removed (2026-10-20)."
+   "Marked gone: advert shows removed (2026-10-20).",
+   "Advert taken down on Zoopla (25 Oct)."
   ],
   "checked": "2026-10-20",
   "station": {
@@ -11195,7 +11511,11 @@
     4400,
     "zoopla"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Zoopla",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "zoopla-74121318",
@@ -11216,7 +11536,8 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck).",
    "Availability: 19 October 2026 - ...Listed on 22nd Sep 2026】",
-   "Marked gone: advert shows removed (2026-10-20)."
+   "Marked gone: advert shows removed (2026-10-20).",
+   "Advert taken down on Zoopla (25 Oct)."
   ],
   "checked": "2026-10-20",
   "station": {
@@ -11230,7 +11551,11 @@
     3500,
     "zoopla"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Zoopla",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "zoopla-74154343",
@@ -11250,7 +11575,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Marked gone: advert shows removed (2026-10-20)."
+   "Marked gone: advert shows removed (2026-10-20).",
+   "Advert taken down on Zoopla (25 Oct)."
   ],
   "checked": "2026-10-20",
   "station": {
@@ -11264,7 +11590,11 @@
     4600,
     "zoopla"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Zoopla",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "zoopla-74161959",
@@ -11373,7 +11703,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Marked gone: advert shows removed (2026-10-20)."
+   "Marked gone: advert shows removed (2026-10-20).",
+   "Advert taken down on Zoopla (25 Oct)."
   ],
   "checked": "2026-10-20",
   "station": {
@@ -11387,7 +11718,11 @@
     3800,
     "zoopla"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Zoopla",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "zoopla-74180853",
@@ -11676,7 +12011,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Marked gone: advert shows removed (2026-10-18)."
+   "Marked gone: advert shows removed (2026-10-18).",
+   "Advert taken down on Rightmove (25 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -11690,7 +12026,11 @@
     4250,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Rightmove",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "zoopla-74240021",
@@ -11752,7 +12092,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Marked gone: advert shows let agreed (2026-10-18)."
+   "Marked gone: advert shows let agreed (2026-10-18).",
+   "Let agreed on Zoopla (25 Oct)."
   ],
   "checked": "2026-10-18",
   "prices": [
@@ -11761,7 +12102,11 @@
     4800,
     "zoopla"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Zoopla",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "zoopla-74257661",
@@ -11932,7 +12277,8 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
    "Price changed from £4,100 to £3,900 (2026-10-18).",
-   "Marked gone: advert shows let agreed (2026-10-18)."
+   "Marked gone: advert shows let agreed (2026-10-18).",
+   "Let agreed on Zoopla (25 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -11951,7 +12297,11 @@
     3900,
     "zoopla"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Zoopla",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "zoopla-74291621",
@@ -11972,7 +12322,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Marked gone: advert shows removed (2026-10-18)."
+   "Marked gone: advert shows removed (2026-10-18).",
+   "Advert taken down on Rightmove (25 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -11986,7 +12337,11 @@
     5000,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Rightmove",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "zoopla-74292204",
@@ -12048,7 +12403,8 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
    "Price changed from £3,600 to £3,500 (2026-10-21).",
-   "Marked gone: advert shows let agreed (2026-10-23)."
+   "Marked gone: advert shows let agreed (2026-10-23).",
+   "Let agreed on Rightmove (25 Oct)."
   ],
   "checked": "2026-10-23",
   "station": {
@@ -12067,7 +12423,11 @@
     3500,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "zoopla-74306479",
@@ -12124,7 +12484,8 @@
   "added": "2026-09-24",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
-   "Marked gone: advert shows removed (2026-10-18)."
+   "Marked gone: advert shows removed (2026-10-18).",
+   "Advert taken down on Rightmove (25 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -12138,7 +12499,11 @@
     4500,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Rightmove",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "zoopla-74314846",
@@ -12159,7 +12524,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Marked gone: advert shows removed (2026-10-18)."
+   "Marked gone: advert shows removed (2026-10-18).",
+   "Advert taken down on Rightmove (25 Oct)."
   ],
   "checked": "2026-10-18",
   "station": {
@@ -12173,7 +12539,11 @@
     4500,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Rightmove",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "zoopla-74315383",
@@ -12450,7 +12820,8 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-06.",
    "Availability: 30 October 2026 (header); prose also says immediately, subject to referencing",
-   "Marked gone: advert shows let agreed (2026-10-22)."
+   "Marked gone: advert shows let agreed (2026-10-22).",
+   "Let agreed on Rightmove (25 Oct)."
   ],
   "checked": "2026-10-22",
   "station": {
@@ -12464,7 +12835,11 @@
     3650,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "zoopla-74459311",
@@ -13517,7 +13892,7 @@
   "baths": 2,
   "available": "Available now",
   "sharers": "unknown",
-  "status": "gone",
+  "status": "new",
   "url": "https://www.onthemarket.com/details/20530138/",
   "links": [
    "https://www.onthemarket.com/details/20530138/",
@@ -13529,7 +13904,8 @@
   "checked": "2026-10-22",
   "notes": [
    "Found by ChatGPT sweep (live).",
-   "Marked gone: advert shows removed (2026-10-22)."
+   "Marked gone: advert shows removed (2026-10-22).",
+   "Advert live on OnTheMarket (25 Oct)."
   ],
   "station": {
    "name": "Clapham Common",
@@ -13617,7 +13993,11 @@
     4150,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-21623351",
@@ -13651,7 +14031,11 @@
     4000,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "rightmove-93456366",
@@ -13790,7 +14174,11 @@
     5000,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "rightmove-92975328",
@@ -13932,7 +14320,11 @@
     4750,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "rightmove-93851427",
@@ -14190,7 +14582,11 @@
     5000,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "onthemarket-20361129",
@@ -14239,7 +14635,7 @@
   "baths": 2,
   "available": "2027-10-07",
   "sharers": "unknown",
-  "status": "gone",
+  "status": "new",
   "url": "https://www.rightmove.co.uk/properties/93328425",
   "links": [
    "https://www.onthemarket.com/details/20370358/",
@@ -14461,7 +14857,11 @@
     4200,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "onthemarket-20231361",
@@ -14533,7 +14933,11 @@
     4100,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "dexters-286100",
@@ -15612,7 +16016,11 @@
     4500,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "onthemarket-20074244",
@@ -16050,7 +16458,11 @@
     5000,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "zoopla-74509837",
@@ -16810,7 +17222,7 @@
   "baths": 2,
   "available": "2026-08-17",
   "sharers": "unknown",
-  "status": "gone",
+  "status": "new",
   "url": "https://www.onthemarket.com/details/20040553/",
   "links": [
    "https://www.onthemarket.com/details/20040553/"
@@ -16820,7 +17232,8 @@
   "checked": "2026-10-22",
   "notes": [
    "Found by ChatGPT sweep (live).",
-   "Marked gone: advert shows removed (2026-10-22)."
+   "Marked gone: advert shows removed (2026-10-22).",
+   "Advert live on OnTheMarket (25 Oct)."
   ],
   "station": {
    "name": "Tooting Broadway",
@@ -17186,7 +17599,11 @@
     4500,
     "jacksonsestateagents"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "onthemarket-20382446",
@@ -17313,7 +17730,8 @@
   "checked": "2026-10-22",
   "notes": [
    "Found by ChatGPT sweep (live).",
-   "Marked gone: advert shows removed (2026-10-22)."
+   "Marked gone: advert shows removed (2026-10-22).",
+   "Advert taken down on Zoopla (25 Oct)."
   ],
   "prices": [
    [
@@ -17321,7 +17739,11 @@
     3400,
     "zoopla"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Advert taken down on Zoopla",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "zoopla-74443790",
@@ -17676,7 +18098,7 @@
   "baths": null,
   "available": "2026-11-12",
   "sharers": "ok",
-  "status": "gone",
+  "status": "new",
   "url": "https://www.onthemarket.com/details/20365669/",
   "links": [
    "https://www.onthemarket.com/details/20365669/"
@@ -17686,7 +18108,8 @@
   "checked": "2026-10-22",
   "notes": [
    "Found by ChatGPT sweep (live).",
-   "Marked gone: advert shows removed (2026-10-22)."
+   "Marked gone: advert shows removed (2026-10-22).",
+   "Advert live on OnTheMarket (25 Oct)."
   ],
   "station": {
    "name": "Clapham South",

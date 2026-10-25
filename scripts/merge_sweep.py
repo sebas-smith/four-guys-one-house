@@ -4,7 +4,8 @@ Usage: python scripts/merge_sweep.py path/to/housing-sweep.csv [--dry-run]
 
 Matches homes by id or by any shared portal listing link. Updates rent, availability,
 links and status from the sweep. Never overrides a status a person set (shortlist,
-viewing, applied, no), except to record in a note that the advert has gone.
+viewing, applied, no). When the sweep says let agreed or removed, the home is only flagged
+(sweep_gone); check_live.py opens the adverts and decides.
 """
 import csv
 import json
@@ -133,15 +134,15 @@ def main(src, dry):
             elif row["sharer_suitability"] == "excluded":
                 match["sharers"] = "no"
             if status == "gone" and match["status"] != "gone":
-                if match["status"] in PERSON_SET:
-                    note(f"Advert shows {row['status']} ({checked}).")
-                else:
-                    match["status"] = "gone"
-                    note(f"Marked gone: advert shows {row['status']} ({checked}).")
+                # The sweep sometimes reads a different advert for the same street, so check_live.py
+                # opens the adverts itself before anything is marked gone.
+                note(f"ChatGPT sweep says {row['status']} ({checked}).")
+                match["sweep_gone"] = checked
                 gone += 1
-            elif match["status"] not in PERSON_SET and match["status"] != status and not match.get("off_market"):
+            elif status != "gone" and match["status"] not in PERSON_SET and match["status"] != status and not match.get("off_market"):
                 # check_live.py read the advert itself; trust that over the sweep saying live
                 match["status"] = status
+                match.pop("sweep_gone", None)
             match["checked"] = checked
             updated += 1
         else:
@@ -165,7 +166,7 @@ def main(src, dry):
 
     if not dry:
         json.dump(listings, open(LISTINGS, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
-    print(f"{len(rows)} sweep rows: {added} added, {updated} updated ({gone} newly gone). Total {len(listings)}.")
+    print(f"{len(rows)} sweep rows: {added} added, {updated} updated ({gone} said to be gone, to check). Total {len(listings)}.")
 
 
 if __name__ == "__main__":
