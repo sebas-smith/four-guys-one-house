@@ -9,7 +9,7 @@ Site: https://sebas-smith.github.io/four-guys-one-house/
 
 - Areas: Putney, Southfields, Earlsfield, Wandsworth, Tooting, Balham, Wimbledon, Raynes Park,
   Clapham South borders, Fulham, Hammersmith.
-- Roehampton too.
+- Roehampton too. Edges inside the drawn area (Battersea, West Kensington/Barons Court W14) are fine.
 - Excluded: Isleworth, Osterley, New Malden, Hounslow, Twickenham, Whitton (TW and KT3 postcodes).
 - Whole property, 4+ bedrooms, £3,000 to £5,000 pcm tracked (recommend up to £4,800).
 
