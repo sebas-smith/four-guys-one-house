@@ -1569,7 +1569,8 @@
   "added": "2026-10-13",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-13.",
-   "Imported from the old ChatGPT tracker (status: recheck)."
+   "Imported from the old ChatGPT tracker (status: recheck).",
+   "Advert live on OnTheMarket (25 Oct)."
   ],
   "checked": "2026-10-19",
   "station": {
@@ -2838,26 +2839,20 @@
   "rent": 4250,
   "beds": 4,
   "baths": 2,
-  "available": "2026-11-20",
+  "available": "",
   "sharers": "ok",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.jacksonsestateagents.com/properties/20294896/lettings",
   "links": [
-   "https://www.jacksonsestateagents.com/properties/20294896/lettings",
-   "https://www.zoopla.co.uk/to-rent/details/74500221/",
-   "https://www.onthemarket.com/details/20545150/",
-   "https://www.rightmove.co.uk/properties/94271229",
-   "https://www.jacksonsestateagents.com/properties/21403304/lettings",
-   "https://www.kfh.co.uk/property-to-rent/4-bedroom-terraced-house-to-rent-in-squarey-street-earlsfield-london-sw17-89927/"
+   "https://www.jacksonsestateagents.com/properties/20294896/lettings"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable).",
-   "Prices differ across sites: £4,500 vs £4,250. Showing the lower; see price history.",
    "Found by ChatGPT sweep (live).",
    "Marked gone: advert shows let agreed (2026-10-20).",
-   "Advert live on Zoopla (25 Oct)."
+   "Split off rightmove-94271229 (25 Oct): Jacksons' Squarey Street house (let) and KFH's (refurbished, live) are different houses."
   ],
   "checked": "2026-10-24",
   "station": {
@@ -2867,21 +2862,18 @@
   },
   "prices": [
    [
-    "2026-10-18",
-    4500,
-    "zoopla"
-   ],
-   [
-    "2026-10-18",
+    "2026-09-25",
     4250,
     "jacksonsestateagents"
-   ],
-   [
-    "2026-10-19",
-    4250,
-    "rightmove"
    ]
-  ]
+  ],
+  "not_same": [
+   "rightmove-94271229"
+  ],
+  "off_market": {
+   "why": "Let agreed on Jacksons",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-20325264",
@@ -2968,23 +2960,18 @@
   "baths": 3,
   "available": "Ask agent",
   "sharers": "ok",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.jacksonsestateagents.com/properties/20627612/lettings",
   "links": [
-   "https://www.jacksonsestateagents.com/properties/20627612/lettings",
-   "https://www.dexters.co.uk/property-for-rent/house-to-rent-in-garratt-lane-london-sw17/285401",
-   "https://www.rightmove.co.uk/properties/93951570",
-   "https://www.zoopla.co.uk/to-rent/details/74425759/",
-   "https://www.onthemarket.com/details/20480305/"
+   "https://www.jacksonsestateagents.com/properties/20627612/lettings"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable).",
-   "Prices differ across sites: £4,700 vs £4,500. Showing the lower; see price history.",
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-06.",
    "Marked gone: advert shows let agreed (2026-10-20).",
-   "Advert live on Rightmove (25 Oct)."
+   "Split off rightmove-93951570 (25 Oct): Jacksons' Garratt Lane house (let, £4,500) and Dexters' (live, £4,700) are different houses."
   ],
   "checked": "2026-10-24",
   "station": {
@@ -2994,21 +2981,18 @@
   },
   "prices": [
    [
-    "2026-10-18",
-    4700,
-    "rightmove"
-   ],
-   [
-    "2026-10-18",
+    "2026-09-25",
     4500,
     "jacksonsestateagents"
-   ],
-   [
-    "2026-10-19",
-    4500,
-    "rightmove"
    ]
-  ]
+  ],
+  "not_same": [
+   "rightmove-93951570"
+  ],
+  "off_market": {
+   "why": "Let agreed on Jacksons",
+   "checked": "2026-10-25"
+  }
  },
  {
   "id": "jacksons-20715386",
@@ -4531,13 +4515,6 @@
    "https://www.zoopla.co.uk/to-rent/details/74056219/",
    "https://www.onthemarket.com/details/19704689/",
    "https://www.onthemarket.com/details/20198775/",
-   "https://www.rightmove.co.uk/properties/94224747",
-   "https://www.foxtons.co.uk/properties-to-rent/sw20/chpk2578916",
-   "https://www.rightmove.co.uk/properties/94224756",
-   "https://www.onthemarket.com/details/20528766/",
-   "https://www.onthemarket.com/details/20528767/",
-   "https://www.zoopla.co.uk/to-rent/details/74488367/",
-   "https://www.zoopla.co.uk/to-rent/details/74488368/",
    "https://www.kfh.co.uk/property-to-rent/4-bedroom-terraced-apartment-to-rent-in-firstway-london-sw20-52503/"
   ],
   "source": "import",
@@ -4547,7 +4524,8 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
    "Found by ChatGPT sweep (live).",
    "Marked gone: advert shows let agreed (2026-10-19).",
-   "Let agreed on OpenRent, still live on Rightmove (25 Oct)."
+   "Let agreed on OpenRent, still live on Rightmove (25 Oct).",
+   "Removed adverts of another home (25 Oct): the Foxtons Firstway house (£4,000, short let £5,000) is a different house."
   ],
   "checked": "2026-10-24",
   "station": {
@@ -7638,7 +7616,6 @@
   "links": [
    "https://www.rightmove.co.uk/properties/93149787",
    "https://www.onthemarket.com/details/9679602/",
-   "https://www.onthemarket.com/details/18656989/",
    "https://search.savills.com/property-detail/gbpurepul200095l",
    "https://www.zoopla.co.uk/to-rent/details/62855339/"
   ],
@@ -7647,8 +7624,9 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-10.",
    "Found by ChatGPT sweep (live).",
-   "Let agreed on OnTheMarket, still live on Rightmove (18 Oct).",
-   "Marked gone: advert shows let agreed (2026-10-19)."
+   "Marked gone: advert shows let agreed (2026-10-19).",
+   "Split off onthemarket-18656989 (25 Oct): KFH's let-agreed Sefton Street advert is an older, different letting from Savills' live one.",
+   "Advert live on Rightmove (25 Oct)."
   ],
   "checked": "2026-10-24",
   "station": {
@@ -7668,10 +7646,9 @@
     "search"
    ]
   ],
-  "off_market": {
-   "why": "Let agreed on OnTheMarket, still live on Rightmove",
-   "checked": "2026-10-25"
-  }
+  "not_same": [
+   "onthemarket-18656989"
+  ]
  },
  {
   "id": "rightmove-93248712",
@@ -14641,8 +14618,6 @@
    "https://www.onthemarket.com/details/20370358/",
    "https://www.rightmove.co.uk/properties/93328425",
    "https://www.zoopla.co.uk/to-rent/details/74280381/",
-   "https://www.onthemarket.com/details/19872255/",
-   "https://www.rightmove.co.uk/properties/90541779",
    "https://www.dexters.co.uk/property-for-rent/property-to-rent-in-bucharest-road-london-sw18/284327"
   ],
   "source": "sweep",
@@ -14650,10 +14625,10 @@
   "checked": "2026-10-20",
   "notes": [
    "Found by ChatGPT sweep (live).",
-   "Found by ChatGPT sweep (live; conflicting let-agreed advert).",
    "Found by ChatGPT sweep (live; results-page evidence only).",
-   "Let agreed on OnTheMarket, still live on OnTheMarket (18 Oct).",
-   "Marked gone: advert shows let agreed (2026-10-20)."
+   "Marked gone: advert shows let agreed (2026-10-20).",
+   "Split off onthemarket-19872255 (25 Oct): John D Wood's Bucharest Road house (3 baths, let) and Dexters' (2 baths, live) are different houses.",
+   "Advert live on OnTheMarket (25 Oct)."
   ],
   "station": {
    "name": "Earlsfield",
@@ -14662,9 +14637,9 @@
   },
   "prices": [
    [
-    "",
+    "2026-10-18",
     4995,
-    ""
+    "onthemarket"
    ],
    [
     "2026-10-20",
@@ -14672,10 +14647,9 @@
     "rightmove"
    ]
   ],
-  "off_market": {
-   "why": "Let agreed on OnTheMarket, still live on OnTheMarket",
-   "checked": "2026-10-25"
-  }
+  "not_same": [
+   "onthemarket-19872255"
+  ]
  },
  {
   "id": "onthemarket-19830945",
@@ -19445,6 +19419,177 @@
    "name": "South Wimbledon",
    "kind": "Tube",
    "walk": 6
+  }
+ },
+ {
+  "id": "rightmove-94271229",
+  "title": "Squarey Street, Earlsfield, London, SW17",
+  "area": "Tooting",
+  "rent": 4300,
+  "beds": 4,
+  "baths": 2,
+  "available": "2026-11-20",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/94271229",
+  "links": [
+   "https://www.rightmove.co.uk/properties/94271229",
+   "https://www.zoopla.co.uk/to-rent/details/74500221/",
+   "https://www.onthemarket.com/details/20545150/",
+   "https://www.kfh.co.uk/property-to-rent/4-bedroom-terraced-house-to-rent-in-squarey-street-earlsfield-london-sw17-89927/"
+  ],
+  "source": "import",
+  "added": "2026-10-18",
+  "checked": "2026-10-24",
+  "notes": [
+   "Found by ChatGPT sweep (live).",
+   "Advert live on Zoopla (25 Oct).",
+   "Split from jacksons-20294896 (25 Oct): Jacksons' Squarey Street house (let) and KFH's (refurbished, live) are different houses.",
+   "Advert live on Rightmove (25 Oct)."
+  ],
+  "prices": [
+   [
+    "2026-10-18",
+    4500,
+    "zoopla"
+   ],
+   [
+    "2026-10-19",
+    4300,
+    "rightmove"
+   ]
+  ],
+  "not_same": [
+   "jacksons-20294896"
+  ],
+  "station": {
+   "name": "Earlsfield",
+   "kind": "Rail",
+   "walk": 17
+  }
+ },
+ {
+  "id": "rightmove-93951570",
+  "title": "Garratt Lane, Tooting, SW17",
+  "area": "Tooting",
+  "rent": 4700,
+  "beds": 4,
+  "baths": 3,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/93951570",
+  "links": [
+   "https://www.rightmove.co.uk/properties/93951570",
+   "https://www.onthemarket.com/details/20480305/",
+   "https://www.zoopla.co.uk/to-rent/details/74425759/",
+   "https://www.dexters.co.uk/property-for-rent/house-to-rent-in-garratt-lane-london-sw17/285401"
+  ],
+  "source": "import",
+  "added": "2026-09-25",
+  "checked": "2026-10-24",
+  "notes": [
+   "Advert live on Rightmove (25 Oct).",
+   "Split from jacksons-20627612 (25 Oct): Jacksons' Garratt Lane house (let, £4,500) and Dexters' (live, £4,700) are different houses.",
+   "Advert live on Rightmove (25 Oct)."
+  ],
+  "prices": [
+   [
+    "2026-10-18",
+    4700,
+    "rightmove"
+   ]
+  ],
+  "not_same": [
+   "jacksons-20627612"
+  ],
+  "station": {
+   "name": "Haydons Road",
+   "kind": "Rail",
+   "walk": 15
+  }
+ },
+ {
+  "id": "onthemarket-18656989",
+  "title": "Sefton Street, West Putney, London, SW15",
+  "area": "Putney",
+  "rent": 4500,
+  "beds": 4,
+  "baths": 2,
+  "available": "",
+  "sharers": "unknown",
+  "status": "gone",
+  "url": "https://www.onthemarket.com/details/18656989/",
+  "links": [
+   "https://www.onthemarket.com/details/18656989/"
+  ],
+  "source": "import",
+  "added": "2026-10-18",
+  "checked": "2026-10-24",
+  "notes": [
+   "Let agreed on OnTheMarket, still live on Rightmove (18 Oct).",
+   "Split from rightmove-93149787 (25 Oct): KFH's let-agreed Sefton Street advert is an older, different letting from Savills' live one."
+  ],
+  "prices": [
+   [
+    "2026-10-18",
+    4500,
+    "onthemarket"
+   ]
+  ],
+  "not_same": [
+   "rightmove-93149787"
+  ],
+  "station": {
+   "name": "Barnes",
+   "kind": "Rail",
+   "walk": 17
+  },
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-25"
+  }
+ },
+ {
+  "id": "onthemarket-19872255",
+  "title": "Bucharest Road, London, SW18",
+  "area": "Earlsfield",
+  "rent": 5000,
+  "beds": 5,
+  "baths": 3,
+  "available": "",
+  "sharers": "unknown",
+  "status": "gone",
+  "url": "https://www.rightmove.co.uk/properties/90541779",
+  "links": [
+   "https://www.onthemarket.com/details/19872255/",
+   "https://www.rightmove.co.uk/properties/90541779"
+  ],
+  "source": "sweep",
+  "added": "2026-10-18",
+  "checked": "2026-10-20",
+  "notes": [
+   "Let agreed on OnTheMarket, still live on OnTheMarket (18 Oct).",
+   "Split from rightmove-93328425 (25 Oct): John D Wood's Bucharest Road house (3 baths, let) and Dexters' (2 baths, live) are different houses."
+  ],
+  "prices": [
+   [
+    "2026-10-18",
+    5000,
+    "onthemarket"
+   ]
+  ],
+  "not_same": [
+   "rightmove-93328425"
+  ],
+  "station": {
+   "name": "Earlsfield",
+   "kind": "Rail",
+   "walk": 13
+  },
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-25"
   }
  }
 ]
