@@ -1241,7 +1241,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -1279,7 +1279,7 @@
    "Price changed from £3,900 to £3,500 (2026-10-18).",
    "Price changed from £3,500 to £3,495 (2026-10-19)."
   ],
-  "checked": "2026-10-23",
+  "checked": "2026-10-25",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -1424,7 +1424,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "station": {
    "name": "Barnes",
    "kind": "Rail",
@@ -1570,9 +1570,11 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-13.",
    "Imported from the old ChatGPT tracker (status: recheck).",
+   "Advert live on OnTheMarket (25 Oct).",
+   "ChatGPT sweep says removed (2026-10-25).",
    "Advert live on OnTheMarket (25 Oct)."
   ],
-  "checked": "2026-10-19",
+  "checked": "2026-10-25",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -3226,7 +3228,7 @@
   "id": "jacksons-20994488",
   "title": "Franciscan Road",
   "area": "Tooting",
-  "rent": 4000,
+  "rent": 3800,
   "beds": 4,
   "baths": 2,
   "available": "",
@@ -3244,9 +3246,10 @@
    "Prices differ across sites: £4,000 vs £3,800. Showing the lower; see price history.",
    "Found by ChatGPT sweep (live).",
    "Price changed from £3,800 to £4,000 (2026-10-19).",
-   "Marked gone: advert shows let agreed (2026-10-20)."
+   "Marked gone: advert shows let agreed (2026-10-20).",
+   "Price changed from £4,000 to £3,800 (2026-10-25)."
   ],
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -3266,6 +3269,11 @@
    [
     "2026-10-19",
     4000,
+    "jacksonsestateagents"
+   ],
+   [
+    "2026-10-25",
+    3800,
     "jacksonsestateagents"
    ]
   ],
@@ -3544,7 +3552,7 @@
   "id": "jacksons-21463969",
   "title": "Ashvale Road",
   "area": "Tooting",
-  "rent": 4200,
+  "rent": 4151,
   "beds": 4,
   "baths": 2,
   "available": "",
@@ -3560,9 +3568,10 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable).",
    "Found by ChatGPT sweep (live).",
-   "Marked gone: advert shows let agreed (2026-10-20)."
+   "Marked gone: advert shows let agreed (2026-10-20).",
+   "Price changed from £4,200 to £4,151 (2026-10-25)."
   ],
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -3572,6 +3581,11 @@
    [
     "2026-09-25",
     4200,
+    "jacksonsestateagents"
+   ],
+   [
+    "2026-10-25",
+    4151,
     "jacksonsestateagents"
    ]
   ],
@@ -3603,7 +3617,7 @@
    "Marked gone: advert shows let agreed (2026-10-20).",
    "Advert live on Zoopla (25 Oct)."
   ],
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "station": {
    "name": "Tooting Bec",
    "kind": "Tube",
@@ -3953,9 +3967,11 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
    "Marked gone: advert shows removed (2026-10-18).",
+   "Advert live on OnTheMarket (25 Oct).",
+   "ChatGPT sweep says removed (2026-10-25).",
    "Advert live on OnTheMarket (25 Oct)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-10-25",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -4332,7 +4348,7 @@
   "id": "openrent-2923219",
   "title": "St. Ann's Park Road",
   "area": "Wandsworth",
-  "rent": 4495,
+  "rent": 4690,
   "beds": 4,
   "baths": 2,
   "available": "22 October, 2026",
@@ -4357,9 +4373,10 @@
    "Price changed from £4,590 to £4,950 (2026-10-18).",
    "Price changed from £4,950 to £4,395 (2026-10-19).",
    "Price changed from £4,395 to £4,500 (2026-10-20).",
-   "Price changed from £4,500 to £4,495 (2026-10-23)."
+   "Price changed from £4,500 to £4,495 (2026-10-23).",
+   "Price changed from £4,495 to £4,690 (2026-10-25)."
   ],
-  "checked": "2026-10-23",
+  "checked": "2026-10-25",
   "station": {
    "name": "Wandsworth Town",
    "kind": "Rail",
@@ -4389,6 +4406,11 @@
    [
     "2026-10-23",
     4495,
+    "rightmove"
+   ],
+   [
+    "2026-10-25",
+    4690,
     "rightmove"
    ]
   ]
@@ -4527,7 +4549,7 @@
    "Let agreed on OpenRent, still live on Rightmove (25 Oct).",
    "Removed adverts of another home (25 Oct): the Foxtons Firstway house (£4,000, short let £5,000) is a different house."
   ],
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -4804,7 +4826,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
    "Price changed from £5,000 to £4,800 (2026-10-19)."
   ],
-  "checked": "2026-10-23",
+  "checked": "2026-10-25",
   "station": {
    "name": "Balham",
    "kind": "Tube",
@@ -4913,7 +4935,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-07.",
    "Price changed from £3,800 to £3,700 (2026-10-19)."
   ],
-  "checked": "2026-10-23",
+  "checked": "2026-10-25",
   "station": {
    "name": "Tooting",
    "kind": "Rail",
@@ -6918,7 +6940,7 @@
   "id": "rightmove-92343588",
   "title": "Ashen Grove",
   "area": "Wimbledon",
-  "rent": 4300,
+  "rent": 4602,
   "beds": 4,
   "baths": 2,
   "available": "2026-10-20",
@@ -6937,9 +6959,10 @@
    "Imported from the old ChatGPT tracker (status: unavailable).",
    "Prices differ across sites: £4,602 vs £4,300. Showing the lower; see price history.",
    "Found by ChatGPT sweep (live).",
-   "Let agreed on Rightmove (18 Oct)."
+   "Let agreed on Rightmove (18 Oct).",
+   "Price changed from £4,300 to £4,602 (2026-10-25)."
   ],
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "station": {
    "name": "Wimbledon Park",
    "kind": "Tube",
@@ -6954,6 +6977,11 @@
    [
     "2026-10-18",
     4300,
+    "rightmove"
+   ],
+   [
+    "2026-10-25",
+    4602,
     "rightmove"
    ]
   ],
@@ -7628,7 +7656,7 @@
    "Split off onthemarket-18656989 (25 Oct): KFH's let-agreed Sefton Street advert is an older, different letting from Savills' live one.",
    "Advert live on Rightmove (25 Oct)."
   ],
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "station": {
    "name": "Barnes",
    "kind": "Rail",
@@ -7711,7 +7739,7 @@
    "Found by ChatGPT sweep (live; results-page evidence only).",
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-10."
   ],
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "station": {
    "name": "New Malden",
    "kind": "Rail",
@@ -8203,7 +8231,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-10.",
    "Price changed from £3,500 to £3,300 (2026-10-18)."
   ],
-  "checked": "2026-10-23",
+  "checked": "2026-10-25",
   "station": {
    "name": "Putney",
    "kind": "Rail",
@@ -8798,7 +8826,7 @@
    "Found by ChatGPT sweep (live).",
    "Price changed from £3,900 to £3,800 (2026-10-23)."
   ],
-  "checked": "2026-10-23",
+  "checked": "2026-10-25",
   "station": {
    "name": "Southfields",
    "kind": "Tube",
@@ -9013,7 +9041,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-07.",
    "Let agreed on Rightmove (18 Oct)."
   ],
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "station": {
    "name": "Tooting Bec",
    "kind": "Tube",
@@ -9891,7 +9919,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
    "Found by ChatGPT sweep (live)."
   ],
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "station": {
    "name": "Wimbledon",
    "kind": "Tube",
@@ -10005,7 +10033,7 @@
    "Let agreed on Rightmove (18 Oct).",
    "Let agreed on OnTheMarket (24 Oct)."
   ],
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -10047,7 +10075,7 @@
    "Marked gone: advert shows removed (2026-10-18).",
    "Price changed from £5,000 to £4,500 (2026-10-22)."
   ],
-  "checked": "2026-10-23",
+  "checked": "2026-10-25",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -11403,7 +11431,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "station": {
    "name": "Southfields",
    "kind": "Tube",
@@ -13009,7 +13037,7 @@
   "id": "openrent-2991842",
   "title": "Lampeter Square",
   "area": "Outside agreed scope",
-  "rent": 3600,
+  "rent": 3500,
   "beds": 4,
   "baths": 2,
   "available": "Today",
@@ -13017,12 +13045,15 @@
   "status": "no",
   "url": "https://www.openrent.co.uk/property-to-rent/london/4-bed-flat-lampeter-square-w6/2991842",
   "links": [
-   "https://www.openrent.co.uk/property-to-rent/london/4-bed-flat-lampeter-square-w6/2991842"
+   "https://www.openrent.co.uk/property-to-rent/london/4-bed-flat-lampeter-square-w6/2991842",
+   "https://www.onthemarket.com/details/20541293/",
+   "https://www.zoopla.co.uk/to-rent/details/74496826/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: screened; advertised). Last checked 2026-09-25."
+   "Imported from the old ChatGPT tracker (status: screened; advertised). Last checked 2026-09-25.",
+   "Price changed from £3,600 to £3,500 (2026-10-25)."
   ],
   "station": {
    "name": "Parsons Green",
@@ -13034,8 +13065,14 @@
     "2026-09-25",
     3600,
     "openrent"
+   ],
+   [
+    "2026-10-25",
+    3500,
+    "zoopla"
    ]
-  ]
+  ],
+  "checked": "2026-10-25"
  },
  {
   "id": "openrent-3005963",
@@ -13164,21 +13201,24 @@
   "id": "openrent-3050921",
   "title": "Mary Macarthur House",
   "area": "Outside agreed scope",
-  "rent": 3500,
+  "rent": 3550,
   "beds": 4,
   "baths": 1,
   "available": "28 September, 2026 Online Viewings Th...",
-  "sharers": "unknown",
+  "sharers": "ok",
   "status": "no",
   "url": "https://www.openrent.co.uk/property-to-rent/london/4-bed-flat-mary-macarthur-house-w6/3050921",
   "links": [
-   "https://www.openrent.co.uk/property-to-rent/london/4-bed-flat-mary-macarthur-house-w6/3050921"
+   "https://www.openrent.co.uk/property-to-rent/london/4-bed-flat-mary-macarthur-house-w6/3050921",
+   "https://www.onthemarket.com/details/20401660/",
+   "https://www.zoopla.co.uk/to-rent/details/74323719/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: screened; advertised). Last checked 2026-09-25.",
-   "Availability: 28 September, 2026 Online Viewings This indicates the landlord's availability to perform viewings online, if you are unable to be physically present. You can read more about remote viewings in this bl"
+   "Availability: 28 September, 2026 Online Viewings This indicates the landlord's availability to perform viewings online, if you are unable to be physically present. You can read more about remote viewings in this bl",
+   "Price changed from £3,500 to £3,550 (2026-10-25)."
   ],
   "station": {
    "name": "West Brompton",
@@ -13190,8 +13230,14 @@
     "2026-09-25",
     3500,
     "openrent"
+   ],
+   [
+    "2026-10-25",
+    3550,
+    "zoopla"
    ]
-  ]
+  ],
+  "checked": "2026-10-25"
  },
  {
   "id": "openrent-3051969",
@@ -13726,7 +13772,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live; results-page evidence only)."
   ],
@@ -13759,7 +13805,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live; results-page evidence only)."
   ],
@@ -13796,7 +13842,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -13878,10 +13924,12 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-22",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Marked gone: advert shows removed (2026-10-22).",
+   "Advert live on OnTheMarket (25 Oct).",
+   "ChatGPT sweep says removed (2026-10-25).",
    "Advert live on OnTheMarket (25 Oct)."
   ],
   "station": {
@@ -14622,7 +14670,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-20",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Found by ChatGPT sweep (live; results-page evidence only).",
@@ -16129,7 +16177,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -16668,7 +16716,7 @@
   "id": "onthemarket-20462340",
   "title": "Gassiot Road, London SW17",
   "area": "Tooting",
-  "rent": 4100,
+  "rent": 4000,
   "beds": 4,
   "baths": 2,
   "available": "2027-06-05",
@@ -16681,12 +16729,13 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Prices differ across sites: £4,100 vs £4,000. Showing the lower; see price history.",
    "Let agreed on OnTheMarket (18 Oct).",
-   "Price changed from £4,000 to £4,100 (2026-10-19)."
+   "Price changed from £4,000 to £4,100 (2026-10-19).",
+   "Price changed from £4,100 to £4,000 (2026-10-25)."
   ],
   "station": {
    "name": "Tooting Broadway",
@@ -16707,6 +16756,11 @@
    [
     "2026-10-19",
     4100,
+    "onthemarket"
+   ],
+   [
+    "2026-10-25",
+    4000,
     "onthemarket"
    ]
   ],
@@ -17203,10 +17257,12 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-22",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Marked gone: advert shows removed (2026-10-22).",
+   "Advert live on OnTheMarket (25 Oct).",
+   "ChatGPT sweep says removed (2026-10-25).",
    "Advert live on OnTheMarket (25 Oct)."
   ],
   "station": {
@@ -17480,7 +17536,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-23",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Price changed from £4,750 to £4,650 (2026-10-21)."
@@ -18079,10 +18135,12 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-22",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Marked gone: advert shows removed (2026-10-22).",
+   "Advert live on OnTheMarket (25 Oct).",
+   "ChatGPT sweep says removed (2026-10-25).",
    "Advert live on OnTheMarket (25 Oct)."
   ],
   "station": {
@@ -18114,7 +18172,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -18147,7 +18205,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -18180,7 +18238,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -18213,7 +18271,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -18246,7 +18304,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -18279,7 +18337,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -18312,7 +18370,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -18345,7 +18403,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -18378,7 +18436,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -18411,7 +18469,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -18444,7 +18502,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -18477,7 +18535,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -18510,7 +18568,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -18543,7 +18601,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -18713,7 +18771,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-19",
-  "checked": "2026-10-23",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -18748,7 +18806,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-20",
-  "checked": "2026-10-23",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -18784,7 +18842,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-20",
-  "checked": "2026-10-23",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -18825,7 +18883,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-21",
-  "checked": "2026-10-23",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -18859,7 +18917,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-21",
-  "checked": "2026-10-23",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -18930,7 +18988,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-21",
-  "checked": "2026-10-23",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -18969,7 +19027,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-21",
-  "checked": "2026-10-23",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (unverified).",
    "Advert taken down on Foxtons (23 Oct).",
@@ -19052,7 +19110,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-21",
-  "checked": "2026-10-23",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Price changed from £4,000 to £3,750 (2026-10-23)."
@@ -19158,7 +19216,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-22",
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -19297,7 +19355,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-23",
-  "checked": "2026-10-23",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -19321,7 +19379,7 @@
   "rent": 4000,
   "beds": 4,
   "baths": 3,
-  "available": "2026-12-03",
+  "available": "2026-12-17",
   "sharers": "unknown",
   "status": "new",
   "url": "https://www.rightmove.co.uk/properties/94661412",
@@ -19333,7 +19391,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-23",
-  "checked": "2026-10-23",
+  "checked": "2026-10-25",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -19590,6 +19648,533 @@
   "off_market": {
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-25"
+  }
+ },
+ {
+  "id": "rightmove-94552758",
+  "title": "Carnwath Road, Fulham",
+  "area": "Fulham",
+  "rent": 3600,
+  "beds": 4,
+  "baths": 2,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/94552758",
+  "links": [
+   "https://www.rightmove.co.uk/properties/94552758"
+  ],
+  "source": "sweep",
+  "added": "2026-10-25",
+  "checked": "2026-10-25",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-25",
+    3600,
+    "rightmove"
+   ]
+  ],
+  "station": {
+   "name": "Wandsworth Town",
+   "kind": "Rail",
+   "walk": 12
+  }
+ },
+ {
+  "id": "zoopla-74444273",
+  "title": "Crefeld Close, Fulham, London W6",
+  "area": "Fulham",
+  "rent": 4750,
+  "beds": 5,
+  "baths": 2,
+  "available": "2026-12-10",
+  "sharers": "ok",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/94028034",
+  "links": [
+   "https://www.onthemarket.com/details/20494281/",
+   "https://www.rightmove.co.uk/properties/94028034",
+   "https://www.zoopla.co.uk/to-rent/details/74444273/"
+  ],
+  "source": "sweep",
+  "added": "2026-10-25",
+  "checked": "2026-10-25",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-25",
+    4750,
+    "rightmove"
+   ]
+  ],
+  "station": {
+   "name": "Parsons Green",
+   "kind": "Tube",
+   "walk": 21
+  }
+ },
+ {
+  "id": "rightmove-94314492",
+  "title": "Prothero Road, Fulham",
+  "area": "Fulham",
+  "rent": 4500,
+  "beds": 4,
+  "baths": 3,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/94314492",
+  "links": [
+   "https://www.rightmove.co.uk/properties/94314492"
+  ],
+  "source": "sweep",
+  "added": "2026-10-25",
+  "checked": "2026-10-25",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-25",
+    4500,
+    "rightmove"
+   ]
+  ],
+  "station": {
+   "name": "Parsons Green",
+   "kind": "Tube",
+   "walk": 14
+  }
+ },
+ {
+  "id": "marsh-parsons-cct240261",
+  "title": "Auriol Road, West Kensington W14",
+  "area": "Hammersmith",
+  "rent": 4498,
+  "beds": 4,
+  "baths": 3,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.marshandparsons.co.uk/properties-to-rent/london/property/CCT240261/auriol-road/",
+  "links": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/CCT240261/auriol-road/"
+  ],
+  "source": "sweep",
+  "added": "2026-10-25",
+  "checked": "2026-10-25",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-25",
+    4498,
+    "marshandparsons"
+   ]
+  ],
+  "station": {
+   "name": "West Brompton",
+   "kind": "Tube",
+   "walk": 23
+  }
+ },
+ {
+  "id": "onthemarket-16222723",
+  "title": "Everington Street,  London, W6",
+  "area": "Hammersmith",
+  "rent": 4000,
+  "beds": 4,
+  "baths": 2,
+  "available": "2025-02-28",
+  "sharers": "ok",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/16222723/",
+  "links": [
+   "https://www.onthemarket.com/details/16222723/"
+  ],
+  "source": "sweep",
+  "added": "2026-10-25",
+  "checked": "2026-10-25",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-25",
+    4000,
+    "onthemarket"
+   ]
+  ],
+  "station": {
+   "name": "Parsons Green",
+   "kind": "Tube",
+   "walk": 24
+  }
+ },
+ {
+  "id": "zoopla-74588671",
+  "title": "Everington Street, London W6",
+  "area": "Hammersmith",
+  "rent": 4750,
+  "beds": 4,
+  "baths": 2,
+  "available": "2026-12-12",
+  "sharers": "ok",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/94663713",
+  "links": [
+   "https://www.onthemarket.com/details/20615935/",
+   "https://www.rightmove.co.uk/properties/94663713",
+   "https://www.zoopla.co.uk/to-rent/details/74588671/"
+  ],
+  "source": "sweep",
+  "added": "2026-10-25",
+  "checked": "2026-10-25",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-25",
+    4750,
+    "rightmove"
+   ]
+  ],
+  "station": {
+   "name": "Parsons Green",
+   "kind": "Tube",
+   "walk": 24
+  }
+ },
+ {
+  "id": "foxtons-chpk2207750",
+  "title": "Field Road , Barons Court , W6",
+  "area": "Hammersmith",
+  "rent": 3500,
+  "beds": 4,
+  "baths": 1,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/93544062",
+  "links": [
+   "https://www.foxtons.co.uk/properties-to-rent/w6/chpk2207750",
+   "https://www.onthemarket.com/details/20408695/",
+   "https://www.rightmove.co.uk/properties/93544062",
+   "https://www.zoopla.co.uk/to-rent/details/74331009/"
+  ],
+  "source": "sweep",
+  "added": "2026-10-25",
+  "checked": "2026-10-25",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-25",
+    3500,
+    "rightmove"
+   ]
+  ],
+  "station": {
+   "name": "West Brompton",
+   "kind": "Tube",
+   "walk": 21
+  }
+ },
+ {
+  "id": "marsh-parsons-bkl050043",
+  "title": "Fitzjames Avenue, W14",
+  "area": "Hammersmith",
+  "rent": 4598,
+  "beds": 4,
+  "baths": 2,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.marshandparsons.co.uk/properties-to-rent/london/property/BKL050043/fitzjames-avenue/",
+  "links": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/BKL050043/fitzjames-avenue/"
+  ],
+  "source": "sweep",
+  "added": "2026-10-25",
+  "checked": "2026-10-25",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-25",
+    4598,
+    "marshandparsons"
+   ]
+  ]
+ },
+ {
+  "id": "zoopla-74444620",
+  "title": "Hammersmith Road, London W14",
+  "area": "Hammersmith",
+  "rent": 3000,
+  "beds": 4,
+  "baths": 1,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.zoopla.co.uk/to-rent/details/74444620/",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74444620/"
+  ],
+  "source": "sweep",
+  "added": "2026-10-25",
+  "checked": "2026-10-25",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-25",
+    3000,
+    "zoopla"
+   ]
+  ],
+  "station": {
+   "name": "West Brompton",
+   "kind": "Tube",
+   "walk": 32
+  }
+ },
+ {
+  "id": "zoopla-74314978",
+  "title": "Overstone Road, Hammersmith W6",
+  "area": "Hammersmith",
+  "rent": 4750,
+  "beds": 4,
+  "baths": 2,
+  "available": "2026-11-18",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.zoopla.co.uk/to-rent/details/74314978/",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74314978/"
+  ],
+  "source": "sweep",
+  "added": "2026-10-25",
+  "checked": "2026-10-25",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-25",
+    4750,
+    "zoopla"
+   ]
+  ],
+  "station": {
+   "name": "West Brompton",
+   "kind": "Tube",
+   "walk": 40
+  }
+ },
+ {
+  "id": "marsh-parsons-csz161121",
+  "title": "Palliser Court, London W14",
+  "area": "Hammersmith",
+  "rent": 4251,
+  "beds": 4,
+  "baths": 3,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.marshandparsons.co.uk/properties-to-rent/london/property/CSZ161121/palliser-court/",
+  "links": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/CSZ161121/palliser-court/"
+  ],
+  "source": "sweep",
+  "added": "2026-10-25",
+  "checked": "2026-10-25",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-25",
+    4251,
+    "marshandparsons"
+   ]
+  ],
+  "station": {
+   "name": "West Brompton",
+   "kind": "Tube",
+   "walk": 21
+  }
+ },
+ {
+  "id": "onthemarket-10566174",
+  "title": "Rannoch Road, Hammersmith, London, W6",
+  "area": "Hammersmith",
+  "rent": 4850,
+  "beds": 4,
+  "baths": 2,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/10566174/",
+  "links": [
+   "https://www.onthemarket.com/details/10566174/"
+  ],
+  "source": "sweep",
+  "added": "2026-10-25",
+  "checked": "2026-10-25",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-25",
+    4850,
+    "onthemarket"
+   ]
+  ],
+  "station": {
+   "name": "Parsons Green",
+   "kind": "Tube",
+   "walk": 32
+  }
+ },
+ {
+  "id": "marsh-parsons-bkl070196",
+  "title": "Rugby Mansions, London W14",
+  "area": "Hammersmith",
+  "rent": 4199,
+  "beds": 4,
+  "baths": 2,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.marshandparsons.co.uk/properties-to-rent/london/property/BKL070196/rugby-mansions/",
+  "links": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/BKL070196/rugby-mansions/"
+  ],
+  "source": "sweep",
+  "added": "2026-10-25",
+  "checked": "2026-10-25",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-25",
+    4199,
+    "marshandparsons"
+   ]
+  ]
+ },
+ {
+  "id": "marsh-parsons-bkl080413",
+  "title": "Shepherds Bush Road, Brook Green W6",
+  "area": "Hammersmith",
+  "rent": 4000,
+  "beds": 4,
+  "baths": 2,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.marshandparsons.co.uk/properties-to-rent/london/property/BKL080413/shepherds-bush-road/",
+  "links": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/BKL080413/shepherds-bush-road/"
+  ],
+  "source": "sweep",
+  "added": "2026-10-25",
+  "checked": "2026-10-25",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-25",
+    4000,
+    "marshandparsons"
+   ]
+  ],
+  "station": {
+   "name": "West Brompton",
+   "kind": "Tube",
+   "walk": 36
+  }
+ },
+ {
+  "id": "chestertons-22053481",
+  "title": "Winslow Road, London, W6",
+  "area": "Hammersmith",
+  "rent": 5000,
+  "beds": 4,
+  "baths": 3,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.chestertons.co.uk/properties/22053481/lettings/WFL250237",
+  "links": [
+   "https://www.chestertons.co.uk/properties/22053481/lettings/WFL250237"
+  ],
+  "source": "sweep",
+  "added": "2026-10-25",
+  "checked": "2026-10-25",
+  "notes": [
+   "Found by ChatGPT sweep (unverified)."
+  ],
+  "prices": [
+   [
+    "2026-10-25",
+    5000,
+    "chestertons"
+   ]
+  ],
+  "station": {
+   "name": "West Brompton",
+   "kind": "Tube",
+   "walk": 31
+  }
+ },
+ {
+  "id": "openrent-3079838",
+  "title": "college court w6",
+  "area": "Hammersmith",
+  "rent": 4500,
+  "beds": 4,
+  "baths": 2,
+  "available": "2026-11-02",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.zoopla.co.uk/to-rent/details/74549194/",
+  "links": [
+   "https://www.onthemarket.com/details/20581507/",
+   "https://www.openrent.co.uk/property-to-rent/london/4-bed-flat-college-court-w6/3079838",
+   "https://www.zoopla.co.uk/to-rent/details/74549194/"
+  ],
+  "source": "sweep",
+  "added": "2026-10-25",
+  "checked": "2026-10-25",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-25",
+    4500,
+    "zoopla"
+   ]
+  ],
+  "station": {
+   "name": "West Brompton",
+   "kind": "Tube",
+   "walk": 35
   }
  }
 ]
