@@ -17,9 +17,9 @@ Read README.md first: it explains the search, the data and every script and work
 - Portal alerts set up 25 Oct on all four portals, signed in as the bot in Chrome
   (see README "One-time setup" and `scripts/search_area.py`). On 26 Oct the area grew to take in
   Clapham (SW4), Shepherd's Bush (W12) and Chiswick (W4): new Rightmove ("SW London house v2") and
-  OnTheMarket alerts replaced the old ones, OpenRent got a third alert (Hammersmith 3 km) and the
-  ChatGPT task's scope sentence was updated. Zoopla is not signed in in Chrome (sign-in needs an
-  emailed code that Seb types), so Seb re-saves the Zoopla search on their phone.
+  OnTheMarket and Zoopla alerts replaced the old ones, OpenRent got a third alert (Hammersmith 3 km)
+  and the ChatGPT task's scope sentence was updated. Zoopla sign-in needs an emailed code that Seb
+  types; Chrome was signed in to it on 26 Oct.
 - ChatGPT task instructions rewritten 25 Oct (read them in ChatGPT > Scheduled > SW London house
   sweep > ... > Edit). Now: agent websites first,
   daily rechecks only of homes with no Rightmove/OnTheMarket/Marsh & Parsons link, a short portal
