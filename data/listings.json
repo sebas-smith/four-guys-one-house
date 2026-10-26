@@ -8,7 +8,7 @@
   "baths": 3,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.cound.co.uk/property/tonsley-street-wandsworth-sw18/cound-003982/1",
   "links": [
    "https://www.cound.co.uk/property/tonsley-street-wandsworth-sw18/cound-003982/1"
@@ -16,9 +16,10 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: unavailable)."
+   "Imported from the old ChatGPT tracker (status: unavailable).",
+   "ChatGPT sweep says let agreed (2026-10-26)."
   ],
-  "checked": "2026-10-24",
+  "checked": "2026-10-26",
   "station": {
    "name": "Wandsworth Town",
    "kind": "Rail",
@@ -30,7 +31,11 @@
     4350,
     "cound"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-26"
+  }
  },
  {
   "id": "dexters-227104",
@@ -1572,7 +1577,9 @@
    "Imported from the old ChatGPT tracker (status: recheck).",
    "Advert live on OnTheMarket (25 Oct).",
    "ChatGPT sweep says removed (2026-10-25).",
-   "Advert live on OnTheMarket (25 Oct)."
+   "Advert live on OnTheMarket (25 Oct).",
+   "ChatGPT sweep says removed (2026-10-26).",
+   "Advert live on OnTheMarket (26 Oct)."
   ],
   "checked": "2026-10-26",
   "station": {
@@ -2098,7 +2105,9 @@
   "source": "import",
   "added": "2026-10-12",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-10-12."
+   "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-10-12.",
+   "ChatGPT sweep says let agreed (2026-10-26).",
+   "Advert live on Foxtons (26 Oct)."
   ],
   "checked": "2026-10-26",
   "station": {
@@ -3619,7 +3628,7 @@
    "Marked gone: advert shows let agreed (2026-10-20).",
    "Advert live on Zoopla (25 Oct)."
   ],
-  "checked": "2026-10-25",
+  "checked": "2026-10-26",
   "station": {
    "name": "Tooting Bec",
    "kind": "Tube",
@@ -4229,7 +4238,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-11."
   ],
-  "checked": "2026-10-24",
+  "checked": "2026-10-26",
   "station": {
    "name": "Colliers Wood",
    "kind": "Tube",
@@ -4709,7 +4718,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
-  "checked": "2026-10-24",
+  "checked": "2026-10-26",
   "station": {
    "name": "Putney",
    "kind": "Rail",
@@ -5404,7 +5413,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04."
   ],
-  "checked": "2026-10-24",
+  "checked": "2026-10-26",
   "station": {
    "name": "Wandsworth Town",
    "kind": "Rail",
@@ -5422,10 +5431,10 @@
   "id": "openrent-3054795",
   "title": "Ravensbury Road",
   "area": "Earlsfield / Wandsworth",
-  "rent": 4800,
+  "rent": 4300,
   "beds": 4,
   "baths": 3,
-  "available": "2026-12-06",
+  "available": "2026-11-09",
   "sharers": "unknown",
   "status": "new",
   "url": "https://www.openrent.co.uk/property-to-rent/london/4-bed-terraced-house-ravensbury-road-sw18/3054795",
@@ -5437,9 +5446,10 @@
   "added": "2026-10-05",
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck). Last checked 2026-10-05.",
-   "Price changed from £3,340 to £4,800 (2026-10-18)."
+   "Price changed from £3,340 to £4,800 (2026-10-18).",
+   "Price changed from £4,800 to £4,300 (2026-10-26)."
   ],
-  "checked": "2026-10-24",
+  "checked": "2026-10-26",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -5454,6 +5464,11 @@
    [
     "2026-10-18",
     4800,
+    "openrent"
+   ],
+   [
+    "2026-10-26",
+    4300,
     "openrent"
    ]
   ]
@@ -5477,7 +5492,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck). Last checked 2026-10-09."
   ],
-  "checked": "2026-10-24",
+  "checked": "2026-10-26",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -5535,7 +5550,7 @@
   "baths": 2,
   "available": "Today",
   "sharers": "no",
-  "status": "new",
+  "status": "no",
   "url": "https://www.openrent.co.uk/property-to-rent/london/4-bed-semi-detached-house-rural-way-sw16/3057444",
   "links": [
    "https://www.openrent.co.uk/property-to-rent/london/4-bed-semi-detached-house-rural-way-sw16/3057444"
@@ -5546,7 +5561,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-05.",
    "Advert says not suitable for sharers."
   ],
-  "checked": "2026-10-24",
+  "checked": "2026-10-26",
   "station": {
    "name": "Streatham Common",
    "kind": "Rail",
@@ -5615,7 +5630,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
    "Advert says not suitable for sharers."
   ],
-  "checked": "2026-10-24",
+  "checked": "2026-10-26",
   "prices": [
    [
     "2026-10-04",
@@ -7726,7 +7741,8 @@
    "https://www.onthemarket.com/details/20367770/",
    "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR1425132/beverley-avenue/",
    "https://www.zoopla.co.uk/to-rent/details/73901154/",
-   "https://www.onthemarket.com/details/20614175/"
+   "https://www.onthemarket.com/details/20614175/",
+   "https://www.hawesandco.co.uk/property/house-to-rent-beverley-avenue-london-sw20-id-hrp130150"
   ],
   "source": "import",
   "added": "2026-09-25",
@@ -8590,7 +8606,8 @@
   "links": [
    "https://www.rightmove.co.uk/properties/93770631",
    "https://www.zoopla.co.uk/to-rent/details/64171279/",
-   "https://www.onthemarket.com/details/20446928/"
+   "https://www.onthemarket.com/details/20446928/",
+   "https://www.hawesandco.co.uk/property/mid-terraced-house-to-rent-westway-london-sw20-id-hrp230048"
   ],
   "source": "import",
   "added": "2026-10-01",
@@ -8988,7 +9005,8 @@
   "links": [
    "https://www.rightmove.co.uk/properties/93995352",
    "https://www.zoopla.co.uk/to-rent/details/67769547/",
-   "https://www.onthemarket.com/details/15369481/"
+   "https://www.onthemarket.com/details/15369481/",
+   "https://www.goodfellows.co.uk/property/mid-terraced-house-to-rent-sandbourne-avenue-merton-park-sw19-id-gmo200486"
   ],
   "source": "import",
   "added": "2026-10-07",
@@ -9711,7 +9729,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
-  "checked": "2026-10-24",
+  "checked": "2026-10-26",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -11775,7 +11793,7 @@
   "baths": 3,
   "available": "8th October 2026.",
   "sharers": "ok",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.zoopla.co.uk/to-rent/details/74194498/",
   "links": [
    "https://www.zoopla.co.uk/to-rent/details/74194498/"
@@ -11783,9 +11801,10 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
+   "ChatGPT sweep says removed (2026-10-26)."
   ],
-  "checked": "2026-10-24",
+  "checked": "2026-10-26",
   "station": {
    "name": "Wandsworth Town",
    "kind": "Rail",
@@ -11797,7 +11816,11 @@
     4750,
     "zoopla"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-26"
+  }
  },
  {
   "id": "zoopla-74199981",
@@ -15775,7 +15798,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-24",
+  "checked": "2026-10-26",
   "notes": [
    "Found by ChatGPT sweep (live; results-page evidence only).",
    "Found by ChatGPT sweep (live)."
@@ -15971,7 +15994,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-24",
+  "checked": "2026-10-26",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -16419,7 +16442,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-24",
+  "checked": "2026-10-26",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -16453,7 +16476,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-24",
+  "checked": "2026-10-26",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -16679,7 +16702,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-24",
+  "checked": "2026-10-26",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17246,7 +17269,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-24",
+  "checked": "2026-10-26",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17316,7 +17339,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-24",
+  "checked": "2026-10-26",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17459,7 +17482,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-24",
+  "checked": "2026-10-26",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17485,16 +17508,17 @@
   "baths": 2,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.cound.co.uk/property/ballantine-street-wandsworth-sw18/cound-005301/1",
   "links": [
    "https://www.cound.co.uk/property/ballantine-street-wandsworth-sw18/cound-005301/1"
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-24",
+  "checked": "2026-10-26",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "ChatGPT sweep says let agreed (2026-10-26)."
   ],
   "station": {
    "name": "Wandsworth Town",
@@ -17507,7 +17531,11 @@
     4100,
     "cound"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-26"
+  }
  },
  {
   "id": "openrent-3038288",
@@ -19331,7 +19359,9 @@
   "added": "2026-10-22",
   "checked": "2026-10-26",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "ChatGPT sweep says let agreed (2026-10-26).",
+   "Advert live on Foxtons (26 Oct)."
   ],
   "prices": [
    [
@@ -20095,7 +20125,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-10-25",
+  "checked": "2026-10-26",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -20273,7 +20303,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-10-25",
+  "checked": "2026-10-26",
   "notes": [
    "Found by ChatGPT sweep (unverified)."
   ],
@@ -20443,7 +20473,7 @@
   ],
   "source": "search",
   "added": "2026-10-25",
-  "checked": "2026-10-25",
+  "checked": "2026-10-26",
   "notes": [
    "Missed by the sweep; found in a portal coverage check on 25 Oct (OpenRent private landlord)."
   ],
@@ -20485,7 +20515,8 @@
     3500,
     "onthemarket"
    ]
-  ]
+  ],
+  "checked": "2026-10-26"
  },
  {
   "id": "onthemarket-17963710",
@@ -20512,7 +20543,8 @@
     3000,
     "onthemarket"
    ]
-  ]
+  ],
+  "checked": "2026-10-26"
  },
  {
   "id": "rightmove-94732896",
@@ -20544,7 +20576,8 @@
    "name": "Southfields",
    "kind": "Tube",
    "walk": 20
-  }
+  },
+  "checked": "2026-10-26"
  },
  {
   "id": "rightmove-173406872",
@@ -20576,7 +20609,8 @@
    "name": "Tooting Bec",
    "kind": "Tube",
    "walk": 10
-  }
+  },
+  "checked": "2026-10-26"
  },
  {
   "id": "onthemarket-20627722",
@@ -20585,12 +20619,13 @@
   "rent": 3750,
   "beds": 5,
   "baths": null,
-  "available": "",
+  "available": "2026-10-31",
   "sharers": "unknown",
   "status": "new",
   "url": "https://www.onthemarket.com/details/20627722/",
   "links": [
-   "https://www.onthemarket.com/details/20627722/"
+   "https://www.onthemarket.com/details/20627722/",
+   "https://www.zoopla.co.uk/to-rent/details/74604845/"
   ],
   "source": "alert",
   "added": "2026-10-26",
@@ -20602,7 +20637,48 @@
     "2026-10-26",
     3750,
     "onthemarket"
+   ],
+   [
+    "2026-10-26",
+    3750,
+    "zoopla"
    ]
-  ]
+  ],
+  "checked": "2026-10-26"
+ },
+ {
+  "id": "onthemarket-20629394",
+  "title": "Brudenell Road, Tooting Bec, London, SW17, SW17 8DB",
+  "area": "Tooting Bec",
+  "rent": 3800,
+  "beds": 4,
+  "baths": 1,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/94747230",
+  "links": [
+   "https://www.onthemarket.com/details/20629394/",
+   "https://www.rightmove.co.uk/properties/94747230",
+   "https://www.foxtons.co.uk/properties-to-rent/sw17/wimb0084166"
+  ],
+  "source": "sweep",
+  "added": "2026-10-26",
+  "checked": "2026-10-26",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-26",
+    3800,
+    "rightmove"
+   ]
+  ],
+  "station": {
+   "name": "Tooting Bec",
+   "kind": "Tube",
+   "walk": 6
+  }
  }
 ]
