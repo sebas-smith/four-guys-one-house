@@ -8,8 +8,8 @@ Site: https://sebas-smith.github.io/four-guys-one-house/
 ## Search scope
 
 - Areas: Putney, Southfields, Earlsfield, Wandsworth, Tooting, Balham, Wimbledon, Raynes Park,
-  Clapham South borders, Fulham, Hammersmith.
-- Roehampton too. Edges inside the drawn area (Battersea, West Kensington/Barons Court W14) are fine.
+  Clapham (SW4), Battersea, Fulham, Hammersmith, Shepherd's Bush (W12), Chiswick (W4).
+- Roehampton too. Edges inside the drawn area (West Kensington/Barons Court W14) are fine.
 - Excluded: Isleworth, Osterley, New Malden, Hounslow, Twickenham, Whitton (TW and KT3 postcodes).
 - Whole property, 4+ bedrooms, £3,000 to £5,000 pcm tracked (recommend up to £4,800).
 
@@ -52,7 +52,8 @@ and GitHub emails the repo owner. Parser tests: `python scripts/test_ingest.py`.
    saved search each: 4+ beds, £3,000 to £5,000 pcm, to rent, "instant" email alerts.
    `python scripts/search_area.py` prints the Rightmove, Zoopla and OnTheMarket links for the drawn
    area (all saved as "SW London house" or "London (Drawn area)"). OpenRent can't draw and only
-   emails daily: it has two alerts, 5 km round Wandsworth and 3 km round Wimbledon.
+   emails daily: it has three alerts, 5 km round Wandsworth, 3 km round Wimbledon and 3 km round
+   Hammersmith.
 4. Gmail settings > Accounts > Grant access to your account: add each housemate as a delegate.
 
 ## Run locally

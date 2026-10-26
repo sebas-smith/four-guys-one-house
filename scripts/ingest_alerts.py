@@ -124,7 +124,8 @@ def details_near(raw, pos, next_pos, prev_pos=None):
 
 def area_from(title):
     for a in ("Putney", "Southfields", "Earlsfield", "Wandsworth", "Tooting", "Balham", "Wimbledon",
-              "Raynes Park", "Clapham", "Roehampton", "New Malden", "Colliers Wood"):
+              "Raynes Park", "Clapham", "Roehampton", "New Malden", "Colliers Wood", "Fulham", "Hammersmith",
+              "Chiswick", "Shepherd's Bush", "Shepherds Bush", "Battersea"):
         if a.lower() in title.lower():
             return a
     m = re.search(r"\b(SW\d{1,2}|SE\d{1,2}|KT\d{1,2}|TW\d{1,2}|CR\d|SM\d)\b", title)
