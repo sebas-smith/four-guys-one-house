@@ -20628,5 +20628,37 @@
    "kind": "Tube",
    "walk": 6
   }
+ },
+ {
+  "id": "rightmove-94740414",
+  "title": "Fairway London SW20",
+  "area": "SW20",
+  "rent": 3750,
+  "beds": 5,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/94740414",
+  "links": [
+   "https://www.rightmove.co.uk/properties/94740414"
+  ],
+  "source": "alert",
+  "added": "2026-10-26",
+  "notes": [
+   "From an email on 2026-10-26: fourguys, we've found you 2 properties in SW London house"
+  ],
+  "prices": [
+   [
+    "2026-10-26",
+    3750,
+    "rightmove"
+   ]
+  ],
+  "station": {
+   "name": "Raynes Park",
+   "kind": "Rail",
+   "walk": 7
+  }
  }
 ]
