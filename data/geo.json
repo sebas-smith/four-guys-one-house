@@ -149,6 +149,8 @@
 51.4442715,
 -0.1505678
 ],
+"bedroom semi-detached house|sw20": null,
+"bedroom terraced house|tooting": null,
 "beechcroft road|tooting": [
 51.4345239,
 -0.162473
@@ -525,6 +527,10 @@
 51.4408421,
 -0.2222508
 ],
+"esher gardens|sw19": [
+51.440321,
+-0.2223424
+],
 "eswyn road tooting|tooting": [
 51.4275896,
 -0.1618579
@@ -743,6 +749,10 @@
 "haydons road|south wimbledon": [
 51.4162009,
 -0.1872225
+],
+"hebdon road|tooting": [
+51.4337238,
+-0.1683463
 ],
 "herbert road|wimbledon": [
 51.4184112,
@@ -1814,6 +1824,14 @@
 "|southfields": [
 51.4457751,
 -0.2066142
+],
+"|sw19": [
+51.4132697,
+-0.200862
+],
+"|sw20": [
+51.4162707,
+-0.2260023
 ],
 "|tooting": [
 51.4278214,

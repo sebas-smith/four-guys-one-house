@@ -20459,5 +20459,150 @@
    "kind": "Tube",
    "walk": 7
   }
+ },
+ {
+  "id": "onthemarket-19039243",
+  "title": "4 bedroom terraced house to rent - Hebdon Road, Tooting Bec, London, SW17",
+  "area": "Tooting",
+  "rent": 3500,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/19039243/",
+  "links": [
+   "https://www.onthemarket.com/details/19039243/"
+  ],
+  "source": "alert",
+  "added": "2026-10-26",
+  "notes": [
+   "From an email on 2026-10-26: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-10-26",
+    3500,
+    "onthemarket"
+   ]
+  ]
+ },
+ {
+  "id": "onthemarket-17963710",
+  "title": "4 bedroom flat to rent - Esher Gardens, London, SW19",
+  "area": "SW19",
+  "rent": 3000,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/17963710/",
+  "links": [
+   "https://www.onthemarket.com/details/17963710/"
+  ],
+  "source": "alert",
+  "added": "2026-10-26",
+  "notes": [
+   "From an email on 2026-10-26: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-10-26",
+    3000,
+    "onthemarket"
+   ]
+  ]
+ },
+ {
+  "id": "rightmove-94732896",
+  "title": "Esher Gardens, London, SW19",
+  "area": "SW19",
+  "rent": 3000,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/94732896",
+  "links": [
+   "https://www.rightmove.co.uk/properties/94732896"
+  ],
+  "source": "alert",
+  "added": "2026-10-26",
+  "notes": [
+   "From an email on 2026-10-26: fourguys, we've found you 2 properties in SW London house"
+  ],
+  "prices": [
+   [
+    "2026-10-26",
+    3000,
+    "rightmove"
+   ]
+  ],
+  "station": {
+   "name": "Southfields",
+   "kind": "Tube",
+   "walk": 20
+  }
+ },
+ {
+  "id": "rightmove-173406872",
+  "title": "Hebdon Road, Tooting Bec, London, SW17",
+  "area": "Tooting",
+  "rent": 3500,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/173406872",
+  "links": [
+   "https://www.rightmove.co.uk/properties/173406872"
+  ],
+  "source": "alert",
+  "added": "2026-10-26",
+  "notes": [
+   "From an email on 2026-10-26: fourguys, we've found you 2 properties in SW London house"
+  ],
+  "prices": [
+   [
+    "2026-10-26",
+    3500,
+    "rightmove"
+   ]
+  ],
+  "station": {
+   "name": "Tooting Bec",
+   "kind": "Tube",
+   "walk": 10
+  }
+ },
+ {
+  "id": "onthemarket-20627722",
+  "title": "5 bedroom semi-detached house to rent - Fairway London SW20",
+  "area": "SW20",
+  "rent": 3750,
+  "beds": 5,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20627722/",
+  "links": [
+   "https://www.onthemarket.com/details/20627722/"
+  ],
+  "source": "alert",
+  "added": "2026-10-26",
+  "notes": [
+   "From an email on 2026-10-26: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-10-26",
+    3750,
+    "onthemarket"
+   ]
+  ]
  }
 ]
