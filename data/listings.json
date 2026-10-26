@@ -20502,18 +20502,25 @@
   "status": "new",
   "url": "https://www.onthemarket.com/details/19039243/",
   "links": [
-   "https://www.onthemarket.com/details/19039243/"
+   "https://www.onthemarket.com/details/19039243/",
+   "https://www.rightmove.co.uk/properties/173406872"
   ],
   "source": "alert",
   "added": "2026-10-26",
   "notes": [
-   "From an email on 2026-10-26: New properties in London (drawn area)"
+   "From an email on 2026-10-26: New properties in London (drawn area)",
+   "From an email on 2026-10-26: fourguys, we've found you 2 properties in SW London house"
   ],
   "prices": [
    [
     "2026-10-26",
     3500,
     "onthemarket"
+   ],
+   [
+    "2026-10-26",
+    3500,
+    "rightmove"
    ]
   ],
   "checked": "2026-10-26"
@@ -20530,86 +20537,27 @@
   "status": "new",
   "url": "https://www.onthemarket.com/details/17963710/",
   "links": [
-   "https://www.onthemarket.com/details/17963710/"
+   "https://www.onthemarket.com/details/17963710/",
+   "https://www.rightmove.co.uk/properties/94732896"
   ],
   "source": "alert",
   "added": "2026-10-26",
   "notes": [
-   "From an email on 2026-10-26: New properties in London (drawn area)"
+   "From an email on 2026-10-26: New properties in London (drawn area)",
+   "From an email on 2026-10-26: fourguys, we've found you 2 properties in SW London house"
   ],
   "prices": [
    [
     "2026-10-26",
     3000,
     "onthemarket"
-   ]
-  ],
-  "checked": "2026-10-26"
- },
- {
-  "id": "rightmove-94732896",
-  "title": "Esher Gardens, London, SW19",
-  "area": "SW19",
-  "rent": 3000,
-  "beds": 4,
-  "baths": null,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/94732896",
-  "links": [
-   "https://www.rightmove.co.uk/properties/94732896"
-  ],
-  "source": "alert",
-  "added": "2026-10-26",
-  "notes": [
-   "From an email on 2026-10-26: fourguys, we've found you 2 properties in SW London house"
-  ],
-  "prices": [
+   ],
    [
     "2026-10-26",
     3000,
     "rightmove"
    ]
   ],
-  "station": {
-   "name": "Southfields",
-   "kind": "Tube",
-   "walk": 20
-  },
-  "checked": "2026-10-26"
- },
- {
-  "id": "rightmove-173406872",
-  "title": "Hebdon Road, Tooting Bec, London, SW17",
-  "area": "Tooting",
-  "rent": 3500,
-  "beds": 4,
-  "baths": null,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/173406872",
-  "links": [
-   "https://www.rightmove.co.uk/properties/173406872"
-  ],
-  "source": "alert",
-  "added": "2026-10-26",
-  "notes": [
-   "From an email on 2026-10-26: fourguys, we've found you 2 properties in SW London house"
-  ],
-  "prices": [
-   [
-    "2026-10-26",
-    3500,
-    "rightmove"
-   ]
-  ],
-  "station": {
-   "name": "Tooting Bec",
-   "kind": "Tube",
-   "walk": 10
-  },
   "checked": "2026-10-26"
  },
  {

@@ -142,7 +142,8 @@ def street(title):
     'Mascotte Road, London, SW15' -> 'mascotte road'; '8 Bucharest Road Battersea' -> 'bucharest road';
     'Firstway, London' -> 'firstway'; 'Raynes Park, London' -> ''.
     """
-    first = re.split(r",|\.\s+(?=[A-Z]{1,2}\d)|\s+[-–—�]\s+", title or "")[0]
+    title = re.sub(r"^\s*\d+\s+bed(room)?s?\b.*?\bto (rent|let)\s*[-–—]\s*", "", title or "", flags=re.I)  # OnTheMarket
+    first = re.split(r",|\.\s+(?=[A-Z]{1,2}\d)|\s+[-–—�]\s+", title)[0]
     first = re.sub(r"\s+", " ", first).strip()
     m = ([None] + list(STREET.finditer(first)))[-1]  # last one: "St Ann's Park Road" ends at Road
     if m and not re.fullmatch(r"(raynes|colliers|putney|wimbledon|clapham)\s+\w+", first[:m.end()], re.I):
