@@ -36,17 +36,27 @@ def encode(points):
     return out
 
 
-open_shape = encode(POINTS)
-closed_shape = encode(POINTS + POINTS[:1])
+def inside(lat, lng):
+    """True when the point is inside the drawn area."""
+    found = False
+    for (y1, x1), (y2, x2) in zip(POINTS, POINTS[-1:] + POINTS[:-1]):
+        if (y1 > lat) != (y2 > lat) and lng < (x2 - x1) * (lat - y1) / (y2 - y1) + x1:
+            found = not found
+    return found
 
-print("Rightmove (then Map view > Save area > Create alert):")
-print("https://www.rightmove.co.uk/property-to-rent/find.html?" + urlencode({
-    "locationIdentifier": "USERDEFINEDAREA^" + json.dumps({"polylines": closed_shape}, separators=(",", ":")),
-    "minBedrooms": 4, "minPrice": 3000, "maxPrice": 5000, "includeLetAgreed": "false"}))
-print("\nZoopla (Save > Instantly); the shape is URL-encoded twice:")
-print("https://www.zoopla.co.uk/to-rent/map/property/putney/?beds_min=4&price_frequency=per_month"
-      "&price_min=3000&price_max=5000&q=Putney&search_source=to-rent&polyenc="
-      + quote(quote(open_shape, safe=""), safe=""))
-print("\nOnTheMarket (Create alert):")
-print("https://www.onthemarket.com/to-rent/property/london/?min-bedrooms=4&min-price=3000"
-      "&max-price=5000&view=map-list&polygons=" + quote(closed_shape, safe=""))
+
+if __name__ == "__main__":
+    open_shape = encode(POINTS)
+    closed_shape = encode(POINTS + POINTS[:1])
+
+    print("Rightmove (then Map view > Save area > Create alert):")
+    print("https://www.rightmove.co.uk/property-to-rent/find.html?" + urlencode({
+        "locationIdentifier": "USERDEFINEDAREA^" + json.dumps({"polylines": closed_shape}, separators=(",", ":")),
+        "minBedrooms": 4, "minPrice": 3000, "maxPrice": 5000, "includeLetAgreed": "false"}))
+    print("\nZoopla (Save > Instantly); the shape is URL-encoded twice:")
+    print("https://www.zoopla.co.uk/to-rent/map/property/putney/?beds_min=4&price_frequency=per_month"
+          "&price_min=3000&price_max=5000&q=Putney&search_source=to-rent&polyenc="
+          + quote(quote(open_shape, safe=""), safe=""))
+    print("\nOnTheMarket (Create alert):")
+    print("https://www.onthemarket.com/to-rent/property/london/?min-bedrooms=4&min-price=3000"
+          "&max-price=5000&view=map-list&polygons=" + quote(closed_shape, safe=""))

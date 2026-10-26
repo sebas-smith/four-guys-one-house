@@ -26,6 +26,8 @@ Site: https://sebas-smith.github.io/four-guys-one-house/
   (warning only if another advert is still live). The sweep workflow runs it on that day's new homes.
   Rightmove and OnTheMarket work from GitHub; Zoopla, OpenRent and Jacksons/Hamptons-style agent
   sites block it, so those links are skipped.
+- `scripts/agent_feeds.py` runs with the email reader and adds Marsh & Parsons homes straight from its
+  website (many never reach the portals), keeping only those inside the drawn area.
 - `scripts/stations.py` adds the nearest station and walk time; `scripts/dedupe.py` merges duplicates.
   Two adverts on the same portal are never merged into one home (a street often has several similar
   homes at one price), and a sweep row's links that already belong to another home stay there.

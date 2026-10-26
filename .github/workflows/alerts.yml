@@ -27,6 +27,11 @@ jobs:
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
         run: python scripts/ingest_alerts.py
+      - run: pip install curl_cffi
+      - name: Read agent websites
+        id: agents
+        continue-on-error: true
+        run: python scripts/agent_feeds.py
       - name: Nearest stations for new homes
         continue-on-error: true
         run: python scripts/stations.py
@@ -36,9 +41,9 @@ jobs:
           git config user.email "four-guys-bot@users.noreply.github.com"
           git add data/
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
-          git commit -m "Add listings from alert emails"
+          git commit -m "Add listings from alert emails and agent sites"
           git pull --rebase
           git push
       - name: Fail if an email couldn't be read
-        if: steps.ingest.outcome == 'failure'
+        if: steps.ingest.outcome == 'failure' || steps.agents.outcome == 'failure'
         run: exit 1
