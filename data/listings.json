@@ -14518,7 +14518,8 @@
   "url": "https://www.rightmove.co.uk/properties/94415574",
   "links": [
    "https://www.rightmove.co.uk/properties/94415574",
-   "https://www.rightmove.co.uk/properties/94411203"
+   "https://www.rightmove.co.uk/properties/94411203",
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/CLA140160/montefiore-street/"
   ],
   "source": "sweep",
   "added": "2026-10-18",
@@ -14536,6 +14537,11 @@
     "2026-10-18",
     4500,
     "rightmove"
+   ],
+   [
+    "2026-10-26",
+    4498,
+    "marshandparsons"
    ]
   ]
  },
@@ -20659,6 +20665,70 @@
    "name": "Raynes Park",
    "kind": "Rail",
    "walk": 7
+  }
+ },
+ {
+  "id": "marshandparsons-CSV182009",
+  "title": "Queenstown Road, SW8",
+  "area": "SW8",
+  "rent": 4251,
+  "beds": 4,
+  "baths": 2,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.marshandparsons.co.uk/properties-to-rent/london/property/CSV182009/queenstown-road/",
+  "links": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/CSV182009/queenstown-road/"
+  ],
+  "source": "agent",
+  "added": "2026-10-26",
+  "notes": [
+   "From the Marsh & Parsons website on 2026-10-26."
+  ],
+  "prices": [
+   [
+    "2026-10-26",
+    4251,
+    "marshandparsons"
+   ]
+  ],
+  "station": {
+   "name": "Battersea Park",
+   "kind": "Rail",
+   "walk": 1
+  }
+ },
+ {
+  "id": "marshandparsons-VBR2535277",
+  "title": "Ivy Crescent, W4",
+  "area": "",
+  "rent": 4000,
+  "beds": 4,
+  "baths": 2,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2535277/ivy-crescent/",
+  "links": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2535277/ivy-crescent/"
+  ],
+  "source": "agent",
+  "added": "2026-10-26",
+  "notes": [
+   "From the Marsh & Parsons website on 2026-10-26."
+  ],
+  "prices": [
+   [
+    "2026-10-26",
+    4000,
+    "marshandparsons"
+   ]
+  ],
+  "station": {
+   "name": "Kew Bridge",
+   "kind": "Rail",
+   "walk": 22
   }
  }
 ]
