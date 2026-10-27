@@ -291,6 +291,27 @@ def merge_price(home, rent, where, when="", site=""):
         home["rent"] = min(home["rent"], rent)
 
 
+def new_price(home, rent, beds, when, site):
+    """A price change in an email about an advert we already have. True when the home's price changed.
+
+    Only a newer price on the same site, within 25% of the last one, for a live home whose beds match:
+    a misread card shouldn't move a known home's rent.
+    """
+    if not rent or home.get("status") == "gone" or (beds and home.get("beds") and beds != home["beds"]):
+        return False
+    same = [p for p in home.get("prices") or [] if p[2] == site]
+    last = same[-1] if same else None
+    if not last or last[1] == rent or (last[0] or "") > when or abs(rent - last[1]) > 0.25 * last[1]:
+        return False
+    record_price(home, rent, when, site)
+    cut = "cut" if rent < last[1] else "rise"
+    home.setdefault("notes", []).append(f"Price {cut} on {site.title()}: £{last[1]:,} to £{rent:,} ({when}).")
+    # the shown rent is the lowest of each site's latest price, as in merge_price
+    latest = {s: r for _, r, s in home["prices"] if s and s != "search"}
+    home["rent"] = min(latest.values())
+    return True
+
+
 def read_email(msg, listings, known, added, failures, today):
     """Add the new homes in one email to `listings`. False when it should be read again next run."""
     sender, subject = decoded(msg.get("From")).lower(), decoded(msg.get("Subject"))
@@ -305,11 +326,19 @@ def read_email(msg, listings, known, added, failures, today):
     elif not found and alert:
         failures.append(f"{sender} | {subject}")
     positions = sorted(found.values())
+    try:
+        when = parsedate_to_datetime(msg["Date"]).date().isoformat()
+    except Exception:
+        when = today
     for (portal, pid), pos in found.items():
-        if (portal, pid) in known:
-            continue
         nxt = next((p for p in positions if p > pos), None)
         prv = max((p for p in positions if p < pos), default=None)
+        if (portal, pid) in known:
+            home = known[(portal, pid)]
+            rent, beds, _ = details_near(raw, pos, nxt, prv) if home else (None, None, "")
+            if home and new_price(home, rent, beds, when, portal):
+                added.append(f"{portal}-{pid} price now £{rent:,} on {home['id']}")
+            continue
         rent, beds, title = details_near(raw, pos, nxt, prv)
         if not rent and not beds:  # a link in a forward or footer, not a listing card
             continue
@@ -320,15 +349,11 @@ def read_email(msg, listings, known, added, failures, today):
         if EXCLUDED_AREAS.search(title):
             continue
         url = dict((p, t) for p, _, t in PORTALS)[portal].format(pid)
-        try:
-            when = parsedate_to_datetime(msg["Date"]).date().isoformat()
-        except Exception:
-            when = today
         dup = same_home(listings, title, rent, beds, None, [url])
         if dup:
             dup.setdefault("links", []).append(url)
             merge_price(dup, rent, f"{portal.title()} email {when}", when, portal)
-            known.add((portal, pid))
+            known[(portal, pid)] = dup
             added.append(f"{portal}-{pid} linked to existing {dup['id']}")
             continue
         listings.append({
@@ -338,7 +363,7 @@ def read_email(msg, listings, known, added, failures, today):
             "notes": [f"From an email on {when}: {subject[:120]}"],
         })
         record_price(listings[-1], rent, when, portal)
-        known.add((portal, pid))
+        known[(portal, pid)] = listings[-1]
         added.append(f"{portal}-{pid} {title} £{rent}")
     return not unresolved
 
@@ -349,13 +374,13 @@ def main():
         return
     listings = json.load(open(LISTINGS, encoding="utf-8"))
     processed = json.load(open(PROCESSED, encoding="utf-8")) if PROCESSED.exists() else []
-    known = set()
+    known = {}  # (portal, id) -> the home that advert belongs to
     for r in listings:
         for u in r.get("links", []) + [r.get("url", "")]:
             for p, rx, _ in PORTALS:
                 m = rx.search(u or "")
                 if m:
-                    known.add((p, m.group(1)))
+                    known[(p, m.group(1))] = r
 
     imap = imaplib.IMAP4_SSL("imap.gmail.com")
     imap.login(os.environ["GMAIL_ADDRESS"], os.environ["GMAIL_APP_PASSWORD"])

@@ -74,18 +74,12 @@ python -m http.server 8000
 
 Then open http://localhost:8000.
 
-## Change a home's status
+## Statuses
 
-Edit its `status` in `data/listings.json` and commit:
-
-| status      | shows as     |
-| ----------- | ------------ |
-| `new`       | To review    |
-| `shortlist` | Shortlist    |
-| `viewing`   | Viewing      |
-| `applied`   | Applied      |
-| `no`        | Not for us   |
-| `gone`      | Gone / let   |
+The site is read-only. The scripts set `status`: `new` (live, no tag), `no` (ruled out: out of area or
+no sharers; shows "Ruled out", hidden from Active) and `gone` (let or taken down; "Gone / let").
+The scripts still respect `shortlist`, `viewing` and `applied` if one is set by hand, but the site
+no longer has tabs or tags for them.
 
 ## Listing fields
 

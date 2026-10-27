@@ -1,7 +1,5 @@
-const STATUS = {
-  new: "To review", shortlist: "Shortlist", viewing: "Viewing",
-  applied: "Applied", no: "Not for us", gone: "Gone / let",
-};
+// Read-only site: only closed homes get a status tag ("no" is set by the scripts: out of area, no sharers).
+const STATUS = { no: "Ruled out", gone: "Gone / let" };
 const CLOSED = ["no", "gone"];
 const TARGET_PP = 1000, MAX_PP = 1200, PEOPLE = 4, PAGE = 60;
 // A standout: live, about £4,000 (up to £4,100), 4+ beds, 2+ baths, short walk to a station, sharers not ruled out.
@@ -26,7 +24,9 @@ const $ = (id) => document.getElementById(id);
 
 let rows = [];
 let filter = "standouts", sort = "newest", query = "", shown = PAGE;
+const TABS = [["standouts", "Standouts"], ["active", "Active"], ["budget", "In budget"], ["gone", "Gone"], ["all", "Everything"]];
 try { filter = localStorage.getItem("fgoh-filter") || filter; sort = localStorage.getItem("fgoh-sort") || sort; } catch {}
+if (!TABS.some(([k]) => k === filter)) filter = "standouts";  // e.g. a saved "shortlist" tab from before
 
 const gbp = (n) => "£" + Math.round(n).toLocaleString("en-GB");
 // Only https links are shown; anything else (javascript:, http:, junk) is dropped.
@@ -80,7 +80,7 @@ function visible() {
 
 function renderTabs() {
   const count = (f) => { const keep = filter; filter = f; const n = rows.filter(matches).length; filter = keep; return n; };
-  const tabs = [["standouts", "Standouts"], ["active", "Active"], ["budget", "In budget"], ["shortlist", "Shortlist"], ["viewing", "Viewing"], ["gone", "Gone"], ["all", "Everything"]];
+  const tabs = TABS;
   const bar = $("tabs"); bar.textContent = "";
   for (const [k, label] of tabs) {
     const b = el("button", "tab", label); b.type = "button"; b.setAttribute("aria-pressed", String(filter === k));
@@ -104,7 +104,7 @@ function card(r) {
   if (placeholder(r)) meta.append(el("span", "tag pending", "Details pending"));
   if (standout(r)) meta.append(el("span", "tag star", "Standout"));
   if (r.status === "new" && isRecent(r)) meta.append(el("span", "tag new", "New"));
-  else meta.append(el("span", "tag status", STATUS[r.status] || r.status));
+  else if (STATUS[r.status]) meta.append(el("span", "tag status", STATUS[r.status]));
   for (const b of [r.area, r.beds && `${r.beds} bed`, r.baths && `${r.baths} bath`, r.available ? `Available ${r.available.replace(/^(availability date|available( from)?)\s*:?\s*/i, "")}` : "Availability unknown"]) {
     if (b) meta.append(el("span", null, b));
   }

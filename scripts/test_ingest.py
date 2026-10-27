@@ -94,25 +94,36 @@ def fixtures():
             assert len(found) == 10, found
     for name in EXPECTED:
         listings, added, failures = [], [], []
-        assert ia.read_email(load(name), listings, set(), added, failures, "2026-10-27") and not failures, (name, failures)
+        assert ia.read_email(load(name), listings, {}, added, failures, "2026-10-27") and not failures, (name, failures)
         assert listings and all(h["rent"] and h["beds"] and h["area"] for h in listings), (name, listings)
     for name in ("newsletter_zoopla", "newsletter_onthemarket"):
         listings, added, failures = [], [], []
-        assert ia.read_email(load(name), listings, set(), added, failures, "2026-10-27"), name
+        assert ia.read_email(load(name), listings, {}, added, failures, "2026-10-27"), name
         assert not listings and not failures, (name, listings, failures)
+    # A price cut for an advert we already have moves that home's price (Gaskarth Road went to £4,999).
+    home = {"id": "zoopla-74524542", "title": "Gaskarth Road", "rent": 5200, "beds": 4, "status": "new", "notes": [],
+            "prices": [["2026-10-20", 5200, "zoopla"], ["2026-10-21", 5300, "rightmove"]]}
+    added = []
+    assert ia.read_email(load("zoopla_price_reduced"), [home], {("zoopla", "74524542"): home}, added, [], "2026-10-27")
+    assert home["rent"] == 4999 and home["prices"][-1][1:] == [4999, "zoopla"] and "£5,200 to £4,999" in home["notes"][-1], home
+    assert added[0].startswith("zoopla-74524542 price now") and len(added) == 5, added
+    # Not again when the same email is seen twice, nor for a let home or a misread card far off the last price.
+    assert not ia.new_price(home, 4999, 4, "2026-10-27", "zoopla")
+    assert not ia.new_price(dict(home, status="gone"), 4800, 4, "2026-10-28", "zoopla")
+    assert not ia.new_price(home, 1200, 4, "2026-10-28", "zoopla")
     # An alert with nothing readable is reported, and still marked read so it's reported once.
     blank = email.message_from_string("From: Rightmove <property@alert.rightmove.co.uk>\nSubject: 2 new homes\n\nnothing")
     failures = []
-    assert ia.read_email(blank, [], set(), [], failures, "2026-10-27") and failures
+    assert ia.read_email(blank, [], {}, [], failures, "2026-10-27") and failures
     # A tracking link that can't be followed (403/429) leaves the email unread so it's retried.
     tracked = email.message_from_string("From: Sam <sam@example.com>\nSubject: look\n\nhttps://clicks.rightmove.co.uk/f/a/xyz")
-    assert not ia.read_email(tracked, [], set(), [], [], "2026-10-27")
+    assert not ia.read_email(tracked, [], {}, [], [], "2026-10-27")
     ia.resolve = lambda url: "https://www.rightmove.co.uk/properties/94757757#/?channel=RES_LET"
     assert ("rightmove", "94757757") in ia.find_listings("https://clicks.rightmove.co.uk/f/a/xyz")
     # A forwarded link with no price or beds near it isn't a new home.
     fwd = email.message_from_string("From: Sam <sam@example.com>\nSubject: this one?\n\nhttps://www.zoopla.co.uk/to-rent/details/70000001/")
     listings = []
-    assert ia.read_email(fwd, listings, set(), [], [], "2026-10-27") and not listings
+    assert ia.read_email(fwd, listings, {}, [], [], "2026-10-27") and not listings
     # OpenRent's plain-text part, read on its own.
     plain = next(p for p in load("openrent_hammersmith").walk() if p.get_content_type() == "text/plain")
     text = plain.get_payload(decode=True).decode(plain.get_content_charset() or "utf-8")

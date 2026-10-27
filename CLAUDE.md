@@ -36,11 +36,11 @@ Read README.md first: it explains the search, the data and every script and work
 1. Gmail delegation: Seb sends the other three housemates' Gmail addresses; Claude adds them in
    the bot Gmail (Settings > Accounts > Grant access). Seb types the password if Google asks.
    No Google Group: the housemates don't want alert emails.
-2. A few homes still have placeholder titles ("Unverified geography" from the ChatGPT import,
-   `zoopla-74416902`, a Purplebricks OnTheMarket title); the site tags them "Details pending".
-3. Price cuts arriving by email for homes already on the list aren't applied (known links skipped).
-4. Maybe: buttons on the site so housemates can set a status (Shortlist, Not for us). Statuses
-   currently only change by editing `data/listings.json`, so nearly everything shows "To review".
+
+Done 27 Oct: placeholder homes filled in from their adverts (two were duplicates, now merged);
+emailed price changes for adverts already on the list now update the home (`new_price` in
+`ingest_alerts.py`). Seb chose a read-only site: no status buttons, and the To review /
+Shortlist / Viewing labels and tabs were removed.
 
 ## Gotchas
 
