@@ -388,9 +388,9 @@
    "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18."
   ],
   "station": {
-   "name": "West Brompton",
-   "kind": "Tube",
-   "walk": 24
+   "name": "Kensington (Olympia)",
+   "kind": "Overground",
+   "walk": 2
   },
   "prices": [
    [
@@ -939,9 +939,9 @@
   ],
   "checked": "2026-10-18",
   "station": {
-   "name": "Tooting Bec",
+   "name": "Tooting Broadway",
    "kind": "Tube",
-   "walk": 10
+   "walk": 6
   },
   "prices": [
    [
@@ -1178,9 +1178,9 @@
   ],
   "checked": "2026-10-18",
   "station": {
-   "name": "Tooting Bec",
+   "name": "Tooting Broadway",
    "kind": "Tube",
-   "walk": 10
+   "walk": 6
   },
   "prices": [
    [
@@ -1577,12 +1577,11 @@
    "Imported from the old ChatGPT tracker (status: recheck).",
    "Advert live on OnTheMarket (25 Oct).",
    "ChatGPT sweep says removed (2026-10-25).",
-   "Advert live on OnTheMarket (25 Oct).",
    "ChatGPT sweep says removed (2026-10-26).",
    "Advert live on OnTheMarket (26 Oct).",
    "ChatGPT sweep says removed (2026-10-27).",
    "Advert live on OnTheMarket (27 Oct).",
-   "Advert live on OnTheMarket (27 Oct)."
+   "Prices differ across sites: £5,000 vs £4,000. Showing the lower; see price history."
   ],
   "checked": "2026-10-27",
   "station": {
@@ -1597,11 +1596,22 @@
     ""
    ],
    [
+    "2026-10-13",
+    5000,
+    "zoopla"
+   ],
+   [
     "2026-10-19",
     4000,
     "rightmove"
+   ],
+   [
+    "2026-10-13",
+    5000,
+    "zoopla"
    ]
-  ]
+  ],
+  "sweep_gone": "2026-10-27"
  },
  {
   "id": "foxtons-chpk2593702",
@@ -2112,7 +2122,6 @@
    "ChatGPT sweep says let agreed (2026-10-26).",
    "Advert live on Foxtons (26 Oct).",
    "ChatGPT sweep says let agreed (2026-10-27).",
-   "Advert live on Foxtons (27 Oct).",
    "Advert live on Foxtons (27 Oct)."
   ],
   "checked": "2026-10-27",
@@ -2127,7 +2136,8 @@
     4200,
     "foxtons"
    ]
-  ]
+  ],
+  "sweep_gone": "2026-10-27"
  },
  {
   "id": "foxtons-chpk5218905",
@@ -3990,8 +4000,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
    "Marked gone: advert shows removed (2026-10-18).",
    "Advert live on OnTheMarket (25 Oct).",
-   "ChatGPT sweep says removed (2026-10-25).",
-   "Advert live on OnTheMarket (25 Oct)."
+   "ChatGPT sweep says removed (2026-10-25)."
   ],
   "checked": "2026-10-27",
   "station": {
@@ -5000,7 +5009,12 @@
     4650,
     "rightmove"
    ]
-  ]
+  ],
+  "station": {
+   "name": "Wandsworth Town",
+   "kind": "Rail",
+   "walk": 9
+  }
  },
  {
   "id": "openrent-3018741",
@@ -5209,12 +5223,18 @@
   "url": "https://www.zoopla.co.uk/to-rent/details/74200041/",
   "links": [
    "https://www.openrent.co.uk/property-to-rent/london/4-bed-flat-earlsfield-road-sw18/3034425",
-   "https://www.zoopla.co.uk/to-rent/details/74200041/"
+   "https://www.zoopla.co.uk/to-rent/details/74200041/",
+   "https://www.openrent.co.uk/property-to-rent/london/4-bed-terraced-house-earlsfield-road-sw18/3034425",
+   "https://www.rightmove.co.uk/properties/92951112"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-25."
+   "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-25.",
+   "Imported from the old ChatGPT tracker (status: recheck).",
+   "Marked gone: advert shows removed (2026-10-18).",
+   "Let agreed on OpenRent (25 Oct).",
+   "Advert taken down on Rightmove (26 Oct)."
   ],
   "station": {
    "name": "Earlsfield",
@@ -5223,11 +5243,17 @@
   },
   "prices": [
    [
+    "2026-09-24",
+    4300,
+    "rightmove"
+   ],
+   [
     "2026-09-25",
     4300,
     "zoopla"
    ]
-  ]
+  ],
+  "checked": "2026-10-27"
  },
  {
   "id": "openrent-3036762",
@@ -5656,7 +5682,7 @@
   "area": "Clapham / geography recheck",
   "rent": 4000,
   "beds": 4,
-  "baths": null,
+  "baths": 2,
   "available": "2026-11-01",
   "sharers": "no",
   "status": "new",
@@ -6264,16 +6290,19 @@
   "baths": 3,
   "available": "2026-09-12 (advertised)",
   "sharers": "unknown",
-  "status": "gone",
+  "status": "no",
   "url": "https://www.rightmove.co.uk/properties/91581081",
   "links": [
    "https://www.rightmove.co.uk/properties/91581081",
-   "https://www.zoopla.co.uk/to-rent/details/73878805/"
+   "https://www.zoopla.co.uk/to-rent/details/73878805/",
+   "https://www.onthemarket.com/details/20059037/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: unavailable)."
+   "Imported from the old ChatGPT tracker (status: unavailable).",
+   "Imported from the old ChatGPT tracker (status: excluded).",
+   "Let agreed on Rightmove (18 Oct)."
   ],
   "station": {
    "name": "Earlsfield",
@@ -6282,11 +6311,17 @@
   },
   "prices": [
    [
+    "2026-09-24",
+    4000,
+    "rightmove"
+   ],
+   [
     "2026-09-25",
     4000,
     "rightmove"
    ]
-  ]
+  ],
+  "checked": "2026-10-27"
  },
  {
   "id": "rightmove-91653288",
@@ -6986,7 +7021,8 @@
    "Prices differ across sites: £4,602 vs £4,300. Showing the lower; see price history.",
    "Found by ChatGPT sweep (live).",
    "Let agreed on Rightmove (18 Oct).",
-   "Rent is £4,300 on Rightmove and OnTheMarket (both let agreed); £4,602 is Marsh & Parsons' price, also let (25 Oct)."
+   "Rent is £4,300 on Rightmove and OnTheMarket (both let agreed); £4,602 is Marsh & Parsons' price, also let (25 Oct).",
+   "Found by ChatGPT sweep (unverified)."
   ],
   "checked": "2026-10-27",
   "station": {
@@ -7004,6 +7040,11 @@
     "2026-10-18",
     4300,
     "rightmove"
+   ],
+   [
+    "2026-10-19",
+    4300,
+    "chestertons"
    ]
   ],
   "off_market": {
@@ -7429,47 +7470,6 @@
   ]
  },
  {
-  "id": "rightmove-92951112",
-  "title": "Earlsfield Road",
-  "area": "Earlsfield",
-  "rent": 4300,
-  "beds": 4,
-  "baths": 2,
-  "available": "Today",
-  "sharers": "unknown",
-  "status": "gone",
-  "url": "https://www.rightmove.co.uk/properties/92951112",
-  "links": [
-   "https://www.openrent.co.uk/property-to-rent/london/4-bed-terraced-house-earlsfield-road-sw18/3034425",
-   "https://www.rightmove.co.uk/properties/92951112"
-  ],
-  "source": "import",
-  "added": "2026-09-24",
-  "notes": [
-   "Imported from the old ChatGPT tracker (status: recheck).",
-   "Marked gone: advert shows removed (2026-10-18).",
-   "Let agreed on OpenRent (25 Oct).",
-   "Advert taken down on Rightmove (26 Oct)."
-  ],
-  "checked": "2026-10-27",
-  "station": {
-   "name": "Earlsfield",
-   "kind": "Rail",
-   "walk": 3
-  },
-  "prices": [
-   [
-    "2026-09-24",
-    4300,
-    "rightmove"
-   ]
-  ],
-  "off_market": {
-   "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-27"
-  }
- },
- {
   "id": "rightmove-92961600",
   "title": "Earlsfield Road",
   "area": "Earlsfield",
@@ -7676,7 +7676,8 @@
    "Found by ChatGPT sweep (live).",
    "Marked gone: advert shows let agreed (2026-10-19).",
    "Split off onthemarket-18656989 (25 Oct): KFH's let-agreed Sefton Street advert is an older, different letting from Savills' live one.",
-   "Advert live on Rightmove (25 Oct)."
+   "Advert live on Rightmove (25 Oct).",
+   "Imported from the old ChatGPT tracker (status: recheck)."
   ],
   "checked": "2026-10-27",
   "station": {
@@ -7689,6 +7690,11 @@
     "2026-09-25",
     4500,
     "rightmove"
+   ],
+   [
+    "2026-09-25",
+    4500,
+    "zoopla"
    ],
    [
     "2026-10-19",
@@ -9065,7 +9071,9 @@
   "added": "2026-10-07",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-07.",
-   "Let agreed on Rightmove (18 Oct)."
+   "Let agreed on Rightmove (18 Oct).",
+   "Found by ChatGPT sweep (unverified).",
+   "Same street, rent, beds and baths as rightmove-94010418, which is let agreed on Rightmove/OnTheMarket; this agent site blocks checks (25 Oct)."
   ],
   "checked": "2026-10-27",
   "station": {
@@ -9078,6 +9086,11 @@
     "2026-10-07",
     4000,
     "rightmove"
+   ],
+   [
+    "2026-10-19",
+    4000,
+    "ramptonbaseley"
    ]
   ],
   "off_market": {
@@ -9579,34 +9592,6 @@
   }
  },
  {
-  "id": "zoopla-62855339",
-  "title": "1 reception1381 sq ft Sefton Street",
-  "area": "Putney",
-  "rent": 4500,
-  "beds": 4,
-  "baths": 1,
-  "available": "20 November 2026",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.zoopla.co.uk/to-rent/details/62855339/",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/62855339/"
-  ],
-  "source": "import",
-  "added": "2026-09-25",
-  "notes": [
-   "Imported from the old ChatGPT tracker (status: recheck)."
-  ],
-  "checked": "2026-10-18",
-  "prices": [
-   [
-    "2026-09-25",
-    4500,
-    "zoopla"
-   ]
-  ]
- },
- {
   "id": "zoopla-65202091",
   "title": "Lainson Street",
   "area": "Wandsworth",
@@ -10064,7 +10049,9 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
    "Advert says not suitable for sharers.",
    "Let agreed on Rightmove (18 Oct).",
-   "Let agreed on OnTheMarket (24 Oct)."
+   "Let agreed on OnTheMarket (24 Oct).",
+   "Found by ChatGPT sweep (unverified).",
+   "Same street, rent, beds and baths as zoopla-70803970, which is let agreed on Rightmove/OnTheMarket; this agent site blocks checks (25 Oct)."
   ],
   "checked": "2026-10-27",
   "station": {
@@ -10077,6 +10064,11 @@
     "2026-09-25",
     4000,
     "rightmove"
+   ],
+   [
+    "2026-10-19",
+    4000,
+    "ramptonbaseley"
    ]
   ],
   "off_market": {
@@ -10448,7 +10440,12 @@
     3100,
     "zoopla"
    ]
-  ]
+  ],
+  "station": {
+   "name": "Kew Gardens",
+   "kind": "Tube",
+   "walk": 34
+  }
  },
  {
   "id": "zoopla-73731226",
@@ -10745,46 +10742,6 @@
   "off_market": {
    "why": "Advert taken down on Zoopla",
    "checked": "2026-10-25"
-  }
- },
- {
-  "id": "zoopla-73878805",
-  "title": "Allfarthing Lane",
-  "area": "Wandsworth",
-  "rent": 4000,
-  "beds": 4,
-  "baths": 3,
-  "available": ": 21.09.26 •Property type: House •Furnis",
-  "sharers": "unknown",
-  "status": "no",
-  "url": "https://www.rightmove.co.uk/properties/91581081",
-  "links": [
-   "https://www.rightmove.co.uk/properties/91581081",
-   "https://www.zoopla.co.uk/to-rent/details/73878805/",
-   "https://www.onthemarket.com/details/20059037/"
-  ],
-  "source": "import",
-  "added": "2026-09-24",
-  "notes": [
-   "Imported from the old ChatGPT tracker (status: excluded).",
-   "Let agreed on Rightmove (18 Oct)."
-  ],
-  "checked": "2026-10-27",
-  "station": {
-   "name": "Earlsfield",
-   "kind": "Rail",
-   "walk": 16
-  },
-  "prices": [
-   [
-    "2026-09-24",
-    4000,
-    "rightmove"
-   ]
-  ],
-  "off_market": {
-   "why": "Let agreed on Rightmove",
-   "checked": "2026-10-27"
   }
  },
  {
@@ -12149,6 +12106,11 @@
   "off_market": {
    "why": "Let agreed on Zoopla",
    "checked": "2026-10-25"
+  },
+  "station": {
+   "name": "Tooting Bec",
+   "kind": "Tube",
+   "walk": 7
   }
  },
  {
@@ -12299,7 +12261,12 @@
     2900,
     "rightmove"
    ]
-  ]
+  ],
+  "station": {
+   "name": "Southfields",
+   "kind": "Tube",
+   "walk": 37
+  }
  },
  {
   "id": "zoopla-74278873",
@@ -12928,38 +12895,6 @@
   ]
  },
  {
-  "id": "zoopla-74488368",
-  "title": "Firstway, Raynes Park, London SW20",
-  "area": "Wimbledon",
-  "rent": 5000,
-  "beds": 4,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.zoopla.co.uk/to-rent/details/74488368/",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74488368/"
-  ],
-  "source": "import",
-  "added": "2026-10-13",
-  "notes": [
-   "Imported from the old ChatGPT tracker (status: recheck)."
-  ],
-  "station": {
-   "name": "Raynes Park",
-   "kind": "Rail",
-   "walk": 2
-  },
-  "prices": [
-   [
-    "2026-10-13",
-    5000,
-    "zoopla"
-   ]
-  ]
- },
- {
   "id": "foxtons-chpk0442772",
   "title": "Yelverton Road",
   "area": "Outside agreed scope",
@@ -13097,9 +13032,9 @@
    "Price changed from £3,600 to £3,500 (2026-10-25)."
   ],
   "station": {
-   "name": "Parsons Green",
+   "name": "Barons Court",
    "kind": "Tube",
-   "walk": 20
+   "walk": 12
   },
   "prices": [
    [
@@ -13226,9 +13161,9 @@
    "Imported from the old ChatGPT tracker (status: screened; advertised). Last checked 2026-09-25."
   ],
   "station": {
-   "name": "West Brompton",
+   "name": "Barons Court",
    "kind": "Tube",
-   "walk": 19
+   "walk": 9
   },
   "prices": [
    [
@@ -13262,9 +13197,9 @@
    "Price changed from £3,500 to £3,550 (2026-10-25)."
   ],
   "station": {
-   "name": "West Brompton",
+   "name": "Barons Court",
    "kind": "Tube",
-   "walk": 21
+   "walk": 5
   },
   "prices": [
    [
@@ -13984,8 +13919,7 @@
    "Found by ChatGPT sweep (live).",
    "Marked gone: advert shows removed (2026-10-22).",
    "Advert live on OnTheMarket (25 Oct).",
-   "ChatGPT sweep says removed (2026-10-25).",
-   "Advert live on OnTheMarket (25 Oct)."
+   "ChatGPT sweep says removed (2026-10-25)."
   ],
   "station": {
    "name": "Clapham Common",
@@ -14609,14 +14543,16 @@
   "url": "https://www.rightmove.co.uk/properties/93944349",
   "links": [
    "https://www.rightmove.co.uk/properties/93944349",
-   "https://www.onthemarket.com/details/20478914/"
+   "https://www.onthemarket.com/details/20478914/",
+   "https://www.zoopla.co.uk/to-rent/details/74424488/"
   ],
   "source": "sweep",
   "added": "2026-10-18",
   "checked": "2026-10-27",
   "notes": [
    "Found by ChatGPT sweep (live).",
-   "Price changed from £4,500 to £4,000 (2026-10-22)."
+   "Price changed from £4,500 to £4,000 (2026-10-22).",
+   "From an email on 2026-10-27: Price reduced: 5 properties to rent in SW London house v2"
   ],
   "station": {
    "name": "Clapham North",
@@ -14633,6 +14569,11 @@
     "2026-10-22",
     4000,
     "rightmove"
+   ],
+   [
+    "2026-10-27",
+    4000,
+    "zoopla"
    ]
   ]
  },
@@ -17325,8 +17266,7 @@
    "Found by ChatGPT sweep (live).",
    "Marked gone: advert shows removed (2026-10-22).",
    "Advert live on OnTheMarket (25 Oct).",
-   "ChatGPT sweep says removed (2026-10-25).",
-   "Advert live on OnTheMarket (25 Oct)."
+   "ChatGPT sweep says removed (2026-10-25)."
   ],
   "station": {
    "name": "Tooting Broadway",
@@ -18213,8 +18153,7 @@
    "Found by ChatGPT sweep (live).",
    "Marked gone: advert shows removed (2026-10-22).",
    "Advert live on OnTheMarket (25 Oct).",
-   "ChatGPT sweep says removed (2026-10-25).",
-   "Advert live on OnTheMarket (25 Oct)."
+   "ChatGPT sweep says removed (2026-10-25)."
   ],
   "station": {
    "name": "Clapham South",
@@ -18776,73 +18715,6 @@
   }
  },
  {
-  "id": "rampton-baseley-21813164",
-  "title": "Burntwood Lane, London, SW17",
-  "area": "Earlsfield",
-  "rent": 4000,
-  "beds": 4,
-  "baths": 3,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.ramptonbaseley.com/properties/21813164/lettings/BAL250138",
-  "links": [
-   "https://www.ramptonbaseley.com/properties/21813164/lettings/BAL250138"
-  ],
-  "source": "sweep",
-  "added": "2026-10-19",
-  "checked": "2026-10-20",
-  "notes": [
-   "Found by ChatGPT sweep (unverified).",
-   "Same street, rent, beds and baths as zoopla-70803970, which is let agreed on Rightmove/OnTheMarket; this agent site blocks checks (25 Oct)."
-  ],
-  "prices": [
-   [
-    "2026-10-19",
-    4000,
-    "ramptonbaseley"
-   ]
-  ],
-  "station": {
-   "name": "Wandsworth Common",
-   "kind": "Rail",
-   "walk": 15
-  }
- },
- {
-  "id": "chestertons-22037574",
-  "title": "Ashen Grove, London, SW19",
-  "area": "Southfields",
-  "rent": 4300,
-  "beds": 4,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.chestertons.co.uk/properties/22037574/lettings/HEA745668",
-  "links": [
-   "https://www.chestertons.co.uk/properties/22037574/lettings/HEA745668"
-  ],
-  "source": "sweep",
-  "added": "2026-10-19",
-  "checked": "2026-10-20",
-  "notes": [
-   "Found by ChatGPT sweep (unverified)."
-  ],
-  "prices": [
-   [
-    "2026-10-19",
-    4300,
-    "chestertons"
-   ]
-  ],
-  "station": {
-   "name": "Wimbledon Park",
-   "kind": "Tube",
-   "walk": 7
-  }
- },
- {
   "id": "zoopla-71454331",
   "title": "Graveney Road, Tooting, London SW17",
   "area": "Tooting",
@@ -18876,40 +18748,6 @@
    "name": "Tooting Broadway",
    "kind": "Tube",
    "walk": 4
-  }
- },
- {
-  "id": "rampton-baseley-22193006",
-  "title": "Beechcroft Road, London, SW17",
-  "area": "Wandsworth",
-  "rent": 4000,
-  "beds": 4,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.ramptonbaseley.com/properties/22193006/lettings/BAL260230",
-  "links": [
-   "https://www.ramptonbaseley.com/properties/22193006/lettings/BAL260230"
-  ],
-  "source": "sweep",
-  "added": "2026-10-19",
-  "checked": "2026-10-20",
-  "notes": [
-   "Found by ChatGPT sweep (unverified).",
-   "Same street, rent, beds and baths as rightmove-94010418, which is let agreed on Rightmove/OnTheMarket; this agent site blocks checks (25 Oct)."
-  ],
-  "prices": [
-   [
-    "2026-10-19",
-    4000,
-    "ramptonbaseley"
-   ]
-  ],
-  "station": {
-   "name": "Wandsworth Common",
-   "kind": "Rail",
-   "walk": 12
   }
  },
  {
@@ -19381,7 +19219,6 @@
    "ChatGPT sweep says let agreed (2026-10-26).",
    "Advert live on Foxtons (26 Oct).",
    "ChatGPT sweep says let agreed (2026-10-27).",
-   "Advert live on Foxtons (27 Oct).",
    "Advert live on Foxtons (27 Oct)."
   ],
   "prices": [
@@ -19395,7 +19232,8 @@
    "name": "East Putney",
    "kind": "Tube",
    "walk": 9
-  }
+  },
+  "sweep_gone": "2026-10-27"
  },
  {
   "id": "zoopla-74573121",
@@ -19498,7 +19336,12 @@
     4050,
     "rightmove"
    ]
-  ]
+  ],
+  "station": {
+   "name": "Earlsfield",
+   "kind": "Rail",
+   "walk": 7
+  }
  },
  {
   "id": "dexters-286605",
@@ -19712,8 +19555,7 @@
   "checked": "2026-10-27",
   "notes": [
    "Advert live on Rightmove (25 Oct).",
-   "Split from jacksons-20627612 (25 Oct): Jacksons' Garratt Lane house (let, £4,500) and Dexters' (live, £4,700) are different houses.",
-   "Advert live on Rightmove (25 Oct)."
+   "Split from jacksons-20627612 (25 Oct): Jacksons' Garratt Lane house (let, £4,500) and Dexters' (live, £4,700) are different houses."
   ],
   "prices": [
    [
@@ -19879,9 +19721,9 @@
    ]
   ],
   "station": {
-   "name": "Parsons Green",
+   "name": "Barons Court",
    "kind": "Tube",
-   "walk": 21
+   "walk": 12
   }
  },
  {
@@ -19948,9 +19790,9 @@
    ]
   ],
   "station": {
-   "name": "West Brompton",
+   "name": "Barons Court",
    "kind": "Tube",
-   "walk": 23
+   "walk": 6
   },
   "off_market": {
    "why": "Let agreed on marshandparsons",
@@ -19985,9 +19827,9 @@
    ]
   ],
   "station": {
-   "name": "Parsons Green",
+   "name": "Barons Court",
    "kind": "Tube",
-   "walk": 24
+   "walk": 11
   }
  },
  {
@@ -20020,9 +19862,9 @@
    ]
   ],
   "station": {
-   "name": "Parsons Green",
+   "name": "Barons Court",
    "kind": "Tube",
-   "walk": 24
+   "walk": 11
   }
  },
  {
@@ -20056,9 +19898,9 @@
    ]
   ],
   "station": {
-   "name": "West Brompton",
+   "name": "Barons Court",
    "kind": "Tube",
-   "walk": 21
+   "walk": 6
   }
  },
  {
@@ -20125,9 +19967,9 @@
    ]
   ],
   "station": {
-   "name": "West Brompton",
+   "name": "Hammersmith",
    "kind": "Tube",
-   "walk": 32
+   "walk": 3
   }
  },
  {
@@ -20170,9 +20012,9 @@
    ]
   ],
   "station": {
-   "name": "West Brompton",
+   "name": "Hammersmith (H&C)",
    "kind": "Tube",
-   "walk": 40
+   "walk": 4
   }
  },
  {
@@ -20205,9 +20047,9 @@
    ]
   ],
   "station": {
-   "name": "West Brompton",
+   "name": "Barons Court",
    "kind": "Tube",
-   "walk": 21
+   "walk": 2
   },
   "off_market": {
    "why": "Advert taken down on marshandparsons",
@@ -20242,9 +20084,9 @@
    ]
   ],
   "station": {
-   "name": "Parsons Green",
+   "name": "Hammersmith",
    "kind": "Tube",
-   "walk": 32
+   "walk": 11
   }
  },
  {
@@ -20279,6 +20121,11 @@
   "off_market": {
    "why": "Let agreed on marshandparsons",
    "checked": "2026-10-27"
+  },
+  "station": {
+   "name": "Kensington (Olympia)",
+   "kind": "Overground",
+   "walk": 5
   }
  },
  {
@@ -20311,9 +20158,9 @@
    ]
   ],
   "station": {
-   "name": "West Brompton",
+   "name": "Hammersmith (H&C)",
    "kind": "Tube",
-   "walk": 36
+   "walk": 2
   },
   "off_market": {
    "why": "Let agreed on marshandparsons",
@@ -20348,9 +20195,9 @@
    ]
   ],
   "station": {
-   "name": "West Brompton",
+   "name": "Hammersmith",
    "kind": "Tube",
-   "walk": 31
+   "walk": 8
   }
  },
  {
@@ -20383,9 +20230,9 @@
    ]
   ],
   "station": {
-   "name": "West Brompton",
+   "name": "Hammersmith",
    "kind": "Tube",
-   "walk": 35
+   "walk": 3
   }
  },
  {
@@ -20496,7 +20343,7 @@
   "area": "Fulham",
   "rent": 4000,
   "beds": 4,
-  "baths": null,
+  "baths": 1,
   "available": "",
   "sharers": "unknown",
   "status": "new",
@@ -20556,7 +20403,12 @@
     "rightmove"
    ]
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-10-27",
+  "station": {
+   "name": "Tooting Bec",
+   "kind": "Tube",
+   "walk": 10
+  }
  },
  {
   "id": "onthemarket-17963710",
@@ -20591,7 +20443,12 @@
     "rightmove"
    ]
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-10-27",
+  "station": {
+   "name": "Southfields",
+   "kind": "Tube",
+   "walk": 20
+  }
  },
  {
   "id": "onthemarket-20627722",
@@ -20606,12 +20463,14 @@
   "url": "https://www.onthemarket.com/details/20627722/",
   "links": [
    "https://www.onthemarket.com/details/20627722/",
-   "https://www.zoopla.co.uk/to-rent/details/74604845/"
+   "https://www.zoopla.co.uk/to-rent/details/74604845/",
+   "https://www.rightmove.co.uk/properties/94740414"
   ],
   "source": "alert",
   "added": "2026-10-26",
   "notes": [
-   "From an email on 2026-10-26: New properties in London (drawn area)"
+   "From an email on 2026-10-26: New properties in London (drawn area)",
+   "From an email on 2026-10-26: fourguys, we've found you 2 properties in SW London house"
   ],
   "prices": [
    [
@@ -20623,9 +20482,19 @@
     "2026-10-26",
     3750,
     "zoopla"
+   ],
+   [
+    "2026-10-26",
+    3750,
+    "rightmove"
    ]
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-10-27",
+  "station": {
+   "name": "Raynes Park",
+   "kind": "Rail",
+   "walk": 7
+  }
  },
  {
   "id": "onthemarket-20629394",
@@ -20661,39 +20530,6 @@
    "kind": "Tube",
    "walk": 6
   }
- },
- {
-  "id": "rightmove-94740414",
-  "title": "Fairway London SW20",
-  "area": "SW20",
-  "rent": 3750,
-  "beds": 5,
-  "baths": null,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/94740414",
-  "links": [
-   "https://www.rightmove.co.uk/properties/94740414"
-  ],
-  "source": "alert",
-  "added": "2026-10-26",
-  "notes": [
-   "From an email on 2026-10-26: fourguys, we've found you 2 properties in SW London house"
-  ],
-  "prices": [
-   [
-    "2026-10-26",
-    3750,
-    "rightmove"
-   ]
-  ],
-  "station": {
-   "name": "Raynes Park",
-   "kind": "Rail",
-   "walk": 7
-  },
-  "checked": "2026-10-27"
  },
  {
   "id": "marshandparsons-CSV182009",
@@ -20736,7 +20572,7 @@
  {
   "id": "marshandparsons-VBR2535277",
   "title": "Ivy Crescent, W4",
-  "area": "",
+  "area": "W4",
   "rent": 4000,
   "beds": 4,
   "baths": 2,
@@ -20745,24 +20581,32 @@
   "status": "new",
   "url": "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2535277/ivy-crescent/",
   "links": [
-   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2535277/ivy-crescent/"
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2535277/ivy-crescent/",
+   "https://www.onthemarket.com/details/20634959/"
   ],
   "source": "agent",
   "added": "2026-10-26",
   "notes": [
-   "From the Marsh & Parsons website on 2026-10-26."
+   "From the Marsh & Parsons website on 2026-10-26.",
+   "Prices differ across sites: £4,147 vs £4,000. Showing the lower; see price history.",
+   "From an email on 2026-10-27: New properties in London (drawn area)"
   ],
   "prices": [
    [
     "2026-10-26",
     4000,
     "marshandparsons"
+   ],
+   [
+    "2026-10-27",
+    4147,
+    "onthemarket"
    ]
   ],
   "station": {
-   "name": "Kew Bridge",
-   "kind": "Rail",
-   "walk": 22
+   "name": "Chiswick Park",
+   "kind": "Tube",
+   "walk": 5
   },
   "checked": "2026-10-27"
  },
@@ -20800,7 +20644,7 @@
   "area": "Balham",
   "rent": 4700,
   "beds": 4,
-  "baths": null,
+  "baths": 1,
   "available": "",
   "sharers": "unknown",
   "status": "new",
@@ -20832,7 +20676,12 @@
     "foxtons"
    ]
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-10-27",
+  "station": {
+   "name": "Balham",
+   "kind": "Tube",
+   "walk": 9
+  }
  },
  {
   "id": "rightmove-94757757",
@@ -20870,10 +20719,10 @@
  {
   "id": "onthemarket-18774487",
   "title": "4 bedroom terraced house to rent - Wendell Road, London, W12",
-  "area": "",
+  "area": "Shepherd's Bush",
   "rent": 4950,
   "beds": 4,
-  "baths": null,
+  "baths": 2,
   "available": "",
   "sharers": "unknown",
   "status": "new",
@@ -20905,63 +20754,12 @@
     "search"
    ]
   ],
-  "checked": "2026-10-27"
- },
- {
-  "id": "onthemarket-20634959",
-  "title": "4 bedroom terraced house to rent - Ivy Crescent, London W4",
-  "area": "",
-  "rent": 4147,
-  "beds": 4,
-  "baths": null,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/20634959/",
-  "links": [
-   "https://www.onthemarket.com/details/20634959/"
-  ],
-  "source": "alert",
-  "added": "2026-10-27",
-  "notes": [
-   "From an email on 2026-10-27: New properties in London (drawn area)"
-  ],
-  "prices": [
-   [
-    "2026-10-27",
-    4147,
-    "onthemarket"
-   ]
-  ],
-  "checked": "2026-10-27"
- },
- {
-  "id": "zoopla-74424488",
-  "title": "Zoopla listing 74424488",
-  "area": "",
-  "rent": 4000,
-  "beds": null,
-  "baths": null,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.zoopla.co.uk/to-rent/details/74424488/",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74424488/"
-  ],
-  "source": "alert",
-  "added": "2026-10-27",
-  "notes": [
-   "From an email on 2026-10-27: Price reduced: 5 properties to rent in SW London house v2"
-  ],
-  "prices": [
-   [
-    "2026-10-27",
-    4000,
-    "zoopla"
-   ]
-  ],
-  "checked": "2026-10-27"
+  "checked": "2026-10-27",
+  "station": {
+   "name": "Stamford Brook",
+   "kind": "Tube",
+   "walk": 13
+  }
  },
  {
   "id": "zoopla-74416902",
@@ -21019,22 +20817,24 @@
  {
   "id": "onthemarket-20635761",
   "title": "5 bedroom terraced house to rent - Claybrook Road, London, W6",
-  "area": "",
+  "area": "Hammersmith",
   "rent": 4800,
   "beds": 5,
-  "baths": null,
+  "baths": 2,
   "available": "2027-04-09",
   "sharers": "unknown",
   "status": "new",
   "url": "https://www.onthemarket.com/details/20635761/",
   "links": [
    "https://www.onthemarket.com/details/20635761/",
-   "https://www.zoopla.co.uk/to-rent/details/74613811/"
+   "https://www.zoopla.co.uk/to-rent/details/74613811/",
+   "https://www.openrent.co.uk/3088555"
   ],
   "source": "alert",
   "added": "2026-10-27",
   "notes": [
-   "From an email on 2026-10-27: New properties in London (drawn area)"
+   "From an email on 2026-10-27: New properties in London (drawn area)",
+   "From an email on 2026-10-27: New properties found for your search: Wandsworth, London"
   ],
   "prices": [
    [
@@ -21046,9 +20846,19 @@
     "2026-10-27",
     4800,
     "zoopla"
+   ],
+   [
+    "2026-10-27",
+    4800,
+    "openrent"
    ]
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-10-27",
+  "station": {
+   "name": "Barons Court",
+   "kind": "Tube",
+   "walk": 7
+  }
  },
  {
   "id": "onthemarket-19773630",
@@ -21076,12 +20886,17 @@
     "onthemarket"
    ]
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-10-27",
+  "station": {
+   "name": "Putney",
+   "kind": "Rail",
+   "walk": 9
+  }
  },
  {
   "id": "onthemarket-20594022",
   "title": "4 bedroom flat to rent - North End Road, London W14",
-  "area": "",
+  "area": "W14",
   "rent": 4900,
   "beds": 4,
   "baths": null,
@@ -21110,7 +20925,12 @@
     "rightmove"
    ]
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-10-27",
+  "station": {
+   "name": "West Kensington",
+   "kind": "Tube",
+   "walk": 5
+  }
  },
  {
   "id": "onthemarket-20577848",
@@ -21140,9 +20960,9 @@
    ]
   ],
   "station": {
-   "name": "Chiswick",
-   "kind": "Rail",
-   "walk": 24
+   "name": "Turnham Green",
+   "kind": "Tube",
+   "walk": 6
   }
  },
  {
@@ -21173,9 +20993,9 @@
    ]
   ],
   "station": {
-   "name": "Chiswick",
-   "kind": "Rail",
-   "walk": 13
+   "name": "Gunnersbury",
+   "kind": "Tube",
+   "walk": 11
   }
  },
  {
@@ -21206,9 +21026,9 @@
    ]
   ],
   "station": {
-   "name": "Chiswick",
-   "kind": "Rail",
-   "walk": 21
+   "name": "Stamford Brook",
+   "kind": "Tube",
+   "walk": 19
   }
  },
  {
@@ -21239,9 +21059,9 @@
    ]
   ],
   "station": {
-   "name": "Chiswick",
-   "kind": "Rail",
-   "walk": 21
+   "name": "Stamford Brook",
+   "kind": "Tube",
+   "walk": 19
   }
  },
  {
@@ -21303,7 +21123,12 @@
     3299,
     "foxtons"
    ]
-  ]
+  ],
+  "station": {
+   "name": "Shepherd's Bush Market",
+   "kind": "Tube",
+   "walk": 17
+  }
  },
  {
   "id": "foxtons-chpk2301451",
@@ -21331,7 +21156,12 @@
     3500,
     "foxtons"
    ]
-  ]
+  ],
+  "station": {
+   "name": "Shepherd's Bush Market",
+   "kind": "Tube",
+   "walk": 17
+  }
  },
  {
   "id": "foxtons-chpk2315177",
@@ -21359,7 +21189,12 @@
     3500,
     "foxtons"
    ]
-  ]
+  ],
+  "station": {
+   "name": "Acton Central",
+   "kind": "Overground",
+   "walk": 22
+  }
  },
  {
   "id": "foxtons-chpk2305951",
@@ -21387,33 +21222,11 @@
     5000,
     "foxtons"
    ]
-  ]
- },
- {
-  "id": "openrent-3088555",
-  "title": ")Property ( )5 Bed Terraced House, Claybrook Road, W6 - £4,800 (",
-  "area": "",
-  "rent": 4800,
-  "beds": 5,
-  "baths": null,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.openrent.co.uk/3088555",
-  "links": [
-   "https://www.openrent.co.uk/3088555"
   ],
-  "source": "alert",
-  "added": "2026-10-27",
-  "notes": [
-   "From an email on 2026-10-27: New properties found for your search: Wandsworth, London"
-  ],
-  "prices": [
-   [
-    "2026-10-27",
-    4800,
-    "openrent"
-   ]
-  ]
+  "station": {
+   "name": "Shepherd's Bush Market",
+   "kind": "Tube",
+   "walk": 8
+  }
  }
 ]
