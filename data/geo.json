@@ -153,6 +153,7 @@
 51.4442715,
 -0.1505678
 ],
+"bedroom detached house|sw15": null,
 "bedroom end-of-terrace|balham": null,
 "bedroom semi-detached house|sw20": null,
 "bedroom terraced house|": null,
@@ -1460,6 +1461,10 @@
 51.452107,
 -0.1852229
 ],
+"st. ann's park|sw18": [
+51.452107,
+-0.1852229
+],
 "st. cyprians street|tooting": [
 51.4296419,
 -0.1648571
@@ -1846,6 +1851,10 @@
 "|southfields": [
 51.4457751,
 -0.2066142
+],
+"|sw15": [
+51.4544339,
+-0.2201229
 ],
 "|sw18": [
 51.4476763,

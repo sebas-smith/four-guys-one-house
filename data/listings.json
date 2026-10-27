@@ -20850,7 +20850,8 @@
   "status": "new",
   "url": "https://www.onthemarket.com/details/18774487/",
   "links": [
-   "https://www.onthemarket.com/details/18774487/"
+   "https://www.onthemarket.com/details/18774487/",
+   "https://www.rightmove.co.uk/properties/94764723"
   ],
   "source": "alert",
   "added": "2026-10-27",
@@ -20861,6 +20862,191 @@
    [
     "2026-10-27",
     4950,
+    "onthemarket"
+   ],
+   [
+    "2026-10-27",
+    4950,
+    "rightmove"
+   ]
+  ]
+ },
+ {
+  "id": "onthemarket-20634959",
+  "title": "4 bedroom terraced house to rent - Ivy Crescent, London W4",
+  "area": "",
+  "rent": 4147,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20634959/",
+  "links": [
+   "https://www.onthemarket.com/details/20634959/"
+  ],
+  "source": "alert",
+  "added": "2026-10-27",
+  "notes": [
+   "From an email on 2026-10-27: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-10-27",
+    4147,
+    "onthemarket"
+   ]
+  ]
+ },
+ {
+  "id": "zoopla-74424488",
+  "title": "Zoopla listing 74424488",
+  "area": "",
+  "rent": null,
+  "beds": null,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.zoopla.co.uk/to-rent/details/74424488/",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74424488/"
+  ],
+  "source": "alert",
+  "added": "2026-10-27",
+  "notes": [
+   "From an email on 2026-10-27: Price reduced: 5 properties to rent in SW London house v2"
+  ]
+ },
+ {
+  "id": "zoopla-74416902",
+  "title": "Zoopla listing 74416902",
+  "area": "",
+  "rent": null,
+  "beds": null,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.zoopla.co.uk/to-rent/details/74416902/",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74416902/"
+  ],
+  "source": "alert",
+  "added": "2026-10-27",
+  "notes": [
+   "From an email on 2026-10-27: Price reduced: 5 properties to rent in SW London house v2"
+  ]
+ },
+ {
+  "id": "rightmove-94771239",
+  "title": "St. Ann's Park Road London SW18",
+  "area": "SW18",
+  "rent": 4750,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/94771239",
+  "links": [
+   "https://www.rightmove.co.uk/properties/94771239"
+  ],
+  "source": "alert",
+  "added": "2026-10-27",
+  "notes": [
+   "From an email on 2026-10-27: fourguys, we've found you 2 properties in SW London house v2"
+  ],
+  "prices": [
+   [
+    "2026-10-27",
+    4750,
+    "rightmove"
+   ]
+  ],
+  "station": {
+   "name": "Wandsworth Town",
+   "kind": "Rail",
+   "walk": 16
+  }
+ },
+ {
+  "id": "onthemarket-20635761",
+  "title": "5 bedroom terraced house to rent - Claybrook Road, London, W6",
+  "area": "",
+  "rent": 4800,
+  "beds": 5,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20635761/",
+  "links": [
+   "https://www.onthemarket.com/details/20635761/"
+  ],
+  "source": "alert",
+  "added": "2026-10-27",
+  "notes": [
+   "From an email on 2026-10-27: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-10-27",
+    4800,
+    "onthemarket"
+   ]
+  ]
+ },
+ {
+  "id": "onthemarket-19773630",
+  "title": "4 bedroom detached house to rent - Chartfield Avenue, London, SW15",
+  "area": "SW15",
+  "rent": 4500,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/19773630/",
+  "links": [
+   "https://www.onthemarket.com/details/19773630/"
+  ],
+  "source": "alert",
+  "added": "2026-10-27",
+  "notes": [
+   "From an email on 2026-10-27: Properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-10-27",
+    4500,
+    "onthemarket"
+   ]
+  ]
+ },
+ {
+  "id": "onthemarket-20594022",
+  "title": "4 bedroom flat to rent - North End Road, London W14",
+  "area": "",
+  "rent": 4900,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20594022/",
+  "links": [
+   "https://www.onthemarket.com/details/20594022/"
+  ],
+  "source": "alert",
+  "added": "2026-10-27",
+  "notes": [
+   "From an email on 2026-10-27: Reduced price properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-10-27",
+    4900,
     "onthemarket"
    ]
   ]
