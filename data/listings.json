@@ -20142,7 +20142,8 @@
   "status": "new",
   "url": "https://www.zoopla.co.uk/to-rent/details/74314978/",
   "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74314978/"
+   "https://www.zoopla.co.uk/to-rent/details/74314978/",
+   "https://www.rightmove.co.uk/properties/94804185"
   ],
   "source": "sweep",
   "added": "2026-10-25",
@@ -20161,6 +20162,11 @@
     "2026-10-27",
     4500,
     "zoopla"
+   ],
+   [
+    "2026-10-27",
+    4500,
+    "rightmove"
    ]
   ],
   "station": {
@@ -21084,7 +21090,8 @@
   "status": "new",
   "url": "https://www.onthemarket.com/details/20594022/",
   "links": [
-   "https://www.onthemarket.com/details/20594022/"
+   "https://www.onthemarket.com/details/20594022/",
+   "https://www.rightmove.co.uk/properties/94541847"
   ],
   "source": "alert",
   "added": "2026-10-27",
@@ -21096,6 +21103,11 @@
     "2026-10-27",
     4900,
     "onthemarket"
+   ],
+   [
+    "2026-10-27",
+    4900,
+    "rightmove"
    ]
   ],
   "checked": "2026-10-27"
@@ -21374,6 +21386,33 @@
     "2026-10-27",
     5000,
     "foxtons"
+   ]
+  ]
+ },
+ {
+  "id": "openrent-3088555",
+  "title": ")Property ( )5 Bed Terraced House, Claybrook Road, W6 - £4,800 (",
+  "area": "",
+  "rent": 4800,
+  "beds": 5,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.openrent.co.uk/3088555",
+  "links": [
+   "https://www.openrent.co.uk/3088555"
+  ],
+  "source": "alert",
+  "added": "2026-10-27",
+  "notes": [
+   "From an email on 2026-10-27: New properties found for your search: Wandsworth, London"
+  ],
+  "prices": [
+   [
+    "2026-10-27",
+    4800,
+    "openrent"
    ]
   ]
  }
