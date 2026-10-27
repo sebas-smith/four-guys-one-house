@@ -20730,5 +20730,32 @@
    "kind": "Rail",
    "walk": 22
   }
+ },
+ {
+  "id": "onthemarket-20630963",
+  "title": "Purplebricks - Covering South West London Lettings 020 4645 5979",
+  "area": "",
+  "rent": 3450,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20630963/",
+  "links": [
+   "https://www.onthemarket.com/details/20630963/"
+  ],
+  "source": "alert",
+  "added": "2026-10-26",
+  "notes": [
+   "From an email on 2026-10-26: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-10-26",
+    3450,
+    "onthemarket"
+   ]
+  ]
  }
 ]
