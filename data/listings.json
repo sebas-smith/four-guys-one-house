@@ -5722,14 +5722,17 @@
   "url": "https://www.openrent.co.uk/property-to-rent/london/4-bed-terraced-house-brayburne-avenue-sw4/3062451",
   "links": [
    "https://www.openrent.co.uk/property-to-rent/london/4-bed-terraced-house-brayburne-avenue-sw4/3062451",
-   "https://www.rightmove.co.uk/properties/93968652"
+   "https://www.rightmove.co.uk/properties/93968652",
+   "https://www.zoopla.co.uk/to-rent/details/74416902/"
   ],
   "source": "import",
   "added": "2026-10-10",
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck).",
    "Advert says not suitable for sharers.",
-   "Price changed from £4,300 to £4,000 (2026-10-20)."
+   "Price changed from £4,300 to £4,000 (2026-10-20).",
+   "From an email on 2026-10-27: Price reduced: 5 properties to rent in SW London house v2",
+   "Details read from the advert (27 Oct)."
   ],
   "checked": "2026-10-27",
   "station": {
@@ -5747,6 +5750,11 @@
     "2026-10-20",
     4000,
     "rightmove"
+   ],
+   [
+    "2026-10-27",
+    4000,
+    "zoopla"
    ]
   ]
  },
@@ -12970,8 +12978,8 @@
  },
  {
   "id": "openrent-2075764",
-  "title": "Unverified geography",
-  "area": "Unverified geography",
+  "title": "OpenRent home (no details)",
+  "area": "",
   "rent": null,
   "beds": null,
   "baths": null,
@@ -13094,8 +13102,8 @@
  },
  {
   "id": "openrent-3005963",
-  "title": "Unverified geography",
-  "area": "Unverified geography",
+  "title": "Heath Road, TW1",
+  "area": "Twickenham",
   "rent": 3033,
   "beds": 4,
   "baths": 2,
@@ -13109,7 +13117,8 @@
   "source": "import",
   "added": "2026-09-29",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: screened; advertised)."
+   "Imported from the old ChatGPT tracker (status: screened; advertised).",
+   "Details read from the advert (27 Oct)."
   ],
   "prices": [
    [
@@ -13117,7 +13126,12 @@
     3033,
     "openrent"
    ]
-  ]
+  ],
+  "station": {
+   "name": "Wandsworth Road",
+   "kind": "Overground",
+   "walk": 9
+  }
  },
  {
   "id": "openrent-3033646",
@@ -13291,14 +13305,14 @@
  },
  {
   "id": "openrent-3056405",
-  "title": "Unverified geography",
-  "area": "Unverified geography",
+  "title": "Triangle Place, SW4",
+  "area": "Clapham",
   "rent": 3900,
   "beds": 4,
   "baths": 1,
   "available": "Today",
   "sharers": "unknown",
-  "status": "no",
+  "status": "gone",
   "url": "https://www.openrent.co.uk/property-to-rent/london/4-bed-flat-triangle-place-sw4/3056405",
   "links": [
    "https://www.openrent.co.uk/property-to-rent/london/4-bed-flat-triangle-place-sw4/3056405"
@@ -13306,7 +13320,8 @@
   "source": "import",
   "added": "2026-10-01",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: screened; advertised)."
+   "Imported from the old ChatGPT tracker (status: screened; advertised).",
+   "Details read from the advert (27 Oct)."
   ],
   "checked": "2026-10-18",
   "prices": [
@@ -13315,12 +13330,21 @@
     3900,
     "openrent"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on OpenRent",
+   "checked": "2026-10-27"
+  },
+  "station": {
+   "name": "Clapham Common",
+   "kind": "Tube",
+   "walk": 3
+  }
  },
  {
   "id": "openrent-3057043",
-  "title": "Unverified geography",
-  "area": "Unverified geography",
+  "title": "Richmond, TW9",
+  "area": "Richmond",
   "rent": 4750,
   "beds": 4,
   "baths": 1,
@@ -13334,7 +13358,8 @@
   "source": "import",
   "added": "2026-09-30",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: screened; advertised)."
+   "Imported from the old ChatGPT tracker (status: screened; advertised).",
+   "Details read from the advert (27 Oct)."
   ],
   "prices": [
    [
@@ -20668,31 +20693,44 @@
  },
  {
   "id": "onthemarket-20630963",
-  "title": "Purplebricks - Covering South West London Lettings 020 4645 5979",
-  "area": "",
+  "title": "Arcadian Place, London, SW18",
+  "area": "SW18",
   "rent": 3450,
   "beds": 4,
-  "baths": null,
+  "baths": 3,
   "available": "",
   "sharers": "unknown",
   "status": "new",
   "url": "https://www.onthemarket.com/details/20630963/",
   "links": [
-   "https://www.onthemarket.com/details/20630963/"
+   "https://www.onthemarket.com/details/20630963/",
+   "https://www.rightmove.co.uk/properties/94757757"
   ],
   "source": "alert",
   "added": "2026-10-26",
   "notes": [
-   "From an email on 2026-10-26: New properties in London (drawn area)"
+   "From an email on 2026-10-26: New properties in London (drawn area)",
+   "Details read from the advert (27 Oct).",
+   "From an email on 2026-10-27: fourguys, we've found you 2 properties in SW London house v2"
   ],
   "prices": [
    [
     "2026-10-26",
     3450,
     "onthemarket"
+   ],
+   [
+    "2026-10-27",
+    3450,
+    "rightmove"
    ]
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-10-27",
+  "station": {
+   "name": "Southfields",
+   "kind": "Tube",
+   "walk": 4
+  }
  },
  {
   "id": "onthemarket-20631317",
@@ -20740,39 +20778,6 @@
   }
  },
  {
-  "id": "rightmove-94757757",
-  "title": "Arcadian Place, London, SW18",
-  "area": "SW18",
-  "rent": 3450,
-  "beds": 4,
-  "baths": null,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/94757757",
-  "links": [
-   "https://www.rightmove.co.uk/properties/94757757"
-  ],
-  "source": "alert",
-  "added": "2026-10-27",
-  "notes": [
-   "From an email on 2026-10-27: fourguys, we've found you 2 properties in SW London house v2"
-  ],
-  "prices": [
-   [
-    "2026-10-27",
-    3450,
-    "rightmove"
-   ]
-  ],
-  "station": {
-   "name": "Southfields",
-   "kind": "Tube",
-   "walk": 4
-  },
-  "checked": "2026-10-27"
- },
- {
   "id": "onthemarket-18774487",
   "title": "4 bedroom terraced house to rent - Wendell Road, London, W12",
   "area": "Shepherd's Bush",
@@ -20816,26 +20821,6 @@
    "kind": "Tube",
    "walk": 13
   }
- },
- {
-  "id": "zoopla-74416902",
-  "title": "Zoopla listing 74416902",
-  "area": "",
-  "rent": null,
-  "beds": null,
-  "baths": null,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.zoopla.co.uk/to-rent/details/74416902/",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74416902/"
-  ],
-  "source": "alert",
-  "added": "2026-10-27",
-  "notes": [
-   "From an email on 2026-10-27: Price reduced: 5 properties to rent in SW London house v2"
-  ]
  },
  {
   "id": "rightmove-94771239",
