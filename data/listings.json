@@ -20772,5 +20772,97 @@
    ]
   ],
   "checked": "2026-10-27"
+ },
+ {
+  "id": "onthemarket-20631317",
+  "title": "4 bedroom end-of-terrace house to rent - Cornford Grove, Balham, London, SW12",
+  "area": "Balham",
+  "rent": 4700,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20631317/",
+  "links": [
+   "https://www.onthemarket.com/details/20631317/",
+   "https://www.rightmove.co.uk/properties/94760382"
+  ],
+  "source": "alert",
+  "added": "2026-10-27",
+  "notes": [
+   "From an email on 2026-10-27: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-10-27",
+    4700,
+    "onthemarket"
+   ],
+   [
+    "2026-10-27",
+    4700,
+    "rightmove"
+   ]
+  ]
+ },
+ {
+  "id": "rightmove-94757757",
+  "title": "Arcadian Place, London, SW18",
+  "area": "SW18",
+  "rent": 3450,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/94757757",
+  "links": [
+   "https://www.rightmove.co.uk/properties/94757757"
+  ],
+  "source": "alert",
+  "added": "2026-10-27",
+  "notes": [
+   "From an email on 2026-10-27: fourguys, we've found you 2 properties in SW London house v2"
+  ],
+  "prices": [
+   [
+    "2026-10-27",
+    3450,
+    "rightmove"
+   ]
+  ],
+  "station": {
+   "name": "Southfields",
+   "kind": "Tube",
+   "walk": 4
+  }
+ },
+ {
+  "id": "onthemarket-18774487",
+  "title": "4 bedroom terraced house to rent - Wendell Road, London, W12",
+  "area": "",
+  "rent": 4950,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/18774487/",
+  "links": [
+   "https://www.onthemarket.com/details/18774487/"
+  ],
+  "source": "alert",
+  "added": "2026-10-27",
+  "notes": [
+   "From an email on 2026-10-27: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-10-27",
+    4950,
+    "onthemarket"
+   ]
+  ]
  }
 ]

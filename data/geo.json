@@ -80,6 +80,10 @@
 -0.1662125
 ],
 "aplin way|isleworth": null,
+"arcadian place|sw18": [
+51.4477154,
+-0.2090267
+],
 "aristotle road|clapham south": [
 51.4634463,
 -0.1302959
@@ -149,7 +153,9 @@
 51.4442715,
 -0.1505678
 ],
+"bedroom end-of-terrace|balham": null,
 "bedroom semi-detached house|sw20": null,
+"bedroom terraced house|": null,
 "bedroom terraced house|tooting": null,
 "beechcroft road|tooting": [
 51.4345239,
@@ -1840,6 +1846,10 @@
 "|southfields": [
 51.4457751,
 -0.2066142
+],
+"|sw18": [
+51.4476763,
+-0.1733529
 ],
 "|sw19": [
 51.4132697,
