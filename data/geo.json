@@ -1,8 +1,4 @@
 {
-")property ( )5 bed terraced house|": null,
-"1 reception1161 sq ft aplin way|isleworth": null,
-"1 reception1381 sq ft sefton street|putney": null,
-"1 reception1651 sq ft syon park gardens|osterley": null,
 "8 deeside sw17|earlsfield": [
 51.4356803,
 -0.1797566
@@ -35,7 +31,7 @@
 51.4343789,
 -0.1844564
 ],
-"algar road|isleworth": null,
+"algar road|isleworth": "2026-10-27",
 "all saints road|wimbledon": [
 51.4190427,
 -0.1858803
@@ -76,11 +72,15 @@
 51.4336368,
 -0.1662125
 ],
+"ansell road|tooting": [
+51.4336368,
+-0.1662125
+],
 "ansell road|wandsworth": [
 51.4336368,
 -0.1662125
 ],
-"aplin way|isleworth": null,
+"aplin way|isleworth": "2026-10-27",
 "arcadian place|sw18": [
 51.4477154,
 -0.2090267
@@ -117,12 +117,16 @@
 51.4934284,
 -0.2126202
 ],
-"avonwick road|outside agreed scope": null,
+"avonwick road|outside agreed scope": "2026-10-27",
 "aylward road|wimbledon": [
 51.4059805,
 -0.2083346
 ],
 "badric court sw11|wandsworth": [
+51.4700333,
+-0.1747161
+],
+"badric court|wandsworth": [
 51.4700333,
 -0.1747161
 ],
@@ -150,16 +154,14 @@
 51.4039631,
 -0.2111711
 ],
-"becklow gardens|shepherd's bush": null,
+"becklow gardens|shepherd's bush": [
+51.5062495,
+-0.2415285
+],
 "bedford hill|balham": [
 51.4442715,
 -0.1505678
 ],
-"bedroom detached house|sw15": null,
-"bedroom end-of-terrace|balham": null,
-"bedroom semi-detached house|sw20": null,
-"bedroom terraced house|": null,
-"bedroom terraced house|tooting": null,
 "beechcroft road|tooting": [
 51.4345239,
 -0.162473
@@ -176,7 +178,6 @@
 51.4647962,
 -0.1779493
 ],
-"beverley avenue \u00b7 marsh & parsons advert|raynes park": null,
 "beverley avenue|raynes park": [
 51.4146986,
 -0.24905
@@ -229,7 +230,7 @@
 51.421526,
 -0.1782553
 ],
-"boyle court|outside agreed scope": null,
+"boyle court|outside agreed scope": "2026-10-27",
 "bracken avenue|balham": [
 51.4500719,
 -0.1536346
@@ -262,7 +263,6 @@
 51.4716096,
 -0.1281499
 ],
-"brudenell road tooting bec|tooting": null,
 "brudenell road|tooting": [
 51.432369,
 -0.1593596
@@ -271,7 +271,6 @@
 51.432369,
 -0.1593596
 ],
-"bucharest road battersea|putney": null,
 "bucharest road|earlsfield": [
 51.4490202,
 -0.1843565
@@ -328,7 +327,7 @@
 51.4506498,
 -0.1479003
 ],
-"cedar avenue|twickenham": null,
+"cedar avenue|twickenham": "2026-10-27",
 "charlmont road|tooting": [
 51.4242614,
 -0.1654421
@@ -338,6 +337,10 @@
 -0.1543991
 ],
 "chartfield avenue|putney": [
+51.4572938,
+-0.22079
+],
+"chartfield avenue|sw15": [
 51.4572938,
 -0.22079
 ],
@@ -365,6 +368,10 @@
 51.4257722,
 -0.1584489
 ],
+"church lane|tooting": [
+51.4257722,
+-0.1584489
+],
 "clapham common|clapham common": [
 51.463427,
 -0.1421581
@@ -372,6 +379,14 @@
 "clarence crescent|clapham south": [
 51.4507477,
 -0.1332163
+],
+"claybrook road|": [
+51.4868937,
+-0.2180555
+],
+"claybrook road|hammersmith": [
+51.4868937,
+-0.2180555
 ],
 "clive road|tooting": [
 51.4207135,
@@ -381,8 +396,7 @@
 51.442134,
 -0.2031711
 ],
-"cole park road|outside agreed scope": null,
-"cole park|outside agreed scope": null,
+"cole park road|outside agreed scope": "2026-10-27",
 "college court|hammersmith": [
 51.4909785,
 -0.225518
@@ -398,6 +412,10 @@
 "coral row|wandsworth": [
 51.4667473,
 -0.1816563
+],
+"cornford grove|balham": [
+51.4405073,
+-0.1467126
 ],
 "cortis road|putney": [
 51.45589,
@@ -439,12 +457,19 @@
 51.4235375,
 -0.1576898
 ],
-"daffodil street|shepherd's bush": null,
+"daffodil street|shepherd's bush": [
+51.5115308,
+-0.2439443
+],
 "danebury avenue sw15|roehampton": [
 51.4496369,
 -0.24126
 ],
 "danebury avenue|putney": [
+51.4496369,
+-0.24126
+],
+"danebury avenue|roehampton": [
 51.4496369,
 -0.24126
 ],
@@ -480,6 +505,10 @@
 51.4576304,
 -0.1935138
 ],
+"drapers yard|putney": [
+51.4576304,
+-0.1935138
+],
 "durnsford avenue|wimbledon": [
 51.4391229,
 -0.1985123
@@ -495,6 +524,10 @@
 "earlsfield road|wandsworth": [
 51.4476815,
 -0.1839135
+],
+"eatonville villas|tooting": [
+51.4394315,
+-0.1609991
 ],
 "edencourt road|tooting": [
 51.420691,
@@ -516,7 +549,7 @@
 51.4612803,
 -0.2431732
 ],
-"ellerman avenue|whitton": null,
+"ellerman avenue|whitton": "2026-10-27",
 "elm road|new malden": [
 51.4041268,
 -0.2653595
@@ -585,6 +618,10 @@
 51.4051122,
 -0.2312726
 ],
+"fairway|sw20": [
+51.4051122,
+-0.2312726
+],
 "fairway|wimbledon": [
 51.4051122,
 -0.2312726
@@ -593,7 +630,6 @@
 51.4231965,
 -0.1955025
 ],
-"farnham gardens \u00b7 london property guru advert|raynes park": null,
 "farnham gardens|raynes park": [
 51.4070771,
 -0.2353212
@@ -602,7 +638,11 @@
 51.464822,
 -0.2157731
 ],
-"fern lane|hounslow": null,
+"felsham road|putney": [
+51.464822,
+-0.2157731
+],
+"fern lane|hounslow": "2026-10-27",
 "field road|hammersmith": [
 51.4871001,
 -0.2135629
@@ -623,7 +663,7 @@
 51.4304951,
 -0.1695923
 ],
-"fitzjames avenue|hammersmith": null,
+"fitzjames avenue|hammersmith": "2026-10-27",
 "florence road|wimbledon": [
 51.4213671,
 -0.1931187
@@ -780,7 +820,6 @@
 51.4184112,
 -0.2049561
 ],
-"hereward road \u00b7 dexters|tooting": null,
 "hereward road|tooting": [
 51.4313323,
 -0.1663216
@@ -789,7 +828,10 @@
 51.4428574,
 -0.1882972
 ],
-"hetley road|shepherd's bush": null,
+"hetley road|shepherd's bush": [
+51.5047505,
+-0.2332476
+],
 "hidcote gardens|raynes park": [
 51.4063782,
 -0.2385144
@@ -838,8 +880,7 @@
 51.4643792,
 -0.1228794
 ],
-"hutton mews putney|putney": null,
-"hutton mews|putney": null,
+"hutton mews|putney": "2026-10-27",
 "hydethorpe road|balham": [
 51.4438303,
 -0.1445164
@@ -857,6 +898,10 @@
 -0.1526862
 ],
 "kellino street tooting sw17|tooting": [
+51.4301151,
+-0.1646335
+],
+"kellino street|tooting": [
 51.4301151,
 -0.1646335
 ],
@@ -984,7 +1029,6 @@
 51.4057599,
 -0.2641121
 ],
-"links road tooting london sw17|tooting": null,
 "links road|tooting": [
 51.4199416,
 -0.1592254
@@ -1026,6 +1070,10 @@
 -0.25077
 ],
 "manor drive north|new malden": [
+51.3897437,
+-0.2675201
+],
+"manor drive|new malden": [
 51.3897437,
 -0.2675201
 ],
@@ -1089,7 +1137,6 @@
 51.4155149,
 -0.213351
 ],
-"merton road putney|putney": null,
 "merton road|putney": [
 51.4550333,
 -0.1990498
@@ -1158,7 +1205,7 @@
 51.395225,
 -0.2632524
 ],
-"nepa(u)l road|wandsworth": null,
+"nepa(u)l road|wandsworth": "2026-10-27",
 "newstead way|wimbledon": [
 51.4331317,
 -0.2173814
@@ -1170,6 +1217,10 @@
 "nimrod road|tooting": [
 51.4223966,
 -0.1503363
+],
+"north end road|": [
+51.4930637,
+-0.2082857
 ],
 "northcote road|battersea": [
 51.4590784,
@@ -1343,9 +1394,6 @@
 51.408966,
 -0.23054
 ],
-"reception1161 sq ft aplin way|isleworth": null,
-"reception1381 sq ft sefton street|putney": null,
-"reception1651 sq ft syon park|osterley": null,
 "reynolds road|new malden": [
 51.3874345,
 -0.2629496
@@ -1374,6 +1422,10 @@
 51.4797103,
 -0.2064669
 ],
+"rugby mansions|hammersmith": [
+51.4948279,
+-0.2102169
+],
 "rural way|tooting": [
 51.4184734,
 -0.146801
@@ -1382,7 +1434,10 @@
 51.4402238,
 -0.1449959
 ],
-"sandbourne avenue \u00b7 london property guru advert|merton park": null,
+"ryefield path|roehampton": [
+51.4457386,
+-0.239786
+],
 "sandbourne avenue|merton park": [
 51.4069905,
 -0.1956816
@@ -1415,7 +1470,6 @@
 51.4532078,
 -0.2121696
 ],
-"seely road tooting|tooting": null,
 "seely road|tooting": [
 51.4212825,
 -0.1570466
@@ -1425,6 +1479,10 @@
 -0.2267181
 ],
 "selkirk road tooting|tooting": [
+51.4300694,
+-0.1691969
+],
+"selkirk road|tooting": [
 51.4300694,
 -0.1691969
 ],
@@ -1444,7 +1502,7 @@
 51.4401867,
 -0.1878938
 ],
-"smallberry avenue|isleworth": null,
+"smallberry avenue|isleworth": "2026-10-27",
 "southcroft road|tooting": [
 51.4228219,
 -0.1594553
@@ -1472,6 +1530,10 @@
 "st ann's crescent|wandsworth": [
 51.4552688,
 -0.18773
+],
+"st. ann's park road|sw18": [
+51.452107,
+-0.1852229
 ],
 "st. ann's park road|wandsworth": [
 51.452107,
@@ -1589,7 +1651,6 @@
 51.4563268,
 -0.2155636
 ],
-"tolworth rise north kt5|new malden": null,
 "tolworth rise|new malden": [
 51.3878916,
 -0.2707049
@@ -1618,6 +1679,10 @@
 51.4622033,
 -0.1533703
 ],
+"tregarvon road|clapham south": [
+51.4622033,
+-0.1533703
+],
 "tremadoc road|clapham south": [
 51.4623844,
 -0.1311834
@@ -1638,7 +1703,6 @@
 51.4648686,
 -0.3013493
 ],
-"ullswater crescent putney|putney": null,
 "ullswater crescent|putney": [
 51.4309123,
 -0.2629696
@@ -1690,6 +1754,14 @@
 "weiss road|putney": [
 51.4666915,
 -0.2197297
+],
+"wendell road|": [
+51.5018741,
+-0.2473062
+],
+"wendell road|shepherd's bush": [
+51.5018741,
+-0.2473062
 ],
 "west hill road|earlsfield": [
 51.4512904,
@@ -1748,6 +1820,10 @@
 -0.1960707
 ],
 "winifred road wimbledon|wimbledon": [
+51.4139686,
+-0.1988932
+],
+"winifred road|wimbledon": [
 51.4139686,
 -0.1988932
 ],
@@ -1855,7 +1931,7 @@
 51.4088081,
 -0.1013679
 ],
-"|outside agreed scope": null,
+"|outside agreed scope": "2026-10-27",
 "|putney": [
 51.4625314,
 -0.2163018
@@ -1912,12 +1988,11 @@
 51.4559027,
 -0.3185104
 ],
-"|unverified geography": null,
 "|wandsworth": [
 51.4570271,
 -0.1932607
 ],
-"|whitton": null,
+"|whitton": "2026-10-27",
 "|wimbledon": [
 51.4214787,
 -0.2064027

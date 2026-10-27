@@ -5,9 +5,14 @@ const STATUS = {
 const CLOSED = ["no", "gone"];
 const TARGET_PP = 1000, MAX_PP = 1200, PEOPLE = 4, PAGE = 60;
 // A standout: live, about £4,000 (up to £4,100), 4+ beds, 2+ baths, short walk to a station, sharers not ruled out.
-const STANDOUT = { rent: 4100, beds: 4, baths: 2, walk: 8 };
+// Also: checked in the last few days, beds/baths plausible, not flagged unverified, not a placeholder row.
+const STANDOUT = { rent: 4100, beds: 4, baths: 2, walk: 8, checked: 3 };
 const standout = (r) => !CLOSED.includes(r.status) && r.rent && r.rent <= STANDOUT.rent && r.beds >= STANDOUT.beds &&
-  r.baths >= STANDOUT.baths && r.station && r.station.walk <= STANDOUT.walk && r.sharers !== "no";
+  r.baths >= STANDOUT.baths && r.baths <= r.beds && r.station && r.station.walk <= STANDOUT.walk && r.sharers !== "no" &&
+  daysAgo(r.checked) <= STANDOUT.checked && !(r.notes || []).some((t) => /unverified/i.test(t)) &&
+  !placeholder(r) && !/^unverified geography$/i.test(r.title || "");
+// Rows made from an alert email before the advert has been read, e.g. "Zoopla listing 74416902".
+const placeholder = (r) => /^[a-z]+ listing \d+$/i.test(r.title || "");
 const SITE = {
   rightmove: "Rightmove", zoopla: "Zoopla", openrent: "OpenRent", onthemarket: "OnTheMarket",
   foxtons: "Foxtons", jacksonsestateagents: "Jacksons", dexters: "Dexters", kfh: "KFH", hamptons: "Hamptons",
@@ -15,19 +20,45 @@ const SITE = {
   savills: "Savills", knightfrank: "Knight Frank", chestertons: "Chestertons", winkworth: "Winkworth",
   johndwood: "John D Wood", barnardmarcus: "Barnard Marcus", douglasandgordon: "Douglas & Gordon",
   robertholmes: "Robert Holmes", andrewsonline: "Andrews", bairstoweves: "Bairstow Eves",
+  ramptonbaseley: "Rampton Baseley", goodfellows: "Goodfellows",
 };
 const $ = (id) => document.getElementById(id);
 
 let rows = [];
-let filter = "active", sort = "newest", query = "", shown = PAGE;
+let filter = "standouts", sort = "newest", query = "", shown = PAGE;
 try { filter = localStorage.getItem("fgoh-filter") || filter; sort = localStorage.getItem("fgoh-sort") || sort; } catch {}
 
 const gbp = (n) => "£" + Math.round(n).toLocaleString("en-GB");
-function site(url) {
-  try { const h = new URL(url).hostname.replace(/^www\./, "").split(".")[0]; return SITE[h] || h; } catch { return "listing"; }
+// Only https links are shown; anything else (javascript:, http:, junk) is dropped.
+const safe = (u) => { try { return new URL(u).protocol === "https:" ? u : null; } catch { return null; } };
+// Site key from a URL's hostname: "search.savills.com" -> "savills", "www.rightmove.co.uk" -> "rightmove".
+function siteKey(url) {
+  try { const parts = new URL(url).hostname.replace(/^www\./, "").split("."); return parts.find((p) => SITE[p]) || parts[0]; } catch { return ""; }
 }
-const day = (iso) => new Date(iso + "T12:00:00").toLocaleDateString("en-GB", { day: "numeric", month: "short" });
-const isRecent =(r) => r.added && Date.now() - Date.parse(r.added) < 3 * 864e5;
+const site = (url) => SITE[siteKey(url)] || siteKey(url) || "listing";
+const siteName = (key) => SITE[key] || key;
+// YYYY-MM-DD as a local date (new Date("2026-10-27") would be UTC midnight).
+function localDate(iso) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso || "");
+  return m ? new Date(+m[1], m[2] - 1, +m[3]) : null;
+}
+function daysAgo(iso) {
+  const d = localDate(iso), now = new Date();
+  return d ? Math.round((new Date(now.getFullYear(), now.getMonth(), now.getDate()) - d) / 864e5) : Infinity;
+}
+const day = (iso) => { const d = localDate(iso); return d ? d.toLocaleDateString("en-GB", { day: "numeric", month: "short" }) : iso; };
+const isRecent = (r) => daysAgo(r.added) < 3;
+// Price entries from a real site, oldest first ("" and "search" carry no site).
+const priced = (r) => (r.prices || []).filter((x) => x[2] && x[2] !== "search");
+// The entry behind the current rent: the latest one at that price.
+const current = (r) => priced(r).filter((x) => x[1] === r.rent).pop();
+// The site's previous different price before the current one, or null.
+function previous(r) {
+  const cur = current(r); if (!cur) return null;
+  const same = priced(r).filter((x) => x[2] === cur[2]);
+  const before = same.slice(0, same.lastIndexOf(cur)).filter((x) => x[1] !== cur[1]).pop();
+  return before ? before[1] : null;
+}
 function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
 
 function matches(r) {
@@ -70,6 +101,7 @@ function card(r) {
   const where = el("div", "where");
   where.append(el("h2", "addr", r.title));
   const meta = el("div", "meta");
+  if (placeholder(r)) meta.append(el("span", "tag pending", "Details pending"));
   if (standout(r)) meta.append(el("span", "tag star", "Standout"));
   if (r.status === "new" && isRecent(r)) meta.append(el("span", "tag new", "New"));
   else meta.append(el("span", "tag status", STATUS[r.status] || r.status));
@@ -90,19 +122,21 @@ function card(r) {
     const p = el("div", "pp " + (pp <= TARGET_PP ? "good" : pp <= MAX_PP ? "warn" : "bad"));
     p.append(el("b", null, gbp(pp)), " each");
     price.append(p);
-    const was = Math.max(...(r.prices || []).map((x) => x[1]));
-    if (was > r.rent + 50) price.append(el("div", "was", `was ${gbp(was)}`));
+    // Struck-through only when the same site dropped its price.
+    const was = previous(r);
+    if (was && was > r.rent) price.append(el("div", "was", `was ${gbp(was)}`));
   } else price.append(el("div", "pp", "Price unknown"));
 
   const actions = el("div", "actions");
-  // Open the site showing the current (lowest) price first.
-  const cheapest = (r.prices || []).find((x) => x[1] === r.rent && x[2]);
-  const main = (cheapest && (r.links || []).find((u) => u.includes(cheapest[2]))) || r.url;
+  // Open the site showing the current price first.
+  const links = (r.links || []).map(safe).filter(Boolean);
+  const cur = current(r);
+  const main = (cur && links.find((u) => siteKey(u) === cur[2])) || safe(r.url) || links[0];
   if (main) {
     const a = el("a", "open", `Open on ${site(main)} ↗`); a.href = main; a.target = "_blank"; a.rel = "noopener";
     actions.append(a);
   }
-  const others = (r.links || []).filter((u) => u !== main);
+  const others = links.filter((u) => u !== main);
   if (others.length) {
     const alt = el("span", "alt", "Also on ");
     others.forEach((u, i) => {
@@ -113,14 +147,21 @@ function card(r) {
   }
   row.append(where, price, actions);
 
-  const history = r.prices || [];
-  const changed = new Set(history.map((x) => x[1])).size > 1;
-  if ((r.notes && r.notes.length) || changed) {
-    const n = (r.notes || []).length + (changed ? 1 : 0);
+  // Price history, one line per site, so two sites asking different rents isn't read as a change.
+  const bySite = new Map();
+  for (const [when, rent, where] of priced(r)) {
+    const h = bySite.get(where) || []; bySite.set(where, h);
+    if (!h.length || h[h.length - 1][1] !== rent) h.push([when, rent]);
+  }
+  const changed = [...bySite.values()].some((h) => h.length > 1);
+  const differ = new Set([...bySite.values()].map((h) => h[h.length - 1][1])).size > 1;
+  const label = changed ? "Price history" : differ ? "Prices by site" : "";
+  if ((r.notes && r.notes.length) || label) {
+    const n = (r.notes || []).length;
     const d = el("details", "notes");
-    d.append(el("summary", null, (changed ? "Price history · " : "") + (n === 1 ? "1 note" : `${n} notes`)));
-    if (changed) d.append(el("p", "history", "Price history: " + history.map(([when, rent, where]) =>
-      `${gbp(rent)}${where ? " on " + site("https://" + where + ".co.uk") : ""}${when ? " (" + day(when) + ")" : ""}`).join(" → ")));
+    d.append(el("summary", null, [label, n ? (n === 1 ? "1 note" : `${n} notes`) : ""].filter(Boolean).join(" · ")));
+    if (label) for (const [where, h] of bySite) d.append(el("p", "history", `${siteName(where)}: ` +
+      h.map(([when, rent]) => `${gbp(rent)}${when ? " (" + day(when) + ")" : ""}`).join(" → ")));
     for (const t of r.notes || []) d.append(el("p", null, t));
     row.append(d);
   }

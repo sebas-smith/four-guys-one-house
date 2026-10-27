@@ -1,14 +1,22 @@
 """Merge a ChatGPT sweep CSV into data/listings.json.
 
-Usage: python scripts/merge_sweep.py path/to/housing-sweep.csv [--dry-run]
+Usage: python scripts/merge_sweep.py path/to/housing-sweep.csv [--dry-run] [--file listings.json]
+       python scripts/merge_sweep.py --pending [--ids-out added.txt] [--dry-run] [--file listings.json]
 
 Matches homes by id or by any shared portal listing link. Updates rent, availability,
-links and status from the sweep. A row's links that belong to another home, or that are a second
+links and status from the sweep, and fills a matched home's missing title, area, rent, beds or baths.
+A row's links that belong to another home, or that are a second
 advert on a portal the home is already on (and the row's rent, beds or baths differ), aren't added. Never overrides a status a person set (shortlist,
 viewing, applied, no). When the sweep says let agreed or removed, the home is only flagged
 (sweep_gone); check_live.py opens the adverts and decides.
+
+--pending merges every sweeps/*.csv not merged yet, or rewritten since (data/merged_sweeps.json keeps
+each file's hash), so a workflow run GitHub dropped catches up next time. The first run, with no
+merged_sweeps.json, records the files already there without merging them. --ids-out appends the ids
+of homes added.
 """
 import csv
+import hashlib
 import json
 import re
 import sys
@@ -18,6 +26,8 @@ from ingest_alerts import merge_price, record_price, same_home, site_name
 
 ROOT = Path(__file__).resolve().parent.parent
 LISTINGS = ROOT / "data" / "listings.json"
+SWEEPS = ROOT / "sweeps"
+PLACEHOLDER = re.compile(r"^\s*$|^(rightmove|zoopla|onthemarket|openrent) listing \d+$|^unverified geography$", re.I)
 PERSON_SET = {"shortlist", "viewing", "applied", "no"}
 PORTALS = {"rightmove", "zoopla", "onthemarket", "openrent"}
 REQUIRED = {"id", "address_or_area", "area", "monthly_rent_gbp", "bedrooms", "bathrooms", "availability",
@@ -81,8 +91,20 @@ def clean_links(raw):
     return links
 
 
-def main(src, dry):
-    listings = json.load(open(LISTINGS, encoding="utf-8"))
+def fill_blanks(home, row, rent):
+    """Fill fields the home is missing (an alert email with no address, say) from the sweep row."""
+    filled = 0
+    title = row["address_or_area"].strip() or row["area"].strip()
+    for f, value in (("title", title), ("area", row["area"].strip()), ("rent", rent),
+                     ("beds", num(row["bedrooms"])), ("baths", num(row["bathrooms"]))):
+        if value and not PLACEHOLDER.match(str(value)) and (home.get(f) is None or PLACEHOLDER.match(str(home[f]))):
+            home[f] = value
+            filled += 1
+    return filled
+
+
+def main(src, dry, path=LISTINGS, ids_out=None):
+    listings = json.load(open(path, encoding="utf-8"))
     by_id = {r["id"]: r for r in listings}
     by_key = {}
     for r in listings:
@@ -93,7 +115,8 @@ def main(src, dry):
     missing = REQUIRED - set(rows[0] if rows else [])
     if missing:
         sys.exit(f"{src} is missing columns: {', '.join(sorted(missing))}")
-    added = updated = gone = skipped = 0
+    added = updated = gone = skipped = filled = 0
+    new_ids = []
     for row in rows:
         lid = re.sub(r"[^A-Za-z0-9_.-]", "-", row["id"]).lower()
         links = clean_links(row["listing_urls"])
@@ -113,6 +136,7 @@ def main(src, dry):
             # Compared before the row updates the home: does the row describe this same home?
             fits = rent == match.get("rent") and num(row["bedrooms"]) == match.get("beds") and num(row["bathrooms"]) == match.get("baths")
             notes = match.setdefault("notes", [])
+            filled += fill_blanks(match, row, rent)
 
             def note(text):
                 if text not in notes:
@@ -178,13 +202,62 @@ def main(src, dry):
             for k in keys(links):
                 by_key.setdefault(k, rec)
             added += 1
+            new_ids.append(lid)
 
     if not dry:
-        json.dump(listings, open(LISTINGS, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
-    print(f"{len(rows)} sweep rows: {added} added, {updated} updated ({gone} said to be gone, to check). Total {len(listings)}.")
+        json.dump(listings, open(path, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
+        if ids_out and new_ids:
+            with open(ids_out, "a", encoding="utf-8") as f:
+                f.write("".join(i + "\n" for i in new_ids))
+    print(f"{src}: {len(rows)} sweep rows: {added} added, {updated} updated ({gone} said to be gone, to check, "
+          f"{filled} blank fields filled). Total {len(listings)}.")
     if skipped:
         print(f"{skipped} links left off homes: another home has them, or another advert on the same portal")
 
 
+def digest(csv_path):
+    return hashlib.sha256(Path(csv_path).read_bytes().replace(b"\r\n", b"\n")).hexdigest()[:16]
+
+
+def pending(dry, path, ids_out):
+    """Merge each sweep CSV that's new or changed since it was last merged, oldest first."""
+    record_path = path.parent / "merged_sweeps.json"
+    record = json.load(open(record_path, encoding="utf-8")) if record_path.exists() else None
+    files = sorted(SWEEPS.glob("*.csv"))
+    if record is None:
+        record = {f.name: digest(f) for f in files}
+        print(f"No {record_path.name} yet: recorded {len(record)} sweep files as merged already")
+    else:
+        todo = [f for f in files if record.get(f.name) != digest(f)]
+        bad = []
+        for f in todo:
+            try:
+                main(f, dry, path, ids_out)
+            except SystemExit as e:  # a CSV missing columns; merge the rest, fail at the end
+                print(e)
+                bad.append(f.name)
+                continue
+            record[f.name] = digest(f)
+            if not dry:  # saved after each file, as main() saves the listings after each
+                json.dump(record, open(record_path, "w", encoding="utf-8"), indent=1)
+        if not todo:
+            print("No new sweep files")
+        if bad:
+            sys.exit(f"Not merged: {', '.join(bad)}")
+    if not dry:
+        json.dump(record, open(record_path, "w", encoding="utf-8"), indent=1)
+
+
 if __name__ == "__main__":
-    main(sys.argv[1], "--dry-run" in sys.argv)
+    args = sys.argv[1:]
+    listings_path = Path(args[args.index("--file") + 1]) if "--file" in args else LISTINGS
+    out = args[args.index("--ids-out") + 1] if "--ids-out" in args else None
+    if "--pending" in args:
+        pending("--dry-run" in args, listings_path, out)
+    else:
+        main(args[0], "--dry-run" in args, listings_path, out)
+        done = listings_path.parent / "merged_sweeps.json"
+        if "--dry-run" not in args and done.exists() and Path(args[0]).resolve().parent == SWEEPS:
+            record = json.load(open(done, encoding="utf-8"))
+            record[Path(args[0]).name] = digest(args[0])
+            json.dump(record, open(done, "w", encoding="utf-8"), indent=1)

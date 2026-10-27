@@ -22,6 +22,10 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install curl_cffi
+      - name: Merge sweep files not merged yet
+        continue-on-error: true
+        # catches up a sweep run GitHub dropped from the queue; does nothing if all are merged
+        run: python scripts/merge_sweep.py --pending
       - name: Open every live advert
         run: python scripts/check_live.py
       - name: Commit
@@ -31,5 +35,9 @@ jobs:
           git add data/
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git commit -m "Mark let agreed and taken-down adverts"
-          git pull --rebase
-          git push
+          for i in 1 2 3 4 5; do
+            if git pull --rebase && git push; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 15))
+          done
+          exit 1

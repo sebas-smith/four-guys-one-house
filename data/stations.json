@@ -1,5 +1,17 @@
 [
  {
+  "name": "Acton Central",
+  "kind": "Overground",
+  "lat": 51.50872,
+  "lon": -0.26281
+ },
+ {
+  "name": "Acton Town",
+  "kind": "Tube",
+  "lat": 51.50271,
+  "lon": -0.27996
+ },
+ {
   "name": "Balham",
   "kind": "Tube",
   "lat": 51.44339,
@@ -16,6 +28,12 @@
   "kind": "Rail",
   "lat": 51.47201,
   "lon": -0.25263
+ },
+ {
+  "name": "Barons Court",
+  "kind": "Tube",
+  "lat": 51.49035,
+  "lon": -0.21441
  },
  {
   "name": "Battersea Park",
@@ -46,6 +64,12 @@
   "kind": "Rail",
   "lat": 51.48115,
   "lon": -0.26818
+ },
+ {
+  "name": "Chiswick Park",
+  "kind": "Tube",
+  "lat": 51.49456,
+  "lon": -0.26787
  },
  {
   "name": "Clapham Common",
@@ -84,6 +108,12 @@
   "lon": -0.17786
  },
  {
+  "name": "Earl's Court",
+  "kind": "Tube",
+  "lat": 51.49161,
+  "lon": -0.1939
+ },
+ {
   "name": "Earlsfield",
   "kind": "Rail",
   "lat": 51.4424,
@@ -100,6 +130,30 @@
   "kind": "Tube",
   "lat": 51.48083,
   "lon": -0.1945
+ },
+ {
+  "name": "Goldhawk Road",
+  "kind": "Tube",
+  "lat": 51.50176,
+  "lon": -0.22657
+ },
+ {
+  "name": "Gunnersbury",
+  "kind": "Tube",
+  "lat": 51.49138,
+  "lon": -0.27552
+ },
+ {
+  "name": "Hammersmith",
+  "kind": "Tube",
+  "lat": 51.49216,
+  "lon": -0.22325
+ },
+ {
+  "name": "Hammersmith (H&C)",
+  "kind": "Tube",
+  "lat": 51.49411,
+  "lon": -0.22506
  },
  {
   "name": "Haydons Road",
@@ -124,6 +178,12 @@
   "kind": "Tube",
   "lat": 51.48829,
   "lon": -0.10588
+ },
+ {
+  "name": "Kensington (Olympia)",
+  "kind": "Overground",
+  "lat": 51.49744,
+  "lon": -0.2095
  },
  {
   "name": "Kew Bridge",
@@ -252,10 +312,40 @@
   "lon": -0.14629
  },
  {
+  "name": "Ravenscourt Park",
+  "kind": "Tube",
+  "lat": 51.49413,
+  "lon": -0.23579
+ },
+ {
   "name": "Raynes Park",
   "kind": "Rail",
   "lat": 51.40897,
   "lon": -0.23054
+ },
+ {
+  "name": "Shepherd's Bush",
+  "kind": "Overground",
+  "lat": 51.50578,
+  "lon": -0.21792
+ },
+ {
+  "name": "Shepherd's Bush",
+  "kind": "Tube",
+  "lat": 51.50436,
+  "lon": -0.21833
+ },
+ {
+  "name": "Shepherd's Bush Market",
+  "kind": "Tube",
+  "lat": 51.50607,
+  "lon": -0.22631
+ },
+ {
+  "name": "South Acton",
+  "kind": "Overground",
+  "lat": 51.49972,
+  "lon": -0.2699
  },
  {
   "name": "South Merton",
@@ -280,6 +370,12 @@
   "kind": "Rail",
   "lat": 51.38945,
   "lon": -0.19886
+ },
+ {
+  "name": "Stamford Brook",
+  "kind": "Tube",
+  "lat": 51.49497,
+  "lon": -0.24589
  },
  {
   "name": "Stockwell",
@@ -336,6 +432,12 @@
   "lon": -0.10485
  },
  {
+  "name": "Turnham Green",
+  "kind": "Tube",
+  "lat": 51.49513,
+  "lon": -0.25469
+ },
+ {
   "name": "Vauxhall",
   "kind": "Tube",
   "lat": 51.48585,
@@ -372,10 +474,22 @@
   "lon": -0.09089
  },
  {
+  "name": "West Kensington",
+  "kind": "Tube",
+  "lat": 51.4907,
+  "lon": -0.20594
+ },
+ {
   "name": "West Norwood",
   "kind": "Rail",
   "lat": 51.43163,
   "lon": -0.10349
+ },
+ {
+  "name": "White City",
+  "kind": "Tube",
+  "lat": 51.51193,
+  "lon": -0.22424
  },
  {
   "name": "Wimbledon",
@@ -394,6 +508,12 @@
   "kind": "Tube",
   "lat": 51.43406,
   "lon": -0.19904
+ },
+ {
+  "name": "Wood Lane",
+  "kind": "Tube",
+  "lat": 51.51011,
+  "lon": -0.22376
  },
  {
   "name": "Worcester Park",

@@ -2,7 +2,7 @@
 
 Read README.md first: it explains the search, the data and every script and workflow.
 
-## Where things stand (25 Oct 2026)
+## Where things stand (27 Oct 2026)
 
 - Site live: https://sebas-smith.github.io/four-guys-one-house/ (Standouts tab first).
 - ChatGPT scheduled task "SW London house sweep" runs daily 18:00 Europe/London and commits
@@ -26,15 +26,19 @@ Read README.md first: it explains the search, the data and every script and work
   backstop, Marsh & Parsons-only homes reported "unverified", "removed" only when every advert is down.
 - Marsh & Parsons leaves let adverts up unlabelled; `check_live.py` asks its API instead.
   `check_live.py` sets `checked` whenever it reads an advert.
+- 27 Oct: real alerts from all four portals arrive and parse; samples are in `tests/emails/`.
+  A full review fixed newsletters failing the Action, Zoopla price-cut and OpenRent parsing,
+  W postcodes and West London stations, Foxtons let detection, sweep catch-up, 11 duplicates
+  and the site's "was £X" and Standouts rules.
 
 ## Next steps
 
-1. Confirm the first real portal alert emails reach the site (Rightmove/Zoopla/OTM instant,
-   OpenRent once a day).
-2. Gmail delegation: Seb sends the other three housemates' Gmail addresses; Claude adds them in
+1. Gmail delegation: Seb sends the other three housemates' Gmail addresses; Claude adds them in
    the bot Gmail (Settings > Accounts > Grant access). Seb types the password if Google asks.
    No Google Group: the housemates don't want alert emails.
-3. Check the first real portal alert emails parse correctly (`scripts/test_ingest.py`).
+2. A few homes still have placeholder titles ("Unverified geography" from the ChatGPT import,
+   `zoopla-74416902`, a Purplebricks OnTheMarket title); the site tags them "Details pending".
+3. Price cuts arriving by email for homes already on the list aren't applied (known links skipped).
 4. Maybe: buttons on the site so housemates can set a status (Shortlist, Not for us). Statuses
    currently only change by editing `data/listings.json`, so nearly everything shows "To review".
 

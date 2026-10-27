@@ -17,25 +17,23 @@ jobs:
   merge:
     runs-on: ubuntu-latest
     steps:
+      # main, not the pushed commit: a queued run may start after other runs have pushed
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Merge new sweep files
-        run: |
-          files=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD -- 'sweeps/*.csv')
-          if [ -z "$files" ]; then echo "No new sweep files"; exit 0; fi
-          for f in $files; do python scripts/merge_sweep.py "$f"; done
+      - run: pip install curl_cffi
+      - name: Merge sweep files not merged yet
+        # every sweep CSV that's new or rewritten, including any whose run GitHub dropped
+        run: python scripts/merge_sweep.py --pending --ids-out "$RUNNER_TEMP/added.txt"
       - name: Nearest stations for new homes
         continue-on-error: true
         run: python scripts/stations.py
       - name: Check new homes are still live
         continue-on-error: true
-        run: |
-          pip install curl_cffi
-          python scripts/check_live.py --added "$(date -u +%F)"
+        run: python scripts/check_live.py --ids "$(paste -sd, "$RUNNER_TEMP/added.txt" 2>/dev/null)"
       - name: Commit
         run: |
           git config user.name "four-guys-bot"
@@ -43,5 +41,9 @@ jobs:
           git add data/
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git commit -m "Merge daily sweep"
-          git pull --rebase
-          git push
+          for i in 1 2 3 4 5; do
+            if git pull --rebase && git push; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 15))
+          done
+          exit 1

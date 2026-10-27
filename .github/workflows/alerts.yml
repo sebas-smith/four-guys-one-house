@@ -20,6 +20,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Merge sweep files not merged yet
+        continue-on-error: true
+        # catches up a sweep run GitHub dropped from the queue; does nothing if all are merged
+        run: python scripts/merge_sweep.py --pending --ids-out "$RUNNER_TEMP/added.txt"
       - name: Read inbox
         id: ingest
         continue-on-error: true
@@ -35,6 +39,9 @@ jobs:
       - name: Nearest stations for new homes
         continue-on-error: true
         run: python scripts/stations.py
+      - name: Check homes a caught-up sweep added or flagged
+        continue-on-error: true
+        run: python scripts/check_live.py --ids "$(paste -sd, "$RUNNER_TEMP/added.txt" 2>/dev/null)"
       - name: Commit new listings
         run: |
           git config user.name "four-guys-bot"
@@ -42,8 +49,12 @@ jobs:
           git add data/
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git commit -m "Add listings from alert emails and agent sites"
-          git pull --rebase
-          git push
+          for i in 1 2 3 4 5; do
+            if git pull --rebase && git push; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 15))
+          done
+          exit 1
       - name: Fail if an email couldn't be read
         if: steps.ingest.outcome == 'failure' || steps.agents.outcome == 'failure'
         run: exit 1

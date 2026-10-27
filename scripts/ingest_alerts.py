@@ -4,7 +4,9 @@ Picks up any Rightmove, Zoopla, OnTheMarket or OpenRent listing link in any emai
 (portal alerts, or a listing someone forwarded), so it doesn't depend on one email layout.
 
 Env: GMAIL_ADDRESS, GMAIL_APP_PASSWORD. Optional: LOOKBACK_DAYS (default 7), DRY_RUN=1.
-Exits 1 if a portal email contained no listing we could read, so the Action fails loudly.
+Exits 1 if a portal alert email contained no listing we could read, so the Action fails loudly
+(once: every email read is recorded in data/processed_emails.json, except ones whose tracking
+links couldn't be followed, which are retried next run).
 """
 import datetime as dt
 import email
@@ -14,6 +16,7 @@ import json
 import os
 import re
 import sys
+import urllib.error
 import urllib.request
 from email.header import decode_header, make_header
 from email.utils import parsedate_to_datetime
@@ -32,7 +35,12 @@ PORTALS = [
     ("openrent", re.compile(r"openrent\.co\.uk/(?:property-to-rent/[^\s\"'<>]*?/|)(\d{6,7})\b"), "https://www.openrent.co.uk/{}"),
 ]
 PORTAL_SENDERS = ("rightmove", "zoopla", "onthemarket", "openrent")
-TRACKING_HOST = re.compile(r"https?://[^\s\"'<>]*(?:rightmove|zoopla|onthemarket|openrent)[^\s\"'<>]*", re.I)
+# Portal newsletters and offers (news@email.zoopla.co.uk, info@email.onthemarket.com): never listings.
+MARKETING = re.compile(r"\b(news|info|marketing|offers|newsletter)@|@(email|news|marketing)\.", re.I)
+TRACKING_HOST = re.compile(r"https?://[^\s\"'<>)]*(?:rightmove|zoopla|onthemarket|openrent)[^\s\"'<>)]*", re.I)
+# Links not worth following: portal pages, images, fonts, open pixels and unsubscribe links.
+NO_RESOLVE = re.compile(r"//(www|media|static\w*|images\w*|st|advantage|go\.advantage|tracking)\.|"
+                        r"\.(png|jpe?g|gif|svg|woff2?|ttf|css)\b|unsubscribe|/wf/open|alert-opened", re.I)
 MIN_RENT, MAX_RENT, MIN_BEDS = 3000, 5000, 4
 EXCLUDED_AREAS = re.compile(r"isleworth|osterley|new malden|hounslow|twickenham|whitton|brixton|streatham|\b(TW[1-9]|KT3|SW2|SW16|SE\d{1,2})\b", re.I)
 
@@ -42,13 +50,13 @@ def decoded(value):
 
 
 def body_text(msg):
-    """Return (html_or_text, plain_text) for the whole message."""
-    parts = []
+    """Return (html_or_text, plain_text) for the whole message: the HTML parts if any, else the plain ones."""
+    parts = {"text/html": [], "text/plain": []}
     for part in msg.walk():
-        if part.get_content_type() in ("text/html", "text/plain") and not part.get_filename():
+        if part.get_content_type() in parts and not part.get_filename():
             payload = part.get_payload(decode=True) or b""
-            parts.append(payload.decode(part.get_content_charset() or "utf-8", errors="replace"))
-    raw = "\n".join(parts)
+            parts[part.get_content_type()].append(payload.decode(part.get_content_charset() or "utf-8", errors="replace"))
+    raw = "\n".join(parts["text/html"] or parts["text/plain"])
     text = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", raw, flags=re.S | re.I)
     text = re.sub(r"<br\s*/?>|</(p|div|tr|td|li|h\d)>", "\n", text, flags=re.I)
     text = html.unescape(re.sub(r"<[^>]+>", " ", text))
@@ -56,69 +64,110 @@ def body_text(msg):
     return raw, text
 
 
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, *args):
+        return None
+
+
 def resolve(url):
-    """Follow a tracking redirect to the real listing URL (no body download)."""
+    """Where a tracking link points: its first redirect's Location (the target isn't fetched).
+
+    Returns None when that can't be read (blocked, rate-limited, offline), so the caller can retry later.
+    """
+    req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": "Mozilla/5.0"})
     try:
-        req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=10) as r:
+        with urllib.request.build_opener(_NoRedirect).open(req, timeout=10) as r:
             return r.geturl()
+    except urllib.error.HTTPError as e:
+        return e.headers.get("Location") or (e.url if e.code < 400 else None)
     except Exception:
-        return url
+        return None
 
 
-def find_listings(raw):
-    """Return {(portal, id): position_in_raw} for every listing link, resolving tracking links."""
+def portal_hits(url):
+    return [(p, m) for p, rx, _ in PORTALS for m in [rx.search(url or "")] if m]
+
+
+def find_listings(raw, unresolved=None):
+    """Return {(portal, id): position_in_raw} for every listing link.
+
+    Tracking links are only followed when the email has no plain listing link (portal alerts do);
+    any that can't be read are added to `unresolved`.
+    """
     found = {}
     candidates = [(m.start(), html.unescape(m.group(0))) for m in TRACKING_HOST.finditer(raw)]
     for pos, url in candidates:
-        hits = [(p, rx.search(url)) for p, rx, _ in PORTALS]
-        hits = [(p, m) for p, m in hits if m]
-        if not hits and len(found) < 60:
-            real = resolve(url)
-            hits = [(p, rx.search(real)) for p, rx, _ in PORTALS]
-            hits = [(p, m) for p, m in hits if m]
-        for p, m in hits:
+        for p, m in portal_hits(url):
+            found.setdefault((p, m.group(1)), pos)
+    if found:
+        return found
+    seen = {}
+    for pos, url in candidates:
+        if NO_RESOLVE.search(url) or len(seen) >= 60:
+            continue
+        if url not in seen:
+            seen[url] = resolve(url)
+            if seen[url] is None and unresolved is not None:
+                unresolved.append(url)
+        for p, m in portal_hits(seen[url]):
             found.setdefault((p, m.group(1)), pos)
     return found
 
 
-PRICE = re.compile(r"£\s?([\d,]{3,7})\s*(pcm|per month|pw|per week|/month|/week)?", re.I)
+# "£4,999 pcm", "£950 pw", "£1,084.62" (Zoopla shows some weekly prices with no unit)
+PRICE = re.compile(r"£\s?(\d{1,3}(?:,\d{3})+|\d+)(\.\d\d)?\s*(pcm|per month|p/?w|per week|/month|/week|a month|a week)?", re.I)
+NOT_RENT = re.compile(r"(reduced by|reduced from|was|from|deposit( of)?)\s*$", re.I)  # price cuts: keep the new price
 BEDS = re.compile(r"(\d+)\s*(?:bed|bedroom)", re.I)
-ADDRESS = re.compile(r"[^<>\n|]{0,80}\b(?:(?:SW|SE|KT|TW|CR|SM)\d{1,2}\b|London|Road|Street|Avenue|Lane|Gardens|Close|Way|Grove|Place)[^<>\n|]{0,40}")
+POSTCODE = r"(?:SW|SE|NW|KT|TW|CR|SM|W)\d{1,2}\b"
+ADDRESS = re.compile(r"[^<>\n|]{0,80}\b(?:" + POSTCODE + r"|London|Road|Street|Avenue|Lane|Gardens|Close|Way|Grove|Place|"
+                     r"Crescent|Terrace|Mews|Drive|Square)[^<>\n|]{0,40}")
+OPENRENT = re.compile(r"(\d+) Bed ([^,\n]+), (.+?) - £([\d,]+)", re.I)  # "5 Bed Terraced House, Claybrook Road, W6 - £4,800": title "Claybrook Road, W6"
+
+
+def visible(fragment):
+    """An HTML fragment as plain lines, without tags or URLs."""
+    t = re.sub(r"^[^<]*?>|<[^>]*$", "", fragment) if "<" in fragment else fragment  # tags cut by the window
+    t = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", t, flags=re.S | re.I)
+    t = re.sub(r"<(?:br|/p|/div|/tr|/td|/li|/h\d)[^>]*>", "\n", t, flags=re.I)
+    t = html.unescape(re.sub(r"<[^>]+>", " ", t))
+    t = re.sub(r"\(?\s*(https?://|mailto:|tel:)\S*\s*\)?", " ", t)
+    return re.sub(r"[ \t\r\xa0]+", " ", t)
 
 
 def details_near(raw, pos, next_pos, prev_pos=None):
     """Pull price, beds and an address from the email around one listing's link.
 
-    Looks between the neighbouring listing links (at most 1500 chars each way) and takes
-    the match closest to this link, so one listing never borrows another's price.
+    Reads the text between the neighbouring listing links (at most 600 visible chars after the link,
+    300 before) and takes the match closest to this link, so one listing never borrows another's price.
     """
-    start = max(0, pos - 1500, prev_pos or 0)
-    end = min(len(raw), pos + 1500, next_pos or len(raw))
-    chunk = html.unescape(raw[start:end]).replace("\xa0", " ")
-    chunk = re.sub(r"<(?:br|/p|/div|/tr|/td|/li|/h\d)[^>]*>", "\n", chunk, flags=re.I)
-    chunk = re.sub(r"<[^>]+>", lambda m: " " * len(m.group(0)), chunk)  # keep offsets stable
-    here = pos - start
+    after = visible(raw[pos:next_pos or len(raw)][:30000])[:600]
+    before = visible(raw[max(prev_pos or 0, pos - 30000):pos])[-300:]
 
-    def closest(rx):
+    def closest(rx, ok=lambda t, m: True):
         # Alert layouts put details after the link; fall back to the nearest one before it.
-        ms = list(rx.finditer(chunk))
-        after = [m for m in ms if m.start() >= here]
-        if after:
-            return after[0]
-        return max(ms, key=lambda m: m.start()) if ms else None
+        for m in rx.finditer(after):
+            if ok(after, m):
+                return m
+        ms = [m for m in rx.finditer(before) if ok(before, m)]
+        return ms[-1] if ms else None
 
+    m = OPENRENT.search(after)
+    if m:
+        return int(m.group(4).replace(",", "")), int(m.group(1)), m.group(3).strip()
     rent = None
-    m = closest(PRICE)
+    m = closest(PRICE, lambda t, m: not NOT_RENT.search(t[max(0, m.start() - 20):m.start()]))
     if m:
         rent = int(m.group(1).replace(",", ""))
-        if m.group(2) and "w" in m.group(2).lower():
-            rent = round(rent * 52 / 12)
+        unit = (m.group(3) or "").lower()
+        if "w" in unit or (not unit and (m.group(2) or rent < 1500)):
+            rent = round((rent + float(m.group(2) or 0)) * 52 / 12)
     m = closest(BEDS)
     beds = int(m.group(1)) if m else None
-    m = closest(ADDRESS)
-    title = re.sub(r"https?://\S+|\s+", " ", m.group(0)).strip(" ,-") if m else ""
-    title = re.sub(r"\s+", " ", title)
+    m = closest(ADDRESS, lambda t, m: not re.search(r"copyright|registered|mailing address|search", m.group(0), re.I))
+    title = re.sub(r"\s+", " ", m.group(0)) if m else ""
+    title = re.sub(r"^.*?\bto (rent|let)\b\s*[-–—]?\s*", "", title, flags=re.I)  # "£3,500 pcm 4 bedroom house to rent - "
+    title = re.split(r"\s+Marketed by\b", title, flags=re.I)[0].strip(" ,-")
+    title = re.sub(r"^[a-z]{2,6}\d{5,},\s*", "", title)  # Zoopla agent refs: "chpk0457673, Cornford Grove"
     return rent, beds, title
 
 
@@ -128,12 +177,12 @@ def area_from(title):
               "Chiswick", "Shepherd's Bush", "Shepherds Bush", "Battersea"):
         if a.lower() in title.lower():
             return a
-    m = re.search(r"\b(SW\d{1,2}|SE\d{1,2}|KT\d{1,2}|TW\d{1,2}|CR\d|SM\d)\b", title)
+    m = re.search(r"\b(SW\d{1,2}|SE\d{1,2}|NW\d{1,2}|W\d{1,2}|KT\d{1,2}|TW\d{1,2}|CR\d|SM\d)\b", title)
     return m.group(1) if m else ""
 
 
-STREET = re.compile(r"\b(rd|road|street|avenue|lane|gardens|close|way|grove|place|mews|row|crescent|hill|drive|terrace|"
-                    r"square|walk|court|park|rise|vale|green|parade|yard|wharf|house|common)\b", re.I)
+STREET = re.compile(r"(?<=\w )(st)\b|\b(rd|road|street|avenue|lane|gardens|close|way|grove|place|mews|row|crescent|hill|drive|terrace|"
+                    r"square|walk|court|park|rise|vale|green|parade|yard|wharf|house|common|villas|path|mansions)\b", re.I)
 MONTHS = {m: i + 1 for i, m in enumerate("jan feb mar apr may jun jul aug sep oct nov dec".split())}
 
 
@@ -141,15 +190,22 @@ def street(title):
     """The street in a title, lower case, or "" if there isn't one.
 
     'Mascotte Road, London, SW15' -> 'mascotte road'; '8 Bucharest Road Battersea' -> 'bucharest road';
-    'Firstway, London' -> 'firstway'; 'Raynes Park, London' -> ''.
+    'Firstway, London' -> 'firstway'; 'Raynes Park, London' -> ''; '5 Bed Terraced House, Claybrook Road, W6' ->
+    'claybrook road'; 'Fairway London SW20' -> 'fairway'.
     """
     title = re.sub(r"^\s*\d+\s+bed(room)?s?\b.*?\bto (rent|let)\s*[-–—]\s*", "", title or "", flags=re.I)  # OnTheMarket
-    first = re.split(r",|\.\s+(?=[A-Z]{1,2}\d)|\s+[-–—�]\s+", title)[0]
-    first = re.sub(r"\s+", " ", first).strip()
+    title = re.sub(r"^.*\bsq\.? ?ft\s+", "", title, flags=re.I)  # "1 reception1381 sq ft Sefton Street"
+    parts = [re.sub(r"\s+", " ", p).strip() for p in re.split(r",|\.\s+(?=[A-Z]{1,2}\d)|\s+[-–—�]\s+", title)]
+    # Skip "5 Bed Terraced House" and agent refs like "chpk0457673"
+    first = next((p for p in parts if not re.search(r"\bbed(room)?s?\b|^[a-z]{2,6}\d{5,}$", p, re.I)), "")
     m = ([None] + list(STREET.finditer(first)))[-1]  # last one: "St Ann's Park Road" ends at Road
     if m and not re.fullmatch(r"(raynes|colliers|putney|wimbledon|clapham)\s+\w+", first[:m.end()], re.I):
-        return re.sub(r"^\d+\s+", "", first[:m.end()]).lower().replace(" rd", " road")
-    return first.lower() if re.search(r"\w(way|heath|view|side)$", first, re.I) else ""
+        s = re.sub(r"^\d+\s+", "", first[:m.end()]).lower()
+        return re.sub(r" rd$", " road", re.sub(r" st$", " street", s))
+    if re.search(r"\w(way|heath|view|side)$", first, re.I):
+        return first.lower()
+    m = re.search(r"\b(\w+(?:way|heath|view|side))\b", first, re.I)  # no comma: "Fairway London SW20"
+    return m.group(1).lower() if m else ""
 
 
 def avail_date(text):
@@ -235,6 +291,58 @@ def merge_price(home, rent, where, when="", site=""):
         home["rent"] = min(home["rent"], rent)
 
 
+def read_email(msg, listings, known, added, failures, today):
+    """Add the new homes in one email to `listings`. False when it should be read again next run."""
+    sender, subject = decoded(msg.get("From")).lower(), decoded(msg.get("Subject"))
+    if MARKETING.search(sender):
+        return True
+    raw, _ = body_text(msg)
+    unresolved = []
+    found = find_listings(raw, unresolved)
+    alert = any(s in sender for s in PORTAL_SENDERS) and "alert" in sender
+    if unresolved:
+        print(f"  ? {len(unresolved)} tracking links unreadable, retrying next run: {sender} | {subject}")
+    elif not found and alert:
+        failures.append(f"{sender} | {subject}")
+    positions = sorted(found.values())
+    for (portal, pid), pos in found.items():
+        if (portal, pid) in known:
+            continue
+        nxt = next((p for p in positions if p > pos), None)
+        prv = max((p for p in positions if p < pos), default=None)
+        rent, beds, title = details_near(raw, pos, nxt, prv)
+        if not rent and not beds:  # a link in a forward or footer, not a listing card
+            continue
+        if rent and not (MIN_RENT <= rent <= MAX_RENT):
+            continue
+        if beds and beds < MIN_BEDS:
+            continue
+        if EXCLUDED_AREAS.search(title):
+            continue
+        url = dict((p, t) for p, _, t in PORTALS)[portal].format(pid)
+        try:
+            when = parsedate_to_datetime(msg["Date"]).date().isoformat()
+        except Exception:
+            when = today
+        dup = same_home(listings, title, rent, beds, None, [url])
+        if dup:
+            dup.setdefault("links", []).append(url)
+            merge_price(dup, rent, f"{portal.title()} email {when}", when, portal)
+            known.add((portal, pid))
+            added.append(f"{portal}-{pid} linked to existing {dup['id']}")
+            continue
+        listings.append({
+            "id": f"{portal}-{pid}", "title": title or f"{portal.title()} listing {pid}", "area": area_from(title),
+            "rent": rent, "beds": beds, "baths": None, "available": "", "sharers": "unknown", "status": "new",
+            "url": url, "links": [url], "source": "alert", "added": when,
+            "notes": [f"From an email on {when}: {subject[:120]}"],
+        })
+        record_price(listings[-1], rent, when, portal)
+        known.add((portal, pid))
+        added.append(f"{portal}-{pid} {title} £{rent}")
+    return not unresolved
+
+
 def main():
     if not os.environ.get("GMAIL_ADDRESS") or not os.environ.get("GMAIL_APP_PASSWORD"):
         print("Gmail secrets not set yet; skipping.")
@@ -262,47 +370,8 @@ def main():
         mid = msg.get("Message-ID", f"no-id-{num.decode()}")
         if mid in processed:
             continue
-        sender, subject = decoded(msg.get("From")).lower(), decoded(msg.get("Subject"))
-        raw, _ = body_text(msg)
-        found = find_listings(raw)
-        if not found and any(s in sender for s in PORTAL_SENDERS) and re.search(r"propert|home|alert|new|price", subject, re.I):
-            failures.append(f"{sender} | {subject}")
-            continue
-        positions = sorted(found.values())
-        for (portal, pid), pos in found.items():
-            if (portal, pid) in known:
-                continue
-            nxt = next((p for p in positions if p > pos), None)
-            prv = max((p for p in positions if p < pos), default=None)
-            rent, beds, title = details_near(raw, pos, nxt, prv)
-            if rent and not (MIN_RENT <= rent <= MAX_RENT):
-                continue
-            if beds and beds < MIN_BEDS:
-                continue
-            if EXCLUDED_AREAS.search(title):
-                continue
-            url = dict((p, t) for p, _, t in PORTALS)[portal].format(pid)
-            try:
-                when = parsedate_to_datetime(msg["Date"]).date().isoformat()
-            except Exception:
-                when = today
-            dup = same_home(listings, title, rent, beds, None, [url])
-            if dup:
-                dup.setdefault("links", []).append(url)
-                merge_price(dup, rent, f"{portal.title()} email {when}", when, portal)
-                known.add((portal, pid))
-                added.append(f"{portal}-{pid} linked to existing {dup['id']}")
-                continue
-            listings.append({
-                "id": f"{portal}-{pid}", "title": title or f"{portal.title()} listing {pid}", "area": area_from(title),
-                "rent": rent, "beds": beds, "baths": None, "available": "", "sharers": "unknown", "status": "new",
-                "url": url, "links": [url], "source": "alert", "added": when,
-                "notes": [f"From an email on {when}: {subject[:120]}"],
-            })
-            record_price(listings[-1], rent, when, portal)
-            known.add((portal, pid))
-            added.append(f"{portal}-{pid} {title} £{rent}")
-        processed.append(mid)
+        if read_email(msg, listings, known, added, failures, today):
+            processed.append(mid)
     imap.logout()
 
     if not os.environ.get("DRY_RUN"):

@@ -19,11 +19,16 @@ Site: https://sebas-smith.github.io/four-guys-one-house/
 - `index.html`, `app.js`, `style.css` are a static page that reads it. No build step.
 - Every evening a ChatGPT scheduled task searches the portals and agents, generates a CSV with code,
   and commits it as `sweeps/YYYY-MM-DD.csv`. `.github/workflows/sweep.yml` then runs
-  `scripts/merge_sweep.py` on it, which adds new homes, updates prices and marks let homes gone.
-  It never overrides a status one of us set. The git history shows what changed each day.
+  `scripts/merge_sweep.py --pending`, which merges every sweep CSV that's new or was rewritten
+  (hashes in `data/merged_sweeps.json`): it adds new homes, updates prices, fills blank fields and
+  marks let homes gone. The other two workflows run the same catch-up, so a sweep run GitHub drops
+  from the shared queue still gets merged. It never overrides a status one of us set. The git
+  history shows what changed each day.
 - Every morning at 05:00 UTC `.github/workflows/check.yml` runs `scripts/check_live.py`, which opens
   each live home's adverts and marks it gone when they're let agreed, under offer or taken down
-  (warning only if another advert is still live). The sweep workflow runs it on that day's new homes.
+  (warning only if another advert is still live). The sweep workflow runs it on the homes it just
+  added. Foxtons leaves let adverts up too: its page JSON says `DOW`/`EXC` when let. A short page or
+  a captcha/rate-limit page counts as unknown, never "removed".
   Rightmove and OnTheMarket work from GitHub; Zoopla, OpenRent and Jacksons/Hamptons-style agent
   sites block it, so those links are skipped.
 - `scripts/agent_feeds.py` runs with the email reader and adds Marsh & Parsons homes straight from its
@@ -41,8 +46,11 @@ the emails). Housemates can read that inbox through Gmail delegation. Every 15 m
 OpenRent listing link to `data/listings.json`, and commits. Forward any listing email to the bot
 address and it gets added too.
 
-If a portal email can't be read (for example, the portal changed its layout), the Action fails
-and GitHub emails the repo owner. Parser tests: `python scripts/test_ingest.py`.
+If a portal alert email can't be read (for example, the portal changed its layout), the Action fails
+once and GitHub emails the repo owner. Marketing newsletters from the portals are skipped. If a
+tracking link can't be followed, the email is left for the next run. Parser tests:
+`python scripts/test_ingest.py`; it runs on real alert emails saved in `tests/emails/` (27 Oct,
+with headers, account links and tracking query strings removed).
 
 ### One-time setup
 
