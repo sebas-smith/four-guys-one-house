@@ -1579,7 +1579,9 @@
    "ChatGPT sweep says removed (2026-10-25).",
    "Advert live on OnTheMarket (25 Oct).",
    "ChatGPT sweep says removed (2026-10-26).",
-   "Advert live on OnTheMarket (26 Oct)."
+   "Advert live on OnTheMarket (26 Oct).",
+   "ChatGPT sweep says removed (2026-10-27).",
+   "Advert live on OnTheMarket (27 Oct)."
   ],
   "checked": "2026-10-27",
   "station": {
@@ -2107,7 +2109,9 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-10-12.",
    "ChatGPT sweep says let agreed (2026-10-26).",
-   "Advert live on Foxtons (26 Oct)."
+   "Advert live on Foxtons (26 Oct).",
+   "ChatGPT sweep says let agreed (2026-10-27).",
+   "Advert live on Foxtons (27 Oct)."
   ],
   "checked": "2026-10-27",
   "station": {
@@ -3633,7 +3637,7 @@
    "Marked gone: advert shows let agreed (2026-10-20).",
    "Advert live on Zoopla (25 Oct)."
   ],
-  "checked": "2026-10-26",
+  "checked": "2026-10-27",
   "station": {
    "name": "Tooting Bec",
    "kind": "Tube",
@@ -4243,7 +4247,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-11."
   ],
-  "checked": "2026-10-26",
+  "checked": "2026-10-27",
   "station": {
    "name": "Colliers Wood",
    "kind": "Tube",
@@ -4723,7 +4727,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
-  "checked": "2026-10-26",
+  "checked": "2026-10-27",
   "station": {
    "name": "Putney",
    "kind": "Rail",
@@ -5418,7 +5422,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04."
   ],
-  "checked": "2026-10-26",
+  "checked": "2026-10-27",
   "station": {
    "name": "Wandsworth Town",
    "kind": "Rail",
@@ -5454,7 +5458,7 @@
    "Price changed from £3,340 to £4,800 (2026-10-18).",
    "Price changed from £4,800 to £4,300 (2026-10-26)."
   ],
-  "checked": "2026-10-26",
+  "checked": "2026-10-27",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -5497,7 +5501,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck). Last checked 2026-10-09."
   ],
-  "checked": "2026-10-26",
+  "checked": "2026-10-27",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -5635,7 +5639,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
    "Advert says not suitable for sharers."
   ],
-  "checked": "2026-10-26",
+  "checked": "2026-10-27",
   "prices": [
    [
     "2026-10-04",
@@ -9735,7 +9739,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
-  "checked": "2026-10-26",
+  "checked": "2026-10-27",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -15810,7 +15814,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-26",
+  "checked": "2026-10-27",
   "notes": [
    "Found by ChatGPT sweep (live; results-page evidence only).",
    "Found by ChatGPT sweep (live)."
@@ -16006,7 +16010,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-26",
+  "checked": "2026-10-27",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -16454,7 +16458,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-26",
+  "checked": "2026-10-27",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -16488,7 +16492,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-26",
+  "checked": "2026-10-27",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -16714,7 +16718,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-26",
+  "checked": "2026-10-27",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17281,7 +17285,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-26",
+  "checked": "2026-10-27",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17351,7 +17355,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-26",
+  "checked": "2026-10-27",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17494,7 +17498,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-26",
+  "checked": "2026-10-27",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -19373,7 +19377,9 @@
   "notes": [
    "Found by ChatGPT sweep (live).",
    "ChatGPT sweep says let agreed (2026-10-26).",
-   "Advert live on Foxtons (26 Oct)."
+   "Advert live on Foxtons (26 Oct).",
+   "ChatGPT sweep says let agreed (2026-10-27).",
+   "Advert live on Foxtons (27 Oct)."
   ],
   "prices": [
    [
@@ -20125,7 +20131,7 @@
   "id": "zoopla-74314978",
   "title": "Overstone Road, Hammersmith W6",
   "area": "Hammersmith",
-  "rent": 4750,
+  "rent": 4500,
   "beds": 4,
   "baths": 2,
   "available": "2026-11-18",
@@ -20137,14 +20143,20 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-10-26",
+  "checked": "2026-10-27",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Price changed from £4,750 to £4,500 (2026-10-27)."
   ],
   "prices": [
    [
     "2026-10-25",
     4750,
+    "zoopla"
+   ],
+   [
+    "2026-10-27",
+    4500,
     "zoopla"
    ]
   ],
@@ -20315,7 +20327,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-10-26",
+  "checked": "2026-10-27",
   "notes": [
    "Found by ChatGPT sweep (unverified)."
   ],
@@ -20485,7 +20497,7 @@
   ],
   "source": "search",
   "added": "2026-10-25",
-  "checked": "2026-10-26",
+  "checked": "2026-10-27",
   "notes": [
    "Missed by the sweep; found in a portal coverage check on 25 Oct (OpenRent private landlord)."
   ],
@@ -20786,7 +20798,8 @@
   "url": "https://www.onthemarket.com/details/20631317/",
   "links": [
    "https://www.onthemarket.com/details/20631317/",
-   "https://www.rightmove.co.uk/properties/94760382"
+   "https://www.rightmove.co.uk/properties/94760382",
+   "https://www.foxtons.co.uk/properties-to-rent/sw12/chpk0457673"
   ],
   "source": "alert",
   "added": "2026-10-27",
@@ -20803,8 +20816,14 @@
     "2026-10-27",
     4700,
     "rightmove"
+   ],
+   [
+    "2026-10-27",
+    4700,
+    "foxtons"
    ]
-  ]
+  ],
+  "checked": "2026-10-27"
  },
  {
   "id": "rightmove-94757757",
@@ -20836,7 +20855,8 @@
    "name": "Southfields",
    "kind": "Tube",
    "walk": 4
-  }
+  },
+  "checked": "2026-10-27"
  },
  {
   "id": "onthemarket-18774487",
@@ -20851,7 +20871,8 @@
   "url": "https://www.onthemarket.com/details/18774487/",
   "links": [
    "https://www.onthemarket.com/details/18774487/",
-   "https://www.rightmove.co.uk/properties/94764723"
+   "https://www.rightmove.co.uk/properties/94764723",
+   "https://search.savills.com/property-detail/gbcsrecil250008l"
   ],
   "source": "alert",
   "added": "2026-10-27",
@@ -20868,8 +20889,14 @@
     "2026-10-27",
     4950,
     "rightmove"
+   ],
+   [
+    "2026-10-27",
+    4950,
+    "search"
    ]
-  ]
+  ],
+  "checked": "2026-10-27"
  },
  {
   "id": "onthemarket-20634959",
@@ -20896,13 +20923,14 @@
     4147,
     "onthemarket"
    ]
-  ]
+  ],
+  "checked": "2026-10-27"
  },
  {
   "id": "zoopla-74424488",
   "title": "Zoopla listing 74424488",
   "area": "",
-  "rent": null,
+  "rent": 4000,
   "beds": null,
   "baths": null,
   "available": "",
@@ -20916,7 +20944,15 @@
   "added": "2026-10-27",
   "notes": [
    "From an email on 2026-10-27: Price reduced: 5 properties to rent in SW London house v2"
-  ]
+  ],
+  "prices": [
+   [
+    "2026-10-27",
+    4000,
+    "zoopla"
+   ]
+  ],
+  "checked": "2026-10-27"
  },
  {
   "id": "zoopla-74416902",
@@ -20968,7 +21004,8 @@
    "name": "Wandsworth Town",
    "kind": "Rail",
    "walk": 16
-  }
+  },
+  "checked": "2026-10-27"
  },
  {
   "id": "onthemarket-20635761",
@@ -20977,12 +21014,13 @@
   "rent": 4800,
   "beds": 5,
   "baths": null,
-  "available": "",
+  "available": "2027-04-09",
   "sharers": "unknown",
   "status": "new",
   "url": "https://www.onthemarket.com/details/20635761/",
   "links": [
-   "https://www.onthemarket.com/details/20635761/"
+   "https://www.onthemarket.com/details/20635761/",
+   "https://www.zoopla.co.uk/to-rent/details/74613811/"
   ],
   "source": "alert",
   "added": "2026-10-27",
@@ -20994,8 +21032,14 @@
     "2026-10-27",
     4800,
     "onthemarket"
+   ],
+   [
+    "2026-10-27",
+    4800,
+    "zoopla"
    ]
-  ]
+  ],
+  "checked": "2026-10-27"
  },
  {
   "id": "onthemarket-19773630",
@@ -21022,7 +21066,8 @@
     4500,
     "onthemarket"
    ]
-  ]
+  ],
+  "checked": "2026-10-27"
  },
  {
   "id": "onthemarket-20594022",
@@ -21048,6 +21093,284 @@
     "2026-10-27",
     4900,
     "onthemarket"
+   ]
+  ],
+  "checked": "2026-10-27"
+ },
+ {
+  "id": "onthemarket-20577848",
+  "title": "Devonshire Road, London W4, W4 2AW",
+  "area": "Chiswick",
+  "rent": 4995,
+  "beds": 5,
+  "baths": 3,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20577848/",
+  "links": [
+   "https://www.onthemarket.com/details/20577848/"
+  ],
+  "source": "sweep",
+  "added": "2026-10-27",
+  "checked": "2026-10-27",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-27",
+    4995,
+    "onthemarket"
+   ]
+  ],
+  "station": {
+   "name": "Chiswick",
+   "kind": "Rail",
+   "walk": 24
+  }
+ },
+ {
+  "id": "barnardmarcus-22233505",
+  "title": "Magnolia Road, Chiswick",
+  "area": "Chiswick",
+  "rent": 4250,
+  "beds": 4,
+  "baths": 2,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.barnardmarcus.co.uk/properties/22233505/lettings/P3279L3512-9E98977E",
+  "links": [
+   "https://www.barnardmarcus.co.uk/properties/22233505/lettings/P3279L3512-9E98977E"
+  ],
+  "source": "sweep",
+  "added": "2026-10-27",
+  "checked": "2026-10-27",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-27",
+    4250,
+    "barnardmarcus"
+   ]
+  ],
+  "station": {
+   "name": "Chiswick",
+   "kind": "Rail",
+   "walk": 13
+  }
+ },
+ {
+  "id": "zoopla-73581398",
+  "title": "Malthouse Drive, Chiswick W4",
+  "area": "Chiswick",
+  "rent": 4850,
+  "beds": 5,
+  "baths": 3,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.zoopla.co.uk/to-rent/details/73581398/",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/73581398/"
+  ],
+  "source": "sweep",
+  "added": "2026-10-27",
+  "checked": "2026-10-27",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-27",
+    4850,
+    "zoopla"
+   ]
+  ],
+  "station": {
+   "name": "Chiswick",
+   "kind": "Rail",
+   "walk": 21
+  }
+ },
+ {
+  "id": "zoopla-73900859",
+  "title": "Malthouse Drive, Chiswick W4",
+  "area": "Chiswick",
+  "rent": 4850,
+  "beds": 5,
+  "baths": 3,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.zoopla.co.uk/to-rent/details/73900859/",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/73900859/"
+  ],
+  "source": "sweep",
+  "added": "2026-10-27",
+  "checked": "2026-10-27",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-27",
+    4850,
+    "zoopla"
+   ]
+  ],
+  "station": {
+   "name": "Chiswick",
+   "kind": "Rail",
+   "walk": 21
+  }
+ },
+ {
+  "id": "onthemarket-20397950",
+  "title": "Waldeck Road, London W4, W4 3NP",
+  "area": "Chiswick",
+  "rent": 4500,
+  "beds": 4,
+  "baths": 1,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20397950/",
+  "links": [
+   "https://www.onthemarket.com/details/20397950/"
+  ],
+  "source": "sweep",
+  "added": "2026-10-27",
+  "checked": "2026-10-27",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-27",
+    4500,
+    "onthemarket"
+   ]
+  ],
+  "station": {
+   "name": "Kew Bridge",
+   "kind": "Rail",
+   "walk": 7
+  }
+ },
+ {
+  "id": "foxtons-ptny6431059",
+  "title": "Becklow Gardens W12, W12 9ET",
+  "area": "Shepherd's Bush",
+  "rent": 3299,
+  "beds": 4,
+  "baths": 1,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.foxtons.co.uk/properties-to-rent/w12/ptny6431059",
+  "links": [
+   "https://www.foxtons.co.uk/properties-to-rent/w12/ptny6431059"
+  ],
+  "source": "sweep",
+  "added": "2026-10-27",
+  "checked": "2026-10-27",
+  "notes": [
+   "Found by ChatGPT sweep (unverified)."
+  ],
+  "prices": [
+   [
+    "2026-10-27",
+    3299,
+    "foxtons"
+   ]
+  ]
+ },
+ {
+  "id": "foxtons-chpk2301451",
+  "title": "Becklow Gardens, W12 9EX",
+  "area": "Shepherd's Bush",
+  "rent": 3500,
+  "beds": 4,
+  "baths": 1,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.foxtons.co.uk/properties-to-rent/w12/chpk2301451",
+  "links": [
+   "https://www.foxtons.co.uk/properties-to-rent/w12/chpk2301451"
+  ],
+  "source": "sweep",
+  "added": "2026-10-27",
+  "checked": "2026-10-27",
+  "notes": [
+   "Found by ChatGPT sweep (unverified)."
+  ],
+  "prices": [
+   [
+    "2026-10-27",
+    3500,
+    "foxtons"
+   ]
+  ]
+ },
+ {
+  "id": "foxtons-chpk2315177",
+  "title": "Daffodil Street , Shepherd's Bush , W12, W12 0TG",
+  "area": "Shepherd's Bush",
+  "rent": 3500,
+  "beds": 4,
+  "baths": 2,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.foxtons.co.uk/properties-to-rent/w12/chpk2315177",
+  "links": [
+   "https://www.foxtons.co.uk/properties-to-rent/w12/chpk2315177"
+  ],
+  "source": "sweep",
+  "added": "2026-10-27",
+  "checked": "2026-10-27",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-27",
+    3500,
+    "foxtons"
+   ]
+  ]
+ },
+ {
+  "id": "foxtons-chpk2305951",
+  "title": "Hetley Road , Shepherd's Bush , W12, W12 8BA",
+  "area": "Shepherd's Bush",
+  "rent": 5000,
+  "beds": 5,
+  "baths": 3,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.foxtons.co.uk/properties-to-rent/w12/chpk2305951",
+  "links": [
+   "https://www.foxtons.co.uk/properties-to-rent/w12/chpk2305951"
+  ],
+  "source": "sweep",
+  "added": "2026-10-27",
+  "checked": "2026-10-27",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-27",
+    5000,
+    "foxtons"
    ]
   ]
  }

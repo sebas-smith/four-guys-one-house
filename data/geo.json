@@ -149,6 +149,7 @@
 51.4039631,
 -0.2111711
 ],
+"becklow gardens|shepherd's bush": null,
 "bedford hill|balham": [
 51.4442715,
 -0.1505678
@@ -437,6 +438,7 @@
 51.4235375,
 -0.1576898
 ],
+"daffodil street|shepherd's bush": null,
 "danebury avenue sw15|roehampton": [
 51.4496369,
 -0.24126
@@ -456,6 +458,10 @@
 "devey close|unverified geography": [
 51.4168965,
 -0.2539391
+],
+"devonshire road|chiswick": [
+51.4920059,
+-0.2559521
 ],
 "dinsmore road|balham": [
 51.4487142,
@@ -782,6 +788,7 @@
 51.4428574,
 -0.1882972
 ],
+"hetley road|shepherd's bush": null,
 "hidcote gardens|raynes park": [
 51.4063782,
 -0.2385144
@@ -1005,9 +1012,17 @@
 51.4324365,
 -0.1618773
 ],
+"magnolia road|chiswick": [
+51.4852871,
+-0.2773245
+],
 "malden road|new malden": [
 51.3983619,
 -0.2555531
+],
+"malthouse drive|chiswick": [
+51.4847412,
+-0.25077
 ],
 "manor drive north|new malden": [
 51.3897437,
@@ -1647,6 +1662,10 @@
 51.4617079,
 -0.2097804
 ],
+"waldeck road|chiswick": [
+51.4881843,
+-0.2830464
+],
 "wandsworth high street|wandsworth": [
 51.4570876,
 -0.1941326
@@ -1767,6 +1786,10 @@
 51.4707933,
 -0.172214
 ],
+"|chiswick": [
+51.4923137,
+-0.263818
+],
 "|clapham": [
 51.4614469,
 -0.138627
@@ -1843,6 +1866,10 @@
 "|roehampton": [
 51.4498773,
 -0.2412672
+],
+"|shepherd's bush": [
+51.4993962,
+-0.2265809
 ],
 "|south wimbledon": [
 51.4153835,
