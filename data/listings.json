@@ -1234,7 +1234,7 @@
   "baths": 1,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/93275850",
   "links": [
    "https://www.foxtons.co.uk/properties-to-rent/sw17/chpk0257377",
@@ -1244,7 +1244,8 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
+   "Let agreed on Foxtons (27 Oct)."
   ],
   "checked": "2026-10-27",
   "station": {
@@ -1258,7 +1259,11 @@
     3800,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Foxtons",
+   "checked": "2026-10-27"
+  }
  },
  {
   "id": "foxtons-chpk0331619",
@@ -1417,7 +1422,7 @@
   "baths": 2,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/92746605",
   "links": [
    "https://www.foxtons.co.uk/properties-to-rent/sw15/chpk0413730",
@@ -1427,7 +1432,8 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
+   "Let agreed on Foxtons (27 Oct)."
   ],
   "checked": "2026-10-27",
   "station": {
@@ -1441,7 +1447,11 @@
     4400,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Foxtons",
+   "checked": "2026-10-27"
+  }
  },
  {
   "id": "foxtons-chpk0432104",
@@ -1463,7 +1473,8 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
+   "Let agreed on Foxtons, still live on OnTheMarket (27 Oct)."
   ],
   "checked": "2026-10-27",
   "station": {
@@ -1477,7 +1488,11 @@
     4333,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Foxtons, still live on OnTheMarket",
+   "checked": "2026-10-27"
+  }
  },
  {
   "id": "foxtons-chpk0447377",
@@ -1824,7 +1839,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck). Last checked 2026-09-25.",
-   "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18."
+   "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18.",
+   "Let agreed on Foxtons, still live on OnTheMarket (27 Oct)."
   ],
   "checked": "2026-10-27",
   "station": {
@@ -1838,7 +1854,11 @@
     3500,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Foxtons, still live on OnTheMarket",
+   "checked": "2026-10-27"
+  }
  },
  {
   "id": "foxtons-chpk2840342",
@@ -2079,7 +2099,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck).",
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on Foxtons, still live on OnTheMarket (27 Oct)."
   ],
   "checked": "2026-10-27",
   "station": {
@@ -2098,7 +2119,11 @@
     3000,
     "onthemarket"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Foxtons, still live on OnTheMarket",
+   "checked": "2026-10-27"
+  }
  },
  {
   "id": "foxtons-chpk4664083",
@@ -2151,7 +2176,7 @@
   "baths": 2,
   "available": "Recently let",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/92093802",
   "links": [
    "https://www.foxtons.co.uk/properties-to-rent/cr4/chpk5218905",
@@ -2160,7 +2185,8 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-10-10."
+   "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-10-10.",
+   "Let agreed on Foxtons (27 Oct)."
   ],
   "checked": "2026-10-27",
   "station": {
@@ -2174,7 +2200,11 @@
     4000,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Foxtons",
+   "checked": "2026-10-27"
+  }
  },
  {
   "id": "foxtons-ptny0057089",
@@ -6324,7 +6354,11 @@
     "rightmove"
    ]
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-10-27",
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-10-27"
+  }
  },
  {
   "id": "rightmove-91653288",
@@ -11412,7 +11446,7 @@
   "baths": 2,
   "available": "Not stated; January unconfirmed",
   "sharers": "no",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/92522283",
   "links": [
    "https://www.foxtons.co.uk/properties-to-rent/sw18/chpk2635074",
@@ -11422,7 +11456,8 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
+   "Let agreed on Foxtons (27 Oct)."
   ],
   "checked": "2026-10-27",
   "station": {
@@ -11436,7 +11471,11 @@
     4150,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Foxtons",
+   "checked": "2026-10-27"
+  }
  },
  {
   "id": "zoopla-74104280",
@@ -14246,7 +14285,7 @@
   "baths": 1,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/93843693",
   "links": [
    "https://www.foxtons.co.uk/properties-to-rent/sw4/chpk0106242",
@@ -14256,7 +14295,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-27",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on Foxtons (27 Oct)."
   ],
   "station": {
    "name": "Clapham Common",
@@ -14269,7 +14309,11 @@
     4000,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Foxtons",
+   "checked": "2026-10-27"
+  }
  },
  {
   "id": "rightmove-92633793",
@@ -16186,7 +16230,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-27",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Let agreed on Foxtons, still live on OnTheMarket (27 Oct)."
   ],
   "station": {
    "name": "Southfields",
@@ -16199,7 +16244,11 @@
     5000,
     "rightmove"
    ]
-  ]
+  ],
+  "off_market": {
+   "why": "Let agreed on Foxtons, still live on OnTheMarket",
+   "checked": "2026-10-27"
+  }
  },
  {
   "id": "onthemarket-20462338",
