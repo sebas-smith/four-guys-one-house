@@ -3687,7 +3687,7 @@
    "Marked gone: advert shows let agreed (2026-10-20).",
    "Advert live on Zoopla (25 Oct)."
   ],
-  "checked": "2026-10-27",
+  "checked": "2026-10-28",
   "station": {
    "name": "Tooting Bec",
    "kind": "Tube",
@@ -4296,7 +4296,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-11."
   ],
-  "checked": "2026-10-27",
+  "checked": "2026-10-28",
   "station": {
    "name": "Colliers Wood",
    "kind": "Tube",
@@ -4776,7 +4776,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
-  "checked": "2026-10-27",
+  "checked": "2026-10-28",
   "station": {
    "name": "Putney",
    "kind": "Rail",
@@ -5488,7 +5488,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04."
   ],
-  "checked": "2026-10-27",
+  "checked": "2026-10-28",
   "station": {
    "name": "Wandsworth Town",
    "kind": "Rail",
@@ -5524,7 +5524,7 @@
    "Price changed from £3,340 to £4,800 (2026-10-18).",
    "Price changed from £4,800 to £4,300 (2026-10-26)."
   ],
-  "checked": "2026-10-27",
+  "checked": "2026-10-28",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -5567,7 +5567,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck). Last checked 2026-10-09."
   ],
-  "checked": "2026-10-27",
+  "checked": "2026-10-28",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -5705,7 +5705,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
    "Advert says not suitable for sharers."
   ],
-  "checked": "2026-10-27",
+  "checked": "2026-10-28",
   "prices": [
    [
     "2026-10-04",
@@ -9781,7 +9781,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
-  "checked": "2026-10-27",
+  "checked": "2026-10-28",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -12232,7 +12232,8 @@
   "links": [
    "https://www.rightmove.co.uk/properties/93246108",
    "https://www.zoopla.co.uk/to-rent/details/74262411/",
-   "https://www.onthemarket.com/details/20462428/"
+   "https://www.onthemarket.com/details/20462428/",
+   "https://www.winkworth.co.uk/properties/to-let/blackshaw-road-london-sw17/TOO260598"
   ],
   "source": "import",
   "added": "2026-09-25",
@@ -15851,7 +15852,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-27",
+  "checked": "2026-10-28",
   "notes": [
    "Found by ChatGPT sweep (live; results-page evidence only).",
    "Found by ChatGPT sweep (live)."
@@ -16047,7 +16048,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-27",
+  "checked": "2026-10-28",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -16500,7 +16501,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-27",
+  "checked": "2026-10-28",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -16534,7 +16535,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-27",
+  "checked": "2026-10-28",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -16760,7 +16761,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-27",
+  "checked": "2026-10-28",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17327,7 +17328,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-27",
+  "checked": "2026-10-28",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17396,7 +17397,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-27",
+  "checked": "2026-10-28",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17539,7 +17540,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-27",
+  "checked": "2026-10-28",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -20286,7 +20287,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-10-27",
+  "checked": "2026-10-28",
   "notes": [
    "Found by ChatGPT sweep (unverified)."
   ],
@@ -20456,7 +20457,7 @@
   ],
   "source": "search",
   "added": "2026-10-25",
-  "checked": "2026-10-27",
+  "checked": "2026-10-28",
   "notes": [
    "Missed by the sweep; found in a portal coverage check on 25 Oct (OpenRent private landlord)."
   ],
@@ -21044,7 +21045,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-27",
-  "checked": "2026-10-27",
+  "checked": "2026-10-28",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21077,7 +21078,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-27",
-  "checked": "2026-10-27",
+  "checked": "2026-10-28",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21103,16 +21104,17 @@
   "baths": 3,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.zoopla.co.uk/to-rent/details/73900859/",
   "links": [
    "https://www.zoopla.co.uk/to-rent/details/73900859/"
   ],
   "source": "sweep",
   "added": "2026-10-27",
-  "checked": "2026-10-27",
+  "checked": "2026-10-28",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "ChatGPT sweep says removed (2026-10-28)."
   ],
   "prices": [
    [
@@ -21125,6 +21127,10 @@
    "name": "Stamford Brook",
    "kind": "Tube",
    "walk": 19
+  },
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-10-28"
   }
  },
  {
@@ -21290,6 +21296,142 @@
    "name": "Shepherd's Bush Market",
    "kind": "Tube",
    "walk": 8
+  }
+ },
+ {
+  "id": "onthemarket-20601917",
+  "title": "Gaskarth Road, London SW12, SW12 9NL",
+  "area": "Balham",
+  "rent": 4950,
+  "beds": 4,
+  "baths": 2,
+  "available": "",
+  "sharers": "ok",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/94588635",
+  "links": [
+   "https://www.onthemarket.com/details/20601917/",
+   "https://www.rightmove.co.uk/properties/94588635"
+  ],
+  "source": "sweep",
+  "added": "2026-10-28",
+  "checked": "2026-10-28",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-28",
+    4950,
+    "rightmove"
+   ]
+  ],
+  "station": {
+   "name": "Clapham South",
+   "kind": "Tube",
+   "walk": 4
+  }
+ },
+ {
+  "id": "onthemarket-20495575",
+  "title": "Ivy Crescent, London, W4, W4 5NG",
+  "area": "Chiswick",
+  "rent": 4000,
+  "beds": 4,
+  "baths": 2,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.zoopla.co.uk/to-rent/details/74444727/",
+  "links": [
+   "https://www.onthemarket.com/details/20495575/",
+   "https://www.zoopla.co.uk/to-rent/details/74444727/",
+   "https://www.chestertons.co.uk/properties/22196186/lettings/CLL260192"
+  ],
+  "source": "sweep",
+  "added": "2026-10-27",
+  "checked": "2026-10-28",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-27",
+    4000,
+    "zoopla"
+   ]
+  ],
+  "station": {
+   "name": "Chiswick Park",
+   "kind": "Tube",
+   "walk": 5
+  }
+ },
+ {
+  "id": "zoopla-74625691",
+  "title": "Cannon Hill Lane, London SW20, SW20 9BY",
+  "area": "Raynes Park",
+  "rent": 3100,
+  "beds": 4,
+  "baths": 2,
+  "available": "2026-10-31",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.zoopla.co.uk/to-rent/details/74625691/",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74625691/"
+  ],
+  "source": "sweep",
+  "added": "2026-10-28",
+  "checked": "2026-10-28",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-28",
+    3100,
+    "zoopla"
+   ]
+  ],
+  "station": {
+   "name": "South Merton",
+   "kind": "Rail",
+   "walk": 11
+  }
+ },
+ {
+  "id": "onthemarket-20646386",
+  "title": "Thorpebank Road, London W12, W12 0PG",
+  "area": "Shepherd's Bush",
+  "rent": 3600,
+  "beds": 4,
+  "baths": 2,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.zoopla.co.uk/to-rent/details/74626092/",
+  "links": [
+   "https://www.onthemarket.com/details/20646386/",
+   "https://www.zoopla.co.uk/to-rent/details/74626092/"
+  ],
+  "source": "sweep",
+  "added": "2026-10-28",
+  "checked": "2026-10-28",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-28",
+    3600,
+    "zoopla"
+   ]
+  ],
+  "station": {
+   "name": "Shepherd's Bush Market",
+   "kind": "Tube",
+   "walk": 15
   }
  }
 ]
