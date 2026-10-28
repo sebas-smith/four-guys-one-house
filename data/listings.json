@@ -15393,7 +15393,7 @@
   "id": "rightmove-94306125",
   "title": "Carlton Drive, Putney Hill, SW15",
   "area": "Putney",
-  "rent": 3850,
+  "rent": 3600,
   "beds": 4,
   "baths": 2,
   "available": "2026-12-04",
@@ -15412,7 +15412,8 @@
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Found by ChatGPT sweep (live; results-page evidence only).",
-   "Prices differ across sites: £4,000 vs £3,850. Showing the lower; see price history."
+   "Prices differ across sites: £4,000 vs £3,850. Showing the lower; see price history.",
+   "Price cut on Rightmove: £3,850 to £3,600 (2026-10-28)."
   ],
   "station": {
    "name": "East Putney",
@@ -15433,6 +15434,11 @@
    [
     "2026-10-20",
     3850,
+    "rightmove"
+   ],
+   [
+    "2026-10-28",
+    3600,
     "rightmove"
    ]
   ]
