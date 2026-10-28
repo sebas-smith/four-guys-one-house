@@ -8930,7 +8930,7 @@
   "id": "rightmove-93981180",
   "title": "Pevensey Road",
   "area": "Tooting",
-  "rent": 4100,
+  "rent": 4000,
   "beds": 4,
   "baths": 4,
   "available": "2026-10-31",
@@ -8948,7 +8948,8 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-06.",
    "Price changed from £4,300 to £4,200 (2026-10-18).",
-   "Price changed from £4,200 to £4,100 (2026-10-20)."
+   "Price changed from £4,200 to £4,100 (2026-10-20).",
+   "Price cut on Rightmove: £4,100 to £4,000 (2026-10-28)."
   ],
   "checked": "2026-10-28",
   "station": {
@@ -8975,6 +8976,11 @@
    [
     "2026-10-20",
     4100,
+    "rightmove"
+   ],
+   [
+    "2026-10-28",
+    4000,
     "rightmove"
    ]
   ]
@@ -9025,7 +9031,7 @@
   "id": "rightmove-93989001",
   "title": "Upper Richmond Road",
   "area": "Putney",
-  "rent": 4000,
+  "rent": 3900,
   "beds": 4,
   "baths": 1,
   "available": "Ask agent",
@@ -9042,7 +9048,8 @@
   "added": "2026-10-06",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-08.",
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Price cut on Rightmove: £4,000 to £3,900 (2026-10-28)."
   ],
   "checked": "2026-10-28",
   "station": {
@@ -9054,6 +9061,11 @@
    [
     "2026-10-06",
     4000,
+    "rightmove"
+   ],
+   [
+    "2026-10-28",
+    3900,
     "rightmove"
    ]
   ]
@@ -21385,7 +21397,8 @@
   "status": "new",
   "url": "https://www.zoopla.co.uk/to-rent/details/74625691/",
   "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74625691/"
+   "https://www.zoopla.co.uk/to-rent/details/74625691/",
+   "https://www.rightmove.co.uk/properties/94863270"
   ],
   "source": "sweep",
   "added": "2026-10-28",
@@ -21398,6 +21411,11 @@
     "2026-10-28",
     3100,
     "zoopla"
+   ],
+   [
+    "2026-10-28",
+    3100,
+    "rightmove"
    ]
   ],
   "station": {
@@ -21420,7 +21438,8 @@
   "links": [
    "https://www.onthemarket.com/details/20646386/",
    "https://www.zoopla.co.uk/to-rent/details/74626092/",
-   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2543604/thorpebank-road/"
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2543604/thorpebank-road/",
+   "https://www.rightmove.co.uk/properties/94865364"
   ],
   "source": "sweep",
   "added": "2026-10-28",
@@ -21438,6 +21457,11 @@
     "2026-10-28",
     3601,
     "marshandparsons"
+   ],
+   [
+    "2026-10-28",
+    3600,
+    "rightmove"
    ]
   ],
   "station": {
@@ -21497,7 +21521,8 @@
   "url": "https://www.zoopla.co.uk/to-rent/details/74626256/",
   "links": [
    "https://www.zoopla.co.uk/to-rent/details/74626256/",
-   "https://www.onthemarket.com/details/20646532/"
+   "https://www.onthemarket.com/details/20646532/",
+   "https://www.rightmove.co.uk/properties/94866183"
   ],
   "source": "alert",
   "added": "2026-10-28",
@@ -21514,6 +21539,11 @@
     "2026-10-28",
     4650,
     "onthemarket"
+   ],
+   [
+    "2026-10-28",
+    4650,
+    "rightmove"
    ]
   ],
   "station": {
