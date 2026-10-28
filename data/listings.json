@@ -21311,7 +21311,8 @@
   "url": "https://www.rightmove.co.uk/properties/94588635",
   "links": [
    "https://www.onthemarket.com/details/20601917/",
-   "https://www.rightmove.co.uk/properties/94588635"
+   "https://www.rightmove.co.uk/properties/94588635",
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/BHL190043/gaskarth-road/"
   ],
   "source": "sweep",
   "added": "2026-10-28",
@@ -21324,6 +21325,11 @@
     "2026-10-28",
     4950,
     "rightmove"
+   ],
+   [
+    "2026-10-28",
+    4949,
+    "marshandparsons"
    ]
   ],
   "station": {
@@ -21413,7 +21419,8 @@
   "url": "https://www.zoopla.co.uk/to-rent/details/74626092/",
   "links": [
    "https://www.onthemarket.com/details/20646386/",
-   "https://www.zoopla.co.uk/to-rent/details/74626092/"
+   "https://www.zoopla.co.uk/to-rent/details/74626092/",
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2543604/thorpebank-road/"
   ],
   "source": "sweep",
   "added": "2026-10-28",
@@ -21426,12 +21433,93 @@
     "2026-10-28",
     3600,
     "zoopla"
+   ],
+   [
+    "2026-10-28",
+    3601,
+    "marshandparsons"
    ]
   ],
   "station": {
    "name": "Shepherd's Bush Market",
    "kind": "Tube",
    "walk": 15
+  }
+ },
+ {
+  "id": "zoopla-74622262",
+  "title": "Ivy Crescent, Chiswick W4",
+  "area": "Chiswick",
+  "rent": 4147,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.zoopla.co.uk/to-rent/details/74622262/",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74622262/",
+   "https://www.onthemarket.com/details/20642860/"
+  ],
+  "source": "alert",
+  "added": "2026-10-28",
+  "notes": [
+   "From an email on 2026-10-28: New listings: 2 new properties to rent in SW London house v2"
+  ],
+  "prices": [
+   [
+    "2026-10-28",
+    4147,
+    "zoopla"
+   ],
+   [
+    "2026-10-28",
+    4147,
+    "onthemarket"
+   ]
+  ],
+  "station": {
+   "name": "Chiswick Park",
+   "kind": "Tube",
+   "walk": 5
+  }
+ },
+ {
+  "id": "zoopla-74626256",
+  "title": "24 Milton Court Chesterton, Close, London SW18",
+  "area": "SW18",
+  "rent": 4650,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.zoopla.co.uk/to-rent/details/74626256/",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74626256/",
+   "https://www.onthemarket.com/details/20646532/"
+  ],
+  "source": "alert",
+  "added": "2026-10-28",
+  "notes": [
+   "From an email on 2026-10-28: New listings: 3 new properties to rent in SW London house v2"
+  ],
+  "prices": [
+   [
+    "2026-10-28",
+    4650,
+    "zoopla"
+   ],
+   [
+    "2026-10-28",
+    4650,
+    "onthemarket"
+   ]
+  ],
+  "station": {
+   "name": "Wandsworth Town",
+   "kind": "Rail",
+   "walk": 13
   }
  }
 ]
