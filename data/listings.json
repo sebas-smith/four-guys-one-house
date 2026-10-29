@@ -13949,7 +13949,7 @@
   "id": "rightmove-94297608",
   "title": "Clapham Common, London, SW4",
   "area": "Clapham Common",
-  "rent": 4450,
+  "rent": 4350,
   "beds": 4,
   "baths": 1,
   "available": "2026-10-28",
@@ -13967,7 +13967,8 @@
   "checked": "2026-10-28",
   "notes": [
    "Found by ChatGPT sweep (live).",
-   "Price changed from £4,550 to £4,450 (2026-10-22)."
+   "Price changed from £4,550 to £4,450 (2026-10-22).",
+   "Price cut on Rightmove: £4,450 to £4,350 (2026-10-29)."
   ],
   "station": {
    "name": "Clapham Common",
@@ -13983,6 +13984,11 @@
    [
     "2026-10-22",
     4450,
+    "rightmove"
+   ],
+   [
+    "2026-10-29",
+    4350,
     "rightmove"
    ]
   ]
@@ -21550,6 +21556,38 @@
    "name": "Wandsworth Town",
    "kind": "Rail",
    "walk": 13
+  }
+ },
+ {
+  "id": "onthemarket-20647670",
+  "title": "Gassiot Road, London, SW17",
+  "area": "SW17",
+  "rent": 4650,
+  "beds": 5,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20647670/",
+  "links": [
+   "https://www.onthemarket.com/details/20647670/"
+  ],
+  "source": "alert",
+  "added": "2026-10-29",
+  "notes": [
+   "From an email on 2026-10-29: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-10-29",
+    4650,
+    "onthemarket"
+   ]
+  ],
+  "station": {
+   "name": "Tooting Broadway",
+   "kind": "Tube",
+   "walk": 7
   }
  }
 ]
