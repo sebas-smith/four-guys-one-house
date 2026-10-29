@@ -21091,7 +21091,8 @@
   "status": "new",
   "url": "https://www.zoopla.co.uk/to-rent/details/73581398/",
   "links": [
-   "https://www.zoopla.co.uk/to-rent/details/73581398/"
+   "https://www.zoopla.co.uk/to-rent/details/73581398/",
+   "https://www.rightmove.co.uk/properties/94553118"
   ],
   "source": "sweep",
   "added": "2026-10-27",
@@ -21104,6 +21105,11 @@
     "2026-10-27",
     4850,
     "zoopla"
+   ],
+   [
+    "2026-10-29",
+    4850,
+    "rightmove"
    ]
   ],
   "station": {
@@ -21571,7 +21577,8 @@
   "status": "new",
   "url": "https://www.onthemarket.com/details/20647670/",
   "links": [
-   "https://www.onthemarket.com/details/20647670/"
+   "https://www.onthemarket.com/details/20647670/",
+   "https://www.zoopla.co.uk/to-rent/details/74628382/"
   ],
   "source": "alert",
   "added": "2026-10-29",
@@ -21583,6 +21590,11 @@
     "2026-10-29",
     4650,
     "onthemarket"
+   ],
+   [
+    "2026-10-29",
+    4650,
+    "zoopla"
    ]
   ],
   "station": {
@@ -21591,5 +21603,119 @@
    "walk": 7
   },
   "checked": "2026-10-29"
+ },
+ {
+  "id": "onthemarket-20650225",
+  "title": "Ivy Crescent, London W4",
+  "area": "W4",
+  "rent": 4147,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20650225/",
+  "links": [
+   "https://www.onthemarket.com/details/20650225/",
+   "https://www.zoopla.co.uk/to-rent/details/74632192/"
+  ],
+  "source": "alert",
+  "added": "2026-10-29",
+  "notes": [
+   "From an email on 2026-10-29: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-10-29",
+    4147,
+    "onthemarket"
+   ],
+   [
+    "2026-10-29",
+    4147,
+    "zoopla"
+   ]
+  ],
+  "station": {
+   "name": "Chiswick Park",
+   "kind": "Tube",
+   "walk": 5
+  }
+ },
+ {
+  "id": "onthemarket-15896230",
+  "title": "Kingston Road, Wimbledon, London, SW20",
+  "area": "Wimbledon",
+  "rent": 4300,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/15896230/",
+  "links": [
+   "https://www.onthemarket.com/details/15896230/"
+  ],
+  "source": "alert",
+  "added": "2026-10-29",
+  "notes": [
+   "From an email on 2026-10-29: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-10-29",
+    4300,
+    "onthemarket"
+   ]
+  ],
+  "station": {
+   "name": "South Wimbledon",
+   "kind": "Tube",
+   "walk": 13
+  }
+ },
+ {
+  "id": "onthemarket-20651061",
+  "title": "Cottenham Park Road, London SW20",
+  "area": "SW20",
+  "rent": 4500,
+  "beds": 5,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20651061/",
+  "links": [
+   "https://www.onthemarket.com/details/20651061/",
+   "https://www.zoopla.co.uk/to-rent/details/74632748/",
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR1425264/cottenham-park-road/"
+  ],
+  "source": "alert",
+  "added": "2026-10-29",
+  "notes": [
+   "From an email on 2026-10-29: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-10-29",
+    4500,
+    "onthemarket"
+   ],
+   [
+    "2026-10-29",
+    4500,
+    "zoopla"
+   ],
+   [
+    "2026-10-29",
+    4498,
+    "marshandparsons"
+   ]
+  ],
+  "station": {
+   "name": "Raynes Park",
+   "kind": "Rail",
+   "walk": 14
+  }
  }
 ]
