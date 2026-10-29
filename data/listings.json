@@ -21578,7 +21578,8 @@
   "url": "https://www.onthemarket.com/details/20647670/",
   "links": [
    "https://www.onthemarket.com/details/20647670/",
-   "https://www.zoopla.co.uk/to-rent/details/74628382/"
+   "https://www.zoopla.co.uk/to-rent/details/74628382/",
+   "https://www.openrent.co.uk/3091800"
   ],
   "source": "alert",
   "added": "2026-10-29",
@@ -21595,6 +21596,11 @@
     "2026-10-29",
     4650,
     "zoopla"
+   ],
+   [
+    "2026-10-29",
+    4650,
+    "openrent"
    ]
   ],
   "station": {
@@ -21654,7 +21660,8 @@
   "status": "new",
   "url": "https://www.onthemarket.com/details/15896230/",
   "links": [
-   "https://www.onthemarket.com/details/15896230/"
+   "https://www.onthemarket.com/details/15896230/",
+   "https://www.rightmove.co.uk/properties/94897230"
   ],
   "source": "alert",
   "added": "2026-10-29",
@@ -21666,6 +21673,11 @@
     "2026-10-29",
     4300,
     "onthemarket"
+   ],
+   [
+    "2026-10-29",
+    4300,
+    "rightmove"
    ]
   ],
   "station": {
@@ -21688,7 +21700,8 @@
   "links": [
    "https://www.onthemarket.com/details/20651061/",
    "https://www.zoopla.co.uk/to-rent/details/74632748/",
-   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR1425264/cottenham-park-road/"
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR1425264/cottenham-park-road/",
+   "https://www.rightmove.co.uk/properties/94897227"
   ],
   "source": "alert",
   "added": "2026-10-29",
@@ -21710,6 +21723,11 @@
     "2026-10-29",
     4498,
     "marshandparsons"
+   ],
+   [
+    "2026-10-29",
+    4500,
+    "rightmove"
    ]
   ],
   "station": {
