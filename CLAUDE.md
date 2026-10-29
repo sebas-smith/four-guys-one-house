@@ -31,6 +31,11 @@ Read README.md first: it explains the search, the data and every script and work
   W postcodes and West London stations, Foxtons let detection, sweep catch-up, 11 duplicates
   and the site's "was £X" and Standouts rules.
 
+- 29 Oct check: all Actions and sweeps healthy. Ivy Crescent W4 (4 entries, one house by photos) merged into
+  `marshandparsons-VBR2535277`; `onthemarket-19773630` (saved as Chartfield Avenue by the pre-fix parser,
+  really Yelverton Road) folded into `rightmove-174678032`. Sample `tests/emails/onthemarket_in_your_area.eml`
+  covers OnTheMarket's details-before-link layout.
+
 ## Next steps
 
 1. Gmail delegation: Seb sends the other three housemates' Gmail addresses; Claude adds them in

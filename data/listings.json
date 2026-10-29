@@ -20692,8 +20692,8 @@
  },
  {
   "id": "marshandparsons-VBR2535277",
-  "title": "Ivy Crescent, W4",
-  "area": "W4",
+  "title": "Ivy Crescent, London, W4, W4 5NG",
+  "area": "Chiswick",
   "rent": 4000,
   "beds": 4,
   "baths": 2,
@@ -20703,14 +20703,25 @@
   "url": "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2535277/ivy-crescent/",
   "links": [
    "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2535277/ivy-crescent/",
-   "https://www.onthemarket.com/details/20634959/"
+   "https://www.onthemarket.com/details/20634959/",
+   "https://www.onthemarket.com/details/20495575/",
+   "https://www.zoopla.co.uk/to-rent/details/74444727/",
+   "https://www.chestertons.co.uk/properties/22196186/lettings/CLL260192",
+   "https://www.zoopla.co.uk/to-rent/details/74622262/",
+   "https://www.onthemarket.com/details/20642860/",
+   "https://www.onthemarket.com/details/20650225/",
+   "https://www.zoopla.co.uk/to-rent/details/74632192/"
   ],
   "source": "agent",
   "added": "2026-10-26",
   "notes": [
    "From the Marsh & Parsons website on 2026-10-26.",
    "Prices differ across sites: £4,147 vs £4,000. Showing the lower; see price history.",
-   "From an email on 2026-10-27: New properties in London (drawn area)"
+   "From an email on 2026-10-27: New properties in London (drawn area)",
+   "Found by ChatGPT sweep (live).",
+   "From an email on 2026-10-28: New listings: 2 new properties to rent in SW London house v2",
+   "From an email on 2026-10-29: New properties in London (drawn area)",
+   "Four entries merged on 2026-10-29: the same house (photos match), advertised by Chestertons (£4,000), Capital Properties (£4,147), Lawson Rutter and Marsh & Parsons."
   ],
   "prices": [
    [
@@ -20722,6 +20733,31 @@
     "2026-10-27",
     4147,
     "onthemarket"
+   ],
+   [
+    "2026-10-27",
+    4000,
+    "zoopla"
+   ],
+   [
+    "2026-10-28",
+    4147,
+    "zoopla"
+   ],
+   [
+    "2026-10-28",
+    4147,
+    "onthemarket"
+   ],
+   [
+    "2026-10-29",
+    4147,
+    "onthemarket"
+   ],
+   [
+    "2026-10-29",
+    4147,
+    "zoopla"
    ]
   ],
   "station": {
@@ -20939,39 +20975,6 @@
    "name": "Barons Court",
    "kind": "Tube",
    "walk": 7
-  }
- },
- {
-  "id": "onthemarket-19773630",
-  "title": "4 bedroom detached house to rent - Chartfield Avenue, London, SW15",
-  "area": "SW15",
-  "rent": 4500,
-  "beds": 4,
-  "baths": null,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/19773630/",
-  "links": [
-   "https://www.onthemarket.com/details/19773630/"
-  ],
-  "source": "alert",
-  "added": "2026-10-27",
-  "notes": [
-   "From an email on 2026-10-27: Properties in London (drawn area)"
-  ],
-  "prices": [
-   [
-    "2026-10-27",
-    4500,
-    "onthemarket"
-   ]
-  ],
-  "checked": "2026-10-29",
-  "station": {
-   "name": "Putney",
-   "kind": "Rail",
-   "walk": 9
   }
  },
  {
@@ -21362,41 +21365,6 @@
   }
  },
  {
-  "id": "onthemarket-20495575",
-  "title": "Ivy Crescent, London, W4, W4 5NG",
-  "area": "Chiswick",
-  "rent": 4000,
-  "beds": 4,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.zoopla.co.uk/to-rent/details/74444727/",
-  "links": [
-   "https://www.onthemarket.com/details/20495575/",
-   "https://www.zoopla.co.uk/to-rent/details/74444727/",
-   "https://www.chestertons.co.uk/properties/22196186/lettings/CLL260192"
-  ],
-  "source": "sweep",
-  "added": "2026-10-27",
-  "checked": "2026-10-29",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ],
-  "prices": [
-   [
-    "2026-10-27",
-    4000,
-    "zoopla"
-   ]
-  ],
-  "station": {
-   "name": "Chiswick Park",
-   "kind": "Tube",
-   "walk": 5
-  }
- },
- {
   "id": "zoopla-74625691",
   "title": "Cannon Hill Lane, London SW20, SW20 9BY",
   "area": "Raynes Park",
@@ -21480,45 +21448,6 @@
    "kind": "Tube",
    "walk": 15
   }
- },
- {
-  "id": "zoopla-74622262",
-  "title": "Ivy Crescent, Chiswick W4",
-  "area": "Chiswick",
-  "rent": 4147,
-  "beds": 4,
-  "baths": null,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.zoopla.co.uk/to-rent/details/74622262/",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74622262/",
-   "https://www.onthemarket.com/details/20642860/"
-  ],
-  "source": "alert",
-  "added": "2026-10-28",
-  "notes": [
-   "From an email on 2026-10-28: New listings: 2 new properties to rent in SW London house v2"
-  ],
-  "prices": [
-   [
-    "2026-10-28",
-    4147,
-    "zoopla"
-   ],
-   [
-    "2026-10-28",
-    4147,
-    "onthemarket"
-   ]
-  ],
-  "station": {
-   "name": "Chiswick Park",
-   "kind": "Tube",
-   "walk": 5
-  },
-  "checked": "2026-10-29"
  },
  {
   "id": "zoopla-74626256",
@@ -21609,44 +21538,6 @@
    "walk": 7
   },
   "checked": "2026-10-29"
- },
- {
-  "id": "onthemarket-20650225",
-  "title": "Ivy Crescent, London W4",
-  "area": "W4",
-  "rent": 4147,
-  "beds": 4,
-  "baths": null,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/20650225/",
-  "links": [
-   "https://www.onthemarket.com/details/20650225/",
-   "https://www.zoopla.co.uk/to-rent/details/74632192/"
-  ],
-  "source": "alert",
-  "added": "2026-10-29",
-  "notes": [
-   "From an email on 2026-10-29: New properties in London (drawn area)"
-  ],
-  "prices": [
-   [
-    "2026-10-29",
-    4147,
-    "onthemarket"
-   ],
-   [
-    "2026-10-29",
-    4147,
-    "zoopla"
-   ]
-  ],
-  "station": {
-   "name": "Chiswick Park",
-   "kind": "Tube",
-   "walk": 5
-  }
  },
  {
   "id": "onthemarket-15896230",
@@ -21748,19 +21639,31 @@
   "status": "new",
   "url": "https://www.rightmove.co.uk/properties/174678032",
   "links": [
-   "https://www.rightmove.co.uk/properties/174678032"
+   "https://www.rightmove.co.uk/properties/174678032",
+   "https://www.onthemarket.com/details/19773630/"
   ],
   "source": "sweep",
-  "added": "2026-10-29",
+  "added": "2026-10-27",
   "checked": "2026-10-29",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "On OnTheMarket since at least 27 Oct at £3,450; reduced to £3,250 on 29 Oct."
   ],
   "prices": [
+   [
+    "2026-10-27",
+    3450,
+    "onthemarket"
+   ],
    [
     "2026-10-29",
     3250,
     "rightmove"
+   ],
+   [
+    "2026-10-29",
+    3250,
+    "onthemarket"
    ]
   ],
   "station": {

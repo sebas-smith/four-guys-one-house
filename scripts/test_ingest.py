@@ -72,6 +72,9 @@ EXPECTED = {
                   ("rightmove", "94760382", 4700, 4, "Cornford Grove, Balham, London, SW12")],
     "onthemarket_new": [("onthemarket", "19039243", 3500, 4, "Hebdon Road, Tooting Bec, London, SW17")],
     "onthemarket_reduced": [("onthemarket", "20408114", 4750, 4, "St. Ann's Park Road London SW18")],
+    # Details sit before each link here; the first card once took the second's (27 Oct)
+    "onthemarket_in_your_area": [("onthemarket", "19773630", 3450, 5, "Yelverton Road, Battersea, SW11"),
+                                 ("onthemarket", "20375538", 4500, 4, "Chartfield Avenue, London, SW15")],
 }
 
 
