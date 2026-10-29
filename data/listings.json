@@ -3676,7 +3676,7 @@
    "Marked gone: advert shows let agreed (2026-10-20).",
    "Advert live on Zoopla (25 Oct)."
   ],
-  "checked": "2026-10-28",
+  "checked": "2026-10-29",
   "station": {
    "name": "Tooting Bec",
    "kind": "Tube",
@@ -4285,7 +4285,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-11."
   ],
-  "checked": "2026-10-28",
+  "checked": "2026-10-29",
   "station": {
    "name": "Colliers Wood",
    "kind": "Tube",
@@ -4770,7 +4770,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
-  "checked": "2026-10-28",
+  "checked": "2026-10-29",
   "station": {
    "name": "Putney",
    "kind": "Rail",
@@ -5482,7 +5482,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04."
   ],
-  "checked": "2026-10-28",
+  "checked": "2026-10-29",
   "station": {
    "name": "Wandsworth Town",
    "kind": "Rail",
@@ -5518,7 +5518,7 @@
    "Price changed from £3,340 to £4,800 (2026-10-18).",
    "Price changed from £4,800 to £4,300 (2026-10-26)."
   ],
-  "checked": "2026-10-28",
+  "checked": "2026-10-29",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -5561,7 +5561,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck). Last checked 2026-10-09."
   ],
-  "checked": "2026-10-28",
+  "checked": "2026-10-29",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -5699,7 +5699,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
    "Advert says not suitable for sharers."
   ],
-  "checked": "2026-10-28",
+  "checked": "2026-10-29",
   "prices": [
    [
     "2026-10-04",
@@ -9793,7 +9793,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
-  "checked": "2026-10-28",
+  "checked": "2026-10-29",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -15872,7 +15872,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-28",
+  "checked": "2026-10-29",
   "notes": [
    "Found by ChatGPT sweep (live; results-page evidence only).",
    "Found by ChatGPT sweep (live)."
@@ -16068,7 +16068,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-28",
+  "checked": "2026-10-29",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -16518,7 +16518,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-28",
+  "checked": "2026-10-29",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -16552,7 +16552,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-28",
+  "checked": "2026-10-29",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -16778,7 +16778,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-28",
+  "checked": "2026-10-29",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17345,7 +17345,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-28",
+  "checked": "2026-10-29",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17414,7 +17414,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-28",
+  "checked": "2026-10-29",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17557,7 +17557,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-28",
+  "checked": "2026-10-29",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -20304,7 +20304,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-10-28",
+  "checked": "2026-10-29",
   "notes": [
    "Found by ChatGPT sweep (unverified)."
   ],
@@ -20474,7 +20474,7 @@
   ],
   "source": "search",
   "added": "2026-10-25",
-  "checked": "2026-10-28",
+  "checked": "2026-10-29",
   "notes": [
    "Missed by the sweep; found in a portal coverage check on 25 Oct (OpenRent private landlord)."
   ],
@@ -21062,7 +21062,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-27",
-  "checked": "2026-10-28",
+  "checked": "2026-10-29",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21205,7 +21205,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-27",
-  "checked": "2026-10-28",
+  "checked": "2026-10-29",
   "notes": [
    "Found by ChatGPT sweep (unverified)."
   ],
@@ -21238,7 +21238,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-27",
-  "checked": "2026-10-28",
+  "checked": "2026-10-29",
   "notes": [
    "Found by ChatGPT sweep (unverified)."
   ],
@@ -21271,7 +21271,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-27",
-  "checked": "2026-10-28",
+  "checked": "2026-10-29",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21304,7 +21304,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-27",
-  "checked": "2026-10-28",
+  "checked": "2026-10-29",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21716,6 +21716,39 @@
    "name": "Raynes Park",
    "kind": "Rail",
    "walk": 14
+  }
+ },
+ {
+  "id": "rightmove-174678032",
+  "title": "Yelverton Road, Battersea, SW11, SW11 3SW",
+  "area": "Battersea",
+  "rent": 3250,
+  "beds": 5,
+  "baths": 2,
+  "available": "",
+  "sharers": "ok",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/174678032",
+  "links": [
+   "https://www.rightmove.co.uk/properties/174678032"
+  ],
+  "source": "sweep",
+  "added": "2026-10-29",
+  "checked": "2026-10-29",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-29",
+    3250,
+    "rightmove"
+   ]
+  ],
+  "station": {
+   "name": "Imperial Wharf",
+   "kind": "Rail",
+   "walk": 11
   }
  }
 ]
