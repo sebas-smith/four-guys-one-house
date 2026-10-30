@@ -21728,5 +21728,43 @@
    "kind": "Rail",
    "walk": 11
   }
+ },
+ {
+  "id": "onthemarket-8910110",
+  "title": "Dunston Road, London, SW11 5YB",
+  "area": "SW11",
+  "rent": 3750,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/8910110/",
+  "links": [
+   "https://www.onthemarket.com/details/8910110/",
+   "https://www.rightmove.co.uk/properties/94928766"
+  ],
+  "source": "alert",
+  "added": "2026-10-30",
+  "notes": [
+   "From an email on 2026-10-30: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-10-30",
+    3750,
+    "onthemarket"
+   ],
+   [
+    "2026-10-30",
+    3750,
+    "rightmove"
+   ]
+  ],
+  "station": {
+   "name": "Queenstown Road",
+   "kind": "Rail",
+   "walk": 15
+  }
  }
 ]
