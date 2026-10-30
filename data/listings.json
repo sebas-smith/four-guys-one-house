@@ -16029,7 +16029,7 @@
   "id": "onthemarket-20268934",
   "title": "Raynes Park, London",
   "area": "Raynes Park",
-  "rent": 3750,
+  "rent": 3600,
   "beds": 5,
   "baths": 2,
   "available": "2026-10-24",
@@ -16048,7 +16048,8 @@
   "added": "2026-10-18",
   "checked": "2026-10-30",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Price cut on Rightmove: £3,750 to £3,600 (2026-10-30)."
   ],
   "station": {
    "name": "Raynes Park",
@@ -16064,6 +16065,11 @@
    [
     "2026-10-20",
     3750,
+    "rightmove"
+   ],
+   [
+    "2026-10-30",
+    3600,
     "rightmove"
    ]
   ]
@@ -22013,7 +22019,9 @@
   "url": "https://www.onthemarket.com/details/20659623/",
   "links": [
    "https://www.onthemarket.com/details/20659623/",
-   "https://www.zoopla.co.uk/to-rent/details/74643750/"
+   "https://www.zoopla.co.uk/to-rent/details/74643750/",
+   "https://www.openrent.co.uk/3093543",
+   "https://www.rightmove.co.uk/properties/94963065"
   ],
   "source": "alert",
   "added": "2026-10-30",
@@ -22030,6 +22038,16 @@
     "2026-10-30",
     4990,
     "zoopla"
+   ],
+   [
+    "2026-10-30",
+    4990,
+    "openrent"
+   ],
+   [
+    "2026-10-30",
+    4990,
+    "rightmove"
    ]
   ],
   "station": {
@@ -22137,6 +22155,44 @@
    "name": "Haydons Road",
    "kind": "Rail",
    "walk": 9
+  }
+ },
+ {
+  "id": "onthemarket-20581525",
+  "title": "Compton Road, London, SW19",
+  "area": "SW19",
+  "rent": 4500,
+  "beds": 5,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20581525/",
+  "links": [
+   "https://www.onthemarket.com/details/20581525/",
+   "https://www.rightmove.co.uk/properties/94961934"
+  ],
+  "source": "alert",
+  "added": "2026-10-30",
+  "notes": [
+   "From an email on 2026-10-30: Reduced price properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-10-30",
+    4500,
+    "onthemarket"
+   ],
+   [
+    "2026-10-30",
+    4500,
+    "rightmove"
+   ]
+  ],
+  "station": {
+   "name": "Wimbledon",
+   "kind": "Tube",
+   "walk": 3
   }
  }
 ]
