@@ -3698,7 +3698,7 @@
    "Marked gone: advert shows let agreed (2026-10-20).",
    "Advert live on Zoopla (25 Oct)."
   ],
-  "checked": "2026-10-29",
+  "checked": "2026-10-30",
   "station": {
    "name": "Tooting Bec",
    "kind": "Tube",
@@ -4262,13 +4262,14 @@
   "area": "Putney",
   "rent": 4500,
   "beds": 4,
-  "baths": null,
-  "available": "19 November 2026; short term advertised",
+  "baths": 2,
+  "available": "2026-11-19",
   "sharers": "unknown",
   "status": "gone",
   "url": "https://www.kfh.co.uk/property-to-rent/4-bedroom-terraced-terraced-house-to-rent-in-sefton-street-west-putney-london-sw15-54731/",
   "links": [
-   "https://www.kfh.co.uk/property-to-rent/4-bedroom-terraced-terraced-house-to-rent-in-sefton-street-west-putney-london-sw15-54731/"
+   "https://www.kfh.co.uk/property-to-rent/4-bedroom-terraced-terraced-house-to-rent-in-sefton-street-west-putney-london-sw15-54731/",
+   "https://www.kfh.co.uk/property-to-rent/4-bedroom-terraced-house-to-rent-in-sefton-street-west-putney-london-sw15-54731/"
   ],
   "source": "import",
   "added": "2026-10-10",
@@ -4286,7 +4287,8 @@
     4500,
     "kfh"
    ]
-  ]
+  ],
+  "checked": "2026-10-30"
  },
  {
   "id": "openrent-1034965",
@@ -4307,7 +4309,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-11."
   ],
-  "checked": "2026-10-29",
+  "checked": "2026-10-30",
   "station": {
    "name": "Colliers Wood",
    "kind": "Tube",
@@ -4792,7 +4794,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
-  "checked": "2026-10-29",
+  "checked": "2026-10-30",
   "station": {
    "name": "Putney",
    "kind": "Rail",
@@ -5504,7 +5506,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04."
   ],
-  "checked": "2026-10-29",
+  "checked": "2026-10-30",
   "station": {
    "name": "Wandsworth Town",
    "kind": "Rail",
@@ -5522,7 +5524,7 @@
   "id": "openrent-3054795",
   "title": "Ravensbury Road",
   "area": "Earlsfield / Wandsworth",
-  "rent": 4300,
+  "rent": 3800,
   "beds": 4,
   "baths": 3,
   "available": "2026-11-09",
@@ -5538,9 +5540,10 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck). Last checked 2026-10-05.",
    "Price changed from £3,340 to £4,800 (2026-10-18).",
-   "Price changed from £4,800 to £4,300 (2026-10-26)."
+   "Price changed from £4,800 to £4,300 (2026-10-26).",
+   "Price changed from £4,300 to £3,800 (2026-10-30)."
   ],
-  "checked": "2026-10-29",
+  "checked": "2026-10-30",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -5560,6 +5563,11 @@
    [
     "2026-10-26",
     4300,
+    "openrent"
+   ],
+   [
+    "2026-10-30",
+    3800,
     "openrent"
    ]
   ]
@@ -5583,7 +5591,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck). Last checked 2026-10-09."
   ],
-  "checked": "2026-10-29",
+  "checked": "2026-10-30",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -5721,7 +5729,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
    "Advert says not suitable for sharers."
   ],
-  "checked": "2026-10-29",
+  "checked": "2026-10-30",
   "prices": [
    [
     "2026-10-04",
@@ -9831,7 +9839,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
-  "checked": "2026-10-29",
+  "checked": "2026-10-30",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -15918,7 +15926,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-29",
+  "checked": "2026-10-30",
   "notes": [
    "Found by ChatGPT sweep (live; results-page evidence only).",
    "Found by ChatGPT sweep (live)."
@@ -16114,7 +16122,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-29",
+  "checked": "2026-10-30",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -16569,7 +16577,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-29",
+  "checked": "2026-10-30",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -16603,7 +16611,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-29",
+  "checked": "2026-10-30",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -16829,7 +16837,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-29",
+  "checked": "2026-10-30",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17396,7 +17404,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-29",
+  "checked": "2026-10-30",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17465,7 +17473,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-29",
+  "checked": "2026-10-30",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17608,7 +17616,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-29",
+  "checked": "2026-10-30",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17901,7 +17909,8 @@
   "links": [
    "https://www.onthemarket.com/details/20341486/",
    "https://www.rightmove.co.uk/properties/93173022",
-   "https://www.zoopla.co.uk/to-rent/details/74245952/"
+   "https://www.zoopla.co.uk/to-rent/details/74245952/",
+   "https://www.ellisonsuk.com/property/34934786/sw20/wimbledon/buckleigh-avenue/house/5-bedrooms"
   ],
   "source": "sweep",
   "added": "2026-10-18",
@@ -17970,7 +17979,8 @@
   "links": [
    "https://www.zoopla.co.uk/to-rent/details/74443790/",
    "https://www.onthemarket.com/details/20493859/",
-   "https://www.rightmove.co.uk/properties/94026102"
+   "https://www.rightmove.co.uk/properties/94026102",
+   "https://www.winkworth.co.uk/properties/to-let/coombe-lane-london-sw20/TOO260659"
   ],
   "source": "sweep",
   "added": "2026-10-18",
@@ -20378,7 +20388,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-10-29",
+  "checked": "2026-10-30",
   "notes": [
    "Found by ChatGPT sweep (unverified)."
   ],
@@ -20548,7 +20558,7 @@
   ],
   "source": "search",
   "added": "2026-10-25",
-  "checked": "2026-10-29",
+  "checked": "2026-10-30",
   "notes": [
    "Missed by the sweep; found in a portal coverage check on 25 Oct (OpenRent private landlord)."
   ],
@@ -21139,7 +21149,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-27",
-  "checked": "2026-10-29",
+  "checked": "2026-10-30",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21169,7 +21179,8 @@
   "url": "https://www.zoopla.co.uk/to-rent/details/73581398/",
   "links": [
    "https://www.zoopla.co.uk/to-rent/details/73581398/",
-   "https://www.rightmove.co.uk/properties/94553118"
+   "https://www.rightmove.co.uk/properties/94553118",
+   "https://www.onthemarket.com/details/20076158/"
   ],
   "source": "sweep",
   "added": "2026-10-27",
@@ -21952,17 +21963,18 @@
  {
   "id": "rightmove-94939650",
   "title": "Brayburne Avenue, London",
-  "area": "",
+  "area": "Clapham",
   "rent": 4000,
   "beds": 4,
-  "baths": null,
+  "baths": 3,
   "available": "",
   "sharers": "unknown",
   "status": "new",
   "url": "https://www.rightmove.co.uk/properties/94939650",
   "links": [
    "https://www.rightmove.co.uk/properties/94939650",
-   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/CLA220797/brayburne-avenue/"
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/CLA220797/brayburne-avenue/",
+   "https://www.zoopla.co.uk/to-rent/details/74641554/"
   ],
   "source": "alert",
   "added": "2026-10-30",
@@ -21985,7 +21997,8 @@
    "name": "Wandsworth Road",
    "kind": "Overground",
    "walk": 1
-  }
+  },
+  "checked": "2026-10-30"
  },
  {
   "id": "onthemarket-20659623",
@@ -21993,13 +22006,14 @@
   "area": "SW15",
   "rent": 4990,
   "beds": 4,
-  "baths": null,
-  "available": "",
+  "baths": 2,
+  "available": "2026-11-24",
   "sharers": "unknown",
   "status": "new",
   "url": "https://www.onthemarket.com/details/20659623/",
   "links": [
-   "https://www.onthemarket.com/details/20659623/"
+   "https://www.onthemarket.com/details/20659623/",
+   "https://www.zoopla.co.uk/to-rent/details/74643750/"
   ],
   "source": "alert",
   "added": "2026-10-30",
@@ -22011,12 +22025,118 @@
     "2026-10-30",
     4990,
     "onthemarket"
+   ],
+   [
+    "2026-10-30",
+    4990,
+    "zoopla"
    ]
   ],
   "station": {
    "name": "East Putney",
    "kind": "Tube",
    "walk": 7
+  },
+  "checked": "2026-10-30"
+ },
+ {
+  "id": "onthemarket-20605689",
+  "title": "Somerset Road, Chiswick, London, W4, W4 5DW",
+  "area": "Chiswick",
+  "rent": 4900,
+  "beds": 4,
+  "baths": 2,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/94607643",
+  "links": [
+   "https://www.onthemarket.com/details/20605689/",
+   "https://www.rightmove.co.uk/properties/94607643"
+  ],
+  "source": "sweep",
+  "added": "2026-10-30",
+  "checked": "2026-10-30",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-30",
+    4900,
+    "rightmove"
+   ]
+  ],
+  "station": {
+   "name": "South Acton",
+   "kind": "Overground",
+   "walk": 7
+  }
+ },
+ {
+  "id": "foxtons-chpk2297386",
+  "title": "Uxbridge Road, W12 8NR",
+  "area": "Shepherd's Bush",
+  "rent": 3900,
+  "beds": 4,
+  "baths": 2,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.foxtons.co.uk/properties-to-rent/w12/chpk2297386",
+  "links": [
+   "https://www.foxtons.co.uk/properties-to-rent/w12/chpk2297386"
+  ],
+  "source": "sweep",
+  "added": "2026-10-30",
+  "checked": "2026-10-30",
+  "notes": [
+   "Found by ChatGPT sweep (unverified)."
+  ],
+  "prices": [
+   [
+    "2026-10-30",
+    3900,
+    "foxtons"
+   ]
+  ],
+  "station": {
+   "name": "Shepherd's Bush",
+   "kind": "Overground",
+   "walk": 1
+  }
+ },
+ {
+  "id": "ellisonsuk-34970827",
+  "title": "Florence Road, Wimbledon, SW19, SW19 8TL",
+  "area": "Wimbledon",
+  "rent": 3700,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.ellisonsuk.com/property/34970827/sw19/wimbledon/florence-road/terraced-house/4-bedrooms",
+  "links": [
+   "https://www.ellisonsuk.com/property/34970827/sw19/wimbledon/florence-road/terraced-house/4-bedrooms"
+  ],
+  "source": "sweep",
+  "added": "2026-10-30",
+  "checked": "2026-10-30",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-10-30",
+    3700,
+    "ellisonsuk"
+   ]
+  ],
+  "station": {
+   "name": "Haydons Road",
+   "kind": "Rail",
+   "walk": 9
   }
  }
 ]
