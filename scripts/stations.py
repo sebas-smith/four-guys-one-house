@@ -58,17 +58,26 @@ def locate(home, geo):
     street, area = street_of(home.get("title")), (home.get("area") or "").split("/")[0].strip()
     if not street:
         return None
-    pc = re.search(r"\b(SW|SE|NW|KT|SM|CR|W)\d{1,2}\b", home.get("title") or "")
-    key = f"{street}|{area}".lower()
+    # The postcode district from the title, else from an advert link (Foxtons: /sw12/), pins the street down
+    pc = re.search(r"\b(SW|SE|NW|KT|SM|CR|W)\d{1,2}\b", home.get("title") or "") or next(
+        (m for u in home.get("links") or [] for m in [re.search(r"(?<=[/-])(sw|se|nw|kt|sm|cr|w)\d{1,2}(?=[/-])", u)] if m), None)
+    key = f"{street}|{pc.group(0) if pc else area}".lower()
     today = dt.date.today().isoformat()
     if stale(geo.get(key)):
         centre_key = f"|{area}".lower()
         if area and stale(geo.get(centre_key)):
             hits = nominatim(f"{area}, London")
             geo[centre_key] = hits[0] if hits else today
-        hits = nominatim(f"{street}, {pc.group(0) if pc else area}, London") or nominatim(f"{street}, London")
+        # OpenStreetMap often keeps the apostrophe the advert drops: "Kings Avenue" is "King's Avenue"
+        names = [street] + ([re.sub(r"^(\w+)s\b", r"\1's", street)] if re.match(r"^\w+s\b", street) else [])
+        hits = [h for n in names for h in nominatim(f"{n}, {pc.group(0) if pc else area}, London")] or nominatim(f"{street}, London")
         centre = geo.get(centre_key) if isinstance(geo.get(centre_key), list) else None
-        geo[key] = min(hits, key=lambda p: metres(p, centre)) if hits and centre else (hits[0] if hits else today)
+        if hits and centre:
+            best = min(hits, key=lambda p: metres(p, centre))
+            # a same-named street across London isn't this one: treat it as not found
+            geo[key] = best if metres(best, centre) < 3000 else today
+        else:
+            geo[key] = hits[0] if hits else today
     return geo[key] if isinstance(geo[key], list) else None
 
 

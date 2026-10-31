@@ -24,6 +24,13 @@ def weekly(pcm):
     return round(pcm * 12 / 52)
 
 
+def monthly(pw):
+    """M&P only gives whole-pound weekly rents: £1,154 pw is £5,000.67, which the agent means as £5,000."""
+    pcm = pw * 52 / 12
+    near = round(pcm / 50) * 50
+    return near if abs(pcm - near) <= 5 else round(pcm)
+
+
 def marsh_and_parsons():
     """Live M&P lettings in the area as (id, url, title, rent pcm, beds, baths)."""
     homes, page = [], 1
@@ -41,7 +48,7 @@ def marsh_and_parsons():
             if not inside(lat, lng):
                 continue
             pid = (p.get("RPSID") or "").replace("rps_mpa-", "")
-            rent = round(p["WeeklyRent"] * 52 / 12) if p.get("WeeklyRent") else None
+            rent = monthly(p["WeeklyRent"]) if p.get("WeeklyRent") else None
             title = f"{p.get('publicTitle', '').strip()}, {p.get('firstPostcodePart', '')}".strip(", ")
             homes.append((pid, MP_ADVERT.format(pid, p.get("slug", "")), title, rent, int(p.get("Bedrooms") or 0) or None, int(rps.get("Bathrooms") or 0) or None))
         if not blob.get("next_page_url"):
@@ -70,7 +77,8 @@ def main():
         listings.append({
             "id": f"marshandparsons-{pid}", "title": title, "area": area_from(title), "rent": rent, "beds": beds,
             "baths": baths, "available": "", "sharers": "unknown", "status": "new", "url": url, "links": [url],
-            "source": "agent", "added": today, "notes": [f"From the Marsh & Parsons website on {today}."],
+            "source": "agent", "added": today,
+            "added_at": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%MZ"), "notes": [f"From the Marsh & Parsons website on {today}."],
         })
         record_price(listings[-1], rent, today, "marshandparsons")
         added.append(f"marshandparsons-{pid} {title} £{rent}")

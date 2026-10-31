@@ -205,6 +205,34 @@ def main():
     assert cl.verdict("https://www.jacksonsestateagents.com/properties/1/lettings", 403, "", "") is None
     assert cl.verdict(otm, 200, otm, "<title>Just a moment...</title>" + pad) is None
     assert cl.verdict(otm, 200, otm, '{"labelText":"Let agreed"}') is None  # too short to be the advert
+    # A withdrawn OnTheMarket advert stays up with status "retracted"
+    assert cl.verdict(otm, 200, otm, pad + '"property-id":8848009,"http-status":"200","status":"retracted"') == "removed"
+    assert cl.verdict(otm, 200, otm, pad + '"property-id":8848009,"http-status":"200","status":"live"') == "live"
+    fx = "https://www.foxtons.co.uk/properties-to-rent/sw12/chpk3403623"
+    assert cl.verdict(fx, 200, "https://www.foxtons.co.uk/properties-to-rent/sw12#gone", pad) == "removed"
+    assert cl.verdict(fx, 200, "https://www.foxtons.co.uk/properties-to-rent/sw12", pad) is None  # slow, not gone
+    assert cl.photo(rm, 'x "https://media.rightmove.co.uk/dir/property-photo/1a/2/3_max_135x100.jpeg" y').endswith("3_max_476x317.jpeg")
+    assert cl.photo(otm, '<meta property="og:image" content="https://media.onthemarket.com/p/1.jpg"/>') == "https://media.onthemarket.com/p/1.jpg"
+    assert cl.photo(otm, '<meta property="og:image" content="http://staticcdn.openrent.co.uk/images/logos/share-graphic-2.jpg"/>') is None
+    # parser edge cases
+    for t, want in [("From £4,000 pcm 4 bed", (4000, 4)), ("Holding deposit: £923. £4,000 pcm", (4000, None)),
+                    ("£4,333.33 4-bedroom", (4333, 4)), ("Four bedroom house £4,100 pcm", (4100, 4)),
+                    ("10 Bedford Road £4,000 pcm", (4000, None))]:
+        got = ia.details_near("https://www.zoopla.co.uk/to-rent/details/1/ " + t, 0, None)[:2]
+        assert got == want, (t, got)
+    assert ia.EXCLUDED_AREAS.search("Teddington TW11") and not ia.EXCLUDED_AREAS.search("Chiswick W4")
+    # an emailed cut on a site with no earlier price there is compared with the current rent
+    home = {"rent": 5200, "beds": 4, "status": "new", "prices": [["2026-10-20", 5200, "rightmove"]], "notes": []}
+    assert ia.new_price(home, 4999, 4, "2026-10-30", "zoopla") and home["rent"] == 4999, home
+    # a relist on the same portal joins the home once one of its adverts is down
+    relist = [{"id": "a", "title": "Ivy Crescent, W4", "rent": 4150, "beds": 4, "status": "new",
+               "links": ["https://www.zoopla.co.uk/to-rent/details/1/"]}]
+    zp2 = ["https://www.zoopla.co.uk/to-rent/details/2/"]
+    assert ia.same_home(relist, "Ivy Crescent, Chiswick W4", 4147, 4, None, zp2) is None
+    relist[0]["off_market"] = {"why": "Advert taken down on Zoopla, still live on Marsh & Parsons"}
+    assert ia.same_home(relist, "Ivy Crescent, Chiswick W4", 4147, 4, None, zp2) is relist[0]
+    import agent_feeds
+    assert agent_feeds.monthly(1154) == 5000 and agent_feeds.monthly(1038) == 4500
     print("ok")
 
 

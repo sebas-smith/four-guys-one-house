@@ -3,9 +3,10 @@ const STATUS = { no: "Ruled out", gone: "Gone / let" };
 const CLOSED = ["no", "gone"];
 const TARGET_PP = 1000, MAX_PP = 1200, PEOPLE = 4, PAGE = 60;
 // A standout: live, about £4,000 (up to £4,100), 4+ beds, 2+ baths, short walk to a station, sharers not ruled out.
-// Also: checked in the last few days, beds/baths plausible, not flagged unverified, not a placeholder row.
+// Also: checked in the last few days, no advert let or taken down, beds/baths plausible, not flagged
+// unverified, not a placeholder row.
 const STANDOUT = { rent: 4100, beds: 4, baths: 2, walk: 8, checked: 3 };
-const standout = (r) => !CLOSED.includes(r.status) && r.rent && r.rent <= STANDOUT.rent && r.beds >= STANDOUT.beds &&
+const standout = (r) => !CLOSED.includes(r.status) && !r.off_market && r.rent && r.rent <= STANDOUT.rent && r.beds >= STANDOUT.beds &&
   r.baths >= STANDOUT.baths && r.baths <= r.beds && r.station && r.station.walk <= STANDOUT.walk && r.sharers !== "no" &&
   daysAgo(r.checked) <= STANDOUT.checked && !(r.notes || []).some((t) => /unverified/i.test(t)) &&
   !placeholder(r) && !/^unverified geography$/i.test(r.title || "");
@@ -47,32 +48,48 @@ function daysAgo(iso) {
   return d ? Math.round((new Date(now.getFullYear(), now.getMonth(), now.getDate()) - d) / 864e5) : Infinity;
 }
 const day = (iso) => { const d = localDate(iso); return d ? d.toLocaleDateString("en-GB", { day: "numeric", month: "short" }) : iso; };
-const isRecent = (r) => daysAgo(r.added) < 3;
+// "31 Oct, 14:55" from added_at (UTC, shown in UK time), else just the day from added.
+function added(r) {
+  const t = r.added_at && new Date(r.added_at.replace(/Z$/, ":00Z"));
+  if (!t || isNaN(t)) return day(r.added);
+  const o = { timeZone: "Europe/London" };
+  return `${t.toLocaleDateString("en-GB", { ...o, day: "numeric", month: "short" })}, ${t.toLocaleTimeString("en-GB", { ...o, hour: "2-digit", minute: "2-digit" })}`;
+}
 // Price entries from a real site, oldest first ("" and "search" carry no site).
 const priced = (r) => (r.prices || []).filter((x) => x[2] && x[2] !== "search");
-// The entry behind the current rent: the latest one at that price.
-const current = (r) => priced(r).filter((x) => x[1] === r.rent).pop();
-// The site's previous different price before the current one, or null.
+// Each site's price entries, oldest first.
+function bySite(r) {
+  const m = new Map();
+  for (const x of priced(r)) { if (!m.has(x[2])) m.set(x[2], []); m.get(x[2]).push(x); }
+  return m;
+}
+// Sites whose latest price is the current rent.
+const atRent = (r) => [...bySite(r)].filter(([, h]) => h[h.length - 1][1] === r.rent).map(([s]) => s);
+// The highest earlier price on any site now asking the current rent, or null.
 function previous(r) {
-  const cur = current(r); if (!cur) return null;
-  const same = priced(r).filter((x) => x[2] === cur[2]);
-  const before = same.slice(0, same.lastIndexOf(cur)).filter((x) => x[1] !== cur[1]).pop();
-  return before ? before[1] : null;
+  const was = atRent(r).flatMap((s) => bySite(r).get(s).map((x) => x[1])).filter((p) => p > r.rent);
+  return was.length ? Math.max(...was) : null;
+}
+// Sites the live check found let or taken down: "Let agreed on Foxtons, still live on OnTheMarket" -> Foxtons.
+function deadSites(r) {
+  const m = r.off_market && /on (.+?)(,|$)/.exec(r.off_market.why || "");
+  return m ? [m[1]] : [];
 }
 function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
 
 function matches(r) {
   if (query && !`${r.title} ${r.area}`.toLowerCase().includes(query)) return false;
-  if (filter === "active") return !CLOSED.includes(r.status);
+  const open = !CLOSED.includes(r.status) && r.sharers !== "no";
+  if (filter === "active") return open;
   if (filter === "standouts") return standout(r);
-  if (filter === "budget") return !CLOSED.includes(r.status) && r.rent && r.rent <= MAX_PP * PEOPLE;
+  if (filter === "budget") return open && r.rent && r.rent <= MAX_PP * PEOPLE;
   if (filter === "all") return true;
   return r.status === filter;
 }
 
 function visible() {
   const by = {
-    newest: (a, b) => (b.added || "").localeCompare(a.added || ""),
+    newest: (a, b) => (b.added_at || b.added || "").localeCompare(a.added_at || a.added || ""),
     cheapest: (a, b) => (a.rent || 9e9) - (b.rent || 9e9),
   }[sort];
   return rows.filter(matches).sort(by);
@@ -98,18 +115,24 @@ function renderTabs() {
 
 function card(r) {
   const row = el("article", "row" + (CLOSED.includes(r.status) ? " dim" : ""));
+  const pic = safe(r.photo);
+  if (pic) {
+    const img = el("img", "photo"); img.src = pic; img.alt = ""; img.loading = "lazy"; img.referrerPolicy = "no-referrer";
+    img.onerror = () => { img.remove(); row.classList.remove("has-photo"); };
+    row.classList.add("has-photo"); row.append(img);
+  }
   const where = el("div", "where");
   where.append(el("h2", "addr", r.title));
   const meta = el("div", "meta");
   if (placeholder(r)) meta.append(el("span", "tag pending", "Details pending"));
   if (standout(r)) meta.append(el("span", "tag star", "Standout"));
-  if (r.status === "new" && isRecent(r)) meta.append(el("span", "tag new", "New"));
-  else if (STATUS[r.status]) meta.append(el("span", "tag status", STATUS[r.status]));
-  for (const b of [r.area, r.beds && `${r.beds} bed`, r.baths && `${r.baths} bath`, r.available ? `Available ${r.available.replace(/^(availability date|available( from)?)\s*:?\s*/i, "")}` : "Availability unknown"]) {
+  if (STATUS[r.status]) meta.append(el("span", "tag status", STATUS[r.status]));
+  const avail = (r.available || "").replace(/^(availability date|available( from)?)\s*:?\s*/i, "");
+  for (const b of [r.area, r.beds && `${r.beds} bed`, r.baths && `${r.baths} bath`, avail && `Available ${/^\d{4}-\d\d-\d\d$/.test(avail) ? day(avail) : avail}`]) {
     if (b) meta.append(el("span", null, b));
   }
   if (r.station) meta.append(el("span", r.station.walk <= STANDOUT.walk ? "near" : null, `${r.station.walk} min walk to ${r.station.name} (${r.station.kind})`));
-  if (r.added) meta.append(el("span", null, `Added ${day(r.added)}`));
+  if (r.added) meta.append(el("span", null, `Added ${added(r)}`));
   if (r.off_market) meta.append(el("span", "tag warn", `${r.off_market.why} (${day(r.off_market.checked)})`));
   if (r.sharers === "ok") meta.append(el("span", "tag", "Sharers OK"));
   if (r.sharers === "no") meta.append(el("span", "tag warn", "No sharers"));
@@ -128,19 +151,26 @@ function card(r) {
   } else price.append(el("div", "pp", "Price unknown"));
 
   const actions = el("div", "actions");
-  // Open the site showing the current price first.
+  // Open a live advert at the current price: Rightmove or OnTheMarket first (they say when a home is let).
   const links = (r.links || []).map(safe).filter(Boolean);
-  const cur = current(r);
-  const main = (cur && links.find((u) => siteKey(u) === cur[2])) || safe(r.url) || links[0];
+  const dead = deadSites(r), rank = ["rightmove", "onthemarket"];
+  const ok = links.filter((u) => !dead.includes(site(u)));
+  const cur = atRent(r);
+  const main = [...ok].sort((a, b) => (cur.includes(siteKey(b)) - cur.includes(siteKey(a))) ||
+    ((rank.indexOf(siteKey(a)) + 1 || 9) - (rank.indexOf(siteKey(b)) + 1 || 9)))[0] || safe(r.url) || links[0];
+  // Two adverts on one site (a relist) are numbered: "Zoopla 1", "Zoopla 2".
+  const total = {}, nth = new Map();
+  for (const u of links) { total[site(u)] = (total[site(u)] || 0) + 1; nth.set(u, total[site(u)]); }
+  const named = (u) => site(u) + (total[site(u)] > 1 ? ` ${nth.get(u)}` : "");
   if (main) {
-    const a = el("a", "open", `Open on ${site(main)} ↗`); a.href = main; a.target = "_blank"; a.rel = "noopener";
+    const a = el("a", "open", `Open on ${named(main)} ↗`); a.href = main; a.target = "_blank"; a.rel = "noopener";
     actions.append(a);
   }
   const others = links.filter((u) => u !== main);
   if (others.length) {
     const alt = el("span", "alt", "Also on ");
     others.forEach((u, i) => {
-      const a = el("a", null, site(u)); a.href = u; a.target = "_blank"; a.rel = "noopener";
+      const a = el("a", null, named(u)); a.href = u; a.target = "_blank"; a.rel = "noopener";
       alt.append(i ? ", " : "", a);
     });
     actions.append(alt);
@@ -148,21 +178,15 @@ function card(r) {
   row.append(where, price, actions);
 
   // Price history, one line per site, so two sites asking different rents isn't read as a change.
-  const bySite = new Map();
-  for (const [when, rent, where] of priced(r)) {
-    const h = bySite.get(where) || []; bySite.set(where, h);
-    if (!h.length || h[h.length - 1][1] !== rent) h.push([when, rent]);
-  }
-  const changed = [...bySite.values()].some((h) => h.length > 1);
-  const differ = new Set([...bySite.values()].map((h) => h[h.length - 1][1])).size > 1;
+  const hist = new Map([...bySite(r)].map(([s, h]) => [s, h.filter((x, i) => !i || x[1] !== h[i - 1][1])]));
+  const changed = [...hist.values()].some((h) => h.length > 1);
+  const differ = new Set([...hist.values()].map((h) => h[h.length - 1][1])).size > 1;
   const label = changed ? "Price history" : differ ? "Prices by site" : "";
-  if ((r.notes && r.notes.length) || label) {
-    const n = (r.notes || []).length;
+  if (label) {
     const d = el("details", "notes");
-    d.append(el("summary", null, [label, n ? (n === 1 ? "1 note" : `${n} notes`) : ""].filter(Boolean).join(" · ")));
-    if (label) for (const [where, h] of bySite) d.append(el("p", "history", `${siteName(where)}: ` +
+    d.append(el("summary", null, label));
+    for (const [where, h] of hist) d.append(el("p", "history", `${siteName(where)}: ` +
       h.map(([when, rent]) => `${gbp(rent)}${when ? " (" + day(when) + ")" : ""}`).join(" → ")));
-    for (const t of r.notes || []) d.append(el("p", null, t));
     row.append(d);
   }
   return row;

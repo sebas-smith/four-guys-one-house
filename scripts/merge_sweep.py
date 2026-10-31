@@ -16,6 +16,7 @@ merged_sweeps.json, records the files already there without merging them. --ids-
 of homes added.
 """
 import csv
+import datetime
 import hashlib
 import json
 import re
@@ -32,7 +33,7 @@ PERSON_SET = {"shortlist", "viewing", "applied", "no"}
 PORTALS = {"rightmove", "zoopla", "onthemarket", "openrent"}
 REQUIRED = {"id", "address_or_area", "area", "monthly_rent_gbp", "bedrooms", "bathrooms", "availability",
             "status", "first_seen", "sharer_suitability", "listing_urls", "checked_at"}
-EXCLUDED_AREAS = re.compile(r"isleworth|osterley|new malden|hounslow|twickenham|whitton|brixton|streatham|\b(TW[1-9]|KT3|SW2|SW16|SE\d{1,2})\b", re.I)
+EXCLUDED_AREAS = re.compile(r"isleworth|osterley|new malden|hounslow|twickenham|whitton|brixton|streatham|\b(TW\d{1,2}|KT3|SW2|SW16|SE\d{1,2}|W3|W1[01])\b", re.I)
 LINK_KEYS = [
     re.compile(r"rightmove\.co\.uk/properties/(\d+)"),
     re.compile(r"zoopla\.co\.uk/to-rent/details/(\d+)"),
@@ -111,8 +112,9 @@ def main(src, dry, path=LISTINGS, ids_out=None):
         for k in keys(r.get("links", []) + [r.get("url", "")]):
             by_key.setdefault(k, r)
 
-    rows = list(csv.DictReader(open(src, encoding="utf-8-sig")))
-    missing = REQUIRED - set(rows[0] if rows else [])
+    reader = csv.DictReader(open(src, encoding="utf-8-sig"))
+    rows = list(reader)
+    missing = REQUIRED - set(reader.fieldnames or [])
     if missing:
         sys.exit(f"{src} is missing columns: {', '.join(sorted(missing))}")
     added = updated = gone = skipped = filled = 0
@@ -122,8 +124,11 @@ def main(src, dry, path=LISTINGS, ids_out=None):
         links = clean_links(row["listing_urls"])
         checked = (row.get("checked_at") or row.get("last_verified") or "")[:10]
         status = sweep_status(row["status"])
+        why_no = "sweep: rent band or beds" if status == "no" else None
         if EXCLUDED_AREAS.search(f"{row['area']} {row['address_or_area']}"):
-            status = "no" if status != "gone" else status
+            status, why_no = ("no", "excluded area") if status != "gone" else (status, None)
+        if row["sharer_suitability"] == "excluded" and status != "gone":
+            status, why_no = "no", "no sharers"
         rent = num(row["monthly_rent_gbp"])
         avail = row["availability"].strip()
         avail = "" if avail.lower() in ("not stated", "unavailable", "ask agent") else avail[:40]
@@ -178,10 +183,18 @@ def main(src, dry, path=LISTINGS, ids_out=None):
                 note(f"ChatGPT sweep says {row['status']} ({checked}).")
                 match["sweep_gone"] = checked
                 gone += 1
-            elif status != "gone" and match["status"] not in PERSON_SET and match["status"] != status and not match.get("off_market"):
-                # check_live.py read the advert itself; trust that over the sweep saying live
+            elif status != "gone" and match["status"] != status and (match["status"] not in PERSON_SET or match.get("ruled_out")) \
+                    and not str(match.get("off_market", {}).get("why", "ChatGPT")).startswith(("Let agreed", "Advert taken down")):
+                # check_live.py read the advert itself; trust that over the sweep saying live. A rule-out
+                # the scripts made (ruled_out) or a gone the sweep alone decided can be undone.
                 match["status"] = status
                 match.pop("sweep_gone", None)
+                if match.get("off_market", {}).get("why", "").startswith("ChatGPT"):
+                    match.pop("off_market")
+                if status == "no":
+                    match["ruled_out"] = why_no
+                else:
+                    match.pop("ruled_out", None)
             match["checked"] = checked
             updated += 1
         else:
@@ -191,10 +204,13 @@ def main(src, dry, path=LISTINGS, ids_out=None):
                 "id": lid, "title": row["address_or_area"].strip() or row["area"], "area": row["area"],
                 "rent": rent, "beds": num(row["bedrooms"]), "baths": num(row["bathrooms"]), "available": avail,
                 "sharers": {"advertised": "ok", "excluded": "no"}.get(row["sharer_suitability"], "unknown"),
-                "status": "no" if row["sharer_suitability"] == "excluded" else status,
+                "status": status,
                 "url": url, "links": links, "source": "sweep", "added": row["first_seen"] or checked,
+                "added_at": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%MZ"),
                 "checked": checked, "notes": [f"Found by ChatGPT sweep ({row['status']})."],
             }
+            if why_no:
+                rec["ruled_out"] = why_no
             record_price(rec, rent, rec["added"], site_name(url))
             portal_history(rec, row, rent, site_name(url))
             listings.append(rec)

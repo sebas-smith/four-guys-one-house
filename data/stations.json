@@ -120,6 +120,12 @@
   "lon": -0.18769
  },
  {
+  "name": "East Acton",
+  "kind": "Tube",
+  "lat": 51.51666,
+  "lon": -0.24755
+ },
+ {
   "name": "East Putney",
   "kind": "Tube",
   "lat": 51.45861,

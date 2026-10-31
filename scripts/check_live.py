@@ -14,6 +14,7 @@ adverts can be read, the sweep's word stands.
 --added only checks homes added on that date, plus any the sweep flagged; --ids only checks those
 homes, plus any flagged (used after a sweep). An advert only counts as taken down on a 404/410 or
 when the site sends us to its search or address page; a block or captcha page counts as unknown.
+A home with no photo gets the first live advert's main photo.
 """
 import datetime
 import json
@@ -22,7 +23,7 @@ import sys
 import time
 from pathlib import Path
 
-from curl_cffi import requests
+from curl_cffi import CurlHttpVersion, requests
 
 ROOT = Path(__file__).resolve().parent.parent
 LISTINGS = ROOT / "data" / "listings.json"
@@ -62,6 +63,10 @@ def verdict(url, code, final, html):
     if site == "onthemarket":
         if "/details/" not in final:
             return "removed" if path in ("", "/") or path.startswith("/to-rent") else None
+        # Withdrawn adverts stay up ("no longer on the market") with status "retracted"
+        status = re.search(r'"http-status":"\d+","status":"(\w+)"', html)
+        if status and status.group(1) != "live":
+            return "removed"
         return "let" if re.search(r'"labelText":"(Let agreed|Under offer)"', html, re.I) else "live"
     if site == "zoopla":
         if "/to-rent/details/" not in final:
@@ -78,8 +83,11 @@ def verdict(url, code, final, html):
             return "live"
         return "removed" if path in ("", "/") or "properties-to-rent" in path else None
     if site == "foxtons":
-        if "#gone" in final or final.rstrip("/") != url.rstrip("/"):
+        # Taken-down adverts redirect to the area page with #gone; other redirects happen when it's slow
+        if "#gone" in final:
             return "removed"
+        if final.split("#")[0].rstrip("/") != url.rstrip("/"):
+            return None
         # Foxtons leaves let adverts up: DOW/EXC is let, OWB/ACC, OWB/INS or POV/INS live
         pub = re.search(r'"webPublishStatus":"(\w+)","status":"(\w+)"', html)
         if not pub:
@@ -105,6 +113,20 @@ def verdict(url, code, final, html):
     return None
 
 
+def photo(url, html):
+    """The advert's main photo, or None: Rightmove's first property photo, else the page's og:image."""
+    m = re.search(r"https://media\.rightmove\.co\.uk/dir/property-photo/[^\"'\s\\]+?\.jpe?g", html)
+    if m:
+        return re.sub(r"_max_\d+x\d+", "_max_476x317", m.group(0))
+    m = re.search(r'<meta[^>]+property="og:image"[^>]+content="([^"]+)"|<meta[^>]+content="([^"]+)"[^>]+property="og:image"', html)
+    pic = m and (m.group(1) or m.group(2))
+    if pic and pic.startswith("/"):
+        pic = re.match(r"https://[^/]+", url).group(0) + pic
+    if not pic or not pic.startswith("https://") or re.search(r"logo|share-graphic|placeholder|default", pic, re.I):
+        return None
+    return pic
+
+
 def add_note(home, text):
     """Add a note unless it's there already, or the latest note says the same on an earlier day."""
     notes = home.setdefault("notes", [])
@@ -115,7 +137,13 @@ def add_note(home, text):
 
 def fetch(url):
     try:
-        r = requests.get(url, impersonate="chrome", timeout=25)
+        try:
+            r = requests.get(url, impersonate="chrome", timeout=25)
+        except requests.RequestsError as e:
+            if "(92)" not in str(e):
+                raise
+            # Dexters sends a header HTTP/2 rejects; HTTP/1.1 reads it fine
+            r = requests.get(url, impersonate="chrome", timeout=25, http_version=CurlHttpVersion.V1_1)
         return r.status_code, r.url, r.text
     except Exception as e:  # noqa: BLE001 - network trouble just means "couldn't tell"
         print(f"  skip {url}: {e}"[:150])
@@ -144,7 +172,11 @@ def main():
         for url in home.get("links") or [home.get("url")]:
             if not url:
                 continue
-            results[url] = verdict(url, *fetch(url))
+            code, final, html = fetch(url)
+            results[url] = verdict(url, code, final, html)
+            pic = photo(url, html) if results[url] == "live" and not home.get("photo") else None
+            if pic:
+                home["photo"] = pic
             time.sleep(0.7)
         checked += 1
         let = [u for u, v in results.items() if v == "let"]
@@ -172,7 +204,9 @@ def main():
             add_note(home, f"Advert live on {name(live[0])} ({day}).")
         elif flagged and not any(results.values()):
             # Nothing we can read (agent sites, Zoopla or OpenRent blocking us): go with the sweep.
-            why = "ChatGPT sweep says let agreed"
+            # A later sweep saying live undoes this (merge_sweep.py).
+            said = next((n for n in reversed(home.get("notes", [])) if n.startswith("ChatGPT sweep says ")), "")
+            why = "ChatGPT sweep says " + ("removed" if "removed" in said.lower() else "let agreed")
             home["off_market"] = {"why": why, "checked": today}
             if home["status"] not in PERSON_SET:
                 home["status"] = "gone"

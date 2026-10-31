@@ -42,7 +42,7 @@ TRACKING_HOST = re.compile(r"https?://[^\s\"'<>)]*(?:rightmove|zoopla|onthemarke
 NO_RESOLVE = re.compile(r"//(www|media|static\w*|images\w*|st|advantage|go\.advantage|tracking)\.|"
                         r"\.(png|jpe?g|gif|svg|woff2?|ttf|css)\b|unsubscribe|/wf/open|alert-opened", re.I)
 MIN_RENT, MAX_RENT, MIN_BEDS = 3000, 5000, 4
-EXCLUDED_AREAS = re.compile(r"isleworth|osterley|new malden|hounslow|twickenham|whitton|brixton|streatham|\b(TW[1-9]|KT3|SW2|SW16|SE\d{1,2})\b", re.I)
+EXCLUDED_AREAS = re.compile(r"isleworth|osterley|new malden|hounslow|twickenham|whitton|brixton|streatham|\b(TW\d{1,2}|KT3|SW2|SW16|SE\d{1,2}|W3|W1[01])\b", re.I)
 
 
 def decoded(value):
@@ -116,8 +116,9 @@ def find_listings(raw, unresolved=None):
 
 # "£4,999 pcm", "£950 pw", "£1,084.62" (Zoopla shows some weekly prices with no unit)
 PRICE = re.compile(r"£\s?(\d{1,3}(?:,\d{3})+|\d+)(\.\d\d)?\s*(pcm|per month|p/?w|per week|/month|/week|a month|a week)?", re.I)
-NOT_RENT = re.compile(r"(reduced by|reduced from|was|from|deposit( of)?)\s*$", re.I)  # price cuts: keep the new price
-BEDS = re.compile(r"(\d+)\s*(?:bed|bedroom)", re.I)
+NOT_RENT = re.compile(r"(reduced by|reduced from|was|deposit( of)?:?)\s*$", re.I)  # price cuts: keep the new price
+WORD_NUMS = {w: str(i) for i, w in enumerate("one two three four five six seven eight".split(), 1)}
+BEDS = re.compile(r"\b(\d+|" + "|".join(WORD_NUMS) + r")[\s-]*bed(?:room)?s?\b", re.I)  # "4 bed", "4-bedroom", "Four bedroom"; not "10 Bedford Road"
 POSTCODE = r"(?:SW|SE|NW|KT|TW|CR|SM|W)\d{1,2}\b"
 ADDRESS = re.compile(r"[^<>\n|]{0,80}\b(?:" + POSTCODE + r"|London|Road|Street|Avenue|Lane|Gardens|Close|Way|Grove|Place|"
                      r"Crescent|Terrace|Mews|Drive|Square)[^<>\n|]{0,40}")
@@ -159,10 +160,10 @@ def details_near(raw, pos, next_pos, prev_pos=None):
     if m:
         rent = int(m.group(1).replace(",", ""))
         unit = (m.group(3) or "").lower()
-        if "w" in unit or (not unit and (m.group(2) or rent < 1500)):
+        if "w" in unit or (not unit and rent < 1500):
             rent = round((rent + float(m.group(2) or 0)) * 52 / 12)
     m = closest(BEDS)
-    beds = int(m.group(1)) if m else None
+    beds = int(WORD_NUMS.get(m.group(1).lower(), m.group(1))) if m else None
     m = closest(ADDRESS, lambda t, m: not re.search(r"copyright|registered|mailing address|search", m.group(0), re.I))
     title = re.sub(r"\s+", " ", m.group(0)) if m else ""
     title = re.sub(r"^.*?\bto (rent|let)\b\s*[-–—]?\s*", "", title, flags=re.I)  # "£3,500 pcm 4 bedroom house to rent - "
@@ -236,8 +237,8 @@ def same_home(listings, title, rent, beds=None, baths=None, links=(), available=
     Same street, beds and baths within £50 counts as the same. Up to 8% apart also counts when beds and
     baths match and both were found on portals but different ones, since a price cut often reaches one
     portal before another. Without a street, rent within £50 plus the same beds, baths and move-in date
-    counts. A second advert on a portal the home is already on counts as a different home: streets often
-    have several similar homes at one price, and we don't know the agent to tell a relist apart.
+    counts. A second advert on a portal the home is already on counts as a different home (streets often
+    have several similar homes at one price) unless one of the home's adverts is down: then it's a relist.
     """
     if not rent:
         return None
@@ -251,9 +252,12 @@ def same_home(listings, title, rent, beds=None, baths=None, links=(), available=
         if baths and r.get("baths") and baths != r["baths"]:
             return False
         theirs = sites(r.get("links", []))
-        if hosts & theirs & PORTAL_SITES:
-            return False
         other = street(r.get("title"))
+        if hosts & theirs & PORTAL_SITES:
+            # Except a relist: one of the home's adverts has come down, and this one has the same
+            # street, beds and rent (within £50).
+            return bool(r.get("off_market") and s and s == other and beds and beds == r.get("beds")
+                        and abs(r["rent"] - rent) <= 50)
         if s and other:
             if s != other:
                 return False
@@ -295,14 +299,17 @@ def new_price(home, rent, beds, when, site):
     """A price change in an email about an advert we already have. True when the home's price changed.
 
     Only a newer price on the same site, within 25% of the last one, for a live home whose beds match:
-    a misread card shouldn't move a known home's rent.
+    a misread card shouldn't move a known home's rent. With no earlier price from that site (the sweep
+    records only its main link's site), it's compared with the home's current rent.
     """
     if not rent or home.get("status") == "gone" or (beds and home.get("beds") and beds != home["beds"]):
         return False
     same = [p for p in home.get("prices") or [] if p[2] == site]
-    last = same[-1] if same else None
+    last = same[-1] if same else (["", home["rent"], site] if home.get("rent") else None)
     if not last or last[1] == rent or (last[0] or "") > when or abs(rent - last[1]) > 0.25 * last[1]:
         return False
+    if not same:
+        home.setdefault("prices", []).append(last)  # so the history shows what it was cut from
     record_price(home, rent, when, site)
     cut = "cut" if rent < last[1] else "rise"
     home.setdefault("notes", []).append(f"Price {cut} on {site.title()}: £{last[1]:,} to £{rent:,} ({when}).")
@@ -327,9 +334,11 @@ def read_email(msg, listings, known, added, failures, today):
         failures.append(f"{sender} | {subject}")
     positions = sorted(found.values())
     try:
-        when = parsedate_to_datetime(msg["Date"]).date().isoformat()
+        sent = parsedate_to_datetime(msg["Date"]).astimezone(dt.timezone.utc)
+        when, at = sent.date().isoformat(), sent.strftime("%Y-%m-%dT%H:%MZ")
     except Exception:
-        when = today
+        when, at = today, dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
+    unread = cards = 0
     for (portal, pid), pos in found.items():
         nxt = next((p for p in positions if p > pos), None)
         prv = max((p for p in positions if p < pos), default=None)
@@ -340,7 +349,9 @@ def read_email(msg, listings, known, added, failures, today):
                 added.append(f"{portal}-{pid} price now £{rent:,} on {home['id']}")
             continue
         rent, beds, title = details_near(raw, pos, nxt, prv)
+        cards += 1
         if not rent and not beds:  # a link in a forward or footer, not a listing card
+            unread += 1
             continue
         if rent and not (MIN_RENT <= rent <= MAX_RENT):
             continue
@@ -359,12 +370,15 @@ def read_email(msg, listings, known, added, failures, today):
         listings.append({
             "id": f"{portal}-{pid}", "title": title or f"{portal.title()} listing {pid}", "area": area_from(title),
             "rent": rent, "beds": beds, "baths": None, "available": "", "sharers": "unknown", "status": "new",
-            "url": url, "links": [url], "source": "alert", "added": when,
+            "url": url, "links": [url], "source": "alert", "added": when, "added_at": at,
             "notes": [f"From an email on {when}: {subject[:120]}"],
         })
         record_price(listings[-1], rent, when, portal)
         known[(portal, pid)] = listings[-1]
         added.append(f"{portal}-{pid} {title} £{rent}")
+    if alert and cards and unread == cards and not unresolved:
+        # listing links but no price or beds by any of them: the card layout has probably changed
+        failures.append(f"{sender} | {subject} (no price or beds read)")
     return not unresolved
 
 
