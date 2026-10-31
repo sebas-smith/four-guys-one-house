@@ -72,8 +72,9 @@ with headers, account links and tracking query strings removed).
 3. Create accounts on Rightmove, Zoopla, OnTheMarket and OpenRent with the bot address. Make one
    saved search each: 4+ beds, £3,000 to £5,000 pcm, to rent, "instant" email alerts.
    `python scripts/search_area.py` prints the Rightmove, Zoopla and OnTheMarket links for the drawn
-   area (saved as "SW London house v3" on Rightmove, "London (Drawn area)" on OnTheMarket and Zoopla;
-   redrawn 31 Oct). OpenRent can't draw and only
+   area (saved as "SW London house v3" on Rightmove, "London (Drawn area)" on OnTheMarket and "Putney"
+   on Zoopla, which names drawn searches after the `q` place; redrawn 31 Oct). Save Zoopla's alert
+   from its list view: the map view says "0 results" for the shape though the search works. OpenRent can't draw and only
    emails daily: it has three alerts, 5 km round Wandsworth, 3 km round Wimbledon and 3 km round
    Hammersmith.
 4. Gmail settings > Accounts > Grant access to your account: add each housemate as a delegate.

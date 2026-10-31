@@ -36,6 +36,15 @@ Read README.md first: it explains the search, the data and every script and work
   really Yelverton Road) folded into `rightmove-174678032`. Sample `tests/emails/onthemarket_in_your_area.eml`
   covers OnTheMarket's details-before-link layout.
 
+- 31 Oct audit (four agents: data, coverage, pipeline, site). Fixed: OnTheMarket leaves withdrawn
+  adverts up as `"status":"retracted"` (16 "live" homes were let or gone); emailed price cuts ignored
+  when the portal had no earlier price; relists made duplicates; Marsh & Parsons £5,000 read as
+  £5,001; Foxtons one-day false "taken down"; Dexters never read. Area grown to north Battersea, all
+  of W4 and East Acton/Old Oak (W3, W10/W11 excluded); new alerts on all three drawing portals and the
+  ChatGPT scope sentence updated; 31 homes already on the market backfilled from a Rightmove search.
+  Site now shows a photo and the time added; notes, the New tag and "Availability unknown" removed
+  at Seb's request.
+
 ## Next steps
 
 1. Gmail delegation: Seb sends the other three housemates' Gmail addresses; Claude adds them in
