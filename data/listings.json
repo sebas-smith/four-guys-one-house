@@ -3707,7 +3707,7 @@
   "baths": 2,
   "available": "2026-11-04",
   "sharers": "no",
-  "status": "new",
+  "status": "no",
   "url": "https://www.jacksonsestateagents.com/properties/21552573/lettings",
   "links": [
    "https://www.jacksonsestateagents.com/properties/21552573/lettings",
@@ -3739,7 +3739,8 @@
     "zoopla"
    ]
   ],
-  "photo": "https://lid.zoocdn.com/u/480/360/e6012784bc1e602385f3271923afc09a17398ae7.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/e6012784bc1e602385f3271923afc09a17398ae7.jpg",
+  "ruled_out": "no sharers"
  },
  {
   "id": "jacksons-21642614",
@@ -5791,7 +5792,7 @@
   "baths": 1,
   "available": "2026-12-03",
   "sharers": "no",
-  "status": "new",
+  "status": "no",
   "url": "https://www.openrent.co.uk/property-to-rent/london/4-bed-semi-detached-house-putney-heath-sw15/3061796",
   "links": [
    "https://www.openrent.co.uk/property-to-rent/london/4-bed-semi-detached-house-putney-heath-sw15/3061796"
@@ -5809,7 +5810,8 @@
     3250,
     "openrent"
    ]
-  ]
+  ],
+  "ruled_out": "no sharers"
  },
  {
   "id": "openrent-3062451",
@@ -16224,7 +16226,9 @@
   "links": [
    "https://www.dexters.co.uk/property-for-rent/house-to-rent-in-ullswater-crescent-london-sw15/285237",
    "https://www.zoopla.co.uk/to-rent/details/73832947/",
-   "https://www.zoopla.co.uk/to-rent/details/74401402/"
+   "https://www.zoopla.co.uk/to-rent/details/74401402/",
+   "https://www.onthemarket.com/details/20022137/",
+   "https://www.rightmove.co.uk/properties/91415145"
   ],
   "source": "sweep",
   "added": "2026-10-18",
@@ -16249,6 +16253,11 @@
     "2026-10-20",
     3695,
     "zoopla"
+   ],
+   [
+    "2026-10-31",
+    3695,
+    "rightmove"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -20872,7 +20881,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (unverified)."
   ],
