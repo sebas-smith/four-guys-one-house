@@ -27146,5 +27146,48 @@
     "marshandparsons"
    ]
   ]
+ },
+ {
+  "id": "onthemarket-20665648",
+  "title": "Valnay Street, London, SW17",
+  "area": "SW17",
+  "rent": 4000,
+  "beds": 5,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20665648/",
+  "links": [
+   "https://www.onthemarket.com/details/20665648/"
+  ],
+  "source": "alert",
+  "added": "2026-10-31",
+  "added_at": "2026-10-31T21:36Z",
+  "notes": [
+   "From an email on 2026-10-31: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-10-31",
+    4000,
+    "onthemarket"
+   ]
+  ],
+  "loc": [
+   51.426738,
+   -0.1641819
+  ],
+  "station": {
+   "name": "Tooting Broadway",
+   "kind": "Tube",
+   "walk": 5
+  },
+  "commute": {
+   "lcp": 46,
+   "tritax": 44,
+   "q5": 42,
+   "wentworth": 48
+  }
  }
 ]
