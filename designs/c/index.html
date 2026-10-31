@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>House Hunt</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Schibsted+Grotesk:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-tab="deck">
+<div class="app">
+  <header class="top">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      <span class="brand-name">Four Guys<br>One House</span>
+    </div>
+    <div class="unit" role="group" aria-label="Show price per person">
+      <button type="button" data-unit="month" aria-pressed="true">£/mo each</button>
+      <button type="button" data-unit="week" aria-pressed="false">£/wk each</button>
+    </div>
+  </header>
+
+  <div id="shared" class="shared" hidden></div>
+
+  <!-- DECK: always visible on desktop -->
+  <section id="deck" class="pane pane-deck" aria-label="Deck">
+    <div class="deck-head">
+      <div class="chips" id="deckViews" role="toolbar" aria-label="Which homes to swipe through"></div>
+    </div>
+    <div class="stage" id="stage" aria-live="polite"></div>
+    <div class="controls">
+      <button type="button" class="ctl ctl-undo" id="undo" aria-label="Undo last swipe" title="Undo (Z)">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 14 4 9l5-5"/><path d="M4 9h10.5a5.5 5.5 0 0 1 0 11H11"/></svg>
+      </button>
+      <button type="button" class="ctl ctl-pass" id="pass" aria-label="Pass (left arrow)" title="Pass (←)">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+        <span>Pass</span>
+      </button>
+      <button type="button" class="ctl ctl-keep" id="keep" aria-label="Keep (right arrow)" title="Keep (→)">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg>
+        <span>Keep</span>
+      </button>
+      <button type="button" class="ctl ctl-info" id="more" aria-label="Details (space)" title="Details (Space)">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- KEPT -->
+  <section id="kept" class="pane pane-side" aria-label="Kept">
+    <div class="pane-title">
+      <h1>Kept</h1>
+      <p class="pane-sub">Your shortlist. Saved in this browser only.</p>
+    </div>
+    <div class="kept-tools">
+      <button type="button" class="btn btn-solid" id="shareKept">Copy share link</button>
+      <button type="button" class="btn" id="clearPassed">Bring back passed homes</button>
+    </div>
+    <div id="keptStats" class="stats"></div>
+    <div id="keptList" class="list"></div>
+  </section>
+
+  <!-- ALL -->
+  <section id="all" class="pane pane-side" aria-label="All homes">
+    <div class="pane-title">
+      <h1>All homes</h1>
+      <p class="pane-sub" id="allSub"></p>
+    </div>
+    <div class="chips chips-wrap" id="allViews" role="toolbar" aria-label="Filter"></div>
+    <div class="find">
+      <input id="search" type="search" placeholder="Search street or area" aria-label="Search street or area" autocomplete="off">
+      <select id="sort" aria-label="Sort">
+        <option value="newest">Newest first</option>
+        <option value="cheapest">Cheapest first</option>
+        <option value="walk">Shortest walk</option>
+      </select>
+    </div>
+    <label class="newonly"><input type="checkbox" id="newOnly"> <span id="newOnlyLabel">Only new since your last visit</span></label>
+    <div id="allList" class="list"></div>
+  </section>
+
+  <!-- INFO -->
+  <section id="info" class="pane pane-side pane-info" aria-label="How we search">
+    <div class="pane-title">
+      <h1>How we search</h1>
+      <p class="pane-sub">Four of us, one whole home in south-west or west London, moving January 2027.</p>
+    </div>
+    <div class="board">
+      <div class="fact"><b>£1,000</b><span>each is the target (£4,000 a month)</span></div>
+      <div class="fact"><b>£1,200</b><span>each at most (£4,800), before bills</span></div>
+      <div class="fact"><b>4+</b><span>bedrooms, whole houses or flats</span></div>
+      <div class="fact"><b>£3–5k</b><span>a month is the search range</span></div>
+    </div>
+    <h2>Areas</h2>
+    <ul class="areas">
+      <li>Putney</li><li>Southfields</li><li>Earlsfield</li><li>Wandsworth</li><li>Roehampton</li><li>Tooting</li><li>Balham</li><li>Wimbledon</li><li>Raynes Park</li><li>Clapham</li><li>Battersea (to the river)</li><li>Fulham</li><li>Hammersmith</li><li>Shepherd's Bush and East Acton (W12)</li><li>Chiswick (W4)</li>
+    </ul>
+    <h2>Left out</h2>
+    <ul class="areas out">
+      <li>Brixton</li><li>Streatham</li><li>New Malden</li><li>Twickenham</li><li>Hounslow</li><li>Isleworth</li><li>Acton (W3)</li><li>Notting Hill (W10/W11)</li>
+    </ul>
+    <h2>Homes</h2>
+    <p>Whole houses or flats, 4+ beds, £3,000–£5,000 a month. Rooms and homes that won't take sharers are left out.</p>
+    <h2>Standouts</h2>
+    <p>Up to £4,100, 2+ bathrooms, 8 minutes or less to a station, checked live in the last 3 days.</p>
+    <h2>Where homes come from</h2>
+    <p>Instant alerts from Rightmove, Zoopla, OnTheMarket and OpenRent, Marsh &amp; Parsons' website and a daily search of agents' sites. Every advert is rechecked each morning; let or withdrawn homes move to Gone.</p>
+    <h2>This app</h2>
+    <p>Swipe right to keep a home, left to pass. On a keyboard: <kbd>→</kbd> keep, <kbd>←</kbd> pass, <kbd>Z</kbd> undo, <kbd>Space</kbd> details. Kept and passed homes live only in this browser; share your Kept list with the link on the Kept tab.</p>
+    <p class="foot" id="foot"></p>
+    <button type="button" class="btn" id="resetAll">Clear my kept and passed homes</button>
+  </section>
+
+  <nav class="tabbar" aria-label="Sections">
+    <button type="button" data-tab="deck"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M2 6v12M22 6v12"/></svg><span>Deck</span><em class="badge" id="badgeDeck" hidden></em></button>
+    <button type="button" data-tab="kept"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg><span>Kept</span><em class="badge" id="badgeKept" hidden></em></button>
+    <button type="button" data-tab="all"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg><span>All</span></button>
+    <button type="button" data-tab="info"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg><span>Info</span></button>
+  </nav>
+</div>
+
+<div class="sheet-wrap" id="sheetWrap" hidden>
+  <div class="sheet-scrim" id="scrim"></div>
+  <div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle" tabindex="-1"></div>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="app.js"></script>
+</body>
+</html>

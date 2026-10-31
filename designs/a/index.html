@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Four Guys One House</title>
+<meta name="description" content="Four friends looking for a whole four-bed home to rent in south-west and west London from January 2027.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..700&family=Schibsted+Grotesk:ital,wght@0,400..700;1,400&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#grid">Skip to the listings</a>
+<header class="mast">
+  <div class="mast-top">
+    <span id="issue">No. –</span>
+    <span id="issue-date"></span>
+    <a href="#how">How we search</a>
+  </div>
+  <h1 class="title">Four Guys One House</h1>
+  <p class="mast-sub">The house-hunting supplement for four friends moving in January 2027. South-west and west London, a whole four-bed home, £1,000 each as the target and £1,200 each at most, before bills.</p>
+  <p class="mast-live" id="issue-live"></p>
+</header>
+
+<nav class="nav" aria-label="Views">
+  <div class="tabs" id="tabs" role="toolbar" aria-label="Choose a view"></div>
+  <div class="tools">
+    <label class="field">
+      <span class="sr">Search street or area</span>
+      <input id="search" type="search" placeholder="Search street or area" autocomplete="off">
+    </label>
+    <label class="field field-sort">
+      <span class="sr">Sort</span>
+      <select id="sort">
+        <option value="newest">Newest first</option>
+        <option value="cheapest">Cheapest first</option>
+      </select>
+    </label>
+  </div>
+</nav>
+
+<div class="cover"><article class="lead" id="lead" aria-label="Lead story"></article></div>
+<div class="page">
+  <main class="main" id="main">
+
+    <section class="listings" aria-labelledby="view-h">
+      <header class="view">
+        <h2 id="view-h">Standouts</h2>
+        <p id="view-dek"></p>
+      </header>
+      <div class="grid" id="grid"><div class="empty"><p class="empty-h">Setting the type…</p><p>Loading the listings.</p></div></div>
+    </section>
+  </main>
+
+  <aside class="digest" aria-labelledby="digest-h">
+    <details class="digest-box" id="digest-box" open>
+      <summary>
+        <h2 id="digest-h">This week</h2>
+        <span class="digest-sum" id="digest-sum"></span>
+      </summary>
+      <div id="digest-body"></div>
+    </details>
+  </aside>
+</div>
+
+<section class="how" id="how" aria-labelledby="how-h">
+  <h2 id="how-h">How we search</h2>
+  <div class="how-cols">
+    <dl class="how-rules">
+      <dt>Homes</dt>
+      <dd>Whole houses or flats to rent, four or more beds, £3,000 to £5,000 a month. Rooms and places that won't take sharers are left out.</dd>
+      <dt>Standouts</dt>
+      <dd>Up to £4,100, two or more bathrooms, eight minutes or less to a station, checked live in the last three days.</dd>
+      <dt>Sources</dt>
+      <dd>Instant alerts from Rightmove, Zoopla, OnTheMarket and OpenRent, Marsh &amp; Parsons' website and a daily search of agents' sites. Every advert is rechecked each morning; let or withdrawn homes move to Gone.</dd>
+      <dt>Left out</dt>
+      <dd>Brixton, Streatham, New Malden, Twickenham, Hounslow, Isleworth, Acton (W3), Notting Hill (W10/W11).</dd>
+      <dt id="bills">Bills estimate</dt>
+      <dd>"With bills" adds a rough £120 each a month for council tax, energy, water and broadband split four ways. It's our guess, not from the adverts; real bills depend on the council and the house.</dd>
+    </dl>
+    <div class="areas">
+      <h3>The areas</h3>
+      <ul class="area-list">
+        <li><b>Putney</b> Riverside high street; District line at East Putney, trains to Waterloo.</li>
+        <li><b>Southfields</b> Quiet Victorian grid by Wimbledon Park; District line.</li>
+        <li><b>Earlsfield</b> Small and village-like; trains to Waterloo in about 15 minutes.</li>
+        <li><b>Wandsworth</b> Two commons and Southside; trains from Wandsworth Town.</li>
+        <li><b>Roehampton</b> Green and next to Richmond Park; mostly buses.</li>
+        <li><b>Tooting</b> Lively, cheap eats, the Lido; Northern line at Broadway and Bec.</li>
+        <li><b>Balham</b> Busy high road; Northern line and Southern trains.</li>
+        <li><b>Wimbledon</b> Big town centre; District line, trains and trams.</li>
+        <li><b>Raynes Park</b> Suburban and calm; trains to Waterloo.</li>
+        <li><b>Clapham</b> Social and busy; Northern line, Clapham Junction close by.</li>
+        <li><b>Battersea</b> To the river, park and Power Station; Northern line and Clapham Junction.</li>
+        <li><b>Fulham</b> Smart terraces; District line at Parsons Green and Fulham Broadway.</li>
+        <li><b>Hammersmith</b> A transport hub with four tube lines and the river.</li>
+        <li><b>Shepherd's Bush and East Acton</b> Westfield and the Green; Central line and Overground.</li>
+        <li><b>Chiswick</b> Leafy and riverside; District line and trains from Chiswick.</li>
+      </ul>
+    </div>
+  </div>
+  <p class="colophon">Read-only: the list updates itself every day. Compare choices are saved only in this browser. Rent is the advertised monthly total; each is split four ways. Always check the advert itself. <span id="foot-latest"></span></p>
+</section>
+
+<div class="tray" id="tray" hidden>
+  <span id="tray-n"></span>
+  <button type="button" id="tray-view" class="tray-go">Side by side</button>
+  <button type="button" id="tray-clear" class="tray-clear">Clear</button>
+</div>
+<p class="toast" id="toast" role="status" hidden></p>
+
+<dialog id="cmp-dlg" aria-labelledby="cmp-h">
+  <div class="dlg-head"><h2 id="cmp-h">Side by side</h2><button type="button" class="dlg-close">Close</button></div>
+  <p class="dlg-note">Saved in this browser only. *Bills are a rough estimate of £120 each a month.</p>
+  <div id="cmp-body"></div>
+</dialog>
+<dialog id="home-dlg" aria-label="Home details">
+  <div class="dlg-head"><span></span><button type="button" class="dlg-close">Close</button></div>
+  <div id="home-body"></div>
+</dialog>
+
+<script src="app.js"></script>
+</body>
+</html>

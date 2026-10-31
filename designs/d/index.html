@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Four Guys One House</title>
+<meta name="color-scheme" content="light dark">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@500;700;800&family=Sofia+Sans+Semi+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
+<link rel="stylesheet" href="desk.css">
+</head>
+<body>
+<a class="skip" href="#board">Skip to the homes</a>
+
+<header class="mast">
+  <div class="mast-in">
+    <div class="brand">
+      <h1>Four Guys One House</h1>
+      <p class="brand-sub">Rental desk, south-west and west London. Moving January 2027.</p>
+    </div>
+    <dl class="terms">
+      <div><dt>Target</dt><dd class="num">£4,000 <small>£1,000 each</small></dd></div>
+      <div><dt>Ceiling</dt><dd class="num">£4,800 <small>£1,200 each</small></dd></div>
+    </dl>
+    <div class="mast-tools">
+      <span class="stamp" id="stamp">Loading…</span>
+      <button type="button" class="btn-plain" id="howBtn" aria-expanded="false" aria-controls="how">How we search</button>
+      <button type="button" class="btn-plain" id="keysBtn" aria-expanded="false" aria-controls="keys">Keys</button>
+    </div>
+  </div>
+</header>
+
+<section class="how" id="how" hidden aria-label="How we search">
+  <div class="how-in">
+    <dl>
+      <div><dt>Areas</dt><dd>Putney, Southfields, Earlsfield, Wandsworth, Roehampton, Tooting, Balham, Wimbledon, Raynes Park, Clapham, Battersea (to the river), Fulham, Hammersmith, Shepherd's Bush and East Acton (W12), Chiswick (W4).</dd></div>
+      <div><dt>Left out</dt><dd>Brixton, Streatham, New Malden, Twickenham, Hounslow, Isleworth, Acton (W3), Notting Hill (W10/W11).</dd></div>
+      <div><dt>Homes</dt><dd>Whole houses or flats, 4+ beds, £3,000–£5,000 a month. Rooms and homes that won't take sharers are left out.</dd></div>
+      <div><dt>Standouts</dt><dd>Up to £4,100, 2+ bathrooms, 8 minutes or less to a station, checked live in the last 3 days.</dd></div>
+      <div><dt>Sources</dt><dd>Instant alerts from Rightmove, Zoopla, OnTheMarket and OpenRent, Marsh &amp; Parsons' website and a daily search of agents' sites. Every advert is rechecked each morning; let or withdrawn homes move to Gone.</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="keys" id="keys" hidden aria-label="Keyboard shortcuts">
+  <div class="keys-in">
+    <span><kbd>j</kbd><kbd>k</kbd> next / previous home</span>
+    <span><kbd>Enter</kbd> show details</span>
+    <span><kbd>o</kbd> open the advert</span>
+    <span><kbd>s</kbd> star (just you)</span>
+    <span><kbd>/</kbd> search</span>
+    <span><kbd>Esc</kbd> close</span>
+  </div>
+</section>
+
+<div class="tape" id="tape" aria-label="Latest moves">
+  <span class="tape-label">Latest</span>
+  <div class="tape-view" id="tapeView"><div class="tape-run" id="tapeRun"></div></div>
+</div>
+
+<main>
+  <section class="kpis" id="kpis" aria-label="The market today"></section>
+
+  <nav class="phone-switch" aria-label="Section">
+    <button type="button" data-pane="board" aria-pressed="true">Homes</button>
+    <button type="button" data-pane="market" aria-pressed="false">Market</button>
+  </nav>
+
+  <div class="floor">
+    <section class="board" id="board" aria-label="Homes">
+      <div class="views" id="views" role="toolbar" aria-label="View"></div>
+      <div class="controls">
+        <input class="search" id="search" type="search" placeholder="Search street or area" aria-label="Search street or area" autocomplete="off">
+        <label class="sortpick"><span class="vh">Sort</span>
+          <select id="sortSel" aria-label="Sort">
+            <option value="added:desc">Newest first</option>
+            <option value="rent:asc">Cheapest first</option>
+            <option value="rent:desc">Dearest first</option>
+            <option value="walk:asc">Shortest walk</option>
+            <option value="baths:desc">Most bathrooms</option>
+            <option value="beds:desc">Most bedrooms</option>
+            <option value="title:asc">Street A–Z</option>
+          </select>
+        </label>
+      </div>
+      <div class="chips" id="chips" aria-label="Filters"></div>
+      <p class="tally" id="tally" aria-live="polite"></p>
+      <div class="tablewrap">
+        <table class="grid" id="grid">
+          <thead>
+            <tr>
+              <th class="c-pic" scope="col"><span class="vh">Photo</span></th>
+              <th class="c-addr" scope="col"><button type="button" data-sort="title">Address</button></th>
+              <th class="c-area" scope="col"><button type="button" data-sort="area">Area</button></th>
+              <th class="c-rent n" scope="col"><button type="button" data-sort="rent">Rent</button></th>
+              <th class="c-each n" scope="col"><button type="button" data-sort="rent">Each</button></th>
+              <th class="c-beds n" scope="col"><button type="button" data-sort="beds">Bd</button></th>
+              <th class="c-baths n" scope="col"><button type="button" data-sort="baths">Ba</button></th>
+              <th class="c-stn" scope="col"><button type="button" data-sort="walk">Station</button></th>
+              <th class="c-added" scope="col"><button type="button" data-sort="added">Added</button></th>
+              <th class="c-status" scope="col"><button type="button" data-sort="status">Status</button></th>
+              <th class="c-star" scope="col"><span class="vh">Star</span></th>
+            </tr>
+          </thead>
+          <tbody id="rows"><tr><td colspan="11" class="empty">Loading listings…</td></tr></tbody>
+        </table>
+      </div>
+      <div class="more-wrap" id="moreWrap"></div>
+    </section>
+
+    <aside class="market" id="market" aria-label="Market">
+      <section class="panel">
+        <h2>Median rent each, by area</h2>
+        <p class="cap">Live homes. Dot is the median, line runs cheapest to dearest. Dashed lines: £1,000 target, £1,200 ceiling. Tap an area to filter.</p>
+        <div id="chArea" class="chart"></div>
+      </section>
+      <section class="panel">
+        <h2>New homes per day</h2>
+        <p class="cap" id="capDaily">Last 28 days, every home found.</p>
+        <div id="chDaily" class="chart"></div>
+      </section>
+      <section class="panel">
+        <h2>How long homes last</h2>
+        <p class="cap" id="capLast">Days from when we found a home to when its advert was let or taken down.</p>
+        <div id="chLast" class="chart"></div>
+      </section>
+      <section class="panel">
+        <h2>Price cuts</h2>
+        <p class="cap">Same site, lower asking rent. Newest first.</p>
+        <ol class="cuts" id="cuts"></ol>
+      </section>
+    </aside>
+  </div>
+</main>
+
+<footer class="foot"><p id="foot"></p></footer>
+<div class="tip" id="tip" role="status" hidden></div>
+<script src="desk.js"></script>
+</body>
+</html>

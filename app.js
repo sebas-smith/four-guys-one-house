@@ -73,7 +73,7 @@ function previous(r) {
 // Sites the live check found let or taken down: "Let agreed on Foxtons, still live on OnTheMarket" -> Foxtons.
 function deadSites(r) {
   const m = r.off_market && /on (.+?)(,|$)/.exec(r.off_market.why || "");
-  return m ? [m[1]] : [];
+  return m ? [m[1].toLowerCase()] : [];  // a shown name ("Foxtons") or a raw site key ("marshandparsons")
 }
 function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
 
@@ -154,7 +154,7 @@ function card(r) {
   // Open a live advert at the current price: Rightmove or OnTheMarket first (they say when a home is let).
   const links = (r.links || []).map(safe).filter(Boolean);
   const dead = deadSites(r), rank = ["rightmove", "onthemarket"];
-  const ok = links.filter((u) => !dead.includes(site(u)));
+  const ok = links.filter((u) => !dead.includes(site(u).toLowerCase()) && !dead.includes(siteKey(u)));
   const cur = atRent(r);
   const main = [...ok].sort((a, b) => (cur.includes(siteKey(b)) - cur.includes(siteKey(a))) ||
     ((rank.indexOf(siteKey(a)) + 1 || 9) - (rank.indexOf(siteKey(b)) + 1 || 9)))[0] || safe(r.url) || links[0];

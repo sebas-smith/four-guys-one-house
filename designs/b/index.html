@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Four Guys One House</title>
+<meta name="color-scheme" content="light dark">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,600;0,800;1,400&family=Crimson+Pro:ital,wght@1,500;1,600&display=swap">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" crossorigin="">
+<link rel="stylesheet" href="map.css">
+</head>
+<body>
+<div class="app" id="app" data-sheet="half">
+
+  <aside class="side" id="side" aria-label="Homes">
+    <div class="handle" id="handle" role="button" tabindex="0" aria-label="Resize the list"><span></span></div>
+
+    <header class="cartouche">
+      <div class="sheetno">Sheet 1 &nbsp;South-west &amp; west London</div>
+      <h1>Four Guys One House</h1>
+      <p class="brief">Whole 4-bed homes from January 2027. Target <b>£1,000 each</b> (£4,000), max <b>£1,200 each</b> (£4,800), before bills.</p>
+      <button class="keybtn" id="keybtn" type="button" aria-haspopup="dialog">Map key and how we search</button>
+    </header>
+
+    <div class="controls">
+      <div class="views" id="views" role="group" aria-label="Which homes"></div>
+      <div class="searchrow">
+        <input class="search" id="search" type="search" placeholder="Search street or area" aria-label="Search street or area" autocomplete="off">
+        <select class="sort" id="sort" aria-label="Sort"></select>
+      </div>
+      <details class="refine" id="refine">
+        <summary><span>Refine</span><span class="refine-n" id="refine-n"></span></summary>
+        <div class="refine-body">
+          <label class="field">
+            <span>Walk to the station</span>
+            <select id="walk">
+              <option value="">Any walk</option>
+              <option value="5">5 min or less</option>
+              <option value="8">8 min or less</option>
+              <option value="10">10 min or less</option>
+              <option value="15">15 min or less</option>
+            </select>
+          </label>
+          <div class="field">
+            <span id="kinds-l">Station type</span>
+            <div class="chips" id="kinds" role="group" aria-labelledby="kinds-l"></div>
+          </div>
+          <div class="field">
+            <span>Grid squares</span>
+            <div class="chips" id="squares">
+              <button type="button" class="chip pick" id="pick" aria-pressed="false">Pick squares on the map</button>
+            </div>
+          </div>
+          <label class="check"><input type="checkbox" id="inview"> Only homes in the map view</label>
+          <div class="field">
+            <span>Just for you, saved in this browser</span>
+            <label class="check"><input type="checkbox" id="staronly"> Only my starred homes</label>
+            <label class="check"><input type="checkbox" id="showhidden"> Show homes I've hidden</label>
+          </div>
+          <button type="button" class="linkbtn" id="clear">Clear these filters</button>
+        </div>
+      </details>
+      <details class="refine" id="commute">
+        <summary><span>Workplaces</span><span class="refine-n" id="work-n"></span></summary>
+        <div class="refine-body">
+          <p class="hint">Pick up to four. Each home then shows the distance as the crow flies and a rough journey time. Saved in this browser.</p>
+          <div class="chips" id="work"></div>
+        </div>
+      </details>
+      <p class="status" id="status" aria-live="polite"></p>
+    </div>
+
+    <div class="list" id="list"><p class="empty"><b>Loading the homes</b></p></div>
+    <p class="foot" id="foot"></p>
+  </aside>
+
+  <main class="mapwrap">
+    <div id="map" class="map" aria-label="Map of the homes"></div>
+    <div class="legend" aria-hidden="true">
+      <span><i class="sw good"></i>£1,000 each or less</span>
+      <span><i class="sw warn"></i>up to £1,200</span>
+      <span><i class="sw bad"></i>over £1,200</span>
+      <span><i class="sw star"></i>Standout</span>
+    </div>
+    <div class="pickbar" id="pickbar" hidden>Tap squares to pick them, then <button type="button" id="pickdone">Done</button></div>
+  </main>
+</div>
+
+<dialog class="key" id="key" aria-labelledby="key-h">
+  <form method="dialog"><button class="close" aria-label="Close">Close</button></form>
+  <h2 id="key-h">Map key</h2>
+  <ul class="keylist">
+    <li><span class="pin fit-good">£975</span> Rent each, split four ways. Blue is on target, amber is up to the £1,200 max, red is over.</li>
+    <li><span class="pin fit-good standout">£1,000</span> Standout: worth a look today.</li>
+    <li><span class="pin fit-warn approx">£1,050</span> Dashed: we only know the nearest station, so the pin is placed roughly.</li>
+    <li><span class="pin gone">£1,100</span> Let or gone (shown in Gone and Everything).</li>
+    <li><span class="kstn tube"></span> Tube <span class="kstn rail"></span> Rail <span class="kstn over"></span> Overground station.</li>
+    <li><span class="karea"></span> Inside the line is where we search. The letters and numbers are the grid squares used in the list.</li>
+  </ul>
+  <h2>How we search</h2>
+  <dl>
+    <dt>Areas</dt>
+    <dd>Putney, Southfields, Earlsfield, Wandsworth, Roehampton, Tooting, Balham, Wimbledon, Raynes Park, Clapham, Battersea (to the river), Fulham, Hammersmith, Shepherd's Bush and East Acton (W12), Chiswick (W4).</dd>
+    <dt>Left out</dt>
+    <dd>Brixton, Streatham, New Malden, Twickenham, Hounslow, Isleworth, Acton (W3), Notting Hill (W10/W11).</dd>
+    <dt>Homes</dt>
+    <dd>Whole houses or flats, 4+ beds, £3,000–£5,000 a month. Rooms and homes that won't take sharers are left out.</dd>
+    <dt>Standouts</dt>
+    <dd>Up to £4,100, 2+ bathrooms, 8 minutes or less to a station, checked live in the last 3 days.</dd>
+    <dt>Sources</dt>
+    <dd>Instant alerts from Rightmove, Zoopla, OnTheMarket and OpenRent, Marsh &amp; Parsons' website and a daily search of agents' sites. Every advert is rechecked each morning; let or withdrawn homes move to Gone.</dd>
+  </dl>
+</dialog>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" crossorigin=""></script>
+<script src="geo.js"></script>
+<script src="map.js"></script>
+</body>
+</html>
