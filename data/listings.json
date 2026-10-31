@@ -15158,7 +15158,8 @@
   "links": [
    "https://www.onthemarket.com/details/20344440/",
    "https://www.rightmove.co.uk/properties/93185952",
-   "https://www.zoopla.co.uk/to-rent/details/74249254/"
+   "https://www.zoopla.co.uk/to-rent/details/74249254/",
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/BAT170146/harbut-road/"
   ],
   "source": "sweep",
   "added": "2026-10-18",
@@ -15176,6 +15177,11 @@
     "2026-10-18",
     5000,
     "onthemarket"
+   ],
+   [
+    "2026-10-31",
+    5000,
+    "marshandparsons"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -23172,7 +23178,8 @@
   "status": "new",
   "url": "https://www.rightmove.co.uk/properties/94212078",
   "links": [
-   "https://www.rightmove.co.uk/properties/94212078"
+   "https://www.rightmove.co.uk/properties/94212078",
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2482905/abdale-road/"
   ],
   "source": "backfill",
   "added": "2026-10-31",
@@ -23185,6 +23192,11 @@
     "2026-10-31",
     5000,
     "rightmove"
+   ],
+   [
+    "2026-10-31",
+    5000,
+    "marshandparsons"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/c14d748ee/94212078/c14d748ee9a4f1bfc26f91d1f36be95d_max_476x317.jpeg",
@@ -23644,5 +23656,72 @@
    "kind": "Rail",
    "walk": 13
   }
+ },
+ {
+  "id": "zoopla-74650057",
+  "title": "Ivy Crescent, Chiswick W4",
+  "area": "Chiswick",
+  "rent": 4147,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.zoopla.co.uk/to-rent/details/74650057/",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74650057/",
+   "https://www.onthemarket.com/details/20664597/"
+  ],
+  "source": "alert",
+  "added": "2026-10-31",
+  "added_at": "2026-10-31T12:53Z",
+  "notes": [
+   "From an email on 2026-10-31: New listings: 26 new properties to rent in Putney"
+  ],
+  "prices": [
+   [
+    "2026-10-31",
+    4147,
+    "zoopla"
+   ],
+   [
+    "2026-10-31",
+    4147,
+    "onthemarket"
+   ]
+  ],
+  "station": {
+   "name": "Chiswick Park",
+   "kind": "Tube",
+   "walk": 5
+  }
+ },
+ {
+  "id": "marshandparsons-BSL170002",
+  "title": "Old Chesterton Building, SW11",
+  "area": "SW11",
+  "rent": 4900,
+  "beds": 4,
+  "baths": 3,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.marshandparsons.co.uk/properties-to-rent/london/property/BSL170002/old-chesterton-building/",
+  "links": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/BSL170002/old-chesterton-building/"
+  ],
+  "source": "agent",
+  "added": "2026-10-31",
+  "added_at": "2026-10-31T13:15Z",
+  "notes": [
+   "From the Marsh & Parsons website on 2026-10-31."
+  ],
+  "prices": [
+   [
+    "2026-10-31",
+    4900,
+    "marshandparsons"
+   ]
+  ]
  }
 ]
