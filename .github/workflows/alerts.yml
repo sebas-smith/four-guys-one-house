@@ -39,6 +39,10 @@ jobs:
       - name: Nearest stations for new homes
         continue-on-error: true
         run: python scripts/stations.py
+      - name: Commute times for new homes
+        continue-on-error: true
+        timeout-minutes: 20
+        run: python scripts/commutes.py
       - name: Check homes a caught-up sweep added or flagged
         continue-on-error: true
         run: python scripts/check_live.py --ids "$(paste -sd, "$RUNNER_TEMP/added.txt" 2>/dev/null)"

@@ -1,0 +1,6 @@
+[
+ {"id": "lcp", "name": "LCP", "full": "Lane Clark & Peacock (LCP Delta), 95 Wigmore Street, W1U 1DQ", "lat": 51.51570, "lon": -0.15156, "mode": "transit"},
+ {"id": "tritax", "name": "Tritax", "full": "Tritax Management LLP, 72 Broadwick Street, Soho, W1F 9QZ", "lat": 51.51302, "lon": -0.13831, "mode": "transit"},
+ {"id": "q5", "name": "Q5", "full": "Q5, Thorney House, 34 Smith Square, Westminster, SW1P 3HL", "lat": 51.49600, "lon": -0.12705, "mode": "transit"},
+ {"id": "wentworth", "name": "Wentworth", "full": "Wentworth Club, Virginia Water, GU25 4LS (by car)", "lat": 51.39450, "lon": -0.59731, "mode": "drive"}
+]

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Homes Map</title>
+<meta name="color-scheme" content="light dark">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" crossorigin="">
+<link rel="stylesheet" href="map-view.css">
+<style>
+  :root { --bg: #f3f5f7; --ink: #1d2733; --ink-2: #56606c; --rule: #d3d9e0; color-scheme: light; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #111820; --ink: #e6ebf1; --ink-2: #a5b0bd; --rule: #33404f; color-scheme: dark; } }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; }
+  body { background: var(--bg); color: var(--ink); font: 14px/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; display: flex; flex-direction: column; }
+  header { display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: center; padding: 10px 16px; border-bottom: 1px solid var(--rule); }
+  h1 { margin: 0; font-size: 17px; }
+  header p { margin: 0; color: var(--ink-2); flex: 1 1 260px; }
+  label { display: flex; gap: 6px; align-items: center; }
+  select { font: inherit; color: inherit; background: var(--bg); border: 1px solid var(--rule); border-radius: 4px; padding: 5px 8px; }
+  a { color: inherit; }
+  #map { flex: 1; min-height: 0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Four Guys One House: map</h1>
+  <p>Whole 4-bed homes in south-west and west London. Target £1,000 each, max £1,200. <a href="../../">Back to the list</a></p>
+  <label>Homes
+    <select id="which">
+      <option value="all">Every home</option>
+      <option value="budget">Up to £1,200 each</option>
+      <option value="sharers">Sharers OK only</option>
+    </select>
+  </label>
+</header>
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" crossorigin=""></script>
+<script src="map-view.js"></script>
+<script>
+  // The standalone page loads every listing itself, then hands the module a filtered list with setHomes().
+  const view = FGOHMap.mount(document.getElementById("map"), { homes: [] });
+  let all = [];
+  const pick = () => {
+    const v = document.getElementById("which").value;
+    view.setHomes(all.filter((r) => v === "all" || (v === "budget" ? r.rent && r.rent <= 4800 : r.sharers === "ok")));
+  };
+  fetch("../../data/listings.json", { cache: "no-cache" }).then((r) => r.json()).then((d) => { all = d; return view.ready; }).then(pick);
+  document.getElementById("which").addEventListener("change", pick);
+</script>
+</body>
+</html>

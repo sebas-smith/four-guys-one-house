@@ -35,7 +35,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-26"
-  }
+  },
+  "loc": [
+   51.4588809,
+   -0.1894727
+  ]
  },
  {
   "id": "dexters-227104",
@@ -68,6 +72,10 @@
     4000,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.4275896,
+   -0.1618579
   ]
  },
  {
@@ -101,6 +109,10 @@
     4500,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.4576304,
+   -0.1935138
   ]
  },
  {
@@ -134,6 +146,10 @@
     4000,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.4235375,
+   -0.1576898
   ]
  },
  {
@@ -167,6 +183,10 @@
     4250,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.4544089,
+   -0.3143384
   ]
  },
  {
@@ -200,6 +220,10 @@
     3150,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.3838836,
+   -0.1596496
   ]
  },
  {
@@ -233,6 +257,10 @@
     3995,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.4239334,
+   -0.1756051
   ]
  },
  {
@@ -266,6 +294,10 @@
     4750,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.464822,
+   -0.2157731
   ]
  },
  {
@@ -299,6 +331,10 @@
     3800,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.4257722,
+   -0.1584489
   ]
  },
  {
@@ -332,6 +368,10 @@
     3500,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.4336368,
+   -0.1662125
   ]
  },
  {
@@ -365,6 +405,10 @@
     4000,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.4284161,
+   -0.1524351
   ]
  },
  {
@@ -398,6 +442,10 @@
     3200,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.4980388,
+   -0.20765
   ]
  },
  {
@@ -431,6 +479,10 @@
     4000,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.4224166,
+   -0.2028325
   ]
  },
  {
@@ -463,6 +515,10 @@
     3000,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.4140249,
+   -0.2120754
   ]
  },
  {
@@ -496,6 +552,10 @@
     3800,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.4212825,
+   -0.1570466
   ]
  },
  {
@@ -529,6 +589,10 @@
     4000,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.4033267,
+   -0.1960707
   ]
  },
  {
@@ -562,6 +626,10 @@
     4500,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.4059805,
+   -0.2083346
   ]
  },
  {
@@ -595,6 +663,10 @@
     4250,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.4086405,
+   -0.1996437
   ]
  },
  {
@@ -628,6 +700,10 @@
     3700,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.4304658,
+   -0.1640623
   ]
  },
  {
@@ -689,6 +765,10 @@
     4150,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.4300694,
+   -0.1691969
   ]
  },
  {
@@ -722,6 +802,10 @@
     4500,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.4267012,
+   -0.194313
   ]
  },
  {
@@ -755,6 +839,10 @@
     3250,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.4086405,
+   -0.1996437
   ]
  },
  {
@@ -788,6 +876,10 @@
     4750,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.4077065,
+   -0.2013876
   ]
  },
  {
@@ -821,6 +913,10 @@
     4200,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.4238928,
+   -0.2105633
   ]
  },
  {
@@ -854,6 +950,10 @@
     3600,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.4267012,
+   -0.194313
   ]
  },
  {
@@ -888,6 +988,10 @@
     3995,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.398295,
+   -0.25565
   ]
  },
  {
@@ -949,6 +1053,10 @@
     4200,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.4313412,
+   -0.1535944
   ]
  },
  {
@@ -982,6 +1090,10 @@
     4000,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.4271576,
+   -0.1646761
   ]
  },
  {
@@ -1015,6 +1127,10 @@
     4200,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.4240455,
+   -0.1740095
   ]
  },
  {
@@ -1048,6 +1164,10 @@
     4400,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.432369,
+   -0.1593596
   ]
  },
  {
@@ -1124,6 +1244,10 @@
     4000,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.4902614,
+   -0.3047749
   ]
  },
  {
@@ -1157,6 +1281,10 @@
     4500,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.4304951,
+   -0.1695923
   ]
  },
  {
@@ -1190,6 +1318,10 @@
     4100,
     "dexters"
    ]
+  ],
+  "loc": [
+   51.4313412,
+   -0.1535944
   ]
  },
  {
@@ -1226,7 +1358,11 @@
     "foxtons"
    ]
   ],
-  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1787935287/89/60/600/batt0060698/edited_batt0060698-20.jpg"
+  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1787935287/89/60/600/batt0060698/edited_batt0060698-20.jpg",
+  "loc": [
+   51.4643058,
+   -0.1667733
+  ]
  },
  {
   "id": "foxtons-chpk0257377",
@@ -1266,7 +1402,11 @@
   "off_market": {
    "why": "Let agreed on Foxtons",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4275949,
+   -0.1664831
+  ]
  },
  {
   "id": "foxtons-chpk0331619",
@@ -1315,7 +1455,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1791443750/91/61/330/chpk0331619/edited_chpk0331619-15.jpg"
+  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1791443750/91/61/330/chpk0331619/edited_chpk0331619-15.jpg",
+  "loc": [
+   51.4096573,
+   -0.2267923
+  ],
+  "commute": {
+   "lcp": 55,
+   "tritax": 54,
+   "q5": 44,
+   "wentworth": 36
+  }
  },
  {
   "id": "foxtons-chpk0396854",
@@ -1347,6 +1497,10 @@
     3600,
     "foxtons"
    ]
+  ],
+  "loc": [
+   51.4287622,
+   -0.1622741
   ]
  },
  {
@@ -1379,6 +1533,10 @@
     3600,
     "foxtons"
    ]
+  ],
+  "loc": [
+   51.4304951,
+   -0.1695923
   ]
  },
  {
@@ -1416,7 +1574,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1792773545/12/33/040/chpk0403321/edited_chpk0403321-25.jpg"
+  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1792773545/12/33/040/chpk0403321/edited_chpk0403321-25.jpg",
+  "loc": [
+   51.4545325,
+   -0.2277161
+  ],
+  "commute": {
+   "lcp": 61,
+   "tritax": 58,
+   "q5": 49,
+   "wentworth": 43
+  }
  },
  {
   "id": "foxtons-chpk0413730",
@@ -1458,7 +1626,11 @@
   "off_market": {
    "why": "Let agreed on Foxtons",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4619262,
+   -0.2388224
+  ]
  },
  {
   "id": "foxtons-chpk0432104",
@@ -1502,7 +1674,11 @@
   "off_market": {
    "why": "Let agreed on Foxtons",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4505216,
+   -0.239887
+  ]
  },
  {
   "id": "foxtons-chpk0447377",
@@ -1540,7 +1716,11 @@
   "off_market": {
    "why": "Advert taken down on Foxtons",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4446855,
+   -0.1516493
+  ]
  },
  {
   "id": "foxtons-chpk2410850",
@@ -1573,6 +1753,10 @@
     3000,
     "foxtons"
    ]
+  ],
+  "loc": [
+   51.4767537,
+   -0.3155649
   ]
  },
  {
@@ -1640,7 +1824,11 @@
   "off_market": {
    "why": "Advert taken down on Foxtons",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4079236,
+   -0.2309844
+  ]
  },
  {
   "id": "foxtons-chpk2593702",
@@ -1672,6 +1860,10 @@
     3600,
     "foxtons"
    ]
+  ],
+  "loc": [
+   51.4222881,
+   -0.1865621
   ]
  },
  {
@@ -1712,7 +1904,11 @@
   "off_market": {
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4231965,
+   -0.1955025
+  ]
  },
  {
   "id": "foxtons-chpk2610332",
@@ -1755,7 +1951,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1790672117/23/30/162/chpk2610332/edited_chpk2610332-1.jpg"
+  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1790672117/23/30/162/chpk2610332/edited_chpk2610332-1.jpg",
+  "loc": [
+   51.440321,
+   -0.2223424
+  ],
+  "commute": {
+   "lcp": 61,
+   "tritax": 60,
+   "q5": 52,
+   "wentworth": 43
+  }
  },
  {
   "id": "foxtons-chpk2611532",
@@ -1799,7 +2005,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1787939716/47/41/162/chpk2611474/edited_chpk2611474-1.jpg"
+  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1787939716/47/41/162/chpk2611474/edited_chpk2611474-1.jpg",
+  "loc": [
+   51.4427987,
+   -0.1992943
+  ],
+  "commute": {
+   "lcp": 59,
+   "tritax": 57,
+   "q5": 49,
+   "wentworth": 46
+  }
  },
  {
   "id": "foxtons-chpk2823508",
@@ -1832,6 +2048,10 @@
     4250,
     "foxtons"
    ]
+  ],
+  "loc": [
+   51.3907586,
+   -0.2901691
   ]
  },
  {
@@ -1878,7 +2098,11 @@
   "off_market": {
    "why": "Let agreed on Foxtons",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.3945498,
+   -0.2578973
+  ]
  },
  {
   "id": "foxtons-chpk2840342",
@@ -1920,7 +2144,11 @@
     "rightmove"
    ]
   ],
-  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1790086055/24/30/482/chpk2840342/edited_chpk2840342-12.jpg"
+  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1790086055/24/30/482/chpk2840342/edited_chpk2840342-12.jpg",
+  "loc": [
+   51.399896,
+   -0.2471866
+  ]
  },
  {
   "id": "foxtons-chpk2846066",
@@ -1953,6 +2181,10 @@
     4750,
     "foxtons"
    ]
+  ],
+  "loc": [
+   51.3907218,
+   -0.2586414
   ]
  },
  {
@@ -1992,7 +2224,11 @@
   "off_market": {
    "why": "Advert taken down on Foxtons",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4010582,
+   -0.2627122
+  ]
  },
  {
   "id": "foxtons-chpk2864956",
@@ -2034,7 +2270,11 @@
   "off_market": {
    "why": "Advert taken down on Foxtons",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4071288,
+   -0.2653546
+  ]
  },
  {
   "id": "foxtons-chpk3403623",
@@ -2078,7 +2318,11 @@
    "name": "Streatham Hill",
    "kind": "Rail",
    "walk": 15
-  }
+  },
+  "loc": [
+   51.446061,
+   -0.1326497
+  ]
  },
  {
   "id": "foxtons-chpk3586116",
@@ -2110,6 +2354,10 @@
     3995,
     "foxtons"
    ]
+  ],
+  "loc": [
+   51.4021198,
+   -0.2126078
   ]
  },
  {
@@ -2160,7 +2408,11 @@
   "off_market": {
    "why": "Let agreed on Foxtons",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4020218,
+   -0.2028354
+  ]
  },
  {
   "id": "foxtons-chpk4664083",
@@ -2202,7 +2454,11 @@
   "off_market": {
    "why": "Let agreed on Foxtons",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4612352,
+   -0.1767353
+  ]
  },
  {
   "id": "foxtons-chpk5218905",
@@ -2241,7 +2497,11 @@
   "off_market": {
    "why": "Let agreed on Foxtons",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4183874,
+   -0.1553962
+  ]
  },
  {
   "id": "foxtons-ptny0057089",
@@ -2283,7 +2543,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1791910266/98/07/500/ptny0057089/edited_ptny0057089-20.jpg"
+  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1791910266/98/07/500/ptny0057089/edited_ptny0057089-20.jpg",
+  "loc": [
+   51.4588519,
+   -0.2085097
+  ],
+  "commute": {
+   "lcp": 49,
+   "tritax": 47,
+   "q5": 45,
+   "wentworth": 44
+  }
  },
  {
   "id": "groves-2544",
@@ -2321,7 +2591,11 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/0d43b5e11/92763990/0d43b5e1162c2df446bb26f86aaa12c2_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/0d43b5e11/92763990/0d43b5e1162c2df446bb26f86aaa12c2_max_476x317.jpeg",
+  "loc": [
+   51.4083716,
+   -0.2690576
+  ]
  },
  {
   "id": "groves-3219",
@@ -2362,7 +2636,11 @@
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.3874345,
+   -0.2629496
+  ]
  },
  {
   "id": "groves-grov761",
@@ -2396,6 +2674,10 @@
     3600,
     "grovesresidential"
    ]
+  ],
+  "loc": [
+   51.4057599,
+   -0.2641121
   ]
  },
  {
@@ -2440,7 +2722,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4526717,
+   -0.1843814
+  ]
  },
  {
   "id": "jacksons-13159180",
@@ -2478,7 +2764,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4576024,
+   -0.1899836
+  ]
  },
  {
   "id": "jacksons-15705926",
@@ -2516,7 +2806,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4226975,
+   -0.1680895
+  ]
  },
  {
   "id": "jacksons-15981935",
@@ -2554,7 +2848,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4329091,
+   -0.1564302
+  ]
  },
  {
   "id": "jacksons-18298381",
@@ -2592,7 +2890,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4297657,
+   -0.1502503
+  ]
  },
  {
   "id": "jacksons-18401236",
@@ -2630,7 +2932,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4344038,
+   -0.1580393
+  ]
  },
  {
   "id": "jacksons-18963461",
@@ -2668,7 +2974,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4377855,
+   -0.1995
+  ]
  },
  {
   "id": "jacksons-19102996",
@@ -2706,7 +3016,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4265895,
+   -0.1705925
+  ]
  },
  {
   "id": "jacksons-19642373",
@@ -2744,7 +3058,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4423941,
+   -0.1910826
+  ]
  },
  {
   "id": "jacksons-19677935",
@@ -2782,7 +3100,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.457138,
+   -0.1853183
+  ]
  },
  {
   "id": "jacksons-20120146",
@@ -2820,7 +3142,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4287329,
+   -0.1550169
+  ]
  },
  {
   "id": "jacksons-20199446",
@@ -2858,7 +3184,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4228219,
+   -0.1594553
+  ]
  },
  {
   "id": "jacksons-20204487",
@@ -2896,7 +3226,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4388797,
+   -0.185047
+  ]
  },
  {
   "id": "jacksons-20283129",
@@ -2934,7 +3268,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4228219,
+   -0.1594553
+  ]
  },
  {
   "id": "jacksons-20294896",
@@ -2977,7 +3315,11 @@
   "off_market": {
    "why": "Let agreed on Jacksons",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4339487,
+   -0.181575
+  ]
  },
  {
   "id": "jacksons-20325264",
@@ -3015,7 +3357,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.434272,
+   -0.1834475
+  ]
  },
  {
   "id": "jacksons-20541304",
@@ -3053,7 +3399,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4295273,
+   -0.165851
+  ]
  },
  {
   "id": "jacksons-20627612",
@@ -3096,7 +3446,11 @@
   "off_market": {
    "why": "Let agreed on Jacksons",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4329936,
+   -0.1832505
+  ]
  },
  {
   "id": "jacksons-20715386",
@@ -3134,7 +3488,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4401867,
+   -0.1878938
+  ]
  },
  {
   "id": "jacksons-20727331",
@@ -3172,7 +3530,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4339868,
+   -0.1594715
+  ]
  },
  {
   "id": "jacksons-20817008",
@@ -3210,7 +3572,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4235375,
+   -0.1576898
+  ]
  },
  {
   "id": "jacksons-20835828",
@@ -3248,7 +3614,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4412617,
+   -0.1926136
+  ]
  },
  {
   "id": "jacksons-20849402",
@@ -3286,7 +3656,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4355005,
+   -0.1836765
+  ]
  },
  {
   "id": "jacksons-20972004",
@@ -3324,7 +3698,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4438303,
+   -0.1445164
+  ]
  },
  {
   "id": "jacksons-20994488",
@@ -3383,7 +3761,11 @@
   "off_market": {
    "why": "Let agreed on marshandparsons",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4263271,
+   -0.1636451
+  ]
  },
  {
   "id": "jacksons-21101272",
@@ -3421,7 +3803,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4360128,
+   -0.1615863
+  ]
  },
  {
   "id": "jacksons-21144847",
@@ -3459,7 +3845,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4287329,
+   -0.1550169
+  ]
  },
  {
   "id": "jacksons-21219726",
@@ -3497,7 +3887,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.427686,
+   -0.1683412
+  ]
  },
  {
   "id": "jacksons-21342545",
@@ -3535,7 +3929,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4211535,
+   -0.1479043
+  ]
  },
  {
   "id": "jacksons-21361194",
@@ -3573,7 +3971,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4418526,
+   -0.152619
+  ]
  },
  {
   "id": "jacksons-21373373",
@@ -3611,7 +4013,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4286242,
+   -0.1513967
+  ]
  },
  {
   "id": "jacksons-21403304",
@@ -3649,7 +4055,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4339936,
+   -0.180841
+  ]
  },
  {
   "id": "jacksons-21463969",
@@ -3696,7 +4106,11 @@
   "off_market": {
    "why": "Let agreed on marshandparsons",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4274087,
+   -0.1667722
+  ]
  },
  {
   "id": "jacksons-21552573",
@@ -3740,7 +4154,11 @@
    ]
   ],
   "photo": "https://lid.zoocdn.com/u/480/360/e6012784bc1e602385f3271923afc09a17398ae7.jpg",
-  "ruled_out": "no sharers"
+  "ruled_out": "no sharers",
+  "loc": [
+   51.4284161,
+   -0.1524351
+  ]
  },
  {
   "id": "jacksons-21642614",
@@ -3778,7 +4196,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4484054,
+   -0.1797565
+  ]
  },
  {
   "id": "jacksons-21651033",
@@ -3816,7 +4238,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4457056,
+   -0.1421782
+  ]
  },
  {
   "id": "jacksons-21676569",
@@ -3848,6 +4274,10 @@
     4200,
     "jacksonsestateagents"
    ]
+  ],
+  "loc": [
+   51.4463492,
+   -0.14954
   ]
  },
  {
@@ -3887,7 +4317,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4438303,
+   -0.1445164
+  ]
  },
  {
   "id": "jacksons-21888244",
@@ -3925,7 +4359,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/7eef86020/90845700/7eef86020aa9aa2cb5311a213989c5bc_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/7eef86020/90845700/7eef86020aa9aa2cb5311a213989c5bc_max_476x317.jpeg",
+  "loc": [
+   51.436526,
+   -0.1853686
+  ],
+  "commute": {
+   "lcp": 55,
+   "tritax": 54,
+   "q5": 43,
+   "wentworth": 48
+  }
  },
  {
   "id": "jacksons-21923004",
@@ -3966,7 +4410,11 @@
   "off_market": {
    "why": "Advert taken down on Zoopla",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4487142,
+   -0.146339
+  ]
  },
  {
   "id": "jacksons-22054006",
@@ -4003,7 +4451,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/eb98f4065/92631645/eb98f406506f5117eb41873239e32206_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/eb98f4065/92631645/eb98f406506f5117eb41873239e32206_max_476x317.jpeg",
+  "loc": [
+   51.4360128,
+   -0.1615863
+  ],
+  "commute": {
+   "lcp": 43,
+   "tritax": 41,
+   "q5": 39,
+   "wentworth": 50
+  }
  },
  {
   "id": "jacksons-22055415",
@@ -4050,7 +4508,11 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4402238,
+   -0.1449959
+  ]
  },
  {
   "id": "jacksons-22114280",
@@ -4095,7 +4557,11 @@
   "off_market": {
    "why": "Advert taken down on OnTheMarket",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4477788,
+   -0.1782349
+  ]
  },
  {
   "id": "jacksons-22191308",
@@ -4132,7 +4598,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/a214a1116/93961422/a214a111602e5a877289433443455624_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/a214a1116/93961422/a214a111602e5a877289433443455624_max_476x317.jpeg",
+  "loc": [
+   51.441582,
+   -0.185317
+  ],
+  "commute": {
+   "lcp": 52,
+   "tritax": 51,
+   "q5": 40,
+   "wentworth": 50
+  }
  },
  {
   "id": "kfh-12270",
@@ -4173,7 +4649,11 @@
   "off_market": {
    "why": "Advert taken down on kfh",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4240455,
+   -0.1740095
+  ]
  },
  {
   "id": "kfh-13018",
@@ -4217,7 +4697,11 @@
   "off_market": {
    "why": "Advert taken down on kfh",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4063782,
+   -0.2385144
+  ]
  },
  {
   "id": "kfh-21821",
@@ -4256,7 +4740,11 @@
   "off_market": {
    "why": "Advert taken down on kfh",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4597694,
+   -0.197358
+  ]
  },
  {
   "id": "kfh-39527",
@@ -4288,6 +4776,10 @@
     5000,
     "kfh"
    ]
+  ],
+  "loc": [
+   51.4429882,
+   -0.143077
   ]
  },
  {
@@ -4322,7 +4814,11 @@
     "kfh"
    ]
   ],
-  "checked": "2026-10-30"
+  "checked": "2026-10-30",
+  "loc": [
+   51.4694729,
+   -0.2267181
+  ]
  },
  {
   "id": "openrent-1034965",
@@ -4355,7 +4851,17 @@
     3600,
     "openrent"
    ]
-  ]
+  ],
+  "loc": [
+   51.4210159,
+   -0.179737
+  ],
+  "commute": {
+   "lcp": 49,
+   "tritax": 47,
+   "q5": 45,
+   "wentworth": 46
+  }
  },
  {
   "id": "openrent-2626896",
@@ -4394,7 +4900,11 @@
   "off_market": {
    "why": "Let agreed on OpenRent",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4736441,
+   -0.1543991
+  ]
  },
  {
   "id": "openrent-2684218",
@@ -4427,6 +4937,10 @@
     4200,
     "openrent"
    ]
+  ],
+  "loc": [
+   51.4418046,
+   -0.1413699
   ]
  },
  {
@@ -4541,7 +5055,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/c1884ddc6/94093686/c1884ddc65530d8c9d8eb7ef7dcb0e44_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/c1884ddc6/94093686/c1884ddc65530d8c9d8eb7ef7dcb0e44_max_476x317.jpeg",
+  "loc": [
+   51.452107,
+   -0.1852229
+  ],
+  "commute": {
+   "lcp": 60,
+   "tritax": 58,
+   "q5": 48,
+   "wentworth": 47
+  }
  },
  {
   "id": "openrent-2924031",
@@ -4580,7 +5104,11 @@
   "off_market": {
    "why": "Let agreed on OpenRent",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4263312,
+   -0.2008793
+  ]
  },
  {
   "id": "openrent-2932231",
@@ -4612,6 +5140,10 @@
     4500,
     "openrent"
    ]
+  ],
+  "loc": [
+   51.4661943,
+   -0.2226633
   ]
  },
  {
@@ -4644,6 +5176,10 @@
     3000,
     "openrent"
    ]
+  ],
+  "loc": [
+   51.4073592,
+   -0.2189915
   ]
  },
  {
@@ -4702,7 +5238,11 @@
   "off_market": {
    "why": "Let agreed on OpenRent",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4079236,
+   -0.2309844
+  ]
  },
  {
   "id": "openrent-2968638",
@@ -4781,7 +5321,11 @@
   "off_market": {
    "why": "Let agreed on OpenRent",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4209682,
+   -0.211124
+  ]
  },
  {
   "id": "openrent-2995888",
@@ -4827,7 +5371,11 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/f03d3098a/91742172/f03d3098ac162c1dfcf5529c09c713cb_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/f03d3098a/91742172/f03d3098ac162c1dfcf5529c09c713cb_max_476x317.jpeg",
+  "loc": [
+   51.4170898,
+   -0.1557225
+  ]
  },
  {
   "id": "openrent-3003303",
@@ -4860,7 +5408,17 @@
     4200,
     "openrent"
    ]
-  ]
+  ],
+  "loc": [
+   51.4525729,
+   -0.2338174
+  ],
+  "commute": {
+   "lcp": 69,
+   "tritax": 66,
+   "q5": 57,
+   "wentworth": 42
+  }
  },
  {
   "id": "openrent-3006244",
@@ -4903,7 +5461,11 @@
   "off_market": {
    "why": "Let agreed on OpenRent",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.432369,
+   -0.1593596
+  ]
  },
  {
   "id": "openrent-3008276",
@@ -4940,7 +5502,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/1806cc6e1/93909945/1806cc6e1f8fdac188f743b393715543_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/1806cc6e1/93909945/1806cc6e1f8fdac188f743b393715543_max_476x317.jpeg",
+  "loc": [
+   51.470907,
+   -0.2268999
+  ],
+  "commute": {
+   "lcp": 62,
+   "tritax": 58,
+   "q5": 54,
+   "wentworth": 45
+  }
  },
  {
   "id": "openrent-3009117",
@@ -4983,7 +5555,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/07253bcfb/93449391/07253bcfb6a7c5540d282f752e35694f_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/07253bcfb/93449391/07253bcfb6a7c5540d282f752e35694f_max_476x317.jpeg",
+  "loc": [
+   51.4431318,
+   -0.1420517
+  ],
+  "commute": {
+   "lcp": 52,
+   "tritax": 50,
+   "q5": 49,
+   "wentworth": 53
+  }
  },
  {
   "id": "openrent-3012541",
@@ -5017,6 +5599,10 @@
     4100,
     "openrent"
    ]
+  ],
+  "loc": [
+   51.3917334,
+   -0.2661892
   ]
  },
  {
@@ -5050,6 +5636,10 @@
     4767,
     "openrent"
    ]
+  ],
+  "loc": [
+   51.4527444,
+   -0.1997585
   ]
  },
  {
@@ -5093,7 +5683,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/264d04c65/92658141/264d04c65a042667b6fb224fb249ad59_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/264d04c65/92658141/264d04c65a042667b6fb224fb249ad59_max_476x317.jpeg",
+  "loc": [
+   51.4212825,
+   -0.1570466
+  ],
+  "commute": {
+   "lcp": 53,
+   "tritax": 50,
+   "q5": 50,
+   "wentworth": 49
+  }
  },
  {
   "id": "openrent-3018466",
@@ -5128,7 +5728,11 @@
    "name": "Wandsworth Town",
    "kind": "Rail",
    "walk": 9
-  }
+  },
+  "loc": [
+   51.4572351,
+   -0.1827069
+  ]
  },
  {
   "id": "openrent-3018741",
@@ -5161,6 +5765,10 @@
     3450,
     "openrent"
    ]
+  ],
+  "loc": [
+   51.4665296,
+   -0.1687162
   ]
  },
  {
@@ -5251,6 +5859,10 @@
     4150,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4378442,
+   -0.1698248
   ]
  },
  {
@@ -5289,7 +5901,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://lid.zoocdn.com/u/480/360/28b2b64218db3f0b046f81b6444863271cdb283b.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/28b2b64218db3f0b046f81b6444863271cdb283b.jpg",
+  "loc": [
+   51.4617079,
+   -0.2097804
+  ],
+  "commute": {
+   "lcp": 52,
+   "tritax": 50,
+   "q5": 44,
+   "wentworth": 44
+  }
  },
  {
   "id": "openrent-3029005",
@@ -5321,6 +5943,10 @@
     4500,
     "openrent"
    ]
+  ],
+  "loc": [
+   51.4667473,
+   -0.1816563
   ]
  },
  {
@@ -5366,7 +5992,11 @@
     "zoopla"
    ]
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-10-27",
+  "loc": [
+   51.445986,
+   -0.1786313
+  ]
  },
  {
   "id": "openrent-3036762",
@@ -5405,7 +6035,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/ca6958207/94167849/ca6958207c60774f00418b5f92425bfc_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/ca6958207/94167849/ca6958207c60774f00418b5f92425bfc_max_476x317.jpeg",
+  "loc": [
+   51.4471855,
+   -0.1988674
+  ],
+  "commute": {
+   "lcp": 54,
+   "tritax": 52,
+   "q5": 47,
+   "wentworth": 45
+  }
  },
  {
   "id": "openrent-3037368",
@@ -5441,7 +6081,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/4d6b51e33/93055956/4d6b51e334e78e76f7a453d49b19811d_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/4d6b51e33/93055956/4d6b51e334e78e76f7a453d49b19811d_max_476x317.jpeg",
+  "loc": [
+   51.4232673,
+   -0.1427759
+  ],
+  "commute": {
+   "lcp": 59,
+   "tritax": 56,
+   "q5": 56,
+   "wentworth": 52
+  }
  },
  {
   "id": "openrent-3041983",
@@ -5478,7 +6128,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/ab2d900bd/93660735/ab2d900bdf8bcc49180eec2281f1a87a_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/ab2d900bd/93660735/ab2d900bdf8bcc49180eec2281f1a87a_max_476x317.jpeg",
+  "loc": [
+   51.4107311,
+   -0.2125685
+  ],
+  "commute": {
+   "lcp": 61,
+   "tritax": 59,
+   "q5": 49,
+   "wentworth": 38
+  }
  },
  {
   "id": "openrent-3043455",
@@ -5510,6 +6170,10 @@
     4500,
     "openrent"
    ]
+  ],
+  "loc": [
+   51.4401658,
+   -0.1482971
   ]
  },
  {
@@ -5544,6 +6208,10 @@
     3500,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4207135,
+   -0.1726528
   ]
  },
  {
@@ -5579,7 +6247,17 @@
     "zoopla"
    ]
   ],
-  "photo": "https://lid.zoocdn.com/u/480/360/1f8fafc46c6eab56043ef75748d12d812292374d.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/1f8fafc46c6eab56043ef75748d12d812292374d.jpg",
+  "loc": [
+   51.4568866,
+   -0.193275
+  ],
+  "commute": {
+   "lcp": 53,
+   "tritax": 50,
+   "q5": 40,
+   "wentworth": 45
+  }
  },
  {
   "id": "openrent-3054795",
@@ -5631,7 +6309,17 @@
     3800,
     "openrent"
    ]
-  ]
+  ],
+  "loc": [
+   51.4412617,
+   -0.1926136
+  ],
+  "commute": {
+   "lcp": 51,
+   "tritax": 50,
+   "q5": 39,
+   "wentworth": 48
+  }
  },
  {
   "id": "openrent-3054981",
@@ -5664,7 +6352,17 @@
     4000,
     "openrent"
    ]
-  ]
+  ],
+  "loc": [
+   51.4051122,
+   -0.2312726
+  ],
+  "commute": {
+   "lcp": 60,
+   "tritax": 59,
+   "q5": 49,
+   "wentworth": 36
+  }
  },
  {
   "id": "openrent-3055584",
@@ -5700,7 +6398,17 @@
     "zoopla"
    ]
   ],
-  "photo": "https://lid.zoocdn.com/u/480/360/a18d0754e9628c09c6f33ae22013e0d0d58ffedb.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/a18d0754e9628c09c6f33ae22013e0d0d58ffedb.jpg",
+  "loc": [
+   51.4280048,
+   -0.1707755
+  ],
+  "commute": {
+   "lcp": 46,
+   "tritax": 44,
+   "q5": 42,
+   "wentworth": 47
+  }
  },
  {
   "id": "openrent-3057444",
@@ -5739,7 +6447,11 @@
   "off_market": {
    "why": "Let agreed on OpenRent",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4184734,
+   -0.146801
+  ]
  },
  {
   "id": "openrent-3060362",
@@ -5781,7 +6493,11 @@
     "zoopla"
    ]
   ],
-  "photo": "https://lid.zoocdn.com/u/480/360/e6a6c3f8aff88f268a3cc9cee047872fec996e37.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/e6a6c3f8aff88f268a3cc9cee047872fec996e37.jpg",
+  "loc": [
+   51.4448065,
+   -0.2173524
+  ]
  },
  {
   "id": "openrent-3061796",
@@ -5868,7 +6584,17 @@
     "onthemarket"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/3dccf7747/93968652/3dccf7747d6435699fad05e97b86f128_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/3dccf7747/93968652/3dccf7747d6435699fad05e97b86f128_max_476x317.jpeg",
+  "loc": [
+   51.4691607,
+   -0.1386059
+  ],
+  "commute": {
+   "lcp": 43,
+   "tritax": 43,
+   "q5": 30,
+   "wentworth": 54
+  }
  },
  {
   "id": "openrent-3063443",
@@ -5907,7 +6633,11 @@
   "off_market": {
    "why": "Let agreed on OpenRent",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4537882,
+   -0.1355917
+  ]
  },
  {
   "id": "openrent-3066398",
@@ -5952,7 +6682,11 @@
   "off_market": {
    "why": "Let agreed on OpenRent",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4603703,
+   -0.1274688
+  ]
  },
  {
   "id": "openrent-3070568",
@@ -5988,7 +6722,17 @@
     "zoopla"
    ]
   ],
-  "photo": "https://lid.zoocdn.com/u/480/360/8bf136bb63bdd8e8f1d775035fb239c8652e4cc4.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/8bf136bb63bdd8e8f1d775035fb239c8652e4cc4.jpg",
+  "loc": [
+   51.4280048,
+   -0.1707755
+  ],
+  "commute": {
+   "lcp": 46,
+   "tritax": 44,
+   "q5": 42,
+   "wentworth": 47
+  }
  },
  {
   "id": "openrent-654973",
@@ -6023,6 +6767,10 @@
     4100,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4642245,
+   -0.2323674
   ]
  },
  {
@@ -6060,7 +6808,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/b025a63d7/150435635/b025a63d74b58e23403f1013dc0e4b32_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/b025a63d7/150435635/b025a63d74b58e23403f1013dc0e4b32_max_476x317.jpeg",
+  "loc": [
+   51.4345239,
+   -0.162473
+  ],
+  "commute": {
+   "lcp": 44,
+   "tritax": 42,
+   "q5": 40,
+   "wentworth": 48
+  }
  },
  {
   "id": "rightmove-162782246",
@@ -6094,6 +6852,10 @@
     3800,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4500719,
+   -0.1536346
   ]
  },
  {
@@ -6133,7 +6895,11 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4453532,
+   -0.2075734
+  ]
  },
  {
   "id": "rightmove-174780059",
@@ -6165,6 +6931,10 @@
     3900,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4139901,
+   -0.2036407
   ]
  },
  {
@@ -6197,6 +6967,10 @@
     3900,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4313323,
+   -0.1663216
   ]
  },
  {
@@ -6231,6 +7005,10 @@
     3750,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4616103,
+   -0.2164641
   ]
  },
  {
@@ -6263,6 +7041,10 @@
     2800,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.455114,
+   -0.2298128
   ]
  },
  {
@@ -6296,6 +7078,10 @@
     3300,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4155181,
+   -0.1924194
   ]
  },
  {
@@ -6335,7 +7121,11 @@
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.3991628,
+   -0.2248253
+  ]
  },
  {
   "id": "rightmove-90625782",
@@ -6374,7 +7164,11 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4538028,
+   -0.2000269
+  ]
  },
  {
   "id": "rightmove-90773613",
@@ -6407,6 +7201,10 @@
     3180,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.397259,
+   -0.2353257
   ]
  },
  {
@@ -6440,6 +7238,10 @@
     3200,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.3941368,
+   -0.2597735
   ]
  },
  {
@@ -6488,7 +7290,11 @@
   "off_market": {
    "why": "Let agreed on Zoopla",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4512436,
+   -0.1894094
+  ]
  },
  {
   "id": "rightmove-91653288",
@@ -6533,7 +7339,11 @@
    "why": "Let agreed on Zoopla",
    "checked": "2026-10-31"
   },
-  "checked": "2026-10-31"
+  "checked": "2026-10-31",
+  "loc": [
+   51.4767537,
+   -0.3155649
+  ]
  },
  {
   "id": "rightmove-91683924",
@@ -6565,6 +7375,10 @@
     4000,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4388939,
+   -0.1993624
   ]
  },
  {
@@ -6604,7 +7418,11 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4527444,
+   -0.1997585
+  ]
  },
  {
   "id": "rightmove-91826298",
@@ -6636,6 +7454,10 @@
     4200,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4414294,
+   -0.187372
   ]
  },
  {
@@ -6669,6 +7491,10 @@
     4250,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.3961293,
+   -0.2511654
   ]
  },
  {
@@ -6701,6 +7527,10 @@
     3250,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.414512,
+   -0.1973199
   ]
  },
  {
@@ -6733,6 +7563,10 @@
     3850,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4526873,
+   -0.1982408
   ]
  },
  {
@@ -6765,6 +7599,10 @@
     3350,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4231965,
+   -0.1955025
   ]
  },
  {
@@ -6804,7 +7642,11 @@
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4222296,
+   -0.1886917
+  ]
  },
  {
   "id": "rightmove-91970049",
@@ -6836,6 +7678,10 @@
     4490,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4417248,
+   -0.1489014
   ]
  },
  {
@@ -6868,6 +7714,10 @@
     3750,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4304658,
+   -0.1640623
   ]
  },
  {
@@ -6900,6 +7750,10 @@
     3750,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4267012,
+   -0.194313
   ]
  },
  {
@@ -6932,6 +7786,10 @@
     4300,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4532078,
+   -0.2121696
   ]
  },
  {
@@ -6964,6 +7822,10 @@
     4000,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4526873,
+   -0.1982408
   ]
  },
  {
@@ -6996,6 +7858,10 @@
     4250,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4391229,
+   -0.1985123
   ]
  },
  {
@@ -7028,6 +7894,10 @@
     4000,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4237983,
+   -0.1983283
   ]
  },
  {
@@ -7060,6 +7930,10 @@
     3950,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4349351,
+   -0.1990225
   ]
  },
  {
@@ -7092,6 +7966,10 @@
     3700,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4573325,
+   -0.2131966
   ]
  },
  {
@@ -7124,6 +8002,10 @@
     4000,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4239334,
+   -0.1756051
   ]
  },
  {
@@ -7163,7 +8045,11 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4168548,
+   -0.2297554
+  ]
  },
  {
   "id": "rightmove-92343588",
@@ -7218,7 +8104,11 @@
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4377855,
+   -0.1995
+  ]
  },
  {
   "id": "rightmove-92506221",
@@ -7251,6 +8141,10 @@
     3900,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4248907,
+   -0.1735287
   ]
  },
  {
@@ -7291,7 +8185,11 @@
   "off_market": {
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4666915,
+   -0.2197297
+  ]
  },
  {
   "id": "rightmove-92526762",
@@ -7324,6 +8222,10 @@
     5000,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4382703,
+   -0.1880335
   ]
  },
  {
@@ -7356,6 +8258,10 @@
     4200,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4304014,
+   -0.1720613
   ]
  },
  {
@@ -7391,7 +8297,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/9a079f2a7/92587704/9a079f2a77f2711d25cc7bb75f392021_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/9a079f2a7/92587704/9a079f2a77f2711d25cc7bb75f392021_max_476x317.jpeg",
+  "loc": [
+   51.410495,
+   -0.2133962
+  ],
+  "commute": {
+   "lcp": 60,
+   "tritax": 59,
+   "q5": 48,
+   "wentworth": 38
+  }
  },
  {
   "id": "rightmove-92623491",
@@ -7460,7 +8376,11 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.444806,
+   -0.1989404
+  ]
  },
  {
   "id": "rightmove-92693592",
@@ -7504,7 +8424,11 @@
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4532467,
+   -0.2403829
+  ]
  },
  {
   "id": "rightmove-92787720",
@@ -7537,6 +8461,10 @@
     4950,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4512904,
+   -0.2000944
   ]
  },
  {
@@ -7570,6 +8498,10 @@
     4000,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4336368,
+   -0.1662125
   ]
  },
  {
@@ -7605,7 +8537,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/ae21861f3/92889669/ae21861f30a1cc1d1bbffb31af208ebd_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/ae21861f3/92889669/ae21861f30a1cc1d1bbffb31af208ebd_max_476x317.jpeg",
+  "loc": [
+   51.4604609,
+   -0.2350989
+  ],
+  "commute": {
+   "lcp": 64,
+   "tritax": 61,
+   "q5": 51,
+   "wentworth": 44
+  }
  },
  {
   "id": "rightmove-92893719",
@@ -7638,6 +8580,10 @@
     3100,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4207298,
+   -0.2045247
   ]
  },
  {
@@ -7676,7 +8622,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/ec499715a/92961600/ec499715a203193221bf2a126c1bbfe8_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/ec499715a/92961600/ec499715a203193221bf2a126c1bbfe8_max_476x317.jpeg",
+  "loc": [
+   51.443386,
+   -0.1896071
+  ],
+  "commute": {
+   "lcp": 47,
+   "tritax": 46,
+   "q5": 35,
+   "wentworth": 48
+  }
  },
  {
   "id": "rightmove-93037332",
@@ -7717,7 +8673,11 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4472056,
+   -0.1357984
+  ]
  },
  {
   "id": "rightmove-93106824",
@@ -7750,6 +8710,10 @@
     4500,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4694729,
+   -0.2267181
   ]
  },
  {
@@ -7791,7 +8755,11 @@
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4598209,
+   -0.1693103
+  ]
  },
  {
   "id": "rightmove-93129159",
@@ -7824,6 +8792,10 @@
     3600,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4313323,
+   -0.1663216
   ]
  },
  {
@@ -7879,7 +8851,17 @@
   "not_same": [
    "onthemarket-18656989"
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/199c02a5c/93149787/199c02a5c6b8b5ae4e6e0d6fb1100046_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/199c02a5c/93149787/199c02a5c6b8b5ae4e6e0d6fb1100046_max_476x317.jpeg",
+  "loc": [
+   51.4694729,
+   -0.2267181
+  ],
+  "commute": {
+   "lcp": 60,
+   "tritax": 56,
+   "q5": 51,
+   "wentworth": 45
+  }
  },
  {
   "id": "rightmove-93248712",
@@ -7912,6 +8894,10 @@
     3800,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4293035,
+   -0.1582626
   ]
  },
  {
@@ -7961,7 +8947,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/5db7ad6e0/93313947/5db7ad6e03cbf1d148e71df304b3aeef_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/5db7ad6e0/93313947/5db7ad6e03cbf1d148e71df304b3aeef_max_476x317.jpeg",
+  "loc": [
+   51.4146986,
+   -0.24905
+  ],
+  "commute": {
+   "lcp": 58,
+   "tritax": 57,
+   "q5": 47,
+   "wentworth": 35
+  }
  },
  {
   "id": "rightmove-93320901",
@@ -7994,6 +8990,10 @@
     3900,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4291022,
+   -0.1722679
   ]
  },
  {
@@ -8033,7 +9033,11 @@
    "why": "Advert taken down on Rightmove",
    "checked": "2026-10-31"
   },
-  "checked": "2026-10-31"
+  "checked": "2026-10-31",
+  "loc": [
+   51.4648686,
+   -0.3013493
+  ]
  },
  {
   "id": "rightmove-93346608",
@@ -8068,6 +9072,10 @@
     4250,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.3983619,
+   -0.2555531
   ]
  },
  {
@@ -8110,7 +9118,11 @@
   "off_market": {
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.3983619,
+   -0.2555531
+  ]
  },
  {
   "id": "rightmove-93374694",
@@ -8143,6 +9155,10 @@
     4000,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4121557,
+   -0.2311322
   ]
  },
  {
@@ -8183,7 +9199,11 @@
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4139686,
+   -0.1988932
+  ]
  },
  {
   "id": "rightmove-93406731",
@@ -8216,6 +9236,10 @@
     4500,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4478974,
+   -0.1594659
   ]
  },
  {
@@ -8257,7 +9281,11 @@
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.421526,
+   -0.1782553
+  ]
  },
  {
   "id": "rightmove-93439104",
@@ -8302,7 +9330,11 @@
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4526717,
+   -0.1843814
+  ]
  },
  {
   "id": "rightmove-93482223",
@@ -8375,7 +9407,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://lid.zoocdn.com/u/480/360/35a02441fd0e787fbf657dddec47cc14736083a7.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/35a02441fd0e787fbf657dddec47cc14736083a7.jpg",
+  "loc": [
+   51.4157516,
+   -0.2370166
+  ],
+  "commute": {
+   "lcp": 61,
+   "tritax": 59,
+   "q5": 50,
+   "wentworth": 38
+  }
  },
  {
   "id": "rightmove-93497562",
@@ -8413,7 +9455,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1790331722/34/78/162/chpk2618743/edited_chpk2618743-1.jpg"
+  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1790331722/34/78/162/chpk2618743/edited_chpk2618743-1.jpg",
+  "loc": [
+   51.4419157,
+   -0.1908183
+  ],
+  "commute": {
+   "lcp": 48,
+   "tritax": 47,
+   "q5": 36,
+   "wentworth": 48
+  }
  },
  {
   "id": "rightmove-93519945",
@@ -8457,7 +9509,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.onthemarket.com/properties/20594689/1653537179/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20594689/1653537179/image-0-1024x1024.jpg",
+  "loc": [
+   51.4548383,
+   -0.2266893
+  ],
+  "commute": {
+   "lcp": 61,
+   "tritax": 58,
+   "q5": 49,
+   "wentworth": 44
+  }
  },
  {
   "id": "rightmove-93537537",
@@ -8502,7 +9564,11 @@
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.3997598,
+   -0.2168095
+  ]
  },
  {
   "id": "rightmove-93635148",
@@ -8534,6 +9600,10 @@
     5000,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4429882,
+   -0.143077
   ]
  },
  {
@@ -8579,7 +9649,11 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4487697,
+   -0.1872161
+  ]
  },
  {
   "id": "rightmove-93683103",
@@ -8613,6 +9687,10 @@
     4500,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4383877,
+   -0.184288
   ]
  },
  {
@@ -8650,7 +9728,11 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/6d359b84c/93694083/6d359b84cb79af41918c7351d83fb08d_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/6d359b84c/93694083/6d359b84cb79af41918c7351d83fb08d_max_476x317.jpeg",
+  "loc": [
+   51.4591074,
+   -0.1878174
+  ]
  },
  {
   "id": "rightmove-93711192",
@@ -8691,7 +9773,11 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4313323,
+   -0.1663216
+  ]
  },
  {
   "id": "rightmove-93718776",
@@ -8727,7 +9813,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/ae3871c4d/93718776/ae3871c4d05485acec3a565866d4608e_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/ae3871c4d/93718776/ae3871c4d05485acec3a565866d4608e_max_476x317.jpeg",
+  "loc": [
+   51.420691,
+   -0.1483667
+  ],
+  "commute": {
+   "lcp": 57,
+   "tritax": 55,
+   "q5": 54,
+   "wentworth": 51
+  }
  },
  {
   "id": "rightmove-93729006",
@@ -8760,6 +9856,10 @@
     4750,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4552688,
+   -0.18773
   ]
  },
  {
@@ -8794,6 +9894,10 @@
     3500,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4028134,
+   -0.2582161
   ]
  },
  {
@@ -8837,7 +9941,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/01afd2c4c/93770631/01afd2c4cebaca6826d0f18452fceea6_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/01afd2c4c/93770631/01afd2c4cebaca6826d0f18452fceea6_max_476x317.jpeg",
+  "loc": [
+   51.4038858,
+   -0.2349731
+  ],
+  "commute": {
+   "lcp": 57,
+   "tritax": 56,
+   "q5": 48,
+   "wentworth": 36
+  }
  },
  {
   "id": "rightmove-93814917",
@@ -8871,6 +9985,10 @@
     3850,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4060451,
+   -0.2562944
   ]
  },
  {
@@ -8906,6 +10024,10 @@
     4750,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.442468,
+   -0.2012333
   ]
  },
  {
@@ -8950,7 +10072,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/d874f37bf/93858993/d874f37bfe30d58c3e077d5fa65a2f40_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/d874f37bf/93858993/d874f37bfe30d58c3e077d5fa65a2f40_max_476x317.jpeg",
+  "loc": [
+   51.4114983,
+   -0.2367156
+  ],
+  "commute": {
+   "lcp": 59,
+   "tritax": 58,
+   "q5": 47,
+   "wentworth": 37
+  }
  },
  {
   "id": "rightmove-93883815",
@@ -9030,7 +10162,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/d93fe7292/93960771/d93fe7292e0b63f88b0bbd93d968209e_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/d93fe7292/93960771/d93fe7292e0b63f88b0bbd93d968209e_max_476x317.jpeg",
+  "loc": [
+   51.4498908,
+   -0.1974373
+  ],
+  "commute": {
+   "lcp": 58,
+   "tritax": 57,
+   "q5": 50,
+   "wentworth": 45
+  }
  },
  {
   "id": "rightmove-93981180",
@@ -9090,7 +10232,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/371d54487/93981180/371d54487a9ffc469c0ac0e5add82cbc_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/371d54487/93981180/371d54487a9ffc469c0ac0e5add82cbc_max_476x317.jpeg",
+  "loc": [
+   51.4294184,
+   -0.1776989
+  ],
+  "commute": {
+   "lcp": 52,
+   "tritax": 50,
+   "q5": 50,
+   "wentworth": 48
+  }
  },
  {
   "id": "rightmove-93983979",
@@ -9133,7 +10285,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/797e01b38/93983979/797e01b385190fe0cdd41e8e172a2f3a_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/797e01b38/93983979/797e01b385190fe0cdd41e8e172a2f3a_max_476x317.jpeg",
+  "loc": [
+   51.4488915,
+   -0.1918255
+  ],
+  "commute": {
+   "lcp": 57,
+   "tritax": 56,
+   "q5": 45,
+   "wentworth": 46
+  }
  },
  {
   "id": "rightmove-93989001",
@@ -9177,7 +10339,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/9b642919a/93989001/9b642919a41197b8088510fb6c5b95fc_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/9b642919a/93989001/9b642919a41197b8088510fb6c5b95fc_max_476x317.jpeg",
+  "loc": [
+   51.4611202,
+   -0.2182336
+  ],
+  "commute": {
+   "lcp": 50,
+   "tritax": 47,
+   "q5": 38,
+   "wentworth": 44
+  }
  },
  {
   "id": "rightmove-93995352",
@@ -9220,7 +10392,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/a765dc3b5/93995352/a765dc3b5180660a4f59e32fd384a3ee_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/a765dc3b5/93995352/a765dc3b5180660a4f59e32fd384a3ee_max_476x317.jpeg",
+  "loc": [
+   51.4069905,
+   -0.1956816
+  ],
+  "commute": {
+   "lcp": 59,
+   "tritax": 57,
+   "q5": 55,
+   "wentworth": 42
+  }
  },
  {
   "id": "rightmove-94010418",
@@ -9268,7 +10450,11 @@
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4345239,
+   -0.162473
+  ]
  },
  {
   "id": "rightmove-94017900",
@@ -9302,6 +10488,10 @@
     4000,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4435803,
+   -0.1826796
   ]
  },
  {
@@ -9340,7 +10530,11 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/e963eba12/94031274/e963eba12e0a2159071ba44274b6245a_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/e963eba12/94031274/e963eba12e0a2159071ba44274b6245a_max_476x317.jpeg",
+  "loc": [
+   51.4080582,
+   -0.2690299
+  ]
  },
  {
   "id": "rightmove-94061793",
@@ -9373,6 +10567,10 @@
     3000,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.45589,
+   -0.2278094
   ]
  },
  {
@@ -9412,7 +10610,11 @@
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4309017,
+   -0.1664685
+  ]
  },
  {
   "id": "rightmove-94130985",
@@ -9454,7 +10656,11 @@
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.402706,
+   -0.2280903
+  ]
  },
  {
   "id": "rightmove-94235868",
@@ -9494,7 +10700,11 @@
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4561209,
+   -0.2033729
+  ]
  },
  {
   "id": "rightmove-94244127",
@@ -9534,7 +10744,11 @@
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4257878,
+   -0.2082771
+  ]
  },
  {
   "id": "rightmove-94257036",
@@ -9575,7 +10789,11 @@
     "rightmove"
    ]
   ],
-  "photo": "https://lid.zoocdn.com/u/480/360/6fdd0089ca05f96b977ef6e49be61466c754641a.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/6fdd0089ca05f96b977ef6e49be61466c754641a.jpg",
+  "loc": [
+   51.4065353,
+   -0.2716078
+  ]
  },
  {
   "id": "zoopla-41941286",
@@ -9614,7 +10832,11 @@
   "off_market": {
    "why": "Advert taken down on Zoopla",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4439417,
+   -0.2056829
+  ]
  },
  {
   "id": "zoopla-59608909",
@@ -9657,7 +10879,11 @@
   "off_market": {
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4297711,
+   -0.1700636
+  ]
  },
  {
   "id": "zoopla-61077192",
@@ -9696,7 +10922,11 @@
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4393358,
+   -0.2204345
+  ]
  },
  {
   "id": "zoopla-61546144",
@@ -9770,7 +11000,11 @@
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.423018,
+   -0.1638151
+  ]
  },
  {
   "id": "zoopla-65202091",
@@ -9810,6 +11044,10 @@
     4400,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4487078,
+   -0.2009142
   ]
  },
  {
@@ -9886,7 +11124,11 @@
   "off_market": {
    "why": "Advert taken down on Zoopla",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.400709,
+   -0.233575
+  ]
  },
  {
   "id": "zoopla-68020927",
@@ -9920,7 +11162,17 @@
     "zoopla"
    ]
   ],
-  "photo": "https://lid.zoocdn.com/u/480/360/391e57f620ab9543b574d8623194609c7654db04.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/391e57f620ab9543b574d8623194609c7654db04.jpg",
+  "loc": [
+   51.4313323,
+   -0.1663216
+  ],
+  "commute": {
+   "lcp": 49,
+   "tritax": 46,
+   "q5": 45,
+   "wentworth": 48
+  }
  },
  {
   "id": "zoopla-68064873",
@@ -9960,7 +11212,11 @@
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4313323,
+   -0.1663216
+  ]
  },
  {
   "id": "zoopla-68271860",
@@ -10002,7 +11258,17 @@
     "zoopla"
    ]
   ],
-  "photo": "https://lid.zoocdn.com/u/480/360/af6c6cf23e8b8ffb0102c1cc47fb887ffb51cd0c.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/af6c6cf23e8b8ffb0102c1cc47fb887ffb51cd0c.jpg",
+  "loc": [
+   51.4350639,
+   -0.1794444
+  ],
+  "commute": {
+   "lcp": 57,
+   "tritax": 53,
+   "q5": 49,
+   "wentworth": 48
+  }
  },
  {
   "id": "zoopla-68443899",
@@ -10051,7 +11317,11 @@
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4642245,
+   -0.2323674
+  ]
  },
  {
   "id": "zoopla-68445983",
@@ -10089,7 +11359,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://lid.zoocdn.com/u/480/360/a72b812cd69a1b337ca8c65e838edcf29410a4c1.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/a72b812cd69a1b337ca8c65e838edcf29410a4c1.jpg",
+  "loc": [
+   51.4139901,
+   -0.2036407
+  ],
+  "commute": {
+   "lcp": 58,
+   "tritax": 55,
+   "q5": 48,
+   "wentworth": 39
+  }
  },
  {
   "id": "zoopla-70347757",
@@ -10132,7 +11412,17 @@
    "why": "Let agreed on marshandparsons, still live on Zoopla",
    "checked": "2026-10-31"
   },
-  "photo": "https://lid.zoocdn.com/u/480/360/d4a0ed51856d806dc4d858fb48e71e3125ba8215.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/d4a0ed51856d806dc4d858fb48e71e3125ba8215.jpg",
+  "loc": [
+   51.4266666,
+   -0.2008067
+  ],
+  "commute": {
+   "lcp": 56,
+   "tritax": 59,
+   "q5": 49,
+   "wentworth": 43
+  }
  },
  {
   "id": "zoopla-70641833",
@@ -10170,7 +11460,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/e3fc386b3/92360187/e3fc386b36ab47c2cea51c99c465b645_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/e3fc386b3/92360187/e3fc386b36ab47c2cea51c99c465b645_max_476x317.jpeg",
+  "loc": [
+   51.4294184,
+   -0.1776989
+  ],
+  "commute": {
+   "lcp": 52,
+   "tritax": 50,
+   "q5": 50,
+   "wentworth": 48
+  }
  },
  {
   "id": "zoopla-70668046",
@@ -10209,7 +11509,11 @@
    "why": "Advert taken down on Zoopla",
    "checked": "2026-10-31"
   },
-  "checked": "2026-10-31"
+  "checked": "2026-10-31",
+  "loc": [
+   51.4767537,
+   -0.3155649
+  ]
  },
  {
   "id": "zoopla-70803970",
@@ -10260,7 +11564,11 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4378606,
+   -0.1812396
+  ]
  },
  {
   "id": "zoopla-71874543",
@@ -10304,7 +11612,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://lid.zoocdn.com/u/480/360/906550108976a8fdc91a4918ccef78a4dcdd09f4.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/906550108976a8fdc91a4918ccef78a4dcdd09f4.jpg",
+  "loc": [
+   51.4157516,
+   -0.2370166
+  ],
+  "commute": {
+   "lcp": 61,
+   "tritax": 59,
+   "q5": 50,
+   "wentworth": 38
+  }
  },
  {
   "id": "zoopla-73262644",
@@ -10340,7 +11658,17 @@
     "zoopla"
    ]
   ],
-  "photo": "https://lid.zoocdn.com/u/480/360/0fc366bfee59399362785fe70692a24d05ad7f21.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/0fc366bfee59399362785fe70692a24d05ad7f21.jpg",
+  "loc": [
+   51.4190427,
+   -0.1858803
+  ],
+  "commute": {
+   "lcp": 54,
+   "tritax": 52,
+   "q5": 50,
+   "wentworth": 44
+  }
  },
  {
   "id": "zoopla-73276740",
@@ -10416,7 +11744,11 @@
     "zoopla"
    ]
   ],
-  "photo": "https://lid.zoocdn.com/u/480/360/9c2dd2eb83741c30e6e02ad149b671986bf90910.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/9c2dd2eb83741c30e6e02ad149b671986bf90910.jpg",
+  "loc": [
+   51.4130833,
+   -0.2198489
+  ]
  },
  {
   "id": "zoopla-73476476",
@@ -10489,7 +11821,11 @@
   "off_market": {
    "why": "Advert taken down on Zoopla",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.441582,
+   -0.185317
+  ]
  },
  {
   "id": "zoopla-73544808",
@@ -10527,7 +11863,11 @@
   "off_market": {
    "why": "Advert taken down on Zoopla",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4485719,
+   -0.1605829
+  ]
  },
  {
   "id": "zoopla-73581430",
@@ -10607,7 +11947,11 @@
   "off_market": {
    "why": "Let agreed on Zoopla",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4526717,
+   -0.1843814
+  ]
  },
  {
   "id": "zoopla-73724502",
@@ -10646,7 +11990,11 @@
    "why": "Advert taken down on Zoopla",
    "checked": "2026-10-31"
   },
-  "checked": "2026-10-31"
+  "checked": "2026-10-31",
+  "loc": [
+   51.4767537,
+   -0.3155649
+  ]
  },
  {
   "id": "zoopla-73731226",
@@ -10720,7 +12068,11 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4355473,
+   -0.1844448
+  ]
  },
  {
   "id": "zoopla-73821056",
@@ -10757,7 +12109,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/7e7db3379/91352508/7e7db3379e5d87fb46d0a47f6ee510e9_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/7e7db3379/91352508/7e7db3379e5d87fb46d0a47f6ee510e9_max_476x317.jpeg",
+  "loc": [
+   51.4240322,
+   -0.1652915
+  ],
+  "commute": {
+   "lcp": 49,
+   "tritax": 47,
+   "q5": 45,
+   "wentworth": 47
+  }
  },
  {
   "id": "zoopla-73825451",
@@ -10797,7 +12159,11 @@
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4506498,
+   -0.1479003
+  ]
  },
  {
   "id": "zoopla-73827362",
@@ -10832,6 +12198,10 @@
     4500,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.3880291,
+   -0.2648397
   ]
  },
  {
@@ -10871,7 +12241,11 @@
   "off_market": {
    "why": "Let agreed on Zoopla",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4271576,
+   -0.1646761
+  ]
  },
  {
   "id": "zoopla-73849075",
@@ -10911,7 +12285,11 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4471855,
+   -0.1988674
+  ]
  },
  {
   "id": "zoopla-73877978",
@@ -10950,7 +12328,11 @@
   "off_market": {
    "why": "Advert taken down on Zoopla",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4428574,
+   -0.1882972
+  ]
  },
  {
   "id": "zoopla-73882495",
@@ -11023,7 +12405,11 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4290562,
+   -0.1540747
+  ]
  },
  {
   "id": "zoopla-73914959",
@@ -11060,7 +12446,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/0fac2c1cc/91725189/0fac2c1cc8928d4eedcf6112e22a649c_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/0fac2c1cc/91725189/0fac2c1cc8928d4eedcf6112e22a649c_max_476x317.jpeg",
+  "loc": [
+   51.4207298,
+   -0.2045247
+  ],
+  "commute": {
+   "lcp": 50,
+   "tritax": 49,
+   "q5": 39,
+   "wentworth": 42
+  }
  },
  {
   "id": "zoopla-73917929",
@@ -11101,7 +12497,11 @@
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4343789,
+   -0.1844564
+  ]
  },
  {
   "id": "zoopla-73939519",
@@ -11142,7 +12542,11 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4127443,
+   -0.2300342
+  ]
  },
  {
   "id": "zoopla-73947611",
@@ -11182,7 +12586,11 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4321609,
+   -0.1910637
+  ]
  },
  {
   "id": "zoopla-73960794",
@@ -11216,6 +12624,10 @@
     4350,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4133567,
+   -0.2302969
   ]
  },
  {
@@ -11276,6 +12688,10 @@
     3250,
     "zoopla"
    ]
+  ],
+  "loc": [
+   51.4222296,
+   -0.1886917
   ]
  },
  {
@@ -11309,6 +12725,10 @@
     3095,
     "zoopla"
    ]
+  ],
+  "loc": [
+   51.4648686,
+   -0.3013493
   ]
  },
  {
@@ -11351,7 +12771,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/7208c4804/92034240/7208c4804102bf69f415d40127e4772e_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/7208c4804/92034240/7208c4804102bf69f415d40127e4772e_max_476x317.jpeg",
+  "loc": [
+   51.4527444,
+   -0.1997585
+  ],
+  "commute": {
+   "lcp": 64,
+   "tritax": 61,
+   "q5": 50,
+   "wentworth": 44
+  }
  },
  {
   "id": "zoopla-73998997",
@@ -11385,6 +12815,10 @@
     4550,
     "zoopla"
    ]
+  ],
+  "loc": [
+   51.400709,
+   -0.233575
   ]
  },
  {
@@ -11425,7 +12859,11 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.433594,
+   -0.1973539
+  ]
  },
  {
   "id": "zoopla-74014225",
@@ -11457,6 +12895,10 @@
     4250,
     "zoopla"
    ]
+  ],
+  "loc": [
+   51.4391229,
+   -0.1985123
   ]
  },
  {
@@ -11489,6 +12931,10 @@
     3950,
     "zoopla"
    ]
+  ],
+  "loc": [
+   51.4349351,
+   -0.1990225
   ]
  },
  {
@@ -11530,7 +12976,17 @@
     "zoopla"
    ]
   ],
-  "photo": "https://media.onthemarket.com/properties/20184337/1638792826/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20184337/1638792826/image-0-1024x1024.jpg",
+  "loc": [
+   51.4160403,
+   -0.2323628
+  ],
+  "commute": {
+   "lcp": 58,
+   "tritax": 56,
+   "q5": 47,
+   "wentworth": 38
+  }
  },
  {
   "id": "zoopla-74050045",
@@ -11569,7 +13025,11 @@
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4140563,
+   -0.2135858
+  ]
  },
  {
   "id": "zoopla-74095685",
@@ -11610,7 +13070,11 @@
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4039631,
+   -0.2111711
+  ]
  },
  {
   "id": "zoopla-74096332",
@@ -11652,7 +13116,11 @@
   "off_market": {
    "why": "Let agreed on Foxtons",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4423581,
+   -0.2014073
+  ]
  },
  {
   "id": "zoopla-74104280",
@@ -11690,7 +13158,11 @@
   "off_market": {
    "why": "Advert taken down on Zoopla",
    "checked": "2026-10-19"
-  }
+  },
+  "loc": [
+   51.4547547,
+   -0.1926759
+  ]
  },
  {
   "id": "zoopla-74110803",
@@ -11729,7 +13201,11 @@
   "off_market": {
    "why": "Advert taken down on Zoopla",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4306337,
+   -0.1674592
+  ]
  },
  {
   "id": "zoopla-74121318",
@@ -11769,7 +13245,11 @@
   "off_market": {
    "why": "Advert taken down on Zoopla",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4068594,
+   -0.2362758
+  ]
  },
  {
   "id": "zoopla-74154343",
@@ -11808,7 +13288,11 @@
   "off_market": {
    "why": "Advert taken down on Zoopla",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4132791,
+   -0.209526
+  ]
  },
  {
   "id": "zoopla-74161959",
@@ -11851,7 +13335,11 @@
   "off_market": {
    "why": "Advert taken down on Zoopla",
    "checked": "2026-10-19"
-  }
+  },
+  "loc": [
+   51.4070771,
+   -0.2353212
+  ]
  },
  {
   "id": "zoopla-74168792",
@@ -11898,7 +13386,11 @@
   "off_market": {
    "why": "Advert taken down on OnTheMarket",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4329936,
+   -0.1832505
+  ]
  },
  {
   "id": "zoopla-74176237",
@@ -11937,7 +13429,11 @@
   "off_market": {
    "why": "Advert taken down on Zoopla",
    "checked": "2026-10-25"
-  }
+  },
+  "loc": [
+   51.4291022,
+   -0.1722679
+  ]
  },
  {
   "id": "zoopla-74180853",
@@ -11971,6 +13467,10 @@
     3400,
     "zoopla"
    ]
+  ],
+  "loc": [
+   51.4112147,
+   -0.2106193
   ]
  },
  {
@@ -12009,7 +13509,11 @@
   "off_market": {
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-26"
-  }
+  },
+  "loc": [
+   51.458263,
+   -0.1990184
+  ]
  },
  {
   "id": "zoopla-74199981",
@@ -12050,7 +13554,11 @@
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4548461,
+   -0.2039189
+  ]
  },
  {
   "id": "zoopla-74209767",
@@ -12084,6 +13592,10 @@
     4200,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4231965,
+   -0.1955025
   ]
  },
  {
@@ -12128,7 +13640,11 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/84650ab04/93120801/84650ab04d78b89b1e5f6507d26222a0_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/84650ab04/93120801/84650ab04d78b89b1e5f6507d26222a0_max_476x317.jpeg",
+  "loc": [
+   51.4122084,
+   -0.2670526
+  ]
  },
  {
   "id": "zoopla-74237540",
@@ -12169,7 +13685,11 @@
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4069905,
+   -0.1956816
+  ]
  },
  {
   "id": "zoopla-74237839",
@@ -12212,7 +13732,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/6a42b8a15/93131823/6a42b8a1553d72bd908d940afddfc67b_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/6a42b8a15/93131823/6a42b8a1553d72bd908d940afddfc67b_max_476x317.jpeg",
+  "loc": [
+   51.4290753,
+   -0.1615927
+  ],
+  "commute": {
+   "lcp": 51,
+   "tritax": 49,
+   "q5": 47,
+   "wentworth": 48
+  }
  },
  {
   "id": "zoopla-74238873",
@@ -12252,7 +13782,11 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.416382,
+   -0.2110651
+  ]
  },
  {
   "id": "zoopla-74240021",
@@ -12295,7 +13829,11 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4462143,
+   -0.2111121
+  ]
  },
  {
   "id": "zoopla-74243949",
@@ -12334,7 +13872,11 @@
    "name": "Tooting Bec",
    "kind": "Tube",
    "walk": 7
-  }
+  },
+  "loc": [
+   51.4394315,
+   -0.1609991
+  ]
  },
  {
   "id": "zoopla-74257661",
@@ -12380,7 +13922,11 @@
     "zoopla"
    ]
   ],
-  "photo": "https://lid.zoocdn.com/u/480/360/3059af4f3bd0928368b7603174ca4971eef4f429.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/3059af4f3bd0928368b7603174ca4971eef4f429.jpg",
+  "loc": [
+   51.3995662,
+   -0.227325
+  ]
  },
  {
   "id": "zoopla-74262411",
@@ -12417,7 +13963,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/627d71c8f/93246108/627d71c8fcf126ad2480deeed15f02b9_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/627d71c8f/93246108/627d71c8fcf126ad2480deeed15f02b9_max_476x317.jpeg",
+  "loc": [
+   51.4240455,
+   -0.1740095
+  ],
+  "commute": {
+   "lcp": 49,
+   "tritax": 47,
+   "q5": 46,
+   "wentworth": 46
+  }
  },
  {
   "id": "zoopla-74268870",
@@ -12451,6 +14007,10 @@
     4500,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.4572351,
+   -0.1827069
   ]
  },
  {
@@ -12498,7 +14058,11 @@
   "off_market": {
    "why": "Let agreed on Rightmove, still live on OpenRent",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4457386,
+   -0.239786
+  ]
  },
  {
   "id": "zoopla-74278873",
@@ -12543,7 +14107,11 @@
   "off_market": {
    "why": "Let agreed on Zoopla",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4291022,
+   -0.1722679
+  ]
  },
  {
   "id": "zoopla-74291621",
@@ -12583,7 +14151,11 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4572938,
+   -0.22079
+  ]
  },
  {
   "id": "zoopla-74292204",
@@ -12621,7 +14193,11 @@
   "off_market": {
    "why": "Let agreed on Zoopla",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4306337,
+   -0.1674592
+  ]
  },
  {
   "id": "zoopla-74301701",
@@ -12669,7 +14245,11 @@
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4612803,
+   -0.2431732
+  ]
  },
  {
   "id": "zoopla-74306479",
@@ -12706,7 +14286,17 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/f38c1a45a/93967113/f38c1a45a1b347250910faf46bb18820_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/f38c1a45a/93967113/f38c1a45a1b347250910faf46bb18820_max_476x317.jpeg",
+  "loc": [
+   51.4399499,
+   -0.2167968
+  ],
+  "commute": {
+   "lcp": 57,
+   "tritax": 55,
+   "q5": 53,
+   "wentworth": 44
+  }
  },
  {
   "id": "zoopla-74308005",
@@ -12746,7 +14336,11 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4291022,
+   -0.1722679
+  ]
  },
  {
   "id": "zoopla-74314846",
@@ -12786,7 +14380,11 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4548461,
+   -0.2039189
+  ]
  },
  {
   "id": "zoopla-74315383",
@@ -12825,7 +14423,11 @@
    "why": "Advert taken down on Zoopla",
    "checked": "2026-10-31"
   },
-  "checked": "2026-10-31"
+  "checked": "2026-10-31",
+  "loc": [
+   51.4648686,
+   -0.3013493
+  ]
  },
  {
   "id": "zoopla-74329179",
@@ -12861,7 +14463,11 @@
    ]
   ],
   "checked": "2026-10-31",
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/18e0aab9f/93536292/18e0aab9fa8344a944109d46d4584c94_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/18e0aab9f/93536292/18e0aab9fa8344a944109d46d4584c94_max_476x317.jpeg",
+  "loc": [
+   51.4170445,
+   -0.2722677
+  ]
  },
  {
   "id": "zoopla-74342313",
@@ -12901,7 +14507,11 @@
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4291022,
+   -0.1722679
+  ]
  },
  {
   "id": "zoopla-74343475",
@@ -12937,7 +14547,11 @@
    ]
   ],
   "checked": "2026-10-31",
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/73b4f44b8/93597789/73b4f44b84aae2c55f0919c603737d69_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/73b4f44b8/93597789/73b4f44b84aae2c55f0919c603737d69_max_476x317.jpeg",
+  "loc": [
+   51.4884878,
+   -0.290431
+  ]
  },
  {
   "id": "zoopla-74368576",
@@ -12977,7 +14591,11 @@
    "why": "Advert taken down on Zoopla",
    "checked": "2026-10-31"
   },
-  "checked": "2026-10-31"
+  "checked": "2026-10-31",
+  "loc": [
+   51.4193101,
+   -0.1526862
+  ]
  },
  {
   "id": "zoopla-74396590",
@@ -13019,7 +14637,11 @@
     "zoopla"
    ]
   ],
-  "photo": "https://lid.zoocdn.com/u/480/360/3f254e5c03b9150d861995637f53f8b246837247.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/3f254e5c03b9150d861995637f53f8b246837247.jpg",
+  "loc": [
+   51.4162009,
+   -0.1872225
+  ]
  },
  {
   "id": "zoopla-74411323",
@@ -13060,7 +14682,17 @@
     "zoopla"
    ]
   ],
-  "photo": "https://lid.zoocdn.com/u/480/360/8f3f7257654a456938a3c45c806cd21676cc2ec3.png"
+  "photo": "https://lid.zoocdn.com/u/480/360/8f3f7257654a456938a3c45c806cd21676cc2ec3.png",
+  "loc": [
+   51.4295273,
+   -0.165851
+  ],
+  "commute": {
+   "lcp": 46,
+   "tritax": 44,
+   "q5": 42,
+   "wentworth": 48
+  }
  },
  {
   "id": "zoopla-74430828",
@@ -13102,7 +14734,11 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4329936,
+   -0.1832505
+  ]
  },
  {
   "id": "zoopla-74459311",
@@ -13144,7 +14780,17 @@
     "zoopla"
    ]
   ],
-  "photo": "https://lid.zoocdn.com/u/480/360/41389c10ef2e0f8ac8f6376135928f0b76ff8c91.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/41389c10ef2e0f8ac8f6376135928f0b76ff8c91.jpg",
+  "loc": [
+   51.4069905,
+   -0.1956816
+  ],
+  "commute": {
+   "lcp": 59,
+   "tritax": 57,
+   "q5": 55,
+   "wentworth": 42
+  }
  },
  {
   "id": "foxtons-chpk0442772",
@@ -13176,6 +14822,10 @@
     3800,
     "foxtons"
    ]
+  ],
+  "loc": [
+   51.4708751,
+   -0.1756996
   ]
  },
  {
@@ -13228,7 +14878,11 @@
     "openrent"
    ]
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-10-31",
+  "loc": [
+   51.411911,
+   -0.1729319
+  ]
  },
  {
   "id": "openrent-2990016",
@@ -13266,7 +14920,11 @@
    "why": "Let agreed on OpenRent",
    "checked": "2026-10-31"
   },
-  "checked": "2026-10-31"
+  "checked": "2026-10-31",
+  "loc": [
+   51.4598847,
+   -0.1165057
+  ]
  },
  {
   "id": "openrent-2991842",
@@ -13309,7 +14967,17 @@
    ]
   ],
   "checked": "2026-10-31",
-  "photo": "https://media.onthemarket.com/properties/20541293/1651704612/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20541293/1651704612/image-0-1024x1024.jpg",
+  "loc": [
+   51.4839051,
+   -0.2128961
+  ],
+  "commute": {
+   "lcp": 48,
+   "tritax": 48,
+   "q5": 47,
+   "wentworth": 39
+  }
  },
  {
   "id": "openrent-3005963",
@@ -13343,7 +15011,11 @@
    "kind": "Overground",
    "walk": 9
   },
-  "checked": "2026-10-31"
+  "checked": "2026-10-31",
+  "loc": [
+   51.4687296,
+   -0.1463346
+  ]
  },
  {
   "id": "openrent-3033646",
@@ -13381,7 +15053,11 @@
    "why": "Let agreed on OpenRent",
    "checked": "2026-10-31"
   },
-  "checked": "2026-10-31"
+  "checked": "2026-10-31",
+  "loc": [
+   51.4725492,
+   -0.14784
+  ]
  },
  {
   "id": "openrent-3043101",
@@ -13419,7 +15095,11 @@
    "why": "Let agreed on OpenRent",
    "checked": "2026-10-31"
   },
-  "checked": "2026-10-31"
+  "checked": "2026-10-31",
+  "loc": [
+   51.4040702,
+   -0.2762368
+  ]
  },
  {
   "id": "openrent-3049882",
@@ -13457,7 +15137,11 @@
    "why": "Let agreed on OpenRent",
    "checked": "2026-10-31"
   },
-  "checked": "2026-10-31"
+  "checked": "2026-10-31",
+  "loc": [
+   51.4853708,
+   -0.2119053
+  ]
  },
  {
   "id": "openrent-3050921",
@@ -13501,7 +15185,17 @@
    ]
   ],
   "checked": "2026-10-31",
-  "photo": "https://media.onthemarket.com/properties/20401660/1646745784/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20401660/1646745784/image-0-1024x1024.jpg",
+  "loc": [
+   51.487693,
+   -0.2134922
+  ],
+  "commute": {
+   "lcp": 41,
+   "tritax": 40,
+   "q5": 40,
+   "wentworth": 38
+  }
  },
  {
   "id": "openrent-3051969",
@@ -13539,7 +15233,11 @@
    "why": "Let agreed on OpenRent",
    "checked": "2026-10-31"
   },
-  "checked": "2026-10-31"
+  "checked": "2026-10-31",
+  "loc": [
+   51.4797103,
+   -0.2064669
+  ]
  },
  {
   "id": "openrent-3056405",
@@ -13577,7 +15275,11 @@
    "name": "Clapham Common",
    "kind": "Tube",
    "walk": 3
-  }
+  },
+  "loc": [
+   51.4612517,
+   -0.134583
+  ]
  },
  {
   "id": "openrent-3057043",
@@ -13728,6 +15430,10 @@
     3750,
     "rightmove"
    ]
+  ],
+  "loc": [
+   51.416541,
+   -0.15403
   ]
  },
  {
@@ -13766,7 +15472,11 @@
    "why": "Advert taken down on Rightmove",
    "checked": "2026-10-31"
   },
-  "checked": "2026-10-31"
+  "checked": "2026-10-31",
+  "loc": [
+   51.416541,
+   -0.15403
+  ]
  },
  {
   "id": "zoopla-71820603",
@@ -13804,7 +15514,11 @@
    "why": "Advert taken down on Zoopla",
    "checked": "2026-10-31"
   },
-  "checked": "2026-10-31"
+  "checked": "2026-10-31",
+  "loc": [
+   51.4168965,
+   -0.2539391
+  ]
  },
  {
   "id": "zoopla-72705891",
@@ -13842,7 +15556,11 @@
    "why": "Advert taken down on Zoopla",
    "checked": "2026-10-31"
   },
-  "checked": "2026-10-31"
+  "checked": "2026-10-31",
+  "loc": [
+   51.4100581,
+   -0.2160455
+  ]
  },
  {
   "id": "zoopla-73852924",
@@ -13943,7 +15661,11 @@
    "why": "Advert taken down on Zoopla",
    "checked": "2026-10-31"
   },
-  "checked": "2026-10-31"
+  "checked": "2026-10-31",
+  "loc": [
+   51.4171751,
+   -0.2281197
+  ]
  },
  {
   "id": "rightmove-94263075",
@@ -13984,7 +15706,11 @@
    "why": "Advert taken down on Rightmove",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4490292,
+   -0.1499133
+  ]
  },
  {
   "id": "onthemarket-13142280",
@@ -14023,7 +15749,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4500719,
+   -0.1536346
+  ]
  },
  {
   "id": "zoopla-74489197",
@@ -14069,7 +15799,11 @@
    "why": "Advert taken down on Zoopla",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4417248,
+   -0.1489014
+  ]
  },
  {
   "id": "marsh---parsons-rps_mpa-bhl240090",
@@ -14109,7 +15843,11 @@
    "why": "Advert taken down on marshandparsons",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4457468,
+   -0.1579574
+  ]
  },
  {
   "id": "marsh---parsons-rps_mpa-bhl120127",
@@ -14149,7 +15887,11 @@
    "why": "Advert taken down on marshandparsons",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4489052,
+   -0.1432542
+  ]
  },
  {
   "id": "zoopla-73897773",
@@ -14193,7 +15935,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://lid.zoocdn.com/u/480/360/e428084eeafbf79b88018e2eb9eba3ece852f603.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/e428084eeafbf79b88018e2eb9eba3ece852f603.jpg",
+  "loc": [
+   51.4444967,
+   -0.132011
+  ],
+  "commute": {
+   "lcp": 52,
+   "tritax": 50,
+   "q5": 49,
+   "wentworth": 55
+  }
  },
  {
   "id": "rightmove-94297608",
@@ -14298,7 +16050,11 @@
   "off_market": {
    "why": "Advert taken down on OnTheMarket",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4634406,
+   -0.1355124
+  ]
  },
  {
   "id": "zoopla-74494165",
@@ -14336,7 +16092,11 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://lid.zoocdn.com/u/480/360/ca0120b503f77e5be13bf93b1baffcab9f6feef2.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/ca0120b503f77e5be13bf93b1baffcab9f6feef2.jpg",
+  "loc": [
+   51.4648123,
+   -0.1414393
+  ]
  },
  {
   "id": "jacksons-20399342",
@@ -14375,7 +16135,11 @@
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4526479,
+   -0.142473
+  ]
  },
  {
   "id": "jacksons-21623351",
@@ -14414,7 +16178,11 @@
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.458155,
+   -0.1369374
+  ]
  },
  {
   "id": "rightmove-93456366",
@@ -14449,7 +16217,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/ad70283d1/93456366/ad70283d1cc7f442ba54e54a627bdcd3_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/ad70283d1/93456366/ad70283d1cc7f442ba54e54a627bdcd3_max_476x317.jpeg",
+  "loc": [
+   51.4634463,
+   -0.1302959
+  ],
+  "commute": {
+   "lcp": 37,
+   "tritax": 35,
+   "q5": 34,
+   "wentworth": 57
+  }
  },
  {
   "id": "rightmove-94396128",
@@ -14488,7 +16266,11 @@
    "why": "Let agreed on Rightmove",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4634463,
+   -0.1302959
+  ]
  },
  {
   "id": "rightmove-93258912",
@@ -14524,7 +16306,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/d994d203b/93258912/d994d203bd2ac62338944dc18a35677e_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/d994d203b/93258912/d994d203bd2ac62338944dc18a35677e_max_476x317.jpeg",
+  "loc": [
+   51.4716096,
+   -0.1281499
+  ],
+  "commute": {
+   "lcp": 34,
+   "tritax": 32,
+   "q5": 29,
+   "wentworth": 56
+  }
  },
  {
   "id": "jacksons-21315991",
@@ -14563,7 +16355,11 @@
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.45585,
+   -0.1417675
+  ]
  },
  {
   "id": "rightmove-92975328",
@@ -14605,7 +16401,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/fbe0313cf/92975328/fbe0313cf11101b970e0e227864dba0d_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/fbe0313cf/92975328/fbe0313cf11101b970e0e227864dba0d_max_476x317.jpeg",
+  "loc": [
+   51.4606728,
+   -0.1307871
+  ],
+  "commute": {
+   "lcp": 40,
+   "tritax": 37,
+   "q5": 36,
+   "wentworth": 56
+  }
  },
  {
   "id": "rightmove-93843693",
@@ -14647,7 +16453,11 @@
    "why": "Let agreed on Foxtons",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4606728,
+   -0.1307871
+  ]
  },
  {
   "id": "rightmove-92633793",
@@ -14683,7 +16493,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/2471d0432/92633793/2471d0432dd9c3fd351b60bbcf3384f9_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/2471d0432/92633793/2471d0432dd9c3fd351b60bbcf3384f9_max_476x317.jpeg",
+  "loc": [
+   51.4643792,
+   -0.1228794
+  ],
+  "commute": {
+   "lcp": 42,
+   "tritax": 40,
+   "q5": 39,
+   "wentworth": 58
+  }
  },
  {
   "id": "jacksons-20750717",
@@ -14722,7 +16542,11 @@
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4677744,
+   -0.1231673
+  ]
  },
  {
   "id": "rightmove-93851427",
@@ -14769,7 +16593,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/906a22fbb/93851427/906a22fbb3ea66222aa84e42d10f70ce_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/906a22fbb/93851427/906a22fbb3ea66222aa84e42d10f70ce_max_476x317.jpeg",
+  "loc": [
+   51.4677744,
+   -0.1231673
+  ],
+  "commute": {
+   "lcp": 37,
+   "tritax": 35,
+   "q5": 34,
+   "wentworth": 57
+  }
  },
  {
   "id": "rightmove-93029460",
@@ -14804,7 +16638,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/21ffa1d78/93029460/21ffa1d7814e36f2d17801817143f6a7_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/21ffa1d78/93029460/21ffa1d7814e36f2d17801817143f6a7_max_476x317.jpeg",
+  "loc": [
+   51.4657502,
+   -0.1264332
+  ],
+  "commute": {
+   "lcp": 37,
+   "tritax": 35,
+   "q5": 34,
+   "wentworth": 57
+  }
  },
  {
   "id": "rightmove-94432608",
@@ -14843,7 +16687,11 @@
    "why": "Let agreed on Rightmove",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4644431,
+   -0.1607206
+  ]
  },
  {
   "id": "rightmove-94415574",
@@ -14884,7 +16732,17 @@
     "marshandparsons"
    ]
   ],
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4692933,
+   -0.1475552
+  ],
+  "commute": {
+   "lcp": 44,
+   "tritax": 44,
+   "q5": 35,
+   "wentworth": 52
+  }
  },
  {
   "id": "onthemarket-19589191",
@@ -14925,7 +16783,11 @@
    "why": "Advert taken down on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4622033,
+   -0.1533703
+  ]
  },
  {
   "id": "rightmove-93944349",
@@ -14974,7 +16836,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/876ec777f/93944349/876ec777ff1e40751a087fd1a31af2af_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/876ec777f/93944349/876ec777ff1e40751a087fd1a31af2af_max_476x317.jpeg",
+  "loc": [
+   51.4623844,
+   -0.1311834
+  ],
+  "commute": {
+   "lcp": 39,
+   "tritax": 37,
+   "q5": 36,
+   "wentworth": 56
+  }
  },
  {
   "id": "jacksons-20841003",
@@ -15013,7 +16885,11 @@
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.457925,
+   -0.1307308
+  ]
  },
  {
   "id": "onthemarket-20361129",
@@ -15053,7 +16929,11 @@
    "why": "Advert taken down on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4572351,
+   -0.1827069
+  ]
  },
  {
   "id": "rightmove-93328425",
@@ -15103,7 +16983,17 @@
    "onthemarket-19872255"
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://media.onthemarket.com/properties/20370358/1645490248/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20370358/1645490248/image-0-1024x1024.jpg",
+  "loc": [
+   51.4490202,
+   -0.1843565
+  ],
+  "commute": {
+   "lcp": 55,
+   "tritax": 55,
+   "q5": 43,
+   "wentworth": 48
+  }
  },
  {
   "id": "onthemarket-19830945",
@@ -15144,7 +17034,11 @@
    "why": "Advert taken down on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4331345,
+   -0.1809817
+  ]
  },
  {
   "id": "onthemarket-20344440",
@@ -15187,7 +17081,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://media.onthemarket.com/properties/20344440/1644521561/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20344440/1644521561/image-0-1024x1024.jpg",
+  "loc": [
+   51.4611346,
+   -0.1786516
+  ],
+  "commute": {
+   "lcp": 52,
+   "tritax": 49,
+   "q5": 40,
+   "wentworth": 49
+  }
  },
  {
   "id": "onthemarket-20492025",
@@ -15226,7 +17130,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4435803,
+   -0.1826796
+  ]
  },
  {
   "id": "onthemarket-20462375",
@@ -15265,7 +17173,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4294184,
+   -0.1776989
+  ]
  },
  {
   "id": "jacksons-20832295",
@@ -15304,7 +17216,11 @@
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4339487,
+   -0.181575
+  ]
  },
  {
   "id": "onthemarket-20231361",
@@ -15344,7 +17260,11 @@
    "why": "Advert taken down on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4382703,
+   -0.1880335
+  ]
  },
  {
   "id": "jacksons-17725899",
@@ -15383,7 +17303,11 @@
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.441582,
+   -0.185317
+  ]
  },
  {
   "id": "dexters-286100",
@@ -15427,7 +17351,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://media.onthemarket.com/properties/20565757/1652493304/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20565757/1652493304/image-0-1024x1024.jpg",
+  "loc": [
+   51.4408403,
+   -0.1840039
+  ],
+  "commute": {
+   "lcp": 51,
+   "tritax": 50,
+   "q5": 39,
+   "wentworth": 50
+  }
  },
  {
   "id": "rightmove-94002129",
@@ -15465,7 +17399,11 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://media.onthemarket.com/properties/20463505/1649120162/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20463505/1649120162/image-0-1024x1024.jpg",
+  "loc": [
+   51.3976989,
+   -0.2413892
+  ]
  },
  {
   "id": "foxtons-chpk2868924",
@@ -15500,7 +17438,11 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1787940062/42/98/682/chpk2868924/edited_chpk2868924-1.jpg"
+  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1787940062/42/98/682/chpk2868924/edited_chpk2868924-1.jpg",
+  "loc": [
+   51.4165098,
+   -0.2807669
+  ]
  },
  {
   "id": "onthemarket-20017322",
@@ -15540,7 +17482,11 @@
    "why": "Advert taken down on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.3880291,
+   -0.2648397
+  ]
  },
  {
   "id": "onthemarket-16739832",
@@ -15580,7 +17526,11 @@
    "why": "Advert taken down on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.3887345,
+   -0.2619938
+  ]
  },
  {
   "id": "onthemarket-12208576",
@@ -15620,7 +17570,11 @@
    "why": "Advert taken down on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.395225,
+   -0.2632524
+  ]
  },
  {
   "id": "openrent-2391338",
@@ -15654,7 +17608,11 @@
     "openrent"
    ]
   ],
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.3871956,
+   -0.272286
+  ]
  },
  {
   "id": "onthemarket-20462435",
@@ -15693,7 +17651,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.3934235,
+   -0.2513193
+  ]
  },
  {
   "id": "zoopla-74509785",
@@ -15735,7 +17697,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://lid.zoocdn.com/u/480/360/9630e4a81e1f1709301b7a5d7d79d9565ff28c24.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/9630e4a81e1f1709301b7a5d7d79d9565ff28c24.jpg",
+  "loc": [
+   51.4484266,
+   -0.2386322
+  ],
+  "commute": {
+   "lcp": 66,
+   "tritax": 63,
+   "q5": 54,
+   "wentworth": 40
+  }
  },
  {
   "id": "rightmove-94306125",
@@ -15791,7 +17763,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://media.onthemarket.com/properties/17725282/1655755426/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/17725282/1655755426/image-0-1024x1024.jpg",
+  "loc": [
+   51.4592607,
+   -0.2122062
+  ],
+  "commute": {
+   "lcp": 48,
+   "tritax": 46,
+   "q5": 44,
+   "wentworth": 44
+  }
  },
  {
   "id": "zoopla-74516794",
@@ -15833,7 +17815,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://lid.zoocdn.com/u/480/360/1d5aa7a7b9dbc72210359c03c7d008990d2a0cab.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/1d5aa7a7b9dbc72210359c03c7d008990d2a0cab.jpg",
+  "loc": [
+   51.4572938,
+   -0.22079
+  ],
+  "commute": {
+   "lcp": 55,
+   "tritax": 52,
+   "q5": 43,
+   "wentworth": 43
+  }
  },
  {
   "id": "onthemarket-20082185",
@@ -15883,7 +17875,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://media.onthemarket.com/properties/20082185/1650268958/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20082185/1650268958/image-0-1024x1024.jpg",
+  "loc": [
+   51.4496369,
+   -0.24126
+  ],
+  "commute": {
+   "lcp": 66,
+   "tritax": 63,
+   "q5": 54,
+   "wentworth": 41
+  }
  },
  {
   "id": "onthemarket-8848009",
@@ -15922,7 +17924,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4616103,
+   -0.2164641
+  ]
  },
  {
   "id": "onthemarket-20043391",
@@ -15962,7 +17968,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4586969,
+   -0.2419712
+  ]
  },
  {
   "id": "onthemarket-10273374",
@@ -16001,7 +18011,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4573325,
+   -0.2131966
+  ]
  },
  {
   "id": "onthemarket-15746713",
@@ -16041,7 +18055,11 @@
    "why": "Advert taken down on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4487078,
+   -0.2009142
+  ]
  },
  {
   "id": "zoopla-66815210",
@@ -16084,7 +18102,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://media.onthemarket.com/properties/14459988/1652505355/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/14459988/1652505355/image-0-1024x1024.jpg",
+  "loc": [
+   51.4644943,
+   -0.2171333
+  ],
+  "commute": {
+   "lcp": 58,
+   "tritax": 54,
+   "q5": 46,
+   "wentworth": 45
+  }
  },
  {
   "id": "dexters-285933",
@@ -16128,7 +18156,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://media.onthemarket.com/properties/20547683/1651937531/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20547683/1651937531/image-0-1024x1024.jpg",
+  "loc": [
+   51.4568736,
+   -0.1985642
+  ],
+  "commute": {
+   "lcp": 58,
+   "tritax": 54,
+   "q5": 47,
+   "wentworth": 44
+  }
  },
  {
   "id": "onthemarket-20146164",
@@ -16168,7 +18206,11 @@
    "why": "Advert taken down on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4532078,
+   -0.2121696
+  ]
  },
  {
   "id": "rightmove-93656460",
@@ -16210,7 +18252,11 @@
   "off_market": {
    "why": "Let agreed on OpenRent",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4520855,
+   -0.2094417
+  ]
  },
  {
   "id": "dexters-285237",
@@ -16301,7 +18347,11 @@
    "why": "Advert taken down on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4544431,
+   -0.2095717
+  ]
  },
  {
   "id": "onthemarket-19834910",
@@ -16341,7 +18391,11 @@
    "why": "Advert taken down on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.397259,
+   -0.2353257
+  ]
  },
  {
   "id": "onthemarket-20268934",
@@ -16398,7 +18452,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://media.onthemarket.com/properties/20268934/1641907062/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20268934/1641907062/image-0-1024x1024.jpg",
+  "loc": [
+   51.4051122,
+   -0.2312726
+  ],
+  "commute": {
+   "lcp": 60,
+   "tritax": 59,
+   "q5": 49,
+   "wentworth": 36
+  }
  },
  {
   "id": "rightmove-93999582",
@@ -16437,7 +18501,11 @@
    "why": "Advert taken down on Rightmove",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4114983,
+   -0.2367156
+  ]
  },
  {
   "id": "openrent-1739357",
@@ -16472,7 +18540,17 @@
     "openrent"
    ]
   ],
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4496369,
+   -0.24126
+  ],
+  "commute": {
+   "lcp": 66,
+   "tritax": 63,
+   "q5": 54,
+   "wentworth": 41
+  }
  },
  {
   "id": "zoopla-74509791",
@@ -16514,7 +18592,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://lid.zoocdn.com/u/480/360/1e23fce7e52db1415b4d2d58f4bba07d8df7937d.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/1e23fce7e52db1415b4d2d58f4bba07d8df7937d.jpg",
+  "loc": [
+   51.4466922,
+   -0.2420346
+  ],
+  "commute": {
+   "lcp": 68,
+   "tritax": 65,
+   "q5": 56,
+   "wentworth": 42
+  }
  },
  {
   "id": "jacksons-19939623",
@@ -16553,7 +18641,11 @@
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.442134,
+   -0.2031711
+  ]
  },
  {
   "id": "onthemarket-20074244",
@@ -16592,7 +18684,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.442134,
+   -0.2031711
+  ]
  },
  {
   "id": "foxtons-chpk0011995",
@@ -16631,7 +18727,11 @@
    "why": "Advert taken down on Foxtons",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.442468,
+   -0.2012333
+  ]
  },
  {
   "id": "onthemarket-20459093",
@@ -16670,7 +18770,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.442468,
+   -0.2012333
+  ]
  },
  {
   "id": "rightmove-93002520",
@@ -16715,7 +18819,11 @@
    "why": "Let agreed on Foxtons",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.442303,
+   -0.2021986
+  ]
  },
  {
   "id": "onthemarket-20462338",
@@ -16754,7 +18862,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4269649,
+   -0.1513765
+  ]
  },
  {
   "id": "onthemarket-17023954",
@@ -16793,7 +18905,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4240455,
+   -0.1740095
+  ]
  },
  {
   "id": "onthemarket-20387939",
@@ -16832,7 +18948,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.421526,
+   -0.1782553
+  ]
  },
  {
   "id": "rightmove-94316217",
@@ -16869,7 +18989,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://media.onthemarket.com/properties/20553820/1652034642/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20553820/1652034642/image-0-1024x1024.jpg",
+  "loc": [
+   51.4306337,
+   -0.1674592
+  ],
+  "commute": {
+   "lcp": 48,
+   "tritax": 46,
+   "q5": 44,
+   "wentworth": 49
+  }
  },
  {
   "id": "onthemarket-20462342",
@@ -16908,7 +19038,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.432369,
+   -0.1593596
+  ]
  },
  {
   "id": "zoopla-69903168",
@@ -16944,7 +19078,11 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://lid.zoocdn.com/u/480/360/106b28e9ccfd2e52f796c20959bdd05ae85293cf.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/106b28e9ccfd2e52f796c20959bdd05ae85293cf.jpg",
+  "loc": [
+   51.4914475,
+   -0.0997408
+  ]
  },
  {
   "id": "zoopla-64980972",
@@ -16980,7 +19118,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://lid.zoocdn.com/u/480/360/d4d4bf69f6ce7f8cb5680ff9161dbce82355f10c.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/d4d4bf69f6ce7f8cb5680ff9161dbce82355f10c.jpg",
+  "loc": [
+   51.4242614,
+   -0.1654421
+  ],
+  "commute": {
+   "lcp": 49,
+   "tritax": 47,
+   "q5": 45,
+   "wentworth": 47
+  }
  },
  {
   "id": "jacksons-21049857",
@@ -17019,7 +19167,11 @@
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4255598,
+   -0.1525293
+  ]
  },
  {
   "id": "zoopla-74509837",
@@ -17061,7 +19213,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://lid.zoocdn.com/u/480/360/4bb4c20c7609fd920aec857232d68750f6ea7dfd.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/4bb4c20c7609fd920aec857232d68750f6ea7dfd.jpg",
+  "loc": [
+   51.4204555,
+   -0.1573608
+  ],
+  "commute": {
+   "lcp": 54,
+   "tritax": 52,
+   "q5": 51,
+   "wentworth": 49
+  }
  },
  {
   "id": "onthemarket-20462346",
@@ -17100,7 +19262,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.420691,
+   -0.1483667
+  ]
  },
  {
   "id": "onthemarket-20462420",
@@ -17139,7 +19305,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4275896,
+   -0.1618579
+  ]
  },
  {
   "id": "onthemarket-20462351",
@@ -17179,7 +19349,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4304951,
+   -0.1695923
+  ]
  },
  {
   "id": "zoopla-64731392",
@@ -17214,7 +19388,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://lid.zoocdn.com/u/480/360/45aba3a12272a9b51f1d525df8559eccc433fa6a.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/45aba3a12272a9b51f1d525df8559eccc433fa6a.jpg",
+  "loc": [
+   51.4304951,
+   -0.1695923
+  ],
+  "commute": {
+   "lcp": 48,
+   "tritax": 46,
+   "q5": 44,
+   "wentworth": 49
+  }
  },
  {
   "id": "onthemarket-20462317",
@@ -17253,7 +19437,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4339868,
+   -0.1594715
+  ]
  },
  {
   "id": "onthemarket-20462340",
@@ -17311,7 +19499,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4287622,
+   -0.1622741
+  ]
  },
  {
   "id": "onthemarket-20187375",
@@ -17351,7 +19543,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4301151,
+   -0.1646335
+  ]
  },
  {
   "id": "openrent-3077153",
@@ -17389,7 +19585,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://media.onthemarket.com/properties/20575161/1652759640/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20575161/1652759640/image-0-1024x1024.jpg",
+  "loc": [
+   51.4199416,
+   -0.1592254
+  ],
+  "commute": {
+   "lcp": 53,
+   "tritax": 50,
+   "q5": 50,
+   "wentworth": 48
+  }
  },
  {
   "id": "onthemarket-15581944",
@@ -17458,7 +19664,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4324365,
+   -0.1618773
+  ]
  },
  {
   "id": "onthemarket-20227896",
@@ -17497,7 +19707,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4248907,
+   -0.1735287
+  ]
  },
  {
   "id": "onthemarket-20462376",
@@ -17536,7 +19750,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.424228,
+   -0.147129
+  ]
  },
  {
   "id": "onthemarket-20462393",
@@ -17575,7 +19793,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4223966,
+   -0.1503363
+  ]
  },
  {
   "id": "onthemarket-20462398",
@@ -17614,7 +19836,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4212825,
+   -0.1570466
+  ]
  },
  {
   "id": "onthemarket-11732556",
@@ -17653,7 +19879,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4296419,
+   -0.1648571
+  ]
  },
  {
   "id": "onthemarket-20462365",
@@ -17692,7 +19922,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4325986,
+   -0.1585901
+  ]
  },
  {
   "id": "onthemarket-20041014",
@@ -17727,7 +19961,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://media.onthemarket.com/properties/20041014/1633321536/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20041014/1633321536/image-0-1024x1024.jpg",
+  "loc": [
+   51.4271576,
+   -0.1646761
+  ],
+  "commute": {
+   "lcp": 45,
+   "tritax": 43,
+   "q5": 41,
+   "wentworth": 48
+  }
  },
  {
   "id": "onthemarket-20033441",
@@ -17766,7 +20010,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4271576,
+   -0.1646761
+  ]
  },
  {
   "id": "zoopla-34024705",
@@ -17801,7 +20049,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://lid.zoocdn.com/u/480/360/4050ea84cc78835639671cea428b518873ec4219.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/4050ea84cc78835639671cea428b518873ec4219.jpg",
+  "loc": [
+   51.4271576,
+   -0.1646761
+  ],
+  "commute": {
+   "lcp": 45,
+   "tritax": 43,
+   "q5": 41,
+   "wentworth": 48
+  }
  },
  {
   "id": "onthemarket-20040553",
@@ -17843,7 +20101,11 @@
   "off_market": {
    "why": "Advert taken down on OnTheMarket",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.426738,
+   -0.1641819
+  ]
  },
  {
   "id": "zoopla-42725380",
@@ -17878,7 +20140,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://lid.zoocdn.com/u/480/360/e325f727aef843c05c8160993ba649f1f3d60f08.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/e325f727aef843c05c8160993ba649f1f3d60f08.jpg",
+  "loc": [
+   51.426738,
+   -0.1641819
+  ],
+  "commute": {
+   "lcp": 46,
+   "tritax": 44,
+   "q5": 42,
+   "wentworth": 48
+  }
  },
  {
   "id": "onthemarket-20239106",
@@ -17919,7 +20191,11 @@
    "why": "Advert taken down on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4202868,
+   -0.1731104
+  ]
  },
  {
   "id": "marsh---parsons-rps_mpa-vbr2302355",
@@ -17958,7 +20234,11 @@
    "why": "Advert taken down on marshandparsons",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.416541,
+   -0.15403
+  ]
  },
  {
   "id": "onthemarket-13243862",
@@ -17994,7 +20274,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://media.onthemarket.com/properties/13243862/1446301014/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/13243862/1446301014/image-0-1024x1024.jpg",
+  "loc": [
+   51.4336368,
+   -0.1662125
+  ],
+  "commute": {
+   "lcp": 50,
+   "tritax": 47,
+   "q5": 46,
+   "wentworth": 48
+  }
  },
  {
   "id": "openrent-3040857",
@@ -18029,7 +20319,17 @@
     "openrent"
    ]
   ],
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4700333,
+   -0.1747161
+  ],
+  "commute": {
+   "lcp": 50,
+   "tritax": 48,
+   "q5": 39,
+   "wentworth": 48
+  }
  },
  {
   "id": "cound-cound_005301",
@@ -18068,7 +20368,11 @@
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-26"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4604117,
+   -0.1864358
+  ]
  },
  {
   "id": "openrent-3038288",
@@ -18195,7 +20499,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4311011,
+   -0.1713606
+  ]
  },
  {
   "id": "jacksons-18858213",
@@ -18234,7 +20542,11 @@
    "why": "ChatGPT sweep says let agreed",
    "checked": "2026-10-25"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4373895,
+   -0.1632397
+  ]
  },
  {
   "id": "onthemarket-20382446",
@@ -18273,7 +20585,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4478974,
+   -0.1594659
+  ]
  },
  {
   "id": "onthemarket-18488646",
@@ -18308,7 +20624,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://media.onthemarket.com/properties/18488646/1588024028/image-0-1024x1024.png"
+  "photo": "https://media.onthemarket.com/properties/18488646/1588024028/image-0-1024x1024.png",
+  "loc": [
+   51.4117038,
+   -0.232184
+  ],
+  "commute": {
+   "lcp": 56,
+   "tritax": 55,
+   "q5": 45,
+   "wentworth": 38
+  }
  },
  {
   "id": "rightmove-93173022",
@@ -18346,7 +20672,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://media.onthemarket.com/properties/20341486/1644410365/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20341486/1644410365/image-0-1024x1024.jpg",
+  "loc": [
+   51.4048111,
+   -0.2108334
+  ],
+  "commute": {
+   "lcp": 60,
+   "tritax": 58,
+   "q5": 55,
+   "wentworth": 38
+  }
  },
  {
   "id": "zoopla-74310432",
@@ -18424,7 +20760,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://lid.zoocdn.com/u/480/360/9df4b27f0ee87f2738be1ce7abaca3c84c220576.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/9df4b27f0ee87f2738be1ce7abaca3c84c220576.jpg",
+  "loc": [
+   51.4096004,
+   -0.2292118
+  ],
+  "commute": {
+   "lcp": 54,
+   "tritax": 53,
+   "q5": 43,
+   "wentworth": 37
+  }
  },
  {
   "id": "onthemarket-20462430",
@@ -18463,7 +20809,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4168548,
+   -0.2297554
+  ]
  },
  {
   "id": "onthemarket-20219261",
@@ -18504,7 +20854,11 @@
    "why": "Advert taken down on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4069604,
+   -0.2025981
+  ]
  },
  {
   "id": "onthemarket-20104198",
@@ -18543,7 +20897,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4127443,
+   -0.2300342
+  ]
  },
  {
   "id": "onthemarket-20113695",
@@ -18583,7 +20941,11 @@
    "why": "Advert taken down on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.414512,
+   -0.1973199
+  ]
  },
  {
   "id": "onthemarket-19815731",
@@ -18622,7 +20984,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4155181,
+   -0.1924194
+  ]
  },
  {
   "id": "rightmove-94132983",
@@ -18663,7 +21029,11 @@
   "off_market": {
    "why": "Let agreed on OpenRent",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4016321,
+   -0.2080484
+  ]
  },
  {
   "id": "onthemarket-20122205",
@@ -18702,7 +21072,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4133567,
+   -0.2302969
+  ]
  },
  {
   "id": "zoopla-72010768",
@@ -18750,7 +21124,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://lid.zoocdn.com/u/480/360/676bedb47f32b6d178492899dab600a5265f2de9.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/676bedb47f32b6d178492899dab600a5265f2de9.jpg",
+  "loc": [
+   51.4121737,
+   -0.1783048
+  ],
+  "commute": {
+   "lcp": 52,
+   "tritax": 50,
+   "q5": 48,
+   "wentworth": 45
+  }
  },
  {
   "id": "onthemarket-20365669",
@@ -18792,7 +21176,11 @@
   "off_market": {
    "why": "Advert taken down on OnTheMarket",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4507477,
+   -0.1332163
+  ]
  },
  {
   "id": "marsh-parsons-vbr1424319",
@@ -18832,7 +21220,11 @@
    "why": "Let agreed on marshandparsons",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T17:19Z"
+  "added_at": "2026-10-18T17:19Z",
+  "loc": [
+   51.4162197,
+   -0.2359478
+  ]
  },
  {
   "id": "marsh-parsons-csv162350",
@@ -18872,7 +21264,11 @@
    "why": "Let agreed on marshandparsons",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T17:19Z"
+  "added_at": "2026-10-18T17:19Z",
+  "loc": [
+   51.4313412,
+   -0.1535944
+  ]
  },
  {
   "id": "marsh-parsons-csv160252",
@@ -18912,7 +21308,11 @@
    "why": "Let agreed on marshandparsons",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T17:19Z"
+  "added_at": "2026-10-18T17:19Z",
+  "loc": [
+   51.4290562,
+   -0.1540747
+  ]
  },
  {
   "id": "marsh-parsons-csv190481",
@@ -18952,7 +21352,11 @@
    "why": "Let agreed on marshandparsons",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T17:19Z"
+  "added_at": "2026-10-18T17:19Z",
+  "loc": [
+   51.4284161,
+   -0.1524351
+  ]
  },
  {
   "id": "marsh-parsons-tol250154",
@@ -18992,7 +21396,11 @@
    "why": "Let agreed on marshandparsons",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T17:19Z"
+  "added_at": "2026-10-18T17:19Z",
+  "loc": [
+   51.4320687,
+   -0.1740293
+  ]
  },
  {
   "id": "marsh-parsons-too240416",
@@ -19032,7 +21440,11 @@
    "why": "Let agreed on marshandparsons",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T17:19Z"
+  "added_at": "2026-10-18T17:19Z",
+  "loc": [
+   51.4325986,
+   -0.1585901
+  ]
  },
  {
   "id": "marsh-parsons-vbr1425883",
@@ -19072,7 +21484,11 @@
    "why": "Let agreed on marshandparsons",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T17:19Z"
+  "added_at": "2026-10-18T17:19Z",
+  "loc": [
+   51.4235025,
+   -0.2072773
+  ]
  },
  {
   "id": "marsh-parsons-vbr1424945",
@@ -19112,7 +21528,11 @@
    "why": "Let agreed on marshandparsons",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T17:19Z"
+  "added_at": "2026-10-18T17:19Z",
+  "loc": [
+   51.4230795,
+   -0.2066971
+  ]
  },
  {
   "id": "marsh-parsons-vbr2378278",
@@ -19152,7 +21572,11 @@
    "why": "Let agreed on marshandparsons",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T17:19Z"
+  "added_at": "2026-10-18T17:19Z",
+  "loc": [
+   51.4184112,
+   -0.2049561
+  ]
  },
  {
   "id": "marsh-parsons-vbr1423259",
@@ -19192,7 +21616,11 @@
    "why": "Let agreed on marshandparsons",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T17:19Z"
+  "added_at": "2026-10-18T17:19Z",
+  "loc": [
+   51.4175417,
+   -0.2257375
+  ]
  },
  {
   "id": "marsh-parsons-vbr2412452",
@@ -19232,7 +21660,11 @@
    "why": "Let agreed on marshandparsons",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T17:19Z"
+  "added_at": "2026-10-18T17:19Z",
+  "loc": [
+   51.4155149,
+   -0.213351
+  ]
  },
  {
   "id": "marsh-parsons-vbr1424354",
@@ -19272,7 +21704,11 @@
    "why": "Let agreed on marshandparsons",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T17:19Z"
+  "added_at": "2026-10-18T17:19Z",
+  "loc": [
+   51.4331317,
+   -0.2173814
+  ]
  },
  {
   "id": "marsh-parsons-vbr1427261",
@@ -19312,7 +21748,11 @@
    "why": "Let agreed on marshandparsons",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T17:19Z"
+  "added_at": "2026-10-18T17:19Z",
+  "loc": [
+   51.4172925,
+   -0.1994673
+  ]
  },
  {
   "id": "marsh-parsons-vbr1394603",
@@ -19352,7 +21792,11 @@
    "why": "Let agreed on marshandparsons",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T17:19Z"
+  "added_at": "2026-10-18T17:19Z",
+  "loc": [
+   51.418696,
+   -0.2181605
+  ]
  },
  {
   "id": "zoopla-71454331",
@@ -19390,7 +21834,17 @@
    "walk": 4
   },
   "added_at": "2026-10-19T17:23Z",
-  "photo": "https://media.onthemarket.com/properties/17937659/1655355127/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/17937659/1655355127/image-0-1024x1024.jpg",
+  "loc": [
+   51.4297711,
+   -0.1700636
+  ],
+  "commute": {
+   "lcp": 49,
+   "tritax": 47,
+   "q5": 45,
+   "wentworth": 49
+  }
  },
  {
   "id": "zoopla-74546235",
@@ -19431,7 +21885,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-19T17:23Z"
+  "added_at": "2026-10-19T17:23Z",
+  "loc": [
+   51.4172223,
+   -0.191314
+  ]
  },
  {
   "id": "zoopla-74559212",
@@ -19468,7 +21926,17 @@
    "walk": 12
   },
   "added_at": "2026-10-20T17:24Z",
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/c553069fa/94523199/c553069fa322be933ca59c1df244ced4_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/c553069fa/94523199/c553069fa322be933ca59c1df244ced4_max_476x317.jpeg",
+  "loc": [
+   51.4550545,
+   -0.2017957
+  ],
+  "commute": {
+   "lcp": 61,
+   "tritax": 57,
+   "q5": 50,
+   "wentworth": 43
+  }
  },
  {
   "id": "john-d-wood-22229341",
@@ -19511,7 +21979,17 @@
    "walk": 14
   },
   "added_at": "2026-10-20T17:24Z",
-  "photo": "https://media.onthemarket.com/properties/20593727/1653488199/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20593727/1653488199/image-0-1024x1024.jpg",
+  "loc": [
+   51.4162197,
+   -0.2359478
+  ],
+  "commute": {
+   "lcp": 61,
+   "tritax": 59,
+   "q5": 50,
+   "wentworth": 38
+  }
  },
  {
   "id": "openrent-3039135",
@@ -19549,7 +22027,17 @@
    "walk": 4
   },
   "added_at": "2026-10-21T17:28Z",
-  "photo": "https://media.onthemarket.com/properties/20564028/1652354681/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20564028/1652354681/image-0-1024x1024.jpg",
+  "loc": [
+   51.4511044,
+   -0.1451632
+  ],
+  "commute": {
+   "lcp": 41,
+   "tritax": 39,
+   "q5": 37,
+   "wentworth": 54
+  }
  },
  {
   "id": "zoopla-74562521",
@@ -19585,7 +22073,17 @@
    "walk": 17
   },
   "added_at": "2026-10-21T17:28Z",
-  "photo": "https://media.onthemarket.com/properties/20594183/1653822484/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20594183/1653822484/image-0-1024x1024.jpg",
+  "loc": [
+   51.4339487,
+   -0.181575
+  ],
+  "commute": {
+   "lcp": 54,
+   "tritax": 50,
+   "q5": 50,
+   "wentworth": 48
+  }
  },
  {
   "id": "zoopla-74563552",
@@ -19622,7 +22120,11 @@
    "walk": 8
   },
   "added_at": "2026-10-21T17:28Z",
-  "photo": "https://media.onthemarket.com/properties/20595184/1653547662/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20595184/1653547662/image-0-1024x1024.jpg",
+  "loc": [
+   51.4552676,
+   -0.2059438
+  ]
  },
  {
   "id": "zoopla-74563450",
@@ -19660,7 +22162,17 @@
    "walk": 2
   },
   "added_at": "2026-10-21T17:28Z",
-  "photo": "https://media.onthemarket.com/properties/20595126/1653546817/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20595126/1653546817/image-0-1024x1024.jpg",
+  "loc": [
+   51.407954,
+   -0.2296958
+  ],
+  "commute": {
+   "lcp": 53,
+   "tritax": 52,
+   "q5": 42,
+   "wentworth": 35
+  }
  },
  {
   "id": "foxtons-chpk2574654",
@@ -19708,7 +22220,17 @@
    "walk": 15
   },
   "added_at": "2026-10-21T17:28Z",
-  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1792751934/45/64/752/chpk2574654/edited_chpk2574654-15.jpg"
+  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1792751934/45/64/752/chpk2574654/edited_chpk2574654-15.jpg",
+  "loc": [
+   51.4010859,
+   -0.2254913
+  ],
+  "commute": {
+   "lcp": 65,
+   "tritax": 64,
+   "q5": 56,
+   "wentworth": 37
+  }
  },
  {
   "id": "rampton-baseley-22231621",
@@ -19751,7 +22273,17 @@
    "walk": 12
   },
   "added_at": "2026-10-21T17:28Z",
-  "photo": "https://media.onthemarket.com/properties/13178951/1653771034/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/13178951/1653771034/image-0-1024x1024.jpg",
+  "loc": [
+   51.4432015,
+   -0.1773225
+  ],
+  "commute": {
+   "lcp": 61,
+   "tritax": 61,
+   "q5": 49,
+   "wentworth": 50
+  }
  },
  {
   "id": "zoopla-74575023",
@@ -19787,7 +22319,17 @@
    "walk": 7
   },
   "added_at": "2026-10-22T17:29Z",
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/b84fac7ad/94604028/b84fac7ad46c00ef9a76ddbaf97f9c40_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/b84fac7ad/94604028/b84fac7ad46c00ef9a76ddbaf97f9c40_max_476x317.jpeg",
+  "loc": [
+   51.4490292,
+   -0.1499133
+  ],
+  "commute": {
+   "lcp": 43,
+   "tritax": 41,
+   "q5": 39,
+   "wentworth": 53
+  }
  },
  {
   "id": "rightmove-94611774",
@@ -19821,7 +22363,17 @@
    "kind": "Tube",
    "walk": 8
   },
-  "added_at": "2026-10-22T17:29Z"
+  "added_at": "2026-10-22T17:29Z",
+  "loc": [
+   51.4606728,
+   -0.1307871
+  ],
+  "commute": {
+   "lcp": 40,
+   "tritax": 37,
+   "q5": 36,
+   "wentworth": 56
+  }
  },
  {
   "id": "foxtons-chpk0276247",
@@ -19864,7 +22416,11 @@
    "why": "Let agreed on Foxtons",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-22T17:29Z"
+  "added_at": "2026-10-22T17:29Z",
+  "loc": [
+   51.4581397,
+   -0.2029263
+  ]
  },
  {
   "id": "zoopla-74573121",
@@ -19902,7 +22458,17 @@
    "walk": 9
   },
   "added_at": "2026-10-22T17:29Z",
-  "photo": "https://media.onthemarket.com/properties/20602267/1653767621/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20602267/1653767621/image-0-1024x1024.jpg",
+  "loc": [
+   51.442633,
+   -0.2002624
+  ],
+  "commute": {
+   "lcp": 58,
+   "tritax": 56,
+   "q5": 50,
+   "wentworth": 46
+  }
  },
  {
   "id": "zoopla-71562052",
@@ -19940,7 +22506,17 @@
    "walk": 16
   },
   "added_at": "2026-10-22T17:29Z",
-  "photo": "https://media.onthemarket.com/properties/18012894/1653801770/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/18012894/1653801770/image-0-1024x1024.jpg",
+  "loc": [
+   51.4568736,
+   -0.1985642
+  ],
+  "commute": {
+   "lcp": 58,
+   "tritax": 54,
+   "q5": 47,
+   "wentworth": 44
+  }
  },
  {
   "id": "openrent-3083756",
@@ -19979,7 +22555,17 @@
    "walk": 7
   },
   "added_at": "2026-10-22T17:29Z",
-  "photo": "https://media.onthemarket.com/properties/20605983/1653844846/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20605983/1653844846/image-0-1024x1024.jpg",
+  "loc": [
+   51.4388797,
+   -0.185047
+  ],
+  "commute": {
+   "lcp": 52,
+   "tritax": 51,
+   "q5": 40,
+   "wentworth": 49
+  }
  },
  {
   "id": "dexters-286605",
@@ -20028,7 +22614,17 @@
    "walk": 9
   },
   "added_at": "2026-10-23T17:21Z",
-  "photo": "https://media.onthemarket.com/properties/20614048/1654084701/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20614048/1654084701/image-0-1024x1024.jpg",
+  "loc": [
+   51.4231965,
+   -0.1955025
+  ],
+  "commute": {
+   "lcp": 59,
+   "tritax": 57,
+   "q5": 48,
+   "wentworth": 43
+  }
  },
  {
   "id": "zoopla-74588190",
@@ -20066,7 +22662,17 @@
    "walk": 9
   },
   "added_at": "2026-10-23T17:21Z",
-  "photo": "https://media.onthemarket.com/properties/20615371/1654119552/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20615371/1654119552/image-0-1024x1024.jpg",
+  "loc": [
+   51.4168716,
+   -0.2056344
+  ],
+  "commute": {
+   "lcp": 56,
+   "tritax": 55,
+   "q5": 45,
+   "wentworth": 41
+  }
  },
  {
   "id": "hamptons-22242327",
@@ -20104,7 +22710,11 @@
    "walk": 6
   },
   "added_at": "2026-10-24T17:19Z",
-  "photo": "https://media.onthemarket.com/properties/20620643/1654330264/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20620643/1654330264/image-0-1024x1024.jpg",
+  "loc": [
+   51.4563268,
+   -0.2155636
+  ]
  },
  {
   "id": "zoopla-64064254",
@@ -20141,7 +22751,17 @@
    "walk": 6
   },
   "added_at": "2026-10-24T17:19Z",
-  "photo": "https://media.onthemarket.com/properties/20621156/1654345094/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20621156/1654345094/image-0-1024x1024.jpg",
+  "loc": [
+   51.414512,
+   -0.1973199
+  ],
+  "commute": {
+   "lcp": 52,
+   "tritax": 50,
+   "q5": 48,
+   "wentworth": 41
+  }
  },
  {
   "id": "rightmove-94271229",
@@ -20196,7 +22816,17 @@
    "walk": 17
   },
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/f2b7db542/94271229/f2b7db542552fbcb132d3ed143e17a2b_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/f2b7db542/94271229/f2b7db542552fbcb132d3ed143e17a2b_max_476x317.jpeg",
+  "loc": [
+   51.4339487,
+   -0.181575
+  ],
+  "commute": {
+   "lcp": 54,
+   "tritax": 50,
+   "q5": 50,
+   "wentworth": 48
+  }
  },
  {
   "id": "rightmove-93951570",
@@ -20237,7 +22867,17 @@
    "kind": "Rail",
    "walk": 15
   },
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/5207fa836/93951570/5207fa83606b8f365b3dcc73c8e13d56_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/5207fa836/93951570/5207fa83606b8f365b3dcc73c8e13d56_max_476x317.jpeg",
+  "loc": [
+   51.4331345,
+   -0.1809817
+  ],
+  "commute": {
+   "lcp": 53,
+   "tritax": 49,
+   "q5": 50,
+   "wentworth": 47
+  }
  },
  {
   "id": "onthemarket-18656989",
@@ -20279,7 +22919,11 @@
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4694729,
+   -0.2267181
+  ]
  },
  {
   "id": "onthemarket-19872255",
@@ -20323,7 +22967,11 @@
    "why": "Advert taken down on OnTheMarket",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "loc": [
+   51.4490202,
+   -0.1843565
+  ]
  },
  {
   "id": "rightmove-94552758",
@@ -20360,7 +23008,17 @@
    "walk": 12
   },
   "added_at": "2026-10-25T18:28Z",
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/1ff356f67/94552758/1ff356f671dd24e724feb4c9f6a9be19_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/1ff356f67/94552758/1ff356f671dd24e724feb4c9f6a9be19_max_476x317.jpeg",
+  "loc": [
+   51.4654089,
+   -0.196003
+  ],
+  "commute": {
+   "lcp": 59,
+   "tritax": 57,
+   "q5": 50,
+   "wentworth": 44
+  }
  },
  {
   "id": "zoopla-74444273",
@@ -20397,7 +23055,17 @@
    "walk": 12
   },
   "added_at": "2026-10-25T18:28Z",
-  "photo": "https://media.onthemarket.com/properties/20494281/1650288470/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20494281/1650288470/image-0-1024x1024.jpg",
+  "loc": [
+   51.483498,
+   -0.2142886
+  ],
+  "commute": {
+   "lcp": 46,
+   "tritax": 48,
+   "q5": 46,
+   "wentworth": 38
+  }
  },
  {
   "id": "rightmove-94314492",
@@ -20433,7 +23101,17 @@
    "walk": 14
   },
   "added_at": "2026-10-25T18:28Z",
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/1c2e920ea/94314492/1c2e920ea69cfd413732950ff3be5512_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/1c2e920ea/94314492/1c2e920ea69cfd413732950ff3be5512_max_476x317.jpeg",
+  "loc": [
+   51.4820654,
+   -0.2078313
+  ],
+  "commute": {
+   "lcp": 50,
+   "tritax": 48,
+   "q5": 46,
+   "wentworth": 39
+  }
  },
  {
   "id": "marsh-parsons-cct240261",
@@ -20473,7 +23151,11 @@
    "why": "Let agreed on marshandparsons",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-25T18:28Z"
+  "added_at": "2026-10-25T18:28Z",
+  "loc": [
+   51.4934284,
+   -0.2126202
+  ]
  },
  {
   "id": "onthemarket-16222723",
@@ -20508,7 +23190,17 @@
    "walk": 11
   },
   "added_at": "2026-10-25T18:28Z",
-  "photo": "https://media.onthemarket.com/properties/16222723/1522149666/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/16222723/1522149666/image-0-1024x1024.jpg",
+  "loc": [
+   51.4843649,
+   -0.2167331
+  ],
+  "commute": {
+   "lcp": 44,
+   "tritax": 49,
+   "q5": 48,
+   "wentworth": 38
+  }
  },
  {
   "id": "zoopla-74588671",
@@ -20545,7 +23237,17 @@
    "walk": 11
   },
   "added_at": "2026-10-25T18:28Z",
-  "photo": "https://media.onthemarket.com/properties/20615935/1654662401/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20615935/1654662401/image-0-1024x1024.jpg",
+  "loc": [
+   51.4843649,
+   -0.2167331
+  ],
+  "commute": {
+   "lcp": 44,
+   "tritax": 49,
+   "q5": 48,
+   "wentworth": 38
+  }
  },
  {
   "id": "foxtons-chpk2207750",
@@ -20589,7 +23291,17 @@
    "walk": 6
   },
   "added_at": "2026-10-25T18:28Z",
-  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1788127604/05/77/022/chpk2207750/edited_chpk2207750-1.jpg"
+  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1788127604/05/77/022/chpk2207750/edited_chpk2207750-1.jpg",
+  "loc": [
+   51.4871001,
+   -0.2135629
+  ],
+  "commute": {
+   "lcp": 42,
+   "tritax": 41,
+   "q5": 41,
+   "wentworth": 38
+  }
  },
  {
   "id": "marsh-parsons-bkl050043",
@@ -20661,7 +23373,17 @@
    "walk": 3
   },
   "added_at": "2026-10-25T18:28Z",
-  "photo": "https://lid.zoocdn.com/u/480/360/e8a4c59787b69041b6c8f3cb69a33f812bd3a53f.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/e8a4c59787b69041b6c8f3cb69a33f812bd3a53f.jpg",
+  "loc": [
+   51.4931015,
+   -0.2207411
+  ],
+  "commute": {
+   "lcp": 36,
+   "tritax": 41,
+   "q5": 40,
+   "wentworth": 36
+  }
  },
  {
   "id": "zoopla-74314978",
@@ -20708,7 +23430,17 @@
    "walk": 4
   },
   "added_at": "2026-10-25T18:28Z",
-  "photo": "https://lid.zoocdn.com/u/480/360/0c948397a4982b9be53ea4e8986e04848439a867.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/0c948397a4982b9be53ea4e8986e04848439a867.jpg",
+  "loc": [
+   51.4957518,
+   -0.2278046
+  ],
+  "commute": {
+   "lcp": 35,
+   "tritax": 43,
+   "q5": 42,
+   "wentworth": 37
+  }
  },
  {
   "id": "marsh-parsons-csz161121",
@@ -20748,7 +23480,11 @@
    "why": "Advert taken down on marshandparsons",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-25T18:28Z"
+  "added_at": "2026-10-25T18:28Z",
+  "loc": [
+   51.4895982,
+   -0.2130988
+  ]
  },
  {
   "id": "onthemarket-10566174",
@@ -20783,7 +23519,17 @@
    "walk": 11
   },
   "added_at": "2026-10-25T18:28Z",
-  "photo": "https://media.onthemarket.com/properties/10566174/1641399307/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/10566174/1641399307/image-0-1024x1024.jpg",
+  "loc": [
+   51.4858377,
+   -0.2236244
+  ],
+  "commute": {
+   "lcp": 42,
+   "tritax": 48,
+   "q5": 47,
+   "wentworth": 37
+  }
  },
  {
   "id": "marsh-parsons-bkl070196",
@@ -20823,7 +23569,11 @@
    "kind": "Overground",
    "walk": 5
   },
-  "added_at": "2026-10-25T18:28Z"
+  "added_at": "2026-10-25T18:28Z",
+  "loc": [
+   51.4948279,
+   -0.2102169
+  ]
  },
  {
   "id": "marsh-parsons-bkl080413",
@@ -20863,7 +23613,11 @@
    "why": "Let agreed on marshandparsons",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-25T18:28Z"
+  "added_at": "2026-10-25T18:28Z",
+  "loc": [
+   51.493841,
+   -0.2239266
+  ]
  },
  {
   "id": "chestertons-22053481",
@@ -20897,7 +23651,17 @@
    "kind": "Tube",
    "walk": 8
   },
-  "added_at": "2026-10-25T18:28Z"
+  "added_at": "2026-10-25T18:28Z",
+  "loc": [
+   51.4875962,
+   -0.2224458
+  ],
+  "commute": {
+   "lcp": 40,
+   "tritax": 44,
+   "q5": 44,
+   "wentworth": 36
+  }
  },
  {
   "id": "openrent-3079838",
@@ -20934,7 +23698,17 @@
    "walk": 3
   },
   "added_at": "2026-10-25T18:28Z",
-  "photo": "https://media.onthemarket.com/properties/20581507/1653119331/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20581507/1653119331/image-0-1024x1024.jpg",
+  "loc": [
+   51.4909785,
+   -0.225518
+  ],
+  "commute": {
+   "lcp": 36,
+   "tritax": 40,
+   "q5": 39,
+   "wentworth": 35
+  }
  },
  {
   "id": "rightmove-94605714",
@@ -20969,7 +23743,17 @@
    "kind": "Rail",
    "walk": 11
   },
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/38334b422/94605714/38334b422dfff0050c24d0e16794bcf4_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/38334b422/94605714/38334b422dfff0050c24d0e16794bcf4_max_476x317.jpeg",
+  "loc": [
+   51.4590784,
+   -0.1661187
+  ],
+  "commute": {
+   "lcp": 50,
+   "tritax": 48,
+   "q5": 40,
+   "wentworth": 50
+  }
  },
  {
   "id": "onthemarket-20614508",
@@ -21008,7 +23792,11 @@
   "off_market": {
    "why": "Advert taken down on OnTheMarket",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4647962,
+   -0.1779493
+  ]
  },
  {
   "id": "rightmove-92727258",
@@ -21049,7 +23837,11 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-10-31"
-  }
+  },
+  "loc": [
+   51.4711419,
+   -0.1987125
+  ]
  },
  {
   "id": "openrent-3065407",
@@ -21083,7 +23875,17 @@
    "kind": "Tube",
    "walk": 7
   },
-  "added_at": "2026-10-25T22:27Z"
+  "added_at": "2026-10-25T22:27Z",
+  "loc": [
+   51.4725881,
+   -0.196461
+  ],
+  "commute": {
+   "lcp": 52,
+   "tritax": 50,
+   "q5": 47,
+   "wentworth": 43
+  }
  },
  {
   "id": "onthemarket-19039243",
@@ -21125,7 +23927,17 @@
    "walk": 10
   },
   "added_at": "2026-10-26T17:22Z",
-  "photo": "https://media.onthemarket.com/properties/19039243/1654630650/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/19039243/1654630650/image-0-1024x1024.jpg",
+  "loc": [
+   51.4337238,
+   -0.1683463
+  ],
+  "commute": {
+   "lcp": 52,
+   "tritax": 49,
+   "q5": 48,
+   "wentworth": 48
+  }
  },
  {
   "id": "onthemarket-17963710",
@@ -21167,7 +23979,17 @@
    "walk": 20
   },
   "added_at": "2026-10-26T17:22Z",
-  "photo": "https://media.onthemarket.com/properties/17963710/1654652909/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/17963710/1654652909/image-0-1024x1024.jpg",
+  "loc": [
+   51.440321,
+   -0.2223424
+  ],
+  "commute": {
+   "lcp": 61,
+   "tritax": 60,
+   "q5": 52,
+   "wentworth": 43
+  }
  },
  {
   "id": "onthemarket-20627722",
@@ -21215,7 +24037,17 @@
    "walk": 7
   },
   "added_at": "2026-10-26T17:22Z",
-  "photo": "https://media.onthemarket.com/properties/20627722/1654676800/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20627722/1654676800/image-0-1024x1024.jpg",
+  "loc": [
+   51.4051122,
+   -0.2312726
+  ],
+  "commute": {
+   "lcp": 60,
+   "tritax": 59,
+   "q5": 49,
+   "wentworth": 36
+  }
  },
  {
   "id": "onthemarket-20629394",
@@ -21252,7 +24084,17 @@
    "walk": 6
   },
   "added_at": "2026-10-26T18:19Z",
-  "photo": "https://media.onthemarket.com/properties/20629394/1655349552/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20629394/1655349552/image-0-1024x1024.jpg",
+  "loc": [
+   51.432369,
+   -0.1593596
+  ],
+  "commute": {
+   "lcp": 48,
+   "tritax": 46,
+   "q5": 44,
+   "wentworth": 49
+  }
  },
  {
   "id": "marshandparsons-CSV182009",
@@ -21291,7 +24133,11 @@
    "checked": "2026-10-31"
   },
   "checked": "2026-10-31",
-  "added_at": "2026-10-26T22:45Z"
+  "added_at": "2026-10-26T22:45Z",
+  "loc": [
+   51.4776255,
+   -0.1485719
+  ]
  },
  {
   "id": "marshandparsons-VBR2535277",
@@ -21390,7 +24236,17 @@
   },
   "checked": "2026-10-31",
   "added_at": "2026-10-26T22:45Z",
-  "photo": "https://dx-mail-items.s3.eu-west-2.amazonaws.com/webimg/mpa/6c5fa2bac5c6e94b3278bd1df09f9642"
+  "photo": "https://dx-mail-items.s3.eu-west-2.amazonaws.com/webimg/mpa/6c5fa2bac5c6e94b3278bd1df09f9642",
+  "loc": [
+   51.49621,
+   -0.2712875
+  ],
+  "commute": {
+   "lcp": 53,
+   "tritax": 55,
+   "q5": 53,
+   "wentworth": 33
+  }
  },
  {
   "id": "onthemarket-20630963",
@@ -21432,7 +24288,17 @@
    "kind": "Tube",
    "walk": 4
   },
-  "photo": "https://media.onthemarket.com/properties/20630963/1654752081/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20630963/1654752081/image-0-1024x1024.jpg",
+  "loc": [
+   51.4477154,
+   -0.2090267
+  ],
+  "commute": {
+   "lcp": 54,
+   "tritax": 52,
+   "q5": 49,
+   "wentworth": 44
+  }
  },
  {
   "id": "onthemarket-20631317",
@@ -21479,7 +24345,17 @@
    "walk": 9
   },
   "added_at": "2026-10-27T11:27Z",
-  "photo": "https://media.onthemarket.com/properties/20631317/1655194646/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20631317/1655194646/image-0-1024x1024.jpg",
+  "loc": [
+   51.4405073,
+   -0.1467126
+  ],
+  "commute": {
+   "lcp": 47,
+   "tritax": 45,
+   "q5": 44,
+   "wentworth": 53
+  }
  },
  {
   "id": "onthemarket-18774487",
@@ -21526,7 +24402,17 @@
    "walk": 13
   },
   "added_at": "2026-10-27T11:27Z",
-  "photo": "https://media.onthemarket.com/properties/18774487/1654849157/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/18774487/1654849157/image-0-1024x1024.jpg",
+  "loc": [
+   51.5018741,
+   -0.2473062
+  ],
+  "commute": {
+   "lcp": 46,
+   "tritax": 49,
+   "q5": 52,
+   "wentworth": 37
+  }
  },
  {
   "id": "onthemarket-20635761",
@@ -21574,7 +24460,17 @@
    "walk": 7
   },
   "added_at": "2026-10-27T16:49Z",
-  "photo": "https://media.onthemarket.com/properties/20635761/1654892803/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20635761/1654892803/image-0-1024x1024.jpg",
+  "loc": [
+   51.4868937,
+   -0.2180555
+  ],
+  "commute": {
+   "lcp": 44,
+   "tritax": 43,
+   "q5": 43,
+   "wentworth": 37
+  }
  },
  {
   "id": "onthemarket-20594022",
@@ -21615,7 +24511,17 @@
    "walk": 5
   },
   "added_at": "2026-10-27T16:49Z",
-  "photo": "https://media.onthemarket.com/properties/20594022/1653527981/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20594022/1653527981/image-0-1024x1024.jpg",
+  "loc": [
+   51.4942313,
+   -0.210287
+  ],
+  "commute": {
+   "lcp": 41,
+   "tritax": 38,
+   "q5": 36,
+   "wentworth": 38
+  }
  },
  {
   "id": "onthemarket-20577848",
@@ -21659,7 +24565,17 @@
    "walk": 6
   },
   "added_at": "2026-10-27T18:19Z",
-  "photo": "https://media.onthemarket.com/properties/20577848/1653005462/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20577848/1653005462/image-0-1024x1024.jpg",
+  "loc": [
+   51.4925859,
+   -0.256164
+  ],
+  "commute": {
+   "lcp": 48,
+   "tritax": 48,
+   "q5": 48,
+   "wentworth": 33
+  }
  },
  {
   "id": "barnardmarcus-22233505",
@@ -21699,7 +24615,17 @@
    "kind": "Tube",
    "walk": 11
   },
-  "added_at": "2026-10-27T18:19Z"
+  "added_at": "2026-10-27T18:19Z",
+  "loc": [
+   51.4852871,
+   -0.2773245
+  ],
+  "commute": {
+   "lcp": 63,
+   "tritax": 60,
+   "q5": 57,
+   "wentworth": 32
+  }
  },
  {
   "id": "zoopla-73581398",
@@ -21749,7 +24675,17 @@
    "walk": 19
   },
   "added_at": "2026-10-27T18:19Z",
-  "photo": "https://lid.zoocdn.com/u/480/360/9152ee0594c9f6ec155e226a4b3d99434ea4bc8b.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/9152ee0594c9f6ec155e226a4b3d99434ea4bc8b.jpg",
+  "loc": [
+   51.4847412,
+   -0.25077
+  ],
+  "commute": {
+   "lcp": 58,
+   "tritax": 59,
+   "q5": 59,
+   "wentworth": 34
+  }
  },
  {
   "id": "zoopla-73900859",
@@ -21789,7 +24725,11 @@
    "why": "Advert taken down on Zoopla",
    "checked": "2026-10-31"
   },
-  "added_at": "2026-10-27T18:19Z"
+  "added_at": "2026-10-27T18:19Z",
+  "loc": [
+   51.4847412,
+   -0.25077
+  ]
  },
  {
   "id": "onthemarket-20397950",
@@ -21833,7 +24773,17 @@
    "walk": 7
   },
   "added_at": "2026-10-27T18:19Z",
-  "photo": "https://media.onthemarket.com/properties/20397950/1646619164/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20397950/1646619164/image-0-1024x1024.jpg",
+  "loc": [
+   51.4881843,
+   -0.2830464
+  ],
+  "commute": {
+   "lcp": 61,
+   "tritax": 58,
+   "q5": 55,
+   "wentworth": 31
+  }
  },
  {
   "id": "foxtons-ptny6431059",
@@ -21867,7 +24817,17 @@
    "kind": "Tube",
    "walk": 17
   },
-  "added_at": "2026-10-27T18:19Z"
+  "added_at": "2026-10-27T18:19Z",
+  "loc": [
+   51.5062495,
+   -0.2415285
+  ],
+  "commute": {
+   "lcp": 41,
+   "tritax": 43,
+   "q5": 54,
+   "wentworth": 39
+  }
  },
  {
   "id": "foxtons-chpk2301451",
@@ -21901,7 +24861,17 @@
    "kind": "Tube",
    "walk": 17
   },
-  "added_at": "2026-10-27T18:19Z"
+  "added_at": "2026-10-27T18:19Z",
+  "loc": [
+   51.5062495,
+   -0.2415285
+  ],
+  "commute": {
+   "lcp": 41,
+   "tritax": 43,
+   "q5": 54,
+   "wentworth": 39
+  }
  },
  {
   "id": "foxtons-chpk2315177",
@@ -21944,7 +24914,17 @@
    "walk": 22
   },
   "added_at": "2026-10-27T18:19Z",
-  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1787931375/77/15/132/chpk2315177/edited_chpk2315177-1.jpg"
+  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1787931375/77/15/132/chpk2315177/edited_chpk2315177-1.jpg",
+  "loc": [
+   51.5115308,
+   -0.2439443
+  ],
+  "commute": {
+   "lcp": 43,
+   "tritax": 47,
+   "q5": 57,
+   "wentworth": 41
+  }
  },
  {
   "id": "foxtons-chpk2305951",
@@ -21979,7 +24959,17 @@
    "walk": 8
   },
   "added_at": "2026-10-27T18:19Z",
-  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1790378738/15/95/032/chpk2305951/edited_chpk2305951-1.jpg"
+  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1790378738/15/95/032/chpk2305951/edited_chpk2305951-1.jpg",
+  "loc": [
+   51.5047505,
+   -0.2332476
+  ],
+  "commute": {
+   "lcp": 38,
+   "tritax": 43,
+   "q5": 53,
+   "wentworth": 40
+  }
  },
  {
   "id": "onthemarket-20601917",
@@ -22021,7 +25011,17 @@
    "walk": 4
   },
   "added_at": "2026-10-28T18:15Z",
-  "photo": "https://media.onthemarket.com/properties/20601917/1653760808/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20601917/1653760808/image-0-1024x1024.jpg",
+  "loc": [
+   51.4511044,
+   -0.1451632
+  ],
+  "commute": {
+   "lcp": 41,
+   "tritax": 39,
+   "q5": 37,
+   "wentworth": 54
+  }
  },
  {
   "id": "zoopla-74625691",
@@ -22062,7 +25062,17 @@
    "walk": 11
   },
   "added_at": "2026-10-28T18:15Z",
-  "photo": "https://lid.zoocdn.com/u/480/360/6c98e7f69cebadd2f258cd72075c11d6c375d392.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/6c98e7f69cebadd2f258cd72075c11d6c375d392.jpg",
+  "loc": [
+   51.4028094,
+   -0.2153794
+  ],
+  "commute": {
+   "lcp": 59,
+   "tritax": 57,
+   "q5": 55,
+   "wentworth": 38
+  }
  },
  {
   "id": "onthemarket-20646386",
@@ -22110,7 +25120,17 @@
    "walk": 15
   },
   "added_at": "2026-10-28T18:15Z",
-  "photo": "https://media.onthemarket.com/properties/20646386/1655204721/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20646386/1655204721/image-0-1024x1024.jpg",
+  "loc": [
+   51.5079236,
+   -0.238875
+  ],
+  "commute": {
+   "lcp": 41,
+   "tritax": 44,
+   "q5": 54,
+   "wentworth": 39
+  }
  },
  {
   "id": "zoopla-74626256",
@@ -22157,7 +25177,17 @@
   },
   "checked": "2026-10-31",
   "added_at": "2026-10-28T18:37Z",
-  "photo": "https://lid.zoocdn.com/u/480/360/66417817ffd7d05754a80e9ae37dcf4b9e0739dc.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/66417817ffd7d05754a80e9ae37dcf4b9e0739dc.jpg",
+  "loc": [
+   51.4579317,
+   -0.1989942
+  ],
+  "commute": {
+   "lcp": 59,
+   "tritax": 56,
+   "q5": 47,
+   "wentworth": 45
+  }
  },
  {
   "id": "onthemarket-20647670",
@@ -22204,7 +25234,17 @@
   },
   "checked": "2026-10-31",
   "added_at": "2026-10-29T08:26Z",
-  "photo": "https://media.onthemarket.com/properties/20647670/1655328883/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20647670/1655328883/image-0-1024x1024.jpg",
+  "loc": [
+   51.4287622,
+   -0.1622741
+  ],
+  "commute": {
+   "lcp": 50,
+   "tritax": 48,
+   "q5": 46,
+   "wentworth": 48
+  }
  },
  {
   "id": "onthemarket-15896230",
@@ -22245,7 +25285,17 @@
   },
   "checked": "2026-10-31",
   "added_at": "2026-10-29T15:24Z",
-  "photo": "https://media.onthemarket.com/properties/15896230/1649985741/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/15896230/1649985741/image-0-1024x1024.jpg",
+  "loc": [
+   51.4096573,
+   -0.2267923
+  ],
+  "commute": {
+   "lcp": 55,
+   "tritax": 54,
+   "q5": 44,
+   "wentworth": 36
+  }
  },
  {
   "id": "onthemarket-20651061",
@@ -22298,7 +25348,17 @@
   },
   "checked": "2026-10-31",
   "added_at": "2026-10-29T15:24Z",
-  "photo": "https://media.onthemarket.com/properties/20651061/1655402581/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20651061/1655402581/image-0-1024x1024.jpg",
+  "loc": [
+   51.4168548,
+   -0.2297554
+  ],
+  "commute": {
+   "lcp": 59,
+   "tritax": 57,
+   "q5": 48,
+   "wentworth": 38
+  }
  },
  {
   "id": "rightmove-174678032",
@@ -22344,7 +25404,17 @@
    "kind": "Rail",
    "walk": 11
   },
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/436cd5acc/174678032/436cd5acc3f4059173a6f90f9587428d_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/436cd5acc/174678032/436cd5acc3f4059173a6f90f9587428d_max_476x317.jpeg",
+  "loc": [
+   51.4708751,
+   -0.1756996
+  ],
+  "commute": {
+   "lcp": 54,
+   "tritax": 52,
+   "q5": 42,
+   "wentworth": 47
+  }
  },
  {
   "id": "onthemarket-8910110",
@@ -22399,7 +25469,17 @@
   },
   "checked": "2026-10-31",
   "added_at": "2026-10-30T11:41Z",
-  "photo": "https://media.onthemarket.com/properties/8910110/1655608686/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/8910110/1655608686/image-0-1024x1024.jpg",
+  "loc": [
+   51.4685125,
+   -0.1536091
+  ],
+  "commute": {
+   "lcp": 49,
+   "tritax": 47,
+   "q5": 38,
+   "wentworth": 52
+  }
  },
  {
   "id": "zoopla-74636546",
@@ -22440,7 +25520,17 @@
   },
   "checked": "2026-10-31",
   "added_at": "2026-10-30T17:12Z",
-  "photo": "https://lid.zoocdn.com/u/480/360/7d979e56955509f2e1a949fd9ce2ee07748f9548.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/7d979e56955509f2e1a949fd9ce2ee07748f9548.jpg",
+  "loc": [
+   51.4191681,
+   -0.1642935
+  ],
+  "commute": {
+   "lcp": 53,
+   "tritax": 51,
+   "q5": 52,
+   "wentworth": 48
+  }
  },
  {
   "id": "onthemarket-15925797",
@@ -22491,7 +25581,11 @@
    "checked": "2026-10-31"
   },
   "checked": "2026-10-31",
-  "added_at": "2026-10-30T17:12Z"
+  "added_at": "2026-10-30T17:12Z",
+  "loc": [
+   51.4520855,
+   -0.2094417
+  ]
  },
  {
   "id": "onthemarket-20406560",
@@ -22532,7 +25626,17 @@
   },
   "checked": "2026-10-31",
   "added_at": "2026-10-30T17:12Z",
-  "photo": "https://media.onthemarket.com/properties/20406560/1655634568/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20406560/1655634568/image-0-1024x1024.jpg",
+  "loc": [
+   51.4617079,
+   -0.2097804
+  ],
+  "commute": {
+   "lcp": 52,
+   "tritax": 50,
+   "q5": 44,
+   "wentworth": 44
+  }
  },
  {
   "id": "rightmove-94939650",
@@ -22575,7 +25679,17 @@
   },
   "checked": "2026-10-31",
   "added_at": "2026-10-30T17:12Z",
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/2b69022aa/94939650/2b69022aa703a9a6ae1be7c9adf16bb5_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/2b69022aa/94939650/2b69022aa703a9a6ae1be7c9adf16bb5_max_476x317.jpeg",
+  "loc": [
+   51.4691607,
+   -0.1386059
+  ],
+  "commute": {
+   "lcp": 43,
+   "tritax": 43,
+   "q5": 30,
+   "wentworth": 54
+  }
  },
  {
   "id": "onthemarket-20659623",
@@ -22628,7 +25742,17 @@
   },
   "checked": "2026-10-31",
   "added_at": "2026-10-30T17:12Z",
-  "photo": "https://media.onthemarket.com/properties/20659623/1655672364/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20659623/1655672364/image-0-1024x1024.jpg",
+  "loc": [
+   51.4580362,
+   -0.2048611
+  ],
+  "commute": {
+   "lcp": 52,
+   "tritax": 50,
+   "q5": 48,
+   "wentworth": 45
+  }
  },
  {
   "id": "onthemarket-20605689",
@@ -22664,7 +25788,17 @@
    "walk": 7
   },
   "added_at": "2026-10-30T18:05Z",
-  "photo": "https://media.onthemarket.com/properties/20605689/1653826949/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20605689/1653826949/image-0-1024x1024.jpg",
+  "loc": [
+   51.5005738,
+   -0.2638076
+  ],
+  "commute": {
+   "lcp": 48,
+   "tritax": 51,
+   "q5": 56,
+   "wentworth": 34
+  }
  },
  {
   "id": "foxtons-chpk2297386",
@@ -22698,7 +25832,17 @@
    "kind": "Overground",
    "walk": 1
   },
-  "added_at": "2026-10-30T18:05Z"
+  "added_at": "2026-10-30T18:05Z",
+  "loc": [
+   51.5060297,
+   -0.2180489
+  ],
+  "commute": {
+   "lcp": 28,
+   "tritax": 30,
+   "q5": 41,
+   "wentworth": 46
+  }
  },
  {
   "id": "ellisonsuk-34970827",
@@ -22748,7 +25892,17 @@
    "kind": "Rail",
    "walk": 9
   },
-  "added_at": "2026-10-30T18:05Z"
+  "added_at": "2026-10-30T18:05Z",
+  "loc": [
+   51.4213671,
+   -0.1931187
+  ],
+  "commute": {
+   "lcp": 58,
+   "tritax": 56,
+   "q5": 50,
+   "wentworth": 43
+  }
  },
  {
   "id": "onthemarket-20581525",
@@ -22789,7 +25943,17 @@
   },
   "checked": "2026-10-31",
   "added_at": "2026-10-30T21:30Z",
-  "photo": "https://media.onthemarket.com/properties/20581525/1653119637/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20581525/1653119637/image-0-1024x1024.jpg",
+  "loc": [
+   51.4230795,
+   -0.2066971
+  ],
+  "commute": {
+   "lcp": 54,
+   "tritax": 53,
+   "q5": 43,
+   "wentworth": 42
+  }
  },
  {
   "id": "rightmove-90706671",
@@ -22823,6 +25987,16 @@
    "name": "Wimbledon Park",
    "kind": "Tube",
    "walk": 19
+  },
+  "loc": [
+   51.4333009,
+   -0.2155453
+  ],
+  "commute": {
+   "lcp": 68,
+   "tritax": 63,
+   "q5": 59,
+   "wentworth": 44
   }
  },
  {
@@ -22858,6 +26032,16 @@
    "name": "East Acton",
    "kind": "Tube",
    "walk": 4
+  },
+  "loc": [
+   51.5146647,
+   -0.247587
+  ],
+  "commute": {
+   "lcp": 35,
+   "tritax": 38,
+   "q5": 48,
+   "wentworth": 41
   }
  },
  {
@@ -22893,6 +26077,16 @@
    "name": "Malden Manor",
    "kind": "Rail",
    "walk": 40
+  },
+  "loc": [
+   51.370317,
+   -0.2880501
+  ],
+  "commute": {
+   "lcp": 74,
+   "tritax": 74,
+   "q5": 67,
+   "wentworth": 32
   }
  },
  {
@@ -22928,6 +26122,16 @@
    "name": "East Acton",
    "kind": "Tube",
    "walk": 4
+  },
+  "loc": [
+   51.5146647,
+   -0.247587
+  ],
+  "commute": {
+   "lcp": 35,
+   "tritax": 38,
+   "q5": 48,
+   "wentworth": 41
   }
  },
  {
@@ -22963,6 +26167,16 @@
    "name": "East Acton",
    "kind": "Tube",
    "walk": 4
+  },
+  "loc": [
+   51.5148649,
+   -0.2448756
+  ],
+  "commute": {
+   "lcp": 37,
+   "tritax": 40,
+   "q5": 50,
+   "wentworth": 40
   }
  },
  {
@@ -22998,6 +26212,16 @@
    "name": "East Acton",
    "kind": "Tube",
    "walk": 4
+  },
+  "loc": [
+   51.5148649,
+   -0.2448756
+  ],
+  "commute": {
+   "lcp": 37,
+   "tritax": 40,
+   "q5": 50,
+   "wentworth": 40
   }
  },
  {
@@ -23033,6 +26257,16 @@
    "name": "Shepherd's Bush Market",
    "kind": "Tube",
    "walk": 9
+  },
+  "loc": [
+   51.5070955,
+   -0.2340919
+  ],
+  "commute": {
+   "lcp": 38,
+   "tritax": 41,
+   "q5": 52,
+   "wentworth": 40
   }
  },
  {
@@ -23068,6 +26302,16 @@
    "name": "East Acton",
    "kind": "Tube",
    "walk": 4
+  },
+  "loc": [
+   51.5148649,
+   -0.2448756
+  ],
+  "commute": {
+   "lcp": 37,
+   "tritax": 40,
+   "q5": 50,
+   "wentworth": 40
   }
  },
  {
@@ -23103,6 +26347,16 @@
    "name": "Shepherd's Bush Market",
    "kind": "Tube",
    "walk": 15
+  },
+  "loc": [
+   51.504333,
+   -0.2389019
+  ],
+  "commute": {
+   "lcp": 42,
+   "tritax": 45,
+   "q5": 53,
+   "wentworth": 38
   }
  },
  {
@@ -23138,6 +26392,16 @@
    "name": "Chiswick Park",
    "kind": "Tube",
    "walk": 5
+  },
+  "loc": [
+   51.4925636,
+   -0.2651482
+  ],
+  "commute": {
+   "lcp": 49,
+   "tritax": 49,
+   "q5": 48,
+   "wentworth": 32
   }
  },
  {
@@ -23173,6 +26437,16 @@
    "name": "Imperial Wharf",
    "kind": "Rail",
    "walk": 13
+  },
+  "loc": [
+   51.4726156,
+   -0.1725297
+  ],
+  "commute": {
+   "lcp": 54,
+   "tritax": 52,
+   "q5": 43,
+   "wentworth": 48
   }
  },
  {
@@ -23214,6 +26488,16 @@
    "name": "Shepherd's Bush Market",
    "kind": "Tube",
    "walk": 4
+  },
+  "loc": [
+   51.5067441,
+   -0.2294042
+  ],
+  "commute": {
+   "lcp": 32,
+   "tritax": 40,
+   "q5": 49,
+   "wentworth": 41
   }
  },
  {
@@ -23249,6 +26533,16 @@
    "name": "Shepherd's Bush Market",
    "kind": "Tube",
    "walk": 15
+  },
+  "loc": [
+   51.504333,
+   -0.2389019
+  ],
+  "commute": {
+   "lcp": 42,
+   "tritax": 45,
+   "q5": 53,
+   "wentworth": 38
   }
  },
  {
@@ -23284,6 +26578,16 @@
    "name": "Shepherd's Bush Market",
    "kind": "Tube",
    "walk": 15
+  },
+  "loc": [
+   51.504333,
+   -0.2389019
+  ],
+  "commute": {
+   "lcp": 42,
+   "tritax": 45,
+   "q5": 53,
+   "wentworth": 38
   }
  },
  {
@@ -23319,6 +26623,16 @@
    "name": "Shepherd's Bush Market",
    "kind": "Tube",
    "walk": 16
+  },
+  "loc": [
+   51.5045418,
+   -0.2403288
+  ],
+  "commute": {
+   "lcp": 43,
+   "tritax": 46,
+   "q5": 54,
+   "wentworth": 39
   }
  },
  {
@@ -23354,6 +26668,16 @@
    "name": "Imperial Wharf",
    "kind": "Rail",
    "walk": 11
+  },
+  "loc": [
+   51.4708751,
+   -0.1756996
+  ],
+  "commute": {
+   "lcp": 54,
+   "tritax": 52,
+   "q5": 42,
+   "wentworth": 47
   }
  },
  {
@@ -23389,6 +26713,16 @@
    "name": "South Acton",
    "kind": "Overground",
    "walk": 7
+  },
+  "loc": [
+   51.5005738,
+   -0.2638076
+  ],
+  "commute": {
+   "lcp": 48,
+   "tritax": 51,
+   "q5": 56,
+   "wentworth": 34
   }
  },
  {
@@ -23424,6 +26758,16 @@
    "name": "South Acton",
    "kind": "Overground",
    "walk": 7
+  },
+  "loc": [
+   51.5005738,
+   -0.2638076
+  ],
+  "commute": {
+   "lcp": 48,
+   "tritax": 51,
+   "q5": 56,
+   "wentworth": 34
   }
  },
  {
@@ -23459,6 +26803,16 @@
    "name": "Stamford Brook",
    "kind": "Tube",
    "walk": 15
+  },
+  "loc": [
+   51.5035076,
+   -0.2454251
+  ],
+  "commute": {
+   "lcp": 46,
+   "tritax": 49,
+   "q5": 53,
+   "wentworth": 38
   }
  },
  {
@@ -23494,6 +26848,16 @@
    "name": "Queenstown Road",
    "kind": "Rail",
    "walk": 13
+  },
+  "loc": [
+   51.4715567,
+   -0.156045
+  ],
+  "commute": {
+   "lcp": 48,
+   "tritax": 46,
+   "q5": 45,
+   "wentworth": 49
   }
  },
  {
@@ -23529,6 +26893,16 @@
    "name": "Queenstown Road",
    "kind": "Rail",
    "walk": 5
+  },
+  "loc": [
+   51.4725492,
+   -0.14784
+  ],
+  "commute": {
+   "lcp": 45,
+   "tritax": 45,
+   "q5": 38,
+   "wentworth": 51
   }
  },
  {
@@ -23594,6 +26968,16 @@
    "name": "Chiswick Park",
    "kind": "Tube",
    "walk": 9
+  },
+  "loc": [
+   51.4896611,
+   -0.2660717
+  ],
+  "commute": {
+   "lcp": 53,
+   "tritax": 52,
+   "q5": 52,
+   "wentworth": 31
   }
  },
  {
@@ -23629,6 +27013,16 @@
    "name": "Clapham Junction",
    "kind": "Rail",
    "walk": 10
+  },
+  "loc": [
+   51.4696601,
+   -0.1739047
+  ],
+  "commute": {
+   "lcp": 49,
+   "tritax": 47,
+   "q5": 38,
+   "wentworth": 50
   }
  },
  {
@@ -23664,6 +27058,16 @@
    "name": "Imperial Wharf",
    "kind": "Rail",
    "walk": 13
+  },
+  "loc": [
+   51.4742611,
+   -0.1712574
+  ],
+  "commute": {
+   "lcp": 47,
+   "tritax": 51,
+   "q5": 45,
+   "wentworth": 48
   }
  },
  {
@@ -23703,6 +27107,16 @@
    "name": "Chiswick Park",
    "kind": "Tube",
    "walk": 5
+  },
+  "loc": [
+   51.49621,
+   -0.2712875
+  ],
+  "commute": {
+   "lcp": 53,
+   "tritax": 55,
+   "q5": 53,
+   "wentworth": 33
   }
  },
  {

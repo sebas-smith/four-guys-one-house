@@ -46,6 +46,12 @@ Site: https://sebas-smith.github.io/four-guys-one-house/
   another home stay there. When the drawn area grows, alerts only email adverts listed after that, so
   search the whole area once for homes already on the market (done 31 Oct for Rightmove).
   `scripts/split_merged.py` was a one-off (25 Oct) that split homes merged by mistake.
+- `scripts/commutes.py` runs after `stations.py` and times each live home's journey to our workplaces
+  (`data/workplaces.json`: LCP on Wigmore Street, Tritax in Soho, Q5 in Westminster by public transport
+  from TfL's Journey Planner, arriving 09:00 on a Wednesday; Wentworth Club by car from the public OSRM
+  router, no traffic). `scripts/rail_lines.py` made `data/lines.json` (Tube, Overground, Elizabeth line,
+  tram, DLR and National Rail track from OpenStreetMap) for the map; rerun it only if a line opens or the
+  area grows.
 
 ## Alert emails
 
@@ -106,7 +112,8 @@ no longer has tabs or tags for them.
 `added` (YYYY-MM-DD), `added_at` (UTC time it reached the list, `2026-10-31T14:55Z`; homes before 26 Oct
 have none), `photo` (advert image URL), `ruled_out` (why the scripts set `no`),
 `checked`, `notes` (list of strings), `prices` (list of `[date, rent, site]`),
-`station` (`{name, kind, walk}` minutes; the street is looked up with the postcode district from the
+`loc` (`[lat, lon]` of the street, from `stations.py`), `commute` (minutes to each workplace, keyed by
+`data/workplaces.json` ids), `station` (`{name, kind, walk}` minutes; the street is looked up with the postcode district from the
 title or an advert link), `off_market` (`{why, checked}`, set by `check_live.py`; one that only says
 "ChatGPT sweep says ..." is undone by a later sweep saying live),
 `not_same` (ids of homes that look alike but aren't; `dedupe.py` never merges them).

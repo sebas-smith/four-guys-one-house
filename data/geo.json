@@ -23,11 +23,19 @@
 51.4572351,
 -0.1827069
 ],
+"acris street|sw18": [
+51.4572351,
+-0.1827069
+],
 "acris street|wandsworth": [
 51.4572351,
 -0.1827069
 ],
 "alderbrook road|balham": [
+51.4490292,
+-0.1499133
+],
+"alderbrook road|sw12": [
 51.4490292,
 -0.1499133
 ],
@@ -52,9 +60,21 @@
 51.4484266,
 -0.2386322
 ],
+"alton road|sw15": [
+51.4484266,
+-0.2386322
+],
+"alwyne road|sw19": [
+51.4235025,
+-0.2072773
+],
 "alwyne road|wimbledon": [
 51.4235025,
 -0.2072773
+],
+"amberwood rise|kt3": [
+51.3907218,
+-0.2586414
 ],
 "amberwood rise|new malden": [
 51.3907218,
@@ -64,6 +84,10 @@
 51.4548461,
 -0.2039189
 ],
+"amity grove|sw20": [
+51.4117038,
+-0.232184
+],
 "amity grove|wimbledon": [
 51.4117038,
 -0.232184
@@ -72,7 +96,15 @@
 51.4505216,
 -0.239887
 ],
+"angel mews|sw15": [
+51.4505216,
+-0.239887
+],
 "ansell road tooting|tooting": [
+51.4336368,
+-0.1662125
+],
+"ansell road|sw17": [
 51.4336368,
 -0.1662125
 ],
@@ -93,6 +125,10 @@
 51.4634463,
 -0.1302959
 ],
+"ashbourne road|cr4": [
+51.4183874,
+-0.1553962
+],
 "ashbourne road|tooting": [
 51.4183874,
 -0.1553962
@@ -109,6 +145,10 @@
 51.4603703,
 -0.1274688
 ],
+"ashmere grove|sw2": [
+51.4603703,
+-0.1274688
+],
 "ashvale road|tooting": [
 51.4274087,
 -0.1667722
@@ -117,16 +157,32 @@
 51.4427987,
 -0.1992943
 ],
+"astonville street|sw18": [
+51.4427987,
+-0.1992943
+],
 "auriol road|hammersmith": [
 51.4934284,
 -0.2126202
 ],
+"auriol road|w14": [
+51.4934284,
+-0.2126202
+],
 "avonwick road|outside agreed scope": "2026-10-27",
+"aylward road|sw20": [
+51.4059805,
+-0.2083346
+],
 "aylward road|wimbledon": [
 51.4059805,
 -0.2083346
 ],
 "badric court sw11|wandsworth": [
+51.4700333,
+-0.1747161
+],
+"badric court|sw11": [
 51.4700333,
 -0.1747161
 ],
@@ -138,6 +194,10 @@
 51.4463492,
 -0.14954
 ],
+"ballantine street|sw18": [
+51.4604117,
+-0.1864358
+],
 "ballantine street|wandsworth": [
 51.4604117,
 -0.1864358
@@ -147,6 +207,10 @@
 -0.3047749
 ],
 "bangalore street|putney": [
+51.4661943,
+-0.2226633
+],
+"bangalore street|sw15": [
 51.4661943,
 -0.2226633
 ],
@@ -162,9 +226,17 @@
 51.5062495,
 -0.2415285
 ],
+"becklow gardens|w12": [
+51.5062495,
+-0.2415285
+],
 "bedford hill|balham": [
 51.4442715,
 -0.1505678
+],
+"bedford hill|sw12": [
+51.4401658,
+-0.1482971
 ],
 "beechcroft road|tooting": [
 51.4345239,
@@ -174,6 +246,10 @@
 51.4413297,
 -0.1706413
 ],
+"belmont avenue|kt3": [
+51.3976989,
+-0.2413892
+],
 "belmont avenue|new malden": [
 51.3976989,
 -0.2413892
@@ -182,9 +258,21 @@
 51.4647962,
 -0.1779493
 ],
+"benham close|sw11": [
+51.4647962,
+-0.1779493
+],
 "beverley avenue|raynes park": [
 51.4146986,
 -0.24905
+],
+"beverley avenue|sw20": [
+51.4146986,
+-0.24905
+],
+"beverley road|kt3": [
+51.399896,
+-0.2471866
 ],
 "beverley road|new malden": [
 51.399896,
@@ -198,6 +286,10 @@
 51.4485719,
 -0.1605829
 ],
+"birchwood road|sw17": [
+51.4269649,
+-0.1513765
+],
 "birchwood road|tooting": [
 51.4269649,
 -0.1513765
@@ -206,9 +298,17 @@
 51.4240455,
 -0.1740095
 ],
+"blackshaw road|sw17": [
+51.4240455,
+-0.1740095
+],
 "blackshaw road|tooting": [
 51.4240455,
 -0.1740095
+],
+"blenheim gardens|kt2": [
+51.4165098,
+-0.2807669
 ],
 "blenheim gardens|new malden": [
 51.4165098,
@@ -230,6 +330,14 @@
 51.4210159,
 -0.179737
 ],
+"boundary road|sw19": [
+51.4210159,
+-0.179737
+],
+"boyd road|sw19": [
+51.421526,
+-0.1782553
+],
 "boyd road|tooting": [
 51.421526,
 -0.1782553
@@ -240,6 +348,10 @@
 ],
 "boyle court|outside agreed scope": "2026-10-27",
 "bracken avenue|balham": [
+51.4500719,
+-0.1536346
+],
+"bracken avenue|sw12": [
 51.4500719,
 -0.1536346
 ],
@@ -259,6 +371,10 @@
 51.4691607,
 -0.1386059
 ],
+"brayburne avenue|sw4": [
+51.4691607,
+-0.1386059
+],
 "brightwell crescent|tooting": [
 51.4240322,
 -0.1652915
@@ -267,6 +383,10 @@
 51.4527164,
 -0.1209525
 ],
+"brixton hill|sw2": [
+51.4598847,
+-0.1165057
+],
 "broadwater road|tooting": [
 51.4306337,
 -0.1674592
@@ -274,6 +394,14 @@
 "brooks court|clapham south": [
 51.4716096,
 -0.1281499
+],
+"brooks court|sw4": [
+51.4716096,
+-0.1281499
+],
+"brudenell road|sw17": [
+51.432369,
+-0.1593596
 ],
 "brudenell road|tooting": [
 51.432369,
@@ -290,6 +418,14 @@
 "bucharest road|putney": [
 51.4490202,
 -0.1843565
+],
+"bucharest road|sw18": [
+51.4490202,
+-0.1843565
+],
+"buckleigh avenue|sw20": [
+51.4048111,
+-0.2108334
 ],
 "buckleigh avenue|wimbledon": [
 51.4048111,
@@ -315,7 +451,15 @@
 51.4417248,
 -0.1489014
 ],
+"byrne road|sw12": [
+51.4417248,
+-0.1489014
+],
 "cannon close|raynes park": [
+51.402706,
+-0.2280903
+],
+"cannon close|sw20": [
 51.402706,
 -0.2280903
 ],
@@ -323,11 +467,23 @@
 51.4028094,
 -0.2153794
 ],
+"cannon hill lane|sw20": [
+51.4028094,
+-0.2153794
+],
+"canterbury place|sw17": [
+51.4914475,
+-0.0997408
+],
 "canterbury place|tooting": [
 51.4898997,
 -0.1023975
 ],
 "carlton drive|putney": [
+51.4592607,
+-0.2122062
+],
+"carlton drive|sw15": [
 51.4592607,
 -0.2122062
 ],
@@ -339,16 +495,28 @@
 51.4545325,
 -0.2277161
 ],
+"carslake road|sw15": [
+51.4545325,
+-0.2277161
+],
 "cathles road|balham": [
 51.4506498,
 -0.1479003
 ],
 "cedar avenue|twickenham": "2026-10-27",
+"charlmont road|sw17": [
+51.4242614,
+-0.1654421
+],
 "charlmont road|tooting": [
 51.4242614,
 -0.1654421
 ],
 "charlotte despard avenue|battersea": [
+51.4736441,
+-0.1543991
+],
+"charlotte despard avenue|sw11": [
 51.4736441,
 -0.1543991
 ],
@@ -368,11 +536,19 @@
 51.4107311,
 -0.2125685
 ],
+"chatsworth avenue|sw20": [
+51.4107311,
+-0.2125685
+],
 "chesterton close|wandsworth": [
 51.458263,
 -0.1990184
 ],
 "chiddingstone street|fulham": [
+51.4725881,
+-0.196461
+],
+"chiddingstone street|sw6": [
 51.4725881,
 -0.196461
 ],
@@ -385,6 +561,10 @@
 -0.2651482
 ],
 "church lane tooting|tooting": [
+51.4257722,
+-0.1584489
+],
+"church lane|sw17": [
 51.4257722,
 -0.1584489
 ],
@@ -408,11 +588,23 @@
 51.4868937,
 -0.2180555
 ],
+"claybrook road|w6": [
+51.4868937,
+-0.2180555
+],
+"clive road|sw19": [
+51.4207135,
+-0.1726528
+],
 "clive road|tooting": [
 51.4207135,
 -0.1726528
 ],
 "clonmore street|southfields": [
+51.442134,
+-0.2031711
+],
+"clonmore street|sw18": [
 51.442134,
 -0.2031711
 ],
@@ -425,6 +617,10 @@
 51.4909785,
 -0.225518
 ],
+"college court|w6": [
+51.4909785,
+-0.225518
+],
 "compton road|sw19": [
 51.4230795,
 -0.2066971
@@ -433,15 +629,27 @@
 51.4230795,
 -0.2066971
 ],
+"coombe lane|sw20": [
+51.4096004,
+-0.2292118
+],
 "coombe lane|wimbledon": [
 51.4095154,
 -0.2329622
+],
+"coral row|sw11": [
+51.4667473,
+-0.1816563
 ],
 "coral row|wandsworth": [
 51.4667473,
 -0.1816563
 ],
 "cornford grove|balham": [
+51.4405073,
+-0.1467126
+],
+"cornford grove|sw12": [
 51.4405073,
 -0.1467126
 ],
@@ -473,6 +681,10 @@
 51.4157516,
 -0.2370166
 ],
+"cranford close|sw20": [
+51.4157516,
+-0.2370166
+],
 "cranford close|wimbledon": [
 51.4157516,
 -0.2370166
@@ -481,7 +693,15 @@
 51.483498,
 -0.2142886
 ],
+"crefeld close|w6": [
+51.483498,
+-0.2142886
+],
 "crowborough road tooting|tooting": [
+51.4235375,
+-0.1576898
+],
+"crowborough road|sw17": [
 51.4235375,
 -0.1576898
 ],
@@ -490,6 +710,10 @@
 -0.1576898
 ],
 "daffodil street|shepherd's bush": [
+51.5115308,
+-0.2439443
+],
+"daffodil street|w12": [
 51.5115308,
 -0.2439443
 ],
@@ -509,9 +733,17 @@
 51.4496369,
 -0.24126
 ],
+"danebury avenue|sw15": [
+51.4496369,
+-0.24126
+],
 "davis road|": [
 51.370317,
 -0.2880501
+],
+"deal road|sw17": [
+51.4204555,
+-0.1573608
 ],
 "deal road|tooting": [
 51.4204555,
@@ -520,6 +752,10 @@
 "deeside road|tooting": [
 51.4350639,
 -0.1794444
+],
+"devey close|kt2": [
+51.4168965,
+-0.2539391
 ],
 "devey close|unverified geography": [
 51.4168965,
@@ -545,11 +781,19 @@
 51.4525729,
 -0.2338174
 ],
+"divis way|sw15": [
+51.4525729,
+-0.2338174
+],
 "drapers yard wandsworth|putney": [
 51.4576304,
 -0.1935138
 ],
 "drapers yard|putney": [
+51.4576304,
+-0.1935138
+],
+"drapers yard|sw18": [
 51.4576304,
 -0.1935138
 ],
@@ -569,6 +813,10 @@
 51.443386,
 -0.1896071
 ],
+"earlsfield road|sw18": [
+51.445986,
+-0.1786313
+],
 "earlsfield road|wandsworth": [
 51.4476815,
 -0.1839135
@@ -577,15 +825,27 @@
 51.4394315,
 -0.1609991
 ],
+"edencourt road|sw16": [
+51.420691,
+-0.1483667
+],
 "edencourt road|tooting": [
 51.420691,
 -0.1483667
+],
+"edenvale road|cr4": [
+51.4170898,
+-0.1557225
 ],
 "edenvale road|mitcham": [
 51.4170898,
 -0.1557225
 ],
 "elborough street|southfields": [
+51.442468,
+-0.2012333
+],
+"elborough street|sw18": [
 51.442468,
 -0.2012333
 ],
@@ -598,6 +858,10 @@
 -0.2431732
 ],
 "ellerman avenue|whitton": "2026-10-27",
+"elm road|kt3": [
+51.4071288,
+-0.2653546
+],
 "elm road|new malden": [
 51.4041268,
 -0.2653595
@@ -614,11 +878,23 @@
 51.4586969,
 -0.2419712
 ],
+"emerald square|sw15": [
+51.4586969,
+-0.2419712
+],
 "emmanuel road|balham": [
 51.4418046,
 -0.1413699
 ],
+"emmanuel road|sw12": [
+51.4418046,
+-0.1413699
+],
 "engadine street|southfields": [
+51.442303,
+-0.2021986
+],
+"engadine street|sw18": [
 51.442303,
 -0.2021986
 ],
@@ -634,6 +910,10 @@
 51.4275896,
 -0.1618579
 ],
+"eswyn road|sw17": [
+51.4275896,
+-0.1618579
+],
 "eswyn road|tooting": [
 51.4275896,
 -0.1618579
@@ -646,11 +926,23 @@
 51.4573325,
 -0.2131966
 ],
+"evenwood close|sw15": [
+51.4573325,
+-0.2131966
+],
 "everington street|hammersmith": [
 51.4843649,
 -0.2167331
 ],
+"everington street|w6": [
+51.4843649,
+-0.2167331
+],
 "fairdale gardens|putney": [
+51.4642245,
+-0.2323674
+],
+"fairdale gardens|sw15": [
 51.4642245,
 -0.2323674
 ],
@@ -674,6 +966,10 @@
 51.4051122,
 -0.2312726
 ],
+"faraday road|sw19": [
+51.4231965,
+-0.1955025
+],
 "faraday road|wimbledon": [
 51.4231965,
 -0.1955025
@@ -694,12 +990,24 @@
 51.464822,
 -0.2157731
 ],
+"felsham road|sw15": [
+51.464822,
+-0.2157731
+],
 "fern lane|hounslow": "2026-10-27",
 "field road|hammersmith": [
 51.4871001,
 -0.2135629
 ],
+"field road|w6": [
+51.4871001,
+-0.2135629
+],
 "firstway|raynes park": [
+51.4079236,
+-0.2309844
+],
+"firstway|sw20": [
 51.4079236,
 -0.2309844
 ],
@@ -711,23 +1019,43 @@
 51.4304951,
 -0.1695923
 ],
+"fishponds road|sw17": [
+51.4304951,
+-0.1695923
+],
 "fishponds road|tooting": [
 51.4304951,
 -0.1695923
 ],
 "fitzjames avenue|hammersmith": "2026-10-27",
 "fitzjames avenue|w14": "2026-10-31",
+"flanders crescent|sw17": [
+51.4191681,
+-0.1642935
+],
 "flanders crescent|tooting": [
 51.4191681,
 -0.1642935
+],
+"florence road|sw19": [
+51.4213671,
+-0.1931187
 ],
 "florence road|wimbledon": [
 51.4213671,
 -0.1931187
 ],
+"foulser road|sw17": [
+51.4339868,
+-0.1594715
+],
 "foulser road|tooting": [
 51.4339868,
 -0.1594715
+],
+"fownes street|sw11": [
+51.4665296,
+-0.1687162
 ],
 "fownes street|wandsworth": [
 51.4665296,
@@ -738,6 +1066,10 @@
 -0.1836765
 ],
 "franciscan road tooting|tooting": [
+51.4313412,
+-0.1535944
+],
+"franciscan road|sw17": [
 51.4313412,
 -0.1535944
 ],
@@ -756,6 +1088,10 @@
 "fullerton road|wandsworth": [
 51.4591074,
 -0.1878174
+],
+"gainsborough road|kt3": [
+51.3880291,
+-0.2648397
 ],
 "gainsborough road|new malden": [
 51.3880291,
@@ -777,6 +1113,10 @@
 51.431475,
 -0.176065
 ],
+"garratt lane|sw17": [
+51.4331345,
+-0.1809817
+],
 "garratt lane|tooting": [
 51.4329936,
 -0.1832505
@@ -786,6 +1126,10 @@
 -0.1926759
 ],
 "gaskarth road|balham": [
+51.4511044,
+-0.1451632
+],
+"gaskarth road|sw12": [
 51.4511044,
 -0.1451632
 ],
@@ -800,6 +1144,10 @@
 "geraldine road|wandsworth": [
 51.457138,
 -0.1853183
+],
+"gilbey road|sw17": [
+51.4280048,
+-0.1707755
 ],
 "gilbey road|tooting": [
 51.4280048,
@@ -817,6 +1165,10 @@
 51.4028134,
 -0.2582161
 ],
+"graham road|sw19": [
+51.4168716,
+-0.2056344
+],
 "graham road|wimbledon": [
 51.4168716,
 -0.2056344
@@ -824,6 +1176,14 @@
 "grand drive|raynes park": [
 51.407954,
 -0.2296958
+],
+"grand drive|sw20": [
+51.407954,
+-0.2296958
+],
+"graveney road|sw17": [
+51.4297711,
+-0.1700636
 ],
 "graveney road|tooting": [
 51.4297711,
@@ -845,6 +1205,10 @@
 51.45585,
 -0.1417675
 ],
+"hamilton road|sw19": [
+51.4172223,
+-0.191314
+],
 "hamilton road|wimbledon": [
 51.4172223,
 -0.191314
@@ -852,6 +1216,10 @@
 "hammersmith road|hammersmith": [
 51.4930467,
 -0.2214942
+],
+"hammersmith road|w14": [
+51.4931015,
+-0.2207411
 ],
 "hanford close|southfields": [
 51.444806,
@@ -861,9 +1229,21 @@
 51.4611346,
 -0.1786516
 ],
+"harbut road|sw11": [
+51.4611346,
+-0.1786516
+],
 "haselrigge road|clapham south": [
 51.4606728,
 -0.1307871
+],
+"haselrigge road|sw4": [
+51.4606728,
+-0.1307871
+],
+"haydon park road|sw19": [
+51.4267012,
+-0.194313
 ],
 "haydon park road|wimbledon": [
 51.4267012,
@@ -877,9 +1257,17 @@
 51.4687296,
 -0.1463346
 ],
+"hebdon road|sw17": [
+51.4337238,
+-0.1683463
+],
 "hebdon road|tooting": [
 51.4337238,
 -0.1683463
+],
+"herbert road|sw19": [
+51.4184112,
+-0.2049561
 ],
 "herbert road|wimbledon": [
 51.4184112,
@@ -897,7 +1285,15 @@
 51.5047505,
 -0.2332476
 ],
+"hetley road|w12": [
+51.5047505,
+-0.2332476
+],
 "hidcote gardens|raynes park": [
+51.4063782,
+-0.2385144
+],
+"hidcote gardens|sw20": [
 51.4063782,
 -0.2385144
 ],
@@ -905,7 +1301,15 @@
 51.4446855,
 -0.1516493
 ],
+"hildreth street|sw12": [
+51.4446855,
+-0.1516493
+],
 "hillview|raynes park": [
+51.4162197,
+-0.2359478
+],
+"hillview|sw20": [
 51.4162197,
 -0.2359478
 ],
@@ -917,6 +1321,7 @@
 51.4235938,
 -0.1662377
 ],
+"himley road|sw17": "2026-10-31",
 "himley road|wandsworth": [
 51.4235938,
 -0.1662377
@@ -924,6 +1329,14 @@
 "holm oak close|putney": [
 51.4552676,
 -0.2059438
+],
+"holm oak close|sw15": [
+51.4552676,
+-0.2059438
+],
+"home park road|sw19": [
+51.4224166,
+-0.2028325
 ],
 "home park road|wimbledon": [
 51.432801,
@@ -955,6 +1368,10 @@
 51.4466922,
 -0.2420346
 ],
+"ibsley gardens|sw15": [
+51.4466922,
+-0.2420346
+],
 "ivy crescent|": [
 51.49621,
 -0.2712875
@@ -975,15 +1392,27 @@
 51.4301151,
 -0.1646335
 ],
+"kellino street|sw17": [
+51.4301151,
+-0.1646335
+],
 "kellino street|tooting": [
 51.4301151,
 -0.1646335
+],
+"kenley road|sw19": [
+51.4069604,
+-0.2025981
 ],
 "kenley road|wimbledon": [
 51.4069604,
 -0.2025981
 ],
 "kenlor road tooting|tooting": [
+51.4239334,
+-0.1756051
+],
+"kenlor road|sw17": [
 51.4239334,
 -0.1756051
 ],
@@ -994,6 +1423,10 @@
 "kenwyn road|wimbledon": [
 51.4127443,
 -0.2300342
+],
+"keswick avenue|sw19": [
+51.4077065,
+-0.2013876
 ],
 "keswick avenue|wimbledon": [
 51.4077065,
@@ -1015,19 +1448,35 @@
 51.4677744,
 -0.1231673
 ],
+"kimberley road|sw9": [
+51.4677744,
+-0.1231673
+],
 "kings avenue|sw12": [
 51.446061,
 -0.1326497
 ],
+"kingsley road|sw19": [
+51.4140249,
+-0.2120754
+],
 "kingsley road|wimbledon": [
 51.4272379,
 -0.1894942
+],
+"kingston road|kt1": [
+51.4040702,
+-0.2762368
 ],
 "kingston road|outside agreed scope": [
 51.4456896,
 -0.2293171
 ],
 "kingston road|raynes park": [
+51.4096573,
+-0.2267923
+],
+"kingston road|sw20": [
 51.4096573,
 -0.2267923
 ],
@@ -1038,6 +1487,14 @@
 "kinnoul road|outside agreed scope": [
 51.4853708,
 -0.2119053
+],
+"kinnoul road|w6": [
+51.4853708,
+-0.2119053
+],
+"kirkley road|sw19": [
+51.414512,
+-0.1973199
 ],
 "kirkley road|wimbledon": [
 51.414512,
@@ -1059,6 +1516,10 @@
 51.4839051,
 -0.2128961
 ],
+"lampeter square|w6": [
+51.4839051,
+-0.2128961
+],
 "landor road|clapham south": [
 51.4657502,
 -0.1264332
@@ -1066,6 +1527,10 @@
 "langroyd road|wandsworth": [
 51.4373895,
 -0.1632397
+],
+"lansdowne road|sw20": [
+51.4175417,
+-0.2257375
 ],
 "lansdowne road|wimbledon": [
 51.4175417,
@@ -1075,7 +1540,15 @@
 51.4644431,
 -0.1607206
 ],
+"lavender hill|sw11": [
+51.4644431,
+-0.1607206
+],
 "lavenham road|southfields": [
+51.4423581,
+-0.2014073
+],
+"lavenham road|sw18": [
 51.4423581,
 -0.2014073
 ],
@@ -1083,11 +1556,19 @@
 51.3887345,
 -0.2619938
 ],
+"leeward gardens|sw19": [
+51.4238928,
+-0.2105633
+],
 "leeward gardens|wimbledon": [
 51.4238928,
 -0.2105633
 ],
 "letchworth street tooting|tooting": [
+51.4304658,
+-0.1640623
+],
+"letchworth street|sw17": [
 51.4304658,
 -0.1640623
 ],
@@ -1099,9 +1580,17 @@
 51.4444967,
 -0.132011
 ],
+"lexton gardens|sw12": [
+51.4444967,
+-0.132011
+],
 "lime grove|new malden": [
 51.4057599,
 -0.2641121
+],
+"links road|sw17": [
+51.4199416,
+-0.1592254
 ],
 "links road|tooting": [
 51.4199416,
@@ -1119,13 +1608,25 @@
 51.4065353,
 -0.2716078
 ],
+"longmead road|sw17": [
+51.4275949,
+-0.1664831
+],
 "longmead road|tooting": [
 51.4274125,
 -0.1666368
 ],
+"louvaine road|sw11": [
+51.4612352,
+-0.1767353
+],
 "louvaine road|wandsworth": [
 51.4612352,
 -0.1767353
+],
+"lynwood road|sw17": [
+51.4324365,
+-0.1618773
 ],
 "lynwood road|tooting": [
 51.4324365,
@@ -1143,17 +1644,33 @@
 51.4847412,
 -0.25077
 ],
+"malthouse drive|w4": [
+51.4847412,
+-0.25077
+],
 "manor drive north|new malden": [
 51.3897437,
 -0.2675201
+],
+"manor drive|kt4": [
+51.3907586,
+-0.2901691
 ],
 "manor drive|new malden": [
 51.3897437,
 -0.2675201
 ],
+"mantilla road|sw17": [
+51.4290562,
+-0.1540747
+],
 "mantilla road|tooting": [
 51.4290562,
 -0.1540747
+],
+"martin grove|sm4": [
+51.4020218,
+-0.2028354
 ],
 "martin grove|wimbledon": [
 51.4020218,
@@ -1163,7 +1680,15 @@
 51.4073592,
 -0.2189915
 ],
+"martin way|sw20": [
+51.4073592,
+-0.2189915
+],
 "mary macarthur house|outside agreed scope": [
+51.487693,
+-0.2134922
+],
+"mary macarthur house|w6": [
 51.487693,
 -0.2134922
 ],
@@ -1171,7 +1696,15 @@
 51.4644943,
 -0.2171333
 ],
+"mascotte road|sw15": [
+51.4644943,
+-0.2171333
+],
 "massingberd way tooting|tooting": [
+51.4284161,
+-0.1524351
+],
+"massingberd way|sw17": [
 51.4284161,
 -0.1524351
 ],
@@ -1187,11 +1720,19 @@
 51.4478974,
 -0.1594659
 ],
+"mayford road|sw12": [
+51.4478974,
+-0.1594659
+],
 "mayford road|wandsworth": [
 51.4478974,
 -0.1594659
 ],
 "meadow close|raynes park": [
+51.3995662,
+-0.227325
+],
+"meadow close|sw20": [
 51.3995662,
 -0.227325
 ],
@@ -1207,6 +1748,10 @@
 51.4140563,
 -0.2135858
 ],
+"merton hall road|sw19": [
+51.4155149,
+-0.213351
+],
 "merton hall road|wimbledon": [
 51.4155149,
 -0.213351
@@ -1214,6 +1759,10 @@
 "merton road|putney": [
 51.4550333,
 -0.1990498
+],
+"merton road|sw18": [
+51.4568736,
+-0.1985642
 ],
 "merton road|wandsworth": [
 51.4526873,
@@ -1223,13 +1772,25 @@
 51.4581397,
 -0.2029263
 ],
+"mexfield road|sw15": [
+51.4581397,
+-0.2029263
+],
 "milton court|sw18": [
 51.4579317,
 -0.1989942
 ],
+"milton road|sw19": [
+51.4222881,
+-0.1865621
+],
 "milton road|wimbledon": [
 51.4224769,
 -0.1878657
+],
+"mitcham lane|sw16": [
+51.4232673,
+-0.1427759
 ],
 "mitcham lane|tooting": [
 51.419248,
@@ -1240,6 +1801,10 @@
 -0.1664685
 ],
 "monkleigh road|raynes park": [
+51.4021198,
+-0.2126078
+],
+"monkleigh road|sm4": [
 51.4021198,
 -0.2126078
 ],
@@ -1259,17 +1824,30 @@
 51.4287329,
 -0.1550169
 ],
+"mossbury road|sw11": [
+51.4643058,
+-0.1667733
+],
 "mossbury road|wandsworth": [
 51.4643058,
 -0.1667733
+],
+"mossville gardens|sm4": [
+51.4016321,
+-0.2080484
 ],
 "mossville gardens|wimbledon": [
 51.4016321,
 -0.2080484
 ],
+"mount road|kt3": "2026-10-31",
 "mount road|new malden": [
 51.4054806,
 -0.2675101
+],
+"moyser road|sw16": [
+51.424228,
+-0.147129
 ],
 "moyser road|tooting": [
 51.424228,
@@ -1285,6 +1863,10 @@
 ],
 "nepa(u)l road|sw11": "2026-10-31",
 "nepa(u)l road|wandsworth": "2026-10-27",
+"newstead way|sw19": [
+51.4331317,
+-0.2173814
+],
 "newstead way|wimbledon": [
 51.4331317,
 -0.2173814
@@ -1292,6 +1874,10 @@
 "newton road|wimbledon": [
 51.416382,
 -0.2110651
+],
+"nimrod road|sw16": [
+51.4223966,
+-0.1503363
 ],
 "nimrod road|tooting": [
 51.4223966,
@@ -1309,7 +1895,15 @@
 51.4930637,
 -0.2082857
 ],
+"north end road|w14": [
+51.4942313,
+-0.210287
+],
 "northcote road|battersea": [
+51.4590784,
+-0.1661187
+],
+"northcote road|sw11": [
 51.4590784,
 -0.1661187
 ],
@@ -1321,7 +1915,15 @@
 51.4588519,
 -0.2085097
 ],
+"oakhill court|sw15": [
+51.4588519,
+-0.2085097
+],
 "openview|earlsfield": [
+51.4435803,
+-0.1826796
+],
+"openview|sw18": [
 51.4435803,
 -0.1826796
 ],
@@ -1337,9 +1939,17 @@
 51.4957518,
 -0.2278046
 ],
+"overstone road|w6": [
+51.4957518,
+-0.2278046
+],
 "oxford avenue|outside agreed scope": [
 51.4100581,
 -0.2160455
+],
+"oxford crescent|kt3": [
+51.3917334,
+-0.2661892
 ],
 "oxford crescent|new malden": [
 51.3917334,
@@ -1349,6 +1959,14 @@
 51.4895982,
 -0.2130988
 ],
+"palliser court|w14": [
+51.4895982,
+-0.2130988
+],
+"palmerston road|sw19": [
+51.4172925,
+-0.1994673
+],
 "palmerston road|wimbledon": [
 51.4172925,
 -0.1994673
@@ -1356,6 +1974,14 @@
 "parkway|raynes park": [
 51.4010859,
 -0.2254913
+],
+"parkway|sw20": [
+51.4010859,
+-0.2254913
+],
+"pear mews|sw17": [
+51.4378442,
+-0.1698248
 ],
 "pear mews|tooting": [
 51.4378442,
@@ -1365,15 +1991,31 @@
 51.470907,
 -0.2268999
 ],
+"pearson house|sw15": [
+51.470907,
+-0.2268999
+],
+"pendarves road|sw20": [
+51.4133567,
+-0.2302969
+],
 "pendarves road|wimbledon": [
 51.4133567,
 -0.2302969
+],
+"penrith road|kt3": [
+51.4010582,
+-0.2627122
 ],
 "penrith road|new malden": [
 51.4010582,
 -0.2627122
 ],
 "pentney road|balham": [
+51.4431318,
+-0.1420517
+],
+"pentney road|sw12": [
 51.4431318,
 -0.1420517
 ],
@@ -1389,13 +2031,25 @@
 51.4711419,
 -0.1987125
 ],
+"peterborough road|sw6": [
+51.4711419,
+-0.1987125
+],
 "pevensey road|earlsfield": [
+51.4294184,
+-0.1776989
+],
+"pevensey road|sw17": [
 51.4294184,
 -0.1776989
 ],
 "pevensey road|tooting": [
 51.4294184,
 -0.1776989
+],
+"phyllis avenue|kt3": [
+51.397259,
+-0.2353257
 ],
 "phyllis avenue|new malden": [
 51.397259,
@@ -1409,9 +2063,17 @@
 51.4257878,
 -0.2082771
 ],
+"poplar road|sw19": [
+51.4086405,
+-0.1996437
+],
 "poplar road|wimbledon": [
 51.4086405,
 -0.1996437
+],
+"presburg road|kt3": [
+51.398295,
+-0.25565
 ],
 "presburg road|new malden": [
 51.398295,
@@ -1426,6 +2088,10 @@
 -0.2078313
 ],
 "pullman gardens|putney": [
+51.4548383,
+-0.2266893
+],
+"pullman gardens|sw15": [
 51.4548383,
 -0.2266893
 ],
@@ -1449,9 +2115,17 @@
 51.4472056,
 -0.1357984
 ],
+"quintin avenue|sw20": [
+51.4112147,
+-0.2106193
+],
 "quintin avenue|wimbledon": [
 51.4112147,
 -0.2106193
+],
+"quinton street|sw18": [
+51.4388797,
+-0.185047
 ],
 "quinton street|wandsworth": [
 51.4388797,
@@ -1461,7 +2135,15 @@
 51.4858377,
 -0.2236244
 ],
+"rannoch road|w6": [
+51.4858377,
+-0.2236244
+],
 "ravensbury road|earlsfield": [
+51.4412617,
+-0.1926136
+],
+"ravensbury road|sw18": [
 51.4412617,
 -0.1926136
 ],
@@ -1473,6 +2155,10 @@
 51.4419157,
 -0.1908183
 ],
+"ravensbury terrace|sw18": [
+51.4419157,
+-0.1908183
+],
 "ravenstone street|balham": [
 51.4418526,
 -0.152619
@@ -1480,6 +2166,10 @@
 "rayleigh road|wimbledon": [
 51.4132791,
 -0.209526
+],
+"raymond road|sw19": [
+51.4209682,
+-0.211124
 ],
 "raymond road|wimbledon": [
 51.4209682,
@@ -1505,15 +2195,31 @@
 51.4550545,
 -0.2017957
 ],
+"ringford road|sw18": [
+51.4550545,
+-0.2017957
+],
 "rodenhurst road|clapham south": [
 51.4537882,
 -0.1355917
+],
+"rodenhurst road|sw4": [
+51.4537882,
+-0.1355917
+],
+"rogers road|sw17": [
+51.4320687,
+-0.1740293
 ],
 "rogers road|tooting": [
 51.4320687,
 -0.1740293
 ],
 "rosaville road|outside agreed scope": [
+51.4797103,
+-0.2064669
+],
+"rosaville road|sw6": [
 51.4797103,
 -0.2064669
 ],
@@ -1529,6 +2235,14 @@
 51.4948279,
 -0.2102169
 ],
+"rugby mansions|w14": [
+51.4948279,
+-0.2102169
+],
+"rural way|sw16": [
+51.4184734,
+-0.146801
+],
 "rural way|tooting": [
 51.4184734,
 -0.146801
@@ -1541,7 +2255,15 @@
 51.4457386,
 -0.239786
 ],
+"ryefield path|sw15": [
+51.4457386,
+-0.239786
+],
 "sandbourne avenue|merton park": [
+51.4069905,
+-0.1956816
+],
+"sandbourne avenue|sw19": [
 51.4069905,
 -0.1956816
 ],
@@ -1553,9 +2275,17 @@
 51.410495,
 -0.2133962
 ],
+"savile close|kt3": [
+51.3945498,
+-0.2578973
+],
 "savile close|new malden": [
 51.3945498,
 -0.2578973
+],
+"savona close|sw19": [
+51.418696,
+-0.2181605
 ],
 "savona close|wimbledon": [
 51.418696,
@@ -1569,6 +2299,10 @@
 51.4429882,
 -0.143077
 ],
+"scholars road|sw12": [
+51.4429882,
+-0.143077
+],
 "schubert road|sw15": [
 51.4580362,
 -0.2048611
@@ -1576,6 +2310,10 @@
 "scott avenue|putney": [
 51.4532078,
 -0.2121696
+],
+"seely road|sw17": [
+51.4212825,
+-0.1570466
 ],
 "seely road|tooting": [
 51.4212825,
@@ -1585,7 +2323,15 @@
 51.4694729,
 -0.2267181
 ],
+"sefton street|sw15": [
+51.4694729,
+-0.2267181
+],
 "selkirk road tooting|tooting": [
+51.4300694,
+-0.1691969
+],
+"selkirk road|sw17": [
 51.4300694,
 -0.1691969
 ],
@@ -1597,9 +2343,17 @@
 51.4951082,
 -0.223955
 ],
+"shepherds bush road|w6": [
+51.493841,
+-0.2239266
+],
 "shuttleworth road|sw11": [
 51.4726156,
 -0.1725297
+],
+"silbury avenue|cr4": [
+51.411911,
+-0.1729319
 ],
 "silbury avenue|outside agreed scope": [
 51.411911,
@@ -1626,6 +2380,10 @@
 51.5005738,
 -0.2638076
 ],
+"somerset road|w4": [
+51.5005738,
+-0.2638076
+],
 "southcroft road|tooting": [
 51.4228219,
 -0.1594553
@@ -1643,6 +2401,10 @@
 -0.2204345
 ],
 "squarey street|earlsfield": [
+51.4339487,
+-0.181575
+],
+"squarey street|sw17": [
 51.4339487,
 -0.181575
 ],
@@ -1666,6 +2428,10 @@
 51.452107,
 -0.1852229
 ],
+"st. cyprians street|sw17": [
+51.4296419,
+-0.1648571
+],
 "st. cyprians street|tooting": [
 51.4296419,
 -0.1648571
@@ -1673,6 +2439,10 @@
 "st. margarets road|isleworth": [
 51.4544089,
 -0.3143384
+],
+"standen road|sw18": [
+51.4471855,
+-0.1988674
 ],
 "standen road|wandsworth": [
 51.4471855,
@@ -1686,9 +2456,17 @@
 51.4382703,
 -0.1880335
 ],
+"steerforth street|sw18": [
+51.4382703,
+-0.1880335
+],
 "steerforth street|wandsworth": [
 51.4382703,
 -0.1880335
+],
+"strathearn road|sw19": [
+51.4263312,
+-0.2008793
 ],
 "strathearn road|wimbledon": [
 51.4266666,
@@ -1701,6 +2479,10 @@
 "strickland row|earlsfield": [
 51.4477788,
 -0.1782349
+],
+"sudlow road|sw18": [
+51.4597694,
+-0.197358
 ],
 "sudlow road|wandsworth": [
 51.4597694,
@@ -1718,6 +2500,10 @@
 51.4453532,
 -0.2075734
 ],
+"sutherland grove|sw18": [
+51.4520855,
+-0.2094417
+],
 "sutton court road|w4": [
 51.4896611,
 -0.2660717
@@ -1726,11 +2512,23 @@
 51.4448065,
 -0.2173524
 ],
+"swanton gardens|sw19": [
+51.4448065,
+-0.2173524
+],
 "swinburne road|putney": [
 51.4619262,
 -0.2388224
 ],
+"swinburne road|sw15": [
+51.4619262,
+-0.2388224
+],
 "sycamore mews|clapham common": [
+51.4648123,
+-0.1414393
+],
+"sycamore mews|sw4": [
 51.4648123,
 -0.1414393
 ],
@@ -1746,6 +2544,7 @@
 51.4080582,
 -0.2690299
 ],
+"the crescent|sw19": "2026-10-31",
 "the crescent|wimbledon": [
 51.433594,
 -0.1973539
@@ -1770,9 +2569,17 @@
 51.5079236,
 -0.238875
 ],
+"thorpebank road|w12": [
+51.5079236,
+-0.238875
+],
 "tildesley road|putney": [
 51.455114,
 -0.2298128
+],
+"tilehurst road|sw18": [
+51.4432015,
+-0.1773225
 ],
 "tilehurst road|wandsworth": [
 51.4432032,
@@ -1782,9 +2589,21 @@
 51.4563268,
 -0.2155636
 ],
+"tintern close|sw15": [
+51.4563268,
+-0.2155636
+],
+"tolworth rise|kt5": [
+51.3871956,
+-0.272286
+],
 "tolworth rise|new malden": [
 51.3878916,
 -0.2707049
+],
+"tonsley street|sw18": [
+51.4588809,
+-0.1894727
 ],
 "tonsley street|wandsworth": [
 51.4588809,
@@ -1793,6 +2612,10 @@
 "tooting high street|tooting": [
 51.427686,
 -0.1683412
+],
+"topsham road|sw17": [
+51.4325986,
+-0.1585901
 ],
 "topsham road|tooting": [
 51.4325986,
@@ -1814,6 +2637,10 @@
 51.4622033,
 -0.1533703
 ],
+"tregarvon road|sw11": [
+51.4622033,
+-0.1533703
+],
 "tremadoc road|clapham south": [
 51.4623844,
 -0.1311834
@@ -1822,11 +2649,19 @@
 51.442633,
 -0.2002624
 ],
+"trentham street|sw18": [
+51.442633,
+-0.2002624
+],
 "trevelyan road|tooting": [
 51.4226975,
 -0.1680895
 ],
 "triangle place|clapham": [
+51.4612517,
+-0.134583
+],
+"triangle place|sw4": [
 51.4612517,
 -0.134583
 ],
@@ -1842,7 +2677,12 @@
 51.4309123,
 -0.2629696
 ],
+"ullswater crescent|sw15": "2026-10-31",
 "undine street tooting|tooting": [
+51.4271576,
+-0.1646761
+],
+"undine street|sw17": [
 51.4271576,
 -0.1646761
 ],
@@ -1854,9 +2694,21 @@
 51.4603368,
 -0.2148924
 ],
+"upper richmond road|sw15": [
+51.4611202,
+-0.2182336
+],
 "uxbridge road|shepherd's bush": [
 51.5060297,
 -0.2180489
+],
+"uxbridge road|w12": [
+51.5060297,
+-0.2180489
+],
+"valnay street|sw17": [
+51.426738,
+-0.1641819
 ],
 "valnay street|tooting": [
 51.426738,
@@ -1874,9 +2726,21 @@
 51.4881843,
 -0.2830464
 ],
+"waldeck road|w4": [
+51.4881843,
+-0.2830464
+],
+"wandsworth high street|sw18": [
+51.4568866,
+-0.193275
+],
 "wandsworth high street|wandsworth": [
 51.4570876,
 -0.1941326
+],
+"warren road|sw19": [
+51.4202868,
+-0.1731104
 ],
 "warren road|tooting": [
 51.4202868,
@@ -1887,6 +2751,10 @@
 -0.1840039
 ],
 "waynflete street|earlsfield": [
+51.4408403,
+-0.1840039
+],
+"waynflete street|sw18": [
 51.4408403,
 -0.1840039
 ],
@@ -1906,6 +2774,10 @@
 51.5018741,
 -0.2473062
 ],
+"wendell road|w12": [
+51.5018741,
+-0.2473062
+],
 "west hill road|earlsfield": [
 51.4512904,
 -0.2000944
@@ -1917,6 +2789,10 @@
 "west road|clapham south": [
 51.457925,
 -0.1307308
+],
+"western road|sw19": [
+51.4121737,
+-0.1783048
 ],
 "western road|wimbledon": [
 51.4124613,
@@ -1930,6 +2806,10 @@
 51.400709,
 -0.233575
 ],
+"westway|sw20": [
+51.4038858,
+-0.2349731
+],
 "westway|wimbledon": [
 51.4038858,
 -0.2349731
@@ -1942,6 +2822,10 @@
 51.4462143,
 -0.2111121
 ],
+"wilton grove|kt3": [
+51.3934235,
+-0.2513193
+],
 "wilton grove|new malden": [
 51.3934235,
 -0.2513193
@@ -1950,6 +2834,10 @@
 51.4460644,
 -0.2054988
 ],
+"wimbledon park road|sw18": [
+51.4527444,
+-0.1997585
+],
 "wimbledon park road|wandsworth": [
 51.4527444,
 -0.1997585
@@ -1957,6 +2845,10 @@
 "wimbledon park road|wimbledon": [
 51.4321609,
 -0.1910637
+],
+"windermere avenue|sw19": [
+51.4033267,
+-0.1960707
 ],
 "windermere avenue|wimbledon": [
 51.4033267,
@@ -1971,6 +2863,10 @@
 -0.1988932
 ],
 "winslow road|hammersmith": [
+51.4875962,
+-0.2224458
+],
+"winslow road|w6": [
 51.4875962,
 -0.2224458
 ],
@@ -1995,6 +2891,10 @@
 -0.1756996
 ],
 "yelverton road|outside agreed scope": [
+51.4708751,
+-0.1756996
+],
+"yelverton road|sw11": [
 51.4708751,
 -0.1756996
 ],
@@ -2041,6 +2941,10 @@
 "|east putney": [
 51.4586138,
 -0.2112429
+],
+"|elephant and castle": [
+51.495007,
+-0.1003315
 ],
 "|fulham": [
 51.474408,
@@ -2147,9 +3051,14 @@
 51.4559027,
 -0.3185104
 ],
+"|unverified geography": "2026-10-31",
 "|w12": [
 51.5037239,
 -0.2291382
+],
+"|w14": [
+51.5019175,
+-0.2191687
 ],
 "|w4": [
 51.491759,

@@ -4,8 +4,9 @@ Usage: python scripts/stations.py [--all] [--file listings.json]
 
 Looks up each home's street on OpenStreetMap (Nominatim, at most one request a second, cached in
 data/geo.json) and measures the straight-line distance to every station in data/stations.json.
-Walking time assumes 80 m a minute and streets 30% longer than a straight line. Only homes
-without a station are done unless --all is given.
+Walking time assumes 80 m a minute and streets 30% longer than a straight line. The street's
+position is saved as `loc` ([lat, lon]) for the map. Only homes without a station or a position
+are done unless --all is given; a station the sweep gave is kept.
 """
 import datetime as dt
 import json
@@ -89,10 +90,13 @@ def main(redo, path=LISTINGS):
     done = 0
     try:
         for home in listings:
-            if home.get("station") and not redo:
+            if home.get("station") and home.get("loc") and not redo:
                 continue
             where = locate(home, geo)
             if not where:
+                continue
+            home["loc"] = where  # for the map and commute times
+            if home.get("station") and not redo:  # the sweep's station stands; only the position was missing
                 continue
             s = min(stations, key=lambda s: metres(where, (s["lat"], s["lon"])))
             walk = round(metres(where, (s["lat"], s["lon"])) * 1.3 / 80)
