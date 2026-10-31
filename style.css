@@ -34,6 +34,12 @@ button, input, select { font: inherit; color: inherit; }
   font-weight: 900; text-transform: uppercase; letter-spacing: .04em; font-size: 13px; padding: 3px 8px; border-radius: 2px; }
 h1 { font-family: var(--display); font-stretch: 80%; font-weight: 800; font-size: clamp(30px, 7vw, 44px); line-height: 1; margin: 8px 0 0; text-wrap: balance; }
 .brief { color: var(--muted); margin: 6px 0 0; font-size: 14px; }
+.about { margin-top: 8px; font-size: 13px; color: var(--muted); }
+.about summary { cursor: pointer; font-weight: 600; color: var(--accent); width: fit-content; }
+.about dl { display: grid; grid-template-columns: max-content 1fr; gap: 4px 12px; margin: 8px 0 0; padding: 10px 12px; background: var(--card); border: 1px solid var(--line); border-radius: 8px; }
+.about dt { font-weight: 600; color: var(--ink); }
+.about dd { margin: 0; }
+@media (max-width: 520px) { .about dl { grid-template-columns: 1fr; } .about dd { margin-bottom: 6px; } }
 
 .tabs { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
 .tab { border: 1px solid var(--line); background: var(--card); border-radius: 999px; padding: 6px 12px; cursor: pointer; font-size: 13px; font-weight: 600; }
