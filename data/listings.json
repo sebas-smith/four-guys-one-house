@@ -1074,7 +1074,7 @@
    "Advert taken down on dexters (25 Oct).",
    "Advert taken down on Rightmove (30 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Wimbledon Park",
    "kind": "Tube",
@@ -1089,7 +1089,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -1212,7 +1212,7 @@
    "Imported from the old ChatGPT tracker (status: excluded).",
    "Advert says not suitable for sharers."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Clapham Junction",
    "kind": "Rail",
@@ -1248,7 +1248,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
    "Let agreed on Foxtons (27 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -1263,7 +1263,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Foxtons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -1290,7 +1290,7 @@
    "Price changed from £3,900 to £3,500 (2026-10-18).",
    "Price changed from £3,500 to £3,495 (2026-10-19)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -1400,7 +1400,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Putney",
    "kind": "Rail",
@@ -1438,7 +1438,7 @@
    "Advert taken down on Foxtons (29 Oct).",
    "Let agreed on Foxtons (30 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Barnes",
    "kind": "Rail",
@@ -1453,7 +1453,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Foxtons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -1481,7 +1481,7 @@
    "Advert live on OnTheMarket (29 Oct).",
    "Let agreed on Foxtons, still live on OnTheMarket (30 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Barnes",
    "kind": "Rail",
@@ -1496,7 +1496,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Foxtons, still live on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -1519,7 +1519,7 @@
    "Imported from the old ChatGPT tracker (status: unavailable).",
    "Advert taken down on Foxtons (22 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Balham",
    "kind": "Tube",
@@ -1534,7 +1534,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Foxtons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -1603,7 +1603,7 @@
    "Advert live on OnTheMarket (27 Oct).",
    "Prices differ across sites: £5,000 vs £4,000. Showing the lower; see price history."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -1686,7 +1686,7 @@
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Haydons Road",
    "kind": "Rail",
@@ -1701,7 +1701,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -1727,7 +1727,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-09.",
    "Price changed from £3,200 to £3,000 (2026-10-18)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Southfields",
    "kind": "Tube",
@@ -1770,7 +1770,7 @@
    "Imported from the old ChatGPT tracker (status: recheck).",
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Southfields",
    "kind": "Tube",
@@ -1849,7 +1849,7 @@
    "Advert live on OnTheMarket (29 Oct).",
    "Let agreed on Foxtons, still live on OnTheMarket (30 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "New Malden",
    "kind": "Rail",
@@ -1864,7 +1864,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Foxtons, still live on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -1889,7 +1889,7 @@
    "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18.",
    "Price changed from £3,300 to £2,950 (2026-10-18)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "New Malden",
    "kind": "Rail",
@@ -1962,7 +1962,7 @@
    "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18.",
    "Advert taken down on Foxtons (18 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "New Malden",
    "kind": "Rail",
@@ -1977,7 +1977,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Foxtons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -2003,7 +2003,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-10.",
    "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "New Malden",
    "kind": "Rail",
@@ -2042,7 +2042,7 @@
    "Advert live on OnTheMarket (29 Oct).",
    "Let agreed on Foxtons, still live on OnTheMarket (30 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "New Malden",
    "kind": "Rail",
@@ -2057,7 +2057,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Foxtons, still live on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -2118,7 +2118,7 @@
    "Advert live on OnTheMarket (29 Oct).",
    "Let agreed on Foxtons, still live on OnTheMarket (30 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "South Merton",
    "kind": "Rail",
@@ -2138,7 +2138,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Foxtons, still live on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -2165,7 +2165,7 @@
    "Advert live on Foxtons (27 Oct).",
    "Let agreed on Foxtons (27 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Clapham Junction",
    "kind": "Rail",
@@ -2180,7 +2180,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Foxtons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -2204,7 +2204,7 @@
    "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-10-10.",
    "Let agreed on Foxtons (27 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Tooting",
    "kind": "Rail",
@@ -2219,7 +2219,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Foxtons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -2244,7 +2244,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-08."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "East Putney",
    "kind": "Tube",
@@ -2286,7 +2286,7 @@
    "Availability: Conflict: current header 1 November 2026; description mid-October; cached web header 5 November",
    "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "New Malden",
    "kind": "Rail",
@@ -2323,7 +2323,7 @@
    "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18.",
    "Let agreed on Rightmove (27 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Malden Manor",
    "kind": "Rail",
@@ -2338,7 +2338,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -3329,7 +3329,7 @@
    "Price changed from £4,000 to £3,800 (2026-10-25).",
    "Let agreed on marshandparsons (26 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -3359,7 +3359,7 @@
   ],
   "off_market": {
    "why": "Let agreed on marshandparsons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -3652,7 +3652,7 @@
    "Price changed from £4,200 to £4,151 (2026-10-25).",
    "Let agreed on marshandparsons (26 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -3672,7 +3672,7 @@
   ],
   "off_market": {
    "why": "Let agreed on marshandparsons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -3887,7 +3887,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -3964,7 +3964,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Tooting Bec",
    "kind": "Tube",
@@ -4002,7 +4002,7 @@
    "Price changed from £3,900 to £3,700 (2026-10-18).",
    "Advert taken down on Rightmove (18 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Balham",
    "kind": "Tube",
@@ -4022,7 +4022,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -4051,7 +4051,7 @@
    "Advert live on OnTheMarket (25 Oct).",
    "ChatGPT sweep says removed (2026-10-25)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -4087,7 +4087,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-06."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -4121,9 +4121,10 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
    "Marked gone: advert shows let agreed (2026-10-18).",
-   "Advert taken down on Rightmove (25 Oct)."
+   "Advert taken down on Rightmove (25 Oct).",
+   "Advert taken down on kfh (31 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -4137,8 +4138,8 @@
    ]
   ],
   "off_market": {
-   "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "why": "Advert taken down on kfh",
+   "checked": "2026-10-31"
   }
  },
  {
@@ -4162,7 +4163,7 @@
    "Price changed from £2,800 to £2,744 (2026-10-18).",
    "Advert taken down on kfh (24 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -4182,7 +4183,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on kfh",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -4206,7 +4207,7 @@
    "Marked gone: advert shows removed (2026-10-18).",
    "Advert taken down on kfh (25 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Wandsworth Town",
    "kind": "Rail",
@@ -4221,7 +4222,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on kfh",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -4459,7 +4460,7 @@
    "Price changed from £4,495 to £4,690 (2026-10-25).",
    "Beds corrected to 3: the live adverts (OpenRent, Rightmove, OnTheMarket at £4,690) all say 3 bedrooms. The 4-bed adverts on this street (£4,750 and £4,950, 1 bath) look like a different home (25 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Wandsworth Town",
    "kind": "Rail",
@@ -4632,9 +4633,10 @@
    "Let agreed on OpenRent, still live on Rightmove (25 Oct).",
    "Removed adverts of another home (25 Oct): the Foxtons Firstway house (£4,000, short let £5,000) is a different house.",
    "Advert live on Rightmove (26 Oct).",
-   "Let agreed on Rightmove, still live on OnTheMarket (29 Oct)."
+   "Let agreed on Rightmove, still live on OnTheMarket (29 Oct).",
+   "Let agreed on OnTheMarket, still live on OnTheMarket (31 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -4653,8 +4655,8 @@
    ]
   ],
   "off_market": {
-   "why": "Let agreed on Rightmove, still live on OnTheMarket",
-   "checked": "2026-10-30"
+   "why": "Let agreed on OnTheMarket, still live on OnTheMarket",
+   "checked": "2026-10-31"
   }
  },
  {
@@ -4717,7 +4719,7 @@
    "Let agreed on OpenRent, still live on OnTheMarket (25 Oct).",
    "Advert live on OnTheMarket (26 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Wimbledon",
    "kind": "Tube",
@@ -4756,7 +4758,7 @@
    "Price changed from £3,200 to £3,000 (2026-10-18).",
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-02."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Tooting",
    "kind": "Rail",
@@ -4832,7 +4834,7 @@
    "Let agreed on OpenRent (25 Oct).",
    "Advert taken down on Rightmove (26 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Tooting Bec",
    "kind": "Tube",
@@ -4847,7 +4849,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -4872,7 +4874,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-05."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Barnes",
    "kind": "Rail",
@@ -4909,7 +4911,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
    "Price changed from £5,000 to £4,800 (2026-10-19)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Balham",
    "kind": "Tube",
@@ -5018,7 +5020,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-07.",
    "Price changed from £3,800 to £3,700 (2026-10-19)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Tooting",
    "kind": "Rail",
@@ -5216,7 +5218,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
    "Advert taken down on Rightmove (19 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "East Putney",
    "kind": "Tube",
@@ -5231,7 +5233,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -5335,7 +5337,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-07."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Southfields",
    "kind": "Tube",
@@ -5370,7 +5372,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-11."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Streatham Common",
    "kind": "Rail",
@@ -5406,7 +5408,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Wimbledon Chase",
    "kind": "Rail",
@@ -5626,7 +5628,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-05."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -5695,7 +5697,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Southfields",
    "kind": "Tube",
@@ -5764,7 +5766,7 @@
    "From an email on 2026-10-27: Price reduced: 5 properties to rent in SW London house v2",
    "Details read from the advert (27 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Wandsworth Road",
    "kind": "Overground",
@@ -5853,7 +5855,7 @@
    "Imported from the old ChatGPT tracker (status: recheck).",
    "Advert taken down on Rightmove (29 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Clapham North",
    "kind": "Tube",
@@ -5873,7 +5875,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -5897,7 +5899,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-12."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -5968,7 +5970,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
    "Found by ChatGPT sweep (live)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Tooting Bec",
    "kind": "Tube",
@@ -6037,7 +6039,7 @@
    "Marked gone: advert shows removed (2026-10-18).",
    "Advert taken down on Rightmove (25 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Southfields",
    "kind": "Tube",
@@ -6052,7 +6054,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -6239,7 +6241,7 @@
    "Imported from the old ChatGPT tracker (status: unavailable).",
    "Let agreed on Rightmove (18 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Motspur Park",
    "kind": "Rail",
@@ -6254,7 +6256,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -6278,7 +6280,7 @@
    "Marked gone: advert shows removed (2026-10-18).",
    "Advert taken down on Rightmove (25 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "East Putney",
    "kind": "Tube",
@@ -6293,7 +6295,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -6403,10 +6405,10 @@
     "rightmove"
    ]
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -6449,9 +6451,9 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   },
-  "checked": "2026-10-30"
+  "checked": "2026-10-31"
  },
  {
   "id": "rightmove-91683924",
@@ -6506,7 +6508,7 @@
    "Marked gone: advert shows removed (2026-10-18).",
    "Advert taken down on Rightmove (25 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Southfields",
    "kind": "Tube",
@@ -6521,7 +6523,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -6706,7 +6708,7 @@
    "Imported from the old ChatGPT tracker (status: unavailable).",
    "Let agreed on Rightmove (18 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Haydons Road",
    "kind": "Rail",
@@ -6721,7 +6723,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -7065,7 +7067,7 @@
    "Marked gone: advert shows removed (2026-10-18).",
    "Advert taken down on Rightmove (25 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -7080,7 +7082,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -7110,7 +7112,7 @@
    "Rent is £4,300 on Rightmove and OnTheMarket (both let agreed); £4,602 is Marsh & Parsons' price, also let (25 Oct).",
    "Found by ChatGPT sweep (unverified)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Wimbledon Park",
    "kind": "Tube",
@@ -7135,7 +7137,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -7190,9 +7192,10 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable).",
-   "Let agreed on Rightmove (18 Oct)."
+   "Let agreed on Rightmove (18 Oct).",
+   "Let agreed on OnTheMarket (31 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Putney",
    "kind": "Rail",
@@ -7206,8 +7209,8 @@
    ]
   ],
   "off_market": {
-   "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-31"
   }
  },
  {
@@ -7295,7 +7298,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-10.",
    "Availability: 31 October 2026 in metadata; key features say Available June"
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Wimbledon Chase",
    "kind": "Rail",
@@ -7360,7 +7363,7 @@
    "Advert shows removed; outside current rent band; bedroom count below current scope (2026-10-18).",
    "Advert taken down on Rightmove (18 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Southfields",
    "kind": "Tube",
@@ -7375,7 +7378,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -7404,7 +7407,7 @@
    "Let agreed on OnTheMarket (22 Oct).",
    "Let agreed on Rightmove (23 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Barnes",
    "kind": "Rail",
@@ -7419,7 +7422,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -7508,7 +7511,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Barnes",
    "kind": "Rail",
@@ -7577,7 +7580,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
    "Found by ChatGPT sweep (live)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -7613,7 +7616,7 @@
    "Let agreed on Rightmove (18 Oct).",
    "Let agreed on OnTheMarket (24 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Clapham South",
    "kind": "Tube",
@@ -7628,7 +7631,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -7687,7 +7690,7 @@
    "Found by ChatGPT sweep (live).",
    "Let agreed on Rightmove (19 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Clapham Junction",
    "kind": "Rail",
@@ -7702,7 +7705,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -7765,7 +7768,7 @@
    "Advert live on Rightmove (25 Oct).",
    "Imported from the old ChatGPT tracker (status: recheck)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Barnes",
    "kind": "Rail",
@@ -7854,7 +7857,7 @@
    "Found by ChatGPT sweep (live; results-page evidence only).",
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-10."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "New Malden",
    "kind": "Rail",
@@ -7941,9 +7944,9 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   },
-  "checked": "2026-10-30"
+  "checked": "2026-10-31"
  },
  {
   "id": "rightmove-93346608",
@@ -8004,7 +8007,7 @@
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "New Malden",
    "kind": "Rail",
@@ -8019,7 +8022,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -8077,7 +8080,7 @@
    "Imported from the old ChatGPT tracker (status: unavailable).",
    "Let agreed on Rightmove (18 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "South Wimbledon",
    "kind": "Tube",
@@ -8092,7 +8095,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -8151,7 +8154,7 @@
    "Marked gone: advert shows let agreed (2026-10-18).",
    "Let agreed on Rightmove (25 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Colliers Wood",
    "kind": "Tube",
@@ -8166,7 +8169,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -8191,7 +8194,7 @@
    "Marked gone: advert shows let agreed; bedroom count below current scope (2026-10-18).",
    "Let agreed on Rightmove (25 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Wandsworth Town",
    "kind": "Rail",
@@ -8211,7 +8214,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -8235,7 +8238,7 @@
    "Marked gone: advert shows removed (2026-10-18).",
    "Advert taken down on Rightmove (25 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "prices": [
    [
     "2026-09-25",
@@ -8245,7 +8248,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -8272,7 +8275,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck). Last checked 2026-09-25."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -8309,7 +8312,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -8347,7 +8350,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-10.",
    "Price changed from £3,500 to £3,300 (2026-10-18)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Putney",
    "kind": "Rail",
@@ -8388,7 +8391,7 @@
    "Found by ChatGPT sweep (live).",
    "Let agreed on Rightmove (30 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "South Merton",
    "kind": "Rail",
@@ -8408,7 +8411,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -8465,7 +8468,7 @@
    "Price changed from £3,000 to £2,900 (2026-10-18).",
    "Advert taken down on Rightmove (19 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -8485,7 +8488,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -8544,7 +8547,7 @@
    "Advert says not suitable for sharers.",
    "Imported from the old ChatGPT tracker (status: screened)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Wandsworth Town",
    "kind": "Rail",
@@ -8580,7 +8583,7 @@
    "Marked gone: advert shows removed (2026-10-18).",
    "Advert taken down on Rightmove (25 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -8595,7 +8598,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -8619,7 +8622,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-30."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Streatham Common",
    "kind": "Rail",
@@ -8723,7 +8726,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
    "Found by ChatGPT sweep (live)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Motspur Park",
    "kind": "Rail",
@@ -8797,7 +8800,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Haydons Road",
    "kind": "Rail",
@@ -8870,7 +8873,7 @@
    "Found by ChatGPT sweep (live).",
    "Price changed from £3,400 to £3,250 (2026-10-20)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -8910,7 +8913,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Putney",
    "kind": "Rail",
@@ -8948,7 +8951,7 @@
    "Found by ChatGPT sweep (live).",
    "Price changed from £3,900 to £3,800 (2026-10-23)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Southfields",
    "kind": "Tube",
@@ -8992,7 +8995,7 @@
    "Price changed from £4,200 to £4,100 (2026-10-20).",
    "Price cut on Rightmove: £4,100 to £4,000 (2026-10-28)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -9049,7 +9052,7 @@
    "Price changed from £4,000 to £3,900 (2026-10-18).",
    "Found by ChatGPT sweep (live)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -9092,7 +9095,7 @@
    "Found by ChatGPT sweep (live).",
    "Price cut on Rightmove: £4,000 to £3,900 (2026-10-28)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Putney",
    "kind": "Rail",
@@ -9134,7 +9137,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-07.",
    "Price changed from £3,250 to £3,200 (2026-10-20)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Morden",
    "kind": "Tube",
@@ -9178,7 +9181,7 @@
    "Found by ChatGPT sweep (unverified).",
    "Same street, rent, beds and baths as rightmove-94010418, which is let agreed on Rightmove/OnTheMarket; this agent site blocks checks (25 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Tooting Bec",
    "kind": "Tube",
@@ -9198,7 +9201,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -9258,7 +9261,7 @@
    "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18.",
    "Imported from the old ChatGPT tracker (status: recheck)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "New Malden",
    "kind": "Rail",
@@ -9326,7 +9329,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-08.",
    "Let agreed on Rightmove (19 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -9341,7 +9344,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -9368,7 +9371,7 @@
    "Found by ChatGPT sweep (live).",
    "Let agreed on Rightmove (30 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -9383,7 +9386,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -9408,7 +9411,7 @@
    "Marked gone: advert shows let agreed (2026-10-18).",
    "Let agreed on Rightmove (25 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "East Putney",
    "kind": "Tube",
@@ -9423,7 +9426,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -9448,7 +9451,7 @@
    "Imported from the old ChatGPT tracker (status: recheck).",
    "Let agreed on Rightmove (18 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Wimbledon",
    "kind": "Tube",
@@ -9463,7 +9466,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -9491,7 +9494,7 @@
    "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18.",
    "Advert taken down on Rightmove (18 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Berrylands",
    "kind": "Rail",
@@ -9506,7 +9509,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -9573,7 +9576,7 @@
    "Let agreed on Rightmove (18 Oct).",
    "Let agreed on OnTheMarket (27 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -9588,7 +9591,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -9612,7 +9615,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-05.",
    "Let agreed on Rightmove (28 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Southfields",
    "kind": "Tube",
@@ -9627,7 +9630,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -9686,7 +9689,7 @@
    "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-25.",
    "Let agreed on Rightmove (18 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Tooting",
    "kind": "Rail",
@@ -9701,7 +9704,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -9875,7 +9878,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
    "Let agreed on Rightmove (18 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -9890,7 +9893,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -9915,7 +9918,7 @@
    "Price changed from £4,500 to £3,700 (2026-10-18).",
    "Found by ChatGPT sweep (live)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -9960,7 +9963,7 @@
    "Marked gone: advert shows let agreed (2026-10-19).",
    "Let agreed on Rightmove (23 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Barnes",
    "kind": "Rail",
@@ -9980,7 +9983,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -10005,7 +10008,7 @@
    "Marked gone: advert shows removed (2026-10-18).",
    "Advert taken down on Rightmove (25 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "South Wimbledon",
    "kind": "Tube",
@@ -10020,7 +10023,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -10046,7 +10049,7 @@
    "Let on Marsh & Parsons (M&P lists it as Let); still live on another site (25 Oct).",
    "Let agreed on marshandparsons (26 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Wimbledon",
    "kind": "Tube",
@@ -10061,7 +10064,7 @@
   ],
   "off_market": {
    "why": "Let agreed on marshandparsons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -10087,7 +10090,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-10.",
    "Found by ChatGPT sweep (live)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -10166,7 +10169,7 @@
    "Found by ChatGPT sweep (unverified).",
    "Same street, rent, beds and baths as zoopla-70803970, which is let agreed on Rightmove/OnTheMarket; this agent site blocks checks (25 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -10186,7 +10189,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -10213,7 +10216,7 @@
    "Marked gone: advert shows removed (2026-10-18).",
    "Price changed from £5,000 to £4,500 (2026-10-22)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -10253,7 +10256,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
    "Found by ChatGPT sweep (live)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Colliers Wood",
    "kind": "Tube",
@@ -10610,7 +10613,7 @@
    "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-25.",
    "Advert taken down on Rightmove (18 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -10625,7 +10628,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -10650,7 +10653,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
    "Found by ChatGPT sweep (live)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -10686,7 +10689,7 @@
    "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-25.",
    "Let agreed on Rightmove (18 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Clapham South",
    "kind": "Tube",
@@ -10701,7 +10704,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -10800,7 +10803,7 @@
    "Marked gone: advert shows removed (2026-10-18).",
    "Advert taken down on Rightmove (25 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Southfields",
    "kind": "Tube",
@@ -10815,7 +10818,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -10912,7 +10915,7 @@
    "Marked gone: advert shows removed (2026-10-18).",
    "Advert taken down on Rightmove (25 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Tooting Bec",
    "kind": "Tube",
@@ -10927,7 +10930,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -10952,7 +10955,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
    "Found by ChatGPT sweep (live)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Wimbledon",
    "kind": "Tube",
@@ -10989,7 +10992,7 @@
    "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-25.",
    "Let agreed on Rightmove (18 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -11004,7 +11007,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -11030,7 +11033,7 @@
    "Let agreed on Rightmove (25 Oct).",
    "Advert taken down on Rightmove (30 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -11045,7 +11048,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -11070,7 +11073,7 @@
    "Marked gone: advert shows removed (2026-10-18).",
    "Advert taken down on Rightmove (25 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Wimbledon Park",
    "kind": "Tube",
@@ -11085,7 +11088,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -11242,7 +11245,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
    "Found by ChatGPT sweep (live)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Southfields",
    "kind": "Tube",
@@ -11312,7 +11315,7 @@
    "Marked gone: advert shows removed (2026-10-18).",
    "Advert taken down on Rightmove (25 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Wimbledon Park",
    "kind": "Tube",
@@ -11327,7 +11330,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -11415,7 +11418,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
    "Found by ChatGPT sweep (live)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -11455,7 +11458,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
    "Let agreed on Rightmove (18 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Wimbledon Chase",
    "kind": "Rail",
@@ -11470,7 +11473,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -11496,7 +11499,7 @@
    "Imported from the old ChatGPT tracker (status: recheck). Last checked 2026-09-25.",
    "Let agreed on Rightmove (18 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "South Merton",
    "kind": "Rail",
@@ -11511,7 +11514,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -11538,7 +11541,7 @@
    "Advert taken down on Foxtons (29 Oct).",
    "Let agreed on Foxtons (30 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Southfields",
    "kind": "Tube",
@@ -11553,7 +11556,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Foxtons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -11778,7 +11781,7 @@
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (23 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Haydons Road",
    "kind": "Rail",
@@ -11798,7 +11801,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -11935,7 +11938,7 @@
    "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-30.",
    "Let agreed on Rightmove (18 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "East Putney",
    "kind": "Tube",
@@ -11950,7 +11953,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -12011,7 +12014,7 @@
    "Price changed from £4,500 to £4,300 (2026-10-18).",
    "Found by ChatGPT sweep (live)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Norbiton",
    "kind": "Rail",
@@ -12053,7 +12056,7 @@
    "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-25.",
    "Let agreed on Rightmove (18 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Morden",
    "kind": "Tube",
@@ -12068,7 +12071,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -12094,7 +12097,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
    "Found by ChatGPT sweep (live)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -12135,7 +12138,7 @@
    "Marked gone: advert shows removed (2026-10-18).",
    "Advert taken down on Rightmove (25 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Wimbledon Chase",
    "kind": "Rail",
@@ -12150,7 +12153,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -12177,7 +12180,7 @@
    "Let agreed on Rightmove (18 Oct).",
    "Let agreed on OnTheMarket (19 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Southfields",
    "kind": "Tube",
@@ -12192,7 +12195,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -12301,7 +12304,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-09."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -12372,7 +12375,7 @@
    "Price changed from £3,000 to £2,900 (2026-10-18).",
    "Let agreed on Rightmove (30 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "prices": [
    [
     "2026-09-24",
@@ -12392,7 +12395,7 @@
   },
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -12462,7 +12465,7 @@
    "Marked gone: advert shows removed (2026-10-18).",
    "Advert taken down on Rightmove (25 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Putney",
    "kind": "Rail",
@@ -12477,7 +12480,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -12543,7 +12546,7 @@
    "Marked gone: advert shows let agreed (2026-10-23).",
    "Let agreed on Rightmove (25 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Barnes",
    "kind": "Rail",
@@ -12563,7 +12566,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -12588,7 +12591,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-09."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Southfields",
    "kind": "Tube",
@@ -12624,7 +12627,7 @@
    "Marked gone: advert shows removed (2026-10-18).",
    "Advert taken down on Rightmove (25 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -12639,7 +12642,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -12664,7 +12667,7 @@
    "Marked gone: advert shows removed (2026-10-18).",
    "Advert taken down on Rightmove (25 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "East Putney",
    "kind": "Tube",
@@ -12679,7 +12682,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -12748,7 +12751,7 @@
     "rightmove"
    ]
   ],
-  "checked": "2026-10-30"
+  "checked": "2026-10-31"
  },
  {
   "id": "zoopla-74342313",
@@ -12772,7 +12775,7 @@
    "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-25.",
    "Let agreed on Rightmove (18 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -12787,7 +12790,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -12823,7 +12826,7 @@
     "rightmove"
    ]
   ],
-  "checked": "2026-10-30"
+  "checked": "2026-10-31"
  },
  {
   "id": "zoopla-74368576",
@@ -12885,7 +12888,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
    "Found by ChatGPT sweep (live)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "South Wimbledon",
    "kind": "Tube",
@@ -12920,7 +12923,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
    "Found by ChatGPT sweep (live)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -12963,7 +12966,7 @@
    "Let agreed on Rightmove (25 Oct).",
    "Advert taken down on Rightmove (26 Oct)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Haydons Road",
    "kind": "Rail",
@@ -12978,7 +12981,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -13002,7 +13005,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-09.",
    "Found by ChatGPT sweep (live)."
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Morden",
    "kind": "Tube",
@@ -13175,7 +13178,7 @@
     "zoopla"
    ]
   ],
-  "checked": "2026-10-30"
+  "checked": "2026-10-31"
  },
  {
   "id": "openrent-3005963",
@@ -13346,7 +13349,7 @@
     "zoopla"
    ]
   ],
-  "checked": "2026-10-30"
+  "checked": "2026-10-31"
  },
  {
   "id": "openrent-3051969",
@@ -13532,9 +13535,9 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   },
-  "checked": "2026-10-30"
+  "checked": "2026-10-31"
  },
  {
   "id": "rightmove-92323701",
@@ -13602,9 +13605,9 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   },
-  "checked": "2026-10-30"
+  "checked": "2026-10-31"
  },
  {
   "id": "zoopla-71820603",
@@ -13774,7 +13777,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on Rightmove (19 Oct).",
@@ -13794,7 +13797,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -13813,7 +13816,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -13832,7 +13835,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -13852,7 +13855,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Advert taken down on Rightmove (21 Oct)."
@@ -13876,7 +13879,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -13895,7 +13898,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live; results-page evidence only).",
    "Marsh & Parsons has this as To Let but not marketed online since 2026-06-17; probably withdrawn (25 Oct).",
@@ -13915,7 +13918,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on marshandparsons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -13934,7 +13937,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live; results-page evidence only).",
    "Marsh & Parsons has this as To Let but not marketed online since 2026-05-22; probably withdrawn (25 Oct).",
@@ -13954,7 +13957,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on marshandparsons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -13977,7 +13980,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -14018,7 +14021,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Price changed from £4,550 to £4,450 (2026-10-22).",
@@ -14065,7 +14068,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Marked gone: advert shows removed (2026-10-22).",
@@ -14109,7 +14112,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -14218,7 +14221,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -14251,7 +14254,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on Rightmove (22 Oct)."
@@ -14270,7 +14273,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -14290,7 +14293,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -14362,7 +14365,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Price changed from £4,300 to £4,200 (2026-10-20)."
@@ -14402,7 +14405,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on Foxtons (27 Oct).",
@@ -14423,7 +14426,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Foxtons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -14443,7 +14446,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -14514,7 +14517,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Price changed from £4,600 to £4,400 (2026-10-20).",
@@ -14559,7 +14562,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -14592,7 +14595,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on Rightmove (28 Oct)."
@@ -14611,7 +14614,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -14632,7 +14635,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -14671,7 +14674,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live; conflicting let-agreed advert).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -14690,7 +14693,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -14711,7 +14714,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Price changed from £4,500 to £4,000 (2026-10-22).",
@@ -14794,7 +14797,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -14813,7 +14816,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -14835,7 +14838,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Found by ChatGPT sweep (live; results-page evidence only).",
@@ -14881,7 +14884,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -14900,7 +14903,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -14921,7 +14924,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -14954,7 +14957,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -14973,7 +14976,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -14992,7 +14995,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -15011,7 +15014,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -15068,7 +15071,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -15087,7 +15090,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -15147,7 +15150,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live; results-page evidence only).",
    "Found by ChatGPT sweep (live)."
@@ -15189,7 +15192,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -15222,7 +15225,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -15255,7 +15258,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -15274,7 +15277,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -15293,7 +15296,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (22 Oct)."
@@ -15312,7 +15315,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -15331,7 +15334,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -15350,7 +15353,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -15402,7 +15405,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -15421,7 +15424,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -15442,7 +15445,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -15483,7 +15486,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Found by ChatGPT sweep (live; results-page evidence only).",
@@ -15536,7 +15539,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -15576,7 +15579,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -15614,7 +15617,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -15633,7 +15636,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -15653,7 +15656,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live; conflicting let-agreed advert).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -15672,7 +15675,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -15691,7 +15694,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -15710,7 +15713,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -15729,7 +15732,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -15748,7 +15751,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -15769,7 +15772,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "From an email on 2026-10-18: Test listing for the tracker"
@@ -15811,7 +15814,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live; results-page evidence only).",
    "Found by ChatGPT sweep (live)."
@@ -15850,7 +15853,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -15869,7 +15872,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -15891,7 +15894,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -15965,7 +15968,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -15984,7 +15987,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -16003,7 +16006,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -16022,7 +16025,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -16046,7 +16049,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Price cut on Rightmove: £3,750 to £3,600 (2026-10-30)."
@@ -16090,7 +16093,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Advert taken down on Rightmove (20 Oct)."
@@ -16109,7 +16112,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -16163,7 +16166,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -16239,7 +16242,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -16258,7 +16261,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -16277,7 +16280,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Advert taken down on Foxtons (24 Oct)."
@@ -16296,7 +16299,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on Foxtons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -16315,7 +16318,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -16334,7 +16337,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -16356,7 +16359,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on Foxtons, still live on OnTheMarket (27 Oct).",
@@ -16377,7 +16380,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Foxtons, still live on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -16396,7 +16399,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -16415,7 +16418,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -16434,7 +16437,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -16453,7 +16456,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -16472,7 +16475,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -16491,7 +16494,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -16512,7 +16515,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -16545,7 +16548,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -16564,7 +16567,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -16690,7 +16693,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -16728,7 +16731,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -16747,7 +16750,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -16766,7 +16769,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -16785,7 +16788,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -16805,7 +16808,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -16824,7 +16827,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -16876,7 +16879,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -16895,7 +16898,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -16915,7 +16918,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Prices differ across sites: £4,100 vs £4,000. Showing the lower; see price history.",
@@ -16952,7 +16955,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -16972,7 +16975,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live; conflicting let-agreed advert).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -16991,7 +16994,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -17012,7 +17015,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17045,7 +17048,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17073,7 +17076,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -17092,7 +17095,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -17111,7 +17114,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -17130,7 +17133,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -17149,7 +17152,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -17168,7 +17171,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -17187,7 +17190,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -17206,7 +17209,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -17225,7 +17228,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -17244,7 +17247,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -17263,7 +17266,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -17282,7 +17285,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -17301,7 +17304,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -17320,7 +17323,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -17339,7 +17342,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17372,7 +17375,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -17391,7 +17394,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -17443,7 +17446,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Marked gone: advert shows removed (2026-10-22).",
@@ -17513,7 +17516,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live; conflicting let-agreed advert).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -17532,7 +17535,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -17551,7 +17554,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live; results-page evidence only).",
    "Advert taken down on marshandparsons (26 Oct)."
@@ -17570,7 +17573,7 @@
   ],
   "off_market": {
    "why": "Advert taken down on marshandparsons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -17589,7 +17592,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17695,7 +17698,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17731,7 +17734,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Price changed from £4,750 to £4,650 (2026-10-21)."
@@ -17770,7 +17773,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -17789,7 +17792,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -17846,7 +17849,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -17865,7 +17868,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -17884,7 +17887,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17920,7 +17923,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -17990,7 +17993,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -18028,7 +18031,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -18047,7 +18050,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -18067,7 +18070,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live; conflicting let-agreed advert).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -18086,7 +18089,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -18105,7 +18108,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -18124,7 +18127,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -18143,7 +18146,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -18162,7 +18165,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -18181,7 +18184,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -18200,7 +18203,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -18221,7 +18224,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -18254,7 +18257,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (18 Oct)."
@@ -18273,7 +18276,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -18294,7 +18297,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Price cut on Rightmove: £4,750 to £4,650 (2026-10-30)."
@@ -18338,7 +18341,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Marked gone: advert shows removed (2026-10-22).",
@@ -18374,7 +18377,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let on Marsh & Parsons (M&P lists it as Let, updated 2026-09-14; the advert page stays up after letting) (25 Oct).",
@@ -18394,7 +18397,7 @@
   ],
   "off_market": {
    "why": "Let agreed on marshandparsons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -18413,7 +18416,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let on Marsh & Parsons (M&P lists it as Let, updated 2026-09-25; the advert page stays up after letting) (25 Oct).",
@@ -18433,7 +18436,7 @@
   ],
   "off_market": {
    "why": "Let agreed on marshandparsons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -18452,7 +18455,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let on Marsh & Parsons (M&P lists it as Let, updated 2026-10-20; the advert page stays up after letting) (25 Oct).",
@@ -18472,7 +18475,7 @@
   ],
   "off_market": {
    "why": "Let agreed on marshandparsons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -18491,7 +18494,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let on Marsh & Parsons (M&P lists it as Let, updated 2026-10-21; the advert page stays up after letting) (25 Oct).",
@@ -18511,7 +18514,7 @@
   ],
   "off_market": {
    "why": "Let agreed on marshandparsons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -18530,7 +18533,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let on Marsh & Parsons (M&P lists it as Let, updated 2026-10-23; the advert page stays up after letting) (25 Oct).",
@@ -18550,7 +18553,7 @@
   ],
   "off_market": {
    "why": "Let agreed on marshandparsons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -18569,7 +18572,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let on Marsh & Parsons (M&P lists it as Let, updated 2026-09-30; the advert page stays up after letting) (25 Oct).",
@@ -18589,7 +18592,7 @@
   ],
   "off_market": {
    "why": "Let agreed on marshandparsons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -18608,7 +18611,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let on Marsh & Parsons (M&P lists it as Let, updated 2026-10-07; the advert page stays up after letting) (25 Oct).",
@@ -18628,7 +18631,7 @@
   ],
   "off_market": {
    "why": "Let agreed on marshandparsons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -18647,7 +18650,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let on Marsh & Parsons (M&P lists it as Let, updated 2026-10-15; the advert page stays up after letting) (25 Oct).",
@@ -18667,7 +18670,7 @@
   ],
   "off_market": {
    "why": "Let agreed on marshandparsons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -18686,7 +18689,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let on Marsh & Parsons (M&P lists it as Let, updated 2026-09-14; the advert page stays up after letting) (25 Oct).",
@@ -18706,7 +18709,7 @@
   ],
   "off_market": {
    "why": "Let agreed on marshandparsons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -18725,7 +18728,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let on Marsh & Parsons (M&P lists it as Let, updated 2026-10-06; the advert page stays up after letting) (25 Oct).",
@@ -18745,7 +18748,7 @@
   ],
   "off_market": {
    "why": "Let agreed on marshandparsons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -18764,7 +18767,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let on Marsh & Parsons (M&P lists it as Let, updated 2026-10-03; the advert page stays up after letting) (25 Oct).",
@@ -18784,7 +18787,7 @@
   ],
   "off_market": {
    "why": "Let agreed on marshandparsons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -18803,7 +18806,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let on Marsh & Parsons (M&P lists it as Let, updated 2026-10-22; the advert page stays up after letting) (25 Oct).",
@@ -18823,7 +18826,7 @@
   ],
   "off_market": {
    "why": "Let agreed on marshandparsons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -18842,7 +18845,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let on Marsh & Parsons (M&P lists it as Let, updated 2026-09-14; the advert page stays up after letting) (25 Oct).",
@@ -18862,7 +18865,7 @@
   ],
   "off_market": {
    "why": "Let agreed on marshandparsons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -18881,7 +18884,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let on Marsh & Parsons (M&P lists it as Let, updated 2026-10-20; the advert page stays up after letting) (25 Oct).",
@@ -18901,7 +18904,7 @@
   ],
   "off_market": {
    "why": "Let agreed on marshandparsons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -18923,7 +18926,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-19",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -18958,7 +18961,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-19",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (30 Oct)."
@@ -18977,7 +18980,7 @@
   },
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -18998,7 +19001,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-20",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -19034,7 +19037,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-20",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -19075,7 +19078,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-21",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -19109,7 +19112,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-21",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -19144,7 +19147,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-21",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -19180,7 +19183,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-21",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -19219,7 +19222,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-21",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (unverified).",
    "Advert taken down on Foxtons (23 Oct).",
@@ -19262,7 +19265,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-21",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (unverified)."
   ],
@@ -19302,7 +19305,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-21",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Price changed from £4,000 to £3,750 (2026-10-23)."
@@ -19342,7 +19345,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-22",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -19375,7 +19378,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-22",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -19408,7 +19411,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-22",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "ChatGPT sweep says let agreed (2026-10-26).",
@@ -19431,7 +19434,7 @@
   },
   "off_market": {
    "why": "Let agreed on Foxtons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -19453,7 +19456,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-22",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -19489,7 +19492,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-22",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -19525,7 +19528,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-22",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -19561,7 +19564,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-23",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -19597,7 +19600,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-23",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -19633,7 +19636,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-24",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -19668,7 +19671,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-24",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -19704,7 +19707,7 @@
   ],
   "source": "import",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Advert live on Zoopla (25 Oct).",
@@ -19757,7 +19760,7 @@
   ],
   "source": "import",
   "added": "2026-09-25",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Advert live on Rightmove (25 Oct).",
    "Split from jacksons-20627612 (25 Oct): Jacksons' Garratt Lane house (let, £4,500) and Dexters' (live, £4,700) are different houses."
@@ -19794,7 +19797,7 @@
   ],
   "source": "import",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Let agreed on OnTheMarket, still live on Rightmove (18 Oct).",
    "Split from rightmove-93149787 (25 Oct): KFH's let-agreed Sefton Street advert is an older, different letting from Savills' live one."
@@ -19816,7 +19819,7 @@
   },
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -19836,7 +19839,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Let agreed on OnTheMarket, still live on OnTheMarket (18 Oct).",
    "Split from rightmove-93328425 (25 Oct): John D Wood's Bucharest Road house (3 baths, let) and Dexters' (2 baths, live) are different houses."
@@ -19858,7 +19861,7 @@
   },
   "off_market": {
    "why": "Let agreed on OnTheMarket",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -19879,7 +19882,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -19914,7 +19917,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -19948,7 +19951,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -19981,7 +19984,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let on Marsh & Parsons (M&P lists it as Let, updated 2026-07-30; the advert page stays up after letting) (25 Oct).",
@@ -20001,7 +20004,7 @@
   },
   "off_market": {
    "why": "Let agreed on marshandparsons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -20020,7 +20023,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -20055,7 +20058,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -20091,7 +20094,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Price cut on Rightmove: £3,500 to £3,250 (2026-10-30)."
@@ -20130,7 +20133,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let on Marsh & Parsons (M&P lists it as Let, updated 2026-07-30; the advert page stays up after letting) (25 Oct).",
@@ -20145,7 +20148,7 @@
   ],
   "off_market": {
    "why": "Let agreed on marshandparsons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -20166,7 +20169,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -20200,7 +20203,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Price changed from £4,750 to £4,500 (2026-10-27)."
@@ -20244,7 +20247,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Marsh & Parsons has this as To Let but not marketed online since 2026-07-13; probably withdrawn (25 Oct).",
@@ -20264,7 +20267,7 @@
   },
   "off_market": {
    "why": "Advert taken down on marshandparsons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -20283,7 +20286,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -20316,7 +20319,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let on Marsh & Parsons (M&P lists it as Let, updated 2026-10-14; the advert page stays up after letting) (25 Oct).",
@@ -20331,7 +20334,7 @@
   ],
   "off_market": {
    "why": "Let agreed on marshandparsons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   },
   "station": {
    "name": "Kensington (Olympia)",
@@ -20355,7 +20358,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let on Marsh & Parsons (M&P lists it as Let, updated 2026-10-24; the advert page stays up after letting) (25 Oct).",
@@ -20375,7 +20378,7 @@
   },
   "off_market": {
    "why": "Let agreed on marshandparsons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   }
  },
  {
@@ -20429,7 +20432,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -20463,7 +20466,7 @@
   ],
   "source": "search",
   "added": "2026-10-22",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Missed by the sweep; found in a portal coverage check on 25 Oct (Hillview Park Estates)."
   ],
@@ -20496,7 +20499,7 @@
   ],
   "source": "search",
   "added": "2026-10-25",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Missed by the sweep; found in a portal coverage check on 25 Oct (Rocket P M)."
   ],
@@ -20531,7 +20534,7 @@
   ],
   "source": "search",
   "added": "2026-10-25",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Missed by the sweep; found in a portal coverage check on 25 Oct (Landstones; advertised as £1,100 pw)."
   ],
@@ -20614,7 +20617,7 @@
     "rightmove"
    ]
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Tooting Bec",
    "kind": "Tube",
@@ -20654,7 +20657,7 @@
     "rightmove"
    ]
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Southfields",
    "kind": "Tube",
@@ -20700,7 +20703,7 @@
     "rightmove"
    ]
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -20725,7 +20728,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-26",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -20776,9 +20779,9 @@
   },
   "off_market": {
    "why": "Advert taken down on marshandparsons",
-   "checked": "2026-10-30"
+   "checked": "2026-10-31"
   },
-  "checked": "2026-10-30"
+  "checked": "2026-10-31"
  },
  {
   "id": "marshandparsons-VBR2535277",
@@ -20855,7 +20858,7 @@
    "kind": "Tube",
    "walk": 5
   },
-  "checked": "2026-10-30"
+  "checked": "2026-10-31"
  },
  {
   "id": "onthemarket-20630963",
@@ -20891,7 +20894,7 @@
     "rightmove"
    ]
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Southfields",
    "kind": "Tube",
@@ -20936,7 +20939,7 @@
     "foxtons"
    ]
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Balham",
    "kind": "Tube",
@@ -20981,7 +20984,7 @@
     "search"
    ]
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Stamford Brook",
    "kind": "Tube",
@@ -21019,7 +21022,7 @@
    "kind": "Rail",
    "walk": 16
   },
-  "checked": "2026-10-30"
+  "checked": "2026-10-31"
  },
  {
   "id": "onthemarket-20635761",
@@ -21060,7 +21063,7 @@
     "openrent"
    ]
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "Barons Court",
    "kind": "Tube",
@@ -21099,7 +21102,7 @@
     "rightmove"
    ]
   ],
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "station": {
    "name": "West Kensington",
    "kind": "Tube",
@@ -21122,7 +21125,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-27",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21190,7 +21193,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-27",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21266,7 +21269,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-27",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21299,7 +21302,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-27",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (unverified)."
   ],
@@ -21332,7 +21335,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-27",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (unverified)."
   ],
@@ -21358,17 +21361,18 @@
   "baths": 2,
   "available": "",
   "sharers": "unknown",
-  "status": "gone",
+  "status": "new",
   "url": "https://www.foxtons.co.uk/properties-to-rent/w12/chpk2315177",
   "links": [
    "https://www.foxtons.co.uk/properties-to-rent/w12/chpk2315177"
   ],
   "source": "sweep",
   "added": "2026-10-27",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
-   "Advert taken down on Foxtons (30 Oct)."
+   "Advert taken down on Foxtons (30 Oct).",
+   "Advert live on Foxtons (31 Oct)."
   ],
   "prices": [
    [
@@ -21381,10 +21385,6 @@
    "name": "Acton Central",
    "kind": "Overground",
    "walk": 22
-  },
-  "off_market": {
-   "why": "Advert taken down on Foxtons",
-   "checked": "2026-10-30"
   }
  },
  {
@@ -21403,7 +21403,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-27",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21438,7 +21438,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-28",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21477,7 +21477,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-28",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21518,7 +21518,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-28",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21588,7 +21588,7 @@
    "kind": "Rail",
    "walk": 13
   },
-  "checked": "2026-10-30"
+  "checked": "2026-10-31"
  },
  {
   "id": "onthemarket-20647670",
@@ -21633,7 +21633,7 @@
    "kind": "Tube",
    "walk": 7
   },
-  "checked": "2026-10-30"
+  "checked": "2026-10-31"
  },
  {
   "id": "onthemarket-15896230",
@@ -21672,7 +21672,7 @@
    "kind": "Tube",
    "walk": 13
   },
-  "checked": "2026-10-30"
+  "checked": "2026-10-31"
  },
  {
   "id": "onthemarket-20651061",
@@ -21723,7 +21723,7 @@
    "kind": "Rail",
    "walk": 14
   },
-  "checked": "2026-10-30"
+  "checked": "2026-10-31"
  },
  {
   "id": "rightmove-174678032",
@@ -21742,7 +21742,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-27",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "On OnTheMarket since at least 27 Oct at £3,450; reduced to £3,250 on 29 Oct."
@@ -21812,7 +21812,8 @@
    "name": "Queenstown Road",
    "kind": "Rail",
    "walk": 15
-  }
+  },
+  "checked": "2026-10-31"
  },
  {
   "id": "zoopla-74636546",
@@ -21850,7 +21851,8 @@
    "name": "Tooting",
    "kind": "Rail",
    "walk": 4
-  }
+  },
+  "checked": "2026-10-31"
  },
  {
   "id": "onthemarket-15925797",
@@ -21861,7 +21863,7 @@
   "baths": null,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/15925797/",
   "links": [
    "https://www.onthemarket.com/details/15925797/",
@@ -21871,7 +21873,8 @@
   "source": "alert",
   "added": "2026-10-30",
   "notes": [
-   "From an email on 2026-10-30: New properties in London (drawn area)"
+   "From an email on 2026-10-30: New properties in London (drawn area)",
+   "Let agreed on OnTheMarket (31 Oct)."
   ],
   "prices": [
    [
@@ -21894,7 +21897,12 @@
    "name": "Southfields",
    "kind": "Tube",
    "walk": 1
-  }
+  },
+  "off_market": {
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-10-31"
+  },
+  "checked": "2026-10-31"
  },
  {
   "id": "zoopla-74641192",
@@ -21932,7 +21940,8 @@
    "name": "Chiswick Park",
    "kind": "Tube",
    "walk": 5
-  }
+  },
+  "checked": "2026-10-31"
  },
  {
   "id": "onthemarket-20406560",
@@ -21964,7 +21973,8 @@
    "name": "East Putney",
    "kind": "Tube",
    "walk": 6
-  }
+  },
+  "checked": "2026-10-31"
  },
  {
   "id": "rightmove-94939650",
@@ -22004,7 +22014,7 @@
    "kind": "Overground",
    "walk": 1
   },
-  "checked": "2026-10-30"
+  "checked": "2026-10-31"
  },
  {
   "id": "onthemarket-20659623",
@@ -22055,7 +22065,7 @@
    "kind": "Tube",
    "walk": 7
   },
-  "checked": "2026-10-30"
+  "checked": "2026-10-31"
  },
  {
   "id": "onthemarket-20605689",
@@ -22074,7 +22084,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-30",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -22107,7 +22117,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-30",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "notes": [
    "Found by ChatGPT sweep (unverified)."
   ],
@@ -22193,6 +22203,7 @@
    "name": "Wimbledon",
    "kind": "Tube",
    "walk": 3
-  }
+  },
+  "checked": "2026-10-31"
  }
 ]
