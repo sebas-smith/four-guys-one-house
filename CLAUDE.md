@@ -45,6 +45,10 @@ Read README.md first: it explains the search, the data and every script and work
   Site now shows a photo and the time added; notes, the New tag and "Availability unknown" removed
   at Seb's request.
 
+- 31 Oct: four full redesign mock-ups in `designs/a`–`d` (editorial, map, swipe deck, data desk), linked from
+  `designs/index.html`, all reading the live data. Waiting for Seb to pick one; the root site is unchanged
+  until then. When one is chosen, move it to the root and point its fetches back to `data/`.
+
 ## Next steps
 
 1. Gmail delegation: Seb sends the other three housemates' Gmail addresses; Claude adds them in
