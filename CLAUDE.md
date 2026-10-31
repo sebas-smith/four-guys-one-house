@@ -48,6 +48,9 @@ Read README.md first: it explains the search, the data and every script and work
 - 31 Oct: four full redesign mock-ups in `designs/a`–`d` (editorial, map, swipe deck, data desk), linked from
   `designs/index.html`, all reading the live data. Waiting for Seb to pick one; the root site is unchanged
   until then. When one is chosen, move it to the root and point its fetches back to `data/`.
+- 31 Oct: `designs/map` is a standalone map module (`FGOHMap.mount`, how-to at the top of `map-view.js`) to add
+  to whichever design is picked: pins from `loc`, lines from `data/lines.json`, commute times (`commute`) to the
+  four workplaces in `data/workplaces.json` (LCP, Tritax, Q5 by TfL; Wentworth by car).
 
 ## Next steps
 
