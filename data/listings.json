@@ -15841,13 +15841,16 @@
   "links": [
    "https://www.onthemarket.com/details/20082185/",
    "https://www.zoopla.co.uk/to-rent/details/73906920/",
-   "https://www.rightmove.co.uk/properties/91708623"
+   "https://www.rightmove.co.uk/properties/91708623",
+   "https://www.rightmove.co.uk/properties/94718772"
   ],
   "source": "sweep",
   "added": "2026-10-18",
   "checked": "2026-10-31",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-10-26.",
+   "Merged rightmove-94718772 into this home: same street, beds, baths and rent (31 Oct)."
   ],
   "station": {
    "name": "Barnes",
@@ -15863,6 +15866,11 @@
    [
     "2026-10-20",
     3300,
+    "rightmove"
+   ],
+   [
+    "2026-10-31",
+    3301,
     "rightmove"
    ]
   ],
@@ -21290,7 +21298,8 @@
    "https://www.zoopla.co.uk/to-rent/details/74632192/",
    "https://www.zoopla.co.uk/to-rent/details/74641192/",
    "https://www.onthemarket.com/details/20657714/",
-   "https://www.rightmove.co.uk/properties/94504704"
+   "https://www.rightmove.co.uk/properties/94504704",
+   "https://www.rightmove.co.uk/properties/94027983"
   ],
   "source": "agent",
   "added": "2026-10-26",
@@ -21303,7 +21312,9 @@
    "From an email on 2026-10-29: New properties in London (drawn area)",
    "Four entries merged on 2026-10-29: the same house (photos match), advertised by Chestertons (£4,000), Capital Properties (£4,147), Lawson Rutter and Marsh & Parsons.",
    "From an email on 2026-10-30: New listings: 2 new properties to rent in SW London house v2",
-   "Merged zoopla-74641192 into this home: the £4,147 Capital Properties advert for this house, listed again (31 Oct)."
+   "Merged zoopla-74641192 into this home: the £4,147 Capital Properties advert for this house, listed again (31 Oct).",
+   "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-10-07.",
+   "Merged rightmove-94027983 into this home: same street, beds, baths and rent (31 Oct)."
   ],
   "prices": [
    [
@@ -21604,13 +21615,16 @@
   "url": "https://www.onthemarket.com/details/20577848/",
   "links": [
    "https://www.onthemarket.com/details/20577848/",
-   "https://www.rightmove.co.uk/properties/94481241"
+   "https://www.rightmove.co.uk/properties/94481241",
+   "https://www.rightmove.co.uk/properties/93925863"
   ],
   "source": "sweep",
   "added": "2026-10-27",
   "checked": "2026-10-31",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-10-05.",
+   "Merged rightmove-93925863 into this home: same street, beds, baths and rent (31 Oct)."
   ],
   "prices": [
    [
@@ -21686,13 +21700,16 @@
   "links": [
    "https://www.zoopla.co.uk/to-rent/details/73581398/",
    "https://www.rightmove.co.uk/properties/94553118",
-   "https://www.onthemarket.com/details/20076158/"
+   "https://www.onthemarket.com/details/20076158/",
+   "https://www.rightmove.co.uk/properties/94516866"
   ],
   "source": "sweep",
   "added": "2026-10-27",
   "checked": "2026-10-31",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-10-20.",
+   "Merged rightmove-94516866 into this home: same street, beds, baths and rent (31 Oct)."
   ],
   "prices": [
    [
@@ -21702,6 +21719,11 @@
    ],
    [
     "2026-10-29",
+    4850,
+    "rightmove"
+   ],
+   [
+    "2026-10-31",
     4850,
     "rightmove"
    ]
@@ -21767,13 +21789,16 @@
   "url": "https://www.onthemarket.com/details/20397950/",
   "links": [
    "https://www.onthemarket.com/details/20397950/",
-   "https://www.rightmove.co.uk/properties/93371175"
+   "https://www.rightmove.co.uk/properties/93371175",
+   "https://www.rightmove.co.uk/properties/93489711"
   ],
   "source": "sweep",
   "added": "2026-10-27",
   "checked": "2026-10-31",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-09-23.",
+   "Merged rightmove-93489711 into this home: same street, beds, baths and rent (31 Oct)."
   ],
   "prices": [
    [
@@ -22312,7 +22337,7 @@
   "area": "SW11",
   "rent": 3750,
   "beds": 4,
-  "baths": null,
+  "baths": 2,
   "available": "",
   "sharers": "unknown",
   "status": "new",
@@ -22320,12 +22345,15 @@
   "links": [
    "https://www.onthemarket.com/details/8910110/",
    "https://www.rightmove.co.uk/properties/94928766",
-   "https://www.zoopla.co.uk/to-rent/details/44152213/"
+   "https://www.zoopla.co.uk/to-rent/details/44152213/",
+   "https://www.rightmove.co.uk/properties/92469873"
   ],
   "source": "alert",
   "added": "2026-10-30",
   "notes": [
-   "From an email on 2026-10-30: New properties in London (drawn area)"
+   "From an email on 2026-10-30: New properties in London (drawn area)",
+   "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-08-27.",
+   "Merged rightmove-92469873 into this home: same street, beds, baths and rent (31 Oct)."
   ],
   "prices": [
    [
@@ -22342,6 +22370,11 @@
     "2026-10-30",
     3750,
     "zoopla"
+   ],
+   [
+    "2026-10-31",
+    3800,
+    "rightmove"
    ]
   ],
   "station": {
@@ -23198,146 +23231,6 @@
   }
  },
  {
-  "id": "rightmove-92469873",
-  "title": "Dunston Road, London, SW11",
-  "area": "SW11",
-  "rent": 3800,
-  "beds": 4,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/92469873",
-  "links": [
-   "https://www.rightmove.co.uk/properties/92469873"
-  ],
-  "source": "backfill",
-  "added": "2026-10-31",
-  "added_at": "2026-10-31T12:03Z",
-  "notes": [
-   "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-08-27."
-  ],
-  "prices": [
-   [
-    "2026-10-31",
-    3800,
-    "rightmove"
-   ]
-  ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/aa2547eed/92469873/aa2547eedc851fd95415307338e1d16e_max_476x317.jpeg",
-  "checked": "2026-10-31",
-  "station": {
-   "name": "Queenstown Road",
-   "kind": "Rail",
-   "walk": 15
-  }
- },
- {
-  "id": "rightmove-94516866",
-  "title": "Malthouse Drive, Chiswick",
-  "area": "Chiswick",
-  "rent": 4850,
-  "beds": 5,
-  "baths": 3,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/94516866",
-  "links": [
-   "https://www.rightmove.co.uk/properties/94516866"
-  ],
-  "source": "backfill",
-  "added": "2026-10-31",
-  "added_at": "2026-10-31T12:03Z",
-  "notes": [
-   "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-10-20."
-  ],
-  "prices": [
-   [
-    "2026-10-31",
-    4850,
-    "rightmove"
-   ]
-  ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/046bc52fd/94516866/046bc52fdde28151c4a5959f56e3718e_max_476x317.jpeg",
-  "checked": "2026-10-31",
-  "station": {
-   "name": "Stamford Brook",
-   "kind": "Tube",
-   "walk": 19
-  }
- },
- {
-  "id": "rightmove-94027983",
-  "title": "Ivy Crescent, \nChiswick Park, W4",
-  "area": "Chiswick",
-  "rent": 4000,
-  "beds": 4,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/94027983",
-  "links": [
-   "https://www.rightmove.co.uk/properties/94027983"
-  ],
-  "source": "backfill",
-  "added": "2026-10-31",
-  "added_at": "2026-10-31T12:03Z",
-  "notes": [
-   "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-10-07."
-  ],
-  "prices": [
-   [
-    "2026-10-31",
-    4000,
-    "rightmove"
-   ]
-  ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/cfd39e834/94027983/cfd39e834d50899e8c70826dc73fe683_max_476x317.jpeg",
-  "checked": "2026-10-31",
-  "station": {
-   "name": "Chiswick Park",
-   "kind": "Tube",
-   "walk": 5
-  }
- },
- {
-  "id": "rightmove-93925863",
-  "title": "Devonshire Road London W4",
-  "area": "W4",
-  "rent": 4995,
-  "beds": 5,
-  "baths": 3,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/93925863",
-  "links": [
-   "https://www.rightmove.co.uk/properties/93925863"
-  ],
-  "source": "backfill",
-  "added": "2026-10-31",
-  "added_at": "2026-10-31T12:03Z",
-  "notes": [
-   "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-10-05."
-  ],
-  "prices": [
-   [
-    "2026-10-31",
-    4995,
-    "rightmove"
-   ]
-  ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/8a7096fcb/93925863/8a7096fcbca7472d5ad5075a8ddec897_max_476x317.jpeg",
-  "checked": "2026-10-31",
-  "station": {
-   "name": "Turnham Green",
-   "kind": "Tube",
-   "walk": 5
-  }
- },
- {
   "id": "rightmove-94359414",
   "title": "25 Percy Road W12 9PX",
   "area": "W12",
@@ -23474,41 +23367,6 @@
   "station": {
    "name": "South Acton",
    "kind": "Overground",
-   "walk": 7
-  }
- },
- {
-  "id": "rightmove-93489711",
-  "title": "Waldeck Road, Chiswick",
-  "area": "Chiswick",
-  "rent": 4500,
-  "beds": 4,
-  "baths": 1,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/93489711",
-  "links": [
-   "https://www.rightmove.co.uk/properties/93489711"
-  ],
-  "source": "backfill",
-  "added": "2026-10-31",
-  "added_at": "2026-10-31T12:03Z",
-  "notes": [
-   "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-09-23."
-  ],
-  "prices": [
-   [
-    "2026-10-31",
-    4500,
-    "rightmove"
-   ]
-  ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/ceb064a71/93489711/ceb064a717117913b9f80be39993557d_max_476x317.jpeg",
-  "checked": "2026-10-31",
-  "station": {
-   "name": "Kew Bridge",
-   "kind": "Rail",
    "walk": 7
   }
  },
@@ -23650,41 +23508,6 @@
    "name": "Queenstown Road",
    "kind": "Rail",
    "walk": 5
-  }
- },
- {
-  "id": "rightmove-94718772",
-  "title": "Danebury Avenue, London",
-  "area": "",
-  "rent": 3301,
-  "beds": 6,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/94718772",
-  "links": [
-   "https://www.rightmove.co.uk/properties/94718772"
-  ],
-  "source": "backfill",
-  "added": "2026-10-31",
-  "added_at": "2026-10-31T12:03Z",
-  "notes": [
-   "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-10-26."
-  ],
-  "prices": [
-   [
-    "2026-10-31",
-    3301,
-    "rightmove"
-   ]
-  ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/003e7731f/94718772/003e7731ff98f599b3c5751530689673_max_476x317.jpeg",
-  "checked": "2026-10-31",
-  "station": {
-   "name": "Barnes",
-   "kind": "Rail",
-   "walk": 30
   }
  },
  {
