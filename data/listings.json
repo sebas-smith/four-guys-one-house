@@ -27234,5 +27234,33 @@
   },
   "photo": "https://media.onthemarket.com/properties/20665648/1655884170/image-0-1024x1024.jpg",
   "checked": "2026-11-01"
+ },
+ {
+  "id": "openrent-3088683",
+  "title": "Thornton Gardens, SW12",
+  "area": "SW12",
+  "rent": 3000,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.openrent.co.uk/3088683",
+  "links": [
+   "https://www.openrent.co.uk/3088683"
+  ],
+  "source": "alert",
+  "added": "2026-11-01",
+  "added_at": "2026-11-01T16:19Z",
+  "notes": [
+   "From an email on 2026-11-01: New properties found for your search: Wandsworth, London"
+  ],
+  "prices": [
+   [
+    "2026-11-01",
+    3000,
+    "openrent"
+   ]
+  ]
  }
 ]
