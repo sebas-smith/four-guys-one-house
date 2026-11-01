@@ -4839,7 +4839,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-11."
   ],
-  "checked": "2026-10-31",
+  "checked": "2026-11-01",
   "station": {
    "name": "Colliers Wood",
    "kind": "Tube",
@@ -5398,7 +5398,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
-  "checked": "2026-10-31",
+  "checked": "2026-11-01",
   "station": {
    "name": "Putney",
    "kind": "Rail",
@@ -6242,7 +6242,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04."
   ],
-  "checked": "2026-10-31",
+  "checked": "2026-11-01",
   "station": {
    "name": "Wandsworth Town",
    "kind": "Rail",
@@ -6290,7 +6290,7 @@
    "Price changed from £4,800 to £4,300 (2026-10-26).",
    "Price changed from £4,300 to £3,800 (2026-10-30)."
   ],
-  "checked": "2026-10-31",
+  "checked": "2026-11-01",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -6348,7 +6348,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck). Last checked 2026-10-09."
   ],
-  "checked": "2026-10-31",
+  "checked": "2026-11-01",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -11170,7 +11170,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
-  "checked": "2026-10-31",
+  "checked": "2026-11-01",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -18553,7 +18553,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-31",
+  "checked": "2026-11-01",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Bathrooms corrected to 2 from the advert (31 Oct)."
@@ -19132,7 +19132,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-31",
+  "checked": "2026-11-01",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -19402,7 +19402,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-31",
+  "checked": "2026-11-01",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -20063,7 +20063,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-31",
+  "checked": "2026-11-01",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -20154,7 +20154,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-31",
+  "checked": "2026-11-01",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -20333,7 +20333,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-31",
+  "checked": "2026-11-01",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Bathrooms corrected to 1 from the advert (31 Oct)."
@@ -23672,7 +23672,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-10-31",
+  "checked": "2026-11-01",
   "notes": [
    "Found by ChatGPT sweep (unverified)."
   ],
@@ -23896,7 +23896,7 @@
   ],
   "source": "search",
   "added": "2026-10-25",
-  "checked": "2026-10-31",
+  "checked": "2026-11-01",
   "notes": [
    "Missed by the sweep; found in a portal coverage check on 25 Oct (OpenRent private landlord)."
   ],
@@ -24574,7 +24574,8 @@
   "links": [
    "https://www.onthemarket.com/details/20577848/",
    "https://www.rightmove.co.uk/properties/94481241",
-   "https://www.rightmove.co.uk/properties/93925863"
+   "https://www.rightmove.co.uk/properties/93925863",
+   "https://www.hamptons.co.uk/properties/22188608/lettings/P328805"
   ],
   "source": "sweep",
   "added": "2026-10-27",
@@ -25805,7 +25806,9 @@
   "url": "https://www.rightmove.co.uk/properties/94607643",
   "links": [
    "https://www.onthemarket.com/details/20605689/",
-   "https://www.rightmove.co.uk/properties/94607643"
+   "https://www.rightmove.co.uk/properties/94607643",
+   "https://search.savills.com/property-detail/gbcsrecil260012l",
+   "https://www.zoopla.co.uk/to-rent/details/74575798/"
   ],
   "source": "sweep",
   "added": "2026-10-30",
@@ -27196,13 +27199,14 @@
   "area": "SW17",
   "rent": 4000,
   "beds": 5,
-  "baths": null,
+  "baths": 3,
   "available": "",
   "sharers": "unknown",
   "status": "new",
   "url": "https://www.onthemarket.com/details/20665648/",
   "links": [
-   "https://www.onthemarket.com/details/20665648/"
+   "https://www.onthemarket.com/details/20665648/",
+   "https://www.zoopla.co.uk/to-rent/details/74652316/"
   ],
   "source": "alert",
   "added": "2026-10-31",
@@ -27215,6 +27219,11 @@
     "2026-10-31",
     4000,
     "onthemarket"
+   ],
+   [
+    "2026-11-01",
+    4000,
+    "zoopla"
    ]
   ],
   "loc": [
@@ -27241,7 +27250,7 @@
   "area": "SW12",
   "rent": 3000,
   "beds": 4,
-  "baths": null,
+  "baths": 1,
   "available": "",
   "sharers": "unknown",
   "status": "new",
@@ -27261,6 +27270,7 @@
     3000,
     "openrent"
    ]
-  ]
+  ],
+  "checked": "2026-11-01"
  }
 ]
