@@ -24012,7 +24012,7 @@
   "id": "onthemarket-17963710",
   "title": "4 bedroom flat to rent - Esher Gardens, London, SW19",
   "area": "SW19",
-  "rent": 3000,
+  "rent": 2800,
   "beds": 4,
   "baths": null,
   "available": "",
@@ -24027,7 +24027,8 @@
   "added": "2026-10-26",
   "notes": [
    "From an email on 2026-10-26: New properties in London (drawn area)",
-   "From an email on 2026-10-26: fourguys, we've found you 2 properties in SW London house"
+   "From an email on 2026-10-26: fourguys, we've found you 2 properties in SW London house",
+   "Price cut on Onthemarket: £3,000 to £2,800 (2026-11-02)."
   ],
   "prices": [
    [
@@ -24039,6 +24040,11 @@
     "2026-10-26",
     3000,
     "rightmove"
+   ],
+   [
+    "2026-11-02",
+    2800,
+    "onthemarket"
    ]
   ],
   "checked": "2026-11-02",
@@ -26016,7 +26022,8 @@
   "added": "2026-10-30",
   "notes": [
    "From an email on 2026-10-30: Reduced price properties in London (drawn area)",
-   "Price cut on Rightmove: £4,500 to £4,000 (2026-11-02)."
+   "Price cut on Rightmove: £4,500 to £4,000 (2026-11-02).",
+   "Price cut on Onthemarket: £4,500 to £4,000 (2026-11-02)."
   ],
   "prices": [
    [
@@ -26033,6 +26040,11 @@
     "2026-11-02",
     4000,
     "rightmove"
+   ],
+   [
+    "2026-11-02",
+    4000,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -27390,7 +27402,8 @@
   "status": "new",
   "url": "https://www.zoopla.co.uk/to-rent/details/47543343/",
   "links": [
-   "https://www.zoopla.co.uk/to-rent/details/47543343/"
+   "https://www.zoopla.co.uk/to-rent/details/47543343/",
+   "https://www.rightmove.co.uk/properties/95027115"
   ],
   "source": "sweep",
   "added": "2026-11-02",
@@ -27404,6 +27417,11 @@
     "2026-11-02",
     3701,
     "zoopla"
+   ],
+   [
+    "2026-11-02",
+    3701,
+    "rightmove"
    ]
   ],
   "loc": [
@@ -27593,6 +27611,49 @@
    "tritax": 57,
    "q5": 48,
    "wentworth": 43
+  }
+ },
+ {
+  "id": "openrent-2738801",
+  "title": "Paxton Terrace, SW1V",
+  "area": "",
+  "rent": 4300,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.openrent.co.uk/2738801",
+  "links": [
+   "https://www.openrent.co.uk/2738801"
+  ],
+  "source": "alert",
+  "added": "2026-11-02",
+  "added_at": "2026-11-02T17:46Z",
+  "notes": [
+   "From an email on 2026-11-02: New properties found for your search: Wandsworth, London"
+  ],
+  "prices": [
+   [
+    "2026-11-02",
+    4300,
+    "openrent"
+   ]
+  ],
+  "loc": [
+   51.4859571,
+   -0.1442969
+  ],
+  "station": {
+   "name": "Battersea Power Station",
+   "kind": "Tube",
+   "walk": 12
+  },
+  "commute": {
+   "lcp": 36,
+   "tritax": 34,
+   "q5": 23,
+   "wentworth": 49
   }
  }
 ]
