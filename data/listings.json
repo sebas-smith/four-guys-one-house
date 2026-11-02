@@ -5526,7 +5526,7 @@
   "id": "openrent-3009117",
   "title": "Pentney Road",
   "area": "Balham",
-  "rent": 4800,
+  "rent": 4700,
   "beds": 4,
   "baths": 2,
   "available": "2026-10-30",
@@ -5543,7 +5543,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
-   "Price changed from £5,000 to £4,800 (2026-10-19)."
+   "Price changed from £5,000 to £4,800 (2026-10-19).",
+   "Price cut on Rightmove: £4,800 to £4,700 (2026-11-02)."
   ],
   "checked": "2026-11-02",
   "station": {
@@ -5560,6 +5561,11 @@
    [
     "2026-10-19",
     4800,
+    "rightmove"
+   ],
+   [
+    "2026-11-02",
+    4700,
     "rightmove"
    ]
   ],
@@ -9488,7 +9494,7 @@
   "id": "rightmove-93519945",
   "title": "Pullman Gardens",
   "area": "Putney",
-  "rent": 3300,
+  "rent": 3100,
   "beds": 4,
   "baths": 2,
   "available": "Now",
@@ -9506,7 +9512,9 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-10.",
-   "Price changed from £3,500 to £3,300 (2026-10-18)."
+   "Price changed from £3,500 to £3,300 (2026-10-18).",
+   "Price cut on Onthemarket: £3,300 to £3,100 (2026-11-02).",
+   "Price cut on Rightmove: £3,300 to £3,100 (2026-11-02)."
   ],
   "checked": "2026-11-02",
   "station": {
@@ -9523,6 +9531,21 @@
    [
     "2026-10-18",
     3300,
+    "rightmove"
+   ],
+   [
+    "",
+    3300,
+    "onthemarket"
+   ],
+   [
+    "2026-11-02",
+    3100,
+    "onthemarket"
+   ],
+   [
+    "2026-11-02",
+    3100,
     "rightmove"
    ]
   ],
@@ -25964,7 +25987,7 @@
   "id": "onthemarket-20581525",
   "title": "Compton Road, London, SW19",
   "area": "SW19",
-  "rent": 4500,
+  "rent": 4000,
   "beds": 5,
   "baths": null,
   "available": "",
@@ -25978,7 +26001,8 @@
   "source": "alert",
   "added": "2026-10-30",
   "notes": [
-   "From an email on 2026-10-30: Reduced price properties in London (drawn area)"
+   "From an email on 2026-10-30: Reduced price properties in London (drawn area)",
+   "Price cut on Rightmove: £4,500 to £4,000 (2026-11-02)."
   ],
   "prices": [
    [
@@ -25989,6 +26013,11 @@
    [
     "2026-10-30",
     4500,
+    "rightmove"
+   ],
+   [
+    "2026-11-02",
+    4000,
     "rightmove"
    ]
   ],
@@ -27291,5 +27320,48 @@
    ]
   ],
   "checked": "2026-11-01"
+ },
+ {
+  "id": "onthemarket-20670072",
+  "title": "Ivy Crescent, London W4",
+  "area": "W4",
+  "rent": 4147,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20670072/",
+  "links": [
+   "https://www.onthemarket.com/details/20670072/"
+  ],
+  "source": "alert",
+  "added": "2026-11-02",
+  "added_at": "2026-11-02T12:35Z",
+  "notes": [
+   "From an email on 2026-11-02: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-02",
+    4147,
+    "onthemarket"
+   ]
+  ],
+  "loc": [
+   51.49621,
+   -0.2712875
+  ],
+  "station": {
+   "name": "Chiswick Park",
+   "kind": "Tube",
+   "walk": 5
+  },
+  "commute": {
+   "lcp": 53,
+   "tritax": 55,
+   "q5": 53,
+   "wentworth": 33
+  }
  }
 ]
