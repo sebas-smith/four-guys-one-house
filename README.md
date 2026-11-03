@@ -11,9 +11,12 @@ Site: https://sebas-smith.github.io/four-guys-one-house/
   Clapham (SW4), Battersea (to the river, with Battersea Park and the Power Station), Fulham,
   Hammersmith, Shepherd's Bush (all of W12, with East Acton and Old Oak), Chiswick (all of W4, with
   Bedford Park and Strand-on-the-Green).
-- Roehampton too. Edges inside the drawn area (West Kensington/Barons Court W14) are fine.
+- Roehampton too. Edges inside the drawn area (West Kensington/Barons Court W14) are fine, and so are
+  Stockwell (SW9) and Pimlico (SW1V) homes the OpenRent radius picks up (agreed 3 Nov).
 - Excluded: Isleworth, Osterley, New Malden, Hounslow, Twickenham, Whitton, Brixton, Streatham
   (TW, KT3, SW2, SW16 and SE postcodes), and Acton W3 and Notting Hill W10/W11 at the drawn area's edge.
+  The check reads the title and the postcode in an advert link's path (OpenRent: `...-mitcham-lane-sw16/3037368`).
+- Rent cuts can take a home below £3,000; it stays on the list (agreed 3 Nov).
 - Whole property, 4+ bedrooms, £3,000 to £5,000 pcm tracked (recommend up to £4,800).
 
 ## How it works
@@ -27,9 +30,16 @@ Site: https://sebas-smith.github.io/four-guys-one-house/
   marks let homes gone. The other two workflows run the same catch-up, so a sweep run GitHub drops
   from the shared queue still gets merged. It never overrides a status one of us set. The git
   history shows what changed each day.
-- Every morning at 05:00 UTC `.github/workflows/check.yml` runs `scripts/check_live.py`, which opens
-  each live home's adverts and marks it gone when they're let agreed, under offer or taken down
-  (warning only if another advert is still live). The sweep workflow runs it on the homes it just
+- Every morning `.github/workflows/check.yml` runs `scripts/check_live.py` (cron 05:00 UTC; GitHub
+  actually starts it around 11:00–13:00 UTC), which opens each live home's adverts and marks it gone
+  when they're all let agreed, under offer or taken down. Adverts that are down while another is live
+  are listed in `down`: the site skips them for the main link, `same_home` treats a new advert for the
+  same street, beds and rent as a relist, and their site's old price stops counting. Let agreed on one
+  site while live on another sets an `off_market` warning, unless the same site has a live advert (an
+  agent's relist). It reads the rent each live Rightmove and OnTheMarket advert asks and shows the lowest
+  (a price over 25% from the shown rent is printed and ignored), so stale prices correct themselves.
+  Its last line counts homes that went, came back, got a let warning or a new rent, and adverts it
+  couldn't read. The sweep workflow runs it on the homes it just
   added. Foxtons leaves let adverts up too: its page JSON says `DOW`/`EXC` when let, and only a
   redirect to `#gone` counts as taken down. OnTheMarket leaves withdrawn adverts up ("no longer on the
   market"): its page data says `"status":"retracted"`. A short page or a captcha/rate-limit page counts
@@ -43,7 +53,8 @@ Site: https://sebas-smith.github.io/four-guys-one-house/
   Two adverts on the same portal are only merged into one home when one of the home's adverts is
   already down and the new one has the same street, beds and rent within £50 (a relist); otherwise a
   street often has several similar homes at one price. A sweep row's links that already belong to
-  another home stay there. When the drawn area grows, alerts only email adverts listed after that, so
+  another home stay there. Hamptons links are matched on their P-reference (`P328691`), which survives
+  a relist; the property number doesn't. When the drawn area grows, alerts only email adverts listed after that, so
   search the whole area once for homes already on the market (done 31 Oct for Rightmove).
   `scripts/split_merged.py` was a one-off (25 Oct) that split homes merged by mistake.
 - `scripts/commutes.py` runs after `stations.py` and times each live home's journey to our workplaces
@@ -56,7 +67,7 @@ Site: https://sebas-smith.github.io/four-guys-one-house/
 ## Alert emails
 
 Portal alerts go straight to the bot Gmail, 4guysonehouse@gmail.com (no Google Group: nobody wanted
-the emails). Housemates can read that inbox through Gmail delegation. Every 15 minutes (GitHub actually runs it every 4–6 hours), `.github/workflows/alerts.yml` runs
+the emails). Housemates can read that inbox through Gmail delegation. Every 15 minutes (GitHub actually runs it 3–8 times a day, gaps up to about 8 hours), `.github/workflows/alerts.yml` runs
 `scripts/ingest_alerts.py`. That reads the bot inbox, adds any new Rightmove, Zoopla, OnTheMarket or
 OpenRent listing link to `data/listings.json`, and commits. Forward any listing email to the bot
 address and it gets added too.
@@ -64,7 +75,9 @@ address and it gets added too.
 If a portal alert email can't be read (no listing links, or links but no price or beds by any of
 them: the portal changed its layout), the Action fails once and GitHub emails the repo owner. An emailed
 price change for an advert we have is applied even when we have no earlier price from that portal (it's
-compared with the home's current rent). Marketing newsletters from the portals are skipped. If a
+compared with the home's current rent). Marketing newsletters from the portals are skipped. Emails are
+recorded in `data/processed_emails.json` by Message-ID plus subject, since Zoopla sends its "New listings"
+and "Price reduced" emails with one Message-ID. If a
 tracking link can't be followed, the email is left for the next run. Parser tests:
 `python scripts/test_ingest.py`; it runs on real alert emails saved in `tests/emails/` (27 Oct,
 with headers, account links and tracking query strings removed).
@@ -101,7 +114,7 @@ A `no` the scripts set records why in `ruled_out`, so a later sweep can undo it 
 say); a `no` set by hand has no `ruled_out` and sticks. Homes with `sharers: "no"` are hidden from
 Active and In budget whatever their status. Cards show a photo, the time a home was added, the move-in
 date when the advert gives one, and price history; notes stay in the data but aren't shown.
-Standouts leave out homes with any advert let or taken down (`off_market`).
+Standouts leave out homes with an `off_market` warning (an advert let agreed while another site is live).
 The scripts still respect `shortlist`, `viewing` and `applied` if one is set by hand, but the site
 no longer has tabs or tags for them.
 
@@ -115,5 +128,6 @@ have none), `photo` (advert image URL), `ruled_out` (why the scripts set `no`),
 `loc` (`[lat, lon]` of the street, from `stations.py`), `commute` (minutes to each workplace, keyed by
 `data/workplaces.json` ids), `station` (`{name, kind, walk}` minutes; the street is looked up with the postcode district from the
 title or an advert link), `off_market` (`{why, checked}`, set by `check_live.py`; one that only says
-"ChatGPT sweep says ..." is undone by a later sweep saying live),
+"ChatGPT sweep says ..." is undone by a later sweep saying live), `down` (links found let or taken down
+while the home is still live, set by `check_live.py`),
 `not_same` (ids of homes that look alike but aren't; `dedupe.py` never merges them).

@@ -233,7 +233,68 @@ def main():
     assert ia.same_home(relist, "Ivy Crescent, Chiswick W4", 4147, 4, None, zp2) is relist[0]
     import agent_feeds
     assert agent_feeds.monthly(1154) == 5000 and agent_feeds.monthly(1038) == 4500
+    # ... or once check_live has listed one of its adverts as down while another is live
+    relist[0].pop("off_market")
+    relist[0]["down"] = ["https://www.zoopla.co.uk/to-rent/details/1/"]
+    assert ia.same_home(relist, "Ivy Crescent, Chiswick W4", 4147, 4, None, zp2) is relist[0]
+    # excluded postcodes are found in a link's path too, not in its query
+    assert ia.excluded("Mitcham Lane", "https://www.openrent.co.uk/property-to-rent/london/4-bed-maisonette-mitcham-lane-sw16/3037368")
+    assert not ia.excluded("Chiswick W4", "https://www.openrent.co.uk/3037368?src=sw16")
+    # Hamptons gives a relist a new property number but keeps its P-reference
+    import merge_sweep
+    assert (merge_sweep.keys(["https://www.hamptons.co.uk/properties/22149582/lettings/P328691"])
+            == merge_sweep.keys(["https://www.hamptons.co.uk/properties/22254628/lettings/P328691"]))
+    # the shown rent leaves out sites whose adverts are all down
+    h = {"rent": 3350, "links": ["https://www.rightmove.co.uk/properties/1", "https://www.zoopla.co.uk/to-rent/details/2/"],
+         "down": ["https://www.zoopla.co.uk/to-rent/details/2/"],
+         "prices": [["2026-09-25", 3350, "zoopla"], ["2026-11-03", 3850, "rightmove"]]}
+    assert ia.shown_rent(h) == 3850
+    test_check_live()
     print("ok")
+
+
+def test_check_live():
+    """check_live.main on a fake list: down adverts, relists, let warnings, gone homes and rents from live adverts."""
+    import json
+    import tempfile
+    import check_live as cl
+    rm = "https://www.rightmove.co.uk/properties/{}"
+    otm = "https://www.onthemarket.com/details/{}/"
+    pad = "x" * 6000
+    page = {  # url -> (code, html)
+        rm.format(1): (410, ""), rm.format(2): (200, pad + "content='4 bedroom house for rent in A Road, SW18 for £3,850 pcm. Marketed by X'"),
+        otm.format(3): (200, pad + '"http-status":"200","status":"live" "priceRaw":3800,'),
+        rm.format(4): (200, pad + '<span>LET AGREED</span>'), rm.format(5): (200, pad + "content='4 bedroom house for rent in B Road for £4,000 pcm'"),
+        rm.format(6): (200, pad + '<span>LET AGREED</span>'), otm.format(7): (200, pad + '"http-status":"200","status":"live" "priceRaw":4000,'),
+        rm.format(8): (410, ""),
+    }
+    homes = [
+        {"id": "relisted", "title": "A Road", "rent": 3350, "beds": 4, "status": "new", "links": [rm.format(1), rm.format(2), otm.format(3)],
+         "prices": [["2026-09-25", 3350, "rightmove"]]},
+        {"id": "rm-relist", "title": "B Road", "rent": 4000, "beds": 4, "status": "new", "links": [rm.format(4), rm.format(5)]},
+        {"id": "slow-agent", "title": "C Road", "rent": 4000, "beds": 4, "status": "new", "links": [rm.format(6), otm.format(7)]},
+        {"id": "gone", "title": "D Road", "rent": 4000, "beds": 4, "status": "new", "links": [rm.format(8)]},
+    ]
+    with tempfile.TemporaryDirectory() as d:
+        f = Path(d) / "l.json"
+        json.dump(homes, open(f, "w", encoding="utf-8"))
+        real = cl.fetch, cl.time.sleep, sys.argv
+        cl.fetch = lambda u: (page[u][0], u, page[u][1])
+        cl.time.sleep = lambda s: None
+        sys.argv = ["check_live.py", "--file", str(f)]
+        try:
+            cl.main()
+        finally:
+            cl.fetch, cl.time.sleep, sys.argv = real
+        out = {h["id"]: h for h in json.load(open(f, encoding="utf-8"))}
+    a = out["relisted"]
+    assert a["status"] == "new" and "off_market" not in a and a["down"] == [rm.format(1)], a
+    assert a["rent"] == 3800, a  # lowest of what the live adverts ask, not the stale £3,350
+    b = out["rm-relist"]  # let on an old Rightmove advert, live on its Rightmove relist: no warning
+    assert b["status"] == "new" and "off_market" not in b and b["down"] == [rm.format(4)], b
+    c = out["slow-agent"]
+    assert c["status"] == "new" and c["off_market"]["why"] == "Let agreed on Rightmove, still live on OnTheMarket", c
+    assert out["gone"]["status"] == "gone" and out["gone"]["off_market"]["why"] == "Advert taken down on Rightmove"
 
 
 if __name__ == "__main__":

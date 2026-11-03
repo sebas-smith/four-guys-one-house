@@ -13,7 +13,7 @@ import sys
 
 from curl_cffi import requests
 
-from ingest_alerts import EXCLUDED_AREAS, LISTINGS, MAX_RENT, MIN_BEDS, MIN_RENT, area_from, merge_price, record_price, same_home
+from ingest_alerts import LISTINGS, excluded, MAX_RENT, MIN_BEDS, MIN_RENT, area_from, merge_price, record_price, same_home
 from search_area import inside
 
 MP_SEARCH = "https://www.marshandparsons.co.uk/properties-to-rent/london/4-bedroom/?minPrice={}&maxPrice={}&page={}"
@@ -66,7 +66,7 @@ def main():
     for pid, url, title, rent, beds, baths in marsh_and_parsons():
         if f"/property/{pid}/" in known:
             continue
-        if not rent or not MIN_RENT <= rent <= MAX_RENT or (beds or 0) < MIN_BEDS or EXCLUDED_AREAS.search(title):
+        if not rent or not MIN_RENT <= rent <= MAX_RENT or (beds or 0) < MIN_BEDS or excluded(title, url):
             continue
         dup = same_home(listings, title, rent, beds, baths, [url])
         if dup:

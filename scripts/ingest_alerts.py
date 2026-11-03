@@ -45,6 +45,12 @@ MIN_RENT, MAX_RENT, MIN_BEDS = 3000, 5000, 4
 EXCLUDED_AREAS = re.compile(r"isleworth|osterley|new malden|hounslow|twickenham|whitton|brixton|streatham|\b(TW\d{1,2}|KT3|SW2|SW16|SE\d{1,2}|W3|W1[01])\b", re.I)
 
 
+def excluded(text, *urls):
+    """True when an excluded area or postcode is in the text or in a link's path ("...-mitcham-lane-sw16/3037368")."""
+    paths = " ".join(re.sub(r"^https?://[^/]+|[?#].*$", "", u or "") for u in urls)
+    return bool(EXCLUDED_AREAS.search(f"{text or ''} {paths}"))
+
+
 def decoded(value):
     return str(make_header(decode_header(value or "")))
 
@@ -256,7 +262,7 @@ def same_home(listings, title, rent, beds=None, baths=None, links=(), available=
         if hosts & theirs & PORTAL_SITES:
             # Except a relist: one of the home's adverts has come down, and this one has the same
             # street, beds and rent (within £50).
-            return bool(r.get("off_market") and s and s == other and beds and beds == r.get("beds")
+            return bool((r.get("off_market") or r.get("down")) and s and s == other and beds and beds == r.get("beds")
                         and abs(r["rent"] - rent) <= 50)
         if s and other:
             if s != other:
@@ -313,10 +319,17 @@ def new_price(home, rent, beds, when, site):
     record_price(home, rent, when, site)
     cut = "cut" if rent < last[1] else "rise"
     home.setdefault("notes", []).append(f"Price {cut} on {site.title()}: £{last[1]:,} to £{rent:,} ({when}).")
-    # the shown rent is the lowest of each site's latest price, as in merge_price
-    latest = {s: r for _, r, s in home["prices"] if s and s != "search"}
-    home["rent"] = min(latest.values())
+    home["rent"] = shown_rent(home)
     return True
+
+
+def shown_rent(home):
+    """The rent to show: the lowest of each site's latest price, as in merge_price, leaving out sites whose
+    adverts for this home are all down (check_live.py lists them in `down`)."""
+    down = set(home.get("down", []))
+    dead = {site_name(u) for u in home.get("links", [])} - {site_name(u) for u in home.get("links", []) if u not in down}
+    latest = {s: r for _, r, s in home.get("prices") or [] if s and s != "search" and s not in dead}
+    return min(latest.values()) if latest else home.get("rent")
 
 
 def read_email(msg, listings, known, added, failures, today):
@@ -357,9 +370,9 @@ def read_email(msg, listings, known, added, failures, today):
             continue
         if beds and beds < MIN_BEDS:
             continue
-        if EXCLUDED_AREAS.search(title):
-            continue
         url = dict((p, t) for p, _, t in PORTALS)[portal].format(pid)
+        if excluded(title, url):
+            continue
         dup = same_home(listings, title, rent, beds, None, [url])
         if dup:
             dup.setdefault("links", []).append(url)
@@ -380,6 +393,15 @@ def read_email(msg, listings, known, added, failures, today):
         # listing links but no price or beds by any of them: the card layout has probably changed
         failures.append(f"{sender} | {subject} (no price or beds read)")
     return not unresolved
+
+
+def email_keys(msgs):
+    """(msg, key, legacy key) for each email. Zoopla sends its "New listings" and "Price reduced" emails with one
+    Message-ID, so the key is the Message-ID plus the subject. Before 4 Nov the key was the Message-ID alone; that
+    still counts as read unless another email shares the Message-ID (then one of them was never read)."""
+    mids = [m.get("Message-ID") or f"no-id-{getattr(m, 'num', id(m))}" for m in msgs]
+    for msg, mid in zip(msgs, mids):
+        yield msg, f"{mid} {decoded(msg.get('Subject'))[:80]}", (mid if mids.count(mid) == 1 else None)
 
 
 def main():
@@ -403,20 +425,23 @@ def main():
     _, data = imap.search(None, "SINCE", since)
 
     added, failures, today = [], [], dt.date.today().isoformat()
+    msgs = []
     for num in data[0].split():
         _, msg_data = imap.fetch(num, "(RFC822)")
-        msg = email.message_from_bytes(msg_data[0][1])
-        mid = msg.get("Message-ID", f"no-id-{num.decode()}")
-        if mid in processed:
+        msgs.append(email.message_from_bytes(msg_data[0][1]))
+        msgs[-1].num = num.decode()
+    for msg, key, bare in email_keys(msgs):
+        if key in processed or bare in processed:
             continue
         if read_email(msg, listings, known, added, failures, today):
-            processed.append(mid)
+            processed.append(key)
     imap.logout()
 
     if not os.environ.get("DRY_RUN"):
         json.dump(listings, open(LISTINGS, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
         json.dump(processed[-1000:], open(PROCESSED, "w", encoding="utf-8"), indent=1)
-    print(f"added {len(added)}")
+    new = [a for a in added if " linked to existing " not in a and " price now " not in a]
+    print(f"{len(new)} new homes, {len(added) - len(new)} adverts linked to or repriced on homes already listed")
     for a in added:
         print("  +", a)
     if failures:

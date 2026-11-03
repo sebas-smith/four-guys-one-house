@@ -59,6 +59,9 @@ def locate(home, geo):
     street, area = street_of(home.get("title")), (home.get("area") or "").split("/")[0].strip()
     if not street:
         return None
+    if not area:  # "Davis Road, Acton": the place after the street, so it isn't matched to a Davis Road in Chessington
+        area = next((p.strip() for p in (home.get("title") or "").split(",")[1:]
+                     if p.strip() and not re.search(r"\blondon\b|\d", p, re.I)), "")
     # The postcode district from the title, else from an advert link (Foxtons: /sw12/), pins the street down
     pc = re.search(r"\b(SW|SE|NW|KT|SM|CR|W)\d{1,2}\b", home.get("title") or "") or next(
         (m for u in home.get("links") or [] for m in [re.search(r"(?<=[/-])(sw|se|nw|kt|sm|cr|w)\d{1,2}(?=[/-])", u)] if m), None)

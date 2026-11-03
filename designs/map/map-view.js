@@ -54,12 +54,12 @@
     const was = atRent(r).flatMap((s) => bySite(r).get(s).map((x) => x[1])).filter((p) => p > r.rent);
     return was.length ? Math.max(...was) : null;
   }
-  function deadSites(r) { const m = r.off_market && /on (.+?)(,|$)/.exec(r.off_market.why || ""); return m ? [m[1]] : []; }
+  function deadSites(r) { const m = r.off_market && /on (.+?)(,|$)/.exec(r.off_market.why || ""); return m ? [m[1].toLowerCase()] : []; }
   // Main advert (Rightmove/OnTheMarket at the current price first) and the rest, numbered on repeats: as app.js.
   function adverts(r) {
     const links = (r.links || []).map(safe).filter(Boolean);
     const dead = deadSites(r), rank = ["rightmove", "onthemarket"], cur = atRent(r);
-    const ok = links.filter((u) => !dead.includes(site(u)));
+    const ok = links.filter((u) => !dead.includes(site(u).toLowerCase()) && !(r.down || []).includes(u));
     const main = [...ok].sort((a, b) => (cur.includes(siteKey(b)) - cur.includes(siteKey(a))) ||
       ((rank.indexOf(siteKey(a)) + 1 || 9) - (rank.indexOf(siteKey(b)) + 1 || 9)))[0] || safe(r.url) || links[0];
     const total = {}, nth = new Map();

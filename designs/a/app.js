@@ -72,7 +72,7 @@ function previous(r) {
 }
 function deadSites(r) {
   const m = r.off_market && /on (.+?)(,|$)/.exec(r.off_market.why || "");
-  return m ? [m[1]] : [];
+  return m ? [m[1].toLowerCase()] : [];
 }
 function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
 
@@ -107,7 +107,7 @@ const word = (n) => NUM[n] || String(n);
 function linkInfo(r) {
   const links = (r.links || []).map(safe).filter(Boolean);
   const dead = deadSites(r), rank = ["rightmove", "onthemarket"];
-  const ok = links.filter((u) => !dead.includes(site(u)));
+  const ok = links.filter((u) => !dead.includes(site(u).toLowerCase()) && !(r.down || []).includes(u));
   const cur = atRent(r);
   const main = [...ok].sort((a, b) => (cur.includes(siteKey(b)) - cur.includes(siteKey(a))) ||
     ((rank.indexOf(siteKey(a)) + 1 || 9) - (rank.indexOf(siteKey(b)) + 1 || 9)))[0] || safe(r.url) || links[0];

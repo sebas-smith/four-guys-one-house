@@ -23,7 +23,7 @@ import re
 import sys
 from pathlib import Path
 
-from ingest_alerts import merge_price, record_price, same_home, site_name
+from ingest_alerts import excluded, merge_price, record_price, same_home, site_name
 
 ROOT = Path(__file__).resolve().parent.parent
 LISTINGS = ROOT / "data" / "listings.json"
@@ -33,12 +33,12 @@ PERSON_SET = {"shortlist", "viewing", "applied", "no"}
 PORTALS = {"rightmove", "zoopla", "onthemarket", "openrent"}
 REQUIRED = {"id", "address_or_area", "area", "monthly_rent_gbp", "bedrooms", "bathrooms", "availability",
             "status", "first_seen", "sharer_suitability", "listing_urls", "checked_at"}
-EXCLUDED_AREAS = re.compile(r"isleworth|osterley|new malden|hounslow|twickenham|whitton|brixton|streatham|\b(TW\d{1,2}|KT3|SW2|SW16|SE\d{1,2}|W3|W1[01])\b", re.I)
 LINK_KEYS = [
     re.compile(r"rightmove\.co\.uk/properties/(\d+)"),
     re.compile(r"zoopla\.co\.uk/to-rent/details/(\d+)"),
     re.compile(r"onthemarket\.com/details/(\d+)"),
     re.compile(r"openrent\.co\.uk/.*?(\d{6,7})(?:\D|$)"),
+    re.compile(r"hamptons\.co[^\s|]*?/(p\d{5,})(?:\D|$)", re.I),  # its property number changes on relisting; the P-reference doesn't
     re.compile(r"(?:foxtons|jacksonsestateagents|dexters|kfh|hamptons|cound|grovesresidential)\.co[^\s|]*?([a-z]*\d{4,})", re.I),
 ]
 
@@ -125,7 +125,7 @@ def main(src, dry, path=LISTINGS, ids_out=None):
         checked = (row.get("checked_at") or row.get("last_verified") or "")[:10]
         status = sweep_status(row["status"])
         why_no = "sweep: rent band or beds" if status == "no" else None
-        if EXCLUDED_AREAS.search(f"{row['area']} {row['address_or_area']}"):
+        if excluded(f"{row['area']} {row['address_or_area']}", *links):
             status, why_no = ("no", "excluded area") if status != "gone" else (status, None)
         if row["sharer_suitability"] == "excluded" and status != "gone":
             status, why_no = "no", "no sharers"

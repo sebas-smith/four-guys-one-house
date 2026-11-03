@@ -79,7 +79,7 @@ function linkSet(r) {
   const links = (r.links || []).map(safe).filter(Boolean);
   const dead = deadSites(r), rank = ["rightmove", "onthemarket"];
   const isDead = (u) => dead.includes(site(u).toLowerCase()) || dead.includes(siteKey(u));
-  const ok = links.filter((u) => !isDead(u));
+  const ok = links.filter((u) => !isDead(u) && !(r.down || []).includes(u));
   const cur = atRent(r);
   const main = [...ok].sort((a, b) => (cur.includes(siteKey(b)) - cur.includes(siteKey(a))) ||
     ((rank.indexOf(siteKey(a)) + 1 || 9) - (rank.indexOf(siteKey(b)) + 1 || 9)))[0] || safe(r.url) || links[0];

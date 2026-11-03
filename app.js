@@ -154,7 +154,7 @@ function card(r) {
   // Open a live advert at the current price: Rightmove or OnTheMarket first (they say when a home is let).
   const links = (r.links || []).map(safe).filter(Boolean);
   const dead = deadSites(r), rank = ["rightmove", "onthemarket"];
-  const ok = links.filter((u) => !dead.includes(site(u).toLowerCase()) && !dead.includes(siteKey(u)));
+  const ok = links.filter((u) => !dead.includes(site(u).toLowerCase()) && !dead.includes(siteKey(u)) && !(r.down || []).includes(u));
   const cur = atRent(r);
   const main = [...ok].sort((a, b) => (cur.includes(siteKey(b)) - cur.includes(siteKey(a))) ||
     ((rank.indexOf(siteKey(a)) + 1 || 9) - (rank.indexOf(siteKey(b)) + 1 || 9)))[0] || safe(r.url) || links[0];

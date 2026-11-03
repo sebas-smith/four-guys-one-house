@@ -56,7 +56,7 @@ function previous(r) {
 }
 function deadSites(r) {
   const m = r.off_market && /on (.+?)(,|$)/.exec(r.off_market.why || "");
-  return m ? [m[1]] : [];
+  return m ? [m[1].toLowerCase()] : [];
 }
 // Price history per site with repeats folded, as the root site shows it.
 const history = (r) => new Map([...bySite(r)].map(([s, h]) => [s, h.filter((x, i) => !i || x[1] !== h[i - 1][1])]));
@@ -64,7 +64,7 @@ const history = (r) => new Map([...bySite(r)].map(([s, h]) => [s, h.filter((x, i
 function linksOf(r) {
   const links = (r.links || []).map(safe).filter(Boolean);
   const dead = deadSites(r), rank = ["rightmove", "onthemarket"];
-  const ok = links.filter((u) => !dead.includes(site(u)));
+  const ok = links.filter((u) => !dead.includes(site(u).toLowerCase()) && !(r.down || []).includes(u));
   const cur = atRent(r);
   const main = [...ok].sort((a, b) => (cur.includes(siteKey(b)) - cur.includes(siteKey(a))) ||
     ((rank.indexOf(siteKey(a)) + 1 || 9) - (rank.indexOf(siteKey(b)) + 1 || 9)))[0] || safe(r.url) || links[0];
@@ -491,7 +491,9 @@ function events() {
     if (r.added) ev.push({ kind: "new", at: t ? +t : +localDate(r.added) + 12 * 36e5, id: r.id, r });
     for (const [s, h] of history(r)) {
       for (let i = 1; i < h.length; i++) {
-        if (h[i][1] < h[i - 1][1] && localDate(h[i][0])) ev.push({ kind: "cut", at: +localDate(h[i][0]) + 12 * 36e5, id: r.id, r, from: h[i - 1][1], to: h[i][1], site: s });
+        // the same cut reaching two sites the same day is one event
+        if (h[i][1] < h[i - 1][1] && localDate(h[i][0]) && !ev.some((e) => e.kind === "cut" && e.id === r.id && e.to === h[i][1] && e.from === h[i - 1][1]))
+          ev.push({ kind: "cut", at: +localDate(h[i][0]) + 12 * 36e5, id: r.id, r, from: h[i - 1][1], to: h[i][1], site: s });
       }
     }
     if (r.off_market && offDate(r)) ev.push({ kind: "off", at: +offDate(r) + 9 * 36e5, id: r.id, r, why: r.off_market.why });

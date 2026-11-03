@@ -42,6 +42,11 @@
 <script src="map-view.js"></script>
 <script>
   // The standalone page loads every listing itself, then hands the module a filtered list with setHomes().
+  // map-view.js is a plain script above, so it has run by now unless it failed to load: say so instead of a blank map.
+  if (!window.FGOHMap) {
+    document.getElementById("map").textContent = "The map didn't load. Reload the page.";
+    throw new Error("map-view.js did not load");
+  }
   const view = FGOHMap.mount(document.getElementById("map"), { homes: [] });
   let all = [];
   const pick = () => {
