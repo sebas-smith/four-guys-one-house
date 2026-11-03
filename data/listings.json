@@ -12468,7 +12468,7 @@
   "id": "zoopla-73914959",
   "title": "Queens Road",
   "area": "Wimbledon",
-  "rent": 3500,
+  "rent": 3250,
   "beds": 4,
   "baths": 1,
   "available": "Now",
@@ -12484,7 +12484,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Price cut on Onthemarket: £3,500 to £3,250 (2026-11-03)."
   ],
   "checked": "2026-11-02",
   "station": {
@@ -12497,6 +12498,16 @@
     "2026-09-25",
     3500,
     "rightmove"
+   ],
+   [
+    "",
+    3500,
+    "onthemarket"
+   ],
+   [
+    "2026-11-03",
+    3250,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/0fac2c1cc/91725189/0fac2c1cc8928d4eedcf6112e22a649c_max_476x317.jpeg",
@@ -21866,7 +21877,7 @@
   "id": "zoopla-71454331",
   "title": "Graveney Road, Tooting, London SW17",
   "area": "Tooting",
-  "rent": 3600,
+  "rent": 3500,
   "beds": 4,
   "baths": 1,
   "available": "2026-11-27",
@@ -21883,13 +21894,24 @@
   "added": "2026-10-19",
   "checked": "2026-11-02",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Price cut on Onthemarket: £3,600 to £3,500 (2026-11-03)."
   ],
   "prices": [
    [
     "2026-10-19",
     3600,
     "rightmove"
+   ],
+   [
+    "",
+    3600,
+    "onthemarket"
+   ],
+   [
+    "2026-11-03",
+    3500,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -22107,7 +22129,7 @@
   "id": "zoopla-74562521",
   "title": "Squarey Street, Earlsfield SW17",
   "area": "Earlsfield",
-  "rent": 4300,
+  "rent": 4000,
   "beds": 4,
   "baths": 2,
   "available": "",
@@ -22122,13 +22144,24 @@
   "added": "2026-10-21",
   "checked": "2026-11-02",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Price cut on Onthemarket: £4,300 to £4,000 (2026-11-03)."
   ],
   "prices": [
    [
     "2026-10-21",
     4300,
     "zoopla"
+   ],
+   [
+    "",
+    4300,
+    "onthemarket"
+   ],
+   [
+    "2026-11-03",
+    4000,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -24070,7 +24103,7 @@
   "id": "onthemarket-20627722",
   "title": "5 bedroom semi-detached house to rent - Fairway London SW20",
   "area": "SW20",
-  "rent": 3750,
+  "rent": 3600,
   "beds": 5,
   "baths": 2,
   "available": "2026-10-31",
@@ -24087,7 +24120,8 @@
   "added": "2026-10-26",
   "notes": [
    "From an email on 2026-10-26: New properties in London (drawn area)",
-   "From an email on 2026-10-26: fourguys, we've found you 2 properties in SW London house"
+   "From an email on 2026-10-26: fourguys, we've found you 2 properties in SW London house",
+   "Price cut on Onthemarket: £3,750 to £3,600 (2026-11-03)."
   ],
   "prices": [
    [
@@ -24104,6 +24138,11 @@
     "2026-10-26",
     3750,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3600,
+    "onthemarket"
    ]
   ],
   "checked": "2026-11-02",
@@ -27654,6 +27693,92 @@
    "tritax": 34,
    "q5": 23,
    "wentworth": 49
+  }
+ },
+ {
+  "id": "onthemarket-20679030",
+  "title": "Ivy Crescent, London W4",
+  "area": "W4",
+  "rent": 4000,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20679030/",
+  "links": [
+   "https://www.onthemarket.com/details/20679030/"
+  ],
+  "source": "alert",
+  "added": "2026-11-03",
+  "added_at": "2026-11-03T10:56Z",
+  "notes": [
+   "From an email on 2026-11-03: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-03",
+    4000,
+    "onthemarket"
+   ]
+  ],
+  "loc": [
+   51.49621,
+   -0.2712875
+  ],
+  "station": {
+   "name": "Chiswick Park",
+   "kind": "Tube",
+   "walk": 5
+  },
+  "commute": {
+   "lcp": 53,
+   "tritax": 55,
+   "q5": 53,
+   "wentworth": 33
+  }
+ },
+ {
+  "id": "onthemarket-20679740",
+  "title": "Aslett Street, London SW18",
+  "area": "SW18",
+  "rent": 4200,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20679740/",
+  "links": [
+   "https://www.onthemarket.com/details/20679740/"
+  ],
+  "source": "alert",
+  "added": "2026-11-03",
+  "added_at": "2026-11-03T12:16Z",
+  "notes": [
+   "From an email on 2026-11-03: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-03",
+    4200,
+    "onthemarket"
+   ]
+  ],
+  "loc": [
+   51.450401,
+   -0.1873659
+  ],
+  "station": {
+   "name": "Earlsfield",
+   "kind": "Rail",
+   "walk": 14
+  },
+  "commute": {
+   "lcp": 59,
+   "tritax": 58,
+   "q5": 47,
+   "wentworth": 47
   }
  }
 ]
