@@ -1982,14 +1982,21 @@
    "https://www.foxtons.co.uk/properties-to-rent/sw19/chpk2610332",
    "https://www.rightmove.co.uk/properties/93541017",
    "https://www.zoopla.co.uk/to-rent/details/74330228/",
-   "https://www.onthemarket.com/details/20407881/"
+   "https://www.onthemarket.com/details/20407881/",
+   "https://www.onthemarket.com/details/17963710/",
+   "https://www.rightmove.co.uk/properties/94732896",
+   "https://www.zoopla.co.uk/to-rent/details/71493930/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-09.",
    "Price changed from £3,200 to £3,000 (2026-10-18).",
-   "Price cut on Onthemarket: £3,000 to £2,800 (2026-11-03)."
+   "Price cut on Onthemarket: £3,000 to £2,800 (2026-11-03).",
+   "From an email on 2026-10-26: New properties in London (drawn area)",
+   "From an email on 2026-10-26: fourguys, we've found you 2 properties in SW London house",
+   "Price cut on Onthemarket: £3,000 to £2,800 (2026-11-02).",
+   "Merged in onthemarket-17963710: the same house (3 Nov audit)."
   ],
   "checked": "2026-11-03",
   "station": {
@@ -1998,6 +2005,11 @@
    "walk": 20
   },
   "prices": [
+   [
+    "",
+    3000,
+    "onthemarket"
+   ],
    [
     "2026-09-25",
     3200,
@@ -2009,8 +2021,18 @@
     "rightmove"
    ],
    [
-    "",
+    "2026-10-26",
     3000,
+    "onthemarket"
+   ],
+   [
+    "2026-10-26",
+    3000,
+    "rightmove"
+   ],
+   [
+    "2026-11-02",
+    2800,
     "onthemarket"
    ],
    [
@@ -5594,7 +5616,7 @@
   "id": "openrent-3003303",
   "title": "Divis Way",
   "area": "Putney",
-  "rent": 4200,
+  "rent": 3500,
   "beds": 4,
   "baths": 1,
   "available": "Today",
@@ -5602,12 +5624,19 @@
   "status": "new",
   "url": "https://www.openrent.co.uk/property-to-rent/london/4-bed-semi-detached-house-divis-way-sw15/3003303",
   "links": [
-   "https://www.openrent.co.uk/property-to-rent/london/4-bed-semi-detached-house-divis-way-sw15/3003303"
+   "https://www.openrent.co.uk/property-to-rent/london/4-bed-semi-detached-house-divis-way-sw15/3003303",
+   "https://www.zoopla.co.uk/to-rent/details/74669331/",
+   "https://www.johndwood.co.uk/properties/22282146/lettings/CSE264181",
+   "https://www.rightmove.co.uk/properties/95058180",
+   "https://www.onthemarket.com/details/20681244/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
+   "Prices differ across sites: £4,200 vs £3,500. Showing the lower; see price history.",
+   "Found by ChatGPT sweep (live).",
+   "Merged in zoopla-74669331: the same house (3 Nov audit)."
   ],
   "checked": "2026-11-03",
   "station": {
@@ -5620,6 +5649,16 @@
     "2026-09-25",
     4200,
     "openrent"
+   ],
+   [
+    "2026-11-03",
+    3500,
+    "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3500,
+    "onthemarket"
    ]
   ],
   "loc": [
@@ -6819,7 +6858,10 @@
    "https://www.openrent.co.uk/property-to-rent/london/4-bed-terraced-house-brayburne-avenue-sw4/3062451",
    "https://www.rightmove.co.uk/properties/93968652",
    "https://www.zoopla.co.uk/to-rent/details/74416902/",
-   "https://www.onthemarket.com/details/20657884/"
+   "https://www.onthemarket.com/details/20657884/",
+   "https://www.rightmove.co.uk/properties/94939650",
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/CLA220797/brayburne-avenue/",
+   "https://www.zoopla.co.uk/to-rent/details/74641554/"
   ],
   "source": "import",
   "added": "2026-10-10",
@@ -6829,7 +6871,10 @@
    "Price changed from £4,300 to £4,000 (2026-10-20).",
    "From an email on 2026-10-27: Price reduced: 5 properties to rent in SW London house v2",
    "Details read from the advert (27 Oct).",
-   "Area cleaned (31 Oct)."
+   "Area cleaned (31 Oct).",
+   "From an email on 2026-10-30: fourguys, we've found you 6 properties in SW London house v2",
+   "Marsh & Parsons advert: licensed for family occupation only (31 Oct).",
+   "Merged in rightmove-94939650: the same house (3 Nov audit)."
   ],
   "checked": "2026-11-03",
   "station": {
@@ -6857,6 +6902,16 @@
     "2026-10-30",
     4000,
     "onthemarket"
+   ],
+   [
+    "2026-10-30",
+    4000,
+    "rightmove"
+   ],
+   [
+    "2026-10-30",
+    4000,
+    "marshandparsons"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/3dccf7747/93968652/3dccf7747d6435699fad05e97b86f128_max_476x317.jpeg",
@@ -17291,7 +17346,7 @@
   "id": "rightmove-92633793",
   "title": "Hubert Grove, Clapham",
   "area": "Clapham South",
-  "rent": 4650,
+  "rent": 4400,
   "beds": 4,
   "baths": 2,
   "available": "",
@@ -17300,13 +17355,17 @@
   "url": "https://www.rightmove.co.uk/properties/92633793",
   "links": [
    "https://www.jacksonsestateagents.com/properties/22054053/lettings",
-   "https://www.rightmove.co.uk/properties/92633793"
+   "https://www.rightmove.co.uk/properties/92633793",
+   "https://www.openrent.co.uk/3098023"
   ],
   "source": "sweep",
   "added": "2026-10-18",
   "checked": "2026-11-03",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Prices differ across sites: £4,650 vs £4,400. Showing the lower; see price history.",
+   "From an email on 2026-11-03: New properties found for your search: Wandsworth, London",
+   "Merged in openrent-3098023: the same house (3 Nov audit)."
   ],
   "station": {
    "name": "Clapham North",
@@ -17318,6 +17377,11 @@
     "2026-10-18",
     4650,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4400,
+    "openrent"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -19388,7 +19452,11 @@
    "https://www.zoopla.co.uk/to-rent/details/74146788/",
    "https://www.zoopla.co.uk/to-rent/details/74494822/",
    "https://www.onthemarket.com/details/20540189/",
-   "https://www.rightmove.co.uk/properties/94246314"
+   "https://www.rightmove.co.uk/properties/94246314",
+   "https://www.onthemarket.com/details/20627722/",
+   "https://www.zoopla.co.uk/to-rent/details/74604845/",
+   "https://www.rightmove.co.uk/properties/94740414",
+   "https://www.hamptons.co.uk/properties/22245549/lettings/P330842"
   ],
   "source": "sweep",
   "added": "2026-10-18",
@@ -19397,7 +19465,12 @@
    "Found by ChatGPT sweep (live).",
    "Price cut on Rightmove: £3,750 to £3,600 (2026-10-30).",
    "Same house's newer Chancellors advert: Fairway, £3,750 (31 Oct).",
-   "Price cut: £3,750 to £3,600 on the live adverts (3 Nov)."
+   "Price cut: £3,750 to £3,600 on the live adverts (3 Nov).",
+   "From an email on 2026-10-26: New properties in London (drawn area)",
+   "From an email on 2026-10-26: fourguys, we've found you 2 properties in SW London house",
+   "Price cut on Onthemarket: £3,750 to £3,600 (2026-11-03).",
+   "Price cut on Rightmove: £3,750 to £3,600 (2026-11-03).",
+   "Merged in onthemarket-20627722: the same house (3 Nov audit)."
   ],
   "station": {
    "name": "Raynes Park",
@@ -19416,6 +19489,21 @@
     "rightmove"
    ],
    [
+    "2026-10-26",
+    3750,
+    "onthemarket"
+   ],
+   [
+    "2026-10-26",
+    3750,
+    "zoopla"
+   ],
+   [
+    "2026-10-26",
+    3750,
+    "rightmove"
+   ],
+   [
     "2026-10-30",
     3600,
     "rightmove"
@@ -19429,6 +19517,11 @@
     "2026-11-03",
     3600,
     "onthemarket"
+   ],
+   [
+    "2026-11-03",
+    3600,
+    "rightmove"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -23283,63 +23376,6 @@
   }
  },
  {
-  "id": "zoopla-74562521",
-  "title": "Squarey Street, Earlsfield SW17",
-  "area": "Earlsfield",
-  "rent": 4000,
-  "beds": 4,
-  "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.zoopla.co.uk/to-rent/details/74562521/",
-  "links": [
-   "https://www.onthemarket.com/details/20594183/",
-   "https://www.zoopla.co.uk/to-rent/details/74562521/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-21",
-  "checked": "2026-11-03",
-  "notes": [
-   "Found by ChatGPT sweep (live).",
-   "Price cut on Onthemarket: £4,300 to £4,000 (2026-11-03)."
-  ],
-  "prices": [
-   [
-    "2026-10-21",
-    4300,
-    "zoopla"
-   ],
-   [
-    "",
-    4300,
-    "onthemarket"
-   ],
-   [
-    "2026-11-03",
-    4000,
-    "onthemarket"
-   ]
-  ],
-  "station": {
-   "name": "Earlsfield",
-   "kind": "Rail",
-   "walk": 17
-  },
-  "added_at": "2026-10-21T17:28Z",
-  "photo": "https://media.onthemarket.com/properties/20594183/1653822484/image-0-1024x1024.jpg",
-  "loc": [
-   51.4339487,
-   -0.181575
-  ],
-  "commute": {
-   "lcp": 54,
-   "tritax": 50,
-   "q5": 50,
-   "wentworth": 48
-  }
- },
- {
   "id": "zoopla-74563552",
   "title": "Holm Oak Close, East Putney SW15",
   "area": "Putney",
@@ -24106,7 +24142,9 @@
    "https://www.rightmove.co.uk/properties/94271229",
    "https://www.zoopla.co.uk/to-rent/details/74500221/",
    "https://www.onthemarket.com/details/20545150/",
-   "https://www.kfh.co.uk/property-to-rent/4-bedroom-terraced-house-to-rent-in-squarey-street-earlsfield-london-sw17-89927/"
+   "https://www.kfh.co.uk/property-to-rent/4-bedroom-terraced-house-to-rent-in-squarey-street-earlsfield-london-sw17-89927/",
+   "https://www.onthemarket.com/details/20594183/",
+   "https://www.zoopla.co.uk/to-rent/details/74562521/"
   ],
   "source": "import",
   "added": "2026-10-18",
@@ -24116,9 +24154,16 @@
    "Advert live on Zoopla (25 Oct).",
    "Split from jacksons-20294896 (25 Oct): Jacksons' Squarey Street house (let) and KFH's (refurbished, live) are different houses.",
    "Advert live on Rightmove (25 Oct).",
-   "Price cut on Rightmove: £4,300 to £4,000 (2026-10-30)."
+   "Price cut on Rightmove: £4,300 to £4,000 (2026-10-30).",
+   "Price cut on Onthemarket: £4,300 to £4,000 (2026-11-03).",
+   "Merged in zoopla-74562521: the same house (3 Nov audit)."
   ],
   "prices": [
+   [
+    "",
+    4300,
+    "onthemarket"
+   ],
    [
     "2026-10-18",
     4500,
@@ -24130,6 +24175,11 @@
     "rightmove"
    ],
    [
+    "2026-10-21",
+    4300,
+    "zoopla"
+   ],
+   [
     "2026-10-30",
     4000,
     "rightmove"
@@ -24138,6 +24188,11 @@
     "2026-11-03",
     4000,
     "onthemarket"
+   ],
+   [
+    "2026-11-03",
+    4000,
+    "zoopla"
    ]
   ],
   "not_same": [
@@ -25353,140 +25408,6 @@
   }
  },
  {
-  "id": "onthemarket-17963710",
-  "title": "4 bedroom flat to rent - Esher Gardens, London, SW19",
-  "area": "SW19",
-  "rent": 2800,
-  "beds": 4,
-  "baths": null,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/17963710/",
-  "links": [
-   "https://www.onthemarket.com/details/17963710/",
-   "https://www.rightmove.co.uk/properties/94732896"
-  ],
-  "source": "alert",
-  "added": "2026-10-26",
-  "notes": [
-   "From an email on 2026-10-26: New properties in London (drawn area)",
-   "From an email on 2026-10-26: fourguys, we've found you 2 properties in SW London house",
-   "Price cut on Onthemarket: £3,000 to £2,800 (2026-11-02)."
-  ],
-  "prices": [
-   [
-    "2026-10-26",
-    3000,
-    "onthemarket"
-   ],
-   [
-    "2026-10-26",
-    3000,
-    "rightmove"
-   ],
-   [
-    "2026-11-02",
-    2800,
-    "onthemarket"
-   ],
-   [
-    "2026-11-03",
-    2800,
-    "rightmove"
-   ]
-  ],
-  "checked": "2026-11-03",
-  "station": {
-   "name": "Southfields",
-   "kind": "Tube",
-   "walk": 20
-  },
-  "added_at": "2026-10-26T17:22Z",
-  "photo": "https://media.onthemarket.com/properties/17963710/1654652909/image-0-1024x1024.jpg",
-  "loc": [
-   51.440321,
-   -0.2223424
-  ],
-  "commute": {
-   "lcp": 61,
-   "tritax": 60,
-   "q5": 52,
-   "wentworth": 43
-  }
- },
- {
-  "id": "onthemarket-20627722",
-  "title": "5 bedroom semi-detached house to rent - Fairway London SW20",
-  "area": "SW20",
-  "rent": 3600,
-  "beds": 5,
-  "baths": 2,
-  "available": "2026-10-31",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/20627722/",
-  "links": [
-   "https://www.onthemarket.com/details/20627722/",
-   "https://www.zoopla.co.uk/to-rent/details/74604845/",
-   "https://www.rightmove.co.uk/properties/94740414",
-   "https://www.hamptons.co.uk/properties/22245549/lettings/P330842"
-  ],
-  "source": "alert",
-  "added": "2026-10-26",
-  "notes": [
-   "From an email on 2026-10-26: New properties in London (drawn area)",
-   "From an email on 2026-10-26: fourguys, we've found you 2 properties in SW London house",
-   "Price cut on Onthemarket: £3,750 to £3,600 (2026-11-03).",
-   "Price cut on Rightmove: £3,750 to £3,600 (2026-11-03)."
-  ],
-  "prices": [
-   [
-    "2026-10-26",
-    3750,
-    "onthemarket"
-   ],
-   [
-    "2026-10-26",
-    3750,
-    "zoopla"
-   ],
-   [
-    "2026-10-26",
-    3750,
-    "rightmove"
-   ],
-   [
-    "2026-11-03",
-    3600,
-    "onthemarket"
-   ],
-   [
-    "2026-11-03",
-    3600,
-    "rightmove"
-   ]
-  ],
-  "checked": "2026-11-03",
-  "station": {
-   "name": "Raynes Park",
-   "kind": "Rail",
-   "walk": 7
-  },
-  "added_at": "2026-10-26T17:22Z",
-  "photo": "https://media.onthemarket.com/properties/20627722/1654676800/image-0-1024x1024.jpg",
-  "loc": [
-   51.4051122,
-   -0.2312726
-  ],
-  "commute": {
-   "lcp": 60,
-   "tritax": 59,
-   "q5": 49,
-   "wentworth": 36
-  }
- },
- {
   "id": "onthemarket-20629394",
   "title": "Brudenell Road, Tooting Bec, London, SW17, SW17 8DB",
   "area": "Tooting Bec",
@@ -25610,7 +25531,8 @@
    "https://www.zoopla.co.uk/to-rent/details/74650057/",
    "https://www.onthemarket.com/details/20664597/",
    "https://www.onthemarket.com/details/20670072/",
-   "https://www.zoopla.co.uk/to-rent/details/74657468/"
+   "https://www.zoopla.co.uk/to-rent/details/74657468/",
+   "https://www.zoopla.co.uk/to-rent/details/74612934/"
   ],
   "source": "agent",
   "added": "2026-10-26",
@@ -26027,7 +25949,8 @@
    "https://www.onthemarket.com/details/20577848/",
    "https://www.rightmove.co.uk/properties/94481241",
    "https://www.rightmove.co.uk/properties/93925863",
-   "https://www.hamptons.co.uk/properties/22188608/lettings/P328805"
+   "https://www.hamptons.co.uk/properties/22188608/lettings/P328805",
+   "https://www.onthemarket.com/details/20475831/"
   ],
   "source": "sweep",
   "added": "2026-10-27",
@@ -26036,7 +25959,9 @@
    "Found by ChatGPT sweep (live).",
    "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-10-05.",
    "Merged rightmove-93925863 into this home: same street, beds, baths and rent (31 Oct).",
-   "Price cut: £4,995 to £4,750 on the live adverts (3 Nov)."
+   "Price cut: £4,995 to £4,750 on the live adverts (3 Nov).",
+   "From an email on 2026-11-03: Reduced price properties in London (drawn area)",
+   "Merged in onthemarket-20475831: the same house (3 Nov audit)."
   ],
   "prices": [
    [
@@ -26053,6 +25978,11 @@
     "2026-11-03",
     4750,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4750,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -27146,19 +27076,24 @@
   "area": "SW15",
   "rent": 4000,
   "beds": 4,
-  "baths": null,
-  "available": "",
+  "baths": 3,
+  "available": "2026-12-07",
   "sharers": "unknown",
   "status": "new",
   "url": "https://www.onthemarket.com/details/20406560/",
   "links": [
    "https://www.onthemarket.com/details/20406560/",
-   "https://www.rightmove.co.uk/properties/94936611"
+   "https://www.rightmove.co.uk/properties/94936611",
+   "https://www.onthemarket.com/details/16589505/",
+   "https://www.rightmove.co.uk/properties/95079150",
+   "https://www.zoopla.co.uk/to-rent/details/69487045/"
   ],
   "source": "alert",
   "added": "2026-10-30",
   "notes": [
-   "From an email on 2026-10-30: New properties in London (drawn area)"
+   "From an email on 2026-10-30: New properties in London (drawn area)",
+   "Found by ChatGPT sweep (live).",
+   "Merged in onthemarket-16589505: the same house (3 Nov audit)."
   ],
   "prices": [
    [
@@ -27170,6 +27105,16 @@
     "2026-10-31",
     4000,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4000,
+    "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4000,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -27189,59 +27134,6 @@
    "tritax": 50,
    "q5": 44,
    "wentworth": 44
-  }
- },
- {
-  "id": "rightmove-94939650",
-  "title": "Brayburne Avenue, London",
-  "area": "Clapham",
-  "rent": 4000,
-  "beds": 4,
-  "baths": 3,
-  "available": "",
-  "sharers": "no",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/94939650",
-  "links": [
-   "https://www.rightmove.co.uk/properties/94939650",
-   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/CLA220797/brayburne-avenue/",
-   "https://www.zoopla.co.uk/to-rent/details/74641554/"
-  ],
-  "source": "alert",
-  "added": "2026-10-30",
-  "notes": [
-   "From an email on 2026-10-30: fourguys, we've found you 6 properties in SW London house v2",
-   "Marsh & Parsons advert: licensed for family occupation only (31 Oct)."
-  ],
-  "prices": [
-   [
-    "2026-10-30",
-    4000,
-    "rightmove"
-   ],
-   [
-    "2026-10-30",
-    4000,
-    "marshandparsons"
-   ]
-  ],
-  "station": {
-   "name": "Wandsworth Road",
-   "kind": "Overground",
-   "walk": 1
-  },
-  "checked": "2026-11-03",
-  "added_at": "2026-10-30T17:12Z",
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/2b69022aa/94939650/2b69022aa703a9a6ae1be7c9adf16bb5_max_476x317.jpeg",
-  "loc": [
-   51.4691607,
-   -0.1386059
-  ],
-  "commute": {
-   "lcp": 43,
-   "tritax": 43,
-   "q5": 30,
-   "wentworth": 54
   }
  },
  {
@@ -27584,51 +27476,6 @@
   }
  },
  {
-  "id": "rightmove-94838484",
-  "title": "Norbroke Street, London",
-  "area": "",
-  "rent": 3500,
-  "beds": 4,
-  "baths": 1,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/94838484",
-  "links": [
-   "https://www.rightmove.co.uk/properties/94838484"
-  ],
-  "source": "backfill",
-  "added": "2026-10-31",
-  "added_at": "2026-10-31T12:03Z",
-  "notes": [
-   "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-10-28."
-  ],
-  "prices": [
-   [
-    "2026-10-31",
-    3500,
-    "rightmove"
-   ]
-  ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/3843601b9/94838484/3843601b906e54783fae4a3634036712_max_476x317.jpeg",
-  "checked": "2026-11-03",
-  "station": {
-   "name": "East Acton",
-   "kind": "Tube",
-   "walk": 4
-  },
-  "loc": [
-   51.5146647,
-   -0.247587
-  ],
-  "commute": {
-   "lcp": 35,
-   "tritax": 38,
-   "q5": 48,
-   "wentworth": 41
-  }
- },
- {
   "id": "rightmove-94835760",
   "title": "Davis Road, Acton, W3",
   "area": "Acton",
@@ -27677,51 +27524,6 @@
   }
  },
  {
-  "id": "rightmove-94834755",
-  "title": "Norbroke Street, London",
-  "area": "",
-  "rent": 3500,
-  "beds": 4,
-  "baths": 1,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/94834755",
-  "links": [
-   "https://www.rightmove.co.uk/properties/94834755"
-  ],
-  "source": "backfill",
-  "added": "2026-10-31",
-  "added_at": "2026-10-31T12:03Z",
-  "notes": [
-   "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-10-28."
-  ],
-  "prices": [
-   [
-    "2026-10-31",
-    3500,
-    "rightmove"
-   ]
-  ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/cecdcc4d7/94834755/cecdcc4d73176f35afca86a628955a60_max_476x317.jpeg",
-  "checked": "2026-11-03",
-  "station": {
-   "name": "East Acton",
-   "kind": "Tube",
-   "walk": 4
-  },
-  "loc": [
-   51.5146647,
-   -0.247587
-  ],
-  "commute": {
-   "lcp": 35,
-   "tritax": 38,
-   "q5": 48,
-   "wentworth": 41
-  }
- },
- {
   "id": "rightmove-94741353",
   "title": "Norbroke Street, East Acton, London, W12",
   "area": "W12",
@@ -27735,13 +27537,24 @@
   "links": [
    "https://www.rightmove.co.uk/properties/94741353",
    "https://www.foxtons.co.uk/properties-to-rent/w12/chpk2323067",
-   "https://www.onthemarket.com/details/20627851/"
+   "https://www.onthemarket.com/details/20627851/",
+   "https://www.rightmove.co.uk/properties/94748538",
+   "https://www.onthemarket.com/details/20629408/",
+   "https://www.rightmove.co.uk/properties/94838484",
+   "https://www.rightmove.co.uk/properties/94834755",
+   "https://www.rightmove.co.uk/properties/94726467"
   ],
   "source": "backfill",
   "added": "2026-10-31",
   "added_at": "2026-10-31T12:03Z",
   "notes": [
-   "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-10-26."
+   "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-10-26.",
+   "Prices differ across sites: £4,500 vs £3,500. Showing the lower; see price history.",
+   "Merged in rightmove-94748538: the same house (3 Nov audit).",
+   "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-10-28.",
+   "Merged in rightmove-94838484: the same house (3 Nov audit).",
+   "Merged in rightmove-94834755: the same house (3 Nov audit).",
+   "Merged in rightmove-94726467: the same house (3 Nov audit)."
   ],
   "prices": [
    [
@@ -27750,63 +27563,27 @@
     "rightmove"
    ],
    [
+    "2026-10-31",
+    4500,
+    "rightmove"
+   ],
+   [
     "2026-11-03",
     3500,
     "onthemarket"
+   ],
+   [
+    "2026-11-03",
+    4500,
+    "onthemarket"
+   ],
+   [
+    "2026-11-03",
+    3500,
+    "rightmove"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/f694d07d0/94741353/f694d07d09a0785f02fd010d43872fff_max_476x317.jpeg",
-  "checked": "2026-11-03",
-  "station": {
-   "name": "East Acton",
-   "kind": "Tube",
-   "walk": 4
-  },
-  "loc": [
-   51.5148649,
-   -0.2448756
-  ],
-  "commute": {
-   "lcp": 37,
-   "tritax": 40,
-   "q5": 50,
-   "wentworth": 40
-  }
- },
- {
-  "id": "rightmove-94748538",
-  "title": "Norbroke Street, East Acton, London, W12",
-  "area": "W12",
-  "rent": 4500,
-  "beds": 4,
-  "baths": 1,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/94748538",
-  "links": [
-   "https://www.rightmove.co.uk/properties/94748538",
-   "https://www.onthemarket.com/details/20629408/"
-  ],
-  "source": "backfill",
-  "added": "2026-10-31",
-  "added_at": "2026-10-31T12:03Z",
-  "notes": [
-   "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-10-26."
-  ],
-  "prices": [
-   [
-    "2026-10-31",
-    4500,
-    "rightmove"
-   ],
-   [
-    "2026-11-03",
-    4500,
-    "onthemarket"
-   ]
-  ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/f694d07d0/94748538/f694d07d09a0785f02fd010d43872fff_max_476x317.jpeg",
   "checked": "2026-11-03",
   "station": {
    "name": "East Acton",
@@ -27866,51 +27643,6 @@
    "lcp": 38,
    "tritax": 41,
    "q5": 52,
-   "wentworth": 40
-  }
- },
- {
-  "id": "rightmove-94726467",
-  "title": "Norbroke Street, London, W12",
-  "area": "W12",
-  "rent": 3500,
-  "beds": 4,
-  "baths": 1,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/94726467",
-  "links": [
-   "https://www.rightmove.co.uk/properties/94726467"
-  ],
-  "source": "backfill",
-  "added": "2026-10-31",
-  "added_at": "2026-10-31T12:03Z",
-  "notes": [
-   "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-10-26."
-  ],
-  "prices": [
-   [
-    "2026-10-31",
-    3500,
-    "rightmove"
-   ]
-  ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/c3eb7f849/94726467/c3eb7f84991be97c65783ba8ec85d450_max_476x317.jpeg",
-  "checked": "2026-11-03",
-  "station": {
-   "name": "East Acton",
-   "kind": "Tube",
-   "walk": 4
-  },
-  "loc": [
-   51.5148649,
-   -0.2448756
-  ],
-  "commute": {
-   "lcp": 37,
-   "tritax": 40,
-   "q5": 50,
    "wentworth": 40
   }
  },
@@ -28524,7 +28256,7 @@
  {
   "id": "rightmove-93104619",
   "title": "Old Chesterton Building, London",
-  "area": "",
+  "area": "SW11",
   "rent": 4900,
   "beds": 4,
   "baths": 3,
@@ -28533,19 +28265,27 @@
   "status": "new",
   "url": "https://www.rightmove.co.uk/properties/93104619",
   "links": [
-   "https://www.rightmove.co.uk/properties/93104619"
+   "https://www.rightmove.co.uk/properties/93104619",
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/BSL170002/old-chesterton-building/"
   ],
   "source": "backfill",
   "added": "2026-10-31",
   "added_at": "2026-10-31T12:03Z",
   "notes": [
-   "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-09-14."
+   "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-09-14.",
+   "From the Marsh & Parsons website on 2026-10-31.",
+   "Merged in marshandparsons-BSL170002: the same house (3 Nov audit)."
   ],
   "prices": [
    [
     "2026-10-31",
     4900,
     "rightmove"
+   ],
+   [
+    "2026-10-31",
+    4900,
+    "marshandparsons"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/d67c97e66/93104619/d67c97e6622b28e71893af0d5562463a_max_476x317.jpeg",
@@ -28685,36 +28425,6 @@
    "q5": 45,
    "wentworth": 48
   }
- },
- {
-  "id": "marshandparsons-BSL170002",
-  "title": "Old Chesterton Building, SW11",
-  "area": "SW11",
-  "rent": 4900,
-  "beds": 4,
-  "baths": 3,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.marshandparsons.co.uk/properties-to-rent/london/property/BSL170002/old-chesterton-building/",
-  "links": [
-   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/BSL170002/old-chesterton-building/"
-  ],
-  "source": "agent",
-  "added": "2026-10-31",
-  "added_at": "2026-10-31T13:15Z",
-  "notes": [
-   "From the Marsh & Parsons website on 2026-10-31."
-  ],
-  "prices": [
-   [
-    "2026-10-31",
-    4900,
-    "marshandparsons"
-   ]
-  ],
-  "photo": "https://dx-mail-items.s3.eu-west-2.amazonaws.com/webimg/mpa/e4dde897b5a7806a9af845a3ac0e7e6f",
-  "checked": "2026-11-03"
  },
  {
   "id": "onthemarket-20665648",
@@ -29176,111 +28886,6 @@
   "photo": "https://media.onthemarket.com/properties/18863172/1656384495/image-0-1024x1024.jpg"
  },
  {
-  "id": "zoopla-74669331",
-  "title": "Divis Way, London SW15, SW15 5DG",
-  "area": "Putney",
-  "rent": 3500,
-  "beds": 4,
-  "baths": 1,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/95058180",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74669331/",
-   "https://www.johndwood.co.uk/properties/22282146/lettings/CSE264181",
-   "https://www.rightmove.co.uk/properties/95058180",
-   "https://www.onthemarket.com/details/20681244/"
-  ],
-  "source": "sweep",
-  "added": "2026-11-03",
-  "added_at": "2026-11-03T18:08Z",
-  "checked": "2026-11-03",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ],
-  "prices": [
-   [
-    "2026-11-03",
-    3500,
-    "rightmove"
-   ],
-   [
-    "2026-11-03",
-    3500,
-    "onthemarket"
-   ]
-  ],
-  "loc": [
-   51.4525729,
-   -0.2338174
-  ],
-  "station": {
-   "name": "Putney",
-   "kind": "Rail",
-   "walk": 26
-  },
-  "commute": {
-   "lcp": 69,
-   "tritax": 66,
-   "q5": 57,
-   "wentworth": 42
-  },
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/741387753/95058180/7413877534a6943266b76357e44f10cb_max_476x317.jpeg"
- },
- {
-  "id": "onthemarket-16589505",
-  "title": "Wadham Road, Putney, London, SW15, SW15 2LS",
-  "area": "Putney",
-  "rent": 4000,
-  "beds": 4,
-  "baths": 3,
-  "available": "2026-12-07",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/95079150",
-  "links": [
-   "https://www.onthemarket.com/details/16589505/",
-   "https://www.rightmove.co.uk/properties/95079150",
-   "https://www.zoopla.co.uk/to-rent/details/69487045/"
-  ],
-  "source": "sweep",
-  "added": "2026-11-03",
-  "added_at": "2026-11-03T18:08Z",
-  "checked": "2026-11-03",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ],
-  "prices": [
-   [
-    "2026-11-03",
-    4000,
-    "rightmove"
-   ],
-   [
-    "2026-11-03",
-    4000,
-    "onthemarket"
-   ]
-  ],
-  "loc": [
-   51.4617079,
-   -0.2097804
-  ],
-  "station": {
-   "name": "East Putney",
-   "kind": "Tube",
-   "walk": 6
-  },
-  "commute": {
-   "lcp": 52,
-   "tritax": 50,
-   "q5": 44,
-   "wentworth": 44
-  },
-  "photo": "https://media.onthemarket.com/properties/16589505/1656403627/image-0-1024x1024.jpg"
- },
- {
   "id": "foxtons-ptny5244025",
   "title": "Pennard Road , Shepherd's Bush , W12, W12 8DW",
   "area": "Shepherd's Bush",
@@ -29471,93 +29076,5 @@
    "wentworth": 41
   },
   "photo": "https://media.rightmove.co.uk/dir/property-photo/dcb133b60/95060466/dcb133b604ac7c360e069dbf3a7be4a0_max_476x317.jpeg"
- },
- {
-  "id": "openrent-3098023",
-  "title": "Hubert Grove, SW9",
-  "area": "Stockwell",
-  "rent": 4400,
-  "beds": 4,
-  "baths": null,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.openrent.co.uk/3098023",
-  "links": [
-   "https://www.openrent.co.uk/3098023"
-  ],
-  "source": "alert",
-  "added": "2026-11-03",
-  "added_at": "2026-11-03T18:12Z",
-  "notes": [
-   "From an email on 2026-11-03: New properties found for your search: Wandsworth, London"
-  ],
-  "prices": [
-   [
-    "2026-11-03",
-    4400,
-    "openrent"
-   ]
-  ],
-  "loc": [
-   51.4643792,
-   -0.1228794
-  ],
-  "station": {
-   "name": "Clapham North",
-   "kind": "Tube",
-   "walk": 8
-  },
-  "commute": {
-   "lcp": 42,
-   "tritax": 40,
-   "q5": 39,
-   "wentworth": 58
-  }
- },
- {
-  "id": "onthemarket-20475831",
-  "title": "Devonshire Road London W4",
-  "area": "W4",
-  "rent": 4750,
-  "beds": 5,
-  "baths": null,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/20475831/",
-  "links": [
-   "https://www.onthemarket.com/details/20475831/"
-  ],
-  "source": "alert",
-  "added": "2026-11-03",
-  "added_at": "2026-11-03T18:39Z",
-  "notes": [
-   "From an email on 2026-11-03: Reduced price properties in London (drawn area)"
-  ],
-  "prices": [
-   [
-    "2026-11-03",
-    4750,
-    "onthemarket"
-   ]
-  ],
-  "loc": [
-   51.4925859,
-   -0.256164
-  ],
-  "station": {
-   "name": "Turnham Green",
-   "kind": "Tube",
-   "walk": 5
-  },
-  "commute": {
-   "lcp": 48,
-   "tritax": 48,
-   "q5": 48,
-   "wentworth": 33
-  },
-  "photo": "https://media.onthemarket.com/properties/20475831/1649695588/image-0-1024x1024.png",
-  "checked": "2026-11-03"
  }
 ]
