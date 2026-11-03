@@ -4849,7 +4849,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-11."
   ],
-  "checked": "2026-11-02",
+  "checked": "2026-11-03",
   "station": {
    "name": "Colliers Wood",
    "kind": "Tube",
@@ -5408,7 +5408,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
-  "checked": "2026-11-02",
+  "checked": "2026-11-03",
   "station": {
    "name": "Putney",
    "kind": "Rail",
@@ -6258,7 +6258,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04."
   ],
-  "checked": "2026-11-02",
+  "checked": "2026-11-03",
   "station": {
    "name": "Wandsworth Town",
    "kind": "Rail",
@@ -6306,7 +6306,7 @@
    "Price changed from £4,800 to £4,300 (2026-10-26).",
    "Price changed from £4,300 to £3,800 (2026-10-30)."
   ],
-  "checked": "2026-11-02",
+  "checked": "2026-11-03",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -6364,7 +6364,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck). Last checked 2026-10-09."
   ],
-  "checked": "2026-11-02",
+  "checked": "2026-11-03",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -11217,7 +11217,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
-  "checked": "2026-11-02",
+  "checked": "2026-11-03",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -18621,7 +18621,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-02",
+  "checked": "2026-11-03",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Bathrooms corrected to 2 from the advert (31 Oct)."
@@ -19200,7 +19200,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-02",
+  "checked": "2026-11-03",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -19470,7 +19470,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-02",
+  "checked": "2026-11-03",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -20132,7 +20132,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-02",
+  "checked": "2026-11-03",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -20223,7 +20223,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-02",
+  "checked": "2026-11-03",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -20402,7 +20402,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-02",
+  "checked": "2026-11-03",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Bathrooms corrected to 1 from the advert (31 Oct)."
@@ -23774,7 +23774,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-11-02",
+  "checked": "2026-11-03",
   "notes": [
    "Found by ChatGPT sweep (unverified)."
   ],
@@ -23998,7 +23998,7 @@
   ],
   "source": "search",
   "added": "2026-10-25",
-  "checked": "2026-11-02",
+  "checked": "2026-11-03",
   "notes": [
    "Missed by the sweep; found in a portal coverage check on 25 Oct (OpenRent private landlord)."
   ],
@@ -26333,7 +26333,10 @@
   "status": "new",
   "url": "https://www.rightmove.co.uk/properties/94741353",
   "links": [
-   "https://www.rightmove.co.uk/properties/94741353"
+   "https://www.rightmove.co.uk/properties/94741353",
+   "https://www.foxtons.co.uk/properties-to-rent/w12/chpk2323067",
+   "https://www.onthemarket.com/details/20627851/",
+   "https://www.onthemarket.com/details/20629408/"
   ],
   "source": "backfill",
   "added": "2026-10-31",
@@ -27426,7 +27429,7 @@
     "openrent"
    ]
   ],
-  "checked": "2026-11-02"
+  "checked": "2026-11-03"
  },
  {
   "id": "onthemarket-20670072",
@@ -27586,7 +27589,7 @@
   "source": "sweep",
   "added": "2026-11-02",
   "added_at": "2026-11-02T18:09Z",
-  "checked": "2026-11-02",
+  "checked": "2026-11-03",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -27630,7 +27633,7 @@
   "source": "sweep",
   "added": "2026-11-02",
   "added_at": "2026-11-02T18:09Z",
-  "checked": "2026-11-02",
+  "checked": "2026-11-03",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -27707,8 +27710,8 @@
   "area": "",
   "rent": 4300,
   "beds": 4,
-  "baths": null,
-  "available": "",
+  "baths": 2,
+  "available": "2026-12-05",
   "sharers": "unknown",
   "status": "new",
   "url": "https://www.openrent.co.uk/2738801",
@@ -27742,7 +27745,8 @@
    "tritax": 34,
    "q5": 23,
    "wentworth": 49
-  }
+  },
+  "checked": "2026-11-03"
  },
  {
   "id": "onthemarket-20679030",
@@ -27833,5 +27837,377 @@
   },
   "photo": "https://media.onthemarket.com/properties/20679740/1656333939/image-0-1024x1024.jpg",
   "checked": "2026-11-03"
+ },
+ {
+  "id": "onthemarket-20681902",
+  "title": "New Kings Road, London, SW6, SW6 4SE",
+  "area": "Fulham",
+  "rent": 4250,
+  "beds": 4,
+  "baths": 1,
+  "available": "2026-11-27",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/95064798",
+  "links": [
+   "https://www.onthemarket.com/details/20681902/",
+   "https://www.rightmove.co.uk/properties/95064798",
+   "https://www.zoopla.co.uk/to-rent/details/74670260/"
+  ],
+  "source": "sweep",
+  "added": "2026-11-03",
+  "added_at": "2026-11-03T18:08Z",
+  "checked": "2026-11-03",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-11-03",
+    4250,
+    "rightmove"
+   ]
+  ],
+  "loc": [
+   51.4720622,
+   -0.20382
+  ],
+  "station": {
+   "name": "Parsons Green",
+   "kind": "Tube",
+   "walk": 6
+  },
+  "commute": {
+   "lcp": 48,
+   "tritax": 46,
+   "q5": 43,
+   "wentworth": 42
+  },
+  "photo": "https://media.onthemarket.com/properties/20681902/1656371125/image-0-1024x1024.jpg"
+ },
+ {
+  "id": "onthemarket-18863172",
+  "title": "Colebrook Close, Putney, SW15 3HZ",
+  "area": "Putney",
+  "rent": 3600,
+  "beds": 4,
+  "baths": 1,
+  "available": "2027-01-30",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/95076369",
+  "links": [
+   "https://www.onthemarket.com/details/18863172/",
+   "https://www.rightmove.co.uk/properties/95076369",
+   "https://www.zoopla.co.uk/to-rent/details/69808260/"
+  ],
+  "source": "sweep",
+  "added": "2026-11-03",
+  "added_at": "2026-11-03T18:08Z",
+  "checked": "2026-11-03",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-11-03",
+    3600,
+    "rightmove"
+   ]
+  ],
+  "loc": [
+   51.4504799,
+   -0.2191478
+  ],
+  "station": {
+   "name": "Southfields",
+   "kind": "Tube",
+   "walk": 16
+  },
+  "commute": {
+   "lcp": 65,
+   "tritax": 63,
+   "q5": 55,
+   "wentworth": 42
+  },
+  "photo": "https://media.onthemarket.com/properties/18863172/1656384495/image-0-1024x1024.jpg"
+ },
+ {
+  "id": "zoopla-74669331",
+  "title": "Divis Way, London SW15, SW15 5DG",
+  "area": "Putney",
+  "rent": 3500,
+  "beds": 4,
+  "baths": 1,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/95058180",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74669331/",
+   "https://www.johndwood.co.uk/properties/22282146/lettings/CSE264181",
+   "https://www.rightmove.co.uk/properties/95058180"
+  ],
+  "source": "sweep",
+  "added": "2026-11-03",
+  "added_at": "2026-11-03T18:08Z",
+  "checked": "2026-11-03",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-11-03",
+    3500,
+    "rightmove"
+   ]
+  ],
+  "loc": [
+   51.4525729,
+   -0.2338174
+  ],
+  "station": {
+   "name": "Putney",
+   "kind": "Rail",
+   "walk": 26
+  },
+  "commute": {
+   "lcp": 69,
+   "tritax": 66,
+   "q5": 57,
+   "wentworth": 42
+  },
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/741387753/95058180/7413877534a6943266b76357e44f10cb_max_476x317.jpeg"
+ },
+ {
+  "id": "onthemarket-16589505",
+  "title": "Wadham Road, Putney, London, SW15, SW15 2LS",
+  "area": "Putney",
+  "rent": 4000,
+  "beds": 4,
+  "baths": 3,
+  "available": "2026-12-07",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/95079150",
+  "links": [
+   "https://www.onthemarket.com/details/16589505/",
+   "https://www.rightmove.co.uk/properties/95079150",
+   "https://www.zoopla.co.uk/to-rent/details/69487045/"
+  ],
+  "source": "sweep",
+  "added": "2026-11-03",
+  "added_at": "2026-11-03T18:08Z",
+  "checked": "2026-11-03",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-11-03",
+    4000,
+    "rightmove"
+   ]
+  ],
+  "loc": [
+   51.4617079,
+   -0.2097804
+  ],
+  "station": {
+   "name": "East Putney",
+   "kind": "Tube",
+   "walk": 6
+  },
+  "commute": {
+   "lcp": 52,
+   "tritax": 50,
+   "q5": 44,
+   "wentworth": 44
+  },
+  "photo": "https://media.onthemarket.com/properties/16589505/1656403627/image-0-1024x1024.jpg"
+ },
+ {
+  "id": "foxtons-ptny5244025",
+  "title": "Pennard Road , Shepherd's Bush , W12, W12 8DW",
+  "area": "Shepherd's Bush",
+  "rent": 4000,
+  "beds": 4,
+  "baths": 4,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/17746071/",
+  "links": [
+   "https://www.foxtons.co.uk/properties-to-rent/w12/ptny5244025",
+   "https://www.onthemarket.com/details/17746071/"
+  ],
+  "source": "sweep",
+  "added": "2026-11-03",
+  "added_at": "2026-11-03T18:08Z",
+  "checked": "2026-11-03",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-11-03",
+    4000,
+    "onthemarket"
+   ]
+  ],
+  "loc": [
+   51.5028529,
+   -0.2249635
+  ],
+  "station": {
+   "name": "Goldhawk Road",
+   "kind": "Tube",
+   "walk": 3
+  },
+  "commute": {
+   "lcp": 32,
+   "tritax": 35,
+   "q5": 45,
+   "wentworth": 39
+  },
+  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1787945613/52/04/425/ptny5244025/edited_ptny5244025-100.jpg"
+ },
+ {
+  "id": "onthemarket-20683714",
+  "title": "Hillbrook Road, London SW17, SW17 8SF",
+  "area": "Tooting",
+  "rent": 3700,
+  "beds": 4,
+  "baths": 1,
+  "available": "2027-01-04",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/95074983",
+  "links": [
+   "https://www.onthemarket.com/details/20683714/",
+   "https://www.rightmove.co.uk/properties/95074983",
+   "https://www.zoopla.co.uk/to-rent/details/74672155/"
+  ],
+  "source": "sweep",
+  "added": "2026-11-03",
+  "added_at": "2026-11-03T18:08Z",
+  "checked": "2026-11-03",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-11-03",
+    3700,
+    "rightmove"
+   ]
+  ],
+  "loc": [
+   51.4326321,
+   -0.1609475
+  ],
+  "station": {
+   "name": "Tooting Bec",
+   "kind": "Tube",
+   "walk": 6
+  },
+  "commute": {
+   "lcp": 47,
+   "tritax": 45,
+   "q5": 43,
+   "wentworth": 49
+  },
+  "photo": "https://media.onthemarket.com/properties/20683714/1656395055/image-0-1024x1024.jpg"
+ },
+ {
+  "id": "foxtons-chpk2613628",
+  "title": "Merton Road, London, SW18, SW18 5AD",
+  "area": "Wandsworth",
+  "rent": 4000,
+  "beds": 4,
+  "baths": 2,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.foxtons.co.uk/properties-to-rent/sw18/chpk2613628",
+  "links": [
+   "https://www.foxtons.co.uk/properties-to-rent/sw18/chpk2613628"
+  ],
+  "source": "sweep",
+  "added": "2026-11-03",
+  "added_at": "2026-11-03T18:08Z",
+  "checked": "2026-11-03",
+  "notes": [
+   "Found by ChatGPT sweep (unverified)."
+  ],
+  "prices": [
+   [
+    "2026-11-03",
+    4000,
+    "foxtons"
+   ]
+  ],
+  "loc": [
+   51.4568736,
+   -0.1985642
+  ],
+  "station": {
+   "name": "Wandsworth Town",
+   "kind": "Rail",
+   "walk": 14
+  },
+  "commute": {
+   "lcp": 58,
+   "tritax": 54,
+   "q5": 47,
+   "wentworth": 44
+  }
+ },
+ {
+  "id": "zoopla-74669597",
+  "title": "Poplar Road South, Wimbledon, London SW19, SW19 3JY",
+  "area": "Wimbledon",
+  "rent": 3750,
+  "beds": 4,
+  "baths": 2,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/95060466",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74669597/",
+   "https://www.johndwood.co.uk/properties/22282297/lettings/WIL260069",
+   "https://www.rightmove.co.uk/properties/95060466"
+  ],
+  "source": "sweep",
+  "added": "2026-11-03",
+  "added_at": "2026-11-03T18:08Z",
+  "checked": "2026-11-03",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-11-03",
+    3750,
+    "rightmove"
+   ]
+  ],
+  "loc": [
+   51.4086405,
+   -0.1996437
+  ],
+  "station": {
+   "name": "South Merton",
+   "kind": "Rail",
+   "walk": 12
+  },
+  "commute": {
+   "lcp": 63,
+   "tritax": 60,
+   "q5": 59,
+   "wentworth": 41
+  },
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/dcb133b60/95060466/dcb133b604ac7c360e069dbf3a7be4a0_max_476x317.jpeg"
  }
 ]
