@@ -1211,7 +1211,11 @@
   "off_market": {
    "why": "Advert taken down on dexters",
    "checked": "2026-11-03"
-  }
+  },
+  "down": [
+   "https://www.dexters.co.uk/property-for-rent/house-to-rent-in-the-crescent-london-sw19/280611",
+   "https://www.rightmove.co.uk/properties/92560641"
+  ]
  },
  {
   "id": "dexters-280816",
@@ -1356,6 +1360,11 @@
     "2026-09-28",
     4200,
     "foxtons"
+   ],
+   [
+    "2026-11-03",
+    4200,
+    "rightmove"
    ]
   ],
   "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1787935287/89/60/600/batt0060698/edited_batt0060698-20.jpg",
@@ -1406,6 +1415,10 @@
   "loc": [
    51.4275949,
    -0.1664831
+  ],
+  "down": [
+   "https://www.foxtons.co.uk/properties-to-rent/sw17/chpk0257377",
+   "https://www.rightmove.co.uk/properties/93275850"
   ]
  },
  {
@@ -1464,6 +1477,11 @@
     "2026-11-03",
     3385,
     "onthemarket"
+   ],
+   [
+    "2026-11-03",
+    3385,
+    "rightmove"
    ]
   ],
   "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1791443750/91/61/330/chpk0331619/edited_chpk0331619-15.jpg",
@@ -1583,6 +1601,11 @@
     "2026-09-25",
     4750,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4750,
+    "onthemarket"
    ]
   ],
   "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1792773545/12/33/040/chpk0403321/edited_chpk0403321-25.jpg",
@@ -1641,6 +1664,10 @@
   "loc": [
    51.4619262,
    -0.2388224
+  ],
+  "down": [
+   "https://www.foxtons.co.uk/properties-to-rent/sw15/chpk0413730",
+   "https://www.rightmove.co.uk/properties/92746605"
   ]
  },
  {
@@ -1689,6 +1716,11 @@
   "loc": [
    51.4505216,
    -0.239887
+  ],
+  "down": [
+   "https://www.foxtons.co.uk/properties-to-rent/sw15/chpk0432104",
+   "https://www.rightmove.co.uk/properties/91270602",
+   "https://www.onthemarket.com/details/19997067/"
   ]
  },
  {
@@ -1731,6 +1763,9 @@
   "loc": [
    51.4446855,
    -0.1516493
+  ],
+  "down": [
+   "https://www.foxtons.co.uk/properties-to-rent/sw12/chpk0447377"
   ]
  },
  {
@@ -1839,6 +1874,13 @@
   "loc": [
    51.4079236,
    -0.2309844
+  ],
+  "down": [
+   "https://www.foxtons.co.uk/properties-to-rent/sw20/chpk2578916",
+   "https://www.rightmove.co.uk/properties/94224747",
+   "https://www.rightmove.co.uk/properties/94224756",
+   "https://www.onthemarket.com/details/20528766/",
+   "https://www.onthemarket.com/details/20528767/"
   ]
  },
  {
@@ -1919,6 +1961,10 @@
   "loc": [
    51.4231965,
    -0.1955025
+  ],
+  "down": [
+   "https://www.foxtons.co.uk/properties-to-rent/sw19/chpk2597653",
+   "https://www.onthemarket.com/details/20313789/"
   ]
  },
  {
@@ -1971,6 +2017,11 @@
     "2026-11-03",
     2800,
     "onthemarket"
+   ],
+   [
+    "2026-11-03",
+    2800,
+    "rightmove"
    ]
   ],
   "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1790672117/23/30/162/chpk2610332/edited_chpk2610332-1.jpg",
@@ -2025,6 +2076,11 @@
     "2026-10-20",
     4500,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4500,
+    "onthemarket"
    ]
   ],
   "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1787939716/47/41/162/chpk2611474/edited_chpk2611474-1.jpg",
@@ -2037,7 +2093,10 @@
    "tritax": 57,
    "q5": 49,
    "wentworth": 46
-  }
+  },
+  "down": [
+   "https://www.foxtons.co.uk/properties-to-rent/sw18/chpk2611532"
+  ]
  },
  {
   "id": "foxtons-chpk2823508",
@@ -2124,6 +2183,12 @@
   "loc": [
    51.3945498,
    -0.2578973
+  ],
+  "down": [
+   "https://www.foxtons.co.uk/properties-to-rent/kt3/chpk2838159",
+   "https://www.rightmove.co.uk/properties/91233636",
+   "https://www.rightmove.co.uk/properties/94227663",
+   "https://www.onthemarket.com/details/19989823/"
   ]
  },
  {
@@ -2175,7 +2240,11 @@
   "off_market": {
    "why": "Advert taken down on Foxtons",
    "checked": "2026-11-03"
-  }
+  },
+  "down": [
+   "https://www.foxtons.co.uk/properties-to-rent/kt3/chpk2840342",
+   "https://www.rightmove.co.uk/properties/93451002"
+  ]
  },
  {
   "id": "foxtons-chpk2846066",
@@ -2255,6 +2324,9 @@
   "loc": [
    51.4010582,
    -0.2627122
+  ],
+  "down": [
+   "https://www.foxtons.co.uk/properties-to-rent/kt3/chpk2853612"
   ]
  },
  {
@@ -2301,6 +2373,11 @@
   "loc": [
    51.4071288,
    -0.2653546
+  ],
+  "down": [
+   "https://www.foxtons.co.uk/properties-to-rent/kt3/chpk2864956",
+   "https://www.rightmove.co.uk/properties/93240915",
+   "https://www.onthemarket.com/details/20354572/"
   ]
  },
  {
@@ -2349,6 +2426,11 @@
   "loc": [
    51.446061,
    -0.1326497
+  ],
+  "down": [
+   "https://www.foxtons.co.uk/properties-to-rent/sw12/chpk3403623",
+   "https://www.rightmove.co.uk/properties/93191157",
+   "https://www.onthemarket.com/details/20345686/"
   ]
  },
  {
@@ -2439,6 +2521,12 @@
   "loc": [
    51.4020218,
    -0.2028354
+  ],
+  "down": [
+   "https://www.foxtons.co.uk/properties-to-rent/sm4/chpk4086141",
+   "https://www.onthemarket.com/details/20293443/",
+   "https://www.onthemarket.com/details/20349748/",
+   "https://www.onthemarket.com/details/20488973/"
   ]
  },
  {
@@ -2485,6 +2573,9 @@
   "loc": [
    51.4612352,
    -0.1767353
+  ],
+  "down": [
+   "https://www.foxtons.co.uk/properties-to-rent/sw11/chpk4664083"
   ]
  },
  {
@@ -2528,6 +2619,10 @@
   "loc": [
    51.4183874,
    -0.1553962
+  ],
+  "down": [
+   "https://www.foxtons.co.uk/properties-to-rent/cr4/chpk5218905",
+   "https://www.rightmove.co.uk/properties/92093802"
   ]
  },
  {
@@ -2568,6 +2663,11 @@
     "2026-10-20",
     4000,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4000,
+    "onthemarket"
    ]
   ],
   "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1791910266/98/07/500/ptny0057089/edited_ptny0057089-20.jpg",
@@ -2667,6 +2767,9 @@
   "loc": [
    51.3874345,
    -0.2629496
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/92638875"
   ]
  },
  {
@@ -3792,6 +3895,9 @@
   "loc": [
    51.4263271,
    -0.1636451
+  ],
+  "down": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2454088/franciscan-road/"
   ]
  },
  {
@@ -4137,6 +4243,9 @@
   "loc": [
    51.4274087,
    -0.1667722
+  ],
+  "down": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/BHL130148/ashvale-road/"
   ]
  },
  {
@@ -4384,6 +4493,11 @@
     "2026-09-25",
     5000,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    5000,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/7eef86020/90845700/7eef86020aa9aa2cb5311a213989c5bc_max_476x317.jpeg",
@@ -4493,7 +4607,11 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-11-03"
-  }
+  },
+  "down": [
+   "https://www.rightmove.co.uk/properties/92631645",
+   "https://www.onthemarket.com/details/20246666/"
+  ]
  },
  {
   "id": "jacksons-22055415",
@@ -4544,6 +4662,9 @@
   "loc": [
    51.4402238,
    -0.1449959
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/92658012"
   ]
  },
  {
@@ -4593,6 +4714,11 @@
   "loc": [
    51.4477788,
    -0.1782349
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20247386/",
+   "https://www.rightmove.co.uk/properties/92636115",
+   "https://www.rightmove.co.uk/properties/93117981"
   ]
  },
  {
@@ -4628,6 +4754,11 @@
     "2026-10-06",
     4500,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4500,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/a214a1116/93961422/a214a111602e5a877289433443455624_max_476x317.jpeg",
@@ -4685,6 +4816,10 @@
   "loc": [
    51.4240455,
    -0.1740095
+  ],
+  "down": [
+   "https://www.kfh.co.uk/property-to-rent/4-bedroom-house-to-rent-in-blackshaw-road-london-sw17-12270/",
+   "https://www.rightmove.co.uk/properties/92709228"
   ]
  },
  {
@@ -4733,6 +4868,9 @@
   "loc": [
    51.4063782,
    -0.2385144
+  ],
+  "down": [
+   "https://www.kfh.co.uk/property-to-rent/4-bedroom-house-to-rent-in-hidcote-gardens-london-sw20-13018/"
   ]
  },
  {
@@ -4776,6 +4914,9 @@
   "loc": [
    51.4597694,
    -0.197358
+  ],
+  "down": [
+   "https://www.kfh.co.uk/property-to-rent/4-bedroom-terraced-house-to-rent-in-sudlow-road-wandsworth-london-sw18-21821/"
   ]
  },
  {
@@ -5099,6 +5240,11 @@
     "2026-11-03",
     4750,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4750,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/c1884ddc6/94093686/c1884ddc65530d8c9d8eb7ef7dcb0e44_max_476x317.jpeg",
@@ -5111,7 +5257,11 @@
    "tritax": 58,
    "q5": 48,
    "wentworth": 47
-  }
+  },
+  "down": [
+   "https://www.rightmove.co.uk/properties/89374836",
+   "https://www.rightmove.co.uk/properties/93542283"
+  ]
  },
  {
   "id": "openrent-2924031",
@@ -5289,6 +5439,13 @@
   "loc": [
    51.4079236,
    -0.2309844
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/89614338",
+   "https://www.rightmove.co.uk/properties/92341998",
+   "https://www.onthemarket.com/details/19704689/",
+   "https://www.onthemarket.com/details/20198775/",
+   "https://www.kfh.co.uk/property-to-rent/4-bedroom-terraced-apartment-to-rent-in-firstway-london-sw20-52503/"
   ]
  },
  {
@@ -5373,6 +5530,10 @@
   "loc": [
    51.4209682,
    -0.211124
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/91951278",
+   "https://www.onthemarket.com/details/20078335/"
   ]
  },
  {
@@ -5423,6 +5584,10 @@
   "loc": [
    51.4170898,
    -0.1557225
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/93822087",
+   "https://www.onthemarket.com/details/20455577/"
   ]
  },
  {
@@ -5514,6 +5679,9 @@
   "loc": [
    51.432369,
    -0.1593596
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/92058864"
   ]
  },
  {
@@ -5549,6 +5717,11 @@
     "2026-09-25",
     4250,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4250,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/1806cc6e1/93909945/1806cc6e1f8fdac188f743b393715543_max_476x317.jpeg",
@@ -5608,6 +5781,11 @@
     "2026-11-02",
     4700,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4700,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/07253bcfb/93449391/07253bcfb6a7c5540d282f752e35694f_max_476x317.jpeg",
@@ -5736,6 +5914,11 @@
     "2026-10-19",
     3700,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3700,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/264d04c65/92658141/264d04c65a042667b6fb224fb249ad59_max_476x317.jpeg",
@@ -5971,7 +6154,10 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-11-03"
-  }
+  },
+  "down": [
+   "https://www.rightmove.co.uk/properties/93525720"
+  ]
  },
  {
   "id": "openrent-3029005",
@@ -6093,6 +6279,11 @@
     "2026-09-25",
     4650,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4650,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/ca6958207/94167849/ca6958207c60774f00418b5f92425bfc_max_476x317.jpeg",
@@ -6105,7 +6296,10 @@
    "tritax": 52,
    "q5": 47,
    "wentworth": 45
-  }
+  },
+  "down": [
+   "https://www.rightmove.co.uk/properties/93022494"
+  ]
  },
  {
   "id": "openrent-3037368",
@@ -6140,6 +6334,11 @@
     "2026-09-29",
     3000,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3000,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/4d6b51e33/93055956/4d6b51e334e78e76f7a453d49b19811d_max_476x317.jpeg",
@@ -6187,6 +6386,11 @@
     "2026-09-27",
     4450,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4450,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/ab2d900bd/93660735/ab2d900bdf8bcc49180eec2281f1a87a_max_476x317.jpeg",
@@ -6457,6 +6661,11 @@
     "2026-09-29",
     3400,
     "zoopla"
+   ],
+   [
+    "2026-11-03",
+    3400,
+    "onthemarket"
    ]
   ],
   "photo": "https://lid.zoocdn.com/u/480/360/a18d0754e9628c09c6f33ae22013e0d0d58ffedb.jpg",
@@ -6552,6 +6761,11 @@
     "2026-10-31",
     2750,
     "zoopla"
+   ],
+   [
+    "2026-11-03",
+    2750,
+    "onthemarket"
    ]
   ],
   "photo": "https://lid.zoocdn.com/u/480/360/e6a6c3f8aff88f268a3cc9cee047872fec996e37.jpg",
@@ -6655,7 +6869,10 @@
    "tritax": 43,
    "q5": 30,
    "wentworth": 54
-  }
+  },
+  "down": [
+   "https://www.rightmove.co.uk/properties/93968652"
+  ]
  },
  {
   "id": "openrent-3063443",
@@ -6748,6 +6965,9 @@
   "loc": [
    51.4603703,
    -0.1274688
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/94114260"
   ]
  },
  {
@@ -6782,6 +7002,11 @@
     "2026-10-12",
     3250,
     "zoopla"
+   ],
+   [
+    "2026-11-03",
+    3250,
+    "onthemarket"
    ]
   ],
   "photo": "https://lid.zoocdn.com/u/480/360/8bf136bb63bdd8e8f1d775035fb239c8652e4cc4.jpg",
@@ -6868,6 +7093,11 @@
     "2026-09-25",
     3900,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3900,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/b025a63d7/150435635/b025a63d74b58e23403f1013dc0e4b32_max_476x317.jpeg",
@@ -6961,6 +7191,9 @@
   "loc": [
    51.4453532,
    -0.2075734
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/173173616"
   ]
  },
  {
@@ -7187,6 +7420,10 @@
   "loc": [
    51.3991628,
    -0.2248253
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/90369216",
+   "https://www.onthemarket.com/details/19317807/"
   ]
  },
  {
@@ -7230,6 +7467,9 @@
   "loc": [
    51.4538028,
    -0.2000269
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/90625782"
   ]
  },
  {
@@ -7357,6 +7597,10 @@
   "loc": [
    51.4512436,
    -0.1894094
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/91581081",
+   "https://www.onthemarket.com/details/20059037/"
   ]
  },
  {
@@ -7407,6 +7651,10 @@
   "loc": [
    51.4767537,
    -0.3155649
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/91653288",
+   "https://www.rightmove.co.uk/properties/91373505"
   ]
  },
  {
@@ -7486,6 +7734,9 @@
   "loc": [
    51.4527444,
    -0.1997585
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/91769193"
   ]
  },
  {
@@ -7711,6 +7962,10 @@
   "loc": [
    51.4222296,
    -0.1886917
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/91960815",
+   "https://www.onthemarket.com/details/20129612/"
   ]
  },
  {
@@ -8114,6 +8369,9 @@
   "loc": [
    51.4168548,
    -0.2297554
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/92266041"
   ]
  },
  {
@@ -8174,6 +8432,11 @@
   "loc": [
    51.4377855,
    -0.1995
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/92343588",
+   "https://www.onthemarket.com/details/20200371/",
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2325196/ashen-grove/"
   ]
  },
  {
@@ -8255,6 +8518,10 @@
   "loc": [
    51.4666915,
    -0.2197297
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/92520237",
+   "https://www.onthemarket.com/details/20230159/"
   ]
  },
  {
@@ -8446,6 +8713,10 @@
   "loc": [
    51.444806,
    -0.1989404
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/92633949",
+   "https://www.rightmove.co.uk/properties/92693367"
   ]
  },
  {
@@ -8494,6 +8765,10 @@
   "loc": [
    51.4532467,
    -0.2403829
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/92693592",
+   "https://www.onthemarket.com/details/20257657/"
   ]
  },
  {
@@ -8686,6 +8961,11 @@
     "2026-10-02",
     5000,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    5000,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/ec499715a/92961600/ec499715a203193221bf2a126c1bbfe8_max_476x317.jpeg",
@@ -8743,6 +9023,10 @@
   "loc": [
    51.4472056,
    -0.1357984
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/93037332",
+   "https://www.onthemarket.com/details/17520222/"
   ]
  },
  {
@@ -8825,6 +9109,11 @@
   "loc": [
    51.4598209,
    -0.1693103
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/93122811",
+   "https://www.rightmove.co.uk/properties/94123002",
+   "https://www.onthemarket.com/details/4446834/"
   ]
  },
  {
@@ -8912,6 +9201,11 @@
     "2026-10-19",
     4500,
     "search"
+   ],
+   [
+    "2026-11-03",
+    4500,
+    "onthemarket"
    ]
   ],
   "not_same": [
@@ -9011,6 +9305,11 @@
     "2026-10-19",
     4200,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4200,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/5db7ad6e0/93313947/5db7ad6e03cbf1d148e71df304b3aeef_max_476x317.jpeg",
@@ -9103,6 +9402,9 @@
   "loc": [
    51.4648686,
    -0.3013493
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/93340827"
   ]
  },
  {
@@ -9188,6 +9490,10 @@
   "loc": [
    51.3983619,
    -0.2555531
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/93369033",
+   "https://www.onthemarket.com/details/20373445/"
   ]
  },
  {
@@ -9269,6 +9575,10 @@
   "loc": [
    51.4139686,
    -0.1988932
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/93403266",
+   "https://www.onthemarket.com/details/20381999/"
   ]
  },
  {
@@ -9351,6 +9661,9 @@
   "loc": [
    51.421526,
    -0.1782553
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/93438813"
   ]
  },
  {
@@ -9400,6 +9713,9 @@
   "loc": [
    51.4526717,
    -0.1843814
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/93439104"
   ]
  },
  {
@@ -9434,7 +9750,10 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-11-03"
-  }
+  },
+  "down": [
+   "https://www.rightmove.co.uk/properties/93482223"
+  ]
  },
  {
   "id": "rightmove-93486795",
@@ -9471,6 +9790,11 @@
     "2026-09-25",
     3750,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3750,
+    "onthemarket"
    ]
   ],
   "photo": "https://lid.zoocdn.com/u/480/360/35a02441fd0e787fbf657dddec47cc14736083a7.jpg",
@@ -9483,7 +9807,11 @@
    "tritax": 59,
    "q5": 50,
    "wentworth": 38
-  }
+  },
+  "down": [
+   "https://www.rightmove.co.uk/properties/93486795",
+   "https://www.rightmove.co.uk/properties/93954243"
+  ]
  },
  {
   "id": "rightmove-93497562",
@@ -9519,6 +9847,11 @@
     "2026-09-25",
     4500,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4500,
+    "onthemarket"
    ]
   ],
   "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1790331722/34/78/162/chpk2618743/edited_chpk2618743-1.jpg",
@@ -9558,7 +9891,8 @@
    "Price changed from £3,500 to £3,300 (2026-10-18).",
    "Price cut on Onthemarket: £3,300 to £3,100 (2026-11-02).",
    "Price cut on Rightmove: £3,300 to £3,100 (2026-11-02).",
-   "Let agreed on Rightmove, still live on OnTheMarket (3 Nov)."
+   "Let agreed on Rightmove, still live on OnTheMarket (3 Nov).",
+   "Advert live on OnTheMarket (3 Nov)."
   ],
   "checked": "2026-11-03",
   "station": {
@@ -9604,10 +9938,9 @@
    "q5": 49,
    "wentworth": 44
   },
-  "off_market": {
-   "why": "Let agreed on Rightmove, still live on OnTheMarket",
-   "checked": "2026-11-03"
-  }
+  "down": [
+   "https://www.rightmove.co.uk/properties/93519945"
+  ]
  },
  {
   "id": "rightmove-93537537",
@@ -9656,6 +9989,10 @@
   "loc": [
    51.3997598,
    -0.2168095
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/93537537",
+   "https://www.onthemarket.com/details/20407897/"
   ]
  },
  {
@@ -9741,6 +10078,9 @@
   "loc": [
    51.4487697,
    -0.1872161
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/93639900"
   ]
  },
  {
@@ -9867,6 +10207,9 @@
   "loc": [
    51.4313323,
    -0.1663216
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/93711192"
   ]
  },
  {
@@ -9918,7 +10261,11 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-11-03"
-  }
+  },
+  "down": [
+   "https://www.rightmove.co.uk/properties/93718776",
+   "https://www.onthemarket.com/details/20438442/"
+  ]
  },
  {
   "id": "rightmove-93729006",
@@ -10034,6 +10381,11 @@
     "2026-10-20",
     3500,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3500,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/01afd2c4c/93770631/01afd2c4cebaca6826d0f18452fceea6_max_476x317.jpeg",
@@ -10165,6 +10517,11 @@
     "2026-10-20",
     3250,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3250,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/d874f37bf/93858993/d874f37bfe30d58c3e077d5fa65a2f40_max_476x317.jpeg",
@@ -10211,6 +10568,11 @@
     "2026-10-03",
     4250,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4250,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/b1e26b443/93883815/b1e26b4439c5d9434d10b57b9c0e04c1_max_476x317.jpeg"
@@ -10255,6 +10617,11 @@
     "2026-10-23",
     3800,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3800,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/d93fe7292/93960771/d93fe7292e0b63f88b0bbd93d968209e_max_476x317.jpeg",
@@ -10325,6 +10692,11 @@
     "2026-10-28",
     4000,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4000,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/371d54487/93981180/371d54487a9ffc469c0ac0e5add82cbc_max_476x317.jpeg",
@@ -10395,7 +10767,11 @@
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-11-03"
-  }
+  },
+  "down": [
+   "https://www.rightmove.co.uk/properties/93983979",
+   "https://www.onthemarket.com/details/20485406/"
+  ]
  },
  {
   "id": "rightmove-93989001",
@@ -10437,6 +10813,11 @@
     "2026-10-28",
     3900,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3900,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/9b642919a/93989001/9b642919a41197b8088510fb6c5b95fc_max_476x317.jpeg",
@@ -10490,6 +10871,11 @@
     "2026-10-20",
     3200,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3200,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/a765dc3b5/93995352/a765dc3b5180660a4f59e32fd384a3ee_max_476x317.jpeg",
@@ -10554,6 +10940,10 @@
   "loc": [
    51.4345239,
    -0.162473
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/94010418",
+   "https://www.onthemarket.com/details/20490372/"
   ]
  },
  {
@@ -10598,7 +10988,7 @@
   "id": "rightmove-94031274",
   "title": "The Crescent",
   "area": "New Malden",
-  "rent": 3000,
+  "rent": 2900,
   "beds": 4,
   "baths": 3,
   "available": "09/11/2026",
@@ -10615,7 +11005,8 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck). Last checked 2026-10-07.",
    "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18.",
-   "Imported from the old ChatGPT tracker (status: recheck)."
+   "Imported from the old ChatGPT tracker (status: recheck).",
+   "Price cut: £3,000 to £2,900 on the live adverts (3 Nov)."
   ],
   "checked": "2026-11-03",
   "station": {
@@ -10628,6 +11019,16 @@
     "2026-10-07",
     3000,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    2900,
+    "rightmove"
+   ],
+   [
+    "2026-11-03",
+    2900,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/e963eba12/94031274/e963eba12e0a2159071ba44274b6245a_max_476x317.jpeg",
@@ -10714,6 +11115,9 @@
   "loc": [
    51.4309017,
    -0.1664685
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/94082358"
   ]
  },
  {
@@ -10760,6 +11164,10 @@
   "loc": [
    51.402706,
    -0.2280903
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/94130985",
+   "https://www.onthemarket.com/details/17941190/"
   ]
  },
  {
@@ -10804,6 +11212,9 @@
   "loc": [
    51.4561209,
    -0.2033729
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/94235868"
   ]
  },
  {
@@ -10848,6 +11259,10 @@
   "loc": [
    51.4257878,
    -0.2082771
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/94244127",
+   "https://www.onthemarket.com/details/20539732/"
   ]
  },
  {
@@ -10898,7 +11313,10 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-11-03"
-  }
+  },
+  "down": [
+   "https://www.rightmove.co.uk/properties/94257036"
+  ]
  },
  {
   "id": "zoopla-41941286",
@@ -10988,6 +11406,10 @@
   "loc": [
    51.4297711,
    -0.1700636
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/92541024",
+   "https://www.onthemarket.com/details/19053407/"
   ]
  },
  {
@@ -11031,6 +11453,9 @@
   "loc": [
    51.4393358,
    -0.2204345
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/93926067"
   ]
  },
  {
@@ -11109,6 +11534,10 @@
   "loc": [
    51.423018,
    -0.1638151
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/92999544",
+   "https://www.onthemarket.com/details/12335895/"
   ]
  },
  {
@@ -11321,6 +11750,10 @@
   "loc": [
    51.4313323,
    -0.1663216
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/93111720",
+   "https://www.onthemarket.com/details/20333054/"
   ]
  },
  {
@@ -11361,6 +11794,11 @@
     "2026-10-20",
     3700,
     "zoopla"
+   ],
+   [
+    "2026-11-03",
+    3700,
+    "onthemarket"
    ]
   ],
   "photo": "https://lid.zoocdn.com/u/480/360/af6c6cf23e8b8ffb0102c1cc47fb887ffb51cd0c.jpg",
@@ -11426,6 +11864,10 @@
   "loc": [
    51.4642245,
    -0.2323674
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/93598026",
+   "https://www.onthemarket.com/details/15899072/"
   ]
  },
  {
@@ -11479,7 +11921,10 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-11-03"
-  }
+  },
+  "down": [
+   "https://www.rightmove.co.uk/properties/93983895"
+  ]
  },
  {
   "id": "zoopla-70347757",
@@ -11533,7 +11978,10 @@
    "tritax": 59,
    "q5": 49,
    "wentworth": 43
-  }
+  },
+  "down": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2165684/strathearn-road/"
+  ]
  },
  {
   "id": "zoopla-70641833",
@@ -11569,6 +12017,11 @@
     "2026-09-25",
     3500,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3500,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/e3fc386b3/92360187/e3fc386b36ab47c2cea51c99c465b645_max_476x317.jpeg",
@@ -11679,6 +12132,10 @@
   "loc": [
    51.4378606,
    -0.1812396
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/89618682",
+   "https://www.onthemarket.com/details/17522747/"
   ]
  },
  {
@@ -11721,6 +12178,11 @@
     "2026-10-22",
     4500,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4500,
+    "onthemarket"
    ]
   ],
   "photo": "https://lid.zoocdn.com/u/480/360/906550108976a8fdc91a4918ccef78a4dcdd09f4.jpg",
@@ -11733,7 +12195,10 @@
    "tritax": 59,
    "q5": 50,
    "wentworth": 38
-  }
+  },
+  "down": [
+   "https://www.rightmove.co.uk/properties/175012595"
+  ]
  },
  {
   "id": "zoopla-73262644",
@@ -11767,6 +12232,11 @@
     "2026-09-25",
     3500,
     "zoopla"
+   ],
+   [
+    "2026-11-03",
+    3500,
+    "onthemarket"
    ]
   ],
   "photo": "https://lid.zoocdn.com/u/480/360/0fc366bfee59399362785fe70692a24d05ad7f21.jpg",
@@ -12183,6 +12653,9 @@
   "loc": [
    51.4355473,
    -0.1844448
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/91270575"
   ]
  },
  {
@@ -12218,6 +12691,11 @@
     "2026-09-25",
     3750,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3750,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/7e7db3379/91352508/7e7db3379e5d87fb46d0a47f6ee510e9_max_476x317.jpeg",
@@ -12274,6 +12752,10 @@
   "loc": [
    51.4506498,
    -0.1479003
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/91371726",
+   "https://www.onthemarket.com/details/20016952/"
   ]
  },
  {
@@ -12400,6 +12882,9 @@
   "loc": [
    51.4471855,
    -0.1988674
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/175063595"
   ]
  },
  {
@@ -12520,6 +13005,9 @@
   "loc": [
    51.4290562,
    -0.1540747
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/91639029"
   ]
  },
  {
@@ -12629,6 +13117,10 @@
   "loc": [
    51.4343789,
    -0.1844564
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/91734735",
+   "https://www.onthemarket.com/details/20086904/"
   ]
  },
  {
@@ -12674,6 +13166,9 @@
   "loc": [
    51.4127443,
    -0.2300342
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/91846272"
   ]
  },
  {
@@ -12718,6 +13213,9 @@
   "loc": [
    51.4321609,
    -0.1910637
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/91857318"
   ]
  },
  {
@@ -12914,7 +13412,14 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-11-03"
-  }
+  },
+  "down": [
+   "https://www.rightmove.co.uk/properties/92034240",
+   "https://www.rightmove.co.uk/properties/92398824",
+   "https://www.onthemarket.com/details/20208894/",
+   "https://www.onthemarket.com/details/20142968/",
+   "https://www.kfh.co.uk/property-to-rent/4-bedroom-terraced-house-to-rent-in-wimbledon-park-road-southfields-london-sw18-96025/"
+  ]
  },
  {
   "id": "zoopla-73998997",
@@ -12996,6 +13501,9 @@
   "loc": [
    51.433594,
    -0.1973539
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/92116767"
   ]
  },
  {
@@ -13107,6 +13615,11 @@
     "2026-10-20",
     3750,
     "zoopla"
+   ],
+   [
+    "2026-11-03",
+    3750,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.onthemarket.com/properties/20184337/1638792826/image-0-1024x1024.jpg",
@@ -13162,6 +13675,9 @@
   "loc": [
    51.4140563,
    -0.2135858
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/92310924"
   ]
  },
  {
@@ -13207,6 +13723,10 @@
   "loc": [
    51.4039631,
    -0.2111711
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/92520564",
+   "https://www.onthemarket.com/details/20230233/"
   ]
  },
  {
@@ -13253,6 +13773,10 @@
   "loc": [
    51.4423581,
    -0.2014073
+  ],
+  "down": [
+   "https://www.foxtons.co.uk/properties-to-rent/sw18/chpk2635074",
+   "https://www.rightmove.co.uk/properties/92522283"
   ]
  },
  {
@@ -13523,6 +14047,9 @@
   "loc": [
    51.4329936,
    -0.1832505
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20489452/"
   ]
  },
  {
@@ -13691,6 +14218,11 @@
   "loc": [
    51.4548461,
    -0.2039189
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/92706903",
+   "https://www.rightmove.co.uk/properties/92953710",
+   "https://www.onthemarket.com/details/20263685/"
   ]
  },
  {
@@ -13735,7 +14267,7 @@
   "id": "zoopla-74235520",
   "title": "Branksome Way",
   "area": "New Malden",
-  "rent": 4300,
+  "rent": 4100,
   "beds": 4,
   "baths": 2,
   "available": "2026-08-15 (advertised)",
@@ -13753,7 +14285,8 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
    "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18.",
    "Price changed from £4,500 to £4,300 (2026-10-18).",
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Price cut: £4,300 to £4,100 on the live adverts (3 Nov)."
   ],
   "checked": "2026-11-03",
   "station": {
@@ -13771,6 +14304,16 @@
     "2026-10-18",
     4300,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4100,
+    "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4100,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/84650ab04/93120801/84650ab04d78b89b1e5f6507d26222a0_max_476x317.jpeg",
@@ -13822,6 +14365,10 @@
   "loc": [
    51.4069905,
    -0.1956816
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/93130332",
+   "https://www.onthemarket.com/details/20332793/"
   ]
  },
  {
@@ -13863,6 +14410,11 @@
     "2026-10-20",
     3000,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3000,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/6a42b8a15/93131823/6a42b8a1553d72bd908d940afddfc67b_max_476x317.jpeg",
@@ -13919,6 +14471,9 @@
   "loc": [
    51.416382,
    -0.2110651
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/93134526"
   ]
  },
  {
@@ -13966,6 +14521,10 @@
   "loc": [
    51.4462143,
    -0.2111121
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/93139128",
+   "https://www.onthemarket.com/details/20334785/"
   ]
  },
  {
@@ -14094,6 +14653,11 @@
     "2026-09-25",
     4000,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4000,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/627d71c8f/93246108/627d71c8fcf126ad2480deeed15f02b9_max_476x317.jpeg",
@@ -14196,6 +14760,9 @@
   "loc": [
    51.4457386,
    -0.239786
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/93283731"
   ]
  },
  {
@@ -14289,6 +14856,9 @@
   "loc": [
    51.4572938,
    -0.22079
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/93367239"
   ]
  },
  {
@@ -14383,13 +14953,17 @@
   "loc": [
    51.4612803,
    -0.2431732
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/93417366",
+   "https://www.onthemarket.com/details/20384045/"
   ]
  },
  {
   "id": "zoopla-74306479",
   "title": "Sawkins Close",
   "area": "Wimbledon",
-  "rent": 3350,
+  "rent": 3850,
   "beds": 4,
   "baths": 2,
   "available": "Now",
@@ -14405,7 +14979,8 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-09."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-09.",
+   "Price rise: £3,350 to £3,850 on the live adverts (3 Nov)."
   ],
   "checked": "2026-11-03",
   "station": {
@@ -14418,6 +14993,16 @@
     "2026-09-25",
     3350,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3850,
+    "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3850,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/f38c1a45a/93967113/f38c1a45a1b347250910faf46bb18820_max_476x317.jpeg",
@@ -14430,7 +15015,10 @@
    "tritax": 55,
    "q5": 53,
    "wentworth": 44
-  }
+  },
+  "down": [
+   "https://www.rightmove.co.uk/properties/93438873"
+  ]
  },
  {
   "id": "zoopla-74308005",
@@ -14474,6 +15062,9 @@
   "loc": [
    51.4291022,
    -0.1722679
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/93450141"
   ]
  },
  {
@@ -14518,6 +15109,9 @@
   "loc": [
    51.4548461,
    -0.2039189
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/93470949"
   ]
  },
  {
@@ -14645,13 +15239,17 @@
   "loc": [
    51.4291022,
    -0.1722679
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/93591633",
+   "https://www.onthemarket.com/details/20416908/"
   ]
  },
  {
   "id": "zoopla-74343475",
   "title": "Borough Road",
   "area": "Isleworth",
-  "rent": 3750,
+  "rent": 3499,
   "beds": 4,
   "baths": 2,
   "available": "",
@@ -14666,7 +15264,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-05.",
-   "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18."
+   "Out of area: Isleworth, Osterley and New Malden dropped from the search on 2026-10-18.",
+   "Price cut: £3,750 to £3,499 on the live adverts (3 Nov)."
   ],
   "station": {
    "name": "Kew Bridge",
@@ -14677,6 +15276,11 @@
    [
     "2026-09-25",
     3750,
+    "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3499,
     "rightmove"
    ]
   ],
@@ -14769,6 +15373,11 @@
     "2026-10-31",
     2750,
     "zoopla"
+   ],
+   [
+    "2026-11-03",
+    2750,
+    "onthemarket"
    ]
   ],
   "photo": "https://lid.zoocdn.com/u/480/360/3f254e5c03b9150d861995637f53f8b246837247.jpg",
@@ -14814,6 +15423,11 @@
     "2026-10-20",
     3600,
     "zoopla"
+   ],
+   [
+    "2026-11-03",
+    3600,
+    "onthemarket"
    ]
   ],
   "photo": "https://lid.zoocdn.com/u/480/360/8f3f7257654a456938a3c45c806cd21676cc2ec3.png",
@@ -14872,6 +15486,9 @@
   "loc": [
    51.4329936,
    -0.1832505
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/93975468"
   ]
  },
  {
@@ -14912,6 +15529,11 @@
     "2026-10-20",
     3000,
     "zoopla"
+   ],
+   [
+    "2026-11-03",
+    3000,
+    "onthemarket"
    ]
   ],
   "photo": "https://lid.zoocdn.com/u/480/360/41389c10ef2e0f8ac8f6376135928f0b76ff8c91.jpg",
@@ -15098,6 +15720,11 @@
     "2026-10-25",
     3500,
     "zoopla"
+   ],
+   [
+    "2026-11-03",
+    3500,
+    "onthemarket"
    ]
   ],
   "checked": "2026-11-03",
@@ -15281,7 +15908,7 @@
   "id": "openrent-3050921",
   "title": "Mary Macarthur House",
   "area": "Hammersmith",
-  "rent": 3550,
+  "rent": 3500,
   "beds": 4,
   "baths": 1,
   "available": "28 September, 2026 Online Viewings Th...",
@@ -15299,7 +15926,8 @@
    "Imported from the old ChatGPT tracker (status: screened; advertised). Last checked 2026-09-25.",
    "Availability: 28 September, 2026 Online Viewings This indicates the landlord's availability to perform viewings online, if you are unable to be physically present. You can read more about remote viewings in this bl",
    "Price changed from £3,500 to £3,550 (2026-10-25).",
-   "Live on OnTheMarket and Zoopla; no reason recorded for ruling it out (31 Oct)."
+   "Live on OnTheMarket and Zoopla; no reason recorded for ruling it out (31 Oct).",
+   "Price cut: £3,550 to £3,500 on the live adverts (3 Nov)."
   ],
   "station": {
    "name": "Barons Court",
@@ -15316,6 +15944,11 @@
     "2026-10-25",
     3550,
     "zoopla"
+   ],
+   [
+    "2026-11-03",
+    3550,
+    "onthemarket"
    ]
   ],
   "checked": "2026-11-03",
@@ -15532,7 +16165,10 @@
    "why": "Advert taken down on Rightmove",
    "checked": "2026-11-03"
   },
-  "checked": "2026-11-03"
+  "checked": "2026-11-03",
+  "down": [
+   "https://www.rightmove.co.uk/properties/92211834"
+  ]
  },
  {
   "id": "rightmove-92323701",
@@ -15610,6 +16246,9 @@
   "loc": [
    51.416541,
    -0.15403
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/93494409"
   ]
  },
  {
@@ -15844,6 +16483,9 @@
   "loc": [
    51.4490292,
    -0.1499133
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/94263075"
   ]
  },
  {
@@ -15887,6 +16529,9 @@
   "loc": [
    51.4500719,
    -0.1536346
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/13142280/"
   ]
  },
  {
@@ -15938,6 +16583,9 @@
   "loc": [
    51.4417248,
    -0.1489014
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/94227492"
   ]
  },
  {
@@ -15982,6 +16630,9 @@
   "loc": [
    51.4457468,
    -0.1579574
+  ],
+  "down": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/BHL240090/gosberton-road/"
   ]
  },
  {
@@ -16026,6 +16677,9 @@
   "loc": [
    51.4489052,
    -0.1432542
+  ],
+  "down": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/BHL120127/honeybrook-road/"
   ]
  },
  {
@@ -16141,6 +16795,11 @@
     "2026-10-31",
     4300,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4300,
+    "onthemarket"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -16197,6 +16856,10 @@
   "loc": [
    51.4634406,
    -0.1355124
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20530138/",
+   "https://www.rightmove.co.uk/properties/94233009"
   ]
  },
  {
@@ -16232,6 +16895,16 @@
     "2026-10-18",
     4000,
     "zoopla"
+   ],
+   [
+    "2026-11-03",
+    4000,
+    "onthemarket"
+   ],
+   [
+    "2026-11-03",
+    4000,
+    "rightmove"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -16413,6 +17086,9 @@
   "loc": [
    51.4634463,
    -0.1302959
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/94396128"
   ]
  },
  {
@@ -16541,6 +17217,11 @@
     "2026-10-20",
     4200,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4200,
+    "onthemarket"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -16600,6 +17281,10 @@
   "loc": [
    51.4606728,
    -0.1307871
+  ],
+  "down": [
+   "https://www.foxtons.co.uk/properties-to-rent/sw4/chpk0106242",
+   "https://www.rightmove.co.uk/properties/93843693"
   ]
  },
  {
@@ -16834,6 +17519,9 @@
   "loc": [
    51.4644431,
    -0.1607206
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/94432608"
   ]
  },
  {
@@ -16885,7 +17573,11 @@
    "tritax": 44,
    "q5": 35,
    "wentworth": 52
-  }
+  },
+  "down": [
+   "https://www.rightmove.co.uk/properties/94411203",
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/CLA140160/montefiore-street/"
+  ]
  },
  {
   "id": "onthemarket-19589191",
@@ -16930,6 +17622,9 @@
   "loc": [
    51.4622033,
    -0.1533703
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/19589191/"
   ]
  },
  {
@@ -16976,6 +17671,11 @@
     "2026-10-27",
     4000,
     "zoopla"
+   ],
+   [
+    "2026-11-03",
+    4000,
+    "onthemarket"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -17076,6 +17776,9 @@
   "loc": [
    51.4572351,
    -0.1827069
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20361129/"
   ]
  },
  {
@@ -17141,7 +17844,11 @@
   "off_market": {
    "why": "Advert taken down on OnTheMarket",
    "checked": "2026-11-03"
-  }
+  },
+  "down": [
+   "https://www.onthemarket.com/details/20370358/",
+   "https://www.rightmove.co.uk/properties/93328425"
+  ]
  },
  {
   "id": "onthemarket-19830945",
@@ -17186,6 +17893,10 @@
   "loc": [
    51.4331345,
    -0.1809817
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/19779878/",
+   "https://www.onthemarket.com/details/19830945/"
   ]
  },
  {
@@ -17226,6 +17937,11 @@
     "2026-10-31",
     5000,
     "marshandparsons"
+   ],
+   [
+    "2026-11-03",
+    5000,
+    "rightmove"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -17282,6 +17998,9 @@
   "loc": [
    51.4435803,
    -0.1826796
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20492025/"
   ]
  },
  {
@@ -17325,6 +18044,9 @@
   "loc": [
    51.4294184,
    -0.1776989
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20462375/"
   ]
  },
  {
@@ -17412,6 +18134,9 @@
   "loc": [
    51.4382703,
    -0.1880335
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20231361/"
   ]
  },
  {
@@ -17496,6 +18221,11 @@
     "2026-10-20",
     3500,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3500,
+    "onthemarket"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -17544,6 +18274,11 @@
     "2026-10-18",
     3500,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3500,
+    "onthemarket"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -17551,6 +18286,9 @@
   "loc": [
    51.3976989,
    -0.2413892
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/94002129"
   ]
  },
  {
@@ -17634,6 +18372,9 @@
   "loc": [
    51.3880291,
    -0.2648397
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20017322/"
   ]
  },
  {
@@ -17678,6 +18419,9 @@
   "loc": [
    51.3887345,
    -0.2619938
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/16739832/"
   ]
  },
  {
@@ -17722,6 +18466,9 @@
   "loc": [
    51.395225,
    -0.2632524
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/12208576/"
   ]
  },
  {
@@ -17803,6 +18550,9 @@
   "loc": [
    51.3934235,
    -0.2513193
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20462435/"
   ]
  },
  {
@@ -17842,6 +18592,11 @@
     "2026-10-20",
     3600,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3600,
+    "onthemarket"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -17971,6 +18726,11 @@
     "2026-10-20",
     4500,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4500,
+    "onthemarket"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -17990,7 +18750,7 @@
   "id": "onthemarket-20082185",
   "title": "Danebury Avenue, London SW15",
   "area": "Putney",
-  "rent": 3300,
+  "rent": 3301,
   "beds": 6,
   "baths": 2,
   "available": "2028-12-31",
@@ -18009,7 +18769,8 @@
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-10-26.",
-   "Merged rightmove-94718772 into this home: same street, beds, baths and rent (31 Oct)."
+   "Merged rightmove-94718772 into this home: same street, beds, baths and rent (31 Oct).",
+   "Price rise: £3,300 to £3,301 on the live adverts (3 Nov)."
   ],
   "station": {
    "name": "Barnes",
@@ -18031,6 +18792,11 @@
     "2026-10-31",
     3301,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3301,
+    "onthemarket"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -18044,7 +18810,10 @@
    "tritax": 63,
    "q5": 54,
    "wentworth": 41
-  }
+  },
+  "down": [
+   "https://www.rightmove.co.uk/properties/91708623"
+  ]
  },
  {
   "id": "onthemarket-8848009",
@@ -18087,6 +18856,9 @@
   "loc": [
    51.4616103,
    -0.2164641
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/8848009/"
   ]
  },
  {
@@ -18131,6 +18903,10 @@
   "loc": [
    51.4586969,
    -0.2419712
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20043391/",
+   "https://www.rightmove.co.uk/properties/91482237"
   ]
  },
  {
@@ -18174,6 +18950,9 @@
   "loc": [
    51.4573325,
    -0.2131966
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/10273374/"
   ]
  },
  {
@@ -18218,6 +18997,9 @@
   "loc": [
    51.4487078,
    -0.2009142
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/15746713/"
   ]
  },
  {
@@ -18271,7 +19053,10 @@
    "tritax": 54,
    "q5": 46,
    "wentworth": 45
-  }
+  },
+  "down": [
+   "https://www.rightmove.co.uk/properties/94388301"
+  ]
  },
  {
   "id": "dexters-285933",
@@ -18312,6 +19097,11 @@
     "2026-10-20",
     4500,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4500,
+    "onthemarket"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -18369,6 +19159,9 @@
   "loc": [
    51.4532078,
    -0.2121696
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20146164/"
   ]
  },
  {
@@ -18416,13 +19209,17 @@
   "loc": [
    51.4520855,
    -0.2094417
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20424632/",
+   "https://www.rightmove.co.uk/properties/93656460"
   ]
  },
  {
   "id": "dexters-285237",
   "title": "Ullswater Crescent Putney, SW15",
   "area": "Putney",
-  "rent": 3695,
+  "rent": 3500,
   "beds": 5,
   "baths": 2,
   "available": "",
@@ -18442,7 +19239,8 @@
   "notes": [
    "Found by ChatGPT sweep (live; results-page evidence only).",
    "Found by ChatGPT sweep (live).",
-   "Ruled out: Ullswater Crescent is in Kingston Vale, outside the area (31 Oct)."
+   "Ruled out: Ullswater Crescent is in Kingston Vale, outside the area (31 Oct).",
+   "Price cut: £3,695 to £3,500 on the live adverts (3 Nov)."
   ],
   "station": {
    "name": "Norbiton",
@@ -18463,6 +19261,16 @@
    [
     "2026-10-31",
     3695,
+    "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3500,
+    "onthemarket"
+   ],
+   [
+    "2026-11-03",
+    3500,
     "rightmove"
    ]
   ],
@@ -18511,6 +19319,9 @@
   "loc": [
    51.4544431,
    -0.2095717
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20275231/"
   ]
  },
  {
@@ -18555,13 +19366,16 @@
   "loc": [
    51.397259,
    -0.2353257
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/19834910/"
   ]
  },
  {
   "id": "onthemarket-20268934",
   "title": "Fairway, Raynes Park, SW20",
   "area": "Raynes Park",
-  "rent": 3750,
+  "rent": 3600,
   "beds": 5,
   "baths": 2,
   "available": "2026-10-24",
@@ -18582,7 +19396,8 @@
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Price cut on Rightmove: £3,750 to £3,600 (2026-10-30).",
-   "Same house's newer Chancellors advert: Fairway, £3,750 (31 Oct)."
+   "Same house's newer Chancellors advert: Fairway, £3,750 (31 Oct).",
+   "Price cut: £3,750 to £3,600 on the live adverts (3 Nov)."
   ],
   "station": {
    "name": "Raynes Park",
@@ -18608,6 +19423,11 @@
    [
     "2026-10-31",
     3750,
+    "onthemarket"
+   ],
+   [
+    "2026-11-03",
+    3600,
     "onthemarket"
    ]
   ],
@@ -18665,6 +19485,9 @@
   "loc": [
    51.4114983,
    -0.2367156
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/93999582"
   ]
  },
  {
@@ -18749,6 +19572,11 @@
     "2026-10-20",
     3600,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3600,
+    "onthemarket"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -18848,6 +19676,9 @@
   "loc": [
    51.442134,
    -0.2031711
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20074244/"
   ]
  },
  {
@@ -18891,6 +19722,9 @@
   "loc": [
    51.442468,
    -0.2012333
+  ],
+  "down": [
+   "https://www.foxtons.co.uk/properties-to-rent/sw18/chpk0011995"
   ]
  },
  {
@@ -18934,6 +19768,9 @@
   "loc": [
    51.442468,
    -0.2012333
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20459093/"
   ]
  },
  {
@@ -18983,6 +19820,11 @@
   "loc": [
    51.442303,
    -0.2021986
+  ],
+  "down": [
+   "https://www.foxtons.co.uk/properties-to-rent/sw18/chpk2638785",
+   "https://www.onthemarket.com/details/20311657/",
+   "https://www.rightmove.co.uk/properties/93002520"
   ]
  },
  {
@@ -19026,6 +19868,9 @@
   "loc": [
    51.4269649,
    -0.1513765
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20462338/"
   ]
  },
  {
@@ -19070,6 +19915,9 @@
   "loc": [
    51.4240455,
    -0.1740095
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/17023954/"
   ]
  },
  {
@@ -19113,13 +19961,16 @@
   "loc": [
    51.421526,
    -0.1782553
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20387939/"
   ]
  },
  {
   "id": "rightmove-94316217",
   "title": "Broadwater Road, Tooting",
   "area": "Tooting",
-  "rent": 2950,
+  "rent": 2995,
   "beds": 4,
   "baths": 1,
   "available": "2026-12-07",
@@ -19136,7 +19987,8 @@
   "checked": "2026-11-03",
   "notes": [
    "Found by ChatGPT sweep (live).",
-   "Price cut on Onthemarket: £3,100 to £2,950 (2026-11-03)."
+   "Price cut on Onthemarket: £3,100 to £2,950 (2026-11-03).",
+   "Price rise: £2,950 to £2,995 on the live adverts (3 Nov)."
   ],
   "station": {
    "name": "Tooting Broadway",
@@ -19158,6 +20010,16 @@
     "2026-11-03",
     2950,
     "onthemarket"
+   ],
+   [
+    "2026-11-03",
+    2995,
+    "onthemarket"
+   ],
+   [
+    "2026-11-03",
+    2995,
+    "rightmove"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -19214,6 +20076,9 @@
   "loc": [
    51.432369,
    -0.1593596
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20462342/"
   ]
  },
  {
@@ -19382,6 +20247,11 @@
     "2026-10-20",
     3200,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3200,
+    "onthemarket"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -19438,6 +20308,9 @@
   "loc": [
    51.420691,
    -0.1483667
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20462346/"
   ]
  },
  {
@@ -19481,6 +20354,9 @@
   "loc": [
    51.4275896,
    -0.1618579
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20462420/"
   ]
  },
  {
@@ -19525,6 +20401,10 @@
   "loc": [
    51.4304951,
    -0.1695923
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20462351/",
+   "https://www.onthemarket.com/details/20462359/"
   ]
  },
  {
@@ -19613,6 +20493,9 @@
   "loc": [
    51.4339868,
    -0.1594715
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20462317/"
   ]
  },
  {
@@ -19675,6 +20558,10 @@
   "loc": [
    51.4287622,
    -0.1622741
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20462340/",
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/TOO250098/gassiot-road/"
   ]
  },
  {
@@ -19720,6 +20607,9 @@
   "loc": [
    51.4301151,
    -0.1646335
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20187375/"
   ]
  },
  {
@@ -19755,6 +20645,11 @@
     "2026-10-18",
     3800,
     "zoopla"
+   ],
+   [
+    "2026-11-03",
+    3800,
+    "onthemarket"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -19841,6 +20736,9 @@
   "loc": [
    51.4324365,
    -0.1618773
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20462332/"
   ]
  },
  {
@@ -19884,6 +20782,9 @@
   "loc": [
    51.4248907,
    -0.1735287
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20227896/"
   ]
  },
  {
@@ -19927,6 +20828,9 @@
   "loc": [
    51.424228,
    -0.147129
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20462376/"
   ]
  },
  {
@@ -19970,6 +20874,9 @@
   "loc": [
    51.4223966,
    -0.1503363
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20462393/"
   ]
  },
  {
@@ -20013,6 +20920,9 @@
   "loc": [
    51.4212825,
    -0.1570466
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20462398/"
   ]
  },
  {
@@ -20056,6 +20966,9 @@
   "loc": [
    51.4296419,
    -0.1648571
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/11732556/"
   ]
  },
  {
@@ -20099,6 +21012,9 @@
   "loc": [
    51.4325986,
    -0.1585901
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20462365/"
   ]
  },
  {
@@ -20187,6 +21103,9 @@
   "loc": [
    51.4271576,
    -0.1646761
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20033441/"
   ]
  },
  {
@@ -20278,6 +21197,9 @@
   "loc": [
    51.426738,
    -0.1641819
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20040553/"
   ]
  },
  {
@@ -20368,6 +21290,10 @@
   "loc": [
    51.4202868,
    -0.1731104
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20239106/",
+   "https://www.rightmove.co.uk/properties/92580267"
   ]
  },
  {
@@ -20411,6 +21337,9 @@
   "loc": [
    51.416541,
    -0.15403
+  ],
+  "down": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2302355/woodland-way/"
   ]
  },
  {
@@ -20580,6 +21509,11 @@
     "2026-10-18",
     3500,
     "zoopla"
+   ],
+   [
+    "2026-11-03",
+    3500,
+    "onthemarket"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -20630,6 +21564,11 @@
     "2026-10-31",
     4750,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4750,
+    "onthemarket"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -20677,6 +21616,9 @@
   "loc": [
    51.4311011,
    -0.1713606
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20231339/"
   ]
  },
  {
@@ -20763,6 +21705,9 @@
   "loc": [
    51.4478974,
    -0.1594659
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20382446/"
   ]
  },
  {
@@ -20861,7 +21806,11 @@
   "off_market": {
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-11-03"
-  }
+  },
+  "down": [
+   "https://www.onthemarket.com/details/20341486/",
+   "https://www.rightmove.co.uk/properties/93173022"
+  ]
  },
  {
   "id": "zoopla-74310432",
@@ -20936,6 +21885,11 @@
     "2026-10-20",
     5000,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    5000,
+    "onthemarket"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -20992,6 +21946,9 @@
   "loc": [
    51.4168548,
    -0.2297554
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20462430/"
   ]
  },
  {
@@ -21037,6 +21994,10 @@
   "loc": [
    51.4069604,
    -0.2025981
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20219261/",
+   "https://www.rightmove.co.uk/properties/92454327"
   ]
  },
  {
@@ -21080,6 +22041,9 @@
   "loc": [
    51.4127443,
    -0.2300342
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20104198/"
   ]
  },
  {
@@ -21124,6 +22088,9 @@
   "loc": [
    51.414512,
    -0.1973199
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20113695/"
   ]
  },
  {
@@ -21167,6 +22134,9 @@
   "loc": [
    51.4155181,
    -0.1924194
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/19815731/"
   ]
  },
  {
@@ -21213,6 +22183,10 @@
   "loc": [
    51.4016321,
    -0.2080484
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20514660/",
+   "https://www.rightmove.co.uk/properties/94132983"
   ]
  },
  {
@@ -21256,6 +22230,9 @@
   "loc": [
    51.4133567,
    -0.2302969
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20122205/"
   ]
  },
  {
@@ -21301,6 +22278,11 @@
     "2026-10-30",
     4650,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4650,
+    "onthemarket"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -21360,6 +22342,9 @@
   "loc": [
    51.4507477,
    -0.1332163
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20365669/"
   ]
  },
  {
@@ -21404,6 +22389,9 @@
   "loc": [
    51.4162197,
    -0.2359478
+  ],
+  "down": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR1424319/hillview/"
   ]
  },
  {
@@ -21448,6 +22436,9 @@
   "loc": [
    51.4313412,
    -0.1535944
+  ],
+  "down": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/CSV162350/franciscan-road/"
   ]
  },
  {
@@ -21492,6 +22483,9 @@
   "loc": [
    51.4290562,
    -0.1540747
+  ],
+  "down": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/CSV160252/mantilla-road/"
   ]
  },
  {
@@ -21536,6 +22530,9 @@
   "loc": [
    51.4284161,
    -0.1524351
+  ],
+  "down": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/CSV190481/massingberd-way/"
   ]
  },
  {
@@ -21580,6 +22577,9 @@
   "loc": [
    51.4320687,
    -0.1740293
+  ],
+  "down": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/TOL250154/rogers-road/"
   ]
  },
  {
@@ -21624,6 +22624,9 @@
   "loc": [
    51.4325986,
    -0.1585901
+  ],
+  "down": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/TOO240416/topsham-road/"
   ]
  },
  {
@@ -21668,6 +22671,9 @@
   "loc": [
    51.4235025,
    -0.2072773
+  ],
+  "down": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR1425883/alwyne-road/"
   ]
  },
  {
@@ -21712,6 +22718,9 @@
   "loc": [
    51.4230795,
    -0.2066971
+  ],
+  "down": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR1424945/compton-road/"
   ]
  },
  {
@@ -21756,6 +22765,9 @@
   "loc": [
    51.4184112,
    -0.2049561
+  ],
+  "down": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2378278/herbert-road/"
   ]
  },
  {
@@ -21800,6 +22812,9 @@
   "loc": [
    51.4175417,
    -0.2257375
+  ],
+  "down": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR1423259/lansdowne-road/"
   ]
  },
  {
@@ -21844,6 +22859,9 @@
   "loc": [
    51.4155149,
    -0.213351
+  ],
+  "down": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2412452/merton-hall-road/"
   ]
  },
  {
@@ -21888,6 +22906,9 @@
   "loc": [
    51.4331317,
    -0.2173814
+  ],
+  "down": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR1424354/newstead-way/"
   ]
  },
  {
@@ -21932,6 +22953,9 @@
   "loc": [
    51.4172925,
    -0.1994673
+  ],
+  "down": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR1427261/palmerston-road/"
   ]
  },
  {
@@ -21976,6 +23000,9 @@
   "loc": [
    51.418696,
    -0.2181605
+  ],
+  "down": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR1394603/savona-close/"
   ]
  },
  {
@@ -22086,6 +23113,10 @@
   "loc": [
    51.4172223,
    -0.191314
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20580410/",
+   "https://www.rightmove.co.uk/properties/94467732"
   ]
  },
  {
@@ -22115,6 +23146,11 @@
     "2026-10-20",
     5000,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    5000,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -22168,6 +23204,11 @@
     "2026-10-21",
     3750,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3750,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -22216,6 +23257,11 @@
     "2026-10-21",
     4999,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4999,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -22320,6 +23366,11 @@
     "2026-10-21",
     4250,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4250,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -22362,6 +23413,11 @@
     "2026-10-21",
     3250,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3250,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -22420,6 +23476,11 @@
     "2026-10-23",
     5000,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    5000,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -22473,6 +23534,11 @@
     "2026-10-22",
     4700,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4700,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -22586,7 +23652,10 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-11-03"
-  }
+  },
+  "down": [
+   "https://www.rightmove.co.uk/properties/94611774"
+  ]
  },
  {
   "id": "foxtons-chpk0276247",
@@ -22633,6 +23702,9 @@
   "loc": [
    51.4581397,
    -0.2029263
+  ],
+  "down": [
+   "https://www.foxtons.co.uk/properties-to-rent/sw15/chpk0276247"
   ]
  },
  {
@@ -22663,6 +23735,11 @@
     "2026-10-22",
     4500,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4500,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -22711,6 +23788,11 @@
     "2026-10-22",
     4200,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4200,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -22783,7 +23865,11 @@
   "off_market": {
    "why": "Advert taken down on OnTheMarket",
    "checked": "2026-11-03"
-  }
+  },
+  "down": [
+   "https://www.onthemarket.com/details/20605983/",
+   "https://www.rightmove.co.uk/properties/94606806"
+  ]
  },
  {
   "id": "dexters-286605",
@@ -22824,6 +23910,11 @@
     "2026-10-23",
     3750,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3750,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -22842,7 +23933,11 @@
    "tritax": 57,
    "q5": 48,
    "wentworth": 43
-  }
+  },
+  "down": [
+   "https://www.rightmove.co.uk/properties/94555797",
+   "https://www.onthemarket.com/details/20601753/"
+  ]
  },
  {
   "id": "zoopla-74588190",
@@ -22872,6 +23967,11 @@
     "2026-10-23",
     4000,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4000,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -22920,6 +24020,11 @@
     "2026-10-24",
     4250,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4250,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -22961,6 +24066,11 @@
     "2026-10-24",
     4100,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4100,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -23023,6 +24133,11 @@
     "2026-10-30",
     4000,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4000,
+    "onthemarket"
    ]
   ],
   "not_same": [
@@ -23044,7 +24159,10 @@
    "tritax": 50,
    "q5": 50,
    "wentworth": 48
-  }
+  },
+  "down": [
+   "https://www.kfh.co.uk/property-to-rent/4-bedroom-terraced-house-to-rent-in-squarey-street-earlsfield-london-sw17-89927/"
+  ]
  },
  {
   "id": "rightmove-93951570",
@@ -23075,6 +24193,11 @@
     "2026-10-18",
     4700,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4700,
+    "onthemarket"
    ]
   ],
   "not_same": [
@@ -23141,6 +24264,9 @@
   "loc": [
    51.4694729,
    -0.2267181
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/18656989/"
   ]
  },
  {
@@ -23189,6 +24315,10 @@
   "loc": [
    51.4490202,
    -0.1843565
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/19872255/",
+   "https://www.rightmove.co.uk/properties/90541779"
   ]
  },
  {
@@ -23218,6 +24348,11 @@
     "2026-10-25",
     3600,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3600,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -23265,6 +24400,11 @@
     "2026-10-25",
     4750,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4750,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -23373,6 +24513,9 @@
   "loc": [
    51.4934284,
    -0.2126202
+  ],
+  "down": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/CCT240261/auriol-road/"
   ]
  },
  {
@@ -23447,6 +24590,11 @@
     "2026-10-25",
     4750,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4750,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -23501,6 +24649,11 @@
     "2026-10-30",
     3250,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3250,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -23554,7 +24707,10 @@
    "why": "Let agreed on marshandparsons",
    "checked": "2026-11-03"
   },
-  "added_at": "2026-10-25T18:28Z"
+  "added_at": "2026-10-25T18:28Z",
+  "down": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/BKL050043/fitzjames-avenue/"
+  ]
  },
  {
   "id": "zoopla-74444620",
@@ -23583,6 +24739,16 @@
     "2026-10-25",
     3000,
     "zoopla"
+   ],
+   [
+    "2026-11-03",
+    3000,
+    "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3000,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -23702,6 +24868,9 @@
   "loc": [
    51.4895982,
    -0.2130988
+  ],
+  "down": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/CSZ161121/palliser-court/"
   ]
  },
  {
@@ -23791,6 +24960,9 @@
   "loc": [
    51.4948279,
    -0.2102169
+  ],
+  "down": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/BKL070196/rugby-mansions/"
   ]
  },
  {
@@ -23835,6 +25007,9 @@
   "loc": [
    51.493841,
    -0.2239266
+  ],
+  "down": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/BKL080413/shepherds-bush-road/"
   ]
  },
  {
@@ -23908,6 +25083,11 @@
     "2026-10-25",
     4500,
     "zoopla"
+   ],
+   [
+    "2026-11-03",
+    4500,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -23937,7 +25117,7 @@
   "baths": null,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/94605714",
   "links": [
    "https://www.rightmove.co.uk/properties/94605714",
@@ -23947,7 +25127,8 @@
   "added": "2026-10-22",
   "checked": "2026-11-03",
   "notes": [
-   "Missed by the sweep; found in a portal coverage check on 25 Oct (Hillview Park Estates)."
+   "Missed by the sweep; found in a portal coverage check on 25 Oct (Hillview Park Estates).",
+   "Let agreed on Rightmove (3 Nov)."
   ],
   "prices": [
    [
@@ -23971,6 +25152,13 @@
    "tritax": 48,
    "q5": 40,
    "wentworth": 50
+  },
+  "down": [
+   "https://www.rightmove.co.uk/properties/94605714"
+  ],
+  "off_market": {
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-11-03"
   }
  },
  {
@@ -24014,6 +25202,9 @@
   "loc": [
    51.4647962,
    -0.1779493
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/20614508/"
   ]
  },
  {
@@ -24059,6 +25250,10 @@
   "loc": [
    51.4711419,
    -0.1987125
+  ],
+  "down": [
+   "https://www.rightmove.co.uk/properties/92727258",
+   "https://www.onthemarket.com/details/20263694/"
   ]
  },
  {
@@ -24194,6 +25389,11 @@
     "2026-11-02",
     2800,
     "onthemarket"
+   ],
+   [
+    "2026-11-03",
+    2800,
+    "rightmove"
    ]
   ],
   "checked": "2026-11-03",
@@ -24313,6 +25513,11 @@
     "2026-10-26",
     3800,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3800,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -24374,6 +25579,9 @@
   "loc": [
    51.4776255,
    -0.1485719
+  ],
+  "down": [
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/CSV182009/queenstown-road/"
   ]
  },
  {
@@ -24521,7 +25729,12 @@
    "tritax": 55,
    "q5": 53,
    "wentworth": 33
-  }
+  },
+  "down": [
+   "https://www.onthemarket.com/details/20657714/",
+   "https://www.onthemarket.com/details/20664597/",
+   "https://www.onthemarket.com/details/20670072/"
+  ]
  },
  {
   "id": "onthemarket-20630963",
@@ -24803,7 +26016,7 @@
   "id": "onthemarket-20577848",
   "title": "Devonshire Road, London W4, W4 2AW",
   "area": "Chiswick",
-  "rent": 4995,
+  "rent": 4750,
   "beds": 5,
   "baths": 3,
   "available": "",
@@ -24822,7 +26035,8 @@
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-10-05.",
-   "Merged rightmove-93925863 into this home: same street, beds, baths and rent (31 Oct)."
+   "Merged rightmove-93925863 into this home: same street, beds, baths and rent (31 Oct).",
+   "Price cut: £4,995 to £4,750 on the live adverts (3 Nov)."
   ],
   "prices": [
    [
@@ -24833,6 +26047,11 @@
    [
     "2026-10-31",
     4995,
+    "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4750,
     "rightmove"
    ]
   ],
@@ -24945,6 +26164,11 @@
     "2026-10-31",
     4850,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4850,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -25111,7 +26335,10 @@
   "off_market": {
    "why": "Advert taken down on Foxtons",
    "checked": "2026-11-03"
-  }
+  },
+  "down": [
+   "https://www.foxtons.co.uk/properties-to-rent/w12/ptny6431059"
+  ]
  },
  {
   "id": "foxtons-chpk2301451",
@@ -25271,7 +26498,7 @@
   "id": "onthemarket-20601917",
   "title": "Gaskarth Road, London SW12, SW12 9NL",
   "area": "Balham",
-  "rent": 4950,
+  "rent": 4949,
   "beds": 4,
   "baths": 2,
   "available": "",
@@ -25287,7 +26514,8 @@
   "added": "2026-10-28",
   "checked": "2026-11-03",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Price cut: £4,950 to £4,949 on the live adverts (3 Nov)."
   ],
   "prices": [
    [
@@ -25299,6 +26527,11 @@
     "2026-10-28",
     4949,
     "marshandparsons"
+   ],
+   [
+    "2026-11-03",
+    4950,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -25339,7 +26572,8 @@
   "checked": "2026-11-03",
   "notes": [
    "Found by ChatGPT sweep (live).",
-   "Let agreed on Rightmove (2 Nov)."
+   "Let agreed on Rightmove (2 Nov).",
+   "Advert taken down on Rightmove (3 Nov)."
   ],
   "prices": [
    [
@@ -25371,9 +26605,12 @@
    "wentworth": 38
   },
   "off_market": {
-   "why": "Let agreed on Rightmove",
+   "why": "Advert taken down on Rightmove",
    "checked": "2026-11-03"
-  }
+  },
+  "down": [
+   "https://www.rightmove.co.uk/properties/94863270"
+  ]
  },
  {
   "id": "onthemarket-20646386",
@@ -25413,6 +26650,11 @@
     "2026-10-28",
     3600,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3600,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -25603,7 +26845,7 @@
   "id": "onthemarket-20651061",
   "title": "Cottenham Park Road, London SW20",
   "area": "SW20",
-  "rent": 4500,
+  "rent": 4498,
   "beds": 5,
   "baths": null,
   "available": "",
@@ -25619,7 +26861,8 @@
   "source": "alert",
   "added": "2026-10-29",
   "notes": [
-   "From an email on 2026-10-29: New properties in London (drawn area)"
+   "From an email on 2026-10-29: New properties in London (drawn area)",
+   "Price cut: £4,500 to £4,498 on the live adverts (3 Nov)."
   ],
   "prices": [
    [
@@ -25781,7 +27024,11 @@
    "tritax": 47,
    "q5": 38,
    "wentworth": 52
-  }
+  },
+  "down": [
+   "https://www.onthemarket.com/details/8910110/",
+   "https://www.rightmove.co.uk/properties/94928766"
+  ]
  },
  {
   "id": "zoopla-74636546",
@@ -25887,6 +27134,10 @@
   "loc": [
    51.4520855,
    -0.2094417
+  ],
+  "down": [
+   "https://www.onthemarket.com/details/15925797/",
+   "https://www.rightmove.co.uk/properties/94937709"
   ]
  },
  {
@@ -26084,6 +27335,11 @@
     "2026-10-30",
     4900,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4900,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -26189,6 +27445,16 @@
     "2026-10-31",
     3950,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3700,
+    "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3700,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -26381,7 +27647,8 @@
   "added_at": "2026-10-31T12:03Z",
   "notes": [
    "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-10-28.",
-   "Ruled out: Davis Road is Acton W3, an excluded area (3 Nov audit)."
+   "Ruled out: Davis Road is Acton W3, an excluded area (3 Nov audit).",
+   "Advert taken down on Rightmove (3 Nov)."
   ],
   "prices": [
    [
@@ -26400,6 +27667,13 @@
    "name": "Acton Central",
    "kind": "Overground",
    "walk": 18
+  },
+  "down": [
+   "https://www.rightmove.co.uk/properties/94835760"
+  ],
+  "off_market": {
+   "why": "Advert taken down on Rightmove",
+   "checked": "2026-11-03"
   }
  },
  {
@@ -26474,6 +27748,11 @@
     "2026-10-31",
     3500,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3500,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/f694d07d0/94741353/f694d07d09a0785f02fd010d43872fff_max_476x317.jpeg",
@@ -26520,6 +27799,11 @@
     "2026-10-31",
     4500,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4500,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/f694d07d0/94748538/f694d07d09a0785f02fd010d43872fff_max_476x317.jpeg",
@@ -26915,7 +28199,7 @@
   "baths": 2,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/94337346",
   "links": [
    "https://www.rightmove.co.uk/properties/94337346"
@@ -26924,7 +28208,8 @@
   "added": "2026-10-31",
   "added_at": "2026-10-31T12:03Z",
   "notes": [
-   "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-10-15."
+   "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-10-15.",
+   "Advert taken down on Rightmove (3 Nov)."
   ],
   "prices": [
    [
@@ -26949,6 +28234,13 @@
    "tritax": 46,
    "q5": 54,
    "wentworth": 39
+  },
+  "down": [
+   "https://www.rightmove.co.uk/properties/94337346"
+  ],
+  "off_market": {
+   "why": "Advert taken down on Rightmove",
+   "checked": "2026-11-03"
   }
  },
  {
@@ -27224,7 +28516,10 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-11-03"
-  }
+  },
+  "down": [
+   "https://www.rightmove.co.uk/properties/92270673"
+  ]
  },
  {
   "id": "rightmove-93104619",
@@ -27804,6 +29099,11 @@
     "2026-11-03",
     4250,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4250,
+    "onthemarket"
    ]
   ],
   "loc": [
@@ -27851,6 +29151,11 @@
     "2026-11-03",
     3600,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3600,
+    "onthemarket"
    ]
   ],
   "loc": [
@@ -27951,6 +29256,11 @@
     "2026-11-03",
     4000,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4000,
+    "onthemarket"
    ]
   ],
   "loc": [
@@ -28014,7 +29324,10 @@
    "q5": 45,
    "wentworth": 39
   },
-  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1787945613/52/04/425/ptny5244025/edited_ptny5244025-100.jpg"
+  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1787945613/52/04/425/ptny5244025/edited_ptny5244025-100.jpg",
+  "down": [
+   "https://www.onthemarket.com/details/17746071/"
+  ]
  },
  {
   "id": "onthemarket-20683714",
@@ -28044,6 +29357,11 @@
     "2026-11-03",
     3700,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3700,
+    "onthemarket"
    ]
   ],
   "loc": [
@@ -28238,6 +29556,8 @@
    "tritax": 48,
    "q5": 48,
    "wentworth": 33
-  }
+  },
+  "photo": "https://media.onthemarket.com/properties/20475831/1649695588/image-0-1024x1024.png",
+  "checked": "2026-11-03"
  }
 ]
