@@ -1412,7 +1412,7 @@
   "id": "foxtons-chpk0331619",
   "title": "Kingston Road",
   "area": "Raynes Park",
-  "rent": 3495,
+  "rent": 3385,
   "beds": 4,
   "baths": 2,
   "available": "Ask agent",
@@ -1430,7 +1430,8 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
    "Price changed from £3,900 to £3,500 (2026-10-18).",
-   "Price changed from £3,500 to £3,495 (2026-10-19)."
+   "Price changed from £3,500 to £3,495 (2026-10-19).",
+   "Price cut on Onthemarket: £3,495 to £3,385 (2026-11-03)."
   ],
   "checked": "2026-11-03",
   "station": {
@@ -1453,6 +1454,16 @@
     "2026-10-19",
     3495,
     "rightmove"
+   ],
+   [
+    "",
+    3495,
+    "onthemarket"
+   ],
+   [
+    "2026-11-03",
+    3385,
+    "onthemarket"
    ]
   ],
   "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1791443750/91/61/330/chpk0331619/edited_chpk0331619-15.jpg",
@@ -1914,7 +1925,7 @@
   "id": "foxtons-chpk2610332",
   "title": "Esher Gardens",
   "area": "Southfields",
-  "rent": 3000,
+  "rent": 2800,
   "beds": 4,
   "baths": 2,
   "available": "Ask agent",
@@ -1931,7 +1942,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-09.",
-   "Price changed from £3,200 to £3,000 (2026-10-18)."
+   "Price changed from £3,200 to £3,000 (2026-10-18).",
+   "Price cut on Onthemarket: £3,000 to £2,800 (2026-11-03)."
   ],
   "checked": "2026-11-03",
   "station": {
@@ -1949,6 +1961,16 @@
     "2026-10-18",
     3000,
     "rightmove"
+   ],
+   [
+    "",
+    3000,
+    "onthemarket"
+   ],
+   [
+    "2026-11-03",
+    2800,
+    "onthemarket"
    ]
   ],
   "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1790672117/23/30/162/chpk2610332/edited_chpk2610332-1.jpg",
@@ -12506,7 +12528,8 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
    "Found by ChatGPT sweep (live).",
-   "Price cut on Onthemarket: £3,500 to £3,250 (2026-11-03)."
+   "Price cut on Onthemarket: £3,500 to £3,250 (2026-11-03).",
+   "Price cut on Rightmove: £3,500 to £3,250 (2026-11-03)."
   ],
   "checked": "2026-11-03",
   "station": {
@@ -12529,6 +12552,11 @@
     "2026-11-03",
     3250,
     "onthemarket"
+   ],
+   [
+    "2026-11-03",
+    3250,
+    "rightmove"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/0fac2c1cc/91725189/0fac2c1cc8928d4eedcf6112e22a649c_max_476x317.jpeg",
@@ -17810,7 +17838,7 @@
   "id": "rightmove-94306125",
   "title": "Carlton Drive, Putney Hill, SW15",
   "area": "Putney",
-  "rent": 3600,
+  "rent": 3500,
   "beds": 4,
   "baths": 2,
   "available": "2026-12-04",
@@ -17830,7 +17858,8 @@
    "Found by ChatGPT sweep (live).",
    "Found by ChatGPT sweep (live; results-page evidence only).",
    "Prices differ across sites: £4,000 vs £3,850. Showing the lower; see price history.",
-   "Price cut on Rightmove: £3,850 to £3,600 (2026-10-28)."
+   "Price cut on Rightmove: £3,850 to £3,600 (2026-10-28).",
+   "Price cut on Onthemarket: £3,600 to £3,500 (2026-11-03)."
   ],
   "station": {
    "name": "East Putney",
@@ -17857,6 +17886,16 @@
     "2026-10-28",
     3600,
     "rightmove"
+   ],
+   [
+    "",
+    3600,
+    "onthemarket"
+   ],
+   [
+    "2026-11-03",
+    3500,
+    "onthemarket"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -19057,7 +19096,7 @@
   "id": "rightmove-94316217",
   "title": "Broadwater Road, Tooting",
   "area": "Tooting",
-  "rent": 3100,
+  "rent": 2950,
   "beds": 4,
   "baths": 1,
   "available": "2026-12-07",
@@ -19073,7 +19112,8 @@
   "added": "2026-10-18",
   "checked": "2026-11-03",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Price cut on Onthemarket: £3,100 to £2,950 (2026-11-03)."
   ],
   "station": {
    "name": "Tooting Broadway",
@@ -19085,6 +19125,16 @@
     "2026-10-18",
     3100,
     "rightmove"
+   ],
+   [
+    "",
+    3100,
+    "onthemarket"
+   ],
+   [
+    "2026-11-03",
+    2950,
+    "onthemarket"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -21927,7 +21977,8 @@
   "checked": "2026-11-03",
   "notes": [
    "Found by ChatGPT sweep (live).",
-   "Price cut on Onthemarket: £3,600 to £3,500 (2026-11-03)."
+   "Price cut on Onthemarket: £3,600 to £3,500 (2026-11-03).",
+   "Price cut on Rightmove: £3,600 to £3,500 (2026-11-03)."
   ],
   "prices": [
    [
@@ -21944,6 +21995,11 @@
     "2026-11-03",
     3500,
     "onthemarket"
+   ],
+   [
+    "2026-11-03",
+    3500,
+    "rightmove"
    ]
   ],
   "station": {
@@ -24158,7 +24214,8 @@
   "notes": [
    "From an email on 2026-10-26: New properties in London (drawn area)",
    "From an email on 2026-10-26: fourguys, we've found you 2 properties in SW London house",
-   "Price cut on Onthemarket: £3,750 to £3,600 (2026-11-03)."
+   "Price cut on Onthemarket: £3,750 to £3,600 (2026-11-03).",
+   "Price cut on Rightmove: £3,750 to £3,600 (2026-11-03)."
   ],
   "prices": [
    [
@@ -24180,6 +24237,11 @@
     "2026-11-03",
     3600,
     "onthemarket"
+   ],
+   [
+    "2026-11-03",
+    3600,
+    "rightmove"
    ]
   ],
   "checked": "2026-11-03",
@@ -25104,7 +25166,8 @@
   "status": "new",
   "url": "https://www.foxtons.co.uk/properties-to-rent/w12/chpk2305951",
   "links": [
-   "https://www.foxtons.co.uk/properties-to-rent/w12/chpk2305951"
+   "https://www.foxtons.co.uk/properties-to-rent/w12/chpk2305951",
+   "https://www.onthemarket.com/details/20684899/"
   ],
   "source": "sweep",
   "added": "2026-10-27",
@@ -25117,6 +25180,11 @@
     "2026-10-27",
     5000,
     "foxtons"
+   ],
+   [
+    "2026-11-03",
+    5000,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -27628,7 +27696,8 @@
   "status": "new",
   "url": "https://www.hamptons.co.uk/properties/22254628/lettings/P328691",
   "links": [
-   "https://www.hamptons.co.uk/properties/22254628/lettings/P328691"
+   "https://www.hamptons.co.uk/properties/22254628/lettings/P328691",
+   "https://www.rightmove.co.uk/properties/95072430"
   ],
   "source": "sweep",
   "added": "2026-11-02",
@@ -27642,6 +27711,11 @@
     "2026-11-02",
     4750,
     "hamptons"
+   ],
+   [
+    "2026-11-03",
+    4750,
+    "rightmove"
    ]
   ],
   "loc": [
@@ -27805,7 +27879,8 @@
   "status": "new",
   "url": "https://www.onthemarket.com/details/20679740/",
   "links": [
-   "https://www.onthemarket.com/details/20679740/"
+   "https://www.onthemarket.com/details/20679740/",
+   "https://www.rightmove.co.uk/properties/95049693"
   ],
   "source": "alert",
   "added": "2026-11-03",
@@ -27818,6 +27893,11 @@
     "2026-11-03",
     4200,
     "onthemarket"
+   ],
+   [
+    "2026-11-03",
+    4200,
+    "rightmove"
    ]
   ],
   "loc": [
@@ -27946,7 +28026,8 @@
   "links": [
    "https://www.zoopla.co.uk/to-rent/details/74669331/",
    "https://www.johndwood.co.uk/properties/22282146/lettings/CSE264181",
-   "https://www.rightmove.co.uk/properties/95058180"
+   "https://www.rightmove.co.uk/properties/95058180",
+   "https://www.onthemarket.com/details/20681244/"
   ],
   "source": "sweep",
   "added": "2026-11-03",
@@ -27960,6 +28041,11 @@
     "2026-11-03",
     3500,
     "rightmove"
+   ],
+   [
+    "2026-11-03",
+    3500,
+    "onthemarket"
    ]
   ],
   "loc": [
@@ -28209,5 +28295,134 @@
    "wentworth": 41
   },
   "photo": "https://media.rightmove.co.uk/dir/property-photo/dcb133b60/95060466/dcb133b604ac7c360e069dbf3a7be4a0_max_476x317.jpeg"
+ },
+ {
+  "id": "openrent-3097907",
+  "title": "Lexton Gardens, SW12",
+  "area": "SW12",
+  "rent": 4500,
+  "beds": 5,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.openrent.co.uk/3097907",
+  "links": [
+   "https://www.openrent.co.uk/3097907"
+  ],
+  "source": "alert",
+  "added": "2026-11-03",
+  "added_at": "2026-11-03T18:12Z",
+  "notes": [
+   "From an email on 2026-11-03: New properties found for your search: Wandsworth, London"
+  ],
+  "prices": [
+   [
+    "2026-11-03",
+    4500,
+    "openrent"
+   ]
+  ],
+  "loc": [
+   51.4444967,
+   -0.132011
+  ],
+  "station": {
+   "name": "Streatham Hill",
+   "kind": "Rail",
+   "walk": 12
+  },
+  "commute": {
+   "lcp": 52,
+   "tritax": 50,
+   "q5": 49,
+   "wentworth": 55
+  }
+ },
+ {
+  "id": "openrent-3098023",
+  "title": "Hubert Grove, SW9",
+  "area": "SW9",
+  "rent": 4400,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.openrent.co.uk/3098023",
+  "links": [
+   "https://www.openrent.co.uk/3098023"
+  ],
+  "source": "alert",
+  "added": "2026-11-03",
+  "added_at": "2026-11-03T18:12Z",
+  "notes": [
+   "From an email on 2026-11-03: New properties found for your search: Wandsworth, London"
+  ],
+  "prices": [
+   [
+    "2026-11-03",
+    4400,
+    "openrent"
+   ]
+  ],
+  "loc": [
+   51.4643792,
+   -0.1228794
+  ],
+  "station": {
+   "name": "Clapham North",
+   "kind": "Tube",
+   "walk": 8
+  },
+  "commute": {
+   "lcp": 42,
+   "tritax": 40,
+   "q5": 39,
+   "wentworth": 58
+  }
+ },
+ {
+  "id": "onthemarket-20475831",
+  "title": "Devonshire Road London W4",
+  "area": "W4",
+  "rent": 4750,
+  "beds": 5,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20475831/",
+  "links": [
+   "https://www.onthemarket.com/details/20475831/"
+  ],
+  "source": "alert",
+  "added": "2026-11-03",
+  "added_at": "2026-11-03T18:39Z",
+  "notes": [
+   "From an email on 2026-11-03: Reduced price properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-03",
+    4750,
+    "onthemarket"
+   ]
+  ],
+  "loc": [
+   51.4925859,
+   -0.256164
+  ],
+  "station": {
+   "name": "Turnham Green",
+   "kind": "Tube",
+   "walk": 5
+  },
+  "commute": {
+   "lcp": 48,
+   "tritax": 48,
+   "q5": 48,
+   "wentworth": 33
+  }
  }
 ]
