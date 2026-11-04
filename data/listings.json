@@ -2651,7 +2651,7 @@
   "id": "foxtons-ptny0057089",
   "title": "Oakhill Court",
   "area": "East Putney",
-  "rent": 4000,
+  "rent": 3750,
   "beds": 4,
   "baths": 1,
   "available": "",
@@ -2667,7 +2667,8 @@
   "source": "import",
   "added": "2026-10-08",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-08."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-08.",
+   "Price cut on Onthemarket: £4,000 to £3,750 (2026-11-04)."
   ],
   "checked": "2026-11-04",
   "station": {
@@ -2689,6 +2690,11 @@
    [
     "2026-11-03",
     4000,
+    "onthemarket"
+   ],
+   [
+    "2026-11-04",
+    3750,
     "onthemarket"
    ]
   ],
@@ -10840,7 +10846,7 @@
   "id": "rightmove-93989001",
   "title": "Upper Richmond Road",
   "area": "Putney",
-  "rent": 3900,
+  "rent": 3750,
   "beds": 4,
   "baths": 1,
   "available": "Ask agent",
@@ -10858,7 +10864,8 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-08.",
    "Found by ChatGPT sweep (live).",
-   "Price cut on Rightmove: £4,000 to £3,900 (2026-10-28)."
+   "Price cut on Rightmove: £4,000 to £3,900 (2026-10-28).",
+   "Price cut on Onthemarket: £3,900 to £3,750 (2026-11-04)."
   ],
   "checked": "2026-11-04",
   "station": {
@@ -10880,6 +10887,11 @@
    [
     "2026-11-03",
     3900,
+    "onthemarket"
+   ],
+   [
+    "2026-11-04",
+    3750,
     "onthemarket"
    ]
   ],
@@ -28494,7 +28506,8 @@
   "url": "https://www.onthemarket.com/details/20665648/",
   "links": [
    "https://www.onthemarket.com/details/20665648/",
-   "https://www.zoopla.co.uk/to-rent/details/74652316/"
+   "https://www.zoopla.co.uk/to-rent/details/74652316/",
+   "https://www.rightmove.co.uk/properties/95105559"
   ],
   "source": "alert",
   "added": "2026-10-31",
@@ -28512,6 +28525,11 @@
     "2026-11-01",
     4000,
     "zoopla"
+   ],
+   [
+    "2026-11-04",
+    4000,
+    "rightmove"
    ]
   ],
   "loc": [
@@ -29054,7 +29072,8 @@
   "status": "new",
   "url": "https://www.foxtons.co.uk/properties-to-rent/sw18/chpk2613628",
   "links": [
-   "https://www.foxtons.co.uk/properties-to-rent/sw18/chpk2613628"
+   "https://www.foxtons.co.uk/properties-to-rent/sw18/chpk2613628",
+   "https://www.onthemarket.com/details/20693269/"
   ],
   "source": "sweep",
   "added": "2026-11-03",
@@ -29068,6 +29087,11 @@
     "2026-11-03",
     4000,
     "foxtons"
+   ],
+   [
+    "2026-11-04",
+    4000,
+    "onthemarket"
    ]
   ],
   "loc": [
@@ -29145,7 +29169,8 @@
   "status": "new",
   "url": "https://www.rightmove.co.uk/properties/95099775",
   "links": [
-   "https://www.rightmove.co.uk/properties/95099775"
+   "https://www.rightmove.co.uk/properties/95099775",
+   "https://www.openrent.co.uk/3099426"
   ],
   "source": "alert",
   "added": "2026-11-04",
@@ -29158,6 +29183,11 @@
     "2026-11-04",
     3395,
     "rightmove"
+   ],
+   [
+    "2026-11-04",
+    3395,
+    "openrent"
    ]
   ],
   "loc": [
@@ -29227,5 +29257,125 @@
    "wentworth": 42
   },
   "photo": "https://media.onthemarket.com/properties/20690713/1656598135/image-0-1024x1024.jpg"
+ },
+ {
+  "id": "rightmove-95115225",
+  "title": "Flanders Crescent, Tooting, Merton",
+  "area": "Tooting",
+  "rent": 3000,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/95115225",
+  "links": [
+   "https://www.rightmove.co.uk/properties/95115225"
+  ],
+  "source": "alert",
+  "added": "2026-11-04",
+  "added_at": "2026-11-04T16:47Z",
+  "notes": [
+   "From an email on 2026-11-04: fourguys, we've found you 5 properties in SW London house v3"
+  ],
+  "prices": [
+   [
+    "2026-11-04",
+    3000,
+    "rightmove"
+   ]
+  ],
+  "loc": [
+   51.4191681,
+   -0.1642935
+  ],
+  "station": {
+   "name": "Tooting",
+   "kind": "Rail",
+   "walk": 4
+  },
+  "commute": {
+   "lcp": 53,
+   "tritax": 51,
+   "q5": 52,
+   "wentworth": 48
+  }
+ },
+ {
+  "id": "onthemarket-20693163",
+  "title": "Cavendish Road, London SW12",
+  "area": "SW12",
+  "rent": 4500,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20693163/",
+  "links": [
+   "https://www.onthemarket.com/details/20693163/",
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/BHL120174/cavendish-road/"
+  ],
+  "source": "alert",
+  "added": "2026-11-04",
+  "added_at": "2026-11-04T18:40Z",
+  "notes": [
+   "From an email on 2026-11-04: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-04",
+    4500,
+    "onthemarket"
+   ],
+   [
+    "2026-11-04",
+    4500,
+    "marshandparsons"
+   ]
+  ]
+ },
+ {
+  "id": "onthemarket-20266565",
+  "title": "Rowditch Lane, London SW11",
+  "area": "SW11",
+  "rent": 3800,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20266565/",
+  "links": [
+   "https://www.onthemarket.com/details/20266565/"
+  ],
+  "source": "alert",
+  "added": "2026-11-04",
+  "added_at": "2026-11-04T19:25Z",
+  "notes": [
+   "From an email on 2026-11-04: Reduced price properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-04",
+    3800,
+    "onthemarket"
+   ]
+  ],
+  "loc": [
+   51.4715567,
+   -0.156045
+  ],
+  "station": {
+   "name": "Queenstown Road",
+   "kind": "Rail",
+   "walk": 13
+  },
+  "commute": {
+   "lcp": 48,
+   "tritax": 46,
+   "q5": 45,
+   "wentworth": 49
+  }
  }
 ]
