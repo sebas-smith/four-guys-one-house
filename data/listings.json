@@ -5034,7 +5034,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-11."
   ],
-  "checked": "2026-11-03",
+  "checked": "2026-11-04",
   "station": {
    "name": "Colliers Wood",
    "kind": "Tube",
@@ -6156,14 +6156,15 @@
   "rent": 4000,
   "beds": 4,
   "baths": 3,
-  "available": "31 October, 2026",
+  "available": "2026-10-31",
   "sharers": "unknown",
   "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/93525720",
   "links": [
    "https://www.openrent.co.uk/property-to-rent/london/4-bed-semi-detached-house-wadham-road-sw15/3028882",
    "https://www.rightmove.co.uk/properties/93525720",
-   "https://www.zoopla.co.uk/to-rent/details/74329182/"
+   "https://www.zoopla.co.uk/to-rent/details/74329182/",
+   "https://search.savills.com/property-detail/gbpurepul250006l"
   ],
   "source": "import",
   "added": "2026-09-25",
@@ -6545,7 +6546,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04."
   ],
-  "checked": "2026-11-03",
+  "checked": "2026-11-04",
   "station": {
    "name": "Wandsworth Town",
    "kind": "Rail",
@@ -6593,7 +6594,7 @@
    "Price changed from £4,800 to £4,300 (2026-10-26).",
    "Price changed from £4,300 to £3,800 (2026-10-30)."
   ],
-  "checked": "2026-11-03",
+  "checked": "2026-11-04",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -6639,7 +6640,7 @@
   "rent": 4000,
   "beds": 4,
   "baths": 3,
-  "available": "24 October, 2026",
+  "available": "2026-10-24",
   "sharers": "unknown",
   "status": "new",
   "url": "https://www.openrent.co.uk/property-to-rent/london/4-bed-semi-detached-house-fairway-sw20/3054981",
@@ -6651,7 +6652,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck). Last checked 2026-10-09."
   ],
-  "checked": "2026-11-03",
+  "checked": "2026-11-04",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -11745,7 +11746,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
-  "checked": "2026-11-03",
+  "checked": "2026-11-04",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -19628,7 +19629,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-03",
+  "checked": "2026-11-04",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Bathrooms corrected to 2 from the advert (31 Oct)."
@@ -20260,7 +20261,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-03",
+  "checked": "2026-11-04",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -20545,7 +20546,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-03",
+  "checked": "2026-11-04",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21246,7 +21247,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-03",
+  "checked": "2026-11-04",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21340,7 +21341,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-03",
+  "checked": "2026-11-04",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21526,7 +21527,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-03",
+  "checked": "2026-11-04",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Bathrooms corrected to 1 from the advert (31 Oct)."
@@ -25121,7 +25122,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-11-03",
+  "checked": "2026-11-04",
   "notes": [
    "Found by ChatGPT sweep (unverified)."
   ],
@@ -25365,7 +25366,7 @@
   ],
   "source": "search",
   "added": "2026-10-25",
-  "checked": "2026-11-03",
+  "checked": "2026-11-04",
   "notes": [
    "Missed by the sweep; found in a portal coverage check on 25 Oct (OpenRent private landlord)."
   ],
@@ -28558,7 +28559,7 @@
     "openrent"
    ]
   ],
-  "checked": "2026-11-03"
+  "checked": "2026-11-04"
  },
  {
   "id": "zoopla-47543343",
@@ -28669,7 +28670,7 @@
   "source": "sweep",
   "added": "2026-11-02",
   "added_at": "2026-11-02T18:09Z",
-  "checked": "2026-11-03",
+  "checked": "2026-11-04",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -28782,7 +28783,7 @@
    "q5": 23,
    "wentworth": 49
   },
-  "checked": "2026-11-03"
+  "checked": "2026-11-04"
  },
  {
   "id": "onthemarket-20679740",
@@ -28901,7 +28902,8 @@
   "links": [
    "https://www.onthemarket.com/details/18863172/",
    "https://www.rightmove.co.uk/properties/95076369",
-   "https://www.zoopla.co.uk/to-rent/details/69808260/"
+   "https://www.zoopla.co.uk/to-rent/details/69808260/",
+   "https://www.barnardmarcus.co.uk/properties/22282682/lettings/P1833D3320-05ABFAF5"
   ],
   "source": "sweep",
   "added": "2026-11-03",
@@ -29173,5 +29175,57 @@
    "q5": 57,
    "wentworth": 42
   }
+ },
+ {
+  "id": "onthemarket-20690713",
+  "title": "Colebrook Close, SW15, SW15 3HZ",
+  "area": "Putney",
+  "rent": 3600,
+  "beds": 4,
+  "baths": 1,
+  "available": "2027-01-06",
+  "sharers": "ok",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/95116407",
+  "links": [
+   "https://www.onthemarket.com/details/20690713/",
+   "https://www.rightmove.co.uk/properties/95116407",
+   "https://www.zoopla.co.uk/to-rent/details/74681097/"
+  ],
+  "source": "sweep",
+  "added": "2026-11-04",
+  "added_at": "2026-11-04T18:11Z",
+  "checked": "2026-11-04",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-11-04",
+    3600,
+    "rightmove"
+   ],
+   [
+    "2026-11-04",
+    3600,
+    "onthemarket"
+   ]
+  ],
+  "loc": [
+   51.4504799,
+   -0.2191478
+  ],
+  "station": {
+   "name": "Southfields",
+   "kind": "Tube",
+   "walk": 16
+  },
+  "commute": {
+   "lcp": 65,
+   "tritax": 63,
+   "q5": 55,
+   "wentworth": 42
+  },
+  "photo": "https://media.onthemarket.com/properties/20690713/1656598135/image-0-1024x1024.jpg"
  }
 ]
