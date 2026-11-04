@@ -65,9 +65,10 @@ function bySite(r) {
 }
 // Sites whose latest price is the current rent.
 const atRent = (r) => [...bySite(r)].filter(([, h]) => h[h.length - 1][1] === r.rent).map(([s]) => s);
-// The highest earlier price on any site now asking the current rent, or null.
+// The highest earlier price on any site now asking the current rent, or null. Up to £4 more is a weekly
+// price converted back slightly off (JITTER in ingest_alerts.py), not a real cut.
 function previous(r) {
-  const was = atRent(r).flatMap((s) => bySite(r).get(s).map((x) => x[1])).filter((p) => p > r.rent);
+  const was = atRent(r).flatMap((s) => bySite(r).get(s).map((x) => x[1])).filter((p) => p > r.rent + 4);
   return was.length ? Math.max(...was) : null;
 }
 // Sites the live check found let or taken down: "Let agreed on Foxtons, still live on OnTheMarket" -> Foxtons.

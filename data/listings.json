@@ -5628,7 +5628,7 @@
   "id": "openrent-3003303",
   "title": "Divis Way",
   "area": "Putney",
-  "rent": 3500,
+  "rent": 3395,
   "beds": 4,
   "baths": 1,
   "available": "Today",
@@ -5640,7 +5640,9 @@
    "https://www.zoopla.co.uk/to-rent/details/74669331/",
    "https://www.johndwood.co.uk/properties/22282146/lettings/CSE264181",
    "https://www.rightmove.co.uk/properties/95058180",
-   "https://www.onthemarket.com/details/20681244/"
+   "https://www.onthemarket.com/details/20681244/",
+   "https://www.rightmove.co.uk/properties/95099775",
+   "https://www.openrent.co.uk/3099426"
   ],
   "source": "import",
   "added": "2026-09-25",
@@ -5648,7 +5650,10 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
    "Prices differ across sites: £4,200 vs £3,500. Showing the lower; see price history.",
    "Found by ChatGPT sweep (live).",
-   "Merged in zoopla-74669331: the same house (3 Nov audit)."
+   "Merged in zoopla-74669331: the same house (3 Nov audit).",
+   "Prices differ across sites: £3,500 vs £3,395. Showing the lower; see price history.",
+   "From an email on 2026-11-04: fourguys, we've found you 3 properties in SW London house v3",
+   "Merged in rightmove-95099775: the same house (same photos; Ragdon and John D Wood adverts) (4 Nov check)."
   ],
   "checked": "2026-11-04",
   "station": {
@@ -5671,6 +5676,16 @@
     "2026-11-03",
     3500,
     "onthemarket"
+   ],
+   [
+    "2026-11-04",
+    3395,
+    "rightmove"
+   ],
+   [
+    "2026-11-04",
+    3395,
+    "openrent"
    ]
   ],
   "loc": [
@@ -18856,7 +18871,7 @@
   "id": "onthemarket-20082185",
   "title": "Danebury Avenue, London SW15",
   "area": "Putney",
-  "rent": 3301,
+  "rent": 3300,
   "beds": 6,
   "baths": 2,
   "available": "2028-12-31",
@@ -18875,8 +18890,7 @@
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-10-26.",
-   "Merged rightmove-94718772 into this home: same street, beds, baths and rent (31 Oct).",
-   "Price rise: £3,300 to £3,301 on the live adverts (3 Nov)."
+   "Merged rightmove-94718772 into this home: same street, beds, baths and rent (31 Oct)."
   ],
   "station": {
    "name": "Barnes",
@@ -18898,11 +18912,6 @@
     "2026-10-31",
     3301,
     "rightmove"
-   ],
-   [
-    "2026-11-03",
-    3301,
-    "onthemarket"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -23895,7 +23904,10 @@
    "tritax": 54,
    "q5": 47,
    "wentworth": 44
-  }
+  },
+  "not_same": [
+   "foxtons-chpk2613628"
+  ]
  },
  {
   "id": "openrent-3083756",
@@ -24021,6 +24033,9 @@
   "down": [
    "https://www.rightmove.co.uk/properties/94555797",
    "https://www.onthemarket.com/details/20601753/"
+  ],
+  "not_same": [
+   "foxtons-chpk2597615"
   ]
  },
  {
@@ -26479,7 +26494,7 @@
   "id": "onthemarket-20601917",
   "title": "Gaskarth Road, London SW12, SW12 9NL",
   "area": "Balham",
-  "rent": 4949,
+  "rent": 4950,
   "beds": 4,
   "baths": 2,
   "available": "",
@@ -26495,8 +26510,7 @@
   "added": "2026-10-28",
   "checked": "2026-11-04",
   "notes": [
-   "Found by ChatGPT sweep (live).",
-   "Price cut: £4,950 to £4,949 on the live adverts (3 Nov)."
+   "Found by ChatGPT sweep (live)."
   ],
   "prices": [
    [
@@ -26826,7 +26840,7 @@
   "id": "onthemarket-20651061",
   "title": "Cottenham Park Road, London SW20",
   "area": "SW20",
-  "rent": 4498,
+  "rent": 4500,
   "beds": 5,
   "baths": null,
   "available": "",
@@ -26842,8 +26856,7 @@
   "source": "alert",
   "added": "2026-10-29",
   "notes": [
-   "From an email on 2026-10-29: New properties in London (drawn area)",
-   "Price cut: £4,500 to £4,498 on the live adverts (3 Nov)."
+   "From an email on 2026-10-29: New properties in London (drawn area)"
   ],
   "prices": [
    [
@@ -27024,12 +27037,15 @@
   "url": "https://www.zoopla.co.uk/to-rent/details/74636546/",
   "links": [
    "https://www.zoopla.co.uk/to-rent/details/74636546/",
-   "https://www.rightmove.co.uk/properties/94943136"
+   "https://www.rightmove.co.uk/properties/94943136",
+   "https://www.rightmove.co.uk/properties/95115225"
   ],
   "source": "alert",
   "added": "2026-10-30",
   "notes": [
-   "From an email on 2026-10-30: New listings: 2 new properties to rent in SW London house v2"
+   "From an email on 2026-10-30: New listings: 2 new properties to rent in SW London house v2",
+   "From an email on 2026-11-04: fourguys, we've found you 5 properties in SW London house v3",
+   "Merged in rightmove-95115225: the same house (same photos; SW16 listed it twice) (4 Nov check)."
   ],
   "prices": [
    [
@@ -27039,6 +27055,11 @@
    ],
    [
     "2026-10-30",
+    3000,
+    "rightmove"
+   ],
+   [
+    "2026-11-04",
     3000,
     "rightmove"
    ]
@@ -27725,19 +27746,26 @@
   "status": "new",
   "url": "https://www.rightmove.co.uk/properties/94709247",
   "links": [
-   "https://www.rightmove.co.uk/properties/94709247"
+   "https://www.rightmove.co.uk/properties/94709247",
+   "https://www.openrent.co.uk/property-to-rent/london/4-bed-flat-percy-road-w12/3086477"
   ],
   "source": "backfill",
   "added": "2026-10-31",
   "added_at": "2026-10-31T12:03Z",
   "notes": [
-   "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-10-25."
+   "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-10-25.",
+   "Linked OpenRent advert 3086477: the same flat (the Rightmove advert is OpenRent's own, reference 3086477; same photos) (4 Nov)."
   ],
   "prices": [
    [
     "2026-10-31",
     4200,
     "rightmove"
+   ],
+   [
+    "2026-11-04",
+    4200,
+    "openrent"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/486e359e0/94709247/486e359e07ea37c1a61b1aa76f3e9176_max_476x317.jpeg",
@@ -28226,7 +28254,7 @@
   "id": "rightmove-92745345",
   "title": "Rowditch Lane, Battersea, SW11",
   "area": "Battersea",
-  "rent": 4000,
+  "rent": 3800,
   "beds": 4,
   "baths": 1,
   "available": "",
@@ -28234,18 +28262,32 @@
   "status": "new",
   "url": "https://www.rightmove.co.uk/properties/92745345",
   "links": [
-   "https://www.rightmove.co.uk/properties/92745345"
+   "https://www.rightmove.co.uk/properties/92745345",
+   "https://www.onthemarket.com/details/20266565/"
   ],
   "source": "backfill",
   "added": "2026-10-31",
   "added_at": "2026-10-31T12:03Z",
   "notes": [
-   "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-09-04."
+   "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-09-04.",
+   "From an email on 2026-11-04: Reduced price properties in London (drawn area)",
+   "Price cut on Rightmove: £4,000 to £3,800 (2026-11-04).",
+   "Merged in onthemarket-20266565: the same house (same photos; both eXp UK) (4 Nov check)."
   ],
   "prices": [
    [
     "2026-10-31",
     4000,
+    "rightmove"
+   ],
+   [
+    "2026-11-04",
+    3800,
+    "onthemarket"
+   ],
+   [
+    "2026-11-04",
+    3800,
     "rightmove"
    ]
   ],
@@ -28757,7 +28799,10 @@
    "tritax": 57,
    "q5": 48,
    "wentworth": 43
-  }
+  },
+  "not_same": [
+   "dexters-286605"
+  ]
  },
  {
   "id": "openrent-2738801",
@@ -28914,21 +28959,25 @@
   "beds": 4,
   "baths": 1,
   "available": "2027-01-30",
-  "sharers": "unknown",
+  "sharers": "ok",
   "status": "new",
   "url": "https://www.rightmove.co.uk/properties/95076369",
   "links": [
    "https://www.onthemarket.com/details/18863172/",
    "https://www.rightmove.co.uk/properties/95076369",
    "https://www.zoopla.co.uk/to-rent/details/69808260/",
-   "https://www.barnardmarcus.co.uk/properties/22282682/lettings/P1833D3320-05ABFAF5"
+   "https://www.barnardmarcus.co.uk/properties/22282682/lettings/P1833D3320-05ABFAF5",
+   "https://www.onthemarket.com/details/20690713/",
+   "https://www.rightmove.co.uk/properties/95116407",
+   "https://www.zoopla.co.uk/to-rent/details/74681097/"
   ],
   "source": "sweep",
   "added": "2026-11-03",
   "added_at": "2026-11-03T18:08Z",
   "checked": "2026-11-04",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Merged in onthemarket-20690713: the same flat (same photos; Barnard Marcus and Hamptons adverts) (4 Nov check)."
   ],
   "prices": [
    [
@@ -28938,6 +28987,16 @@
    ],
    [
     "2026-11-03",
+    3600,
+    "onthemarket"
+   ],
+   [
+    "2026-11-04",
+    3600,
+    "rightmove"
+   ],
+   [
+    "2026-11-04",
     3600,
     "onthemarket"
    ]
@@ -29108,7 +29167,10 @@
    "tritax": 54,
    "q5": 47,
    "wentworth": 44
-  }
+  },
+  "not_same": [
+   "zoopla-71562052"
+  ]
  },
  {
   "id": "zoopla-74669597",
@@ -29158,150 +29220,6 @@
   "photo": "https://media.rightmove.co.uk/dir/property-photo/dcb133b60/95060466/dcb133b604ac7c360e069dbf3a7be4a0_max_476x317.jpeg"
  },
  {
-  "id": "rightmove-95099775",
-  "title": "Divis Way, London, Greater London",
-  "area": "",
-  "rent": 3395,
-  "beds": 4,
-  "baths": null,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/95099775",
-  "links": [
-   "https://www.rightmove.co.uk/properties/95099775",
-   "https://www.openrent.co.uk/3099426"
-  ],
-  "source": "alert",
-  "added": "2026-11-04",
-  "added_at": "2026-11-04T11:41Z",
-  "notes": [
-   "From an email on 2026-11-04: fourguys, we've found you 3 properties in SW London house v3"
-  ],
-  "prices": [
-   [
-    "2026-11-04",
-    3395,
-    "rightmove"
-   ],
-   [
-    "2026-11-04",
-    3395,
-    "openrent"
-   ]
-  ],
-  "loc": [
-   51.4525729,
-   -0.2338174
-  ],
-  "station": {
-   "name": "Putney",
-   "kind": "Rail",
-   "walk": 26
-  },
-  "commute": {
-   "lcp": 69,
-   "tritax": 66,
-   "q5": 57,
-   "wentworth": 42
-  }
- },
- {
-  "id": "onthemarket-20690713",
-  "title": "Colebrook Close, SW15, SW15 3HZ",
-  "area": "Putney",
-  "rent": 3600,
-  "beds": 4,
-  "baths": 1,
-  "available": "2027-01-06",
-  "sharers": "ok",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/95116407",
-  "links": [
-   "https://www.onthemarket.com/details/20690713/",
-   "https://www.rightmove.co.uk/properties/95116407",
-   "https://www.zoopla.co.uk/to-rent/details/74681097/"
-  ],
-  "source": "sweep",
-  "added": "2026-11-04",
-  "added_at": "2026-11-04T18:11Z",
-  "checked": "2026-11-04",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ],
-  "prices": [
-   [
-    "2026-11-04",
-    3600,
-    "rightmove"
-   ],
-   [
-    "2026-11-04",
-    3600,
-    "onthemarket"
-   ]
-  ],
-  "loc": [
-   51.4504799,
-   -0.2191478
-  ],
-  "station": {
-   "name": "Southfields",
-   "kind": "Tube",
-   "walk": 16
-  },
-  "commute": {
-   "lcp": 65,
-   "tritax": 63,
-   "q5": 55,
-   "wentworth": 42
-  },
-  "photo": "https://media.onthemarket.com/properties/20690713/1656598135/image-0-1024x1024.jpg"
- },
- {
-  "id": "rightmove-95115225",
-  "title": "Flanders Crescent, Tooting, Merton",
-  "area": "Tooting",
-  "rent": 3000,
-  "beds": 4,
-  "baths": null,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/95115225",
-  "links": [
-   "https://www.rightmove.co.uk/properties/95115225"
-  ],
-  "source": "alert",
-  "added": "2026-11-04",
-  "added_at": "2026-11-04T16:47Z",
-  "notes": [
-   "From an email on 2026-11-04: fourguys, we've found you 5 properties in SW London house v3"
-  ],
-  "prices": [
-   [
-    "2026-11-04",
-    3000,
-    "rightmove"
-   ]
-  ],
-  "loc": [
-   51.4191681,
-   -0.1642935
-  ],
-  "station": {
-   "name": "Tooting",
-   "kind": "Rail",
-   "walk": 4
-  },
-  "commute": {
-   "lcp": 53,
-   "tritax": 51,
-   "q5": 52,
-   "wentworth": 48
-  }
- },
- {
   "id": "onthemarket-20693163",
   "title": "Cavendish Road, London SW12",
   "area": "SW12",
@@ -29334,48 +29252,5 @@
     "marshandparsons"
    ]
   ]
- },
- {
-  "id": "onthemarket-20266565",
-  "title": "Rowditch Lane, London SW11",
-  "area": "SW11",
-  "rent": 3800,
-  "beds": 4,
-  "baths": null,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/20266565/",
-  "links": [
-   "https://www.onthemarket.com/details/20266565/"
-  ],
-  "source": "alert",
-  "added": "2026-11-04",
-  "added_at": "2026-11-04T19:25Z",
-  "notes": [
-   "From an email on 2026-11-04: Reduced price properties in London (drawn area)"
-  ],
-  "prices": [
-   [
-    "2026-11-04",
-    3800,
-    "onthemarket"
-   ]
-  ],
-  "loc": [
-   51.4715567,
-   -0.156045
-  ],
-  "station": {
-   "name": "Queenstown Road",
-   "kind": "Rail",
-   "walk": 13
-  },
-  "commute": {
-   "lcp": 48,
-   "tritax": 46,
-   "q5": 45,
-   "wentworth": 49
-  }
  }
 ]

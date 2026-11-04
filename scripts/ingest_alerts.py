@@ -42,6 +42,14 @@ TRACKING_HOST = re.compile(r"https?://[^\s\"'<>)]*(?:rightmove|zoopla|onthemarke
 NO_RESOLVE = re.compile(r"//(www|media|static\w*|images\w*|st|advantage|go\.advantage|tracking)\.|"
                         r"\.(png|jpe?g|gif|svg|woff2?|ttf|css)\b|unsubscribe|/wf/open|alert-opened", re.I)
 MIN_RENT, MAX_RENT, MIN_BEDS = 3000, 5000, 4
+# Weekly prices converted to monthly (by us, the portals or agents) come out a pound or two off: £3,300 -> £3,301.
+# Rents this close count as the same price; see same_price.
+JITTER = 4  # a £5 change is a real cut (£3,500 -> £3,495 happens)
+
+
+def same_price(a, b):
+    """True when two monthly rents are within JITTER of each other (a weekly conversion, not a real change)."""
+    return abs(a - b) <= JITTER
 EXCLUDED_AREAS = re.compile(r"isleworth|osterley|new malden|hounslow|twickenham|whitton|brixton|streatham|\b(TW\d{1,2}|KT3|SW2|SW16|SE\d{1,2}|W3|W1[01])\b", re.I)
 
 
@@ -283,10 +291,16 @@ def site_name(url):
 
 
 def record_price(home, rent, when, site=""):
-    """Add [date, rent, site] to the home's price history when we see a price it hasn't had there before."""
+    """Add [date, rent, site] to the home's price history when we see a price it hasn't had there before.
+
+    A price within JITTER of that site's latest one isn't recorded, so conversion jitter never shows as "was £X".
+    """
     if not rent:
         return
     history = home.setdefault("prices", [])
+    on_site = [p[1] for p in history if p[2] == site]
+    if on_site and on_site[-1] != rent and same_price(on_site[-1], rent):
+        return
     if not any(p[1] == rent and p[2] == site for p in history) or history[-1][1] != rent:
         history.append([when, rent, site])
 
@@ -312,7 +326,7 @@ def new_price(home, rent, beds, when, site):
         return False
     same = [p for p in home.get("prices") or [] if p[2] == site]
     last = same[-1] if same else (["", home["rent"], site] if home.get("rent") else None)
-    if not last or last[1] == rent or (last[0] or "") > when or abs(rent - last[1]) > 0.25 * last[1]:
+    if not last or same_price(last[1], rent) or (last[0] or "") > when or abs(rent - last[1]) > 0.25 * last[1]:
         return False
     if not same:
         home.setdefault("prices", []).append(last)  # so the history shows what it was cut from
@@ -325,11 +339,15 @@ def new_price(home, rent, beds, when, site):
 
 def shown_rent(home):
     """The rent to show: the lowest of each site's latest price, as in merge_price, leaving out sites whose
-    adverts for this home are all down (check_live.py lists them in `down`)."""
+    adverts for this home are all down (check_live.py lists them in `down`). Within JITTER of the current
+    rent it keeps the current rent, so £4,950 on one site and £4,949 on another doesn't move it."""
     down = set(home.get("down", []))
     dead = {site_name(u) for u in home.get("links", [])} - {site_name(u) for u in home.get("links", []) if u not in down}
     latest = {s: r for _, r, s in home.get("prices") or [] if s and s != "search" and s not in dead}
-    return min(latest.values()) if latest else home.get("rent")
+    if not latest:
+        return home.get("rent")
+    low = min(latest.values())
+    return home["rent"] if home.get("rent") and same_price(low, home["rent"]) else low
 
 
 def read_email(msg, listings, known, added, failures, today):

@@ -23,7 +23,7 @@ import re
 import sys
 from pathlib import Path
 
-from ingest_alerts import excluded, merge_price, record_price, same_home, site_name
+from ingest_alerts import excluded, merge_price, record_price, same_home, same_price, site_name
 
 ROOT = Path(__file__).resolve().parent.parent
 LISTINGS = ROOT / "data" / "listings.json"
@@ -76,7 +76,7 @@ def sweep_status(s):
 def portal_history(home, row, rent, site):
     """Optional sweep columns previous_rent_gbp / price_reduced_on: a cut the portal shows from before we saw it."""
     prev = num(row.get("previous_rent_gbp") or "")
-    if prev and rent and prev != rent and not any(p[1] == prev for p in home.get("prices", [])):
+    if prev and rent and not same_price(prev, rent) and not any(p[1] == prev for p in home.get("prices", [])):
         home.setdefault("prices", []).insert(0, ["", prev, site])
         when = (row.get("price_reduced_on") or "")[:10]
         if when and home["prices"][-1][1] == rent and not home["prices"][-1][0]:
@@ -151,6 +151,8 @@ def main(src, dry, path=LISTINGS, ids_out=None):
                 # The row only saw some of this home's adverts; another portal may show a different price.
                 merge_price(match, rent, f"sweep {checked}", checked, site_name(url))
             else:
+                if rent and match.get("rent") and same_price(rent, match["rent"]):
+                    rent = match["rent"]  # a weekly price converted back £1-5 off, not a change
                 if rent and match.get("rent") and rent != match["rent"]:
                     note(f"Price changed from £{match['rent']:,} to £{rent:,} ({checked}).")
                 if rent:

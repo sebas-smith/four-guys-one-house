@@ -244,17 +244,37 @@ def main():
     import merge_sweep
     assert (merge_sweep.keys(["https://www.hamptons.co.uk/properties/22149582/lettings/P328691"])
             == merge_sweep.keys(["https://www.hamptons.co.uk/properties/22254628/lettings/P328691"]))
+    # a sweep's "previous rent" £1-5 off the current one is conversion jitter, not a cut
+    h = {"prices": [["2026-11-01", 3300, "rightmove"]]}
+    merge_sweep.portal_history(h, {"previous_rent_gbp": "3302"}, 3300, "rightmove")
+    assert h["prices"] == [["2026-11-01", 3300, "rightmove"]], h
+    merge_sweep.portal_history(h, {"previous_rent_gbp": "3500"}, 3300, "rightmove")
+    assert h["prices"][0] == ["", 3500, "rightmove"], h
     # the shown rent leaves out sites whose adverts are all down
     h = {"rent": 3350, "links": ["https://www.rightmove.co.uk/properties/1", "https://www.zoopla.co.uk/to-rent/details/2/"],
          "down": ["https://www.zoopla.co.uk/to-rent/details/2/"],
          "prices": [["2026-09-25", 3350, "zoopla"], ["2026-11-03", 3850, "rightmove"]]}
     assert ia.shown_rent(h) == 3850
+    # rents within £4 are a weekly price converted back slightly off: no rent change, no "was £X" entry
+    h = {"rent": 3300, "beds": 4, "status": "new", "notes": [], "prices": [["2026-10-18", 3300, "rightmove"]]}
+    ia.record_price(h, 3301, "2026-10-31", "rightmove")
+    assert h["prices"] == [["2026-10-18", 3300, "rightmove"]], h
+    assert not ia.new_price(h, 3302, 4, "2026-10-31", "rightmove") and h["rent"] == 3300 and not h["notes"], h
+    assert not ia.new_price(h, 3298, 4, "2026-10-31", "zoopla") and len(h["prices"]) == 1, h
+    ia.record_price(h, 3200, "2026-11-01", "rightmove")  # a real cut is still recorded
+    assert h["prices"][-1] == ["2026-11-01", 3200, "rightmove"], h
+    h = {"rent": 4950, "prices": [["2026-10-28", 4950, "rightmove"], ["2026-10-28", 4949, "marshandparsons"]]}
+    assert ia.shown_rent(h) == 4950  # another site £1 lower doesn't move the rent
+    h["prices"].append(["2026-11-01", 4800, "rightmove"])
+    assert ia.shown_rent(h) == 4800
     test_check_live()
     print("ok")
 
 
 def test_check_live():
     """check_live.main on a fake list: down adverts, relists, let warnings, gone homes and rents from live adverts."""
+    import contextlib
+    import io
     import json
     import tempfile
     import check_live as cl
@@ -267,6 +287,9 @@ def test_check_live():
         rm.format(4): (200, pad + '<span>LET AGREED</span>'), rm.format(5): (200, pad + "content='4 bedroom house for rent in B Road for £4,000 pcm'"),
         rm.format(6): (200, pad + '<span>LET AGREED</span>'), otm.format(7): (200, pad + '"http-status":"200","status":"live" "priceRaw":4000,'),
         rm.format(8): (410, ""),
+        rm.format(9): (200, pad + "content='4 bedroom house for rent in E Road for £3,301 pcm'"),
+        otm.format(10): (200, pad + '"http-status":"200","status":"live" "priceRaw":4949,'),
+        rm.format(11): (200, pad + '<span>LET AGREED</span>'),
     }
     homes = [
         {"id": "relisted", "title": "A Road", "rent": 3350, "beds": 4, "status": "new", "links": [rm.format(1), rm.format(2), otm.format(3)],
@@ -274,6 +297,14 @@ def test_check_live():
         {"id": "rm-relist", "title": "B Road", "rent": 4000, "beds": 4, "status": "new", "links": [rm.format(4), rm.format(5)]},
         {"id": "slow-agent", "title": "C Road", "rent": 4000, "beds": 4, "status": "new", "links": [rm.format(6), otm.format(7)]},
         {"id": "gone", "title": "D Road", "rent": 4000, "beds": 4, "status": "new", "links": [rm.format(8)]},
+        # weekly prices converted back £1 off: the rent and the price history stay as they were
+        {"id": "jitter", "title": "E Road", "rent": 3300, "beds": 4, "status": "new", "links": [rm.format(9)],
+         "prices": [["2026-10-18", 3300, "rightmove"]], "notes": []},
+        {"id": "jitter-new-site", "title": "F Road", "rent": 4950, "beds": 4, "status": "new", "links": [otm.format(10)],
+         "prices": [["2026-10-28", 4950, "rightmove"]], "notes": []},
+        # already ruled out (excluded area): it goes let, but isn't "newly off the market"
+        {"id": "ruled-out", "title": "G Road", "rent": 4000, "beds": 4, "status": "no", "ruled_out": "excluded area",
+         "links": [rm.format(11)]},
     ]
     with tempfile.TemporaryDirectory() as d:
         f = Path(d) / "l.json"
@@ -282,11 +313,21 @@ def test_check_live():
         cl.fetch = lambda u: (page[u][0], u, page[u][1])
         cl.time.sleep = lambda s: None
         sys.argv = ["check_live.py", "--file", str(f)]
+        log = io.StringIO()
         try:
-            cl.main()
+            with contextlib.redirect_stdout(log):
+                cl.main()
         finally:
             cl.fetch, cl.time.sleep, sys.argv = real
         out = {h["id"]: h for h in json.load(open(f, encoding="utf-8"))}
+    summary = log.getvalue().strip().splitlines()[-1]
+    assert summary.startswith("7 homes checked: 1 newly off the market,"), summary  # "gone" only, not "ruled-out"
+    assert out["ruled-out"]["status"] == "no" and out["ruled-out"]["off_market"]["why"] == "Let agreed on Rightmove"
+    j = out["jitter"]
+    assert j["rent"] == 3300 and j["prices"] == [["2026-10-18", 3300, "rightmove"]] and not j["notes"], j
+    j = out["jitter-new-site"]
+    assert j["rent"] == 4950 and j["prices"] == [["2026-10-28", 4950, "rightmove"]] and not j["notes"], j
+    assert " 1 rents changed" in summary, summary  # only "relisted"; the jitter homes don't count
     a = out["relisted"]
     assert a["status"] == "new" and "off_market" not in a and a["down"] == [rm.format(1)], a
     assert a["rent"] == 3800, a  # lowest of what the live adverts ask, not the stale £3,350

@@ -52,6 +52,21 @@ Read README.md first: it explains the search, the data and every script and work
   to whichever design is picked: pins from `loc`, lines from `data/lines.json`, commute times (`commute`) to the
   four workplaces in `data/workplaces.json` (LCP, Tritax, Q5 by TfL; Wentworth by car).
 
+- 3 Nov audit (`dedf406`, `34501ad`): 13 more duplicates merged by photos (Faraday Road and Merton Road
+  are different houses); relists join the existing home once one of its adverts is down; Hamptons matched
+  on P-reference; dead main links recorded and skipped for "Open on"; `check_live.py` reads the rent on live
+  Rightmove/OnTheMarket adverts and corrects it; Zoopla emails keyed on ID plus subject; postcodes also
+  checked in advert links. SW9, SW1V and homes under £3,000 stay in, as Seb chose. Squarey Street is 4 bed
+  (floorplan), despite "3 bedroom" headlines.
+- 4 Nov: rent changes under £5 are weekly-conversion jitter and ignored everywhere (`JITTER = 4` /
+  `same_price` in `ingest_alerts.py`; a £5 change is a real cut); 3 jitter changes reverted. Ruled-out homes
+  no longer count in check_live's "newly off the market". Merged Colebrook Close, Divis Way, Flanders
+  Crescent, Rowditch Lane (£3,800); OpenRent 3086477 linked to `rightmove-94709247` (Percy Road); `not_same`
+  set on Faraday Road and Merton Road pairs. Zoopla saved search "Putney" recreated (id 33554557) excluding
+  house shares, student and retirement homes. OpenRent: Chrome is signed out of the bot and it needs the
+  password typed, so its three alerts are unchecked until Seb signs in.
+- `AGENTS.md` is a Codex copy of this file ("Claude" -> "Codex"); regenerate it when this file changes.
+
 ## Next steps
 
 1. Gmail delegation: Seb sends the other three housemates' Gmail addresses; Claude adds them in

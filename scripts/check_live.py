@@ -26,7 +26,7 @@ from pathlib import Path
 from curl_cffi import CurlHttpVersion, requests
 
 sys.path.insert(0, str(Path(__file__).parent))
-from ingest_alerts import shown_rent  # noqa: E402
+from ingest_alerts import same_price, shown_rent  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 LISTINGS = ROOT / "data" / "listings.json"
@@ -147,7 +147,8 @@ def reprice(home, asks, today, day):
     """Record what each live advert asks and show the lowest current price. True when the rent changed.
 
     asks is {site: lowest rent its live adverts ask}. A price more than 25% from the shown rent is
-    probably misread, so it's printed and ignored.
+    probably misread, so it's printed and ignored. A price within £4 (JITTER) of that site's last one, or
+    of the shown rent when the site has none, is a weekly price converted back slightly off: ignored too.
     """
     old = home["rent"]
     for site, price in asks.items():
@@ -155,7 +156,7 @@ def reprice(home, asks, today, day):
             print(f"  ? {home['id']}: {site} asks £{price:,}, shown £{old:,}; not changed")
             continue
         latest = [p for p in home.get("prices") or [] if p[2] == site]
-        if not latest or latest[-1][1] != price:
+        if latest and not same_price(latest[-1][1], price) or not latest and (price == old or not same_price(old, price)):
             home.setdefault("prices", []).append([today, price, site])
     home["rent"] = shown_rent(home)
     if home["rent"] == old:
@@ -164,6 +165,12 @@ def reprice(home, asks, today, day):
     add_note(home, f"Price {change}: £{old:,} to £{home['rent']:,} on the live adverts ({day}).")
     print(f"rent  {home['title'][:40]:40} £{old:,} -> £{home['rent']:,}")
     return True
+
+
+def ruled_out(home):
+    """Already off our list: status "no" (out of area, excluded area or no sharers; merge_sweep.py gives the
+    reason in `ruled_out`). Such a home going let isn't news, so it doesn't count as newly off the market."""
+    return home.get("status") == "no" or bool(home.get("ruled_out"))
 
 
 def add_note(home, text):
@@ -244,7 +251,7 @@ def main():
                 add_note(home, f"{why} ({day}).")
             if home["status"] not in PERSON_SET:
                 home["status"] = "gone"
-            if was != "gone":
+            if was != "gone" and not ruled_out(home):
                 gone += 1
                 print(f"gone  {home['title'][:40]:40} {why}  {u}")
             home["off_market"]["checked"] = today
@@ -274,8 +281,9 @@ def main():
             home["off_market"] = {"why": why, "checked": today}
             if home["status"] not in PERSON_SET:
                 home["status"] = "gone"
-            gone += 1
-            print(f"gone  {home['title'][:40]:40} {why}")
+            if was != "gone" and not ruled_out(home):
+                gone += 1
+                print(f"gone  {home['title'][:40]:40} {why}")
         home.pop("sweep_gone", None)
         if asks and live and home.get("rent"):
             if reprice(home, asks, today, day):
