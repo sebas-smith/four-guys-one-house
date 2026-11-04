@@ -18701,7 +18701,8 @@
    "Found by ChatGPT sweep (live; results-page evidence only).",
    "Prices differ across sites: £4,000 vs £3,850. Showing the lower; see price history.",
    "Price cut on Rightmove: £3,850 to £3,600 (2026-10-28).",
-   "Price cut on Onthemarket: £3,600 to £3,500 (2026-11-03)."
+   "Price cut on Onthemarket: £3,600 to £3,500 (2026-11-03).",
+   "Price cut on Zoopla: £3,850 to £3,600 (2026-10-28)."
   ],
   "station": {
    "name": "East Putney",
@@ -18738,6 +18739,11 @@
     "2026-11-03",
     3500,
     "onthemarket"
+   ],
+   [
+    "2026-10-28",
+    3600,
+    "zoopla"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -27388,7 +27394,8 @@
   "notes": [
    "From an email on 2026-10-30: Reduced price properties in London (drawn area)",
    "Price cut on Rightmove: £4,500 to £4,000 (2026-11-02).",
-   "Price cut on Onthemarket: £4,500 to £4,000 (2026-11-02)."
+   "Price cut on Onthemarket: £4,500 to £4,000 (2026-11-02).",
+   "Price rise on Zoopla: £4,000 to £4,500 (2026-10-31)."
   ],
   "prices": [
    [
@@ -27410,6 +27417,16 @@
     "2026-11-02",
     4000,
     "onthemarket"
+   ],
+   [
+    "",
+    4000,
+    "zoopla"
+   ],
+   [
+    "2026-10-31",
+    4500,
+    "zoopla"
    ]
   ],
   "station": {
