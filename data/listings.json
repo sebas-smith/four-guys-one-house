@@ -29130,5 +29130,48 @@
    "wentworth": 41
   },
   "photo": "https://media.rightmove.co.uk/dir/property-photo/dcb133b60/95060466/dcb133b604ac7c360e069dbf3a7be4a0_max_476x317.jpeg"
+ },
+ {
+  "id": "rightmove-95099775",
+  "title": "Divis Way, London, Greater London",
+  "area": "",
+  "rent": 3395,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/95099775",
+  "links": [
+   "https://www.rightmove.co.uk/properties/95099775"
+  ],
+  "source": "alert",
+  "added": "2026-11-04",
+  "added_at": "2026-11-04T11:41Z",
+  "notes": [
+   "From an email on 2026-11-04: fourguys, we've found you 3 properties in SW London house v3"
+  ],
+  "prices": [
+   [
+    "2026-11-04",
+    3395,
+    "rightmove"
+   ]
+  ],
+  "loc": [
+   51.4525729,
+   -0.2338174
+  ],
+  "station": {
+   "name": "Putney",
+   "kind": "Rail",
+   "walk": 26
+  },
+  "commute": {
+   "lcp": 69,
+   "tritax": 66,
+   "q5": 57,
+   "wentworth": 42
+  }
  }
 ]
