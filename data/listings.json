@@ -5046,7 +5046,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-11."
   ],
-  "checked": "2026-11-04",
+  "checked": "2026-11-05",
   "station": {
    "name": "Colliers Wood",
    "kind": "Tube",
@@ -6590,7 +6590,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04."
   ],
-  "checked": "2026-11-04",
+  "checked": "2026-11-05",
   "station": {
    "name": "Wandsworth Town",
    "kind": "Rail",
@@ -6638,7 +6638,7 @@
    "Price changed from £4,800 to £4,300 (2026-10-26).",
    "Price changed from £4,300 to £3,800 (2026-10-30)."
   ],
-  "checked": "2026-11-04",
+  "checked": "2026-11-05",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -6696,7 +6696,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck). Last checked 2026-10-09."
   ],
-  "checked": "2026-11-04",
+  "checked": "2026-11-05",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -11829,7 +11829,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
-  "checked": "2026-11-04",
+  "checked": "2026-11-05",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -19744,7 +19744,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-04",
+  "checked": "2026-11-05",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Bathrooms corrected to 2 from the advert (31 Oct)."
@@ -20376,7 +20376,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-04",
+  "checked": "2026-11-05",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -20661,7 +20661,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-04",
+  "checked": "2026-11-05",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21362,7 +21362,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-04",
+  "checked": "2026-11-05",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21456,7 +21456,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-04",
+  "checked": "2026-11-05",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21642,7 +21642,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-04",
+  "checked": "2026-11-05",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Bathrooms corrected to 1 from the advert (31 Oct)."
@@ -25264,7 +25264,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-11-04",
+  "checked": "2026-11-05",
   "notes": [
    "Found by ChatGPT sweep (unverified)."
   ],
@@ -25508,7 +25508,7 @@
   ],
   "source": "search",
   "added": "2026-10-25",
-  "checked": "2026-11-04",
+  "checked": "2026-11-05",
   "notes": [
    "Missed by the sweep; found in a portal coverage check on 25 Oct (OpenRent private landlord)."
   ],
@@ -28748,7 +28748,7 @@
     "openrent"
    ]
   ],
-  "checked": "2026-11-04"
+  "checked": "2026-11-05"
  },
  {
   "id": "zoopla-47543343",
@@ -28859,7 +28859,7 @@
   "source": "sweep",
   "added": "2026-11-02",
   "added_at": "2026-11-02T18:09Z",
-  "checked": "2026-11-04",
+  "checked": "2026-11-05",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -28975,7 +28975,7 @@
    "q5": 23,
    "wentworth": 49
   },
-  "checked": "2026-11-04"
+  "checked": "2026-11-05"
  },
  {
   "id": "onthemarket-20679740",
@@ -29098,7 +29098,8 @@
    "https://www.barnardmarcus.co.uk/properties/22282682/lettings/P1833D3320-05ABFAF5",
    "https://www.onthemarket.com/details/20690713/",
    "https://www.rightmove.co.uk/properties/95116407",
-   "https://www.zoopla.co.uk/to-rent/details/74681097/"
+   "https://www.zoopla.co.uk/to-rent/details/74681097/",
+   "https://www.hamptons.co.uk/properties/22286754/lettings/P331362"
   ],
   "source": "sweep",
   "added": "2026-11-03",
@@ -29415,14 +29416,15 @@
   "area": "Wandsworth",
   "rent": 3900,
   "beds": 4,
-  "baths": null,
+  "baths": 1,
   "available": "",
-  "sharers": "unknown",
+  "sharers": "ok",
   "status": "new",
   "url": "https://www.zoopla.co.uk/to-rent/details/74689037/",
   "links": [
    "https://www.zoopla.co.uk/to-rent/details/74689037/",
-   "https://www.rightmove.co.uk/properties/95144457"
+   "https://www.rightmove.co.uk/properties/95144457",
+   "https://www.chestertons.co.uk/properties/22288451/lettings/HEA740133"
   ],
   "source": "alert",
   "added": "2026-11-05",
@@ -29456,7 +29458,8 @@
    "tritax": 54,
    "q5": 51,
    "wentworth": 50
-  }
+  },
+  "checked": "2026-11-05"
  },
  {
   "id": "zoopla-74677722",
@@ -29464,9 +29467,9 @@
   "area": "SW15",
   "rent": 3395,
   "beds": 4,
-  "baths": null,
+  "baths": 2,
   "available": "",
-  "sharers": "unknown",
+  "sharers": "ok",
   "status": "new",
   "url": "https://www.zoopla.co.uk/to-rent/details/74677722/",
   "links": [
@@ -29499,7 +29502,8 @@
    "tritax": 66,
    "q5": 57,
    "wentworth": 42
-  }
+  },
+  "checked": "2026-11-05"
  },
  {
   "id": "onthemarket-17971169",
@@ -29507,13 +29511,15 @@
   "area": "SW18",
   "rent": 5000,
   "beds": 4,
-  "baths": null,
-  "available": "",
+  "baths": 3,
+  "available": "2027-01-05",
   "sharers": "unknown",
   "status": "new",
   "url": "https://www.onthemarket.com/details/17971169/",
   "links": [
-   "https://www.onthemarket.com/details/17971169/"
+   "https://www.onthemarket.com/details/17971169/",
+   "https://www.rightmove.co.uk/properties/95160150",
+   "https://www.zoopla.co.uk/to-rent/details/71504093/"
   ],
   "source": "alert",
   "added": "2026-11-05",
@@ -29526,6 +29532,11 @@
     "2026-11-05",
     5000,
     "onthemarket"
+   ],
+   [
+    "2026-11-05",
+    5000,
+    "rightmove"
    ]
   ],
   "loc": [
@@ -29542,7 +29553,8 @@
    "tritax": 55,
    "q5": 49,
    "wentworth": 50
-  }
+  },
+  "checked": "2026-11-05"
  },
  {
   "id": "onthemarket-20698810",
@@ -29550,13 +29562,15 @@
   "area": "SW17",
   "rent": 3800,
   "beds": 4,
-  "baths": null,
+  "baths": 2,
   "available": "",
   "sharers": "unknown",
   "status": "new",
   "url": "https://www.onthemarket.com/details/20698810/",
   "links": [
-   "https://www.onthemarket.com/details/20698810/"
+   "https://www.onthemarket.com/details/20698810/",
+   "https://www.rightmove.co.uk/properties/95160462",
+   "https://www.zoopla.co.uk/to-rent/details/74691938/"
   ],
   "source": "alert",
   "added": "2026-11-05",
@@ -29569,6 +29583,11 @@
     "2026-11-05",
     3800,
     "onthemarket"
+   ],
+   [
+    "2026-11-05",
+    3800,
+    "rightmove"
    ]
   ],
   "loc": [
@@ -29585,7 +29604,8 @@
    "tritax": 50,
    "q5": 50,
    "wentworth": 48
-  }
+  },
+  "checked": "2026-11-05"
  },
  {
   "id": "onthemarket-20699030",
@@ -29593,13 +29613,15 @@
   "area": "SW18",
   "rent": 5000,
   "beds": 4,
-  "baths": null,
-  "available": "",
+  "baths": 3,
+  "available": "2026-11-12",
   "sharers": "unknown",
   "status": "new",
   "url": "https://www.onthemarket.com/details/20699030/",
   "links": [
-   "https://www.onthemarket.com/details/20699030/"
+   "https://www.onthemarket.com/details/20699030/",
+   "https://www.rightmove.co.uk/properties/95161314",
+   "https://www.zoopla.co.uk/to-rent/details/74692101/"
   ],
   "source": "alert",
   "added": "2026-11-05",
@@ -29612,6 +29634,11 @@
     "2026-11-05",
     5000,
     "onthemarket"
+   ],
+   [
+    "2026-11-05",
+    5000,
+    "rightmove"
    ]
   ],
   "loc": [
@@ -29628,6 +29655,7 @@
    "tritax": 57,
    "q5": 49,
    "wentworth": 48
-  }
+  },
+  "checked": "2026-11-05"
  }
 ]
