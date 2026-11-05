@@ -5204,7 +5204,8 @@
    "https://www.onthemarket.com/details/20408114/",
    "https://www.rightmove.co.uk/properties/94771239",
    "https://www.hamptons.co.uk/properties/22254628/lettings/P328691",
-   "https://www.rightmove.co.uk/properties/95072430"
+   "https://www.rightmove.co.uk/properties/95072430",
+   "https://www.zoopla.co.uk/to-rent/details/74671724/"
   ],
   "source": "import",
   "added": "2026-09-25",
@@ -5296,6 +5297,11 @@
     "2026-11-05",
     4700,
     "onthemarket"
+   ],
+   [
+    "2026-11-05",
+    4750,
+    "zoopla"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/c1884ddc6/94093686/c1884ddc65530d8c9d8eb7ef7dcb0e44_max_476x317.jpeg",
@@ -14787,7 +14793,7 @@
   "id": "zoopla-74262411",
   "title": "Blackshaw Road",
   "area": "Tooting",
-  "rent": 4000,
+  "rent": 3800,
   "beds": 4,
   "baths": 2,
   "available": "2026-10-30",
@@ -14803,7 +14809,9 @@
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-09."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-09.",
+   "Price cut on Onthemarket: £4,000 to £3,800 (2026-11-05).",
+   "Price cut on Rightmove: £4,000 to £3,800 (2026-11-05)."
   ],
   "checked": "2026-11-05",
   "station": {
@@ -14821,6 +14829,16 @@
     "2026-11-03",
     4000,
     "onthemarket"
+   ],
+   [
+    "2026-11-05",
+    3800,
+    "onthemarket"
+   ],
+   [
+    "2026-11-05",
+    3800,
+    "rightmove"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/627d71c8f/93246108/627d71c8fcf126ad2480deeed15f02b9_max_476x317.jpeg",
@@ -25695,7 +25713,8 @@
    "https://www.onthemarket.com/details/20664597/",
    "https://www.onthemarket.com/details/20670072/",
    "https://www.zoopla.co.uk/to-rent/details/74657468/",
-   "https://www.zoopla.co.uk/to-rent/details/74612934/"
+   "https://www.zoopla.co.uk/to-rent/details/74612934/",
+   "https://www.onthemarket.com/details/20697380/"
   ],
   "source": "agent",
   "added": "2026-10-26",
@@ -25795,6 +25814,11 @@
     "2026-11-03",
     4147,
     "zoopla"
+   ],
+   [
+    "2026-11-05",
+    4000,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -26551,7 +26575,8 @@
   "url": "https://www.foxtons.co.uk/properties-to-rent/w12/chpk2305951",
   "links": [
    "https://www.foxtons.co.uk/properties-to-rent/w12/chpk2305951",
-   "https://www.onthemarket.com/details/20684899/"
+   "https://www.onthemarket.com/details/20684899/",
+   "https://www.zoopla.co.uk/to-rent/details/74673342/"
   ],
   "source": "sweep",
   "added": "2026-10-27",
@@ -26569,6 +26594,11 @@
     "2026-11-03",
     5000,
     "onthemarket"
+   ],
+   [
+    "2026-11-05",
+    5000,
+    "zoopla"
    ]
   ],
   "station": {
@@ -29232,7 +29262,8 @@
   "links": [
    "https://www.foxtons.co.uk/properties-to-rent/sw18/chpk2613628",
    "https://www.onthemarket.com/details/20693269/",
-   "https://www.rightmove.co.uk/properties/95128860"
+   "https://www.rightmove.co.uk/properties/95128860",
+   "https://www.zoopla.co.uk/to-rent/details/74683828/"
   ],
   "source": "sweep",
   "added": "2026-11-03",
@@ -29256,6 +29287,11 @@
     "2026-11-04",
     4000,
     "rightmove"
+   ],
+   [
+    "2026-11-05",
+    4000,
+    "zoopla"
    ]
   ],
   "loc": [
@@ -29339,7 +29375,8 @@
   "links": [
    "https://www.onthemarket.com/details/20693163/",
    "https://www.marshandparsons.co.uk/properties-to-rent/london/property/BHL120174/cavendish-road/",
-   "https://www.rightmove.co.uk/properties/95128743"
+   "https://www.rightmove.co.uk/properties/95128743",
+   "https://www.zoopla.co.uk/to-rent/details/74683752/"
   ],
   "source": "alert",
   "added": "2026-11-04",
@@ -29362,9 +29399,235 @@
     "2026-11-04",
     4500,
     "rightmove"
+   ],
+   [
+    "2026-11-05",
+    4500,
+    "zoopla"
    ]
   ],
   "photo": "https://media.onthemarket.com/properties/20693163/1656643579/image-0-1024x1024.jpg",
   "checked": "2026-11-05"
+ },
+ {
+  "id": "zoopla-74689037",
+  "title": "Beechcroft Road, Wandsworth Common SW17",
+  "area": "Wandsworth",
+  "rent": 3900,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.zoopla.co.uk/to-rent/details/74689037/",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74689037/",
+   "https://www.rightmove.co.uk/properties/95144457"
+  ],
+  "source": "alert",
+  "added": "2026-11-05",
+  "added_at": "2026-11-05T11:58Z",
+  "notes": [
+   "From an email on 2026-11-05: New listings: 26 new properties to rent in Putney"
+  ],
+  "prices": [
+   [
+    "2026-11-05",
+    3900,
+    "zoopla"
+   ],
+   [
+    "2026-11-05",
+    3900,
+    "rightmove"
+   ]
+  ],
+  "loc": [
+   51.4413297,
+   -0.1706413
+  ],
+  "station": {
+   "name": "Wandsworth Common",
+   "kind": "Rail",
+   "walk": 12
+  },
+  "commute": {
+   "lcp": 54,
+   "tritax": 54,
+   "q5": 51,
+   "wentworth": 50
+  }
+ },
+ {
+  "id": "zoopla-74677722",
+  "title": "Divis Way, London, Greater London SW15",
+  "area": "SW15",
+  "rent": 3395,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.zoopla.co.uk/to-rent/details/74677722/",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74677722/"
+  ],
+  "source": "alert",
+  "added": "2026-11-05",
+  "added_at": "2026-11-05T11:58Z",
+  "notes": [
+   "From an email on 2026-11-05: New listings: 26 new properties to rent in Putney"
+  ],
+  "prices": [
+   [
+    "2026-11-05",
+    3395,
+    "zoopla"
+   ]
+  ],
+  "loc": [
+   51.4525729,
+   -0.2338174
+  ],
+  "station": {
+   "name": "Putney",
+   "kind": "Rail",
+   "walk": 26
+  },
+  "commute": {
+   "lcp": 69,
+   "tritax": 66,
+   "q5": 57,
+   "wentworth": 42
+  }
+ },
+ {
+  "id": "onthemarket-17971169",
+  "title": "Frewin Road, London SW18",
+  "area": "SW18",
+  "rent": 5000,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/17971169/",
+  "links": [
+   "https://www.onthemarket.com/details/17971169/"
+  ],
+  "source": "alert",
+  "added": "2026-11-05",
+  "added_at": "2026-11-05T15:07Z",
+  "notes": [
+   "From an email on 2026-11-05: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-05",
+    5000,
+    "onthemarket"
+   ]
+  ],
+  "loc": [
+   51.4447011,
+   -0.174547
+  ],
+  "station": {
+   "name": "Wandsworth Common",
+   "kind": "Rail",
+   "walk": 13
+  },
+  "commute": {
+   "lcp": 55,
+   "tritax": 55,
+   "q5": 49,
+   "wentworth": 50
+  }
+ },
+ {
+  "id": "onthemarket-20698810",
+  "title": "Links Road, London SW17",
+  "area": "SW17",
+  "rent": 3800,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20698810/",
+  "links": [
+   "https://www.onthemarket.com/details/20698810/"
+  ],
+  "source": "alert",
+  "added": "2026-11-05",
+  "added_at": "2026-11-05T15:07Z",
+  "notes": [
+   "From an email on 2026-11-05: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-05",
+    3800,
+    "onthemarket"
+   ]
+  ],
+  "loc": [
+   51.4199416,
+   -0.1592254
+  ],
+  "station": {
+   "name": "Tooting",
+   "kind": "Rail",
+   "walk": 2
+  },
+  "commute": {
+   "lcp": 53,
+   "tritax": 50,
+   "q5": 50,
+   "wentworth": 48
+  }
+ },
+ {
+  "id": "onthemarket-20699030",
+  "title": "Stott Close, London, SW18",
+  "area": "SW18",
+  "rent": 5000,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20699030/",
+  "links": [
+   "https://www.onthemarket.com/details/20699030/"
+  ],
+  "source": "alert",
+  "added": "2026-11-05",
+  "added_at": "2026-11-05T15:19Z",
+  "notes": [
+   "From an email on 2026-11-05: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-05",
+    5000,
+    "onthemarket"
+   ]
+  ],
+  "loc": [
+   51.4542669,
+   -0.1741414
+  ],
+  "station": {
+   "name": "Clapham Junction",
+   "kind": "Rail",
+   "walk": 19
+  },
+  "commute": {
+   "lcp": 59,
+   "tritax": 57,
+   "q5": 49,
+   "wentworth": 48
+  }
  }
 ]
