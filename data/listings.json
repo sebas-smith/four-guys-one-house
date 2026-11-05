@@ -23296,7 +23296,8 @@
   "checked": "2026-11-04",
   "notes": [
    "Found by ChatGPT sweep (live).",
-   "Price cut: £5,000 to £4,675 on the live adverts (4 Nov)."
+   "Price cut: £5,000 to £4,675 on the live adverts (4 Nov).",
+   "Price cut on Onthemarket: £5,000 to £4,675 (2026-11-05)."
   ],
   "prices": [
    [
@@ -23313,6 +23314,11 @@
     "2026-11-04",
     4675,
     "rightmove"
+   ],
+   [
+    "2026-11-05",
+    4675,
+    "onthemarket"
    ]
   ],
   "station": {
