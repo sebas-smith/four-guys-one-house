@@ -334,6 +334,10 @@
 51.4884878,
 -0.290431
 ],
+"boundaries road|sw12": [
+51.4438083,
+-0.1541109
+],
 "boundary road|colliers wood": [
 51.4210159,
 -0.179737
@@ -1241,6 +1245,10 @@
 "hambalt road|clapham south": [
 51.45585,
 -0.1417675
+],
+"hambalt road|sw4": [
+51.4557028,
+-0.140068
 ],
 "hamilton road|sw19": [
 51.4172223,
@@ -2556,6 +2564,10 @@
 "summerley street|wandsworth": [
 51.4414294,
 -0.187372
+],
+"sunlight close|sw19": [
+51.4214767,
+-0.1886462
 ],
 "sutherland grove|putney": [
 51.4520855,

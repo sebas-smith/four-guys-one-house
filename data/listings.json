@@ -5054,7 +5054,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-11."
   ],
-  "checked": "2026-11-05",
+  "checked": "2026-11-06",
   "station": {
    "name": "Colliers Wood",
    "kind": "Tube",
@@ -6609,7 +6609,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04."
   ],
-  "checked": "2026-11-05",
+  "checked": "2026-11-06",
   "station": {
    "name": "Wandsworth Town",
    "kind": "Rail",
@@ -6657,7 +6657,7 @@
    "Price changed from £4,800 to £4,300 (2026-10-26).",
    "Price changed from £4,300 to £3,800 (2026-10-30)."
   ],
-  "checked": "2026-11-05",
+  "checked": "2026-11-06",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -6715,7 +6715,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck). Last checked 2026-10-09."
   ],
-  "checked": "2026-11-05",
+  "checked": "2026-11-06",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -11862,7 +11862,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
-  "checked": "2026-11-05",
+  "checked": "2026-11-06",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -19803,7 +19803,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-05",
+  "checked": "2026-11-06",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Bathrooms corrected to 2 from the advert (31 Oct)."
@@ -20435,7 +20435,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-05",
+  "checked": "2026-11-06",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -20720,7 +20720,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-05",
+  "checked": "2026-11-06",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21427,7 +21427,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-05",
+  "checked": "2026-11-06",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21521,7 +21521,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-05",
+  "checked": "2026-11-06",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21707,7 +21707,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-05",
+  "checked": "2026-11-06",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Bathrooms corrected to 1 from the advert (31 Oct)."
@@ -25330,7 +25330,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-11-05",
+  "checked": "2026-11-06",
   "notes": [
    "Found by ChatGPT sweep (unverified)."
   ],
@@ -25574,7 +25574,7 @@
   ],
   "source": "search",
   "added": "2026-10-25",
-  "checked": "2026-11-05",
+  "checked": "2026-11-06",
   "notes": [
    "Missed by the sweep; found in a portal coverage check on 25 Oct (OpenRent private landlord)."
   ],
@@ -28834,7 +28834,7 @@
     "openrent"
    ]
   ],
-  "checked": "2026-11-05"
+  "checked": "2026-11-06"
  },
  {
   "id": "zoopla-47543343",
@@ -28945,7 +28945,7 @@
   "source": "sweep",
   "added": "2026-11-02",
   "added_at": "2026-11-02T18:09Z",
-  "checked": "2026-11-05",
+  "checked": "2026-11-06",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -29061,7 +29061,7 @@
    "q5": 23,
    "wentworth": 49
   },
-  "checked": "2026-11-05"
+  "checked": "2026-11-06"
  },
  {
   "id": "onthemarket-20679740",
@@ -29602,7 +29602,7 @@
    "q5": 57,
    "wentworth": 42
   },
-  "checked": "2026-11-05"
+  "checked": "2026-11-06"
  },
  {
   "id": "onthemarket-17971169",
@@ -29766,15 +29766,16 @@
   "area": "SW12",
   "rent": 4250,
   "beds": 4,
-  "baths": null,
-  "available": "",
-  "sharers": "unknown",
+  "baths": 2,
+  "available": "2026-12-02",
+  "sharers": "ok",
   "status": "new",
   "url": "https://www.onthemarket.com/details/20704076/",
   "links": [
    "https://www.onthemarket.com/details/20704076/",
    "https://www.rightmove.co.uk/properties/95189325",
-   "https://www.zoopla.co.uk/to-rent/details/74701574/"
+   "https://www.zoopla.co.uk/to-rent/details/74701574/",
+   "https://www.hamptons.co.uk/properties/22293098/lettings/P331482"
   ],
   "source": "alert",
   "added": "2026-11-06",
@@ -29813,7 +29814,8 @@
    "tritax": 44,
    "q5": 43,
    "wentworth": 52
-  }
+  },
+  "checked": "2026-11-06"
  },
  {
   "id": "onthemarket-20705081",
@@ -29821,15 +29823,16 @@
   "area": "SW19",
   "rent": 4500,
   "beds": 4,
-  "baths": null,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
+  "baths": 2,
+  "available": "2026-12-31",
+  "sharers": "no",
+  "status": "no",
   "url": "https://www.onthemarket.com/details/20705081/",
   "links": [
    "https://www.onthemarket.com/details/20705081/",
    "https://www.zoopla.co.uk/to-rent/details/74702738/",
-   "https://www.rightmove.co.uk/properties/95194800"
+   "https://www.rightmove.co.uk/properties/95194800",
+   "https://www.hamptons.co.uk/properties/22293082/lettings/P331009"
   ],
   "source": "alert",
   "added": "2026-11-06",
@@ -29868,7 +29871,9 @@
    "tritax": 54,
    "q5": 44,
    "wentworth": 40
-  }
+  },
+  "ruled_out": "no sharers",
+  "checked": "2026-11-06"
  },
  {
   "id": "onthemarket-15859378",
@@ -29924,5 +29929,146 @@
    "q5": 43,
    "wentworth": 51
   }
+ },
+ {
+  "id": "foxtons-chpk0448407",
+  "title": "Boundaries Road, SW12 8EZ",
+  "area": "Balham",
+  "rent": 4250,
+  "beds": 4,
+  "baths": 1,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.foxtons.co.uk/properties-to-rent/sw12/chpk0448407",
+  "links": [
+   "https://www.foxtons.co.uk/properties-to-rent/sw12/chpk0448407"
+  ],
+  "source": "sweep",
+  "added": "2026-11-06",
+  "added_at": "2026-11-06T18:04Z",
+  "checked": "2026-11-06",
+  "notes": [
+   "Found by ChatGPT sweep (unverified)."
+  ],
+  "prices": [
+   [
+    "2026-11-06",
+    4250,
+    "foxtons"
+   ]
+  ],
+  "loc": [
+   51.4438083,
+   -0.1541109
+  ],
+  "station": {
+   "name": "Balham",
+   "kind": "Tube",
+   "walk": 2
+  },
+  "commute": {
+   "lcp": 41,
+   "tritax": 39,
+   "q5": 38,
+   "wentworth": 51
+  }
+ },
+ {
+  "id": "chestertons-22292815",
+  "title": "Hambalt Road, London, SW4",
+  "area": "Clapham",
+  "rent": 4500,
+  "beds": 4,
+  "baths": 4,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.chestertons.co.uk/properties/22292815/lettings/WBL210231",
+  "links": [
+   "https://www.chestertons.co.uk/properties/22292815/lettings/WBL210231"
+  ],
+  "source": "sweep",
+  "added": "2026-11-06",
+  "added_at": "2026-11-06T18:04Z",
+  "checked": "2026-11-06",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-11-06",
+    4500,
+    "chestertons"
+   ]
+  ],
+  "loc": [
+   51.4557028,
+   -0.140068
+  ],
+  "station": {
+   "name": "Clapham South",
+   "kind": "Tube",
+   "walk": 10
+  },
+  "commute": {
+   "lcp": 46,
+   "tritax": 44,
+   "q5": 42,
+   "wentworth": 55
+  }
+ },
+ {
+  "id": "onthemarket-20708552",
+  "title": "Sunlight Close, South Park Gardens, London, SW19, SW19 8TG",
+  "area": "Wimbledon",
+  "rent": 4500,
+  "beds": 4,
+  "baths": 1,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/95221710",
+  "links": [
+   "https://www.onthemarket.com/details/20708552/",
+   "https://www.rightmove.co.uk/properties/95221710",
+   "https://www.zoopla.co.uk/to-rent/details/74706761/",
+   "https://www.foxtons.co.uk/properties-to-rent/sw19/chpk2590829"
+  ],
+  "source": "sweep",
+  "added": "2026-11-06",
+  "added_at": "2026-11-06T18:04Z",
+  "checked": "2026-11-06",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-11-06",
+    4500,
+    "rightmove"
+   ],
+   [
+    "2026-11-06",
+    4500,
+    "onthemarket"
+   ]
+  ],
+  "loc": [
+   51.4214767,
+   -0.1886462
+  ],
+  "station": {
+   "name": "Haydons Road",
+   "kind": "Rail",
+   "walk": 7
+  },
+  "commute": {
+   "lcp": 58,
+   "tritax": 54,
+   "q5": 52,
+   "wentworth": 44
+  },
+  "photo": "https://media.onthemarket.com/properties/20708552/1657063345/image-0-1024x1024.jpg"
  }
 ]
