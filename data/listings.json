@@ -25780,7 +25780,9 @@
    "https://www.onthemarket.com/details/20670072/",
    "https://www.zoopla.co.uk/to-rent/details/74657468/",
    "https://www.zoopla.co.uk/to-rent/details/74612934/",
-   "https://www.onthemarket.com/details/20697380/"
+   "https://www.onthemarket.com/details/20697380/",
+   "https://www.zoopla.co.uk/to-rent/details/74704040/",
+   "https://www.onthemarket.com/details/20706195/"
   ],
   "source": "agent",
   "added": "2026-10-26",
@@ -29757,5 +29759,170 @@
   },
   "checked": "2026-11-06",
   "photo": "https://media.onthemarket.com/properties/20699030/1656834848/image-0-1024x1024.jpg"
+ },
+ {
+  "id": "onthemarket-20704076",
+  "title": "Bedford Hill London SW12",
+  "area": "SW12",
+  "rent": 4250,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20704076/",
+  "links": [
+   "https://www.onthemarket.com/details/20704076/",
+   "https://www.rightmove.co.uk/properties/95189325",
+   "https://www.zoopla.co.uk/to-rent/details/74701574/"
+  ],
+  "source": "alert",
+  "added": "2026-11-06",
+  "added_at": "2026-11-06T11:10Z",
+  "notes": [
+   "From an email on 2026-11-06: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-06",
+    4250,
+    "onthemarket"
+   ],
+   [
+    "2026-11-06",
+    4250,
+    "rightmove"
+   ],
+   [
+    "2026-11-06",
+    4250,
+    "zoopla"
+   ]
+  ],
+  "loc": [
+   51.4401658,
+   -0.1482971
+  ],
+  "station": {
+   "name": "Balham",
+   "kind": "Tube",
+   "walk": 8
+  },
+  "commute": {
+   "lcp": 46,
+   "tritax": 44,
+   "q5": 43,
+   "wentworth": 52
+  }
+ },
+ {
+  "id": "onthemarket-20705081",
+  "title": "Dundonald Road London SW19",
+  "area": "SW19",
+  "rent": 4500,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20705081/",
+  "links": [
+   "https://www.onthemarket.com/details/20705081/",
+   "https://www.zoopla.co.uk/to-rent/details/74702738/",
+   "https://www.rightmove.co.uk/properties/95194800"
+  ],
+  "source": "alert",
+  "added": "2026-11-06",
+  "added_at": "2026-11-06T12:49Z",
+  "notes": [
+   "From an email on 2026-11-06: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-06",
+    4500,
+    "onthemarket"
+   ],
+   [
+    "2026-11-06",
+    4500,
+    "zoopla"
+   ],
+   [
+    "2026-11-06",
+    4500,
+    "rightmove"
+   ]
+  ],
+  "loc": [
+   51.4170332,
+   -0.2078103
+  ],
+  "station": {
+   "name": "Wimbledon",
+   "kind": "Tube",
+   "walk": 9
+  },
+  "commute": {
+   "lcp": 55,
+   "tritax": 54,
+   "q5": 44,
+   "wentworth": 40
+  }
+ },
+ {
+  "id": "onthemarket-15859378",
+  "title": "Stonells Road, London, SW11",
+  "area": "SW11",
+  "rent": 5000,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/15859378/",
+  "links": [
+   "https://www.onthemarket.com/details/15859378/",
+   "https://www.zoopla.co.uk/to-rent/details/68390242/",
+   "https://www.rightmove.co.uk/properties/95199507"
+  ],
+  "source": "alert",
+  "added": "2026-11-06",
+  "added_at": "2026-11-06T13:23Z",
+  "notes": [
+   "From an email on 2026-11-06: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-06",
+    5000,
+    "onthemarket"
+   ],
+   [
+    "2026-11-06",
+    5000,
+    "zoopla"
+   ],
+   [
+    "2026-11-06",
+    5000,
+    "rightmove"
+   ]
+  ],
+  "loc": [
+   51.4550911,
+   -0.1625207
+  ],
+  "station": {
+   "name": "Wandsworth Common",
+   "kind": "Rail",
+   "walk": 16
+  },
+  "commute": {
+   "lcp": 56,
+   "tritax": 54,
+   "q5": 43,
+   "wentworth": 51
+  }
  }
 ]
