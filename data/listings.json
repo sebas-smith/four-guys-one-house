@@ -29424,7 +29424,8 @@
   "links": [
    "https://www.zoopla.co.uk/to-rent/details/74689037/",
    "https://www.rightmove.co.uk/properties/95144457",
-   "https://www.chestertons.co.uk/properties/22288451/lettings/HEA740133"
+   "https://www.chestertons.co.uk/properties/22288451/lettings/HEA740133",
+   "https://www.onthemarket.com/details/20702188/"
   ],
   "source": "alert",
   "added": "2026-11-05",
@@ -29442,6 +29443,11 @@
     "2026-11-05",
     3900,
     "rightmove"
+   ],
+   [
+    "2026-11-06",
+    3900,
+    "onthemarket"
    ]
   ],
   "loc": [
