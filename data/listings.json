@@ -5185,7 +5185,7 @@
   "id": "openrent-2923219",
   "title": "St. Ann's Park Road",
   "area": "Wandsworth",
-  "rent": 4700,
+  "rent": 4500,
   "beds": 4,
   "baths": 2,
   "available": "22 October, 2026",
@@ -5224,7 +5224,8 @@
    "Found by ChatGPT sweep (live).",
    "Merged in hamptons-22254628: the same house (3 Nov audit).",
    "Price cut: £4,750 to £4,690 on the live adverts (4 Nov).",
-   "Price rise: £4,690 to £4,700 on the live adverts (5 Nov)."
+   "Price rise: £4,690 to £4,700 on the live adverts (5 Nov).",
+   "Price cut on Rightmove: £4,700 to £4,500 (2026-11-06)."
   ],
   "checked": "2026-11-05",
   "station": {
@@ -5302,6 +5303,11 @@
     "2026-11-05",
     4750,
     "zoopla"
+   ],
+   [
+    "2026-11-06",
+    4500,
+    "rightmove"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/c1884ddc6/94093686/c1884ddc65530d8c9d8eb7ef7dcb0e44_max_476x317.jpeg",
