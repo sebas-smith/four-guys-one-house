@@ -25834,7 +25834,9 @@
    "https://www.zoopla.co.uk/to-rent/details/74612934/",
    "https://www.onthemarket.com/details/20697380/",
    "https://www.zoopla.co.uk/to-rent/details/74704040/",
-   "https://www.onthemarket.com/details/20706195/"
+   "https://www.onthemarket.com/details/20706195/",
+   "https://www.zoopla.co.uk/to-rent/details/74712797/",
+   "https://www.onthemarket.com/details/20712644/"
   ],
   "source": "agent",
   "added": "2026-10-26",
@@ -28551,7 +28553,8 @@
   "url": "https://www.rightmove.co.uk/properties/92745345",
   "links": [
    "https://www.rightmove.co.uk/properties/92745345",
-   "https://www.onthemarket.com/details/20266565/"
+   "https://www.onthemarket.com/details/20266565/",
+   "https://www.zoopla.co.uk/to-rent/details/74710340/"
   ],
   "source": "backfill",
   "added": "2026-10-31",
@@ -28577,6 +28580,11 @@
     "2026-11-04",
     3800,
     "rightmove"
+   ],
+   [
+    "2026-11-07",
+    3800,
+    "zoopla"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/908fd60a5/92745345/908fd60a560050113f4feb73c4b90161_max_476x317.jpeg",
@@ -30156,7 +30164,9 @@
   "status": "new",
   "url": "https://www.onthemarket.com/details/15025111/",
   "links": [
-   "https://www.onthemarket.com/details/15025111/"
+   "https://www.onthemarket.com/details/15025111/",
+   "https://www.rightmove.co.uk/properties/95231157",
+   "https://www.zoopla.co.uk/to-rent/details/67562228/"
   ],
   "source": "alert",
   "added": "2026-11-07",
@@ -30169,6 +30179,16 @@
     "2026-11-07",
     5000,
     "onthemarket"
+   ],
+   [
+    "2026-11-07",
+    5000,
+    "rightmove"
+   ],
+   [
+    "2026-11-07",
+    5000,
+    "zoopla"
    ]
   ],
   "loc": [
@@ -30201,7 +30221,9 @@
   "status": "new",
   "url": "https://www.onthemarket.com/details/20710650/",
   "links": [
-   "https://www.onthemarket.com/details/20710650/"
+   "https://www.onthemarket.com/details/20710650/",
+   "https://www.rightmove.co.uk/properties/95232249",
+   "https://www.zoopla.co.uk/to-rent/details/74710214/"
   ],
   "source": "alert",
   "added": "2026-11-07",
@@ -30214,6 +30236,16 @@
     "2026-11-07",
     4750,
     "onthemarket"
+   ],
+   [
+    "2026-11-07",
+    4750,
+    "rightmove"
+   ],
+   [
+    "2026-11-07",
+    4750,
+    "zoopla"
    ]
   ],
   "loc": [
