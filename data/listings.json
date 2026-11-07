@@ -30223,7 +30223,8 @@
   "links": [
    "https://www.onthemarket.com/details/20710650/",
    "https://www.rightmove.co.uk/properties/95232249",
-   "https://www.zoopla.co.uk/to-rent/details/74710214/"
+   "https://www.zoopla.co.uk/to-rent/details/74710214/",
+   "https://www.openrent.co.uk/3102893"
   ],
   "source": "alert",
   "added": "2026-11-07",
@@ -30246,6 +30247,11 @@
     "2026-11-07",
     4750,
     "zoopla"
+   ],
+   [
+    "2026-11-07",
+    4750,
+    "openrent"
    ]
   ],
   "loc": [
