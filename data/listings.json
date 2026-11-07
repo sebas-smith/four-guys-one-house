@@ -30070,5 +30070,48 @@
    "wentworth": 44
   },
   "photo": "https://media.onthemarket.com/properties/20708552/1657063345/image-0-1024x1024.jpg"
+ },
+ {
+  "id": "onthemarket-15025111",
+  "title": "Burstock Road",
+  "area": "",
+  "rent": 5000,
+  "beds": 5,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/15025111/",
+  "links": [
+   "https://www.onthemarket.com/details/15025111/"
+  ],
+  "source": "alert",
+  "added": "2026-11-07",
+  "added_at": "2026-11-07T01:03Z",
+  "notes": [
+   "From an email on 2026-11-07: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-07",
+    5000,
+    "onthemarket"
+   ]
+  ],
+  "loc": [
+   51.4636239,
+   -0.2136315
+  ],
+  "station": {
+   "name": "Putney",
+   "kind": "Rail",
+   "walk": 5
+  },
+  "commute": {
+   "lcp": 53,
+   "tritax": 51,
+   "q5": 41,
+   "wentworth": 44
+  }
  }
 ]
