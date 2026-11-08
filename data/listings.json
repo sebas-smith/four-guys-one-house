@@ -23385,7 +23385,8 @@
    "Found by ChatGPT sweep (live).",
    "Price cut on Onthemarket: £3,600 to £3,500 (2026-11-03).",
    "Price cut on Rightmove: £3,600 to £3,500 (2026-11-03).",
-   "Price cut on Onthemarket: £3,500 to £3,350 (2026-11-08)."
+   "Price cut on Onthemarket: £3,500 to £3,350 (2026-11-08).",
+   "Price cut on Rightmove: £3,500 to £3,350 (2026-11-08)."
   ],
   "prices": [
    [
@@ -23412,6 +23413,11 @@
     "2026-11-08",
     3350,
     "onthemarket"
+   ],
+   [
+    "2026-11-08",
+    3350,
+    "rightmove"
    ]
   ],
   "station": {
