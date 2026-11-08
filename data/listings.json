@@ -23365,7 +23365,7 @@
   "id": "zoopla-71454331",
   "title": "Graveney Road, Tooting, London SW17",
   "area": "Tooting",
-  "rent": 3500,
+  "rent": 3350,
   "beds": 4,
   "baths": 1,
   "available": "2026-11-27",
@@ -23384,7 +23384,8 @@
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Price cut on Onthemarket: £3,600 to £3,500 (2026-11-03).",
-   "Price cut on Rightmove: £3,600 to £3,500 (2026-11-03)."
+   "Price cut on Rightmove: £3,600 to £3,500 (2026-11-03).",
+   "Price cut on Onthemarket: £3,500 to £3,350 (2026-11-08)."
   ],
   "prices": [
    [
@@ -23406,6 +23407,11 @@
     "2026-11-03",
     3500,
     "rightmove"
+   ],
+   [
+    "2026-11-08",
+    3350,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -25878,7 +25884,8 @@
    "Merged in zoopla-74650057: the same house (3 Nov audit).",
    "From an email on 2026-11-02: New properties in London (drawn area)",
    "Advert taken down on OnTheMarket (3 Nov).",
-   "Merged in onthemarket-20670072: the same house (3 Nov audit)."
+   "Merged in onthemarket-20670072: the same house (3 Nov audit).",
+   "Price cut on Zoopla: £4,147 to £4,000 (2026-11-08)."
   ],
   "prices": [
    [
@@ -30337,5 +30344,48 @@
   },
   "photo": "https://media.onthemarket.com/properties/20710688/1657184782/image-0-1024x1024.png",
   "checked": "2026-11-08"
+ },
+ {
+  "id": "openrent-3103524",
+  "title": "Lexton Gardens, SW12",
+  "area": "SW12",
+  "rent": 4500,
+  "beds": 5,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.openrent.co.uk/3103524",
+  "links": [
+   "https://www.openrent.co.uk/3103524"
+  ],
+  "source": "alert",
+  "added": "2026-11-08",
+  "added_at": "2026-11-08T16:14Z",
+  "notes": [
+   "From an email on 2026-11-08: New properties found for your search: Wandsworth, London"
+  ],
+  "prices": [
+   [
+    "2026-11-08",
+    4500,
+    "openrent"
+   ]
+  ],
+  "loc": [
+   51.4444967,
+   -0.132011
+  ],
+  "station": {
+   "name": "Streatham Hill",
+   "kind": "Rail",
+   "walk": 12
+  },
+  "commute": {
+   "lcp": 52,
+   "tritax": 50,
+   "q5": 49,
+   "wentworth": 55
+  }
  }
 ]
