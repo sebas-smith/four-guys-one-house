@@ -30393,5 +30393,48 @@
    "q5": 49,
    "wentworth": 55
   }
+ },
+ {
+  "id": "onthemarket-17394532",
+  "title": "Bloemfontein Avenue, Shepherds Bush, W12",
+  "area": "Shepherds Bush",
+  "rent": 4395,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/17394532/",
+  "links": [
+   "https://www.onthemarket.com/details/17394532/"
+  ],
+  "source": "alert",
+  "added": "2026-11-09",
+  "added_at": "2026-11-09T10:20Z",
+  "notes": [
+   "From an email on 2026-11-09: Reduced price properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-09",
+    4395,
+    "onthemarket"
+   ]
+  ],
+  "loc": [
+   51.5070955,
+   -0.2340919
+  ],
+  "station": {
+   "name": "Shepherd's Bush Market",
+   "kind": "Tube",
+   "walk": 9
+  },
+  "commute": {
+   "lcp": 38,
+   "tritax": 41,
+   "q5": 52,
+   "wentworth": 40
+  }
  }
 ]
