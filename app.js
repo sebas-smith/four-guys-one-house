@@ -2,12 +2,12 @@
 const STATUS = { no: "Ruled out", gone: "Gone / let" };
 const CLOSED = ["no", "gone"];
 const TARGET_PP = 1000, MAX_PP = 1200, PEOPLE = 4, PAGE = 60;
-// A standout: live, about £4,000 (up to £4,100), 4+ beds, 2+ baths, short walk to a station, sharers not ruled out.
-// Also: checked in the last few days, no advert let or taken down, beds/baths plausible, not flagged
-// unverified, not a placeholder row.
-const STANDOUT = { rent: 4100, beds: 4, baths: 2, walk: 8, checked: 3 };
+// A standout: live, about £4,000 (up to £4,100), 4+ beds, short walk to a station, sharers not ruled out.
+// Baths don't count (Seb's choice, 10 Nov): alert emails rarely give them. Also: checked in the last few
+// days, no advert let or taken down, not flagged unverified, not a placeholder row.
+const STANDOUT = { rent: 4100, beds: 4, walk: 10, checked: 3 };
 const standout = (r) => !CLOSED.includes(r.status) && !r.off_market && r.rent && r.rent <= STANDOUT.rent && r.beds >= STANDOUT.beds &&
-  r.baths >= STANDOUT.baths && r.baths <= r.beds && r.station && r.station.walk <= STANDOUT.walk && r.sharers !== "no" &&
+  r.station && r.station.walk <= STANDOUT.walk && r.sharers !== "no" &&
   daysAgo(r.checked) <= STANDOUT.checked && !(r.notes || []).some((t) => /unverified/i.test(t)) &&
   !placeholder(r) && !/^unverified geography$/i.test(r.title || "");
 // Rows made from an alert email before the advert has been read, e.g. "Zoopla listing 74416902".

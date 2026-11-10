@@ -7,9 +7,9 @@ const CLOSED = ["no", "gone"];
 const TARGET_PP = 1000, MAX_PP = 1200, PEOPLE = 4, PAGE = 60;
 // Rough monthly bills per person: council tax, energy, water and broadband split four ways. An estimate, not from adverts.
 const BILLS_PP = 120;
-const STANDOUT = { rent: 4100, beds: 4, baths: 2, walk: 8, checked: 3 };
+const STANDOUT = { rent: 4100, beds: 4, walk: 10, checked: 3 };
 const standout = (r) => !CLOSED.includes(r.status) && !r.off_market && r.rent && r.rent <= STANDOUT.rent && r.beds >= STANDOUT.beds &&
-  r.baths >= STANDOUT.baths && r.baths <= r.beds && r.station && r.station.walk <= STANDOUT.walk && r.sharers !== "no" &&
+  r.station && r.station.walk <= STANDOUT.walk && r.sharers !== "no" &&
   daysAgo(r.checked) <= STANDOUT.checked && !(r.notes || []).some((t) => /unverified/i.test(t)) &&
   !placeholder(r) && !/^unverified geography$/i.test(r.title || "");
 const placeholder = (r) => /^[a-z]+ listing \d+$/i.test(r.title || "");

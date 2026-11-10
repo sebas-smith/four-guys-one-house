@@ -21,7 +21,7 @@
   // ---- Rules, the same as the root app.js --------------------------------------------------------
   const CLOSED = ["no", "gone"];
   const TARGET_PP = 1000, MAX_PP = 1200, PEOPLE = 4;
-  const STANDOUT = { rent: 4100, beds: 4, baths: 2, walk: 8, checked: 3 };
+  const STANDOUT = { rent: 4100, beds: 4, walk: 10, checked: 3 };
   const placeholder = (r) => /^[a-z]+ listing \d+$/i.test(r.title || "");
   function localDate(iso) { const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso || ""); return m ? new Date(+m[1], m[2] - 1, +m[3]) : null; }
   function daysAgo(iso) {
@@ -29,7 +29,7 @@
     return d ? Math.round((new Date(now.getFullYear(), now.getMonth(), now.getDate()) - d) / 864e5) : Infinity;
   }
   const standoutRule = (r) => !CLOSED.includes(r.status) && !r.off_market && r.rent && r.rent <= STANDOUT.rent && r.beds >= STANDOUT.beds &&
-    r.baths >= STANDOUT.baths && r.baths <= r.beds && r.station && r.station.walk <= STANDOUT.walk && r.sharers !== "no" &&
+    r.station && r.station.walk <= STANDOUT.walk && r.sharers !== "no" &&
     daysAgo(r.checked) <= STANDOUT.checked && !(r.notes || []).some((t) => /unverified/i.test(t)) &&
     !placeholder(r) && !/^unverified geography$/i.test(r.title || "");
   const SITE = {
