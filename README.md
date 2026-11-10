@@ -45,17 +45,30 @@ Site: https://sebas-smith.github.io/four-guys-one-house/
   market"): its page data says `"status":"retracted"`. A short page or a captcha/rate-limit page counts
   as unknown, never "removed". While it reads an advert it also saves the home's main photo (`photo`).
   Rightmove and OnTheMarket work from GitHub; Zoopla, OpenRent and Jacksons/Hamptons-style agent
-  sites block it, so those links are skipped.
+  sites block it, so those links are skipped (the last log line counts unread adverts by site). When
+  every advert it can read is down but others couldn't be read, the home isn't marked gone: it stays
+  listed with an `off_market` warning ("... advert not checked yet", `unconfirmed: true`, and
+  `unconfirmed` holding the first day) and goes into `data/recheck.json`, which the ChatGPT sweep opens
+  each evening. A sweep row saying live clears the warning (`merge_sweep.py`); saying let marks it gone;
+  after 5 days (`HOLD_DAYS`) with neither, it's marked gone.
 - `scripts/agent_feeds.py` runs with the email reader and adds Marsh & Parsons homes straight from its
   website (many never reach the portals), keeping only those inside the drawn area. Its rents are
   weekly whole pounds, so £1,154 pw is read as £5,000, not £5,001.
-- `scripts/stations.py` adds the nearest station and walk time; `scripts/dedupe.py` merges duplicates.
+- `scripts/stations.py` adds the nearest station and walk time. It takes the home's position from the
+  advert's map pin (`check_live.coords`: Rightmove, OnTheMarket, Zoopla, OpenRent, schema.org on Foxtons
+  and agents), and only falls back to looking up the street on OpenStreetMap, which misses streets like
+  "High Street, SW18" or titles with no street. `scripts/dedupe.py` merges duplicates.
   Two adverts on the same portal are only merged into one home when one of the home's adverts is
   already down and the new one has the same street, beds and rent within £50 (a relist); otherwise a
   street often has several similar homes at one price. A sweep row's links that already belong to
   another home stay there. Hamptons links are matched on their P-reference (`P328691`), which survives
   a relist; the property number doesn't. When the drawn area grows, alerts only email adverts listed after that, so
   search the whole area once for homes already on the market (done 31 Oct for Rightmove).
+  `scripts/photo_dupes.py` catches what that rule lets through (an agent's relist under a new advert
+  number, a second agent's advert): for live homes on the same street or within 250 m, same beds, rent
+  within 8%, it compares the advert photos by difference hash (cached in `data/photos.json`). 3+ photos
+  in common (2 for small galleries) merges them; 4+ photos each with at most 1 in common records both in
+  `not_same`; anything else is retried next run. The alerts and sweep workflows run it after `stations.py`.
   `scripts/split_merged.py` was a one-off (25 Oct) that split homes merged by mistake.
 - `scripts/commutes.py` runs after `stations.py` and times each live home's journey to our workplaces
   (`data/workplaces.json`: LCP on Wigmore Street, Tritax in Soho, Q5 in Westminster by public transport

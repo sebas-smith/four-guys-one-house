@@ -65,6 +65,13 @@ Read README.md first: it explains the search, the data and every script and work
   set on Faraday Road and Merton Road pairs. Zoopla saved search "Putney" recreated (id 33554557) excluding
   house shares, student and retirement homes. OpenRent: Chrome is signed out of the bot and it needs the
   password typed, so its three alerts are unchecked until Seb signs in.
+- 10 Nov: "one new home a day" was the Standouts tab, not the pipeline (about 5 homes a day arrive). At Seb's
+  request Standouts no longer need 2+ baths and allow a 10-minute walk. New `photo_dupes.py` (alerts and sweep
+  workflows) merges same-house adverts by photo hash and records non-matches in `not_same`: 12 merged on the first
+  runs. `stations.py` takes positions from the advert's map pin first. `check_live.py` no longer marks a home gone
+  while unread adverts (Zoopla/OpenRent/agents) remain: it holds it up to 5 days and lists it in `data/recheck.json`
+  for the ChatGPT sweep. A local recheck of 164 gone homes brought back 5 (Wadham Road, Cranford Close, Hubert
+  Grove, Alderbrook Road, and Strathearn Road with a let warning).
 - `AGENTS.md` is a Codex copy of this file ("Claude" -> "Codex"); regenerate it when this file changes.
 
 ## Next steps

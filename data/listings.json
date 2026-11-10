@@ -1423,7 +1423,8 @@
   ],
   "down": [
    "https://www.foxtons.co.uk/properties-to-rent/sw17/chpk0257377",
-   "https://www.rightmove.co.uk/properties/93275850"
+   "https://www.rightmove.co.uk/properties/93275850",
+   "https://www.zoopla.co.uk/to-rent/details/74268053/"
   ]
  },
  {
@@ -1642,6 +1643,7 @@
   "down": [
    "https://www.foxtons.co.uk/properties-to-rent/sw15/chpk0403321",
    "https://www.rightmove.co.uk/properties/91832763",
+   "https://www.zoopla.co.uk/to-rent/details/73699214/",
    "https://www.onthemarket.com/details/19917109/"
   ],
   "off_market": {
@@ -1696,7 +1698,8 @@
   ],
   "down": [
    "https://www.foxtons.co.uk/properties-to-rent/sw15/chpk0413730",
-   "https://www.rightmove.co.uk/properties/92746605"
+   "https://www.rightmove.co.uk/properties/92746605",
+   "https://www.zoopla.co.uk/to-rent/details/74038056/"
   ]
  },
  {
@@ -1749,6 +1752,7 @@
   "down": [
    "https://www.foxtons.co.uk/properties-to-rent/sw15/chpk0432104",
    "https://www.rightmove.co.uk/properties/91270602",
+   "https://www.zoopla.co.uk/to-rent/details/73802993/",
    "https://www.onthemarket.com/details/19997067/"
   ]
  },
@@ -1909,7 +1913,9 @@
    "https://www.rightmove.co.uk/properties/94224747",
    "https://www.rightmove.co.uk/properties/94224756",
    "https://www.onthemarket.com/details/20528766/",
-   "https://www.onthemarket.com/details/20528767/"
+   "https://www.onthemarket.com/details/20528767/",
+   "https://www.zoopla.co.uk/to-rent/details/74488367/",
+   "https://www.zoopla.co.uk/to-rent/details/74488368/"
   ]
  },
  {
@@ -2153,6 +2159,7 @@
    "https://www.foxtons.co.uk/properties-to-rent/sw18/chpk2611532",
    "https://www.foxtons.co.uk/properties-to-rent/sw18/chpk2611474",
    "https://www.rightmove.co.uk/properties/92503911",
+   "https://www.zoopla.co.uk/to-rent/details/74092689/",
    "https://www.onthemarket.com/details/20227646/"
   ],
   "off_market": {
@@ -2492,6 +2499,7 @@
   "down": [
    "https://www.foxtons.co.uk/properties-to-rent/sw12/chpk3403623",
    "https://www.rightmove.co.uk/properties/93191157",
+   "https://www.zoopla.co.uk/to-rent/details/74251025/",
    "https://www.onthemarket.com/details/20345686/"
   ]
  },
@@ -4591,7 +4599,9 @@
   },
   "down": [
    "https://www.rightmove.co.uk/properties/90845700",
-   "https://www.onthemarket.com/details/19834258/"
+   "https://www.zoopla.co.uk/to-rent/details/73592815/",
+   "https://www.onthemarket.com/details/19834258/",
+   "https://www.zoopla.co.uk/to-rent/details/73541680/"
   ],
   "off_market": {
    "why": "Advert taken down on Rightmove",
@@ -4621,7 +4631,7 @@
    "Marked gone: advert shows let agreed (2026-10-20).",
    "Advert taken down on Zoopla (25 Oct)."
   ],
-  "checked": "2026-10-31",
+  "checked": "2026-11-10",
   "station": {
    "name": "Clapham South",
    "kind": "Tube",
@@ -4636,11 +4646,14 @@
   ],
   "off_market": {
    "why": "Advert taken down on Zoopla",
-   "checked": "2026-10-31"
+   "checked": "2026-11-10"
   },
   "loc": [
    51.4487142,
    -0.146339
+  ],
+  "down": [
+   "https://www.zoopla.co.uk/to-rent/details/73698297/"
   ]
  },
  {
@@ -4696,6 +4709,7 @@
   },
   "down": [
    "https://www.rightmove.co.uk/properties/92631645",
+   "https://www.zoopla.co.uk/to-rent/details/74119671/",
    "https://www.onthemarket.com/details/20246666/"
   ]
  },
@@ -4804,7 +4818,8 @@
   "down": [
    "https://www.onthemarket.com/details/20247386/",
    "https://www.rightmove.co.uk/properties/92636115",
-   "https://www.rightmove.co.uk/properties/93117981"
+   "https://www.rightmove.co.uk/properties/93117981",
+   "https://www.zoopla.co.uk/to-rent/details/74120463/"
   ]
  },
  {
@@ -5143,7 +5158,7 @@
    "Marked gone: advert shows let agreed (2026-10-20).",
    "Let agreed on OpenRent (25 Oct)."
   ],
-  "checked": "2026-10-31",
+  "checked": "2026-11-10",
   "station": {
    "name": "Queenstown Road",
    "kind": "Rail",
@@ -5158,11 +5173,14 @@
   ],
   "off_market": {
    "why": "Let agreed on OpenRent",
-   "checked": "2026-10-31"
+   "checked": "2026-11-10"
   },
   "loc": [
    51.4736441,
    -0.1543991
+  ],
+  "down": [
+   "https://www.openrent.co.uk/property-to-rent/london/4-bed-flat-charlotte-despard-avenue-sw11/2626896"
   ]
  },
  {
@@ -5415,7 +5433,7 @@
    "Marked gone: advert shows removed (2026-10-18).",
    "Let agreed on OpenRent (25 Oct)."
   ],
-  "checked": "2026-10-31",
+  "checked": "2026-11-10",
   "station": {
    "name": "Wimbledon",
    "kind": "Tube",
@@ -5430,11 +5448,14 @@
   ],
   "off_market": {
    "why": "Let agreed on OpenRent",
-   "checked": "2026-10-31"
+   "checked": "2026-11-10"
   },
   "loc": [
    51.4263312,
    -0.2008793
+  ],
+  "down": [
+   "https://www.openrent.co.uk/property-to-rent/london/4-bed-terraced-house-strathearn-road-sw19/2924031"
   ]
  },
  {
@@ -5543,7 +5564,8 @@
    "Let agreed on Rightmove, still live on OnTheMarket (29 Oct).",
    "Let agreed on OnTheMarket, still live on OnTheMarket (31 Oct).",
    "Let agreed on OpenRent (31 Oct).",
-   "Advert taken down on Rightmove (1 Nov)."
+   "Advert taken down on Rightmove (1 Nov).",
+   "Let agreed on OpenRent (10 Nov)."
   ],
   "checked": "2026-11-10",
   "station": {
@@ -5564,7 +5586,7 @@
    ]
   ],
   "off_market": {
-   "why": "Advert taken down on Rightmove",
+   "why": "Let agreed on OpenRent",
    "checked": "2026-11-10"
   },
   "loc": [
@@ -5572,8 +5594,11 @@
    -0.2309844
   ],
   "down": [
+   "https://www.openrent.co.uk/property-to-rent/london/4-bed-terraced-house-firstway-sw20/2957437",
    "https://www.rightmove.co.uk/properties/89614338",
+   "https://www.zoopla.co.uk/to-rent/details/73437818/",
    "https://www.rightmove.co.uk/properties/92341998",
+   "https://www.zoopla.co.uk/to-rent/details/74056219/",
    "https://www.onthemarket.com/details/19704689/",
    "https://www.onthemarket.com/details/20198775/",
    "https://www.kfh.co.uk/property-to-rent/4-bedroom-terraced-apartment-to-rent-in-firstway-london-sw20-52503/"
@@ -5639,7 +5664,8 @@
    "Let agreed on OpenRent, still live on OnTheMarket (25 Oct).",
    "Advert live on OnTheMarket (26 Oct).",
    "Let agreed on OpenRent (31 Oct).",
-   "Advert taken down on Rightmove (1 Nov)."
+   "Advert taken down on Rightmove (1 Nov).",
+   "Let agreed on OpenRent (10 Nov)."
   ],
   "checked": "2026-11-10",
   "station": {
@@ -5655,7 +5681,7 @@
    ]
   ],
   "off_market": {
-   "why": "Advert taken down on Rightmove",
+   "why": "Let agreed on OpenRent",
    "checked": "2026-11-10"
   },
   "loc": [
@@ -5663,7 +5689,9 @@
    -0.211124
   ],
   "down": [
+   "https://www.openrent.co.uk/property-to-rent/wimbledon/4-bed-penthouse-raymond-road-sw19/2993505",
    "https://www.rightmove.co.uk/properties/91951278",
+   "https://www.zoopla.co.uk/to-rent/details/73901888/",
    "https://www.onthemarket.com/details/20078335/"
   ]
  },
@@ -5846,7 +5874,8 @@
    "Let agreed on OpenRent (25 Oct).",
    "Advert taken down on Rightmove (26 Oct).",
    "Let agreed on OpenRent (31 Oct).",
-   "Advert taken down on Rightmove (1 Nov)."
+   "Advert taken down on Rightmove (1 Nov).",
+   "Let agreed on OpenRent (10 Nov)."
   ],
   "checked": "2026-11-10",
   "station": {
@@ -5862,7 +5891,7 @@
    ]
   ],
   "off_market": {
-   "why": "Advert taken down on Rightmove",
+   "why": "Let agreed on OpenRent",
    "checked": "2026-11-10"
   },
   "loc": [
@@ -5870,7 +5899,9 @@
    -0.1593596
   ],
   "down": [
-   "https://www.rightmove.co.uk/properties/92058864"
+   "https://www.openrent.co.uk/property-to-rent/london/4-bed-terraced-house-brudenell-road-sw17/3006244",
+   "https://www.rightmove.co.uk/properties/92058864",
+   "https://www.zoopla.co.uk/to-rent/details/73992260/"
   ]
  },
  {
@@ -5894,7 +5925,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-05.",
-   "Advert taken down on Rightmove (8 Nov)."
+   "Advert taken down on Rightmove (8 Nov).",
+   "Let agreed on OpenRent (10 Nov)."
   ],
   "checked": "2026-11-10",
   "station": {
@@ -5926,11 +5958,13 @@
    "wentworth": 45
   },
   "down": [
+   "https://www.openrent.co.uk/property-to-rent/london/4-bed-maisonette-pearson-house-sw15/3008276",
    "https://www.rightmove.co.uk/properties/93909945",
+   "https://www.zoopla.co.uk/to-rent/details/74418048/",
    "https://www.onthemarket.com/details/20472941/"
   ],
   "off_market": {
-   "why": "Advert taken down on Rightmove",
+   "why": "Let agreed on OpenRent",
    "checked": "2026-11-10"
   }
  },
@@ -6282,7 +6316,16 @@
     "openrent"
    ]
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-10-31",
+  "loc": [
+   51.490612,
+   -0.374646
+  ],
+  "station": {
+   "name": "Kew Bridge",
+   "kind": "Rail",
+   "walk": 97
+  }
  },
  {
   "id": "openrent-3028221",
@@ -6331,13 +6374,18 @@
   "baths": 3,
   "available": "2026-10-31",
   "sharers": "unknown",
-  "status": "gone",
+  "status": "new",
   "url": "https://www.rightmove.co.uk/properties/93525720",
   "links": [
    "https://www.openrent.co.uk/property-to-rent/london/4-bed-semi-detached-house-wadham-road-sw15/3028882",
    "https://www.rightmove.co.uk/properties/93525720",
    "https://www.zoopla.co.uk/to-rent/details/74329182/",
-   "https://search.savills.com/property-detail/gbpurepul250006l"
+   "https://search.savills.com/property-detail/gbpurepul250006l",
+   "https://www.onthemarket.com/details/20406560/",
+   "https://www.rightmove.co.uk/properties/94936611",
+   "https://www.onthemarket.com/details/16589505/",
+   "https://www.rightmove.co.uk/properties/95079150",
+   "https://www.zoopla.co.uk/to-rent/details/69487045/"
   ],
   "source": "import",
   "added": "2026-09-25",
@@ -6345,7 +6393,12 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
    "Advert taken down on Rightmove (19 Oct).",
    "Advert live on OpenRent (31 Oct).",
-   "Advert taken down on Rightmove (1 Nov)."
+   "Advert taken down on Rightmove (1 Nov).",
+   "Advert live on OpenRent (10 Nov).",
+   "From an email on 2026-10-30: New properties in London (drawn area)",
+   "Found by ChatGPT sweep (live).",
+   "Merged in onthemarket-16589505: the same house (3 Nov audit).",
+   "Same house as onthemarket-20406560 by its photos; merged (10 Nov)."
   ],
   "checked": "2026-11-10",
   "station": {
@@ -6358,6 +6411,26 @@
     "2026-09-25",
     4000,
     "rightmove"
+   ],
+   [
+    "2026-10-30",
+    4000,
+    "onthemarket"
+   ],
+   [
+    "2026-10-31",
+    4000,
+    "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4000,
+    "rightmove"
+   ],
+   [
+    "2026-11-03",
+    4000,
+    "onthemarket"
    ]
   ],
   "photo": "https://lid.zoocdn.com/u/480/360/28b2b64218db3f0b046f81b6444863271cdb283b.jpg",
@@ -6370,10 +6443,6 @@
    "tritax": 50,
    "q5": 44,
    "wentworth": 44
-  },
-  "off_market": {
-   "why": "Advert taken down on Rightmove",
-   "checked": "2026-11-10"
   },
   "down": [
    "https://www.rightmove.co.uk/properties/93525720"
@@ -6715,12 +6784,15 @@
   "url": "https://www.zoopla.co.uk/to-rent/details/74391940/",
   "links": [
    "https://www.openrent.co.uk/property-to-rent/london/4-bed-flat-wandsworth-high-st-sw18/3051385",
-   "https://www.zoopla.co.uk/to-rent/details/74391940/"
+   "https://www.zoopla.co.uk/to-rent/details/74391940/",
+   "https://www.rightmove.co.uk/properties/95305434"
   ],
   "source": "import",
   "added": "2026-10-02",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
+   "From an email on 2026-11-10: fourguys, we've found you 4 properties in SW London house v3",
+   "Same house as rightmove-95305434 by its photos; merged (10 Nov)."
   ],
   "checked": "2026-11-10",
   "station": {
@@ -6733,6 +6805,11 @@
     "2026-10-02",
     3900,
     "zoopla"
+   ],
+   [
+    "2026-11-10",
+    3900,
+    "rightmove"
    ]
   ],
   "photo": "https://lid.zoocdn.com/u/480/360/1f8fafc46c6eab56043ef75748d12d812292374d.jpg",
@@ -7036,7 +7113,16 @@
     "openrent"
    ]
   ],
-  "ruled_out": "no sharers"
+  "ruled_out": "no sharers",
+  "loc": [
+   51.45319,
+   -0.2348914
+  ],
+  "station": {
+   "name": "Barnes",
+   "kind": "Rail",
+   "walk": 26
+  }
  },
  {
   "id": "openrent-3062451",
@@ -7145,7 +7231,7 @@
    "Marked gone: advert shows removed (2026-10-18).",
    "Let agreed on OpenRent (25 Oct)."
   ],
-  "checked": "2026-10-31",
+  "checked": "2026-11-10",
   "station": {
    "name": "Clapham South",
    "kind": "Tube",
@@ -7160,11 +7246,14 @@
   ],
   "off_market": {
    "why": "Let agreed on OpenRent",
-   "checked": "2026-10-31"
+   "checked": "2026-11-10"
   },
   "loc": [
    51.4537882,
    -0.1355917
+  ],
+  "down": [
+   "https://www.openrent.co.uk/property-to-rent/london/4-bed-semi-detached-house-rodenhurst-road-sw4/3063443"
   ]
  },
  {
@@ -7188,7 +7277,8 @@
    "Imported from the old ChatGPT tracker (status: recheck).",
    "Advert taken down on Rightmove (29 Oct).",
    "Let agreed on OpenRent (31 Oct).",
-   "Advert taken down on Rightmove (1 Nov)."
+   "Advert taken down on Rightmove (1 Nov).",
+   "Let agreed on OpenRent (10 Nov)."
   ],
   "checked": "2026-11-10",
   "station": {
@@ -7209,7 +7299,7 @@
    ]
   ],
   "off_market": {
-   "why": "Advert taken down on Rightmove",
+   "why": "Let agreed on OpenRent",
    "checked": "2026-11-10"
   },
   "loc": [
@@ -7217,6 +7307,7 @@
    -0.1274688
   ],
   "down": [
+   "https://www.openrent.co.uk/property-to-rent/london/4-bed-terraced-house-ashmere-grove-sw2/3066398",
    "https://www.rightmove.co.uk/properties/94114260"
   ]
  },
@@ -9029,6 +9120,7 @@
   ],
   "down": [
    "https://www.rightmove.co.uk/properties/92693592",
+   "https://www.zoopla.co.uk/to-rent/details/74134278/",
    "https://www.onthemarket.com/details/20257657/"
   ]
  },
@@ -9936,7 +10028,8 @@
    -0.1782553
   ],
   "down": [
-   "https://www.rightmove.co.uk/properties/93438813"
+   "https://www.rightmove.co.uk/properties/93438813",
+   "https://www.zoopla.co.uk/to-rent/details/74305833/"
   ]
  },
  {
@@ -10037,7 +10130,7 @@
   "baths": 3,
   "available": "Now",
   "sharers": "unknown",
-  "status": "gone",
+  "status": "new",
   "url": "https://www.rightmove.co.uk/properties/93486795",
   "links": [
    "https://www.openrent.co.uk/property-to-rent/london/4-bed-terraced-house-cranford-close-sw20/2960023",
@@ -10053,7 +10146,8 @@
    "Imported from the old ChatGPT tracker (status: recheck). Last checked 2026-09-25.",
    "Advert taken down on Rightmove (5 Nov).",
    "Advert live on OnTheMarket (6 Nov).",
-   "Advert taken down on Rightmove (9 Nov)."
+   "Advert taken down on Rightmove (9 Nov).",
+   "Advert live on OpenRent (10 Nov)."
   ],
   "checked": "2026-11-10",
   "station": {
@@ -10087,13 +10181,13 @@
   "down": [
    "https://www.rightmove.co.uk/properties/93486795",
    "https://www.rightmove.co.uk/properties/93954243",
+   "https://www.zoopla.co.uk/to-rent/details/73655448/",
    "https://www.onthemarket.com/details/19885058/",
    "https://www.rightmove.co.uk/properties/94438278"
   ],
-  "off_market": {
-   "why": "Advert taken down on Rightmove",
-   "checked": "2026-11-10"
-  }
+  "not_same": [
+   "john-d-wood-22229341"
+  ]
  },
  {
   "id": "rightmove-93497562",
@@ -10151,6 +10245,8 @@
   "down": [
    "https://www.foxtons.co.uk/properties-to-rent/sw18/chpk2618743",
    "https://www.rightmove.co.uk/properties/93497562",
+   "https://www.zoopla.co.uk/to-rent/details/73359988/",
+   "https://www.zoopla.co.uk/to-rent/details/74319668/",
    "https://www.onthemarket.com/details/20399609/"
   ],
   "off_market": {
@@ -10509,7 +10605,8 @@
    -0.1663216
   ],
   "down": [
-   "https://www.rightmove.co.uk/properties/93711192"
+   "https://www.rightmove.co.uk/properties/93711192",
+   "https://www.zoopla.co.uk/to-rent/details/74316140/"
   ]
  },
  {
@@ -10875,7 +10972,17 @@
     "onthemarket"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/b1e26b443/93883815/b1e26b4439c5d9434d10b57b9c0e04c1_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/b1e26b443/93883815/b1e26b4439c5d9434d10b57b9c0e04c1_max_476x317.jpeg",
+  "loc": [
+   51.45211,
+   -0.22086
+  ],
+  "commute": {
+   "lcp": 62,
+   "tritax": 60,
+   "q5": 51,
+   "wentworth": 42
+  }
  },
  {
   "id": "rightmove-93960771",
@@ -11070,6 +11177,7 @@
   },
   "down": [
    "https://www.rightmove.co.uk/properties/93983979",
+   "https://www.zoopla.co.uk/to-rent/details/74432592/",
    "https://www.onthemarket.com/details/20485406/"
   ]
  },
@@ -11259,6 +11367,7 @@
   ],
   "down": [
    "https://www.rightmove.co.uk/properties/94010418",
+   "https://www.zoopla.co.uk/to-rent/details/74439859/",
    "https://www.onthemarket.com/details/20490372/"
   ]
  },
@@ -11433,7 +11542,8 @@
    -0.1664685
   ],
   "down": [
-   "https://www.rightmove.co.uk/properties/94082358"
+   "https://www.rightmove.co.uk/properties/94082358",
+   "https://www.zoopla.co.uk/to-rent/details/68628988/"
   ]
  },
  {
@@ -11483,6 +11593,7 @@
   ],
   "down": [
    "https://www.rightmove.co.uk/properties/94130985",
+   "https://www.zoopla.co.uk/to-rent/details/71460286/",
    "https://www.onthemarket.com/details/17941190/"
   ]
  },
@@ -11530,7 +11641,8 @@
    -0.2033729
   ],
   "down": [
-   "https://www.rightmove.co.uk/properties/94235868"
+   "https://www.rightmove.co.uk/properties/94235868",
+   "https://www.zoopla.co.uk/to-rent/details/74492574/"
   ]
  },
  {
@@ -11578,7 +11690,8 @@
   ],
   "down": [
    "https://www.rightmove.co.uk/properties/94244127",
-   "https://www.onthemarket.com/details/20539732/"
+   "https://www.onthemarket.com/details/20539732/",
+   "https://www.zoopla.co.uk/to-rent/details/74494263/"
   ]
  },
  {
@@ -11655,7 +11768,7 @@
    "Marked gone: advert shows removed (2026-10-20).",
    "Advert taken down on Zoopla (25 Oct)."
   ],
-  "checked": "2026-10-31",
+  "checked": "2026-11-10",
   "station": {
    "name": "Southfields",
    "kind": "Tube",
@@ -11670,11 +11783,14 @@
   ],
   "off_market": {
    "why": "Advert taken down on Zoopla",
-   "checked": "2026-10-31"
+   "checked": "2026-11-10"
   },
   "loc": [
    51.4439417,
    -0.2056829
+  ],
+  "down": [
+   "https://www.zoopla.co.uk/to-rent/details/41941286/"
   ]
  },
  {
@@ -11725,7 +11841,9 @@
   ],
   "down": [
    "https://www.rightmove.co.uk/properties/92541024",
-   "https://www.onthemarket.com/details/19053407/"
+   "https://www.zoopla.co.uk/to-rent/details/59608909/",
+   "https://www.onthemarket.com/details/19053407/",
+   "https://www.zoopla.co.uk/to-rent/details/73965091/"
   ]
  },
  {
@@ -11771,7 +11889,8 @@
    -0.2204345
   ],
   "down": [
-   "https://www.rightmove.co.uk/properties/93926067"
+   "https://www.rightmove.co.uk/properties/93926067",
+   "https://www.zoopla.co.uk/to-rent/details/61077192/"
   ]
  },
  {
@@ -11802,11 +11921,14 @@
     "zoopla"
    ]
   ],
-  "checked": "2026-10-31",
+  "checked": "2026-11-10",
   "off_market": {
    "why": "Let agreed on Zoopla",
-   "checked": "2026-10-31"
-  }
+   "checked": "2026-11-10"
+  },
+  "down": [
+   "https://www.zoopla.co.uk/to-rent/details/61546144/"
+  ]
  },
  {
   "id": "zoopla-62446141",
@@ -11853,6 +11975,7 @@
   ],
   "down": [
    "https://www.rightmove.co.uk/properties/92999544",
+   "https://www.zoopla.co.uk/to-rent/details/62446141/",
    "https://www.onthemarket.com/details/12335895/"
   ]
  },
@@ -11928,11 +12051,14 @@
     "zoopla"
    ]
   ],
-  "checked": "2026-10-31",
+  "checked": "2026-11-10",
   "off_market": {
    "why": "Let agreed on Zoopla",
-   "checked": "2026-10-31"
-  }
+   "checked": "2026-11-10"
+  },
+  "down": [
+   "https://www.zoopla.co.uk/to-rent/details/65269924/"
+  ]
  },
  {
   "id": "zoopla-67931722",
@@ -11987,17 +12113,20 @@
   "rent": 4000,
   "beds": 4,
   "baths": 1,
-  "available": "",
+  "available": "Available now",
   "sharers": "ok",
   "status": "new",
   "url": "https://www.zoopla.co.uk/to-rent/details/68020927/",
   "links": [
-   "https://www.zoopla.co.uk/to-rent/details/68020927/"
+   "https://www.zoopla.co.uk/to-rent/details/68020927/",
+   "https://www.onthemarket.com/details/15581944/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
+   "Found by ChatGPT sweep (live).",
+   "Same house as onthemarket-15581944 by its photos; merged (10 Nov)."
   ],
   "checked": "2026-11-10",
   "station": {
@@ -12010,6 +12139,11 @@
     "2026-09-25",
     4000,
     "zoopla"
+   ],
+   [
+    "2026-10-18",
+    4000,
+    "onthemarket"
    ]
   ],
   "photo": "https://lid.zoocdn.com/u/480/360/391e57f620ab9543b574d8623194609c7654db04.jpg",
@@ -12186,6 +12320,7 @@
   ],
   "down": [
    "https://www.rightmove.co.uk/properties/93598026",
+   "https://www.zoopla.co.uk/to-rent/details/68443899/",
    "https://www.onthemarket.com/details/15899072/"
   ]
  },
@@ -12211,7 +12346,8 @@
    "Marked gone: advert shows removed (2026-10-18).",
    "Advert taken down on Rightmove (25 Oct).",
    "Advert live on Zoopla (31 Oct).",
-   "Advert taken down on Rightmove (1 Nov)."
+   "Advert taken down on Rightmove (1 Nov).",
+   "Let agreed on Zoopla (10 Nov)."
   ],
   "checked": "2026-11-10",
   "station": {
@@ -12238,11 +12374,12 @@
    "wentworth": 39
   },
   "off_market": {
-   "why": "Advert taken down on Rightmove",
+   "why": "Let agreed on Zoopla",
    "checked": "2026-11-10"
   },
   "down": [
-   "https://www.rightmove.co.uk/properties/93983895"
+   "https://www.rightmove.co.uk/properties/93983895",
+   "https://www.zoopla.co.uk/to-rent/details/68445983/"
   ]
  },
  {
@@ -12254,7 +12391,7 @@
   "baths": 2,
   "available": "Now",
   "sharers": "unknown",
-  "status": "gone",
+  "status": "new",
   "url": "https://www.zoopla.co.uk/to-rent/details/70347757/",
   "links": [
    "https://www.zoopla.co.uk/to-rent/details/70347757/",
@@ -12268,7 +12405,8 @@
    "Let on Marsh & Parsons (M&P lists it as Let); still live on another site (25 Oct).",
    "Let agreed on marshandparsons (26 Oct).",
    "Let agreed on marshandparsons, still live on Zoopla (31 Oct).",
-   "Let agreed on marshandparsons (1 Nov)."
+   "Let agreed on marshandparsons (1 Nov).",
+   "Let agreed on marshandparsons, still live on Zoopla (10 Nov)."
   ],
   "checked": "2026-11-10",
   "station": {
@@ -12284,7 +12422,7 @@
    ]
   ],
   "off_market": {
-   "why": "Let agreed on marshandparsons",
+   "why": "Let agreed on marshandparsons, still live on Zoopla",
    "checked": "2026-11-10"
   },
   "photo": "https://lid.zoocdn.com/u/480/360/d4a0ed51856d806dc4d858fb48e71e3125ba8215.jpg",
@@ -12465,6 +12603,7 @@
   ],
   "down": [
    "https://www.rightmove.co.uk/properties/89618682",
+   "https://www.zoopla.co.uk/to-rent/details/70803970/",
    "https://www.onthemarket.com/details/17522747/"
   ]
  },
@@ -12613,7 +12752,16 @@
    "why": "Advert taken down on Zoopla",
    "checked": "2026-10-31"
   },
-  "checked": "2026-10-31"
+  "checked": "2026-10-31",
+  "loc": [
+   51.478787,
+   -0.343097
+  ],
+  "station": {
+   "name": "Kew Bridge",
+   "kind": "Rail",
+   "walk": 65
+  }
  },
  {
   "id": "zoopla-73446693",
@@ -12682,7 +12830,7 @@
    "Marked gone: advert shows removed (2026-10-20).",
    "Advert taken down on Zoopla (25 Oct)."
   ],
-  "checked": "2026-10-31",
+  "checked": "2026-11-10",
   "prices": [
    [
     "2026-09-25",
@@ -12692,8 +12840,11 @@
   ],
   "off_market": {
    "why": "Advert taken down on Zoopla",
-   "checked": "2026-10-31"
-  }
+   "checked": "2026-11-10"
+  },
+  "down": [
+   "https://www.zoopla.co.uk/to-rent/details/73476476/"
+  ]
  },
  {
   "id": "zoopla-73508206",
@@ -12716,7 +12867,7 @@
    "Marked gone: advert shows removed (2026-10-20).",
    "Advert taken down on Zoopla (25 Oct)."
   ],
-  "checked": "2026-10-31",
+  "checked": "2026-11-10",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -12731,11 +12882,14 @@
   ],
   "off_market": {
    "why": "Advert taken down on Zoopla",
-   "checked": "2026-10-31"
+   "checked": "2026-11-10"
   },
   "loc": [
    51.441582,
    -0.185317
+  ],
+  "down": [
+   "https://www.zoopla.co.uk/to-rent/details/73508206/"
   ]
  },
  {
@@ -12758,7 +12912,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
    "Advert taken down on Zoopla (20 Oct)."
   ],
-  "checked": "2026-10-31",
+  "checked": "2026-11-10",
   "station": {
    "name": "Wandsworth Common",
    "kind": "Rail",
@@ -12773,11 +12927,14 @@
   ],
   "off_market": {
    "why": "Advert taken down on Zoopla",
-   "checked": "2026-10-31"
+   "checked": "2026-11-10"
   },
   "loc": [
    51.4485719,
    -0.1605829
+  ],
+  "down": [
+   "https://www.zoopla.co.uk/to-rent/details/73544808/"
   ]
  },
  {
@@ -12801,7 +12958,7 @@
    "Marked gone: advert shows let agreed (2026-10-18).",
    "Let agreed on Zoopla (25 Oct)."
   ],
-  "checked": "2026-10-31",
+  "checked": "2026-11-10",
   "prices": [
    [
     "2026-09-25",
@@ -12811,8 +12968,11 @@
   ],
   "off_market": {
    "why": "Let agreed on Zoopla",
-   "checked": "2026-10-31"
-  }
+   "checked": "2026-11-10"
+  },
+  "down": [
+   "https://www.zoopla.co.uk/to-rent/details/73581430/"
+  ]
  },
  {
   "id": "zoopla-73595338",
@@ -12837,7 +12997,7 @@
    "Marked gone: advert shows let agreed; bedroom count below current scope (2026-10-18).",
    "Let agreed on Zoopla (25 Oct)."
   ],
-  "checked": "2026-10-31",
+  "checked": "2026-11-10",
   "station": {
    "name": "Wandsworth Town",
    "kind": "Rail",
@@ -12857,11 +13017,14 @@
   ],
   "off_market": {
    "why": "Let agreed on Zoopla",
-   "checked": "2026-10-31"
+   "checked": "2026-11-10"
   },
   "loc": [
    51.4526717,
    -0.1843814
+  ],
+  "down": [
+   "https://www.zoopla.co.uk/to-rent/details/73595338/"
   ]
  },
  {
@@ -12939,7 +13102,16 @@
    "why": "Advert taken down on Zoopla",
    "checked": "2026-10-31"
   },
-  "checked": "2026-10-31"
+  "checked": "2026-10-31",
+  "loc": [
+   51.478787,
+   -0.343097
+  ],
+  "station": {
+   "name": "Kew Bridge",
+   "kind": "Rail",
+   "walk": 65
+  }
  },
  {
   "id": "zoopla-73802992",
@@ -12985,7 +13157,8 @@
    -0.1844448
   ],
   "down": [
-   "https://www.rightmove.co.uk/properties/91270575"
+   "https://www.rightmove.co.uk/properties/91270575",
+   "https://www.zoopla.co.uk/to-rent/details/73802992/"
   ]
  },
  {
@@ -13042,6 +13215,7 @@
   },
   "down": [
    "https://www.rightmove.co.uk/properties/91352508",
+   "https://www.zoopla.co.uk/to-rent/details/73821056/",
    "https://www.onthemarket.com/details/20012052/"
   ],
   "off_market": {
@@ -13157,7 +13331,7 @@
    "Marked gone: advert shows let agreed (2026-10-18).",
    "Let agreed on Zoopla (25 Oct)."
   ],
-  "checked": "2026-10-31",
+  "checked": "2026-11-10",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -13172,11 +13346,14 @@
   ],
   "off_market": {
    "why": "Let agreed on Zoopla",
-   "checked": "2026-10-31"
+   "checked": "2026-11-10"
   },
   "loc": [
    51.4271576,
    -0.1646761
+  ],
+  "down": [
+   "https://www.zoopla.co.uk/to-rent/details/73837260/"
   ]
  },
  {
@@ -13223,7 +13400,8 @@
    -0.1988674
   ],
   "down": [
-   "https://www.rightmove.co.uk/properties/175063595"
+   "https://www.rightmove.co.uk/properties/175063595",
+   "https://www.zoopla.co.uk/to-rent/details/73849075/"
   ]
  },
  {
@@ -13247,7 +13425,7 @@
    "Marked gone: advert shows removed (2026-10-20).",
    "Advert taken down on Zoopla (25 Oct)."
   ],
-  "checked": "2026-10-20",
+  "checked": "2026-11-10",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -13262,11 +13440,14 @@
   ],
   "off_market": {
    "why": "Advert taken down on Zoopla",
-   "checked": "2026-10-25"
+   "checked": "2026-11-10"
   },
   "loc": [
    51.4428574,
    -0.1882972
+  ],
+  "down": [
+   "https://www.zoopla.co.uk/to-rent/details/73877978/"
   ]
  },
  {
@@ -13300,6 +13481,15 @@
   "off_market": {
    "why": "Advert taken down on Zoopla",
    "checked": "2026-10-20"
+  },
+  "loc": [
+   51.478787,
+   -0.343097
+  ],
+  "station": {
+   "name": "Kew Bridge",
+   "kind": "Rail",
+   "walk": 65
   }
  },
  {
@@ -13346,7 +13536,8 @@
    -0.1540747
   ],
   "down": [
-   "https://www.rightmove.co.uk/properties/91639029"
+   "https://www.rightmove.co.uk/properties/91639029",
+   "https://www.zoopla.co.uk/to-rent/details/73890957/"
   ]
  },
  {
@@ -13415,6 +13606,7 @@
   },
   "down": [
    "https://www.rightmove.co.uk/properties/91725189",
+   "https://www.zoopla.co.uk/to-rent/details/73914959/",
    "https://www.onthemarket.com/details/20085094/"
   ],
   "off_market": {
@@ -13444,7 +13636,8 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-25.",
    "Let agreed on Rightmove (18 Oct).",
-   "Let agreed on OnTheMarket (10 Nov)."
+   "Let agreed on OnTheMarket (10 Nov).",
+   "Let agreed on Zoopla (10 Nov)."
   ],
   "checked": "2026-11-10",
   "station": {
@@ -13460,7 +13653,7 @@
    ]
   ],
   "off_market": {
-   "why": "Let agreed on OnTheMarket",
+   "why": "Let agreed on Zoopla",
    "checked": "2026-11-10"
   },
   "loc": [
@@ -13469,6 +13662,7 @@
   ],
   "down": [
    "https://www.rightmove.co.uk/properties/91734735",
+   "https://www.zoopla.co.uk/to-rent/details/73917929/",
    "https://www.onthemarket.com/details/20086904/"
   ]
  },
@@ -13493,7 +13687,8 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
    "Marked gone: advert shows let agreed (2026-10-18).",
    "Let agreed on Rightmove (25 Oct).",
-   "Advert taken down on Rightmove (30 Oct)."
+   "Advert taken down on Rightmove (30 Oct).",
+   "Let agreed on Zoopla (10 Nov)."
   ],
   "checked": "2026-11-10",
   "station": {
@@ -13509,7 +13704,7 @@
    ]
   ],
   "off_market": {
-   "why": "Advert taken down on Rightmove",
+   "why": "Let agreed on Zoopla",
    "checked": "2026-11-10"
   },
   "loc": [
@@ -13517,7 +13712,8 @@
    -0.2300342
   ],
   "down": [
-   "https://www.rightmove.co.uk/properties/91846272"
+   "https://www.rightmove.co.uk/properties/91846272",
+   "https://www.zoopla.co.uk/to-rent/details/73939519/"
   ]
  },
  {
@@ -13564,7 +13760,8 @@
    -0.1910637
   ],
   "down": [
-   "https://www.rightmove.co.uk/properties/91857318"
+   "https://www.rightmove.co.uk/properties/91857318",
+   "https://www.zoopla.co.uk/to-rent/details/73947611/"
   ]
  },
  {
@@ -13764,7 +13961,9 @@
   },
   "down": [
    "https://www.rightmove.co.uk/properties/92034240",
+   "https://www.zoopla.co.uk/to-rent/details/73986144/",
    "https://www.rightmove.co.uk/properties/92398824",
+   "https://www.zoopla.co.uk/to-rent/details/74068659/",
    "https://www.onthemarket.com/details/20208894/",
    "https://www.onthemarket.com/details/20142968/",
    "https://www.kfh.co.uk/property-to-rent/4-bedroom-terraced-house-to-rent-in-wimbledon-park-road-southfields-london-sw18-96025/"
@@ -13852,7 +14051,8 @@
    -0.1973539
   ],
   "down": [
-   "https://www.rightmove.co.uk/properties/92116767"
+   "https://www.rightmove.co.uk/properties/92116767",
+   "https://www.zoopla.co.uk/to-rent/details/74007022/"
   ]
  },
  {
@@ -14078,6 +14278,7 @@
   ],
   "down": [
    "https://www.rightmove.co.uk/properties/92520564",
+   "https://www.zoopla.co.uk/to-rent/details/74095685/",
    "https://www.onthemarket.com/details/20230233/"
   ]
  },
@@ -14195,7 +14396,7 @@
    "Marked gone: advert shows removed (2026-10-20).",
    "Advert taken down on Zoopla (25 Oct)."
   ],
-  "checked": "2026-10-20",
+  "checked": "2026-11-10",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -14210,11 +14411,14 @@
   ],
   "off_market": {
    "why": "Advert taken down on Zoopla",
-   "checked": "2026-10-25"
+   "checked": "2026-11-10"
   },
   "loc": [
    51.4306337,
    -0.1674592
+  ],
+  "down": [
+   "https://www.zoopla.co.uk/to-rent/details/74110803/"
   ]
  },
  {
@@ -14239,7 +14443,7 @@
    "Marked gone: advert shows removed (2026-10-20).",
    "Advert taken down on Zoopla (25 Oct)."
   ],
-  "checked": "2026-10-20",
+  "checked": "2026-11-10",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -14254,11 +14458,14 @@
   ],
   "off_market": {
    "why": "Advert taken down on Zoopla",
-   "checked": "2026-10-25"
+   "checked": "2026-11-10"
   },
   "loc": [
    51.4068594,
    -0.2362758
+  ],
+  "down": [
+   "https://www.zoopla.co.uk/to-rent/details/74121318/"
   ]
  },
  {
@@ -14329,7 +14536,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
    "Advert taken down on Zoopla (18 Oct)."
   ],
-  "checked": "2026-11-05",
+  "checked": "2026-11-10",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -14344,14 +14551,16 @@
   ],
   "off_market": {
    "why": "Advert taken down on Zoopla",
-   "checked": "2026-11-05"
+   "checked": "2026-11-10"
   },
   "loc": [
    51.4070771,
    -0.2353212
   ],
   "down": [
-   "https://www.zoopla.co.uk/to-rent/details/74253343/"
+   "https://www.zoopla.co.uk/to-rent/details/74161959/",
+   "https://www.zoopla.co.uk/to-rent/details/74253343/",
+   "https://www.zoopla.co.uk/to-rent/details/74352112/"
   ]
  },
  {
@@ -14376,7 +14585,8 @@
    "Prices differ across sites: £3,650 vs £3,500. Showing the lower; see price history.",
    "Found by ChatGPT sweep (live).",
    "Let agreed on OnTheMarket (23 Oct).",
-   "Advert taken down on OnTheMarket (31 Oct)."
+   "Advert taken down on OnTheMarket (31 Oct).",
+   "Let agreed on Zoopla (10 Nov)."
   ],
   "checked": "2026-11-10",
   "station": {
@@ -14397,7 +14607,7 @@
    ]
   ],
   "off_market": {
-   "why": "Advert taken down on OnTheMarket",
+   "why": "Let agreed on Zoopla",
    "checked": "2026-11-10"
   },
   "loc": [
@@ -14405,6 +14615,7 @@
    -0.1832505
   ],
   "down": [
+   "https://www.zoopla.co.uk/to-rent/details/74168792/",
    "https://www.onthemarket.com/details/20489452/"
   ]
  },
@@ -14429,7 +14640,7 @@
    "Marked gone: advert shows removed (2026-10-20).",
    "Advert taken down on Zoopla (25 Oct)."
   ],
-  "checked": "2026-10-20",
+  "checked": "2026-11-10",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -14444,11 +14655,14 @@
   ],
   "off_market": {
    "why": "Advert taken down on Zoopla",
-   "checked": "2026-10-25"
+   "checked": "2026-11-10"
   },
   "loc": [
    51.4291022,
    -0.1722679
+  ],
+  "down": [
+   "https://www.zoopla.co.uk/to-rent/details/74176237/"
   ]
  },
  {
@@ -14507,9 +14721,10 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "ChatGPT sweep says removed (2026-10-26)."
+   "ChatGPT sweep says removed (2026-10-26).",
+   "Advert taken down on Zoopla (10 Nov)."
   ],
-  "checked": "2026-10-26",
+  "checked": "2026-11-10",
   "station": {
    "name": "Wandsworth Town",
    "kind": "Rail",
@@ -14523,12 +14738,15 @@
    ]
   ],
   "off_market": {
-   "why": "ChatGPT sweep says let agreed",
-   "checked": "2026-10-26"
+   "why": "Advert taken down on Zoopla",
+   "checked": "2026-11-10"
   },
   "loc": [
    51.458263,
    -0.1990184
+  ],
+  "down": [
+   "https://www.zoopla.co.uk/to-rent/details/74194498/"
   ]
  },
  {
@@ -14552,7 +14770,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-30.",
-   "Let agreed on Rightmove (18 Oct)."
+   "Let agreed on Rightmove (18 Oct).",
+   "Let agreed on OnTheMarket (10 Nov)."
   ],
   "checked": "2026-11-10",
   "station": {
@@ -14568,7 +14787,7 @@
    ]
   ],
   "off_market": {
-   "why": "Let agreed on Rightmove",
+   "why": "Let agreed on OnTheMarket",
    "checked": "2026-11-10"
   },
   "loc": [
@@ -14578,6 +14797,7 @@
   "down": [
    "https://www.rightmove.co.uk/properties/92706903",
    "https://www.rightmove.co.uk/properties/92953710",
+   "https://www.zoopla.co.uk/to-rent/details/74199981/",
    "https://www.onthemarket.com/details/20263685/"
   ]
  },
@@ -14700,7 +14920,8 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable). Last checked 2026-09-25.",
    "Let agreed on Rightmove (18 Oct).",
-   "Let agreed on OnTheMarket (9 Nov)."
+   "Let agreed on OnTheMarket (9 Nov).",
+   "Let agreed on Zoopla (10 Nov)."
   ],
   "checked": "2026-11-10",
   "station": {
@@ -14716,7 +14937,7 @@
    ]
   ],
   "off_market": {
-   "why": "Let agreed on OnTheMarket",
+   "why": "Let agreed on Zoopla",
    "checked": "2026-11-10"
   },
   "loc": [
@@ -14725,6 +14946,7 @@
   ],
   "down": [
    "https://www.rightmove.co.uk/properties/93130332",
+   "https://www.zoopla.co.uk/to-rent/details/74237540/",
    "https://www.onthemarket.com/details/20332793/"
   ]
  },
@@ -14830,7 +15052,8 @@
    -0.2110651
   ],
   "down": [
-   "https://www.rightmove.co.uk/properties/93134526"
+   "https://www.rightmove.co.uk/properties/93134526",
+   "https://www.zoopla.co.uk/to-rent/details/74238873/"
   ]
  },
  {
@@ -14881,6 +15104,7 @@
   ],
   "down": [
    "https://www.rightmove.co.uk/properties/93139128",
+   "https://www.zoopla.co.uk/to-rent/details/74240021/",
    "https://www.onthemarket.com/details/20334785/"
   ]
  },
@@ -14905,7 +15129,7 @@
    "Marked gone: advert shows let agreed (2026-10-18).",
    "Let agreed on Zoopla (25 Oct)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-11-10",
   "prices": [
    [
     "2026-09-25",
@@ -14915,7 +15139,7 @@
   ],
   "off_market": {
    "why": "Let agreed on Zoopla",
-   "checked": "2026-10-25"
+   "checked": "2026-11-10"
   },
   "station": {
    "name": "Tooting Bec",
@@ -14925,6 +15149,9 @@
   "loc": [
    51.4394315,
    -0.1609991
+  ],
+  "down": [
+   "https://www.zoopla.co.uk/to-rent/details/74243949/"
   ]
  },
  {
@@ -15165,7 +15392,7 @@
    "Marked gone: advert shows let agreed (2026-10-18).",
    "Let agreed on Zoopla (25 Oct)."
   ],
-  "checked": "2026-10-31",
+  "checked": "2026-11-10",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -15185,11 +15412,14 @@
   ],
   "off_market": {
    "why": "Let agreed on Zoopla",
-   "checked": "2026-10-31"
+   "checked": "2026-11-10"
   },
   "loc": [
    51.4291022,
    -0.1722679
+  ],
+  "down": [
+   "https://www.zoopla.co.uk/to-rent/details/74278873/"
   ]
  },
  {
@@ -15236,7 +15466,8 @@
    -0.22079
   ],
   "down": [
-   "https://www.rightmove.co.uk/properties/93367239"
+   "https://www.rightmove.co.uk/properties/93367239",
+   "https://www.zoopla.co.uk/to-rent/details/74291621/"
   ]
  },
  {
@@ -15259,7 +15490,7 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
    "Let agreed on Zoopla (19 Oct)."
   ],
-  "checked": "2026-10-31",
+  "checked": "2026-11-10",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -15274,11 +15505,14 @@
   ],
   "off_market": {
    "why": "Let agreed on Zoopla",
-   "checked": "2026-10-31"
+   "checked": "2026-11-10"
   },
   "loc": [
    51.4306337,
    -0.1674592
+  ],
+  "down": [
+   "https://www.zoopla.co.uk/to-rent/details/74292204/"
   ]
  },
  {
@@ -15334,6 +15568,7 @@
   ],
   "down": [
    "https://www.rightmove.co.uk/properties/93417366",
+   "https://www.zoopla.co.uk/to-rent/details/74301701/",
    "https://www.onthemarket.com/details/20384045/"
   ]
  },
@@ -15453,7 +15688,8 @@
    -0.1722679
   ],
   "down": [
-   "https://www.rightmove.co.uk/properties/93450141"
+   "https://www.rightmove.co.uk/properties/93450141",
+   "https://www.zoopla.co.uk/to-rent/details/74308005/"
   ]
  },
  {
@@ -15500,7 +15736,8 @@
    -0.2039189
   ],
   "down": [
-   "https://www.rightmove.co.uk/properties/93470949"
+   "https://www.rightmove.co.uk/properties/93470949",
+   "https://www.zoopla.co.uk/to-rent/details/74314846/"
   ]
  },
  {
@@ -15631,6 +15868,7 @@
   ],
   "down": [
    "https://www.rightmove.co.uk/properties/93591633",
+   "https://www.zoopla.co.uk/to-rent/details/74342313/",
    "https://www.onthemarket.com/details/20416908/"
   ]
  },
@@ -16326,7 +16564,8 @@
    "Price changed from £3,500 to £3,550 (2026-10-25).",
    "Live on OnTheMarket and Zoopla; no reason recorded for ruling it out (31 Oct).",
    "Price cut: £3,550 to £3,500 on the live adverts (3 Nov).",
-   "Advert taken down on OnTheMarket (5 Nov)."
+   "Advert taken down on OnTheMarket (5 Nov).",
+   "Let agreed on OpenRent (10 Nov)."
   ],
   "station": {
    "name": "Barons Court",
@@ -16363,10 +16602,12 @@
    "wentworth": 38
   },
   "down": [
-   "https://www.onthemarket.com/details/20401660/"
+   "https://www.openrent.co.uk/property-to-rent/london/4-bed-flat-mary-macarthur-house-w6/3050921",
+   "https://www.onthemarket.com/details/20401660/",
+   "https://www.zoopla.co.uk/to-rent/details/74323719/"
   ],
   "off_market": {
-   "why": "Advert taken down on OnTheMarket",
+   "why": "Let agreed on OpenRent",
    "checked": "2026-11-10"
   }
  },
@@ -16432,7 +16673,7 @@
    "Imported from the old ChatGPT tracker (status: screened; advertised).",
    "Details read from the advert (27 Oct)."
   ],
-  "checked": "2026-10-31",
+  "checked": "2026-11-10",
   "prices": [
    [
     "2026-10-01",
@@ -16442,7 +16683,7 @@
   ],
   "off_market": {
    "why": "Let agreed on OpenRent",
-   "checked": "2026-10-31"
+   "checked": "2026-11-10"
   },
   "station": {
    "name": "Clapham Common",
@@ -16452,6 +16693,9 @@
   "loc": [
    51.4612517,
    -0.134583
+  ],
+  "down": [
+   "https://www.openrent.co.uk/property-to-rent/london/4-bed-flat-triangle-place-sw4/3056405"
   ]
  },
  {
@@ -16481,7 +16725,16 @@
     "openrent"
    ]
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-10-31",
+  "loc": [
+   51.4632,
+   -0.2946161
+  ],
+  "station": {
+   "name": "North Sheen",
+   "kind": "Rail",
+   "walk": 10
+  }
  },
  {
   "id": "openrent-3061319",
@@ -16574,7 +16827,16 @@
   "checked": "2026-11-10",
   "down": [
    "https://www.rightmove.co.uk/properties/92211834"
-  ]
+  ],
+  "loc": [
+   51.457425,
+   -0.328152
+  ],
+  "station": {
+   "name": "North Sheen",
+   "kind": "Rail",
+   "walk": 49
+  }
  },
  {
   "id": "rightmove-92323701",
@@ -16772,7 +17034,16 @@
    "why": "Advert taken down on Zoopla",
    "checked": "2026-10-31"
   },
-  "checked": "2026-10-31"
+  "checked": "2026-10-31",
+  "loc": [
+   51.473929,
+   -0.367291
+  ],
+  "station": {
+   "name": "North Sheen",
+   "kind": "Rail",
+   "walk": 92
+  }
  },
  {
   "id": "zoopla-74298944",
@@ -16801,7 +17072,16 @@
    ]
   ],
   "photo": "https://lid.zoocdn.com/u/480/360/52fc3dc02139eef2d6308f7d851da7f653561184.jpg",
-  "checked": "2026-10-31"
+  "checked": "2026-10-31",
+  "loc": [
+   51.474506,
+   -0.363501
+  ],
+  "station": {
+   "name": "North Sheen",
+   "kind": "Rail",
+   "walk": 88
+  }
  },
  {
   "id": "zoopla-74331671",
@@ -16891,7 +17171,8 @@
    -0.1499133
   ],
   "down": [
-   "https://www.rightmove.co.uk/properties/94263075"
+   "https://www.rightmove.co.uk/properties/94263075",
+   "https://www.zoopla.co.uk/to-rent/details/65830352/"
   ]
  },
  {
@@ -16962,7 +17243,8 @@
    "Found by ChatGPT sweep (live).",
    "Advert taken down on Rightmove (21 Oct).",
    "Advert taken down on Zoopla (31 Oct).",
-   "Advert taken down on Rightmove (1 Nov)."
+   "Advert taken down on Rightmove (1 Nov).",
+   "Advert taken down on Zoopla (10 Nov)."
   ],
   "station": {
    "name": "Balham",
@@ -16982,7 +17264,7 @@
    ]
   ],
   "off_market": {
-   "why": "Advert taken down on Rightmove",
+   "why": "Advert taken down on Zoopla",
    "checked": "2026-11-10"
   },
   "added_at": "2026-10-18T16:08Z",
@@ -16991,6 +17273,7 @@
    -0.1489014
   ],
   "down": [
+   "https://www.zoopla.co.uk/to-rent/details/74489197/",
    "https://www.rightmove.co.uk/properties/94227492"
   ]
  },
@@ -17229,7 +17512,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://media.onthemarket.com/properties/20550409/1651987752/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20550409/1651987752/image-0-1024x1024.jpg",
+  "loc": [
+   51.463927,
+   -0.14913
+  ],
+  "commute": {
+   "lcp": 44,
+   "tritax": 42,
+   "q5": 37,
+   "wentworth": 53
+  }
  },
  {
   "id": "onthemarket-20530138",
@@ -17285,6 +17578,7 @@
   ],
   "down": [
    "https://www.onthemarket.com/details/20530138/",
+   "https://www.zoopla.co.uk/to-rent/details/74492075/",
    "https://www.rightmove.co.uk/properties/94233009"
   ]
  },
@@ -17731,7 +18025,7 @@
   "baths": 2,
   "available": "",
   "sharers": "ok",
-  "status": "gone",
+  "status": "new",
   "url": "https://www.rightmove.co.uk/properties/92633793",
   "links": [
    "https://www.jacksonsestateagents.com/properties/22054053/lettings",
@@ -17746,7 +18040,8 @@
    "Prices differ across sites: £4,650 vs £4,400. Showing the lower; see price history.",
    "From an email on 2026-11-03: New properties found for your search: Wandsworth, London",
    "Merged in openrent-3098023: the same house (3 Nov audit).",
-   "Advert taken down on Rightmove (6 Nov)."
+   "Advert taken down on Rightmove (6 Nov).",
+   "Advert live on OpenRent (10 Nov)."
   ],
   "station": {
    "name": "Clapham North",
@@ -17779,11 +18074,7 @@
   },
   "down": [
    "https://www.rightmove.co.uk/properties/92633793"
-  ],
-  "off_market": {
-   "why": "Advert taken down on Rightmove",
-   "checked": "2026-11-10"
-  }
+  ]
  },
  {
   "id": "jacksons-20750717",
@@ -18314,7 +18605,8 @@
   },
   "down": [
    "https://www.onthemarket.com/details/20370358/",
-   "https://www.rightmove.co.uk/properties/93328425"
+   "https://www.rightmove.co.uk/properties/93328425",
+   "https://www.zoopla.co.uk/to-rent/details/74280381/"
   ]
  },
  {
@@ -19289,6 +19581,7 @@
   },
   "down": [
    "https://www.onthemarket.com/details/20082185/",
+   "https://www.zoopla.co.uk/to-rent/details/73906920/",
    "https://www.rightmove.co.uk/properties/91708623",
    "https://www.rightmove.co.uk/properties/94718772"
   ],
@@ -19669,7 +19962,8 @@
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OpenRent (31 Oct).",
-   "Advert taken down on OnTheMarket (1 Nov)."
+   "Advert taken down on OnTheMarket (1 Nov).",
+   "Let agreed on OpenRent (10 Nov)."
   ],
   "station": {
    "name": "Southfields",
@@ -19685,7 +19979,7 @@
   ],
   "added_at": "2026-10-18T16:08Z",
   "off_market": {
-   "why": "Advert taken down on OnTheMarket",
+   "why": "Let agreed on OpenRent",
    "checked": "2026-11-10"
   },
   "loc": [
@@ -19694,7 +19988,9 @@
   ],
   "down": [
    "https://www.onthemarket.com/details/20424632/",
-   "https://www.rightmove.co.uk/properties/93656460"
+   "https://www.openrent.co.uk/property-to-rent/london/5-bed-semi-detached-house-sutherland-grove-sw18/3045601",
+   "https://www.rightmove.co.uk/properties/93656460",
+   "https://www.zoopla.co.uk/to-rent/details/74353350/"
   ]
  },
  {
@@ -19757,7 +20053,11 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://lid.zoocdn.com/u/480/360/4a38c75ca2ed0cd0ef25a6f6b34980e1f6c2ca1f.jpg"
+  "photo": "https://lid.zoocdn.com/u/480/360/4a38c75ca2ed0cd0ef25a6f6b34980e1f6c2ca1f.jpg",
+  "loc": [
+   51.432387,
+   -0.26287
+  ]
  },
  {
   "id": "onthemarket-20275231",
@@ -20338,7 +20638,8 @@
   "down": [
    "https://www.foxtons.co.uk/properties-to-rent/sw18/chpk2638785",
    "https://www.onthemarket.com/details/20311657/",
-   "https://www.rightmove.co.uk/properties/93002520"
+   "https://www.rightmove.co.uk/properties/93002520",
+   "https://www.zoopla.co.uk/to-rent/details/74210232/"
   ]
  },
  {
@@ -21186,36 +21487,6 @@
   }
  },
  {
-  "id": "onthemarket-15581944",
-  "title": "London SW17",
-  "area": "Tooting",
-  "rent": 4000,
-  "beds": 4,
-  "baths": 1,
-  "available": "Available now",
-  "sharers": "ok",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/15581944/",
-  "links": [
-   "https://www.onthemarket.com/details/15581944/"
-  ],
-  "source": "sweep",
-  "added": "2026-10-18",
-  "checked": "2026-11-10",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ],
-  "prices": [
-   [
-    "2026-10-18",
-    4000,
-    "onthemarket"
-   ]
-  ],
-  "added_at": "2026-10-18T16:08Z",
-  "photo": "https://media.onthemarket.com/properties/15581944/1584853605/image-0-1024x1024.jpg"
- },
- {
   "id": "onthemarket-20462332",
   "title": "Lynwood Road, London SW17",
   "area": "Tooting",
@@ -22041,7 +22312,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://media.onthemarket.com/properties/20348079/1644765465/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20348079/1644765465/image-0-1024x1024.jpg",
+  "loc": [
+   51.424102,
+   -0.167109
+  ],
+  "commute": {
+   "lcp": 50,
+   "tritax": 48,
+   "q5": 46,
+   "wentworth": 47
+  }
  },
  {
   "id": "rightmove-93086517",
@@ -22096,7 +22377,17 @@
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
-  "photo": "https://media.onthemarket.com/properties/20269665/1641918502/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20269665/1641918502/image-0-1024x1024.jpg",
+  "loc": [
+   51.423334,
+   -0.165183
+  ],
+  "commute": {
+   "lcp": 51,
+   "tritax": 49,
+   "q5": 47,
+   "wentworth": 47
+  }
  },
  {
   "id": "onthemarket-20231339",
@@ -22334,7 +22625,8 @@
   },
   "down": [
    "https://www.onthemarket.com/details/20341486/",
-   "https://www.rightmove.co.uk/properties/93173022"
+   "https://www.rightmove.co.uk/properties/93173022",
+   "https://www.zoopla.co.uk/to-rent/details/74245952/"
   ]
  },
  {
@@ -22353,7 +22645,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-10-31",
+  "checked": "2026-11-10",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Marked gone: advert shows removed (2026-10-22).",
@@ -22368,9 +22660,12 @@
   ],
   "off_market": {
    "why": "Advert taken down on Zoopla",
-   "checked": "2026-10-31"
+   "checked": "2026-11-10"
   },
-  "added_at": "2026-10-18T16:08Z"
+  "added_at": "2026-10-18T16:08Z",
+  "down": [
+   "https://www.zoopla.co.uk/to-rent/details/74310432/"
+  ]
  },
  {
   "id": "zoopla-74443790",
@@ -22687,7 +22982,8 @@
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on OpenRent (31 Oct).",
-   "Advert taken down on OnTheMarket (1 Nov)."
+   "Advert taken down on OnTheMarket (1 Nov).",
+   "Let agreed on OpenRent (10 Nov)."
   ],
   "station": {
    "name": "South Merton",
@@ -22703,7 +22999,7 @@
   ],
   "added_at": "2026-10-18T16:08Z",
   "off_market": {
-   "why": "Advert taken down on OnTheMarket",
+   "why": "Let agreed on OpenRent",
    "checked": "2026-11-10"
   },
   "loc": [
@@ -22712,6 +23008,7 @@
   ],
   "down": [
    "https://www.onthemarket.com/details/20514660/",
+   "https://www.openrent.co.uk/property-to-rent/morden/5-bed-semi-detached-house-mossville-gardens-sm4/3068359",
    "https://www.rightmove.co.uk/properties/94132983"
   ]
  },
@@ -23658,7 +23955,8 @@
   ],
   "down": [
    "https://www.onthemarket.com/details/20580410/",
-   "https://www.rightmove.co.uk/properties/94467732"
+   "https://www.rightmove.co.uk/properties/94467732",
+   "https://www.zoopla.co.uk/to-rent/details/74546235/"
   ]
  },
  {
@@ -23783,6 +24081,7 @@
    "wentworth": 38
   },
   "not_same": [
+   "rightmove-93486795",
    "zoopla-74038219"
   ]
  },
@@ -23952,7 +24251,8 @@
   },
   "down": [
    "https://www.onthemarket.com/details/20595126/",
-   "https://www.rightmove.co.uk/properties/94548558"
+   "https://www.rightmove.co.uk/properties/94548558",
+   "https://www.zoopla.co.uk/to-rent/details/74563450/"
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
@@ -24086,7 +24386,8 @@
   },
   "down": [
    "https://www.onthemarket.com/details/13178951/",
-   "https://www.rightmove.co.uk/properties/94592502"
+   "https://www.rightmove.co.uk/properties/94592502",
+   "https://www.zoopla.co.uk/to-rent/details/64575073/"
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket",
@@ -24102,7 +24403,7 @@
   "baths": 1,
   "available": "2026-10-31",
   "sharers": "ok",
-  "status": "gone",
+  "status": "new",
   "url": "https://www.rightmove.co.uk/properties/94604028",
   "links": [
    "https://www.rightmove.co.uk/properties/94604028",
@@ -24113,7 +24414,8 @@
   "checked": "2026-11-10",
   "notes": [
    "Found by ChatGPT sweep (live).",
-   "Advert taken down on Rightmove (5 Nov)."
+   "Advert taken down on Rightmove (5 Nov).",
+   "Advert live on Zoopla (10 Nov)."
   ],
   "prices": [
    [
@@ -24141,11 +24443,7 @@
   },
   "down": [
    "https://www.rightmove.co.uk/properties/94604028"
-  ],
-  "off_market": {
-   "why": "Advert taken down on Rightmove",
-   "checked": "2026-11-10"
-  }
+  ]
  },
  {
   "id": "rightmove-94611774",
@@ -24381,7 +24679,8 @@
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Bathrooms corrected to 2 from the advert (31 Oct).",
-   "Advert taken down on OnTheMarket (1 Nov)."
+   "Advert taken down on OnTheMarket (1 Nov).",
+   "Let agreed on OpenRent (10 Nov)."
   ],
   "prices": [
    [
@@ -24408,12 +24707,14 @@
    "wentworth": 49
   },
   "off_market": {
-   "why": "Advert taken down on OnTheMarket",
+   "why": "Let agreed on OpenRent",
    "checked": "2026-11-10"
   },
   "down": [
    "https://www.onthemarket.com/details/20605983/",
-   "https://www.rightmove.co.uk/properties/94606806"
+   "https://www.openrent.co.uk/property-to-rent/london/4-bed-maisonette-quinton-st-sw18/3083756",
+   "https://www.rightmove.co.uk/properties/94606806",
+   "https://www.zoopla.co.uk/to-rent/details/74576844/"
   ]
  },
  {
@@ -25792,7 +26093,8 @@
    "wentworth": 50
   },
   "down": [
-   "https://www.rightmove.co.uk/properties/94605714"
+   "https://www.rightmove.co.uk/properties/94605714",
+   "https://www.zoopla.co.uk/to-rent/details/74575465/"
   ],
   "off_market": {
    "why": "Let agreed on Rightmove",
@@ -25891,6 +26193,7 @@
   ],
   "down": [
    "https://www.rightmove.co.uk/properties/92727258",
+   "https://www.zoopla.co.uk/to-rent/details/74140613/",
    "https://www.onthemarket.com/details/20263694/"
   ]
  },
@@ -26770,7 +27073,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-27",
-  "checked": "2026-10-31",
+  "checked": "2026-11-10",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "ChatGPT sweep says removed (2026-10-28).",
@@ -26790,12 +27093,15 @@
   },
   "off_market": {
    "why": "Advert taken down on Zoopla",
-   "checked": "2026-10-31"
+   "checked": "2026-11-10"
   },
   "added_at": "2026-10-27T18:19Z",
   "loc": [
    51.4847412,
    -0.25077
+  ],
+  "down": [
+   "https://www.zoopla.co.uk/to-rent/details/73900859/"
   ]
  },
  {
@@ -27149,7 +27455,8 @@
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Let agreed on Rightmove (2 Nov).",
-   "Advert taken down on Rightmove (3 Nov)."
+   "Advert taken down on Rightmove (3 Nov).",
+   "Advert taken down on Zoopla (10 Nov)."
   ],
   "prices": [
    [
@@ -27181,10 +27488,11 @@
    "wentworth": 38
   },
   "off_market": {
-   "why": "Advert taken down on Rightmove",
+   "why": "Advert taken down on Zoopla",
    "checked": "2026-11-10"
   },
   "down": [
+   "https://www.zoopla.co.uk/to-rent/details/74625691/",
    "https://www.rightmove.co.uk/properties/94863270"
   ]
  },
@@ -27253,6 +27561,7 @@
   },
   "down": [
    "https://www.onthemarket.com/details/20646386/",
+   "https://www.zoopla.co.uk/to-rent/details/74626092/",
    "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2543604/thorpebank-road/",
    "https://www.rightmove.co.uk/properties/94865364"
   ],
@@ -27769,80 +28078,9 @@
   ],
   "down": [
    "https://www.onthemarket.com/details/15925797/",
+   "https://www.zoopla.co.uk/to-rent/details/68487856/",
    "https://www.rightmove.co.uk/properties/94937709"
   ]
- },
- {
-  "id": "onthemarket-20406560",
-  "title": "Wadham Road, London, SW15",
-  "area": "SW15",
-  "rent": 3750,
-  "beds": 4,
-  "baths": 3,
-  "available": "2026-12-07",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.onthemarket.com/details/20406560/",
-  "links": [
-   "https://www.onthemarket.com/details/20406560/",
-   "https://www.rightmove.co.uk/properties/94936611",
-   "https://www.onthemarket.com/details/16589505/",
-   "https://www.rightmove.co.uk/properties/95079150",
-   "https://www.zoopla.co.uk/to-rent/details/69487045/"
-  ],
-  "source": "alert",
-  "added": "2026-10-30",
-  "notes": [
-   "From an email on 2026-10-30: New properties in London (drawn area)",
-   "Found by ChatGPT sweep (live).",
-   "Merged in onthemarket-16589505: the same house (3 Nov audit).",
-   "Price cut on Rightmove: £4,000 to £3,750 (2026-11-10)."
-  ],
-  "prices": [
-   [
-    "2026-10-30",
-    4000,
-    "onthemarket"
-   ],
-   [
-    "2026-10-31",
-    4000,
-    "rightmove"
-   ],
-   [
-    "2026-11-03",
-    4000,
-    "rightmove"
-   ],
-   [
-    "2026-11-03",
-    4000,
-    "onthemarket"
-   ],
-   [
-    "2026-11-10",
-    3750,
-    "rightmove"
-   ]
-  ],
-  "station": {
-   "name": "East Putney",
-   "kind": "Tube",
-   "walk": 6
-  },
-  "checked": "2026-11-10",
-  "added_at": "2026-10-30T17:12Z",
-  "photo": "https://media.onthemarket.com/properties/20406560/1655634568/image-0-1024x1024.jpg",
-  "loc": [
-   51.4617079,
-   -0.2097804
-  ],
-  "commute": {
-   "lcp": 52,
-   "tritax": 50,
-   "q5": 44,
-   "wentworth": 44
-  }
  },
  {
   "id": "onthemarket-20659623",
@@ -28420,7 +28658,8 @@
   "notes": [
    "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-10-25.",
    "Linked OpenRent advert 3086477: the same flat (the Rightmove advert is OpenRent's own, reference 3086477; same photos) (4 Nov).",
-   "Advert taken down on Rightmove (6 Nov)."
+   "Advert taken down on Rightmove (6 Nov).",
+   "Let agreed on OpenRent (10 Nov)."
   ],
   "prices": [
    [
@@ -28452,10 +28691,11 @@
    "wentworth": 38
   },
   "down": [
-   "https://www.rightmove.co.uk/properties/94709247"
+   "https://www.rightmove.co.uk/properties/94709247",
+   "https://www.openrent.co.uk/property-to-rent/london/4-bed-flat-percy-road-w12/3086477"
   ],
   "off_market": {
-   "why": "Advert taken down on Rightmove",
+   "why": "Let agreed on OpenRent",
    "checked": "2026-11-10"
   }
  },
@@ -29103,7 +29343,22 @@
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/d67c97e66/93104619/d67c97e6622b28e71893af0d5562463a_max_476x317.jpeg",
-  "checked": "2026-11-10"
+  "checked": "2026-11-10",
+  "loc": [
+   51.474952,
+   -0.154309
+  ],
+  "station": {
+   "name": "Battersea Park",
+   "kind": "Rail",
+   "walk": 9
+  },
+  "commute": {
+   "lcp": 41,
+   "tritax": 41,
+   "q5": 38,
+   "wentworth": 49
+  }
  },
  {
   "id": "rightmove-91831659",
@@ -29330,7 +29585,22 @@
     "openrent"
    ]
   ],
-  "checked": "2026-11-10"
+  "checked": "2026-11-10",
+  "loc": [
+   51.44339,
+   -0.1345781
+  ],
+  "station": {
+   "name": "Streatham Hill",
+   "kind": "Rail",
+   "walk": 12
+  },
+  "commute": {
+   "lcp": 54,
+   "tritax": 52,
+   "q5": 49,
+   "wentworth": 55
+  }
  },
  {
   "id": "zoopla-47543343",
@@ -30013,7 +30283,22 @@
    ]
   ],
   "photo": "https://media.onthemarket.com/properties/20693163/1656643579/image-0-1024x1024.jpg",
-  "checked": "2026-11-10"
+  "checked": "2026-11-10",
+  "loc": [
+   51.446929,
+   -0.145081
+  ],
+  "station": {
+   "name": "Balham",
+   "kind": "Tube",
+   "walk": 11
+  },
+  "commute": {
+   "lcp": 49,
+   "tritax": 47,
+   "q5": 45,
+   "wentworth": 53
+  }
  },
  {
   "id": "zoopla-74689037",
@@ -30037,7 +30322,8 @@
   "added_at": "2026-11-05T11:58Z",
   "notes": [
    "From an email on 2026-11-05: New listings: 26 new properties to rent in Putney",
-   "Advert taken down on Rightmove (10 Nov)."
+   "Advert taken down on Rightmove (10 Nov).",
+   "Advert taken down on Zoopla (10 Nov)."
   ],
   "prices": [
    [
@@ -30074,11 +30360,12 @@
   "checked": "2026-11-10",
   "photo": "https://media.rightmove.co.uk/dir/property-photo/d28731d69/95144457/d28731d6907eea8b0cf7b929b6813d0e_max_476x317.jpeg",
   "down": [
+   "https://www.zoopla.co.uk/to-rent/details/74689037/",
    "https://www.rightmove.co.uk/properties/95144457",
    "https://www.onthemarket.com/details/20702188/"
   ],
   "off_market": {
-   "why": "Advert taken down on Rightmove",
+   "why": "Advert taken down on Zoopla",
    "checked": "2026-11-10"
   }
  },
@@ -30738,7 +31025,22 @@
     "onthemarket"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/261fc0655/95259135/261fc065529ba55d878636f00ff7a169_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/261fc0655/95259135/261fc065529ba55d878636f00ff7a169_max_476x317.jpeg",
+  "loc": [
+   51.442139,
+   -0.158411
+  ],
+  "station": {
+   "name": "Balham",
+   "kind": "Tube",
+   "walk": 7
+  },
+  "commute": {
+   "lcp": 46,
+   "tritax": 44,
+   "q5": 43,
+   "wentworth": 51
+  }
  },
  {
   "id": "onthemarket-20721171",
@@ -31018,36 +31320,6 @@
   "checked": "2026-11-10"
  },
  {
-  "id": "rightmove-95305434",
-  "title": "High Street, London, SW18",
-  "area": "SW18",
-  "rent": 3900,
-  "beds": 4,
-  "baths": null,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.rightmove.co.uk/properties/95305434",
-  "links": [
-   "https://www.rightmove.co.uk/properties/95305434"
-  ],
-  "source": "alert",
-  "added": "2026-11-10",
-  "added_at": "2026-11-10T11:13Z",
-  "notes": [
-   "From an email on 2026-11-10: fourguys, we've found you 4 properties in SW London house v3"
-  ],
-  "prices": [
-   [
-    "2026-11-10",
-    3900,
-    "rightmove"
-   ]
-  ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/7c36b4fca/95305434/7c36b4fca2bc62b08d06c9b57954b09c_max_476x317.jpeg",
-  "checked": "2026-11-10"
- },
- {
   "id": "rightmove-95302005",
   "title": "LAVENDER SWEEP, SW11",
   "area": "SW11",
@@ -31075,7 +31347,22 @@
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/a0b24da94/95302005/a0b24da94e610fd60c3b79cb11789232_max_476x317.jpeg",
-  "checked": "2026-11-10"
+  "checked": "2026-11-10",
+  "loc": [
+   51.463152,
+   -0.165146
+  ],
+  "station": {
+   "name": "Clapham Junction",
+   "kind": "Rail",
+   "walk": 6
+  },
+  "commute": {
+   "lcp": 47,
+   "tritax": 45,
+   "q5": 37,
+   "wentworth": 50
+  }
  },
  {
   "id": "rightmove-94691706",
@@ -31284,7 +31571,22 @@
     "rightmove"
    ]
   ],
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/e49fb7582/95327973/e49fb75820c872efe2cb79b52c56746a_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/e49fb7582/95327973/e49fb75820c872efe2cb79b52c56746a_max_476x317.jpeg",
+  "loc": [
+   51.43555,
+   -0.164837
+  ],
+  "station": {
+   "name": "Tooting Bec",
+   "kind": "Tube",
+   "walk": 6
+  },
+  "commute": {
+   "lcp": 48,
+   "tritax": 46,
+   "q5": 44,
+   "wentworth": 49
+  }
  },
  {
   "id": "zoopla-59529898",

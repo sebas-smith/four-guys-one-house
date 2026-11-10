@@ -130,6 +130,30 @@ def photo(url, html):
     return pic
 
 
+COORDS = [  # (site or "", pattern giving lat then lon, or lon then lat when the name ends in "lonlat")
+    ("rightmove", r'(5[01]\.\d{3,}),(-?[01]\.\d{3,}),\d+,\d+,\\?"(?:ACCURATE_POINT|APPROXIMATE)'),
+    ("onthemarket lonlat", r'"location":\{"lon":(-?[01]\.\d{3,}),"lat":(5[01]\.\d{3,})\},"breadcrumbs"'),
+    ("zoopla lonlat", r"marker=(-?[01]\.\d{3,})%2C(5[01]\.\d{3,})"),
+    ("openrent", r'data-lat="(5[01]\.\d{3,})"\s+data-lng="(-?[01]\.\d{3,})"'),
+    ("", r'"latitude":\s*"?(5[01]\.\d{3,})"?,\s*"longitude":\s*"?(-?[01]\.\d{3,})'),  # schema.org (Foxtons, agents)
+]
+
+
+def coords(url, html):
+    """[lat, lon] of the home from its advert page, or None. Only positions in Greater London count."""
+    site = site_of(url)
+    for name, rx in COORDS:
+        if name and name.split()[0] != site:
+            continue
+        m = re.search(rx, html)
+        if m:
+            a, b = float(m.group(1)), float(m.group(2))
+            lat, lon = (b, a) if name.endswith("lonlat") else (a, b)
+            if 51.25 < lat < 51.72 and -0.55 < lon < 0.35:
+                return [lat, lon]
+    return None
+
+
 def asking(url, html):
     """The monthly rent a live Rightmove or OnTheMarket advert asks, or None."""
     site = site_of(url)
@@ -181,6 +205,25 @@ def add_note(home, text):
         notes.append(text)
 
 
+HOLD_DAYS = 5  # a home held as "not checked yet" for this long with no sweep saying live is marked gone
+RECHECK = ROOT / "data" / "recheck.json"
+
+
+def hold(home, today):
+    """True while a home whose readable adverts are down should stay listed (first held under HOLD_DAYS ago)."""
+    first = home.setdefault("unconfirmed", today)
+    return (datetime.date.fromisoformat(today) - datetime.date.fromisoformat(first)).days < HOLD_DAYS
+
+
+def write_recheck(listings):
+    """data/recheck.json: held homes the ChatGPT sweep should open (adverts GitHub can't read)."""
+    rows = [{"id": h["id"], "title": h["title"], "rent": h.get("rent"), "why": h["off_market"]["why"],
+             "since": h.get("unconfirmed"), "links": [u for u in h.get("links", []) if u not in h.get("down", [])]}
+            for h in listings if h.get("off_market", {}).get("unconfirmed") and h.get("status") != "gone"]
+    json.dump(rows, open(RECHECK, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
+    return len(rows)
+
+
 def fetch(url):
     try:
         try:
@@ -204,7 +247,8 @@ def main():
     today = datetime.date.today().isoformat()
     day = f"{datetime.date.today().day} {datetime.date.today():%b}"
     listings = json.load(open(path, encoding="utf-8"))
-    gone = back = checked = warned = unread = repriced = 0
+    gone = back = checked = warned = unread = repriced = held = 0
+    unread_by = {}
     for home in listings:
         mine = bool(home.get("off_market"))
         flagged = home.get("sweep_gone")
@@ -229,6 +273,9 @@ def main():
             time.sleep(0.7)
         checked += 1
         unread += sum(v is None for v in results.values())
+        for u, v in results.items():
+            if v is None:
+                unread_by[name(u)] = unread_by.get(name(u), 0) + 1
         let = [u for u, v in results.items() if v == "let"]
         removed = [u for u, v in results.items() if v == "removed"]
         live = [u for u, v in results.items() if v == "live"]
@@ -243,7 +290,20 @@ def main():
         live_sites = {site_of(u) for u in live}
         warn = [u for u in let if site_of(u) not in live_sites]
         was = home["status"]
-        if (let or removed) and not live:
+        unknown = [u for u, v in results.items() if v is None]
+        if live or not (let or removed):
+            home.pop("unconfirmed", None)
+        if (let or removed) and not live and unknown and not flagged and was != "gone" and hold(home, today):
+            # Down where we can read, but other adverts (Zoopla, OpenRent, agents block GitHub) might still be
+            # live: keep it listed with a warning, and list it in data/recheck.json for the ChatGPT sweep.
+            u = (let or removed)[0]
+            why = f"{'Let agreed' if let else 'Taken down'} on {name(u)}; {name(unknown[0])} advert not checked yet"
+            if home.get("off_market", {}).get("why") != why:
+                add_note(home, f"{why} ({day}).")
+                print(f"hold  {home['title'][:40]:40} {why}")
+                held += 1
+            home["off_market"] = {"why": why, "checked": today, "unconfirmed": True}
+        elif (let or removed) and not live:
             u = (let or removed)[0]
             why = f"{'Let agreed' if let else 'Advert taken down'} on {name(u)}"
             if home.get("off_market", {}).get("why") != why:
@@ -294,8 +354,13 @@ def main():
             print(f"... {checked} homes checked")
     if "--dry-run" not in args:
         json.dump(listings, open(path, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
+        if path == LISTINGS:
+            print(f"{write_recheck(listings)} homes held for the ChatGPT sweep to recheck (data/recheck.json)")
     print(f"{checked} homes checked: {gone} newly off the market, {back} back on, {warned} newly let on one site "
-          f"but live on another, {repriced} rents changed, {unread} adverts couldn't be read")
+          f"but live on another, {repriced} rents changed, {held} newly held (readable adverts down, others unread), "
+          f"{unread} adverts couldn't be read")
+    if unread_by:
+        print("  couldn't read: " + ", ".join(f"{k} {v}" for k, v in sorted(unread_by.items(), key=lambda x: -x[1])))
 
 
 if __name__ == "__main__":

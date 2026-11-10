@@ -214,6 +214,23 @@ def main():
     assert cl.photo(rm, 'x "https://media.rightmove.co.uk/dir/property-photo/1a/2/3_max_135x100.jpeg" y').endswith("3_max_476x317.jpeg")
     assert cl.photo(otm, '<meta property="og:image" content="https://media.onthemarket.com/p/1.jpg"/>') == "https://media.onthemarket.com/p/1.jpg"
     assert cl.photo(otm, '<meta property="og:image" content="http://staticcdn.openrent.co.uk/images/logos/share-graphic-2.jpg"/>') is None
+    # the home's map pin from its advert page (real page fragments, 10 Nov)
+    assert cl.coords(rm, r'\"showMap\":6},51.463152,-0.165146,0,15,\"ACCURATE_POINT\",{') == [51.463152, -0.165146]
+    assert cl.coords(otm, '"location":{"lon":-0.147391,"lat":51.451409},"websiteRedirectUrl":"x","location":{"lon":-0.145081,'
+                          '"lat":51.446929},"breadcrumbs":[') == [51.446929, -0.145081]  # the first one is the agent's office
+    assert cl.coords("https://www.zoopla.co.uk/to-rent/details/1/", "webp?marker=-0.145081%2C51.446929%7Cmap") == [51.446929, -0.145081]
+    assert cl.coords("https://www.openrent.co.uk/3088683", 'data-lat="51.44339"\r\n   data-lng="-0.1345781"') == [51.44339, -0.1345781]
+    assert cl.coords(fx, '"geo":{"@type":"GeoCoordinates","latitude":51.488044,"longitude":-0.253742}') == [51.488044, -0.253742]
+    assert cl.coords(rm, "nothing here") is None
+    # photo matching: the same photo resized matches, a different one doesn't
+    import photo_dupes as pd
+    assert pd.judge(["0f0f0f0f0f0f0f0f", "ffff0000ffff0000", "1234567812345678"], ["0f0f0f0f0f0f0f0e", "ffff0000ffff0001", "1234567812345679"]) == "same"
+    assert pd.judge(["0000000000000000", "ffffffffffffffff", "00000000ffffffff", "ffffffff00000000"],
+                    ["0f0f0f0f0f0f0f0f", "f0f0f0f0f0f0f0f0", "00ff00ff00ff00ff", "ff00ff00ff00ff00"]) == "different"
+    assert pd.judge(["0000000000000000"], ["0f0f0f0f0f0f0f0f"]) is None  # too few photos to say
+    assert pd.gallery(rm, '"https://media.rightmove.co.uk/dir/property-photo/ab1/95291706/cd2_max_135x100.jpeg" '
+                          '"https://media.rightmove.co.uk/property-photo/ab1/95291706/cd2.jpeg"') == \
+        ["https://media.rightmove.co.uk/dir/property-photo/ab1/95291706/cd2_max_476x317.jpeg"]
     # parser edge cases
     for t, want in [("From £4,000 pcm 4 bed", (4000, 4)), ("Holding deposit: £923. £4,000 pcm", (4000, None)),
                     ("£4,333.33 4-bedroom", (4333, 4)), ("Four bedroom house £4,100 pcm", (4100, 4)),
@@ -290,6 +307,8 @@ def test_check_live():
         rm.format(9): (200, pad + "content='4 bedroom house for rent in E Road for £3,301 pcm'"),
         otm.format(10): (200, pad + '"http-status":"200","status":"live" "priceRaw":4949,'),
         rm.format(11): (200, pad + '<span>LET AGREED</span>'),
+        rm.format(12): (410, ""), rm.format(14): (410, ""),
+        "https://www.zoopla.co.uk/to-rent/details/13/": (403, ""), "https://www.zoopla.co.uk/to-rent/details/15/": (403, ""),
     }
     homes = [
         {"id": "relisted", "title": "A Road", "rent": 3350, "beds": 4, "status": "new", "links": [rm.format(1), rm.format(2), otm.format(3)],
@@ -305,6 +324,12 @@ def test_check_live():
         # already ruled out (excluded area): it goes let, but isn't "newly off the market"
         {"id": "ruled-out", "title": "G Road", "rent": 4000, "beds": 4, "status": "no", "ruled_out": "excluded area",
          "links": [rm.format(11)]},
+        # taken down on Rightmove, Zoopla unreadable: held as "not checked yet", not gone
+        {"id": "held", "title": "H Road", "rent": 4000, "beds": 4, "status": "new",
+         "links": [rm.format(12), "https://www.zoopla.co.uk/to-rent/details/13/"]},
+        # held for HOLD_DAYS already with no sweep saying live: now gone
+        {"id": "held-long", "title": "I Road", "rent": 4000, "beds": 4, "status": "new", "unconfirmed": "2020-01-01",
+         "links": [rm.format(14), "https://www.zoopla.co.uk/to-rent/details/15/"]},
     ]
     with tempfile.TemporaryDirectory() as d:
         f = Path(d) / "l.json"
@@ -320,8 +345,13 @@ def test_check_live():
         finally:
             cl.fetch, cl.time.sleep, sys.argv = real
         out = {h["id"]: h for h in json.load(open(f, encoding="utf-8"))}
-    summary = log.getvalue().strip().splitlines()[-1]
-    assert summary.startswith("7 homes checked: 1 newly off the market,"), summary  # "gone" only, not "ruled-out"
+    summary = next(x for x in log.getvalue().splitlines() if " homes checked: " in x)
+    assert summary.startswith("9 homes checked: 2 newly off the market,"), summary  # "gone", "held-long"; not "ruled-out"
+    assert "1 newly held" in summary and "Zoopla 2" in log.getvalue(), log.getvalue()
+    h = out["held"]
+    assert h["status"] == "new" and h["off_market"]["unconfirmed"] and h["unconfirmed"], h
+    assert h["off_market"]["why"] == "Taken down on Rightmove; Zoopla advert not checked yet", h
+    assert out["held-long"]["status"] == "gone" and out["held-long"]["off_market"]["why"] == "Advert taken down on Rightmove"  # "gone" only, not "ruled-out"
     assert out["ruled-out"]["status"] == "no" and out["ruled-out"]["off_market"]["why"] == "Let agreed on Rightmove"
     j = out["jitter"]
     assert j["rent"] == 3300 and j["prices"] == [["2026-10-18", 3300, "rightmove"]] and not j["notes"], j

@@ -2,7 +2,7 @@
 
 Usage: python scripts/stations.py [--all] [--file listings.json]
 
-Looks up each home's street on OpenStreetMap (Nominatim, at most one request a second, cached in
+Takes the position from the home's advert (the portal's map pin) when one can be read, else looks up its street on OpenStreetMap (Nominatim, at most one request a second, cached in
 data/geo.json) and measures the straight-line distance to every station in data/stations.json.
 Walking time assumes 80 m a minute and streets 30% longer than a straight line. The street's
 position is saved as `loc` ([lat, lon]) for the map. Only homes without a station or a position
@@ -85,6 +85,25 @@ def locate(home, geo):
     return geo[key] if isinstance(geo[key], list) else None
 
 
+def from_advert(home):
+    """[lat, lon] read from the home's first readable advert (portals put the pin in the page), or None.
+
+    More exact than looking up the street, and works when the title has no street OpenStreetMap knows
+    ("High Street, SW18" is "Wandsworth High Street" there; "Boundaries Mansions"; "Tooting Bec, SW17 7NE")."""
+    try:
+        from check_live import blocked, coords, fetch
+    except ImportError:  # curl_cffi not installed: street lookup only
+        return None
+    down = set(home.get("down") or [])
+    for url in [u for u in home.get("links") or [] if u not in down][:4]:
+        code, _, html = fetch(url)
+        if code == 200 and not blocked(html):
+            where = coords(url, html)
+            if where:
+                return where
+    return None
+
+
 def main(redo, path=LISTINGS):
     listings = json.load(open(path, encoding="utf-8"))
     stations = json.load(open(STATIONS, encoding="utf-8"))
@@ -95,7 +114,9 @@ def main(redo, path=LISTINGS):
         for home in listings:
             if home.get("station") and home.get("loc") and not redo:
                 continue
-            where = locate(home, geo)
+            # a home already placed (e.g. by hand) keeps its position; else the advert's pin, else the street
+            where = (home.get("loc") if not redo else None) or (from_advert(home) if home.get("status") != "gone" else None) \
+                or locate(home, geo)
             if not where:
                 continue
             home["loc"] = where  # for the map and commute times

@@ -157,6 +157,8 @@ def main(dry, path=LISTINGS):
             label = f"{b['id']} ({b['title'][:35]}) / {a['id']} ({a['title'][:35]})"
             if result == "same":
                 absorb(a, b, False)
+                if not street(a.get("title")) and street(b.get("title")):  # "London SW17" + "Hereward Road"
+                    a["title"] = b["title"]
                 a.setdefault("notes", []).append(f"Same house as {b['id']} by its photos; merged ({dt.date.today():%d %b}).")
                 gone_ids.add(b["id"])
                 merged.append(label)

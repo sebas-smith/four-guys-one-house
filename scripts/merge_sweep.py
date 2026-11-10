@@ -197,6 +197,11 @@ def main(src, dry, path=LISTINGS, ids_out=None):
                     match["ruled_out"] = why_no
                 else:
                     match.pop("ruled_out", None)
+            if row["status"].strip().lower() == "live" and match.get("off_market", {}).get("unconfirmed"):
+                # check_live.py held this home: its readable adverts were down but it couldn't read the rest
+                match.pop("off_market")
+                match.pop("unconfirmed", None)
+                note(f"ChatGPT sweep says live: still available ({checked}).")
             match["checked"] = checked
             updated += 1
         else:
