@@ -1441,7 +1441,10 @@
    "https://www.foxtons.co.uk/properties-to-rent/sw20/chpk0331619",
    "https://www.rightmove.co.uk/properties/93324105",
    "https://www.zoopla.co.uk/to-rent/details/74279594/",
-   "https://www.onthemarket.com/details/20369640/"
+   "https://www.onthemarket.com/details/20369640/",
+   "https://www.onthemarket.com/details/20730059/",
+   "https://www.rightmove.co.uk/properties/95323842",
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2522772/kingston-road/"
   ],
   "source": "import",
   "added": "2026-09-25",
@@ -1487,6 +1490,11 @@
     "2026-11-03",
     3385,
     "rightmove"
+   ],
+   [
+    "2026-11-10",
+    3384,
+    "marshandparsons"
    ]
   ],
   "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1791443750/91/61/330/chpk0331619/edited_chpk0331619-15.jpg",
@@ -24483,7 +24491,7 @@
   "id": "zoopla-74588190",
   "title": "Graham Road, London SW19",
   "area": "Wimbledon",
-  "rent": 4000,
+  "rent": 3800,
   "beds": 4,
   "baths": 3,
   "available": "2026-12-17",
@@ -24500,7 +24508,9 @@
   "added": "2026-10-23",
   "checked": "2026-11-10",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Price cut on Onthemarket: £4,000 to £3,800 (2026-11-10).",
+   "Price cut on Rightmove: £4,000 to £3,800 (2026-11-10)."
   ],
   "prices": [
    [
@@ -24512,6 +24522,16 @@
     "2026-11-03",
     4000,
     "onthemarket"
+   ],
+   [
+    "2026-11-10",
+    3800,
+    "onthemarket"
+   ],
+   [
+    "2026-11-10",
+    3800,
+    "rightmove"
    ]
   ],
   "station": {
@@ -25001,7 +25021,7 @@
   "id": "rightmove-94314492",
   "title": "Prothero Road, Fulham",
   "area": "Fulham",
-  "rent": 4500,
+  "rent": 4250,
   "beds": 4,
   "baths": 3,
   "available": "",
@@ -25016,12 +25036,18 @@
   "added": "2026-10-25",
   "checked": "2026-11-10",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Price cut on Rightmove: £4,500 to £4,250 (2026-11-10)."
   ],
   "prices": [
    [
     "2026-10-25",
     4500,
+    "rightmove"
+   ],
+   [
+    "2026-11-10",
+    4250,
     "rightmove"
    ]
   ],
@@ -26102,7 +26128,9 @@
    "https://www.zoopla.co.uk/to-rent/details/74712797/",
    "https://www.onthemarket.com/details/20712644/",
    "https://www.zoopla.co.uk/to-rent/details/74718708/",
-   "https://www.onthemarket.com/details/20717109/"
+   "https://www.onthemarket.com/details/20717109/",
+   "https://www.onthemarket.com/details/20727969/",
+   "https://www.zoopla.co.uk/to-rent/details/74731955/"
   ],
   "source": "agent",
   "added": "2026-10-26",
@@ -27412,7 +27440,7 @@
   "id": "onthemarket-20651061",
   "title": "Cottenham Park Road, London SW20",
   "area": "SW20",
-  "rent": 4500,
+  "rent": 4000,
   "beds": 5,
   "baths": null,
   "available": "",
@@ -27428,7 +27456,9 @@
   "source": "alert",
   "added": "2026-10-29",
   "notes": [
-   "From an email on 2026-10-29: New properties in London (drawn area)"
+   "From an email on 2026-10-29: New properties in London (drawn area)",
+   "Price cut on Onthemarket: £4,500 to £4,000 (2026-11-10).",
+   "Price cut on Rightmove: £4,500 to £4,000 (2026-11-10)."
   ],
   "prices": [
    [
@@ -27449,6 +27479,16 @@
    [
     "2026-10-29",
     4500,
+    "rightmove"
+   ],
+   [
+    "2026-11-10",
+    4000,
+    "onthemarket"
+   ],
+   [
+    "2026-11-10",
+    4000,
     "rightmove"
    ]
   ],
@@ -27736,7 +27776,7 @@
   "id": "onthemarket-20406560",
   "title": "Wadham Road, London, SW15",
   "area": "SW15",
-  "rent": 4000,
+  "rent": 3750,
   "beds": 4,
   "baths": 3,
   "available": "2026-12-07",
@@ -27755,7 +27795,8 @@
   "notes": [
    "From an email on 2026-10-30: New properties in London (drawn area)",
    "Found by ChatGPT sweep (live).",
-   "Merged in onthemarket-16589505: the same house (3 Nov audit)."
+   "Merged in onthemarket-16589505: the same house (3 Nov audit).",
+   "Price cut on Rightmove: £4,000 to £3,750 (2026-11-10)."
   ],
   "prices": [
    [
@@ -27777,6 +27818,11 @@
     "2026-11-03",
     4000,
     "onthemarket"
+   ],
+   [
+    "2026-11-10",
+    3750,
+    "rightmove"
    ]
   ],
   "station": {
@@ -31045,7 +31091,8 @@
   "links": [
    "https://www.rightmove.co.uk/properties/94691706",
    "https://www.onthemarket.com/details/20461776/",
-   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR1425958/ryfold-road/"
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR1425958/ryfold-road/",
+   "https://www.zoopla.co.uk/to-rent/details/45237931/"
   ],
   "source": "alert",
   "added": "2026-11-10",
@@ -31068,6 +31115,11 @@
     "2026-11-10",
     5000,
     "marshandparsons"
+   ],
+   [
+    "2026-11-10",
+    5000,
+    "zoopla"
    ]
   ],
   "loc": [
@@ -31086,7 +31138,10 @@
    "wentworth": 46
   },
   "photo": "https://media.rightmove.co.uk/dir/property-photo/1fa0ec535/94691706/1fa0ec5351bfdb8cd8b5091cac7abbfc_max_476x317.jpeg",
-  "checked": "2026-11-10"
+  "checked": "2026-11-10",
+  "not_same": [
+   "onthemarket-781011"
+  ]
  },
  {
   "id": "onthemarket-19898236",
@@ -31230,5 +31285,162 @@
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/e49fb7582/95327973/e49fb75820c872efe2cb79b52c56746a_max_476x317.jpeg"
+ },
+ {
+  "id": "zoopla-59529898",
+  "title": "Lavender Sweep SW11",
+  "area": "SW11",
+  "rent": 4500,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.zoopla.co.uk/to-rent/details/59529898/",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/59529898/"
+  ],
+  "source": "alert",
+  "added": "2026-11-10",
+  "added_at": "2026-11-10T12:54Z",
+  "notes": [
+   "From an email on 2026-11-10: New listings: 3 new properties to rent in Putney"
+  ],
+  "prices": [
+   [
+    "2026-11-10",
+    4500,
+    "zoopla"
+   ]
+  ]
+ },
+ {
+  "id": "zoopla-74729160",
+  "title": "College Court, London W6",
+  "area": "W6",
+  "rent": 4500,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.zoopla.co.uk/to-rent/details/74729160/",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74729160/"
+  ],
+  "source": "alert",
+  "added": "2026-11-10",
+  "added_at": "2026-11-10T12:54Z",
+  "notes": [
+   "From an email on 2026-11-10: New listings: 3 new properties to rent in Putney"
+  ],
+  "prices": [
+   [
+    "2026-11-10",
+    4500,
+    "zoopla"
+   ]
+  ],
+  "loc": [
+   51.4909785,
+   -0.225518
+  ],
+  "station": {
+   "name": "Hammersmith",
+   "kind": "Tube",
+   "walk": 3
+  },
+  "commute": {
+   "lcp": 36,
+   "tritax": 40,
+   "q5": 39,
+   "wentworth": 35
+  }
+ },
+ {
+  "id": "onthemarket-20728741",
+  "title": "Queensville Road, London SW12",
+  "area": "SW12",
+  "rent": 4000,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20728741/",
+  "links": [
+   "https://www.onthemarket.com/details/20728741/",
+   "https://www.rightmove.co.uk/properties/95317137"
+  ],
+  "source": "alert",
+  "added": "2026-11-10",
+  "added_at": "2026-11-10T14:25Z",
+  "notes": [
+   "From an email on 2026-11-10: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-10",
+    4000,
+    "onthemarket"
+   ],
+   [
+    "2026-11-10",
+    4000,
+    "rightmove"
+   ]
+  ]
+ },
+ {
+  "id": "onthemarket-781011",
+  "title": "Ryfold Road, Wimbledon, London, SW19",
+  "area": "Wimbledon",
+  "rent": 5000,
+  "beds": 5,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/781011/",
+  "links": [
+   "https://www.onthemarket.com/details/781011/",
+   "https://www.rightmove.co.uk/properties/93924348"
+  ],
+  "source": "alert",
+  "added": "2026-11-10",
+  "added_at": "2026-11-10T14:25Z",
+  "notes": [
+   "From an email on 2026-11-10: Reduced price properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-10",
+    5000,
+    "onthemarket"
+   ],
+   [
+    "2026-11-10",
+    5000,
+    "rightmove"
+   ]
+  ],
+  "loc": [
+   51.4361163,
+   -0.1987572
+  ],
+  "station": {
+   "name": "Wimbledon Park",
+   "kind": "Tube",
+   "walk": 4
+  },
+  "not_same": [
+   "rightmove-94691706"
+  ],
+  "commute": {
+   "lcp": 53,
+   "tritax": 51,
+   "q5": 49,
+   "wentworth": 46
+  }
  }
 ]
