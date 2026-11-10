@@ -26361,7 +26361,8 @@
    "https://www.rightmove.co.uk/properties/94481241",
    "https://www.rightmove.co.uk/properties/93925863",
    "https://www.hamptons.co.uk/properties/22188608/lettings/P328805",
-   "https://www.onthemarket.com/details/20475831/"
+   "https://www.onthemarket.com/details/20475831/",
+   "https://www.zoopla.co.uk/to-rent/details/74724170/"
   ],
   "source": "sweep",
   "added": "2026-10-27",
@@ -26394,6 +26395,11 @@
     "2026-11-03",
     4750,
     "onthemarket"
+   ],
+   [
+    "2026-11-10",
+    4750,
+    "zoopla"
    ]
   ],
   "station": {
@@ -30570,7 +30576,8 @@
   "links": [
    "https://www.chestertons.co.uk/properties/22297502/lettings/HEA263630",
    "https://www.zoopla.co.uk/to-rent/details/74718848/",
-   "https://www.rightmove.co.uk/properties/95259135"
+   "https://www.rightmove.co.uk/properties/95259135",
+   "https://www.onthemarket.com/details/20725030/"
   ],
   "source": "sweep",
   "added": "2026-11-09",
@@ -30584,6 +30591,11 @@
     "2026-11-09",
     4250,
     "rightmove"
+   ],
+   [
+    "2026-11-10",
+    4250,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/261fc0655/95259135/261fc065529ba55d878636f00ff7a169_max_476x317.jpeg"
@@ -30601,7 +30613,8 @@
   "url": "https://www.zoopla.co.uk/to-rent/details/74718768/",
   "links": [
    "https://www.chestertons.co.uk/properties/22296679/lettings/WFL260517",
-   "https://www.zoopla.co.uk/to-rent/details/74718768/"
+   "https://www.zoopla.co.uk/to-rent/details/74718768/",
+   "https://www.onthemarket.com/details/20725149/"
   ],
   "source": "sweep",
   "added": "2026-11-09",
@@ -30615,6 +30628,11 @@
     "2026-11-09",
     4500,
     "zoopla"
+   ],
+   [
+    "2026-11-10",
+    4500,
+    "onthemarket"
    ]
   ],
   "loc": [
@@ -30805,7 +30823,8 @@
   "url": "https://www.onthemarket.com/details/20717197/",
   "links": [
    "https://www.onthemarket.com/details/20717197/",
-   "https://www.rightmove.co.uk/properties/95265966"
+   "https://www.rightmove.co.uk/properties/95265966",
+   "https://www.zoopla.co.uk/to-rent/details/74718871/"
   ],
   "source": "alert",
   "added": "2026-11-09",
@@ -30823,6 +30842,11 @@
     "2026-11-09",
     4500,
     "rightmove"
+   ],
+   [
+    "2026-11-10",
+    4500,
+    "zoopla"
    ]
   ],
   "loc": [
@@ -30974,6 +30998,55 @@
    "tritax": 50,
    "q5": 49,
    "wentworth": 53
+  }
+ },
+ {
+  "id": "onthemarket-20725252",
+  "title": "Patience Road, LONDON, SW11 2PY",
+  "area": "SW11",
+  "rent": 4199,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20725252/",
+  "links": [
+   "https://www.onthemarket.com/details/20725252/",
+   "https://www.zoopla.co.uk/to-rent/details/74728441/"
+  ],
+  "source": "alert",
+  "added": "2026-11-10",
+  "added_at": "2026-11-10T03:04Z",
+  "notes": [
+   "From an email on 2026-11-10: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-10",
+    4199,
+    "onthemarket"
+   ],
+   [
+    "2026-11-10",
+    4199,
+    "zoopla"
+   ]
+  ],
+  "loc": [
+   51.4696907,
+   -0.1704594
+  ],
+  "station": {
+   "name": "Clapham Junction",
+   "kind": "Rail",
+   "walk": 9
+  },
+  "commute": {
+   "lcp": 48,
+   "tritax": 46,
+   "q5": 37,
+   "wentworth": 48
   }
  }
 ]
