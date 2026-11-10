@@ -5087,7 +5087,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-11."
   ],
-  "checked": "2026-11-09",
+  "checked": "2026-11-10",
   "station": {
    "name": "Colliers Wood",
    "kind": "Tube",
@@ -6694,7 +6694,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04."
   ],
-  "checked": "2026-11-09",
+  "checked": "2026-11-10",
   "station": {
    "name": "Wandsworth Town",
    "kind": "Rail",
@@ -6742,7 +6742,7 @@
    "Price changed from £4,800 to £4,300 (2026-10-26).",
    "Price changed from £4,300 to £3,800 (2026-10-30)."
   ],
-  "checked": "2026-11-09",
+  "checked": "2026-11-10",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -6800,7 +6800,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: recheck). Last checked 2026-10-09."
   ],
-  "checked": "2026-11-09",
+  "checked": "2026-11-10",
   "station": {
    "name": "Raynes Park",
    "kind": "Rail",
@@ -11956,7 +11956,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25."
   ],
-  "checked": "2026-11-09",
+  "checked": "2026-11-10",
   "station": {
    "name": "Tooting Broadway",
    "kind": "Tube",
@@ -19957,7 +19957,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-09",
+  "checked": "2026-11-10",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Bathrooms corrected to 2 from the advert (31 Oct)."
@@ -20592,7 +20592,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-09",
+  "checked": "2026-11-10",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -20877,7 +20877,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-09",
+  "checked": "2026-11-10",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21585,7 +21585,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-09",
+  "checked": "2026-11-10",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21679,7 +21679,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-09",
+  "checked": "2026-11-10",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21865,7 +21865,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-09",
+  "checked": "2026-11-10",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Bathrooms corrected to 1 from the advert (31 Oct)."
@@ -25537,7 +25537,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-11-09",
+  "checked": "2026-11-10",
   "notes": [
    "Found by ChatGPT sweep (unverified)."
   ],
@@ -25793,7 +25793,7 @@
   ],
   "source": "search",
   "added": "2026-10-25",
-  "checked": "2026-11-09",
+  "checked": "2026-11-10",
   "notes": [
    "Missed by the sweep; found in a portal coverage check on 25 Oct (OpenRent private landlord)."
   ],
@@ -29132,7 +29132,7 @@
     "openrent"
    ]
   ],
-  "checked": "2026-11-09"
+  "checked": "2026-11-10"
  },
  {
   "id": "zoopla-47543343",
@@ -29243,7 +29243,7 @@
   "source": "sweep",
   "added": "2026-11-02",
   "added_at": "2026-11-02T18:09Z",
-  "checked": "2026-11-09",
+  "checked": "2026-11-10",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -29359,7 +29359,7 @@
    "q5": 23,
    "wentworth": 49
   },
-  "checked": "2026-11-09"
+  "checked": "2026-11-10"
  },
  {
   "id": "onthemarket-20679740",
@@ -29922,7 +29922,7 @@
    "q5": 57,
    "wentworth": 42
   },
-  "checked": "2026-11-09"
+  "checked": "2026-11-10"
  },
  {
   "id": "onthemarket-17971169",
@@ -30338,7 +30338,7 @@
   "source": "sweep",
   "added": "2026-11-06",
   "added_at": "2026-11-06T18:04Z",
-  "checked": "2026-11-09",
+  "checked": "2026-11-10",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -30628,7 +30628,7 @@
    "q5": 49,
    "wentworth": 55
   },
-  "checked": "2026-11-09"
+  "checked": "2026-11-10"
  },
  {
   "id": "onthemarket-17394532",
@@ -31341,5 +31341,140 @@
   },
   "photo": "https://media.rightmove.co.uk/dir/property-photo/1fa0ec535/94691706/1fa0ec5351bfdb8cd8b5091cac7abbfc_max_476x317.jpeg",
   "checked": "2026-11-10"
+ },
+ {
+  "id": "onthemarket-19898236",
+  "title": "Devonshire Road, Chiswick, London, W4, W4 2AW",
+  "area": "Chiswick",
+  "rent": 4750,
+  "beds": 5,
+  "baths": 3,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/95330988",
+  "links": [
+   "https://www.onthemarket.com/details/19898236/",
+   "https://www.rightmove.co.uk/properties/95330988",
+   "https://www.foxtons.co.uk/properties-to-rent/w4/chpk0105447"
+  ],
+  "source": "sweep",
+  "added": "2026-11-10",
+  "added_at": "2026-11-10T18:06Z",
+  "checked": "2026-11-10",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-11-10",
+    4750,
+    "rightmove"
+   ],
+   [
+    "2026-11-10",
+    4750,
+    "onthemarket"
+   ]
+  ],
+  "loc": [
+   51.4925859,
+   -0.256164
+  ],
+  "station": {
+   "name": "Turnham Green",
+   "kind": "Tube",
+   "walk": 5
+  },
+  "commute": {
+   "lcp": 48,
+   "tritax": 49,
+   "q5": 48,
+   "wentworth": 33
+  },
+  "photo": "https://media.onthemarket.com/properties/19898236/1657755432/image-0-1024x1024.jpg"
+ },
+ {
+  "id": "onthemarket-19972217",
+  "title": "Devonshire Road, Chiswick, London, W4, W4 2AW",
+  "area": "Chiswick",
+  "rent": 4750,
+  "beds": 5,
+  "baths": 3,
+  "available": "2026-11-28",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/95326272",
+  "links": [
+   "https://www.onthemarket.com/details/19972217/",
+   "https://www.rightmove.co.uk/properties/95326272",
+   "https://www.zoopla.co.uk/to-rent/details/73769354/"
+  ],
+  "source": "sweep",
+  "added": "2026-11-10",
+  "added_at": "2026-11-10T18:06Z",
+  "checked": "2026-11-10",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-11-10",
+    4750,
+    "rightmove"
+   ],
+   [
+    "2026-11-10",
+    4750,
+    "onthemarket"
+   ]
+  ],
+  "loc": [
+   51.4925859,
+   -0.256164
+  ],
+  "station": {
+   "name": "Turnham Green",
+   "kind": "Tube",
+   "walk": 5
+  },
+  "commute": {
+   "lcp": 48,
+   "tritax": 49,
+   "q5": 48,
+   "wentworth": 33
+  },
+  "photo": "https://media.onthemarket.com/properties/19972217/1657742527/image-0-1024x1024.jpg"
+ },
+ {
+  "id": "rightmove-95327973",
+  "title": "Tooting Bec, London, SW17, SW17 7NE",
+  "area": "Tooting Bec",
+  "rent": 4775,
+  "beds": 4,
+  "baths": 2,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/95327973",
+  "links": [
+   "https://www.rightmove.co.uk/properties/95327973",
+   "https://www.zoopla.co.uk/to-rent/details/74735584/"
+  ],
+  "source": "sweep",
+  "added": "2026-11-10",
+  "added_at": "2026-11-10T18:06Z",
+  "checked": "2026-11-10",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-11-10",
+    4775,
+    "rightmove"
+   ]
+  ],
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/e49fb7582/95327973/e49fb75820c872efe2cb79b52c56746a_max_476x317.jpeg"
  }
 ]
