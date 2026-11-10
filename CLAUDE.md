@@ -72,6 +72,9 @@ Read README.md first: it explains the search, the data and every script and work
   while unread adverts (Zoopla/OpenRent/agents) remain: it holds it up to 5 days and lists it in `data/recheck.json`
   for the ChatGPT sweep. A local recheck of 164 gone homes brought back 5 (Wadham Road, Cranford Close, Hubert
   Grove, Alderbrook Road, and Strathearn Road with a let warning).
+  Alert emails' listing photos are now saved (`photos_seen`) so photo_dupes can match Zoopla/OpenRent-only adverts
+  on GitHub. The ChatGPT task's Step 2 now also rechecks `data/recheck.json`. Barons Court/West Kensington (W14)
+  were already inside the drawn area.
 - `AGENTS.md` is a Codex copy of this file ("Claude" -> "Codex"); regenerate it when this file changes.
 
 ## Next steps

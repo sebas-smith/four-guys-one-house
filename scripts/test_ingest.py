@@ -231,6 +231,20 @@ def main():
     assert pd.gallery(rm, '"https://media.rightmove.co.uk/dir/property-photo/ab1/95291706/cd2_max_135x100.jpeg" '
                           '"https://media.rightmove.co.uk/property-photo/ab1/95291706/cd2.jpeg"') == \
         ["https://media.rightmove.co.uk/dir/property-photo/ab1/95291706/cd2_max_476x317.jpeg"]
+    # each listing's photo from its email card (Zoopla's checked against the real adverts, 10 Nov)
+    for name, portal, pid, want in [("zoopla_new", "zoopla", "74612934", "f77d7c2bc0e281276849441b59b418956bd5a79d.jpg"),
+                                    ("zoopla_new", "zoopla", "72461747", "d147eb46e72a9420c802e55f23842357bf590c84.jpg"),
+                                    ("rightmove", "rightmove", "94760382", "/94760382/a9ee54adc8cbbbb02319e195c3826ca9_max_296x197.jpeg"),
+                                    ("onthemarket_new", "onthemarket", "19039243", "/19039243/1654630650/image-0-480x320.jpg"),
+                                    ("openrent_hammersmith", "openrent", "3088555", None)]:  # its picture is another listing's
+        raw, _ = ia.body_text(load(name))
+        found = ia.find_listings(raw)
+        at = found[(portal, pid)]
+        nxt = min((p for p in found.values() if p > at), default=None)
+        got = ia.photo_near(raw, portal, pid, at, nxt)
+        assert (got is None and want is None) or (got and want and got.endswith(want)), (name, pid, got)
+    assert pd.common(["0f0f0f0f0f0f0f0f"], ["0f0f0f0f0f0f0f00"], pd.SINGLE_BITS) == 1
+    assert pd.common(["0f0f0f0f0f0f0f0f"], ["0f0f0f0f0f0f00ff"], pd.SINGLE_BITS) == 0  # 8 bits: too far for one photo
     # parser edge cases
     for t, want in [("From £4,000 pcm 4 bed", (4000, 4)), ("Holding deposit: £923. £4,000 pcm", (4000, None)),
                     ("£4,333.33 4-bedroom", (4333, 4)), ("Four bedroom house £4,100 pcm", (4100, 4)),

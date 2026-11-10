@@ -139,6 +139,28 @@ ADDRESS = re.compile(r"[^<>\n|]{0,80}\b(?:" + POSTCODE + r"|London|Road|Street|A
 OPENRENT = re.compile(r"(\d+) Bed ([^,\n]+), (.+?) - £([\d,]+)", re.I)  # "5 Bed Terraced House, Claybrook Road, W6 - £4,800": title "Claybrook Road, W6"
 
 
+EMAIL_PHOTO = re.compile(r"https?://(?:lid\.zoocdn\.com/\d+/\d+/\w+\.jpe?g|media\.rightmove\.co\.uk/[^\"'\s)<>]*property-photo/[^\"'\s)<>]+?\.jpe?g|"
+                         r"media\.onthemarket\.com/properties/[^\"'\s)<>]+?\.jpe?g|imagescdn\.openrent\.co\.uk/listings/[^\"'\s)<>]+?\.jpe?g)", re.I)
+
+
+def photo_near(raw, portal, pid, pos, next_pos):
+    """The listing's photo from its email card: the first portal photo after its link and before the next listing.
+
+    Rightmove, OnTheMarket and OpenRent photo paths hold the advert number, so theirs must match it (an
+    OpenRent email can carry another listing's picture); Zoopla's are hashes, checked on real adverts 10 Nov.
+    photo_dupes.py compares it when GitHub can't open the advert itself (Zoopla, OpenRent)."""
+    for m in EMAIL_PHOTO.finditer(raw[pos:next_pos or len(raw)][:30000]):
+        if portal == "zoopla" or f"/{pid}/" in m.group(0):
+            return html.unescape(m.group(0))
+    return None
+
+
+def add_seen_photo(home, url):
+    if url and url not in home.setdefault("photos_seen", []):
+        home["photos_seen"].append(url)
+        home.setdefault("photo", url)
+
+
 def visible(fragment):
     """An HTML fragment as plain lines, without tags or URLs."""
     t = re.sub(r"^[^<]*?>|<[^>]*$", "", fragment) if "<" in fragment else fragment  # tags cut by the window
@@ -373,8 +395,11 @@ def read_email(msg, listings, known, added, failures, today):
     for (portal, pid), pos in found.items():
         nxt = next((p for p in positions if p > pos), None)
         prv = max((p for p in positions if p < pos), default=None)
+        pic = photo_near(raw, portal, pid, pos, nxt)
         if (portal, pid) in known:
             home = known[(portal, pid)]
+            if home:
+                add_seen_photo(home, pic)
             rent, beds, _ = details_near(raw, pos, nxt, prv) if home else (None, None, "")
             if home and new_price(home, rent, beds, when, portal):
                 added.append(f"{portal}-{pid} price now £{rent:,} on {home['id']}")
@@ -394,6 +419,7 @@ def read_email(msg, listings, known, added, failures, today):
         dup = same_home(listings, title, rent, beds, None, [url])
         if dup:
             dup.setdefault("links", []).append(url)
+            add_seen_photo(dup, pic)
             merge_price(dup, rent, f"{portal.title()} email {when}", when, portal)
             known[(portal, pid)] = dup
             added.append(f"{portal}-{pid} linked to existing {dup['id']}")
@@ -405,6 +431,7 @@ def read_email(msg, listings, known, added, failures, today):
             "notes": [f"From an email on {when}: {subject[:120]}"],
         })
         record_price(listings[-1], rent, when, portal)
+        add_seen_photo(listings[-1], pic)
         known[(portal, pid)] = listings[-1]
         added.append(f"{portal}-{pid} {title} £{rent}")
     if alert and cards and unread == cards and not unresolved:

@@ -13,7 +13,10 @@ photos by difference hash, so a resized or recompressed copy of the same photo s
   home added first (dedupe.absorb).
 - Both galleries have 4+ photos and at most 1 in common (a shared street or building shot): different
   houses, recorded in both homes' `not_same` so they're never compared or merged again.
-- Otherwise (galleries unreadable, e.g. Zoopla blocking GitHub): left alone and tried again next run.
+- A gallery that can't be read (Zoopla and OpenRent block GitHub): the photo from the alert email
+  (`photos_seen`, saved by ingest_alerts.py) counts when it's near-identical to one of the other home's
+  photos and the rents are within £50. One photo is never enough to call two homes different.
+- Otherwise: left alone and tried again next run.
 
 Hashes are cached per advert in data/photos.json, so each gallery is downloaded once.
 """
@@ -35,6 +38,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / "data" / "photos.json"
 MAX_PHOTOS = 12
 NEAR_BITS = 8      # two 64-bit hashes this close are the same photo
+SINGLE_BITS = 4    # stricter when one emailed photo is all we have (rent must also be within £50)
 NEAR_METRES = 250
 RENT_GAP = 0.08
 
@@ -110,10 +114,29 @@ def home_hashes(home, cache):
     return list(dict.fromkeys(x for h in got for x in h)) if got else None
 
 
-def common(a, b):
+def image_hash(url, cache):
+    """Hash of one photo (an alert email's, kept in `photos_seen`), cached as "img:<url>"; None if unreadable."""
+    key = "img:" + url
+    if key not in cache:
+        from curl_cffi import requests
+        try:
+            r = requests.get(url, impersonate="chrome", timeout=20)
+            if r.status_code != 200:
+                return None
+            cache[key] = {"read": dt.date.today().isoformat(), "hashes": [f"{dhash(r.content):016x}"]}
+        except Exception:  # noqa: BLE001
+            return None
+    return cache[key]["hashes"][0]
+
+
+def seen_hashes(home, cache):
+    return [h for h in (image_hash(u, cache) for u in home.get("photos_seen") or []) if h]
+
+
+def common(a, b, bits=NEAR_BITS):
     """How many photos of a have a near-identical photo in b."""
     bs = [int(x, 16) for x in b]
-    return sum(any(bin(int(x, 16) ^ y).count("1") <= NEAR_BITS for y in bs) for x in a)
+    return sum(any(bin(int(x, 16) ^ y).count("1") <= bits for y in bs) for x in a)
 
 
 def judge(a, b):
@@ -154,6 +177,11 @@ def main(dry, path=LISTINGS):
                 continue
             ha, hb = home_hashes(a, cache), home_hashes(b, cache)
             result = judge(ha, hb) if ha and hb else None
+            if result is None and abs(a["rent"] - b["rent"]) <= 50:
+                # a gallery GitHub can't open (Zoopla, OpenRent): the photo from the alert email, near-identical
+                sa, sb = seen_hashes(a, cache), seen_hashes(b, cache)
+                if (sa and common(sa, (ha or []) + sb, SINGLE_BITS)) or (sb and common(sb, (hb or []) + sa, SINGLE_BITS)):
+                    result = "same"
             label = f"{b['id']} ({b['title'][:35]}) / {a['id']} ({a['title'][:35]})"
             if result == "same":
                 absorb(a, b, False)

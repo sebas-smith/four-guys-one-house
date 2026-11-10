@@ -25979,7 +25979,8 @@
    "https://www.zoopla.co.uk/to-rent/details/74718768/",
    "https://www.onthemarket.com/details/20725149/",
    "https://www.rightmove.co.uk/properties/95259129",
-   "https://www.onthemarket.com/details/20725672/"
+   "https://www.onthemarket.com/details/20725672/",
+   "https://www.zoopla.co.uk/to-rent/details/74729160/"
   ],
   "source": "sweep",
   "added": "2026-10-25",
@@ -25990,7 +25991,9 @@
    "From an email on 2026-11-09: fourguys, we've found you 7 properties in SW London house v3",
    "Same house as rightmove-95259129 by its photos; merged (10 Nov).",
    "From an email on 2026-11-10: New properties in London (drawn area)",
-   "Same house as onthemarket-20725672 by its photos; merged (10 Nov)."
+   "Same house as onthemarket-20725672 by its photos; merged (10 Nov).",
+   "From an email on 2026-11-10: New listings: 3 new properties to rent in Putney",
+   "Same house as zoopla-74729160 by its photos; merged (10 Nov)."
   ],
   "prices": [
    [
@@ -26027,6 +26030,11 @@
     "2026-11-10",
     4500,
     "onthemarket"
+   ],
+   [
+    "2026-11-10",
+    4500,
+    "zoopla"
    ]
   ],
   "station": {
@@ -31615,49 +31623,6 @@
     "zoopla"
    ]
   ]
- },
- {
-  "id": "zoopla-74729160",
-  "title": "College Court, London W6",
-  "area": "W6",
-  "rent": 4500,
-  "beds": 4,
-  "baths": null,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.zoopla.co.uk/to-rent/details/74729160/",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74729160/"
-  ],
-  "source": "alert",
-  "added": "2026-11-10",
-  "added_at": "2026-11-10T12:54Z",
-  "notes": [
-   "From an email on 2026-11-10: New listings: 3 new properties to rent in Putney"
-  ],
-  "prices": [
-   [
-    "2026-11-10",
-    4500,
-    "zoopla"
-   ]
-  ],
-  "loc": [
-   51.4909785,
-   -0.225518
-  ],
-  "station": {
-   "name": "Hammersmith",
-   "kind": "Tube",
-   "walk": 3
-  },
-  "commute": {
-   "lcp": 36,
-   "tritax": 40,
-   "q5": 39,
-   "wentworth": 35
-  }
  },
  {
   "id": "onthemarket-20728741",

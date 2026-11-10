@@ -68,7 +68,9 @@ Site: https://sebas-smith.github.io/four-guys-one-house/
   number, a second agent's advert): for live homes on the same street or within 250 m, same beds, rent
   within 8%, it compares the advert photos by difference hash (cached in `data/photos.json`). 3+ photos
   in common (2 for small galleries) merges them; 4+ photos each with at most 1 in common records both in
-  `not_same`; anything else is retried next run. The alerts and sweep workflows run it after `stations.py`.
+  `not_same`; when a gallery can't be read (Zoopla and OpenRent block GitHub), the listing photo saved from
+  its alert email (`photos_seen`, also used as the site's photo) counts if it's near-identical and the rents are within
+  £50; anything else is retried next run. The alerts and sweep workflows run it after `stations.py`.
   `scripts/split_merged.py` was a one-off (25 Oct) that split homes merged by mistake.
 - `scripts/commutes.py` runs after `stations.py` and times each live home's journey to our workplaces
   (`data/workplaces.json`: LCP on Wigmore Street, Tritax in Soho, Q5 in Westminster by public transport
