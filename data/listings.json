@@ -25518,7 +25518,9 @@
   "links": [
    "https://www.onthemarket.com/details/20581507/",
    "https://www.openrent.co.uk/property-to-rent/london/4-bed-flat-college-court-w6/3079838",
-   "https://www.zoopla.co.uk/to-rent/details/74549194/"
+   "https://www.zoopla.co.uk/to-rent/details/74549194/",
+   "https://www.rightmove.co.uk/properties/95300265",
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/BKL080211/college-court/"
   ],
   "source": "sweep",
   "added": "2026-10-25",
@@ -25536,6 +25538,16 @@
     "2026-11-03",
     4500,
     "onthemarket"
+   ],
+   [
+    "2026-11-10",
+    4500,
+    "rightmove"
+   ],
+   [
+    "2026-11-10",
+    4500,
+    "marshandparsons"
    ]
   ],
   "station": {
@@ -31013,7 +31025,8 @@
   "url": "https://www.onthemarket.com/details/20725252/",
   "links": [
    "https://www.onthemarket.com/details/20725252/",
-   "https://www.zoopla.co.uk/to-rent/details/74728441/"
+   "https://www.zoopla.co.uk/to-rent/details/74728441/",
+   "https://www.rightmove.co.uk/properties/95296386"
   ],
   "source": "alert",
   "added": "2026-11-10",
@@ -31031,6 +31044,11 @@
     "2026-11-10",
     4199,
     "zoopla"
+   ],
+   [
+    "2026-11-10",
+    4199,
+    "rightmove"
    ]
   ],
   "loc": [
@@ -31047,6 +31065,160 @@
    "tritax": 46,
    "q5": 37,
    "wentworth": 48
+  }
+ },
+ {
+  "id": "onthemarket-20725672",
+  "title": "College Court, London W6",
+  "area": "W6",
+  "rent": 4500,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20725672/",
+  "links": [
+   "https://www.onthemarket.com/details/20725672/"
+  ],
+  "source": "alert",
+  "added": "2026-11-10",
+  "added_at": "2026-11-10T09:20Z",
+  "notes": [
+   "From an email on 2026-11-10: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-10",
+    4500,
+    "onthemarket"
+   ]
+  ],
+  "loc": [
+   51.4909785,
+   -0.225518
+  ],
+  "station": {
+   "name": "Hammersmith",
+   "kind": "Tube",
+   "walk": 3
+  },
+  "commute": {
+   "lcp": 36,
+   "tritax": 40,
+   "q5": 39,
+   "wentworth": 35
+  }
+ },
+ {
+  "id": "rightmove-95305434",
+  "title": "High Street, London, SW18",
+  "area": "SW18",
+  "rent": 3900,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/95305434",
+  "links": [
+   "https://www.rightmove.co.uk/properties/95305434"
+  ],
+  "source": "alert",
+  "added": "2026-11-10",
+  "added_at": "2026-11-10T11:13Z",
+  "notes": [
+   "From an email on 2026-11-10: fourguys, we've found you 4 properties in SW London house v3"
+  ],
+  "prices": [
+   [
+    "2026-11-10",
+    3900,
+    "rightmove"
+   ]
+  ]
+ },
+ {
+  "id": "rightmove-95302005",
+  "title": "LAVENDER SWEEP, SW11",
+  "area": "SW11",
+  "rent": 4500,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/95302005",
+  "links": [
+   "https://www.rightmove.co.uk/properties/95302005"
+  ],
+  "source": "alert",
+  "added": "2026-11-10",
+  "added_at": "2026-11-10T11:13Z",
+  "notes": [
+   "From an email on 2026-11-10: fourguys, we've found you 4 properties in SW London house v3"
+  ],
+  "prices": [
+   [
+    "2026-11-10",
+    4500,
+    "rightmove"
+   ]
+  ]
+ },
+ {
+  "id": "rightmove-94691706",
+  "title": "Ryfold Road, SW19",
+  "area": "SW19",
+  "rent": 5000,
+  "beds": 5,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/94691706",
+  "links": [
+   "https://www.rightmove.co.uk/properties/94691706",
+   "https://www.onthemarket.com/details/20461776/",
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR1425958/ryfold-road/"
+  ],
+  "source": "alert",
+  "added": "2026-11-10",
+  "added_at": "2026-11-10T11:13Z",
+  "notes": [
+   "From an email on 2026-11-10: fourguys, we've found you 4 properties in SW London house v3"
+  ],
+  "prices": [
+   [
+    "2026-11-10",
+    5000,
+    "rightmove"
+   ],
+   [
+    "2026-11-10",
+    5000,
+    "onthemarket"
+   ],
+   [
+    "2026-11-10",
+    5000,
+    "marshandparsons"
+   ]
+  ],
+  "loc": [
+   51.4361163,
+   -0.1987572
+  ],
+  "station": {
+   "name": "Wimbledon Park",
+   "kind": "Tube",
+   "walk": 4
+  },
+  "commute": {
+   "lcp": 53,
+   "tritax": 51,
+   "q5": 49,
+   "wentworth": 46
   }
  }
 ]
