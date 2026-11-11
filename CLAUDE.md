@@ -75,6 +75,13 @@ Read README.md first: it explains the search, the data and every script and work
   Alert emails' listing photos are now saved (`photos_seen`) so photo_dupes can match Zoopla/OpenRent-only adverts
   on GitHub. The ChatGPT task's Step 2 now also rechecks `data/recheck.json`. Barons Court/West Kensington (W14)
   were already inside the drawn area.
+- 11 Nov: area redrawn at Seb's request: Earls Court/West Brompton added (to Warwick Road and Cromwell Road;
+  not Gloucester Road), and nothing south of Earlsfield except Tooting and Balham (Wimbledon, Wimbledon Park,
+  Raynes Park, Colliers Wood, Haydons Road out). New alerts: Rightmove "SW London house v4", OnTheMarket
+  "London (Drawn area)", Zoopla "Putney" 33584152; old ones deleted. ChatGPT scope sentence updated.
+  `stations.py` rules out homes south of the line (`search_area.south_out`): 39 on the first run.
+  OpenRent's 3 km Wimbledon alert still runs (Chrome is signed out of OpenRent); its southern homes get
+  ruled out automatically. Held homes that are already ruled out are no longer sent to ChatGPT to recheck.
 - `AGENTS.md` is a Codex copy of this file ("Claude" -> "Codex"); regenerate it when this file changes.
 
 ## Next steps
