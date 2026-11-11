@@ -223,6 +223,22 @@
 ],
 "read": "2026-11-10"
 },
+"https://www.onthemarket.com/details/19039243/": {
+"hashes": [
+"47071a1a8a89093d",
+"0b27363674f6b777",
+"3e1fb5b19a9f3770",
+"0d0e999c95171b3b",
+"0d19991999cfcf6d",
+"830d030bc9c92386",
+"2973336f7373b333",
+"08084020001c1c9c",
+"37b7179767476340",
+"3883b0f8f0dafc8c",
+"0e8ccc5df34363e5"
+],
+"read": "2026-11-11"
+},
 "https://www.onthemarket.com/details/19773630/": {
 "hashes": [
 "4c343a37391b3b71",
@@ -699,6 +715,18 @@
 ],
 "read": "2026-11-10"
 },
+"https://www.onthemarket.com/details/20740872/": {
+"hashes": [
+"8b8b4d57d256290d",
+"9b151c9c6c6cc407",
+"876f393939394d66",
+"0fc90b232121080c",
+"3bc77a7a7b636cdf",
+"3d79391959c99939",
+"5b4762721e161f2f"
+],
+"read": "2026-11-11"
+},
 "https://www.onthemarket.com/details/7288266/": {
 "hashes": [
 "0f4943674d859d9c",
@@ -1023,6 +1051,20 @@
 "8979251493818caa"
 ],
 "read": "2026-11-10"
+},
+"https://www.rightmove.co.uk/properties/173406872": {
+"hashes": [
+"87471a1a8a89193f",
+"0727363674f6b776",
+"7f1fb5b19e9f3370",
+"0d0e999d951b3b2f",
+"1509991999cf4f6d",
+"8b0f031bc9a9a2c4",
+"0d7b336b73733373",
+"08084020011c1c9c",
+"23b797b747476340"
+],
+"read": "2026-11-11"
 },
 "https://www.rightmove.co.uk/properties/174678032": {
 "hashes": [
@@ -1655,6 +1697,35 @@
 "7ffaf2dc1c2c4c48"
 ],
 "read": "2026-11-10"
+},
+"https://www.rightmove.co.uk/properties/95375640": {
+"hashes": [
+"a1a1a9b9b03e3fe7",
+"28a3acac4c4cdc9f",
+"8313133243080f0f",
+"acabcd129230c587",
+"213163637332e2c7",
+"9142c6ce2e8edb97",
+"a885292934f6961d",
+"f929e327d9db8f1f",
+"eb33323232337fdb",
+"19678ba999d32303",
+"cecc0c091c3c3e0c",
+"2361298258c81933"
+],
+"read": "2026-11-11"
+},
+"https://www.rightmove.co.uk/properties/95381532": {
+"hashes": [
+"9b8b4d57d256290d",
+"9b151c1c6c6cc407",
+"876f393939394d66",
+"0f890b332121080c",
+"29c77a7a7b636cdf",
+"7d79391959c99939",
+"5b4762721e161f2f"
+],
+"read": "2026-11-11"
 },
 "https://www.zoopla.co.uk/to-rent/details/67769547/": {
 "hashes": [
