@@ -298,6 +298,20 @@ def main():
     assert ia.shown_rent(h) == 4950  # another site £1 lower doesn't move the rent
     h["prices"].append(["2026-11-01", 4800, "rightmove"])
     assert ia.shown_rent(h) == 4800
+    # Nothing south of Earlsfield bar Tooting and Balham; Earls Court is in
+    from search_area import inside, south_out
+    from stations import rule_out_south
+    for where, out in [((51.4424, -0.1876), False), ((51.4339, -0.1816), False), ((51.4275, -0.1680), False),
+                       ((51.4200, -0.1680), False), ((51.4431, -0.1525), False), ((51.4454, -0.2066), False),
+                       ((51.4214, -0.2064), True), ((51.4343, -0.1991), True), ((51.4180, -0.1780), True),
+                       ((51.4092, -0.2302), True)]:
+        assert south_out(where) == out, where
+        assert out or inside(*where), where
+    assert inside(51.4920, -0.1934) and not inside(51.4945, -0.1829)  # Earls Court in, Gloucester Road out
+    homes = [{"status": "new", "loc": [51.4214, -0.2064]}, {"status": "shortlist", "loc": [51.4214, -0.2064]},
+             {"status": "new", "loc": [51.4275, -0.1680]}]
+    assert rule_out_south(homes) == 1 and homes[0]["status"] == "no" and homes[1]["status"] == "shortlist"
+    assert homes[2]["status"] == "new" and rule_out_south(homes) == 0
     test_check_live()
     print("ok")
 

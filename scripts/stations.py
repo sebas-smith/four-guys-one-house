@@ -126,10 +126,30 @@ def main(redo, path=LISTINGS):
             walk = round(metres(where, (s["lat"], s["lon"])) * 1.3 / 80)
             home["station"] = {"name": s["name"], "kind": s["kind"], "walk": max(walk, 1)}
             done += 1
+        out = rule_out_south(listings)
     finally:
         json.dump(geo, open(GEO, "w", encoding="utf-8"), indent=0, sort_keys=True)
         json.dump(listings, open(path, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
-    print(f"stations added to {done} homes; {sum(1 for h in listings if not h.get('station'))} without one")
+    print(f"stations added to {done} homes; {sum(1 for h in listings if not h.get('station'))} without one; "
+          f"{out} ruled out as south of Earlsfield")
+
+
+def rule_out_south(listings):
+    """Rule out live homes placed south of Earlsfield (bar Tooting and Balham): search_area.south_out.
+
+    Runs every time, after the sweep merge, so a sweep saying such a home is live can't bring it back."""
+    from search_area import south_out
+    n = 0
+    for home in listings:
+        if home.get("status") in ("gone", "no", "shortlist", "viewing", "applied") or not home.get("loc") \
+                or not south_out(home["loc"]):
+            continue
+        home["status"], home["ruled_out"] = "no", "south of Earlsfield"
+        note = "Ruled out: south of Earlsfield, outside the search area."
+        if note not in home.setdefault("notes", []):
+            home["notes"].append(note)
+        n += 1
+    return n
 
 
 if __name__ == "__main__":

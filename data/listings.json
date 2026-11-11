@@ -1436,7 +1436,7 @@
   "baths": 2,
   "available": "Ask agent",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.rightmove.co.uk/properties/93324105",
   "links": [
    "https://www.foxtons.co.uk/properties-to-rent/sw20/chpk0331619",
@@ -1454,7 +1454,8 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
    "Price changed from £3,900 to £3,500 (2026-10-18).",
    "Price changed from £3,500 to £3,495 (2026-10-19).",
-   "Price cut on Onthemarket: £3,495 to £3,385 (2026-11-03)."
+   "Price cut on Onthemarket: £3,495 to £3,385 (2026-11-03).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "checked": "2026-11-11",
   "station": {
@@ -1523,7 +1524,8 @@
   ],
   "photos_seen": [
    "https://lid.zoocdn.com/645/430/fbc9c0b54b52966db54667b7d35510b4091cf058.jpg"
-  ]
+  ],
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "foxtons-chpk0396854",
@@ -5120,7 +5122,7 @@
   "baths": 3,
   "available": "Today",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.openrent.co.uk/property-to-rent/london/4-bed-terraced-house-boundary-road-sw19/1034965",
   "links": [
    "https://www.openrent.co.uk/property-to-rent/london/4-bed-terraced-house-boundary-road-sw19/1034965"
@@ -5128,7 +5130,8 @@
   "source": "import",
   "added": "2026-10-11",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-11."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-11.",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "checked": "2026-11-11",
   "station": {
@@ -5152,7 +5155,8 @@
    "tritax": 47,
    "q5": 45,
    "wentworth": 46
-  }
+  },
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "openrent-2626896",
@@ -6687,7 +6691,7 @@
   "baths": 2,
   "available": "Today",
   "sharers": "ok",
-  "status": "new",
+  "status": "no",
   "url": "https://www.rightmove.co.uk/properties/93660735",
   "links": [
    "https://www.openrent.co.uk/property-to-rent/london/4-bed-terraced-house-chatsworth-avenue-sw20/3041983",
@@ -6698,7 +6702,8 @@
   "source": "import",
   "added": "2026-09-27",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04."
+   "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "checked": "2026-11-11",
   "station": {
@@ -6731,7 +6736,8 @@
   },
   "not_same": [
    "rightmove-92587704"
-  ]
+  ],
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "openrent-3043455",
@@ -6931,7 +6937,7 @@
   "baths": 3,
   "available": "2026-10-24",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.openrent.co.uk/property-to-rent/london/4-bed-semi-detached-house-fairway-sw20/3054981",
   "links": [
    "https://www.openrent.co.uk/property-to-rent/london/4-bed-semi-detached-house-fairway-sw20/3054981"
@@ -6939,7 +6945,8 @@
   "source": "import",
   "added": "2026-10-05",
   "notes": [
-   "Imported from the old ChatGPT tracker (status: recheck). Last checked 2026-10-09."
+   "Imported from the old ChatGPT tracker (status: recheck). Last checked 2026-10-09.",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "checked": "2026-11-11",
   "station": {
@@ -6963,7 +6970,8 @@
    "tritax": 59,
    "q5": 49,
    "wentworth": 36
-  }
+  },
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "openrent-3055584",
@@ -8999,7 +9007,7 @@
   "baths": 2,
   "available": "2026-10-31",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.rightmove.co.uk/properties/92587704",
   "links": [
    "https://www.rightmove.co.uk/properties/92587704"
@@ -9008,7 +9016,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-10.",
-   "Availability: 31 October 2026 in metadata; key features say Available June"
+   "Availability: 31 October 2026 in metadata; key features say Available June",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "checked": "2026-11-11",
   "station": {
@@ -9036,7 +9045,8 @@
   },
   "not_same": [
    "openrent-3041983"
-  ]
+  ],
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "rightmove-92623491",
@@ -9676,7 +9686,7 @@
   "baths": 2,
   "available": "Now",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.rightmove.co.uk/properties/93313947",
   "links": [
    "https://www.rightmove.co.uk/properties/93313947",
@@ -9695,7 +9705,8 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-09.",
    "Found by ChatGPT sweep (live; results-page evidence only).",
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-10.",
-   "Price cut: £4,200 to £3,995 on the live adverts (5 Nov)."
+   "Price cut: £4,200 to £3,995 on the live adverts (5 Nov).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "checked": "2026-11-11",
   "station": {
@@ -9740,7 +9751,8 @@
    "tritax": 57,
    "q5": 47,
    "wentworth": 35
-  }
+  },
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "rightmove-93320901",
@@ -10184,7 +10196,7 @@
   "baths": 3,
   "available": "Now",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.rightmove.co.uk/properties/93486795",
   "links": [
    "https://www.openrent.co.uk/property-to-rent/london/4-bed-terraced-house-cranford-close-sw20/2960023",
@@ -10202,7 +10214,8 @@
    "Advert live on OnTheMarket (6 Nov).",
    "Advert taken down on Rightmove (9 Nov).",
    "Advert live on OpenRent (10 Nov).",
-   "Taken down on Rightmove; OpenRent advert not checked yet (11 Nov)."
+   "Taken down on Rightmove; OpenRent advert not checked yet (11 Nov).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "checked": "2026-11-11",
   "station": {
@@ -10248,7 +10261,8 @@
    "why": "Taken down on Rightmove; OpenRent advert not checked yet",
    "checked": "2026-11-11",
    "unconfirmed": true
-  }
+  },
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "rightmove-93497562",
@@ -10815,7 +10829,7 @@
   "baths": 2,
   "available": "2026-11-23",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.rightmove.co.uk/properties/93770631",
   "links": [
    "https://www.rightmove.co.uk/properties/93770631",
@@ -10827,7 +10841,8 @@
   "added": "2026-10-01",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "checked": "2026-11-11",
   "station": {
@@ -10862,7 +10877,8 @@
    "tritax": 56,
    "q5": 48,
    "wentworth": 36
-  }
+  },
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "rightmove-93814917",
@@ -10950,7 +10966,7 @@
   "baths": 2,
   "available": "2026-12-11",
   "sharers": "ok",
-  "status": "new",
+  "status": "no",
   "url": "https://www.rightmove.co.uk/properties/93858993",
   "links": [
    "https://www.rightmove.co.uk/properties/93858993",
@@ -10964,7 +10980,8 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
    "Found by ChatGPT sweep (live).",
    "Price changed from £3,400 to £3,250 (2026-10-20).",
-   "Price cut: £3,250 to £3,200 on the live adverts (11 Nov)."
+   "Price cut: £3,250 to £3,200 on the live adverts (11 Nov).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "checked": "2026-11-11",
   "station": {
@@ -11009,7 +11026,8 @@
    "tritax": 58,
    "q5": 47,
    "wentworth": 37
-  }
+  },
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "rightmove-93883815",
@@ -11130,7 +11148,7 @@
   "baths": 4,
   "available": "2026-10-31",
   "sharers": "ok",
-  "status": "new",
+  "status": "no",
   "url": "https://www.rightmove.co.uk/properties/93981180",
   "links": [
    "https://www.rightmove.co.uk/properties/93981180",
@@ -11144,7 +11162,8 @@
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-06.",
    "Price changed from £4,300 to £4,200 (2026-10-18).",
    "Price changed from £4,200 to £4,100 (2026-10-20).",
-   "Price cut on Rightmove: £4,100 to £4,000 (2026-10-28)."
+   "Price cut on Rightmove: £4,100 to £4,000 (2026-10-28).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "checked": "2026-11-11",
   "station": {
@@ -11194,7 +11213,8 @@
    "tritax": 50,
    "q5": 50,
    "wentworth": 48
-  }
+  },
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "rightmove-93983979",
@@ -11339,7 +11359,7 @@
   "baths": 1,
   "available": "2026-12-07",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.rightmove.co.uk/properties/93995352",
   "links": [
    "https://www.rightmove.co.uk/properties/93995352",
@@ -11351,7 +11371,8 @@
   "added": "2026-10-07",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-07.",
-   "Price changed from £3,250 to £3,200 (2026-10-20)."
+   "Price changed from £3,250 to £3,200 (2026-10-20).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "checked": "2026-11-11",
   "station": {
@@ -11389,7 +11410,8 @@
   },
   "not_same": [
    "zoopla-74459311"
-  ]
+  ],
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "rightmove-94010418",
@@ -12474,7 +12496,7 @@
   "baths": 2,
   "available": "Now",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.zoopla.co.uk/to-rent/details/70347757/",
   "links": [
    "https://www.zoopla.co.uk/to-rent/details/70347757/",
@@ -12491,7 +12513,8 @@
    "Let agreed on marshandparsons (1 Nov).",
    "Let agreed on marshandparsons, still live on Zoopla (10 Nov).",
    "Let agreed on marshandparsons; Zoopla advert not checked yet (11 Nov).",
-   "ChatGPT sweep says live: still available (2026-11-11)."
+   "ChatGPT sweep says live: still available (2026-11-11).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "checked": "2026-11-11",
   "station": {
@@ -12519,7 +12542,8 @@
   },
   "down": [
    "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2165684/strathearn-road/"
-  ]
+  ],
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "zoopla-70641833",
@@ -12530,7 +12554,7 @@
   "baths": 1,
   "available": "19 October 2026",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.rightmove.co.uk/properties/92360187",
   "links": [
    "https://www.rightmove.co.uk/properties/92360187",
@@ -12543,7 +12567,8 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-10.",
    "Found by ChatGPT sweep (live).",
-   "Price cut: £3,500 to £3,400 on the live adverts (4 Nov)."
+   "Price cut: £3,500 to £3,400 on the live adverts (4 Nov).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "checked": "2026-11-11",
   "station": {
@@ -12583,7 +12608,8 @@
    "tritax": 50,
    "q5": 50,
    "wentworth": 48
-  }
+  },
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "zoopla-70668046",
@@ -12697,7 +12723,7 @@
   "baths": 2,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.rightmove.co.uk/properties/175012595",
   "links": [
    "https://www.rightmove.co.uk/properties/175012595",
@@ -12710,7 +12736,8 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
    "Marked gone: advert shows removed (2026-10-18).",
-   "Price changed from £5,000 to £4,500 (2026-10-22)."
+   "Price changed from £5,000 to £4,500 (2026-10-22).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "checked": "2026-11-11",
   "station": {
@@ -12748,7 +12775,8 @@
   },
   "down": [
    "https://www.rightmove.co.uk/properties/175012595"
-  ]
+  ],
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "zoopla-73262644",
@@ -12759,7 +12787,7 @@
   "baths": 2,
   "available": "2026-06-28",
   "sharers": "ok",
-  "status": "new",
+  "status": "no",
   "url": "https://www.zoopla.co.uk/to-rent/details/73262644/",
   "links": [
    "https://www.zoopla.co.uk/to-rent/details/73262644/",
@@ -12769,7 +12797,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "checked": "2026-11-11",
   "station": {
@@ -12799,7 +12828,8 @@
    "tritax": 52,
    "q5": 50,
    "wentworth": 44
-  }
+  },
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "zoopla-73276740",
@@ -14219,7 +14249,7 @@
   "baths": 3,
   "available": "Available now; Available as furnished or",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.zoopla.co.uk/to-rent/details/74038219/",
   "links": [
    "https://www.zoopla.co.uk/to-rent/details/74038219/",
@@ -14229,7 +14259,8 @@
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "checked": "2026-11-11",
   "station": {
@@ -14267,7 +14298,8 @@
   },
   "not_same": [
    "john-d-wood-22229341"
-  ]
+  ],
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "zoopla-74050045",
@@ -15683,7 +15715,7 @@
   "baths": 2,
   "available": "Now",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.rightmove.co.uk/properties/93438873",
   "links": [
    "https://www.rightmove.co.uk/properties/93438873",
@@ -15696,7 +15728,8 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-09.",
    "Price rise: £3,350 to £3,850 on the live adverts (3 Nov).",
-   "Price cut: £3,850 to £3,750 on the live adverts (6 Nov)."
+   "Price cut: £3,850 to £3,750 on the live adverts (6 Nov).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "checked": "2026-11-11",
   "station": {
@@ -15744,7 +15777,8 @@
   },
   "down": [
    "https://www.rightmove.co.uk/properties/93438873"
-  ]
+  ],
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "zoopla-74308005",
@@ -16235,7 +16269,7 @@
   "baths": 2,
   "available": "Now",
   "sharers": "ok",
-  "status": "new",
+  "status": "no",
   "url": "https://www.zoopla.co.uk/to-rent/details/74459311/",
   "links": [
    "https://www.zoopla.co.uk/to-rent/details/74459311/",
@@ -16246,7 +16280,8 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-09.",
    "Found by ChatGPT sweep (live).",
-   "Agent name taken out of the title (31 Oct)."
+   "Agent name taken out of the title (31 Oct).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "checked": "2026-11-11",
   "station": {
@@ -16284,7 +16319,8 @@
   },
   "not_same": [
    "rightmove-93995352"
-  ]
+  ],
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "foxtons-chpk0442772",
@@ -20305,7 +20341,7 @@
   "baths": 2,
   "available": "2026-10-24",
   "sharers": "ok",
-  "status": "new",
+  "status": "no",
   "url": "https://www.onthemarket.com/details/20268934/",
   "links": [
    "https://www.onthemarket.com/details/20268934/",
@@ -20331,7 +20367,8 @@
    "From an email on 2026-10-26: fourguys, we've found you 2 properties in SW London house",
    "Price cut on Onthemarket: £3,750 to £3,600 (2026-11-03).",
    "Price cut on Rightmove: £3,750 to £3,600 (2026-11-03).",
-   "Merged in onthemarket-20627722: the same house (3 Nov audit)."
+   "Merged in onthemarket-20627722: the same house (3 Nov audit).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "station": {
    "name": "Raynes Park",
@@ -20396,7 +20433,8 @@
    "tritax": 59,
    "q5": 49,
    "wentworth": 36
-  }
+  },
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "rightmove-93999582",
@@ -22678,7 +22716,7 @@
   "baths": 2,
   "available": "2026-02-09",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.onthemarket.com/details/18488646/",
   "links": [
    "https://www.onthemarket.com/details/18488646/"
@@ -22687,7 +22725,8 @@
   "added": "2026-10-18",
   "checked": "2026-11-11",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "station": {
    "name": "Raynes Park",
@@ -22712,7 +22751,8 @@
    "tritax": 55,
    "q5": 45,
    "wentworth": 38
-  }
+  },
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "rightmove-93173022",
@@ -22819,7 +22859,7 @@
   "baths": 3,
   "available": "2027-01-08",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.zoopla.co.uk/to-rent/details/74443790/",
   "links": [
    "https://www.zoopla.co.uk/to-rent/details/74443790/",
@@ -22831,7 +22871,8 @@
   "added": "2026-10-18",
   "checked": "2026-11-11",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "station": {
    "name": "Raynes Park",
@@ -22866,7 +22907,8 @@
    "tritax": 53,
    "q5": 43,
    "wentworth": 37
-  }
+  },
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "onthemarket-20462430",
@@ -23211,7 +23253,7 @@
   "baths": 3,
   "available": "2026-11-30",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.zoopla.co.uk/to-rent/details/72010768/",
   "links": [
    "https://www.zoopla.co.uk/to-rent/details/72010768/",
@@ -23223,7 +23265,8 @@
   "checked": "2026-11-11",
   "notes": [
    "Found by ChatGPT sweep (live).",
-   "Price cut on Rightmove: £4,750 to £4,650 (2026-10-30)."
+   "Price cut on Rightmove: £4,750 to £4,650 (2026-10-30).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "station": {
    "name": "Colliers Wood",
@@ -23263,7 +23306,8 @@
    "tritax": 50,
    "q5": 48,
    "wentworth": 45
-  }
+  },
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "onthemarket-20365669",
@@ -24176,7 +24220,7 @@
   "baths": 1,
   "available": "2026-12-07",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.johndwood.co.uk/properties/22229341/lettings/WIL220034",
   "links": [
    "https://www.johndwood.co.uk/properties/22229341/lettings/WIL220034",
@@ -24189,7 +24233,8 @@
   "checked": "2026-11-11",
   "notes": [
    "Found by ChatGPT sweep (live).",
-   "Price cut on Onthemarket: £3,750 to £3,500 (2026-11-11)."
+   "Price cut on Onthemarket: £3,750 to £3,500 (2026-11-11).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "prices": [
    [
@@ -24243,7 +24288,8 @@
    "http://media.onthemarket.com/properties/20593727/1653488199/image-0-480x320.jpg",
    "https://media.rightmove.co.uk/property-photo/c3f87e3b0/94538469/c3f87e3b05360e0c173536534cddbbae.jpeg",
    "https://lid.zoocdn.com/645/430/c1b310d7fe9d0bb6040bfb8e71f39e8fe50544e2.jpg"
-  ]
+  ],
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "openrent-3039135",
@@ -24431,7 +24477,7 @@
   "baths": 3,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.foxtons.co.uk/properties-to-rent/sw20/chpk2574654",
   "links": [
    "https://www.foxtons.co.uk/properties-to-rent/sw20/chpk2574654",
@@ -24448,7 +24494,8 @@
   "notes": [
    "Found by ChatGPT sweep (unverified).",
    "Advert taken down on Foxtons (23 Oct).",
-   "Advert live again on Foxtons (24 Oct)."
+   "Advert live again on Foxtons (24 Oct).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "prices": [
    [
@@ -24487,7 +24534,8 @@
   "down": [
    "https://www.onthemarket.com/details/20615585/",
    "https://www.onthemarket.com/details/20615584/"
-  ]
+  ],
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "rampton-baseley-22231621",
@@ -24909,7 +24957,7 @@
   "baths": 2,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.rightmove.co.uk/properties/94653576",
   "links": [
    "https://www.dexters.co.uk/property-for-rent/property-to-rent-in-faraday-road-london-sw19/286605",
@@ -24927,7 +24975,8 @@
    "Found by ChatGPT sweep (live).",
    "Price changed from £4,000 to £3,750 (2026-10-23).",
    "Advert taken down on Rightmove (31 Oct).",
-   "Merged zoopla-74566822 into this home: same Faraday Road house, same rent, beds and baths; the Zoopla advert is down (31 Oct)."
+   "Merged zoopla-74566822 into this home: same Faraday Road house, same rent, beds and baths; the Zoopla advert is down (31 Oct).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "prices": [
    [
@@ -24969,7 +25018,8 @@
   ],
   "not_same": [
    "foxtons-chpk2597615"
-  ]
+  ],
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "zoopla-74588190",
@@ -24980,7 +25030,7 @@
   "baths": 3,
   "available": "2026-12-17",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.rightmove.co.uk/properties/94661412",
   "links": [
    "https://www.onthemarket.com/details/20615371/",
@@ -24994,7 +25044,8 @@
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Price cut on Onthemarket: £4,000 to £3,800 (2026-11-10).",
-   "Price cut on Rightmove: £4,000 to £3,800 (2026-11-10)."
+   "Price cut on Rightmove: £4,000 to £3,800 (2026-11-10).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "prices": [
    [
@@ -25037,7 +25088,8 @@
   },
   "photos_seen": [
    "https://lid.zoocdn.com/645/430/e0069fd0d69c73a9def829a6b1584a8265927dd2.jpg"
-  ]
+  ],
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "hamptons-22242327",
@@ -25095,7 +25147,7 @@
   "baths": 2,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.rightmove.co.uk/properties/94696011",
   "links": [
    "https://www.onthemarket.com/details/20621156/",
@@ -25107,7 +25159,8 @@
   "checked": "2026-11-11",
   "notes": [
    "Found by ChatGPT sweep (live).",
-   "Price cut: £4,100 to £3,950 on the live adverts (7 Nov)."
+   "Price cut: £4,100 to £3,950 on the live adverts (7 Nov).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "prices": [
    [
@@ -25147,7 +25200,8 @@
    "tritax": 50,
    "q5": 48,
    "wentworth": 41
-  }
+  },
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "rightmove-94271229",
@@ -28005,7 +28059,7 @@
   "baths": null,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.onthemarket.com/details/20651061/",
   "links": [
    "https://www.onthemarket.com/details/20651061/",
@@ -28018,7 +28072,8 @@
   "notes": [
    "From an email on 2026-10-29: New properties in London (drawn area)",
    "Price cut on Onthemarket: £4,500 to £4,000 (2026-11-10).",
-   "Price cut on Rightmove: £4,500 to £4,000 (2026-11-10)."
+   "Price cut on Rightmove: £4,500 to £4,000 (2026-11-10).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "prices": [
    [
@@ -28069,7 +28124,8 @@
    "tritax": 57,
    "q5": 48,
    "wentworth": 38
-  }
+  },
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "rightmove-174678032",
@@ -28539,7 +28595,7 @@
   "baths": 2,
   "available": "2026-12-07",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.ellisonsuk.com/property/34970827/sw19/wimbledon/florence-road/terraced-house/4-bedrooms",
   "links": [
    "https://www.ellisonsuk.com/property/34970827/sw19/wimbledon/florence-road/terraced-house/4-bedrooms",
@@ -28554,7 +28610,8 @@
    "Found by ChatGPT sweep (live).",
    "Prices differ across sites: £3,950 vs £3,700. Showing the lower; see price history.",
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
-   "Merged rightmove-93834573 into this home: the Rightmove advert is the Ellisons one, now £3,700 (31 Oct)."
+   "Merged rightmove-93834573 into this home: the Rightmove advert is the Ellisons one, now £3,700 (31 Oct).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "prices": [
    [
@@ -28599,7 +28656,8 @@
    "q5": 50,
    "wentworth": 43
   },
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/8ee5420af/93834573/8ee5420afaae5d975d2403247fa3a563_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/8ee5420af/93834573/8ee5420afaae5d975d2403247fa3a563_max_476x317.jpeg",
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "onthemarket-20581525",
@@ -28610,7 +28668,7 @@
   "baths": null,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.onthemarket.com/details/20581525/",
   "links": [
    "https://www.onthemarket.com/details/20581525/",
@@ -28623,7 +28681,8 @@
    "From an email on 2026-10-30: Reduced price properties in London (drawn area)",
    "Price cut on Rightmove: £4,500 to £4,000 (2026-11-02).",
    "Price cut on Onthemarket: £4,500 to £4,000 (2026-11-02).",
-   "Price rise on Zoopla: £4,000 to £4,500 (2026-10-31)."
+   "Price rise on Zoopla: £4,000 to £4,500 (2026-10-31).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "prices": [
    [
@@ -28674,7 +28733,8 @@
    "tritax": 53,
    "q5": 43,
    "wentworth": 42
-  }
+  },
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "rightmove-90706671",
@@ -30035,7 +30095,7 @@
   "baths": 2,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.foxtons.co.uk/properties-to-rent/sw19/chpk2597615",
   "links": [
    "https://www.foxtons.co.uk/properties-to-rent/sw19/chpk2597615"
@@ -30045,7 +30105,8 @@
   "added_at": "2026-11-02T18:09Z",
   "checked": "2026-11-11",
   "notes": [
-   "Found by ChatGPT sweep (unverified)."
+   "Found by ChatGPT sweep (unverified).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "prices": [
    [
@@ -30071,7 +30132,8 @@
   },
   "not_same": [
    "dexters-286605"
-  ]
+  ],
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "openrent-2738801",
@@ -30487,7 +30549,7 @@
   "baths": 2,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.rightmove.co.uk/properties/95060466",
   "links": [
    "https://www.zoopla.co.uk/to-rent/details/74669597/",
@@ -30499,7 +30561,8 @@
   "added_at": "2026-11-03T18:08Z",
   "checked": "2026-11-11",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "prices": [
    [
@@ -30523,7 +30586,8 @@
    "q5": 59,
    "wentworth": 41
   },
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/dcb133b60/95060466/dcb133b604ac7c360e069dbf3a7be4a0_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/dcb133b60/95060466/dcb133b604ac7c360e069dbf3a7be4a0_max_476x317.jpeg",
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "onthemarket-20693163",
@@ -31120,7 +31184,7 @@
   "baths": 1,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.rightmove.co.uk/properties/95221710",
   "links": [
    "https://www.onthemarket.com/details/20708552/",
@@ -31133,7 +31197,8 @@
   "added_at": "2026-11-06T18:04Z",
   "checked": "2026-11-11",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "prices": [
    [
@@ -31165,7 +31230,8 @@
   "photo": "https://media.onthemarket.com/properties/20708552/1657063345/image-0-1024x1024.jpg",
   "down": [
    "https://www.onthemarket.com/details/20708552/"
-  ]
+  ],
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "onthemarket-15025111",
@@ -31233,7 +31299,7 @@
   "baths": null,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.onthemarket.com/details/20710650/",
   "links": [
    "https://www.onthemarket.com/details/20710650/",
@@ -31245,7 +31311,8 @@
   "added": "2026-11-07",
   "added_at": "2026-11-07T04:46Z",
   "notes": [
-   "From an email on 2026-11-07: New properties in London (drawn area)"
+   "From an email on 2026-11-07: New properties in London (drawn area)",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "prices": [
    [
@@ -31285,7 +31352,8 @@
    "wentworth": 43
   },
   "photo": "https://media.onthemarket.com/properties/20710650/1657175688/image-0-1024x1024.jpg",
-  "checked": "2026-11-11"
+  "checked": "2026-11-11",
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "chestertons-22297502",
@@ -31452,7 +31520,7 @@
   "baths": 2,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.zoopla.co.uk/to-rent/details/74720635/",
   "links": [
    "https://www.zoopla.co.uk/to-rent/details/74720635/",
@@ -31464,7 +31532,8 @@
   "added_at": "2026-11-09T18:05Z",
   "checked": "2026-11-11",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "prices": [
    [
@@ -31501,7 +31570,8 @@
   "photo": "https://media.onthemarket.com/properties/20718540/1657484040/image-0-1024x1024.jpg",
   "not_same": [
    "foxtons-chpk0331619"
-  ]
+  ],
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "onthemarket-20717197",
@@ -31512,7 +31582,7 @@
   "baths": null,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.onthemarket.com/details/20717197/",
   "links": [
    "https://www.onthemarket.com/details/20717197/",
@@ -31523,7 +31593,8 @@
   "added": "2026-11-09",
   "added_at": "2026-11-09T12:09Z",
   "notes": [
-   "From an email on 2026-11-09: New properties in London (drawn area)"
+   "From an email on 2026-11-09: New properties in London (drawn area)",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "prices": [
    [
@@ -31558,7 +31629,8 @@
    "wentworth": 37
   },
   "photo": "https://media.onthemarket.com/properties/20717197/1657463723/image-0-1024x1024.jpg",
-  "checked": "2026-11-11"
+  "checked": "2026-11-11",
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "onthemarket-20725252",
@@ -31671,7 +31743,7 @@
   "baths": null,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.rightmove.co.uk/properties/94691706",
   "links": [
    "https://www.rightmove.co.uk/properties/94691706",
@@ -31686,7 +31758,8 @@
   "notes": [
    "From an email on 2026-11-10: fourguys, we've found you 4 properties in SW London house v3",
    "From an email on 2026-11-11: Reduced price properties in London (drawn area)",
-   "Same house as onthemarket-7288266 by its photos; merged (11 Nov)."
+   "Same house as onthemarket-7288266 by its photos; merged (11 Nov).",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "prices": [
    [
@@ -31734,7 +31807,8 @@
   "checked": "2026-11-11",
   "not_same": [
    "onthemarket-781011"
-  ]
+  ],
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "onthemarket-19898236",
@@ -32027,7 +32101,7 @@
   "baths": null,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.onthemarket.com/details/781011/",
   "links": [
    "https://www.onthemarket.com/details/781011/",
@@ -32037,7 +32111,8 @@
   "added": "2026-11-10",
   "added_at": "2026-11-10T14:25Z",
   "notes": [
-   "From an email on 2026-11-10: Reduced price properties in London (drawn area)"
+   "From an email on 2026-11-10: Reduced price properties in London (drawn area)",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "prices": [
    [
@@ -32071,7 +32146,8 @@
    "wentworth": 46
   },
   "photo": "https://media.onthemarket.com/properties/781011/1649691517/image-0-1024x1024.jpg",
-  "checked": "2026-11-11"
+  "checked": "2026-11-11",
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "onthemarket-16662883",
@@ -32082,7 +32158,7 @@
   "baths": null,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "no",
   "url": "https://www.onthemarket.com/details/16662883/",
   "links": [
    "https://www.onthemarket.com/details/16662883/",
@@ -32093,7 +32169,8 @@
   "added": "2026-11-11",
   "added_at": "2026-11-11T10:52Z",
   "notes": [
-   "From an email on 2026-11-11: New properties in London (drawn area)"
+   "From an email on 2026-11-11: New properties in London (drawn area)",
+   "Ruled out: south of Earlsfield, outside the search area."
   ],
   "prices": [
    [
@@ -32132,7 +32209,8 @@
    "tritax": 50,
    "q5": 48,
    "wentworth": 41
-  }
+  },
+  "ruled_out": "south of Earlsfield"
  },
  {
   "id": "rightmove-95361237",
