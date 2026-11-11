@@ -25883,7 +25883,7 @@
   "id": "zoopla-74314978",
   "title": "Overstone Road, Hammersmith W6",
   "area": "Hammersmith",
-  "rent": 4500,
+  "rent": 4300,
   "beds": 4,
   "baths": 2,
   "available": "2026-11-18",
@@ -25899,7 +25899,8 @@
   "checked": "2026-11-11",
   "notes": [
    "Found by ChatGPT sweep (live).",
-   "Price changed from £4,750 to £4,500 (2026-10-27)."
+   "Price changed from £4,750 to £4,500 (2026-10-27).",
+   "Price cut on Rightmove: £4,500 to £4,300 (2026-11-11)."
   ],
   "prices": [
    [
@@ -25915,6 +25916,11 @@
    [
     "2026-10-27",
     4500,
+    "rightmove"
+   ],
+   [
+    "2026-11-11",
+    4300,
     "rightmove"
    ]
   ],
@@ -25934,7 +25940,10 @@
    "tritax": 43,
    "q5": 42,
    "wentworth": 37
-  }
+  },
+  "photos_seen": [
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/23f704436/94804185/23f704436283ca41a905ed2710e49452_max_296x197.jpeg"
+  ]
  },
  {
   "id": "marsh-parsons-csz161121",
@@ -27195,6 +27204,10 @@
   "not_same": [
    "onthemarket-19898236",
    "onthemarket-19972217"
+  ],
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20740872/1657993369/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/5524d62ed/95381532/5524d62ed25cb66382a6bddb068a260f_max_296x197.jpeg"
   ]
  },
  {
@@ -28465,7 +28478,10 @@
    "tritax": 51,
    "q5": 56,
    "wentworth": 34
-  }
+  },
+  "not_same": [
+   "zoopla-74745564"
+  ]
  },
  {
   "id": "foxtons-chpk2297386",
@@ -32182,7 +32198,9 @@
   "status": "new",
   "url": "https://www.zoopla.co.uk/to-rent/details/74745564/",
   "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74745564/"
+   "https://www.zoopla.co.uk/to-rent/details/74745564/",
+   "https://www.onthemarket.com/details/20738880/",
+   "https://www.rightmove.co.uk/properties/95371002"
   ],
   "source": "sweep",
   "added": "2026-11-11",
@@ -32196,6 +32214,16 @@
     "2026-11-11",
     4650,
     "zoopla"
+   ],
+   [
+    "2026-11-11",
+    4650,
+    "onthemarket"
+   ],
+   [
+    "2026-11-11",
+    4650,
+    "rightmove"
    ]
   ],
   "loc": [
@@ -32212,7 +32240,15 @@
    "tritax": 51,
    "q5": 56,
    "wentworth": 34
-  }
+  },
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20738880/1657953907/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/7ec3de047/95371002/7ec3de0477ee6ead986dd91bef876964_max_296x197.jpeg"
+  ],
+  "photo": "http://media.onthemarket.com/properties/20738880/1657953907/image-0-480x320.jpg",
+  "not_same": [
+   "onthemarket-20605689"
+  ]
  },
  {
   "id": "rightmove-95375640",
@@ -32262,7 +32298,10 @@
    "q5": 46,
    "wentworth": 48
   },
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/d4b047273/95375640/d4b04727335fb3442e5924452d9b1352_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/d4b047273/95375640/d4b04727335fb3442e5924452d9b1352_max_476x317.jpeg",
+  "photos_seen": [
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/d4b047273/95375640/d4b04727335fb3442e5924452d9b1352_max_296x197.jpeg"
+  ]
  },
  {
   "id": "zoopla-74745839",
@@ -32276,7 +32315,9 @@
   "status": "new",
   "url": "https://www.zoopla.co.uk/to-rent/details/74745839/",
   "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74745839/"
+   "https://www.zoopla.co.uk/to-rent/details/74745839/",
+   "https://www.onthemarket.com/details/20739115/",
+   "https://www.rightmove.co.uk/properties/95372829"
   ],
   "source": "sweep",
   "added": "2026-11-11",
@@ -32290,6 +32331,16 @@
     "2026-11-11",
     4250,
     "zoopla"
+   ],
+   [
+    "2026-11-11",
+    4250,
+    "onthemarket"
+   ],
+   [
+    "2026-11-11",
+    4250,
+    "rightmove"
    ]
   ],
   "loc": [
@@ -32306,6 +32357,58 @@
    "tritax": 54,
    "q5": 45,
    "wentworth": 46
+  },
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20739115/1657958274/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/1264e2425/95372829/1264e24251d54db45ab0f21db476354f_max_296x197.jpeg"
+  ],
+  "photo": "http://media.onthemarket.com/properties/20739115/1657958274/image-0-480x320.jpg"
+ },
+ {
+  "id": "openrent-3108274",
+  "title": "Lexton Gardens, SW12",
+  "area": "SW12",
+  "rent": 4500,
+  "beds": 5,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.openrent.co.uk/3108274",
+  "links": [
+   "https://www.openrent.co.uk/3108274"
+  ],
+  "source": "alert",
+  "added": "2026-11-11",
+  "added_at": "2026-11-11T18:04Z",
+  "notes": [
+   "From an email on 2026-11-11: New properties found for your search: Wandsworth, London"
+  ],
+  "prices": [
+   [
+    "2026-11-11",
+    4500,
+    "openrent"
+   ]
+  ],
+  "photos_seen": [
+   "https://imagescdn.openrent.co.uk/listings/3108274/o_1k75g3vou1v9k16r31c011e731sdr0.JPG"
+  ],
+  "photo": "https://imagescdn.openrent.co.uk/listings/3108274/o_1k75g3vou1v9k16r31c011e731sdr0.JPG",
+  "loc": [
+   51.4444967,
+   -0.132011
+  ],
+  "station": {
+   "name": "Streatham Hill",
+   "kind": "Rail",
+   "walk": 12
+  },
+  "commute": {
+   "lcp": 52,
+   "tritax": 50,
+   "q5": 49,
+   "wentworth": 55
   }
  }
 ]
