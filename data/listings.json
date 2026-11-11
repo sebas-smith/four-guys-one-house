@@ -2271,8 +2271,7 @@
    "https://www.rightmove.co.uk/properties/91233636",
    "https://www.rightmove.co.uk/properties/94227663",
    "https://www.onthemarket.com/details/19989823/"
-  ],
-  "unconfirmed": "2026-11-11"
+  ]
  },
  {
   "id": "foxtons-chpk2840342",
@@ -2464,8 +2463,7 @@
    "https://www.foxtons.co.uk/properties-to-rent/kt3/chpk2864956",
    "https://www.rightmove.co.uk/properties/93240915",
    "https://www.onthemarket.com/details/20354572/"
-  ],
-  "unconfirmed": "2026-11-11"
+  ]
  },
  {
   "id": "foxtons-chpk3403623",
@@ -4784,8 +4782,7 @@
   ],
   "down": [
    "https://www.rightmove.co.uk/properties/92658012"
-  ],
-  "unconfirmed": "2026-11-11"
+  ]
  },
  {
   "id": "jacksons-22114280",
@@ -7122,10 +7119,8 @@
   ],
   "off_market": {
    "why": "Taken down on OnTheMarket; OpenRent advert not checked yet",
-   "checked": "2026-11-11",
-   "unconfirmed": true
-  },
-  "unconfirmed": "2026-11-11"
+   "checked": "2026-11-11"
+  }
  },
  {
   "id": "openrent-3061796",
@@ -7995,8 +7990,7 @@
   "down": [
    "https://www.rightmove.co.uk/properties/91581081",
    "https://www.onthemarket.com/details/20059037/"
-  ],
-  "unconfirmed": "2026-11-11"
+  ]
  },
  {
   "id": "rightmove-91653288",
@@ -8053,8 +8047,7 @@
   "down": [
    "https://www.rightmove.co.uk/properties/91653288",
    "https://www.rightmove.co.uk/properties/91373505"
-  ],
-  "unconfirmed": "2026-11-11"
+  ]
  },
  {
   "id": "rightmove-91683924",
@@ -9299,7 +9292,6 @@
   "down": [
    "https://www.rightmove.co.uk/properties/92889669"
   ],
-  "unconfirmed": "2026-11-11",
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-11-11"
@@ -10541,8 +10533,7 @@
   ],
   "down": [
    "https://www.rightmove.co.uk/properties/93639900"
-  ],
-  "unconfirmed": "2026-11-11"
+  ]
  },
  {
   "id": "rightmove-93683103",
@@ -10634,8 +10625,7 @@
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-11-11"
-  },
-  "unconfirmed": "2026-11-11"
+  }
  },
  {
   "id": "rightmove-93711192",
@@ -14326,8 +14316,7 @@
   ],
   "down": [
    "https://www.rightmove.co.uk/properties/92310924"
-  ],
-  "unconfirmed": "2026-11-11"
+  ]
  },
  {
   "id": "zoopla-74095685",
@@ -15002,7 +14991,6 @@
    "https://www.rightmove.co.uk/properties/93120801",
    "https://www.onthemarket.com/details/20330932/"
   ],
-  "unconfirmed": "2026-11-11",
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-11-11"
@@ -15482,8 +15470,7 @@
   ],
   "down": [
    "https://www.rightmove.co.uk/properties/93283731"
-  ],
-  "unconfirmed": "2026-11-11"
+  ]
  },
  {
   "id": "zoopla-74278873",
@@ -16955,8 +16942,7 @@
    "name": "North Sheen",
    "kind": "Rail",
    "walk": 49
-  },
-  "unconfirmed": "2026-11-11"
+  }
  },
  {
   "id": "rightmove-92323701",
@@ -17781,8 +17767,7 @@
   "off_market": {
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-11-11"
-  },
-  "unconfirmed": "2026-11-11"
+  }
  },
  {
   "id": "jacksons-20399342",
@@ -18225,7 +18210,6 @@
   "down": [
    "https://www.rightmove.co.uk/properties/92633793"
   ],
-  "unconfirmed": "2026-11-11",
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-11-11"
@@ -18541,8 +18525,7 @@
   ],
   "down": [
    "https://www.onthemarket.com/details/19589191/"
-  ],
-  "unconfirmed": "2026-11-11"
+  ]
  },
  {
   "id": "rightmove-93944349",
@@ -24374,8 +24357,7 @@
   "off_market": {
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-11-11"
-  },
-  "unconfirmed": "2026-11-11"
+  }
  },
  {
   "id": "zoopla-74563450",
@@ -24795,7 +24777,6 @@
    "https://www.onthemarket.com/details/20602267/",
    "https://www.rightmove.co.uk/properties/94591116"
   ],
-  "unconfirmed": "2026-11-11",
   "off_market": {
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-11-11"
@@ -26988,7 +26969,6 @@
    "https://www.onthemarket.com/details/18774487/",
    "https://www.rightmove.co.uk/properties/94764723"
   ],
-  "unconfirmed": "2026-11-11",
   "off_market": {
    "why": "Let agreed on OnTheMarket",
    "checked": "2026-11-11"
@@ -29956,7 +29936,6 @@
   "down": [
    "https://www.rightmove.co.uk/properties/95027115"
   ],
-  "unconfirmed": "2026-11-11",
   "off_market": {
    "why": "Let agreed on Rightmove",
    "checked": "2026-11-11"
@@ -31083,7 +31062,6 @@
    "https://www.onthemarket.com/details/20718276/",
    "https://www.rightmove.co.uk/properties/95272458"
   ],
-  "unconfirmed": "2026-11-11",
   "off_market": {
    "why": "Advert taken down on Foxtons",
    "checked": "2026-11-11"
@@ -31963,7 +31941,22 @@
     "zoopla"
    ]
   ],
-  "checked": "2026-11-11"
+  "checked": "2026-11-11",
+  "loc": [
+   51.463152,
+   -0.165146
+  ],
+  "station": {
+   "name": "Clapham Junction",
+   "kind": "Rail",
+   "walk": 6
+  },
+  "commute": {
+   "lcp": 47,
+   "tritax": 45,
+   "q5": 37,
+   "wentworth": 50
+  }
  },
  {
   "id": "onthemarket-20728741",

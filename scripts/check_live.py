@@ -31,11 +31,14 @@ from ingest_alerts import same_price, shown_rent  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 LISTINGS = ROOT / "data" / "listings.json"
 PERSON_SET = {"shortlist", "viewing", "applied", "no"}
-NAMES = {"rightmove": "Rightmove", "onthemarket": "OnTheMarket", "zoopla": "Zoopla", "openrent": "OpenRent", "foxtons": "Foxtons"}
+NAMES = {"rightmove": "Rightmove", "onthemarket": "OnTheMarket", "zoopla": "Zoopla", "openrent": "OpenRent", "foxtons": "Foxtons",
+         "jacksonsestateagents": "Jacksons", "hamptons": "Hamptons", "savills": "Savills", "chestertons": "Chestertons",
+         "dexters": "Dexters", "kfh": "KFH"}
 
 
 def site_of(url):
-    return url.split("/")[2].replace("www.", "").split(".")[0]
+    """The site's name from a link: "search.savills.com" is savills, not search."""
+    return re.sub(r"^(www|search)\.", "", url.split("/")[2]).split(".")[0]
 
 
 def name(url):
@@ -219,7 +222,7 @@ def write_recheck(listings):
     """data/recheck.json: held homes the ChatGPT sweep should open (adverts GitHub can't read)."""
     rows = [{"id": h["id"], "title": h["title"], "rent": h.get("rent"), "why": h["off_market"]["why"],
              "since": h.get("unconfirmed"), "links": [u for u in h.get("links", []) if u not in h.get("down", [])]}
-            for h in listings if h.get("off_market", {}).get("unconfirmed") and h.get("status") != "gone"]
+            for h in listings if h.get("off_market", {}).get("unconfirmed") and h.get("status") not in ("gone", "no")]
     json.dump(rows, open(RECHECK, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
     return len(rows)
 
@@ -293,7 +296,8 @@ def main():
         unknown = [u for u, v in results.items() if v is None]
         if live or not (let or removed):
             home.pop("unconfirmed", None)
-        if (let or removed) and not live and unknown and not flagged and was != "gone" and hold(home, today):
+        if (let or removed) and not live and unknown and not flagged and was not in ("gone", "no") and hold(home, today):
+            # (a home already ruled out isn't on the site, so it isn't worth the sweep's time to recheck)
             # Down where we can read, but other adverts (Zoopla, OpenRent, agents block GitHub) might still be
             # live: keep it listed with a warning, and list it in data/recheck.json for the ChatGPT sweep.
             u = (let or removed)[0]
@@ -309,6 +313,7 @@ def main():
             if home.get("off_market", {}).get("why") != why:
                 home["off_market"] = {"why": why, "checked": today}
                 add_note(home, f"{why} ({day}).")
+            home.pop("unconfirmed", None)  # a later hold starts its 5 days afresh
             if home["status"] not in PERSON_SET:
                 home["status"] = "gone"
             if was != "gone" and not ruled_out(home):
