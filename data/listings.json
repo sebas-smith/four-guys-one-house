@@ -1445,7 +1445,8 @@
    "https://www.onthemarket.com/details/20369640/",
    "https://www.onthemarket.com/details/20730059/",
    "https://www.rightmove.co.uk/properties/95323842",
-   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2522772/kingston-road/"
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2522772/kingston-road/",
+   "https://www.zoopla.co.uk/to-rent/details/74734486/"
   ],
   "source": "import",
   "added": "2026-09-25",
@@ -1496,6 +1497,11 @@
     "2026-11-10",
     3384,
     "marshandparsons"
+   ],
+   [
+    "2026-11-11",
+    3385,
+    "zoopla"
    ]
   ],
   "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1791443750/91/61/330/chpk0331619/edited_chpk0331619-15.jpg",
@@ -1514,6 +1520,9 @@
   ],
   "not_same": [
    "zoopla-74720635"
+  ],
+  "photos_seen": [
+   "https://lid.zoocdn.com/645/430/fbc9c0b54b52966db54667b7d35510b4091cf058.jpg"
   ]
  },
  {
@@ -6212,6 +6221,10 @@
   },
   "not_same": [
    "onthemarket-20698810"
+  ],
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20205412/1639623224/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/264d04c65/92658141/264d04c65a042667b6fb224fb249ad59_max_296x197.jpeg"
   ]
  },
  {
@@ -24232,7 +24245,9 @@
    "zoopla-74038219"
   ],
   "photos_seen": [
-   "http://media.onthemarket.com/properties/20593727/1653488199/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/20593727/1653488199/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/property-photo/c3f87e3b0/94538469/c3f87e3b05360e0c173536534cddbbae.jpeg",
+   "https://lid.zoocdn.com/645/430/c1b310d7fe9d0bb6040bfb8e71f39e8fe50544e2.jpg"
   ]
  },
  {
@@ -25023,7 +25038,10 @@
    "tritax": 55,
    "q5": 45,
    "wentworth": 41
-  }
+  },
+  "photos_seen": [
+   "https://lid.zoocdn.com/645/430/e0069fd0d69c73a9def829a6b1584a8265927dd2.jpg"
+  ]
  },
  {
   "id": "hamptons-22242327",
@@ -25540,7 +25558,10 @@
    "tritax": 48,
    "q5": 46,
    "wentworth": 39
-  }
+  },
+  "photos_seen": [
+   "https://lid.zoocdn.com/645/430/fc96a7bb36e44799fbb3b9b14461a69bcd41d6b3.jpg"
+  ]
  },
  {
   "id": "marsh-parsons-cct240261",
@@ -26613,7 +26634,9 @@
    "https://www.zoopla.co.uk/to-rent/details/74718708/",
    "https://www.onthemarket.com/details/20717109/",
    "https://www.onthemarket.com/details/20727969/",
-   "https://www.zoopla.co.uk/to-rent/details/74731955/"
+   "https://www.zoopla.co.uk/to-rent/details/74731955/",
+   "https://www.onthemarket.com/details/20735815/",
+   "https://www.zoopla.co.uk/to-rent/details/74742178/"
   ],
   "source": "agent",
   "added": "2026-10-26",
@@ -26750,6 +26773,10 @@
    "https://www.onthemarket.com/details/20712644/",
    "https://www.onthemarket.com/details/20717109/",
    "https://www.onthemarket.com/details/20727969/"
+  ],
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20735815/1657898384/image-0-480x320.jpg",
+   "https://lid.zoocdn.com/645/430/f77d7c2bc0e281276849441b59b418956bd5a79d.jpg"
   ]
  },
  {
@@ -28424,7 +28451,10 @@
   "status": "new",
   "url": "https://www.foxtons.co.uk/properties-to-rent/w12/chpk2297386",
   "links": [
-   "https://www.foxtons.co.uk/properties-to-rent/w12/chpk2297386"
+   "https://www.foxtons.co.uk/properties-to-rent/w12/chpk2297386",
+   "https://www.onthemarket.com/details/20735519/",
+   "https://www.zoopla.co.uk/to-rent/details/74741560/",
+   "https://www.rightmove.co.uk/properties/95352576"
   ],
   "source": "sweep",
   "added": "2026-10-30",
@@ -28437,6 +28467,21 @@
     "2026-10-30",
     3900,
     "foxtons"
+   ],
+   [
+    "2026-11-11",
+    3900,
+    "onthemarket"
+   ],
+   [
+    "2026-11-11",
+    3900,
+    "zoopla"
+   ],
+   [
+    "2026-11-11",
+    3900,
+    "rightmove"
    ]
   ],
   "station": {
@@ -28454,7 +28499,12 @@
    "tritax": 30,
    "q5": 41,
    "wentworth": 46
-  }
+  },
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20735519/1657893955/image-0-480x320.jpg",
+   "https://lid.zoocdn.com/645/430/6ea113d78c87fb23dc15da27ac69131ac3b807e0.jpg"
+  ],
+  "photo": "http://media.onthemarket.com/properties/20735519/1657893955/image-0-480x320.jpg"
  },
  {
   "id": "ellisonsuk-34970827",
@@ -31676,14 +31726,17 @@
   "links": [
    "https://www.onthemarket.com/details/19898236/",
    "https://www.rightmove.co.uk/properties/95330988",
-   "https://www.foxtons.co.uk/properties-to-rent/w4/chpk0105447"
+   "https://www.foxtons.co.uk/properties-to-rent/w4/chpk0105447",
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/CSZ180867/devonshire-road/"
   ],
   "source": "sweep",
   "added": "2026-11-10",
   "added_at": "2026-11-10T18:06Z",
   "checked": "2026-11-11",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "From the Marsh & Parsons website on 2026-11-11.",
+   "Same house as marshandparsons-CSZ180867 by its photos; merged (11 Nov)."
   ],
   "prices": [
    [
@@ -31695,6 +31748,11 @@
     "2026-11-10",
     4750,
     "onthemarket"
+   ],
+   [
+    "2026-11-11",
+    4750,
+    "marshandparsons"
    ]
   ],
   "loc": [
@@ -31778,6 +31836,9 @@
   "not_same": [
    "onthemarket-19898236",
    "onthemarket-20577848"
+  ],
+  "photos_seen": [
+   "https://lid.zoocdn.com/645/430/ee867a54ed490eb2a519219ae8b87d95299aaded.jpg"
   ]
  },
  {
@@ -31824,7 +31885,10 @@
    "tritax": 46,
    "q5": 44,
    "wentworth": 49
-  }
+  },
+  "photos_seen": [
+   "https://lid.zoocdn.com/645/430/52749cea86f236875b89c5d504f9f7cd94988cfc.jpg"
+  ]
  },
  {
   "id": "zoopla-59529898",
@@ -31867,7 +31931,8 @@
   "url": "https://www.onthemarket.com/details/20728741/",
   "links": [
    "https://www.onthemarket.com/details/20728741/",
-   "https://www.rightmove.co.uk/properties/95317137"
+   "https://www.rightmove.co.uk/properties/95317137",
+   "https://www.zoopla.co.uk/to-rent/details/74732391/"
   ],
   "source": "alert",
   "added": "2026-11-10",
@@ -31885,6 +31950,11 @@
     "2026-11-10",
     4000,
     "rightmove"
+   ],
+   [
+    "2026-11-11",
+    4000,
+    "zoopla"
    ]
   ],
   "loc": [
@@ -31903,7 +31973,10 @@
    "wentworth": 55
   },
   "photo": "https://media.onthemarket.com/properties/20728741/1657700723/image-0-1024x1024.jpg",
-  "checked": "2026-11-11"
+  "checked": "2026-11-11",
+  "photos_seen": [
+   "https://lid.zoocdn.com/645/430/924951aa24f2884d54244b4da2b546d73e79cb0f.jpg"
+  ]
  },
  {
   "id": "onthemarket-781011",
@@ -31959,5 +32032,109 @@
   },
   "photo": "https://media.onthemarket.com/properties/781011/1649691517/image-0-1024x1024.jpg",
   "checked": "2026-11-11"
+ },
+ {
+  "id": "onthemarket-16662883",
+  "title": "Melbourne Road, London SW19",
+  "area": "SW19",
+  "rent": 3500,
+  "beds": 5,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/16662883/",
+  "links": [
+   "https://www.onthemarket.com/details/16662883/",
+   "https://www.zoopla.co.uk/to-rent/details/69584258/",
+   "https://www.rightmove.co.uk/properties/95353092"
+  ],
+  "source": "alert",
+  "added": "2026-11-11",
+  "added_at": "2026-11-11T10:52Z",
+  "notes": [
+   "From an email on 2026-11-11: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-11",
+    3500,
+    "onthemarket"
+   ],
+   [
+    "2026-11-11",
+    3500,
+    "zoopla"
+   ],
+   [
+    "2026-11-11",
+    3500,
+    "rightmove"
+   ]
+  ],
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/16662883/1657894644/image-0-480x320.jpg",
+   "https://lid.zoocdn.com/645/430/9020376d5784013375c3035c1e67109c5fb868dc.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/e5fe2e3a6/95353092/e5fe2e3a6b81bd7bd36dccfe3d3e0ad6_max_296x197.jpeg"
+  ],
+  "photo": "http://media.onthemarket.com/properties/16662883/1657894644/image-0-480x320.jpg",
+  "loc": [
+   51.413262,
+   -0.196921
+  ],
+  "station": {
+   "name": "South Wimbledon",
+   "kind": "Tube",
+   "walk": 7
+  },
+  "commute": {
+   "lcp": 52,
+   "tritax": 50,
+   "q5": 48,
+   "wentworth": 41
+  }
+ },
+ {
+  "id": "rightmove-95361237",
+  "title": "Tunis Road, Shepherds Bush, W12",
+  "area": "Shepherds Bush",
+  "rent": 4495,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/95361237",
+  "links": [
+   "https://www.rightmove.co.uk/properties/95361237"
+  ],
+  "source": "alert",
+  "added": "2026-11-11",
+  "added_at": "2026-11-11T13:41Z",
+  "notes": [
+   "From an email on 2026-11-11: fourguys, we've found you 4 properties in SW London house v3"
+  ],
+  "prices": [
+   [
+    "2026-11-11",
+    4495,
+    "rightmove"
+   ]
+  ],
+  "loc": [
+   51.506795,
+   -0.228878
+  ],
+  "station": {
+   "name": "Shepherd's Bush Market",
+   "kind": "Tube",
+   "walk": 3
+  },
+  "commute": {
+   "lcp": 32,
+   "tritax": 40,
+   "q5": 49,
+   "wentworth": 41
+  }
  }
 ]

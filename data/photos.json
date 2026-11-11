@@ -86,6 +86,12 @@
 ],
 "read": "2026-11-10"
 },
+"https://www.marshandparsons.co.uk/properties-to-rent/london/property/CSZ180867/devonshire-road/": {
+"hashes": [
+"8b8b4d57d256290d"
+],
+"read": "2026-11-11"
+},
 "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR1425958/ryfold-road/": {
 "hashes": [
 "83824d068e8d2d2c"
@@ -1925,5 +1931,17 @@
 "afbec1c98363db7b"
 ],
 "read": "2026-11-10"
+},
+"img:https://lid.zoocdn.com/645/430/52749cea86f236875b89c5d504f9f7cd94988cfc.jpg": {
+"hashes": [
+"0306d2b93535353e"
+],
+"read": "2026-11-11"
+},
+"img:https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/364b0481c/95330988/364b0481c83ca69e4b222e7da975808b_max_296x197.jpeg": {
+"hashes": [
+"3336584b6b6f67c7"
+],
+"read": "2026-11-11"
 }
 }
