@@ -17634,7 +17634,7 @@
   "id": "rightmove-94297608",
   "title": "Clapham Common, London, SW4",
   "area": "Clapham Common",
-  "rent": 4100,
+  "rent": 4000,
   "beds": 4,
   "baths": 1,
   "available": "2026-10-28",
@@ -17658,7 +17658,9 @@
    "Price cut: £4,300 to £4,200 on the live adverts (9 Nov).",
    "Price cut on Onthemarket: £4,300 to £4,200 (2026-11-09).",
    "Price cut on Onthemarket: £4,200 to £4,100 (2026-11-10).",
-   "Price cut on Rightmove: £4,200 to £4,100 (2026-11-10)."
+   "Price cut on Rightmove: £4,200 to £4,100 (2026-11-10).",
+   "Price cut on Onthemarket: £4,100 to £4,000 (2026-11-12).",
+   "Price cut on Rightmove: £4,100 to £4,000 (2026-11-12)."
   ],
   "station": {
    "name": "Clapham Common",
@@ -17709,6 +17711,16 @@
    [
     "2026-11-10",
     4100,
+    "rightmove"
+   ],
+   [
+    "2026-11-12",
+    4000,
+    "onthemarket"
+   ],
+   [
+    "2026-11-12",
+    4000,
     "rightmove"
    ]
   ],
@@ -32744,7 +32756,10 @@
    "q5": 34,
    "wentworth": 57
   },
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/ebd2b242c/95423547/ebd2b242ce1fe399a23b48f3d0f13236_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/ebd2b242c/95423547/ebd2b242ce1fe399a23b48f3d0f13236_max_476x317.jpeg",
+  "photos_seen": [
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/ebd2b242c/95423547/ebd2b242ce1fe399a23b48f3d0f13236_max_296x197.jpeg"
+  ]
  },
  {
   "id": "onthemarket-20744762",
