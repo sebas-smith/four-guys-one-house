@@ -1,1 +1,22 @@
-[]
+[
+ {
+  "id": "dexters-285933",
+  "title": "Merton Road Putney, SW18",
+  "rent": 4500,
+  "why": "Taken down on Dexters; Zoopla advert not checked yet",
+  "since": "2026-11-12",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74500630/"
+  ]
+ },
+ {
+  "id": "zoopla-74575023",
+  "title": "Alderbrook Road, London SW12",
+  "rent": 3950,
+  "why": "Taken down on Rightmove; Zoopla advert not checked yet",
+  "since": "2026-11-12",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74575023/"
+  ]
+ }
+]
