@@ -1269,6 +1269,19 @@
 ],
 "read": "2026-11-10"
 },
+"https://www.rightmove.co.uk/properties/93456366": {
+"hashes": [
+"a9ac9a184e78698c",
+"03076663e6e94d16",
+"1c197c322a23270f",
+"0707131313052331",
+"0f27323231193c66",
+"0f1f0f1b193938d9",
+"8aa2a8a9263c3ccc",
+"1f4f5e7c2a4a623b"
+],
+"read": "2026-11-12"
+},
 "https://www.rightmove.co.uk/properties/93660735": {
 "hashes": [
 "16ce29a6320ba397",
@@ -1866,6 +1879,23 @@
 "5b4762721e161f2f"
 ],
 "read": "2026-11-11"
+},
+"https://www.rightmove.co.uk/properties/95423547": {
+"hashes": [
+"2325550e4e624683",
+"b3332b3b12121a27",
+"332115e765168e85",
+"373139350929333a",
+"3101230c0e8b96b4",
+"17adb713942666b3",
+"1b13032d3d3d2626",
+"2765214763ac0e07",
+"112d191c280c040c",
+"1113931373792f2e",
+"95cc2c2c4cdcb868",
+"712cccd8d0c4ccdc"
+],
+"read": "2026-11-12"
 },
 "https://www.zoopla.co.uk/to-rent/details/67769547/": {
 "hashes": [

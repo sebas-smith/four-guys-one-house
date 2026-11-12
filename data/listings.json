@@ -5792,7 +5792,7 @@
   "id": "openrent-3003303",
   "title": "Divis Way",
   "area": "Putney",
-  "rent": 3395,
+  "rent": 3400,
   "beds": 4,
   "baths": 1,
   "available": "Today",
@@ -5808,7 +5808,8 @@
    "https://www.rightmove.co.uk/properties/95099775",
    "https://www.openrent.co.uk/3099426",
    "https://www.zoopla.co.uk/to-rent/details/74677722/",
-   "https://www.onthemarket.com/details/20742044/"
+   "https://www.onthemarket.com/details/20742044/",
+   "https://www.chestertons.co.uk/properties/22304509/lettings/PUL260550"
   ],
   "source": "import",
   "added": "2026-09-25",
@@ -5825,7 +5826,8 @@
    "From an email on 2026-11-05: New listings: 26 new properties to rent in Putney",
    "Same house as zoopla-74677722 by its photos; merged (10 Nov).",
    "From an email on 2026-11-12: New properties in London (drawn area)",
-   "Same house as onthemarket-20742044 by its photos; merged (12 Nov)."
+   "Same house as onthemarket-20742044 by its photos; merged (12 Nov).",
+   "Price changed from £3,395 to £3,400 (2026-11-12)."
   ],
   "checked": "2026-11-12",
   "station": {
@@ -6913,7 +6915,7 @@
    "Price changed from £4,800 to £4,300 (2026-10-26).",
    "Price changed from £4,300 to £3,800 (2026-10-30)."
   ],
-  "checked": "2026-11-11",
+  "checked": "2026-11-12",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -17947,7 +17949,8 @@
   "status": "new",
   "url": "https://www.rightmove.co.uk/properties/93456366",
   "links": [
-   "https://www.rightmove.co.uk/properties/93456366"
+   "https://www.rightmove.co.uk/properties/93456366",
+   "https://www.zoopla.co.uk/to-rent/details/74309587/"
   ],
   "source": "sweep",
   "added": "2026-10-18",
@@ -17978,7 +17981,10 @@
    "tritax": 35,
    "q5": 34,
    "wentworth": 57
-  }
+  },
+  "not_same": [
+   "rightmove-95423547"
+  ]
  },
  {
   "id": "rightmove-94396128",
@@ -20076,7 +20082,7 @@
   "baths": 2,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.dexters.co.uk/property-for-rent/house-to-rent-in-merton-road-london-sw18/285933",
   "links": [
    "https://www.dexters.co.uk/property-for-rent/house-to-rent-in-merton-road-london-sw18/285933",
@@ -20090,7 +20096,9 @@
   "notes": [
    "Found by ChatGPT sweep (live; results-page evidence only).",
    "Found by ChatGPT sweep (live).",
-   "Taken down on Dexters; Zoopla advert not checked yet (12 Nov)."
+   "Taken down on Dexters; Zoopla advert not checked yet (12 Nov).",
+   "ChatGPT sweep says removed (2026-11-12).",
+   "Advert taken down on Dexters (12 Nov)."
   ],
   "station": {
    "name": "East Putney",
@@ -20131,11 +20139,9 @@
    "https://www.onthemarket.com/details/20547683/",
    "https://www.rightmove.co.uk/properties/94284747"
   ],
-  "unconfirmed": "2026-11-12",
   "off_market": {
-   "why": "Taken down on Dexters; Zoopla advert not checked yet",
-   "checked": "2026-11-12",
-   "unconfirmed": true
+   "why": "Advert taken down on Dexters",
+   "checked": "2026-11-12"
   }
  },
  {
@@ -20566,7 +20572,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-11",
+  "checked": "2026-11-12",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Bathrooms corrected to 2 from the advert (31 Oct)."
@@ -21202,7 +21208,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-11",
+  "checked": "2026-11-12",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21487,7 +21493,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-11",
+  "checked": "2026-11-12",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -22165,7 +22171,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-11",
+  "checked": "2026-11-12",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -22259,7 +22265,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-11",
+  "checked": "2026-11-12",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -22445,7 +22451,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-11",
+  "checked": "2026-11-12",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Bathrooms corrected to 1 from the advert (31 Oct)."
@@ -24700,7 +24706,8 @@
    "Taken down on Rightmove; Zoopla advert not checked yet (11 Nov).",
    "Price changed from £3,900 to £3,950 (2026-11-11).",
    "ChatGPT sweep says live: still available (2026-11-11).",
-   "Taken down on Rightmove; Zoopla advert not checked yet (12 Nov)."
+   "Taken down on Rightmove; Zoopla advert not checked yet (12 Nov).",
+   "ChatGPT sweep says live: still available (2026-11-12)."
   ],
   "prices": [
    [
@@ -24733,13 +24740,7 @@
   },
   "down": [
    "https://www.rightmove.co.uk/properties/94604028"
-  ],
-  "unconfirmed": "2026-11-12",
-  "off_market": {
-   "why": "Taken down on Rightmove; Zoopla advert not checked yet",
-   "checked": "2026-11-12",
-   "unconfirmed": true
-  }
+  ]
  },
  {
   "id": "rightmove-94611774",
@@ -26256,7 +26257,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-11-11",
+  "checked": "2026-11-12",
   "notes": [
    "Found by ChatGPT sweep (unverified)."
   ],
@@ -26547,7 +26548,7 @@
   ],
   "source": "search",
   "added": "2026-10-25",
-  "checked": "2026-11-11",
+  "checked": "2026-11-12",
   "notes": [
    "Missed by the sweep; found in a portal coverage check on 25 Oct (OpenRent private landlord)."
   ],
@@ -30017,7 +30018,7 @@
     "openrent"
    ]
   ],
-  "checked": "2026-11-11",
+  "checked": "2026-11-12",
   "loc": [
    51.44339,
    -0.1345781
@@ -30161,7 +30162,7 @@
   "source": "sweep",
   "added": "2026-11-02",
   "added_at": "2026-11-02T18:09Z",
-  "checked": "2026-11-11",
+  "checked": "2026-11-12",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -30279,7 +30280,7 @@
    "q5": 23,
    "wentworth": 49
   },
-  "checked": "2026-11-11"
+  "checked": "2026-11-12"
  },
  {
   "id": "onthemarket-20679740",
@@ -30540,7 +30541,8 @@
   "links": [
    "https://www.onthemarket.com/details/20683714/",
    "https://www.rightmove.co.uk/properties/95074983",
-   "https://www.zoopla.co.uk/to-rent/details/74672155/"
+   "https://www.zoopla.co.uk/to-rent/details/74672155/",
+   "https://www.goodfellows.co.uk/property/house-to-rent-hillbrook-road-wandsworth-sw17-id-gmi190388"
   ],
   "source": "sweep",
   "added": "2026-11-03",
@@ -31256,7 +31258,7 @@
   "source": "sweep",
   "added": "2026-11-06",
   "added_at": "2026-11-06T18:04Z",
-  "checked": "2026-11-11",
+  "checked": "2026-11-12",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -31529,7 +31531,8 @@
   "url": "https://www.onthemarket.com/details/20721171/",
   "links": [
    "https://www.onthemarket.com/details/20721171/",
-   "https://www.rightmove.co.uk/properties/95290695"
+   "https://www.rightmove.co.uk/properties/95290695",
+   "https://www.barnardmarcus.co.uk/properties/22298455/lettings/P0494F2106-32429723"
   ],
   "source": "sweep",
   "added": "2026-11-09",
@@ -32122,7 +32125,7 @@
   "baths": 2,
   "available": "2026-11-14",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.zoopla.co.uk/to-rent/details/59529898/",
   "links": [
    "https://www.zoopla.co.uk/to-rent/details/59529898/"
@@ -32131,7 +32134,8 @@
   "added": "2026-11-10",
   "added_at": "2026-11-10T12:54Z",
   "notes": [
-   "From an email on 2026-11-10: New listings: 3 new properties to rent in Putney"
+   "From an email on 2026-11-10: New listings: 3 new properties to rent in Putney",
+   "ChatGPT sweep says let agreed (2026-11-12)."
   ],
   "prices": [
    [
@@ -32140,7 +32144,7 @@
     "zoopla"
    ]
   ],
-  "checked": "2026-11-11",
+  "checked": "2026-11-12",
   "loc": [
    51.463152,
    -0.165146
@@ -32155,6 +32159,10 @@
    "tritax": 45,
    "q5": 37,
    "wentworth": 50
+  },
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-11-12"
   }
  },
  {
@@ -32622,7 +32630,8 @@
    "tritax": 50,
    "q5": 49,
    "wentworth": 55
-  }
+  },
+  "checked": "2026-11-12"
  },
  {
   "id": "onthemarket-20742584",
@@ -32674,5 +32683,194 @@
    "wentworth": 42
   },
   "checked": "2026-11-12"
+ },
+ {
+  "id": "rightmove-95423547",
+  "title": "Aristotle Road, \nClapham North, SW4, SW4 7UZ",
+  "area": "Clapham",
+  "rent": 4500,
+  "beds": 4,
+  "baths": 2,
+  "available": "2026-11-28",
+  "sharers": "ok",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/95423547",
+  "links": [
+   "https://www.rightmove.co.uk/properties/95423547",
+   "https://www.chestertons.co.uk/properties/22308829/lettings/JCC260066"
+  ],
+  "source": "sweep",
+  "added": "2026-11-12",
+  "added_at": "2026-11-12T18:08Z",
+  "checked": "2026-11-12",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-11-12",
+    4500,
+    "rightmove"
+   ]
+  ],
+  "loc": [
+   51.463363,
+   -0.130636
+  ],
+  "station": {
+   "name": "Clapham North",
+   "kind": "Tube",
+   "walk": 4
+  },
+  "not_same": [
+   "rightmove-93456366"
+  ],
+  "commute": {
+   "lcp": 37,
+   "tritax": 35,
+   "q5": 34,
+   "wentworth": 57
+  },
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/ebd2b242c/95423547/ebd2b242ce1fe399a23b48f3d0f13236_max_476x317.jpeg"
+ },
+ {
+  "id": "onthemarket-20744762",
+  "title": "Mellison Road, London, SW17, SW17 9AT",
+  "area": "Tooting",
+  "rent": 5000,
+  "beds": 5,
+  "baths": 1,
+  "available": "2026-11-26",
+  "sharers": "ok",
+  "status": "new",
+  "url": "https://www.zoopla.co.uk/to-rent/details/74753990/",
+  "links": [
+   "https://www.onthemarket.com/details/20744762/",
+   "https://www.zoopla.co.uk/to-rent/details/74753990/"
+  ],
+  "source": "sweep",
+  "added": "2026-11-12",
+  "added_at": "2026-11-12T18:08Z",
+  "checked": "2026-11-12",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-11-12",
+    5000,
+    "zoopla"
+   ],
+   [
+    "2026-11-12",
+    5000,
+    "onthemarket"
+   ]
+  ],
+  "loc": [
+   51.424135,
+   -0.16869
+  ],
+  "station": {
+   "name": "Tooting Broadway",
+   "kind": "Tube",
+   "walk": 7
+  },
+  "commute": {
+   "lcp": 49,
+   "tritax": 47,
+   "q5": 45,
+   "wentworth": 47
+  },
+  "photo": "https://media.onthemarket.com/properties/20744762/1658166129/image-0-1024x1024.jpg"
+ },
+ {
+  "id": "zoopla-74756477",
+  "title": "Stapleton Road SW17, SW17 8BA",
+  "area": "Tooting",
+  "rent": 4200,
+  "beds": 4,
+  "baths": 1,
+  "available": "2027-01-09",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.zoopla.co.uk/to-rent/details/74756477/",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74756477/",
+   "https://www.zoopla.co.uk/to-rent/details/74756479/"
+  ],
+  "source": "sweep",
+  "added": "2026-11-12",
+  "added_at": "2026-11-12T18:08Z",
+  "checked": "2026-11-12",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-11-12",
+    4200,
+    "zoopla"
+   ]
+  ],
+  "loc": [
+   51.4344038,
+   -0.1580393
+  ],
+  "station": {
+   "name": "Tooting Bec",
+   "kind": "Tube",
+   "walk": 3
+  },
+  "commute": {
+   "lcp": 43,
+   "tritax": 41,
+   "q5": 39,
+   "wentworth": 49
+  }
+ },
+ {
+  "id": "rampton-baseley-22307051",
+  "title": "Ellerton Road, London, SW18",
+  "area": "Wandsworth",
+  "rent": 4300,
+  "beds": 4,
+  "baths": 1,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.ramptonbaseley.com/properties/22307051/lettings/BEL170119",
+  "links": [
+   "https://www.ramptonbaseley.com/properties/22307051/lettings/BEL170119"
+  ],
+  "source": "sweep",
+  "added": "2026-11-12",
+  "added_at": "2026-11-12T18:08Z",
+  "checked": "2026-11-12",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-11-12",
+    4300,
+    "ramptonbaseley"
+   ]
+  ],
+  "loc": [
+   51.4435962,
+   -0.1763568
+  ],
+  "station": {
+   "name": "Earlsfield",
+   "kind": "Rail",
+   "walk": 13
+  },
+  "commute": {
+   "lcp": 58,
+   "tritax": 58,
+   "q5": 48,
+   "wentworth": 50
+  }
  }
 ]
