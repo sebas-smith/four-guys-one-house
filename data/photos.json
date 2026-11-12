@@ -743,6 +743,23 @@
 ],
 "read": "2026-11-11"
 },
+"https://www.onthemarket.com/details/20742044/": {
+"hashes": [
+"0f0eb96e9c26cec7",
+"31304a703605848b",
+"8b4f5b1bdbe3bbb9",
+"0f0f66d4c4d39e3e",
+"32361a18363cb96d",
+"fc71271978cccd7e",
+"381c3c79c9342c1c",
+"376b636f36321c9c",
+"30e0c898381a5090",
+"4f692b1b196b7371",
+"c8b199d1a968d898",
+"3821333c2c34031d"
+],
+"read": "2026-11-12"
+},
 "https://www.onthemarket.com/details/7288266/": {
 "hashes": [
 "0f4943674d859d9c",
@@ -1660,6 +1677,22 @@
 "291b1b1b93872360"
 ],
 "read": "2026-11-10"
+},
+"https://www.rightmove.co.uk/properties/95302005": {
+"hashes": [
+"c9c9dd694d913171",
+"232d37359d99cfcf",
+"1f0f474f26051119",
+"ded9692d64692839",
+"0bc0737f5bdad38d",
+"261919191d6c6c2a",
+"2d676666783a7872",
+"03171b1373e1c103",
+"231f1f1e3c261e36",
+"2bae8d692543d119",
+"a8aa88892c6a5a18"
+],
+"read": "2026-11-12"
 },
 "https://www.rightmove.co.uk/properties/95305434": {
 "hashes": [
