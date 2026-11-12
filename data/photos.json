@@ -223,6 +223,18 @@
 ],
 "read": "2026-11-10"
 },
+"https://www.onthemarket.com/details/18863172/": {
+"hashes": [
+"c6ccd13137528c4d",
+"8143435b3386c626",
+"1b1b8b4b024bc946",
+"329ba7b6b61e1a93",
+"070d69692a2a343c",
+"5dfbb3b33119cbcb",
+"9d9ddef5a519017b"
+],
+"read": "2026-11-12"
+},
 "https://www.onthemarket.com/details/19039243/": {
 "hashes": [
 "47071a1a8a89093d",
@@ -623,6 +635,23 @@
 ],
 "read": "2026-11-10"
 },
+"https://www.onthemarket.com/details/20690713/": {
+"hashes": [
+"0387b29269c7266c",
+"0b2b276d2959181d",
+"9f4f26a1e95c4268",
+"0f0d49090c646687",
+"158f92d2ed4e1f97",
+"98c59191d1d5b1b1",
+"074d49c9728e8f0f",
+"3f2969e9c964c79d",
+"3b17b72f321f2737",
+"032dc94b2967c1a3",
+"d3939393931be7e5",
+"8f4f0306840c5607"
+],
+"read": "2026-11-12"
+},
 "https://www.onthemarket.com/details/20698810/": {
 "hashes": [
 "12466b6be2664c6f",
@@ -757,6 +786,23 @@
 "4f692b1b196b7371",
 "c8b199d1a968d898",
 "3821333c2c34031d"
+],
+"read": "2026-11-12"
+},
+"https://www.onthemarket.com/details/20742584/": {
+"hashes": [
+"c9212597170d0d0d",
+"f823665a796c2636",
+"31098989e1d98e2e",
+"6434b3584c624e3e",
+"e5e52735218c0c3a",
+"0b0fcbcb4e6dccc6",
+"3517212426393537",
+"cf665a5ac8c662d8",
+"6d2d2d2d2d173372",
+"0d09232127233739",
+"f3f26a1b5b9b73f3",
+"c96a331317250703"
 ],
 "read": "2026-11-12"
 },
@@ -1556,6 +1602,18 @@
 ],
 "read": "2026-11-10"
 },
+"https://www.rightmove.co.uk/properties/95076369": {
+"hashes": [
+"c6ccd13337528c4d",
+"8143435b3386c726",
+"1b1b8b4b024ac946",
+"309ba7b6b61e1a93",
+"070d69692a2a343c",
+"5dfbb3b33119cbcb",
+"dd9ddee5a519117b"
+],
+"read": "2026-11-12"
+},
 "https://www.rightmove.co.uk/properties/95079150": {
 "hashes": [
 "246069686aa9cfcc",
@@ -1587,6 +1645,23 @@
 "6461614cdc9b03c3"
 ],
 "read": "2026-11-10"
+},
+"https://www.rightmove.co.uk/properties/95116407": {
+"hashes": [
+"0383b29269c7266c",
+"0b2b276d2959181d",
+"9f4f26a1e95c4268",
+"8f0d69090c646687",
+"158f92d2ec4e1f97",
+"98c59191d1d5b1b3",
+"074d49c9728e8f0f",
+"3f2969e9c964c79d",
+"3b17b72f321f2737",
+"032dc94b2967c1a3",
+"d3939393931fe7e5",
+"8f4f0306840c5607"
+],
+"read": "2026-11-12"
 },
 "https://www.rightmove.co.uk/properties/95160462": {
 "hashes": [

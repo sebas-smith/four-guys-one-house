@@ -30368,7 +30368,10 @@
    "q5": 55,
    "wentworth": 42
   },
-  "photo": "https://media.onthemarket.com/properties/18863172/1656384495/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/18863172/1656384495/image-0-1024x1024.jpg",
+  "not_same": [
+   "onthemarket-20742584"
+  ]
  },
  {
   "id": "foxtons-ptny5244025",
@@ -32495,6 +32498,56 @@
    "tritax": 50,
    "q5": 49,
    "wentworth": 55
+  }
+ },
+ {
+  "id": "onthemarket-20742584",
+  "title": "Colebrook Close, Putney, SW15",
+  "area": "Putney",
+  "rent": 3600,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20742584/",
+  "links": [
+   "https://www.onthemarket.com/details/20742584/"
+  ],
+  "source": "alert",
+  "added": "2026-11-12",
+  "added_at": "2026-11-12T09:28Z",
+  "notes": [
+   "From an email on 2026-11-12: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-12",
+    3600,
+    "onthemarket"
+   ]
+  ],
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20742584/1658133677/image-0-480x320.jpg"
+  ],
+  "photo": "http://media.onthemarket.com/properties/20742584/1658133677/image-0-480x320.jpg",
+  "loc": [
+   51.450711,
+   -0.219601
+  ],
+  "station": {
+   "name": "East Putney",
+   "kind": "Tube",
+   "walk": 17
+  },
+  "not_same": [
+   "onthemarket-18863172"
+  ],
+  "commute": {
+   "lcp": 66,
+   "tritax": 64,
+   "q5": 55,
+   "wentworth": 42
   }
  }
 ]
