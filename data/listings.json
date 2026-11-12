@@ -24289,7 +24289,10 @@
    "tritax": 57,
    "q5": 50,
    "wentworth": 43
-  }
+  },
+  "photos_seen": [
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/c553069fa/94523199/c553069fa322be933ca59c1df244ced4_max_296x197.jpeg"
+  ]
  },
  {
   "id": "john-d-wood-22229341",
@@ -28270,6 +28273,9 @@
   },
   "not_same": [
    "openrent-3040857"
+  ],
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/19773630/1654085281/image-0-480x320.jpg"
   ]
  },
  {
@@ -32645,7 +32651,8 @@
   "status": "new",
   "url": "https://www.onthemarket.com/details/20742584/",
   "links": [
-   "https://www.onthemarket.com/details/20742584/"
+   "https://www.onthemarket.com/details/20742584/",
+   "https://www.rightmove.co.uk/properties/95391579"
   ],
   "source": "alert",
   "added": "2026-11-12",
@@ -32658,10 +32665,16 @@
     "2026-11-12",
     3600,
     "onthemarket"
+   ],
+   [
+    "2026-11-12",
+    3600,
+    "rightmove"
    ]
   ],
   "photos_seen": [
-   "http://media.onthemarket.com/properties/20742584/1658133677/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/20742584/1658133677/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/c9c0aa078/95391579/c9c0aa07896ac58ae23db714ef9bf40a_max_296x197.jpeg"
   ],
   "photo": "http://media.onthemarket.com/properties/20742584/1658133677/image-0-480x320.jpg",
   "loc": [
@@ -32746,7 +32759,8 @@
   "url": "https://www.zoopla.co.uk/to-rent/details/74753990/",
   "links": [
    "https://www.onthemarket.com/details/20744762/",
-   "https://www.zoopla.co.uk/to-rent/details/74753990/"
+   "https://www.zoopla.co.uk/to-rent/details/74753990/",
+   "https://www.openrent.co.uk/3108937"
   ],
   "source": "sweep",
   "added": "2026-11-12",
@@ -32765,6 +32779,11 @@
     "2026-11-12",
     5000,
     "onthemarket"
+   ],
+   [
+    "2026-11-12",
+    5000,
+    "openrent"
    ]
   ],
   "loc": [
@@ -32782,7 +32801,11 @@
    "q5": 45,
    "wentworth": 47
   },
-  "photo": "https://media.onthemarket.com/properties/20744762/1658166129/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20744762/1658166129/image-0-1024x1024.jpg",
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20744762/1658166129/image-0-480x320.jpg",
+   "https://imagescdn.openrent.co.uk/listings/3108937/o_1k76bi98pfdnq7i140r1sg51kc3c.JPG"
+  ]
  },
  {
   "id": "zoopla-74756477",
