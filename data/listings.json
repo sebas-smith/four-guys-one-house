@@ -6929,7 +6929,7 @@
    "Price changed from £4,800 to £4,300 (2026-10-26).",
    "Price changed from £4,300 to £3,800 (2026-10-30)."
   ],
-  "checked": "2026-11-12",
+  "checked": "2026-11-13",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -20597,7 +20597,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-12",
+  "checked": "2026-11-13",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Bathrooms corrected to 2 from the advert (31 Oct)."
@@ -21233,7 +21233,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-12",
+  "checked": "2026-11-13",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21518,7 +21518,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-12",
+  "checked": "2026-11-13",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -22202,7 +22202,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-12",
+  "checked": "2026-11-13",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -22296,7 +22296,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-12",
+  "checked": "2026-11-13",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -22482,7 +22482,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-12",
+  "checked": "2026-11-13",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Bathrooms corrected to 1 from the advert (31 Oct)."
@@ -24760,7 +24760,8 @@
    "ChatGPT sweep says live: still available (2026-11-11).",
    "Taken down on Rightmove; Zoopla advert not checked yet (12 Nov).",
    "ChatGPT sweep says live: still available (2026-11-12).",
-   "Taken down on Rightmove; Zoopla advert not checked yet (13 Nov)."
+   "Taken down on Rightmove; Zoopla advert not checked yet (13 Nov).",
+   "ChatGPT sweep says live: still available (2026-11-13)."
   ],
   "prices": [
    [
@@ -24793,13 +24794,7 @@
   },
   "down": [
    "https://www.rightmove.co.uk/properties/94604028"
-  ],
-  "unconfirmed": "2026-11-13",
-  "off_market": {
-   "why": "Taken down on Rightmove; Zoopla advert not checked yet",
-   "checked": "2026-11-13",
-   "unconfirmed": true
-  }
+  ]
  },
  {
   "id": "rightmove-94611774",
@@ -26316,7 +26311,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-11-12",
+  "checked": "2026-11-13",
   "notes": [
    "Found by ChatGPT sweep (unverified)."
   ],
@@ -26607,7 +26602,7 @@
   ],
   "source": "search",
   "added": "2026-10-25",
-  "checked": "2026-11-12",
+  "checked": "2026-11-13",
   "notes": [
    "Missed by the sweep; found in a portal coverage check on 25 Oct (OpenRent private landlord)."
   ],
@@ -26799,7 +26794,7 @@
   "beds": 4,
   "baths": 2,
   "available": "",
-  "sharers": "unknown",
+  "sharers": "ok",
   "status": "new",
   "url": "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2535277/ivy-crescent/",
   "links": [
@@ -26829,7 +26824,8 @@
    "https://www.onthemarket.com/details/20727969/",
    "https://www.zoopla.co.uk/to-rent/details/74731955/",
    "https://www.onthemarket.com/details/20735815/",
-   "https://www.zoopla.co.uk/to-rent/details/74742178/"
+   "https://www.zoopla.co.uk/to-rent/details/74742178/",
+   "https://www.onthemarket.com/details/20587263/"
   ],
   "source": "agent",
   "added": "2026-10-26",
@@ -28549,13 +28545,18 @@
    "https://www.onthemarket.com/details/20659623/",
    "https://www.zoopla.co.uk/to-rent/details/74643750/",
    "https://www.openrent.co.uk/3093543",
-   "https://www.rightmove.co.uk/properties/94963065"
+   "https://www.rightmove.co.uk/properties/94963065",
+   "https://www.rightmove.co.uk/properties/95457312",
+   "https://www.zoopla.co.uk/to-rent/details/74766424/",
+   "https://www.chestertons.co.uk/properties/22311568/lettings/PUL200072"
   ],
   "source": "alert",
   "added": "2026-10-30",
   "notes": [
    "From an email on 2026-10-30: New properties in London (drawn area)",
-   "Price cut: £4,990 to £4,850 on the live adverts (7 Nov)."
+   "Price cut: £4,990 to £4,850 on the live adverts (7 Nov).",
+   "Found by ChatGPT sweep (live).",
+   "Same house as rightmove-95457312 by its photos; merged (13 Nov)."
   ],
   "prices": [
    [
@@ -28585,6 +28586,11 @@
    ],
    [
     "2026-11-07",
+    4850,
+    "rightmove"
+   ],
+   [
+    "2026-11-13",
     4850,
     "rightmove"
    ]
@@ -30077,7 +30083,7 @@
     "openrent"
    ]
   ],
-  "checked": "2026-11-12",
+  "checked": "2026-11-13",
   "loc": [
    51.44339,
    -0.1345781
@@ -30221,7 +30227,7 @@
   "source": "sweep",
   "added": "2026-11-02",
   "added_at": "2026-11-02T18:09Z",
-  "checked": "2026-11-12",
+  "checked": "2026-11-13",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -30339,7 +30345,7 @@
    "q5": 23,
    "wentworth": 49
   },
-  "checked": "2026-11-12"
+  "checked": "2026-11-13"
  },
  {
   "id": "onthemarket-20679740",
@@ -31002,6 +31008,7 @@
   "checked": "2026-11-13",
   "photo": "https://media.onthemarket.com/properties/20698810/1656834448/image-0-1024x1024.jpg",
   "not_same": [
+   "onthemarket-20701356",
    "openrent-3016979"
   ]
  },
@@ -31066,7 +31073,7 @@
   "baths": 2,
   "available": "2026-12-02",
   "sharers": "ok",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20704076/",
   "links": [
    "https://www.onthemarket.com/details/20704076/",
@@ -31079,7 +31086,9 @@
   "added_at": "2026-11-06T11:10Z",
   "notes": [
    "From an email on 2026-11-06: New properties in London (drawn area)",
-   "Let agreed on OnTheMarket; Zoopla advert not checked yet (13 Nov)."
+   "Let agreed on OnTheMarket; Zoopla advert not checked yet (13 Nov).",
+   "ChatGPT sweep says let agreed (2026-11-13).",
+   "Let agreed on OnTheMarket (13 Nov)."
   ],
   "prices": [
    [
@@ -31119,11 +31128,9 @@
    "https://www.onthemarket.com/details/20704076/",
    "https://www.rightmove.co.uk/properties/95189325"
   ],
-  "unconfirmed": "2026-11-13",
   "off_market": {
-   "why": "Let agreed on OnTheMarket; Zoopla advert not checked yet",
-   "checked": "2026-11-13",
-   "unconfirmed": true
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-11-13"
   }
  },
  {
@@ -31335,7 +31342,7 @@
   "source": "sweep",
   "added": "2026-11-06",
   "added_at": "2026-11-06T18:04Z",
-  "checked": "2026-11-12",
+  "checked": "2026-11-13",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -31656,7 +31663,7 @@
   "baths": 2,
   "available": "2027-01-04",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/95279859",
   "links": [
    "https://www.onthemarket.com/details/20719552/",
@@ -31669,7 +31676,9 @@
   "checked": "2026-11-13",
   "notes": [
    "Found by ChatGPT sweep (live).",
-   "Let agreed on OnTheMarket; Zoopla advert not checked yet (13 Nov)."
+   "Let agreed on OnTheMarket; Zoopla advert not checked yet (13 Nov).",
+   "ChatGPT sweep says let agreed (2026-11-13).",
+   "Let agreed on OnTheMarket (13 Nov)."
   ],
   "prices": [
    [
@@ -31703,11 +31712,9 @@
    "https://www.onthemarket.com/details/20719552/",
    "https://www.rightmove.co.uk/properties/95279859"
   ],
-  "unconfirmed": "2026-11-13",
   "off_market": {
-   "why": "Let agreed on OnTheMarket; Zoopla advert not checked yet",
-   "checked": "2026-11-13",
-   "unconfirmed": true
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-11-13"
   }
  },
  {
@@ -32728,7 +32735,7 @@
    "q5": 49,
    "wentworth": 55
   },
-  "checked": "2026-11-12"
+  "checked": "2026-11-13"
  },
  {
   "id": "onthemarket-20742584",
@@ -32926,7 +32933,7 @@
   "source": "sweep",
   "added": "2026-11-12",
   "added_at": "2026-11-12T18:08Z",
-  "checked": "2026-11-12",
+  "checked": "2026-11-13",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -33061,5 +33068,142 @@
    "wentworth": 33
   },
   "checked": "2026-11-13"
+ },
+ {
+  "id": "onthemarket-20755125",
+  "title": "Chesterfield Road, London W4, W4 3HG",
+  "area": "Chiswick",
+  "rent": 4500,
+  "beds": 4,
+  "baths": 2,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20755125/",
+  "links": [
+   "https://www.onthemarket.com/details/20755125/"
+  ],
+  "source": "sweep",
+  "added": "2026-11-13",
+  "added_at": "2026-11-13T18:10Z",
+  "checked": "2026-11-13",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-11-13",
+    4500,
+    "onthemarket"
+   ]
+  ],
+  "loc": [
+   51.485995,
+   -0.265387
+  ],
+  "station": {
+   "name": "Chiswick",
+   "kind": "Rail",
+   "walk": 9
+  },
+  "commute": {
+   "lcp": 60,
+   "tritax": 58,
+   "q5": 53,
+   "wentworth": 31
+  },
+  "photo": "https://media.onthemarket.com/properties/20755125/1658485290/image-0-1024x1024.jpg"
+ },
+ {
+  "id": "zoopla-55668701",
+  "title": "Beechcroft Road, London SW17, SW17 7BX",
+  "area": "Tooting",
+  "rent": 3900,
+  "beds": 4,
+  "baths": 1,
+  "available": "2026-11-20",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.zoopla.co.uk/to-rent/details/55668701/",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/55668701/"
+  ],
+  "source": "sweep",
+  "added": "2026-11-13",
+  "added_at": "2026-11-13T18:10Z",
+  "checked": "2026-11-13",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-11-13",
+    3900,
+    "zoopla"
+   ]
+  ],
+  "loc": [
+   51.4413297,
+   -0.1706413
+  ],
+  "station": {
+   "name": "Wandsworth Common",
+   "kind": "Rail",
+   "walk": 12
+  },
+  "commute": {
+   "lcp": 54,
+   "tritax": 54,
+   "q5": 51,
+   "wentworth": 50
+  }
+ },
+ {
+  "id": "onthemarket-20701356",
+  "title": "Links Road, London SW17, SW17 9EP",
+  "area": "Tooting",
+  "rent": 3650,
+  "beds": 4,
+  "baths": 2,
+  "available": "",
+  "sharers": "ok",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20701356/",
+  "links": [
+   "https://www.onthemarket.com/details/20701356/"
+  ],
+  "source": "sweep",
+  "added": "2026-11-13",
+  "added_at": "2026-11-13T18:10Z",
+  "checked": "2026-11-13",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-11-13",
+    3650,
+    "onthemarket"
+   ]
+  ],
+  "loc": [
+   51.418728,
+   -0.152093
+  ],
+  "station": {
+   "name": "Tooting",
+   "kind": "Rail",
+   "walk": 11
+  },
+  "not_same": [
+   "onthemarket-20698810"
+  ],
+  "commute": {
+   "lcp": 58,
+   "tritax": 56,
+   "q5": 55,
+   "wentworth": 51
+  },
+  "photo": "https://media.onthemarket.com/properties/20701356/1656866707/image-0-1024x1024.jpg"
  }
 ]
