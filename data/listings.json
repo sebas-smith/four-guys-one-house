@@ -2786,6 +2786,9 @@
   },
   "down": [
    "https://www.onthemarket.com/details/20545472/"
+  ],
+  "photos_seen": [
+   "https://lid.zoocdn.com/645/430/09f8e572a6846e648a5a82e125e71615c865780e.jpg"
   ]
  },
  {
@@ -7505,13 +7508,16 @@
   "links": [
    "https://www.rightmove.co.uk/properties/150435635",
    "https://www.zoopla.co.uk/to-rent/details/67871185/",
-   "https://www.onthemarket.com/details/15240088/"
+   "https://www.onthemarket.com/details/15240088/",
+   "https://www.zoopla.co.uk/to-rent/details/55668701/",
+   "https://www.onthemarket.com/details/20146250/"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Same house as zoopla-55668701 by its photos; merged (13 Nov)."
   ],
   "checked": "2026-11-13",
   "station": {
@@ -7527,6 +7533,16 @@
    ],
    [
     "2026-11-03",
+    3900,
+    "onthemarket"
+   ],
+   [
+    "2026-11-13",
+    3900,
+    "zoopla"
+   ],
+   [
+    "2026-11-13",
     3900,
     "onthemarket"
    ]
@@ -24276,7 +24292,8 @@
    "Price cut: £5,000 to £4,675 on the live adverts (4 Nov).",
    "Price cut on Onthemarket: £5,000 to £4,675 (2026-11-05).",
    "Price cut: £4,675 to £4,500 on the live adverts (12 Nov).",
-   "Price cut on Onthemarket: £4,675 to £4,500 (2026-11-13)."
+   "Price cut on Onthemarket: £4,675 to £4,500 (2026-11-13).",
+   "Price rise on Zoopla: £4,500 to £4,675 (2026-11-13)."
   ],
   "prices": [
    [
@@ -24308,6 +24325,16 @@
     "2026-11-13",
     4500,
     "onthemarket"
+   ],
+   [
+    "",
+    4500,
+    "zoopla"
+   ],
+   [
+    "2026-11-13",
+    4675,
+    "zoopla"
    ]
   ],
   "station": {
@@ -24329,7 +24356,8 @@
   },
   "photos_seen": [
    "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/c553069fa/94523199/c553069fa322be933ca59c1df244ced4_max_296x197.jpeg",
-   "http://media.onthemarket.com/properties/20593768/1653494393/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/20593768/1653494393/image-0-480x320.jpg",
+   "https://lid.zoocdn.com/645/430/b3b9412faec48e7578f50bc4eaa0e71bcc1a5f38.jpg"
   ]
  },
  {
@@ -26825,7 +26853,9 @@
    "https://www.zoopla.co.uk/to-rent/details/74731955/",
    "https://www.onthemarket.com/details/20735815/",
    "https://www.zoopla.co.uk/to-rent/details/74742178/",
-   "https://www.onthemarket.com/details/20587263/"
+   "https://www.onthemarket.com/details/20587263/",
+   "https://www.zoopla.co.uk/to-rent/details/74765516/",
+   "https://www.onthemarket.com/details/20754588/"
   ],
   "source": "agent",
   "added": "2026-10-26",
@@ -26850,7 +26880,8 @@
    "Advert taken down on OnTheMarket (3 Nov).",
    "Merged in onthemarket-20670072: the same house (3 Nov audit).",
    "Price cut on Zoopla: £4,147 to £4,000 (2026-11-08).",
-   "Price cut: £4,000 to £3,800 on the live adverts (13 Nov)."
+   "Price cut: £4,000 to £3,800 on the live adverts (13 Nov).",
+   "Price cut on Onthemarket: £4,000 to £3,800 (2026-11-13)."
   ],
   "prices": [
    [
@@ -26937,6 +26968,16 @@
     "2026-11-13",
     3800,
     "rightmove"
+   ],
+   [
+    "2026-11-13",
+    3800,
+    "onthemarket"
+   ],
+   [
+    "2026-11-13",
+    3800,
+    "zoopla"
    ]
   ],
   "station": {
@@ -26971,7 +27012,12 @@
   ],
   "photos_seen": [
    "http://media.onthemarket.com/properties/20735815/1657898384/image-0-480x320.jpg",
-   "https://lid.zoocdn.com/645/430/f77d7c2bc0e281276849441b59b418956bd5a79d.jpg"
+   "https://lid.zoocdn.com/645/430/f77d7c2bc0e281276849441b59b418956bd5a79d.jpg",
+   "http://media.onthemarket.com/properties/20587263/1653851941/image-0-480x320.jpg",
+   "https://lid.zoocdn.com/645/430/c5a7fe3d38e6a184deac734e557a43bc83c9cff0.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/5674109ec/94504704/5674109ec392d19d770364420dada2bd_max_296x197.jpeg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/23437394e/94027983/23437394e4ad1ed983475c0c356c2c53_max_296x197.jpeg",
+   "http://media.onthemarket.com/properties/20754588/1658471260/image-0-480x320.jpg"
   ]
  },
  {
@@ -27374,7 +27420,8 @@
   ],
   "photos_seen": [
    "http://media.onthemarket.com/properties/20740872/1657993369/image-0-480x320.jpg",
-   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/5524d62ed/95381532/5524d62ed25cb66382a6bddb068a260f_max_296x197.jpeg"
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/5524d62ed/95381532/5524d62ed25cb66382a6bddb068a260f_max_296x197.jpeg",
+   "https://lid.zoocdn.com/645/430/8a2cb0da0efc693c17025bbfa148ebc04052f1bf.jpg"
   ]
  },
  {
@@ -28548,7 +28595,8 @@
    "https://www.rightmove.co.uk/properties/94963065",
    "https://www.rightmove.co.uk/properties/95457312",
    "https://www.zoopla.co.uk/to-rent/details/74766424/",
-   "https://www.chestertons.co.uk/properties/22311568/lettings/PUL200072"
+   "https://www.chestertons.co.uk/properties/22311568/lettings/PUL200072",
+   "https://www.rightmove.co.uk/properties/95459865"
   ],
   "source": "alert",
   "added": "2026-10-30",
@@ -28556,7 +28604,10 @@
    "From an email on 2026-10-30: New properties in London (drawn area)",
    "Price cut: £4,990 to £4,850 on the live adverts (7 Nov).",
    "Found by ChatGPT sweep (live).",
-   "Same house as rightmove-95457312 by its photos; merged (13 Nov)."
+   "Same house as rightmove-95457312 by its photos; merged (13 Nov).",
+   "Price cut on Zoopla: £4,990 to £4,850 (2026-11-13).",
+   "From an email on 2026-11-13: fourguys, we've found you 5 properties in SW London house v4",
+   "Same house as rightmove-95459865 by its photos; merged (13 Nov)."
   ],
   "prices": [
    [
@@ -28593,6 +28644,11 @@
     "2026-11-13",
     4850,
     "rightmove"
+   ],
+   [
+    "2026-11-13",
+    4850,
+    "zoopla"
    ]
   ],
   "station": {
@@ -28612,7 +28668,11 @@
    "tritax": 50,
    "q5": 48,
    "wentworth": 45
-  }
+  },
+  "photos_seen": [
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/6bc404ba4/95457312/6bc404ba4a4c4835bbd7d53168a1c16b_max_296x197.jpeg",
+   "https://lid.zoocdn.com/645/430/305b078d85cc900bc95d57e0743eb62284c8dec2.jpg"
+  ]
  },
  {
   "id": "onthemarket-20605689",
@@ -30360,7 +30420,8 @@
   "url": "https://www.onthemarket.com/details/20679740/",
   "links": [
    "https://www.onthemarket.com/details/20679740/",
-   "https://www.rightmove.co.uk/properties/95049693"
+   "https://www.rightmove.co.uk/properties/95049693",
+   "https://www.zoopla.co.uk/to-rent/details/74667696/"
   ],
   "source": "alert",
   "added": "2026-11-03",
@@ -30401,6 +30462,11 @@
     "2026-11-13",
     3600,
     "rightmove"
+   ],
+   [
+    "2026-11-13",
+    3600,
+    "zoopla"
    ]
   ],
   "loc": [
@@ -30419,7 +30485,12 @@
    "wentworth": 47
   },
   "photo": "https://media.onthemarket.com/properties/20679740/1656333939/image-0-1024x1024.jpg",
-  "checked": "2026-11-13"
+  "checked": "2026-11-13",
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20679740/1656333939/image-0-480x320.jpg",
+   "https://lid.zoocdn.com/645/430/4717531e1d1d3b0cdd7611c9556d28c603790454.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/234bf80bb/95049693/234bf80bb91d4eb312db9c4a525e7830_max_296x197.jpeg"
+  ]
  },
  {
   "id": "onthemarket-20681902",
@@ -32625,7 +32696,8 @@
   "photo": "https://media.rightmove.co.uk/dir/property-photo/d4b047273/95375640/d4b04727335fb3442e5924452d9b1352_max_476x317.jpeg",
   "photos_seen": [
    "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/d4b047273/95375640/d4b04727335fb3442e5924452d9b1352_max_296x197.jpeg",
-   "http://media.onthemarket.com/properties/18985234/1658043923/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/18985234/1658043923/image-0-480x320.jpg",
+   "https://lid.zoocdn.com/645/430/4b5d3ecdb217f7514941a523cee35968711d6f3c.jpg"
   ]
  },
  {
@@ -32685,7 +32757,8 @@
   },
   "photos_seen": [
    "http://media.onthemarket.com/properties/20739115/1657958274/image-0-480x320.jpg",
-   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/1264e2425/95372829/1264e24251d54db45ab0f21db476354f_max_296x197.jpeg"
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/1264e2425/95372829/1264e24251d54db45ab0f21db476354f_max_296x197.jpeg",
+   "https://lid.zoocdn.com/645/430/ffb45a6260a484385f9e353034994e0dc0486483.jpg"
   ],
   "photo": "http://media.onthemarket.com/properties/20739115/1657958274/image-0-480x320.jpg"
  },
@@ -32750,7 +32823,8 @@
   "url": "https://www.onthemarket.com/details/20742584/",
   "links": [
    "https://www.onthemarket.com/details/20742584/",
-   "https://www.rightmove.co.uk/properties/95391579"
+   "https://www.rightmove.co.uk/properties/95391579",
+   "https://www.zoopla.co.uk/to-rent/details/74750855/"
   ],
   "source": "alert",
   "added": "2026-11-12",
@@ -32768,11 +32842,17 @@
     "2026-11-12",
     3600,
     "rightmove"
+   ],
+   [
+    "2026-11-13",
+    3600,
+    "zoopla"
    ]
   ],
   "photos_seen": [
    "http://media.onthemarket.com/properties/20742584/1658133677/image-0-480x320.jpg",
-   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/c9c0aa078/95391579/c9c0aa07896ac58ae23db714ef9bf40a_max_296x197.jpeg"
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/c9c0aa078/95391579/c9c0aa07896ac58ae23db714ef9bf40a_max_296x197.jpeg",
+   "https://lid.zoocdn.com/645/430/4248a3ee150a9d8d53c6088271c8288b2ab75f5a.jpg"
   ],
   "photo": "http://media.onthemarket.com/properties/20742584/1658133677/image-0-480x320.jpg",
   "loc": [
@@ -32809,7 +32889,8 @@
   "links": [
    "https://www.rightmove.co.uk/properties/95423547",
    "https://www.chestertons.co.uk/properties/22308829/lettings/JCC260066",
-   "https://www.onthemarket.com/details/20749658/"
+   "https://www.onthemarket.com/details/20749658/",
+   "https://www.zoopla.co.uk/to-rent/details/74758203/"
   ],
   "source": "sweep",
   "added": "2026-11-12",
@@ -32828,6 +32909,11 @@
     "2026-11-13",
     4500,
     "onthemarket"
+   ],
+   [
+    "2026-11-13",
+    4500,
+    "zoopla"
    ]
   ],
   "loc": [
@@ -32851,7 +32937,8 @@
   "photo": "https://media.rightmove.co.uk/dir/property-photo/ebd2b242c/95423547/ebd2b242ce1fe399a23b48f3d0f13236_max_476x317.jpeg",
   "photos_seen": [
    "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/ebd2b242c/95423547/ebd2b242ce1fe399a23b48f3d0f13236_max_296x197.jpeg",
-   "http://media.onthemarket.com/properties/20749658/1658271496/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/20749658/1658271496/image-0-480x320.jpg",
+   "https://lid.zoocdn.com/645/430/08b503f0692d7218fd39987278b20e1d5b08bc4c.jpg"
   ]
  },
  {
@@ -32912,7 +32999,8 @@
   "photo": "https://media.onthemarket.com/properties/20744762/1658166129/image-0-1024x1024.jpg",
   "photos_seen": [
    "http://media.onthemarket.com/properties/20744762/1658166129/image-0-480x320.jpg",
-   "https://imagescdn.openrent.co.uk/listings/3108937/o_1k76bi98pfdnq7i140r1sg51kc3c.JPG"
+   "https://imagescdn.openrent.co.uk/listings/3108937/o_1k76bi98pfdnq7i140r1sg51kc3c.JPG",
+   "https://lid.zoocdn.com/645/430/0a251eed7d2ea63489840c01eba71bc19a4a86c9.jpg"
   ]
  },
  {
@@ -32958,7 +33046,11 @@
    "tritax": 41,
    "q5": 39,
    "wentworth": 49
-  }
+  },
+  "photos_seen": [
+   "https://lid.zoocdn.com/645/430/25498d43802b71c9ba1cd11a3609b075b35b5ce3.jpg"
+  ],
+  "photo": "https://lid.zoocdn.com/645/430/25498d43802b71c9ba1cd11a3609b075b35b5ce3.jpg"
  },
  {
   "id": "rampton-baseley-22307051",
@@ -32974,7 +33066,8 @@
   "links": [
    "https://www.ramptonbaseley.com/properties/22307051/lettings/BEL170119",
    "https://www.onthemarket.com/details/11266445/",
-   "https://www.rightmove.co.uk/properties/95439261"
+   "https://www.rightmove.co.uk/properties/95439261",
+   "https://www.zoopla.co.uk/to-rent/details/60350627/"
   ],
   "source": "sweep",
   "added": "2026-11-12",
@@ -32998,6 +33091,11 @@
     "2026-11-13",
     4300,
     "rightmove"
+   ],
+   [
+    "2026-11-13",
+    4300,
+    "zoopla"
    ]
   ],
   "loc": [
@@ -33017,7 +33115,8 @@
   },
   "photos_seen": [
    "http://media.onthemarket.com/properties/11266445/1658407580/image-0-480x320.jpg",
-   "https://media.rightmove.co.uk/property-photo/6d2fb8514/95439261/6d2fb8514fae29de91cd71163070533f.jpeg"
+   "https://media.rightmove.co.uk/property-photo/6d2fb8514/95439261/6d2fb8514fae29de91cd71163070533f.jpeg",
+   "https://lid.zoocdn.com/645/430/41863c90edb38dd81a0c711739a8c512c55c84c2.jpg"
   ],
   "photo": "http://media.onthemarket.com/properties/11266445/1658407580/image-0-480x320.jpg"
  },
@@ -33112,51 +33211,10 @@
    "q5": 53,
    "wentworth": 31
   },
-  "photo": "https://media.onthemarket.com/properties/20755125/1658485290/image-0-1024x1024.jpg"
- },
- {
-  "id": "zoopla-55668701",
-  "title": "Beechcroft Road, London SW17, SW17 7BX",
-  "area": "Tooting",
-  "rent": 3900,
-  "beds": 4,
-  "baths": 1,
-  "available": "2026-11-20",
-  "sharers": "unknown",
-  "status": "new",
-  "url": "https://www.zoopla.co.uk/to-rent/details/55668701/",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/55668701/"
-  ],
-  "source": "sweep",
-  "added": "2026-11-13",
-  "added_at": "2026-11-13T18:10Z",
-  "checked": "2026-11-13",
-  "notes": [
-   "Found by ChatGPT sweep (live)."
-  ],
-  "prices": [
-   [
-    "2026-11-13",
-    3900,
-    "zoopla"
-   ]
-  ],
-  "loc": [
-   51.4413297,
-   -0.1706413
-  ],
-  "station": {
-   "name": "Wandsworth Common",
-   "kind": "Rail",
-   "walk": 12
-  },
-  "commute": {
-   "lcp": 54,
-   "tritax": 54,
-   "q5": 51,
-   "wentworth": 50
-  }
+  "photo": "https://media.onthemarket.com/properties/20755125/1658485290/image-0-1024x1024.jpg",
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20755125/1658485290/image-0-480x320.jpg"
+  ]
  },
  {
   "id": "onthemarket-20701356",
