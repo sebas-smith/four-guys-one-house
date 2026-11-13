@@ -24256,7 +24256,8 @@
    "Found by ChatGPT sweep (live).",
    "Price cut: £5,000 to £4,675 on the live adverts (4 Nov).",
    "Price cut on Onthemarket: £5,000 to £4,675 (2026-11-05).",
-   "Price cut: £4,675 to £4,500 on the live adverts (12 Nov)."
+   "Price cut: £4,675 to £4,500 on the live adverts (12 Nov).",
+   "Price cut on Onthemarket: £4,675 to £4,500 (2026-11-13)."
   ],
   "prices": [
    [
@@ -24283,6 +24284,11 @@
     "2026-11-12",
     4500,
     "rightmove"
+   ],
+   [
+    "2026-11-13",
+    4500,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -24303,7 +24309,8 @@
    "wentworth": 43
   },
   "photos_seen": [
-   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/c553069fa/94523199/c553069fa322be933ca59c1df244ced4_max_296x197.jpeg"
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/c553069fa/94523199/c553069fa322be933ca59c1df244ced4_max_296x197.jpeg",
+   "http://media.onthemarket.com/properties/20593768/1653494393/image-0-480x320.jpg"
   ]
  },
  {
@@ -32886,7 +32893,9 @@
   "status": "new",
   "url": "https://www.ramptonbaseley.com/properties/22307051/lettings/BEL170119",
   "links": [
-   "https://www.ramptonbaseley.com/properties/22307051/lettings/BEL170119"
+   "https://www.ramptonbaseley.com/properties/22307051/lettings/BEL170119",
+   "https://www.onthemarket.com/details/11266445/",
+   "https://www.rightmove.co.uk/properties/95439261"
   ],
   "source": "sweep",
   "added": "2026-11-12",
@@ -32900,6 +32909,16 @@
     "2026-11-12",
     4300,
     "ramptonbaseley"
+   ],
+   [
+    "2026-11-13",
+    4300,
+    "onthemarket"
+   ],
+   [
+    "2026-11-13",
+    4300,
+    "rightmove"
    ]
   ],
   "loc": [
@@ -32916,6 +32935,58 @@
    "tritax": 58,
    "q5": 48,
    "wentworth": 50
+  },
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/11266445/1658407580/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/property-photo/6d2fb8514/95439261/6d2fb8514fae29de91cd71163070533f.jpeg"
+  ],
+  "photo": "http://media.onthemarket.com/properties/11266445/1658407580/image-0-480x320.jpg"
+ },
+ {
+  "id": "onthemarket-20433923",
+  "title": "Brackley Rd, London, W4",
+  "area": "W4",
+  "rent": 4330,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20433923/",
+  "links": [
+   "https://www.onthemarket.com/details/20433923/"
+  ],
+  "source": "alert",
+  "added": "2026-11-13",
+  "added_at": "2026-11-13T10:09Z",
+  "notes": [
+   "From an email on 2026-11-13: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-13",
+    4330,
+    "onthemarket"
+   ]
+  ],
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20433923/1647993825/image-0-480x320.jpg"
+  ],
+  "photo": "http://media.onthemarket.com/properties/20433923/1647993825/image-0-480x320.jpg",
+  "loc": [
+   51.491775,
+   -0.253941
+  ],
+  "station": {
+   "name": "Turnham Green",
+   "kind": "Tube",
+   "walk": 6
+  },
+  "commute": {
+   "lcp": 47,
+   "tritax": 49,
+   "q5": 48,
+   "wentworth": 33
   }
  }
 ]
