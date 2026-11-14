@@ -98,6 +98,12 @@
 ],
 "read": "2026-11-10"
 },
+"https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2482905/abdale-road/": {
+"hashes": [
+"a9a9b5cccdd9998d"
+],
+"read": "2026-11-14"
+},
 "https://www.onthemarket.com/details/10566174/": {
 "hashes": [
 "f3539929294bde9e",
@@ -486,6 +492,20 @@
 "009a9ab8f8dcc600"
 ],
 "read": "2026-11-10"
+},
+"https://www.onthemarket.com/details/20526997/": {
+"hashes": [
+"a9a9b5cccdd9998d",
+"e3e7714cc4e464e2",
+"0b0f89a325280c76",
+"676f3474b41040c0",
+"19193626fe8cdfc7",
+"33773e3135357027",
+"372e38235a4e4686",
+"130761d113c08401",
+"279bc723b91d9c8c"
+],
+"read": "2026-11-14"
 },
 "https://www.onthemarket.com/details/20545150/": {
 "hashes": [
@@ -1439,6 +1459,20 @@
 "1f9ffbfbfb7bce3e"
 ],
 "read": "2026-11-10"
+},
+"https://www.rightmove.co.uk/properties/94212078": {
+"hashes": [
+"a9a9b5cccdd9d98d",
+"e3e7714cc4e464e2",
+"0b0f89a325280c76",
+"676d3474b41040c0",
+"19193626be8cdfc7",
+"33273e3135357227",
+"372e38235a4e4686",
+"130761d133e08401",
+"2f9bc723b91d9c8c"
+],
+"read": "2026-11-14"
 },
 "https://www.rightmove.co.uk/properties/94271229": {
 "hashes": [

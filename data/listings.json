@@ -6953,7 +6953,7 @@
    "Price changed from £4,800 to £4,300 (2026-10-26).",
    "Price changed from £4,300 to £3,800 (2026-10-30)."
   ],
-  "checked": "2026-11-13",
+  "checked": "2026-11-14",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -10428,7 +10428,7 @@
   "baths": 2,
   "available": "Now",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/93519945",
   "links": [
    "https://www.rightmove.co.uk/properties/93519945",
@@ -10446,7 +10446,9 @@
    "Price cut on Rightmove: £3,300 to £3,100 (2026-11-02).",
    "Let agreed on Rightmove, still live on OnTheMarket (3 Nov).",
    "Advert live on OnTheMarket (3 Nov).",
-   "Let agreed on Rightmove; Zoopla advert not checked yet (14 Nov)."
+   "Let agreed on Rightmove; Zoopla advert not checked yet (14 Nov).",
+   "ChatGPT sweep says let agreed (2026-11-14).",
+   "Let agreed on Rightmove (14 Nov)."
   ],
   "checked": "2026-11-14",
   "station": {
@@ -10498,11 +10500,9 @@
    "https://www.onthemarket.com/details/20594689/",
    "https://www.rightmove.co.uk/properties/94545675"
   ],
-  "unconfirmed": "2026-11-14",
   "off_market": {
-   "why": "Let agreed on Rightmove; Zoopla advert not checked yet",
-   "checked": "2026-11-14",
-   "unconfirmed": true
+   "why": "Let agreed on Rightmove",
+   "checked": "2026-11-14"
   }
  },
  {
@@ -20680,7 +20680,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-13",
+  "checked": "2026-11-14",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Bathrooms corrected to 2 from the advert (31 Oct)."
@@ -21313,7 +21313,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-13",
+  "checked": "2026-11-14",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21598,7 +21598,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-13",
+  "checked": "2026-11-14",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -22282,7 +22282,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-13",
+  "checked": "2026-11-14",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -22376,7 +22376,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-13",
+  "checked": "2026-11-14",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -22562,7 +22562,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-13",
+  "checked": "2026-11-14",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Bathrooms corrected to 1 from the advert (31 Oct)."
@@ -24854,7 +24854,8 @@
    "ChatGPT sweep says live: still available (2026-11-12).",
    "Taken down on Rightmove; Zoopla advert not checked yet (13 Nov).",
    "ChatGPT sweep says live: still available (2026-11-13).",
-   "Taken down on Rightmove; Zoopla advert not checked yet (14 Nov)."
+   "Taken down on Rightmove; Zoopla advert not checked yet (14 Nov).",
+   "ChatGPT sweep says live: still available (2026-11-14)."
   ],
   "prices": [
    [
@@ -24887,13 +24888,7 @@
   },
   "down": [
    "https://www.rightmove.co.uk/properties/94604028"
-  ],
-  "unconfirmed": "2026-11-14",
-  "off_market": {
-   "why": "Taken down on Rightmove; Zoopla advert not checked yet",
-   "checked": "2026-11-14",
-   "unconfirmed": true
-  }
+  ]
  },
  {
   "id": "rightmove-94611774",
@@ -26410,7 +26405,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-11-13",
+  "checked": "2026-11-14",
   "notes": [
    "Found by ChatGPT sweep (unverified)."
   ],
@@ -26701,7 +26696,7 @@
   ],
   "source": "search",
   "added": "2026-10-25",
-  "checked": "2026-11-13",
+  "checked": "2026-11-14",
   "notes": [
    "Missed by the sweep; found in a portal coverage check on 25 Oct (OpenRent private landlord)."
   ],
@@ -27514,7 +27509,10 @@
   "url": "https://www.barnardmarcus.co.uk/properties/22233505/lettings/P3279L3512-9E98977E",
   "links": [
    "https://www.barnardmarcus.co.uk/properties/22233505/lettings/P3279L3512-9E98977E",
-   "https://www.rightmove.co.uk/properties/94578009"
+   "https://www.rightmove.co.uk/properties/94578009",
+   "https://www.zoopla.co.uk/to-rent/details/71799297/",
+   "https://www.onthemarket.com/details/20599647/",
+   "https://www.barnardmarcus.co.uk/properties/22290069/lettings/P3279L3512-9E98977E"
   ],
   "source": "sweep",
   "added": "2026-10-27",
@@ -27568,7 +27566,8 @@
    "https://www.rightmove.co.uk/properties/94553118",
    "https://www.onthemarket.com/details/20076158/",
    "https://www.rightmove.co.uk/properties/94516866",
-   "https://www.zoopla.co.uk/to-rent/details/73899589/"
+   "https://www.zoopla.co.uk/to-rent/details/73899589/",
+   "https://www.hamptons.co.uk/properties/22167218/lettings/P326803"
   ],
   "source": "sweep",
   "added": "2026-10-27",
@@ -29441,7 +29440,7 @@
   "id": "rightmove-94212078",
   "title": "Abdale Road, Shepherds Bush",
   "area": "Shepherds Bush",
-  "rent": 5000,
+  "rent": 4800,
   "beds": 4,
   "baths": 2,
   "available": "",
@@ -29450,13 +29449,15 @@
   "url": "https://www.rightmove.co.uk/properties/94212078",
   "links": [
    "https://www.rightmove.co.uk/properties/94212078",
-   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2482905/abdale-road/"
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2482905/abdale-road/",
+   "https://www.onthemarket.com/details/20526997/"
   ],
   "source": "backfill",
   "added": "2026-10-31",
   "added_at": "2026-10-31T12:03Z",
   "notes": [
-   "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-10-12."
+   "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-10-12.",
+   "Price changed from £5,000 to £4,800 (2026-11-14)."
   ],
   "prices": [
    [
@@ -29468,6 +29469,11 @@
     "2026-10-31",
     5000,
     "marshandparsons"
+   ],
+   [
+    "2026-11-14",
+    4800,
+    "rightmove"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/c14d748ee/94212078/c14d748ee9a4f1bfc26f91d1f36be95d_max_476x317.jpeg",
@@ -30241,7 +30247,7 @@
     "openrent"
    ]
   ],
-  "checked": "2026-11-13",
+  "checked": "2026-11-14",
   "loc": [
    51.44339,
    -0.1345781
@@ -30385,7 +30391,7 @@
   "source": "sweep",
   "added": "2026-11-02",
   "added_at": "2026-11-02T18:09Z",
-  "checked": "2026-11-13",
+  "checked": "2026-11-14",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -30511,7 +30517,7 @@
    "q5": 23,
    "wentworth": 49
   },
-  "checked": "2026-11-13"
+  "checked": "2026-11-14"
  },
  {
   "id": "onthemarket-20679740",
@@ -31198,7 +31204,7 @@
   "baths": 3,
   "available": "2026-11-12",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20699030/",
   "links": [
    "https://www.onthemarket.com/details/20699030/",
@@ -31210,7 +31216,9 @@
   "added_at": "2026-11-05T15:19Z",
   "notes": [
    "From an email on 2026-11-05: New properties in London (drawn area)",
-   "Let agreed on OnTheMarket; Zoopla advert not checked yet (14 Nov)."
+   "Let agreed on OnTheMarket; Zoopla advert not checked yet (14 Nov).",
+   "ChatGPT sweep says let agreed (2026-11-14).",
+   "Let agreed on OnTheMarket (14 Nov)."
   ],
   "prices": [
    [
@@ -31245,11 +31253,9 @@
    "https://www.onthemarket.com/details/20699030/",
    "https://www.rightmove.co.uk/properties/95161314"
   ],
-  "unconfirmed": "2026-11-14",
   "off_market": {
-   "why": "Let agreed on OnTheMarket; Zoopla advert not checked yet",
-   "checked": "2026-11-14",
-   "unconfirmed": true
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-11-14"
   }
  },
  {
@@ -31530,7 +31536,7 @@
   "source": "sweep",
   "added": "2026-11-06",
   "added_at": "2026-11-06T18:04Z",
-  "checked": "2026-11-13",
+  "checked": "2026-11-14",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -32922,7 +32928,7 @@
    "q5": 49,
    "wentworth": 55
   },
-  "checked": "2026-11-13"
+  "checked": "2026-11-14"
  },
  {
   "id": "onthemarket-20742584",
@@ -33135,7 +33141,7 @@
   "source": "sweep",
   "added": "2026-11-12",
   "added_at": "2026-11-12T18:08Z",
-  "checked": "2026-11-13",
+  "checked": "2026-11-14",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -33384,13 +33390,14 @@
   "area": "SW18",
   "rent": 3400,
   "beds": 4,
-  "baths": null,
-  "available": "",
-  "sharers": "unknown",
+  "baths": 2,
+  "available": "2026-11-20",
+  "sharers": "ok",
   "status": "new",
   "url": "https://www.onthemarket.com/details/20757319/",
   "links": [
-   "https://www.onthemarket.com/details/20757319/"
+   "https://www.onthemarket.com/details/20757319/",
+   "https://www.zoopla.co.uk/to-rent/details/74769883/"
   ],
   "source": "alert",
   "added": "2026-11-14",
@@ -33403,6 +33410,11 @@
     "2026-11-14",
     3400,
     "onthemarket"
+   ],
+   [
+    "2026-11-14",
+    3400,
+    "zoopla"
    ]
   ],
   "photos_seen": [
@@ -33423,6 +33435,59 @@
    "tritax": 45,
    "q5": 34,
    "wentworth": 49
-  }
+  },
+  "checked": "2026-11-14"
+ },
+ {
+  "id": "onthemarket-17032431",
+  "title": "Franklin Square,  London, W14, W14 9UU",
+  "area": "West Kensington",
+  "rent": 4150,
+  "beds": 4,
+  "baths": 2,
+  "available": "2027-01-19",
+  "sharers": "ok",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/88124880",
+  "links": [
+   "https://www.onthemarket.com/details/17032431/",
+   "https://www.rightmove.co.uk/properties/88124880",
+   "https://www.zoopla.co.uk/to-rent/details/70109061/"
+  ],
+  "source": "sweep",
+  "added": "2026-11-14",
+  "added_at": "2026-11-14T18:07Z",
+  "checked": "2026-11-14",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-11-14",
+    4150,
+    "rightmove"
+   ],
+   [
+    "2026-11-14",
+    4150,
+    "onthemarket"
+   ]
+  ],
+  "loc": [
+   51.487759,
+   -0.202427
+  ],
+  "station": {
+   "name": "West Kensington",
+   "kind": "Tube",
+   "walk": 7
+  },
+  "commute": {
+   "lcp": 42,
+   "tritax": 39,
+   "q5": 37,
+   "wentworth": 38
+  },
+  "photo": "https://media.onthemarket.com/properties/17032431/1658640066/image-0-1024x1024.jpg"
  }
 ]
