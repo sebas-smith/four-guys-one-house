@@ -28614,7 +28614,8 @@
    "https://www.rightmove.co.uk/properties/95457312",
    "https://www.zoopla.co.uk/to-rent/details/74766424/",
    "https://www.chestertons.co.uk/properties/22311568/lettings/PUL200072",
-   "https://www.rightmove.co.uk/properties/95459865"
+   "https://www.rightmove.co.uk/properties/95459865",
+   "https://www.onthemarket.com/details/20757113/"
   ],
   "source": "alert",
   "added": "2026-10-30",
@@ -28625,7 +28626,9 @@
    "Same house as rightmove-95457312 by its photos; merged (13 Nov).",
    "Price cut on Zoopla: £4,990 to £4,850 (2026-11-13).",
    "From an email on 2026-11-13: fourguys, we've found you 5 properties in SW London house v4",
-   "Same house as rightmove-95459865 by its photos; merged (13 Nov)."
+   "Same house as rightmove-95459865 by its photos; merged (13 Nov).",
+   "From an email on 2026-11-14: New properties in London (drawn area)",
+   "Same house as onthemarket-20757113 by its photos; merged (14 Nov)."
   ],
   "prices": [
    [
@@ -28667,6 +28670,11 @@
     "2026-11-13",
     4850,
     "zoopla"
+   ],
+   [
+    "2026-11-14",
+    4850,
+    "onthemarket"
    ]
   ],
   "station": {
