@@ -26926,7 +26926,9 @@
    "https://www.zoopla.co.uk/to-rent/details/74742178/",
    "https://www.onthemarket.com/details/20587263/",
    "https://www.zoopla.co.uk/to-rent/details/74765516/",
-   "https://www.onthemarket.com/details/20754588/"
+   "https://www.onthemarket.com/details/20754588/",
+   "https://www.zoopla.co.uk/to-rent/details/74770199/",
+   "https://www.onthemarket.com/details/20757638/"
   ],
   "source": "agent",
   "added": "2026-10-26",
@@ -27091,7 +27093,8 @@
    "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/5674109ec/94504704/5674109ec392d19d770364420dada2bd_max_296x197.jpeg",
    "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/23437394e/94027983/23437394e4ad1ed983475c0c356c2c53_max_296x197.jpeg",
    "http://media.onthemarket.com/properties/20754588/1658471260/image-0-480x320.jpg",
-   "http://media.onthemarket.com/properties/20495575/1658264364/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/20495575/1658264364/image-0-480x320.jpg",
+   "http://media.onthemarket.com/properties/20757638/1658622253/image-0-480x320.jpg"
   ]
  },
  {
@@ -33374,5 +33377,52 @@
    "wentworth": 51
   },
   "photo": "https://media.onthemarket.com/properties/20701356/1656866707/image-0-1024x1024.jpg"
+ },
+ {
+  "id": "onthemarket-20757319",
+  "title": "Heritage Place, London, SW18",
+  "area": "SW18",
+  "rent": 3400,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20757319/",
+  "links": [
+   "https://www.onthemarket.com/details/20757319/"
+  ],
+  "source": "alert",
+  "added": "2026-11-14",
+  "added_at": "2026-11-14T06:36Z",
+  "notes": [
+   "From an email on 2026-11-14: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-14",
+    3400,
+    "onthemarket"
+   ]
+  ],
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20757319/1658609799/image-0-480x320.jpg"
+  ],
+  "photo": "http://media.onthemarket.com/properties/20757319/1658609799/image-0-480x320.jpg",
+  "loc": [
+   51.442743,
+   -0.187876
+  ],
+  "station": {
+   "name": "Earlsfield",
+   "kind": "Rail",
+   "walk": 1
+  },
+  "commute": {
+   "lcp": 46,
+   "tritax": 45,
+   "q5": 34,
+   "wentworth": 49
+  }
  }
 ]
