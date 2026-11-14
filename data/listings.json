@@ -5287,7 +5287,7 @@
   "id": "openrent-2923219",
   "title": "St. Ann's Park Road",
   "area": "Wandsworth",
-  "rent": 4750,
+  "rent": 4500,
   "beds": 4,
   "baths": 2,
   "available": "22 October, 2026",
@@ -5330,7 +5330,8 @@
    "Price cut on Rightmove: £4,700 to £4,500 (2026-11-06).",
    "Price rise: £4,500 to £4,750 on the live adverts (7 Nov).",
    "Price cut on Rightmove: £4,750 to £4,500 (2026-11-13).",
-   "Price rise: £4,500 to £4,750 on the live adverts (14 Nov)."
+   "Price rise: £4,500 to £4,750 on the live adverts (14 Nov).",
+   "Price cut on Rightmove: £4,750 to £4,500 (2026-11-14)."
   ],
   "checked": "2026-11-14",
   "station": {
@@ -5438,6 +5439,11 @@
     "2026-11-14",
     4750,
     "rightmove"
+   ],
+   [
+    "2026-11-14",
+    4500,
+    "rightmove"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/c1884ddc6/94093686/c1884ddc65530d8c9d8eb7ef7dcb0e44_max_476x317.jpeg",
@@ -5456,7 +5462,8 @@
    "https://www.rightmove.co.uk/properties/93542283"
   ],
   "photos_seen": [
-   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/c1884ddc6/94093686/c1884ddc65530d8c9d8eb7ef7dcb0e44_max_296x197.jpeg"
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/c1884ddc6/94093686/c1884ddc65530d8c9d8eb7ef7dcb0e44_max_296x197.jpeg",
+   "https://media.rightmove.co.uk/property-photo/c1884ddc6/94093686/c1884ddc65530d8c9d8eb7ef7dcb0e44.jpeg"
   ]
  },
  {
@@ -29492,7 +29499,10 @@
    "tritax": 40,
    "q5": 49,
    "wentworth": 41
-  }
+  },
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20526997/1651493170/image-0-480x320.jpg"
+  ]
  },
  {
   "id": "rightmove-94585347",
@@ -33397,7 +33407,8 @@
   "url": "https://www.onthemarket.com/details/20757319/",
   "links": [
    "https://www.onthemarket.com/details/20757319/",
-   "https://www.zoopla.co.uk/to-rent/details/74769883/"
+   "https://www.zoopla.co.uk/to-rent/details/74769883/",
+   "https://www.openrent.co.uk/3111202"
   ],
   "source": "alert",
   "added": "2026-11-14",
@@ -33415,10 +33426,16 @@
     "2026-11-14",
     3400,
     "zoopla"
+   ],
+   [
+    "2026-11-14",
+    3400,
+    "openrent"
    ]
   ],
   "photos_seen": [
-   "http://media.onthemarket.com/properties/20757319/1658609799/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/20757319/1658609799/image-0-480x320.jpg",
+   "https://imagescdn.openrent.co.uk/listings/3111202/o_1k7au5mc31gha5urusa16no8t81.JPG"
   ],
   "photo": "http://media.onthemarket.com/properties/20757319/1658609799/image-0-480x320.jpg",
   "loc": [
@@ -33488,6 +33505,9 @@
    "q5": 37,
    "wentworth": 38
   },
-  "photo": "https://media.onthemarket.com/properties/17032431/1658640066/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/17032431/1658640066/image-0-1024x1024.jpg",
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/17032431/1658640066/image-0-480x320.jpg"
+  ]
  }
 ]
