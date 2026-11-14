@@ -5290,7 +5290,7 @@
   "id": "openrent-2923219",
   "title": "St. Ann's Park Road",
   "area": "Wandsworth",
-  "rent": 4750,
+  "rent": 4500,
   "beds": 4,
   "baths": 2,
   "available": "22 October, 2026",
@@ -5331,7 +5331,8 @@
    "Price cut: £4,750 to £4,690 on the live adverts (4 Nov).",
    "Price rise: £4,690 to £4,700 on the live adverts (5 Nov).",
    "Price cut on Rightmove: £4,700 to £4,500 (2026-11-06).",
-   "Price rise: £4,500 to £4,750 on the live adverts (7 Nov)."
+   "Price rise: £4,500 to £4,750 on the live adverts (7 Nov).",
+   "Price cut on Rightmove: £4,750 to £4,500 (2026-11-13)."
   ],
   "checked": "2026-11-13",
   "station": {
@@ -5429,6 +5430,11 @@
     "2026-11-07",
     4750,
     "onthemarket"
+   ],
+   [
+    "2026-11-13",
+    4500,
+    "rightmove"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/c1884ddc6/94093686/c1884ddc65530d8c9d8eb7ef7dcb0e44_max_476x317.jpeg",
@@ -5445,6 +5451,9 @@
   "down": [
    "https://www.rightmove.co.uk/properties/89374836",
    "https://www.rightmove.co.uk/properties/93542283"
+  ],
+  "photos_seen": [
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/c1884ddc6/94093686/c1884ddc65530d8c9d8eb7ef7dcb0e44_max_296x197.jpeg"
   ]
  },
  {
@@ -7510,14 +7519,17 @@
    "https://www.zoopla.co.uk/to-rent/details/67871185/",
    "https://www.onthemarket.com/details/15240088/",
    "https://www.zoopla.co.uk/to-rent/details/55668701/",
-   "https://www.onthemarket.com/details/20146250/"
+   "https://www.onthemarket.com/details/20146250/",
+   "https://www.rightmove.co.uk/properties/95466834"
   ],
   "source": "import",
   "added": "2026-09-25",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-04.",
    "Found by ChatGPT sweep (live).",
-   "Same house as zoopla-55668701 by its photos; merged (13 Nov)."
+   "Same house as zoopla-55668701 by its photos; merged (13 Nov).",
+   "From an email on 2026-11-13: fourguys, we've found you 2 properties in SW London house v4",
+   "Same house as rightmove-95466834 by its photos; merged (14 Nov)."
   ],
   "checked": "2026-11-13",
   "station": {
@@ -7545,6 +7557,11 @@
     "2026-11-13",
     3900,
     "onthemarket"
+   ],
+   [
+    "2026-11-13",
+    3900,
+    "rightmove"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/b025a63d7/150435635/b025a63d74b58e23403f1013dc0e4b32_max_476x317.jpeg",
@@ -27017,7 +27034,8 @@
    "https://lid.zoocdn.com/645/430/c5a7fe3d38e6a184deac734e557a43bc83c9cff0.jpg",
    "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/5674109ec/94504704/5674109ec392d19d770364420dada2bd_max_296x197.jpeg",
    "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/23437394e/94027983/23437394e4ad1ed983475c0c356c2c53_max_296x197.jpeg",
-   "http://media.onthemarket.com/properties/20754588/1658471260/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/20754588/1658471260/image-0-480x320.jpg",
+   "http://media.onthemarket.com/properties/20495575/1658264364/image-0-480x320.jpg"
   ]
  },
  {
