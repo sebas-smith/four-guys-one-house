@@ -33,6 +33,16 @@
   ]
  },
  {
+  "id": "zoopla-74509791",
+  "title": "Ibsley Gardens, Roehampton, London SW15",
+  "rent": 3600,
+  "why": "Taken down on OnTheMarket; Zoopla advert not checked yet",
+  "since": "2026-11-15",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74509791/"
+  ]
+ },
+ {
   "id": "openrent-3039135",
   "title": "gaskarth road sw12",
   "rent": 4999,
@@ -41,6 +51,16 @@
   "links": [
    "https://www.openrent.co.uk/property-to-rent/london/4-bed-terraced-house-gaskarth-road-sw12/3039135",
    "https://www.zoopla.co.uk/to-rent/details/74524542/"
+  ]
+ },
+ {
+  "id": "zoopla-74575023",
+  "title": "Alderbrook Road, London SW12",
+  "rent": 3950,
+  "why": "Taken down on Rightmove; Zoopla advert not checked yet",
+  "since": "2026-11-15",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74575023/"
   ]
  }
 ]
