@@ -7601,6 +7601,9 @@
   },
   "not_same": [
    "onthemarket-20683714"
+  ],
+  "photos_seen": [
+   "https://lid.zoocdn.com/645/430/85b4b9fb0a390e0f2dd78bcf170702ba1354cf3f.jpg"
   ]
  },
  {
@@ -31510,7 +31513,10 @@
    "wentworth": 51
   },
   "photo": "https://media.onthemarket.com/properties/15859378/1657025000/image-0-1024x1024.jpg",
-  "checked": "2026-11-15"
+  "checked": "2026-11-15",
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20759966/1658773916/image-0-480x320.jpg"
+  ]
  },
  {
   "id": "foxtons-chpk0448407",
@@ -33566,7 +33572,8 @@
   "photo": "https://media.onthemarket.com/properties/17032431/1658640066/image-0-1024x1024.jpg",
   "photos_seen": [
    "http://media.onthemarket.com/properties/17032431/1658640066/image-0-480x320.jpg",
-   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/db32c4647/88124880/db32c4647c248519c6e287c57605390b_max_296x197.jpeg"
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/db32c4647/88124880/db32c4647c248519c6e287c57605390b_max_296x197.jpeg",
+   "https://lid.zoocdn.com/645/430/f6e93848653dce1bf40224813e8c06a423d42bf5.jpg"
   ]
  },
  {
