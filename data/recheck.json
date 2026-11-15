@@ -12,20 +12,6 @@
   ]
  },
  {
-  "id": "openrent-2991842",
-  "title": "Lampeter Square",
-  "rent": 3500,
-  "why": "Taken down on OnTheMarket; OpenRent advert not checked yet",
-  "since": "2026-11-14",
-  "links": [
-   "https://www.openrent.co.uk/property-to-rent/london/4-bed-flat-lampeter-square-w6/2991842",
-   "https://www.zoopla.co.uk/to-rent/details/74496826/",
-   "https://www.onthemarket.com/details/20759595/",
-   "https://www.openrent.co.uk/3110909",
-   "https://www.rightmove.co.uk/properties/95488416"
-  ]
- },
- {
   "id": "onthemarket-20344440",
   "title": "Harbut Road, London SW11",
   "rent": 5000,
@@ -33,16 +19,6 @@
   "since": "2026-11-14",
   "links": [
    "https://www.zoopla.co.uk/to-rent/details/74249254/"
-  ]
- },
- {
-  "id": "zoopla-74509791",
-  "title": "Ibsley Gardens, Roehampton, London SW15",
-  "rent": 3600,
-  "why": "Taken down on OnTheMarket; Zoopla advert not checked yet",
-  "since": "2026-11-15",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74509791/"
   ]
  },
  {
@@ -54,16 +30,6 @@
   "links": [
    "https://www.openrent.co.uk/property-to-rent/london/4-bed-terraced-house-gaskarth-road-sw12/3039135",
    "https://www.zoopla.co.uk/to-rent/details/74524542/"
-  ]
- },
- {
-  "id": "zoopla-74575023",
-  "title": "Alderbrook Road, London SW12",
-  "rent": 3950,
-  "why": "Taken down on Rightmove; Zoopla advert not checked yet",
-  "since": "2026-11-15",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74575023/"
   ]
  }
 ]
