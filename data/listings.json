@@ -16606,7 +16606,10 @@
   "links": [
    "https://www.openrent.co.uk/property-to-rent/london/4-bed-flat-lampeter-square-w6/2991842",
    "https://www.onthemarket.com/details/20541293/",
-   "https://www.zoopla.co.uk/to-rent/details/74496826/"
+   "https://www.zoopla.co.uk/to-rent/details/74496826/",
+   "https://www.onthemarket.com/details/20759595/",
+   "https://www.openrent.co.uk/3110909",
+   "https://www.rightmove.co.uk/properties/95488416"
   ],
   "source": "import",
   "added": "2026-09-25",
@@ -16636,6 +16639,16 @@
     "2026-11-03",
     3500,
     "onthemarket"
+   ],
+   [
+    "2026-11-15",
+    3500,
+    "openrent"
+   ],
+   [
+    "2026-11-15",
+    3500,
+    "rightmove"
    ]
   ],
   "checked": "2026-11-15",
@@ -16658,7 +16671,12 @@
    "why": "Taken down on OnTheMarket; OpenRent advert not checked yet",
    "checked": "2026-11-15",
    "unconfirmed": true
-  }
+  },
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20759595/1658758424/image-0-480x320.jpg",
+   "https://imagescdn.openrent.co.uk/listings/3110909/o_1k7ctbnimmm71kaag6g1rka1teoa.JPG",
+   "https://media.rightmove.co.uk/property-photo/9aefa2a0a/95488416/9aefa2a0a7b8cfc2b2e820b907972e72.jpeg"
+  ]
  },
  {
   "id": "openrent-3005963",
@@ -33556,5 +33574,66 @@
    "http://media.onthemarket.com/properties/17032431/1658640066/image-0-480x320.jpg",
    "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/db32c4647/88124880/db32c4647c248519c6e287c57605390b_max_296x197.jpeg"
   ]
+ },
+ {
+  "id": "rightmove-95488119",
+  "title": "Bronsart Road, London, SW6",
+  "area": "SW6",
+  "rent": 4350,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/95488119",
+  "links": [
+   "https://www.rightmove.co.uk/properties/95488119",
+   "https://www.onthemarket.com/details/20759617/",
+   "https://www.openrent.co.uk/402506"
+  ],
+  "source": "alert",
+  "added": "2026-11-15",
+  "added_at": "2026-11-15T11:20Z",
+  "notes": [
+   "From an email on 2026-11-15: fourguys, we've found you 1 property in SW London house v4"
+  ],
+  "prices": [
+   [
+    "2026-11-15",
+    4350,
+    "rightmove"
+   ],
+   [
+    "2026-11-15",
+    4350,
+    "onthemarket"
+   ],
+   [
+    "2026-11-15",
+    4350,
+    "openrent"
+   ]
+  ],
+  "photos_seen": [
+   "https://media.rightmove.co.uk/property-photo/f54e87fd1/95488119/f54e87fd1e66ee74658de56891eeffb2.jpeg",
+   "http://media.onthemarket.com/properties/20759617/1658758519/image-0-480x320.jpg",
+   "https://imagescdn.openrent.co.uk/listings/402506/o_1k7dndffkvrofiu1l8lsmq0k7.JPG"
+  ],
+  "photo": "https://media.rightmove.co.uk/property-photo/f54e87fd1/95488119/f54e87fd1e66ee74658de56891eeffb2.jpeg",
+  "loc": [
+   51.480694,
+   -0.213625
+  ],
+  "station": {
+   "name": "Parsons Green",
+   "kind": "Tube",
+   "walk": 17
+  },
+  "commute": {
+   "lcp": 47,
+   "tritax": 50,
+   "q5": 48,
+   "wentworth": 39
+  }
  }
 ]
