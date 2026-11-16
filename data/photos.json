@@ -389,6 +389,37 @@
 ],
 "read": "2026-11-10"
 },
+"https://www.onthemarket.com/details/20376299/": {
+"hashes": [
+"6b6b0f2e2e4f570f",
+"631747534f0e0f03",
+"0402038ccc8c8f33",
+"d3cf624ae2a29d9d",
+"3f3f1f1e16d91b19",
+"0304ccacacbc8c03",
+"18996f79670f066e",
+"11330a0810d00a23",
+"c3d7979b9aa2a74f",
+"3f9d5d79ac9b9938",
+"03c6f3635676c6c7",
+"8f67331717132327"
+],
+"read": "2026-11-16"
+},
+"https://www.onthemarket.com/details/20397950/": {
+"hashes": [
+"cfa7369e9c2e260e",
+"363634367e0e1f1d",
+"07330e94c1091111",
+"370f7fcfcfc3d99d",
+"06063636b6960e0e",
+"071513171b5b2f33",
+"1c85018dda5f1f1f",
+"899b8d9792d60869",
+"ad26c6f561192d4b"
+],
+"read": "2026-11-16"
+},
 "https://www.onthemarket.com/details/20406560/": {
 "hashes": [
 "f6969796bb2b4f03"
@@ -1377,6 +1408,23 @@
 ],
 "read": "2026-11-10"
 },
+"https://www.rightmove.co.uk/properties/93371175": {
+"hashes": [
+"6b6b0f2e2e4e570f",
+"731747534f0e0f03",
+"0402038ccc8c8f33",
+"d3cfe24ae2a29d9d",
+"3f3f1f1e16d91b19",
+"0304ccacacbc8c03",
+"18996f79670f066e",
+"1133020810d80a23",
+"c3d7979b9aa2a74f",
+"3f9d5d792c9b9938",
+"03c673635676c6c7",
+"8f67331717132327"
+],
+"read": "2026-11-16"
+},
 "https://www.rightmove.co.uk/properties/93456366": {
 "hashes": [
 "a9ac9a184e78698c",
@@ -1389,6 +1437,18 @@
 "1f4f5e7c2a4a623b"
 ],
 "read": "2026-11-12"
+},
+"https://www.rightmove.co.uk/properties/93489711": {
+"hashes": [
+"cfa7369e9c2e260e",
+"363634377e0e1f1f",
+"07330e94c1091111",
+"370f7fcfcfc3d99d",
+"0606363696960e0e",
+"071513171b5b2f33",
+"1c85018dda1f1f1f"
+],
+"read": "2026-11-16"
 },
 "https://www.rightmove.co.uk/properties/93660735": {
 "hashes": [

@@ -6150,6 +6150,10 @@
   },
   "down": [
    "https://www.rightmove.co.uk/properties/93449391"
+  ],
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20251327/1656818182/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/a1c2c9ba1/95290314/a1c2c9ba16083d55c010704f4bc075a6_max_296x197.jpeg"
   ]
  },
  {
@@ -27027,7 +27031,9 @@
    "https://www.zoopla.co.uk/to-rent/details/74765516/",
    "https://www.onthemarket.com/details/20754588/",
    "https://www.zoopla.co.uk/to-rent/details/74770199/",
-   "https://www.onthemarket.com/details/20757638/"
+   "https://www.onthemarket.com/details/20757638/",
+   "https://www.zoopla.co.uk/to-rent/details/74778445/",
+   "https://www.onthemarket.com/details/20764664/"
   ],
   "source": "agent",
   "added": "2026-10-26",
@@ -27193,7 +27199,8 @@
    "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/23437394e/94027983/23437394e4ad1ed983475c0c356c2c53_max_296x197.jpeg",
    "http://media.onthemarket.com/properties/20754588/1658471260/image-0-480x320.jpg",
    "http://media.onthemarket.com/properties/20495575/1658264364/image-0-480x320.jpg",
-   "http://media.onthemarket.com/properties/20757638/1658622253/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/20757638/1658622253/image-0-480x320.jpg",
+   "http://media.onthemarket.com/properties/20764664/1658914542/image-0-480x320.jpg"
   ]
  },
  {
@@ -27787,7 +27794,8 @@
   "links": [
    "https://www.onthemarket.com/details/20397950/",
    "https://www.rightmove.co.uk/properties/93371175",
-   "https://www.rightmove.co.uk/properties/93489711"
+   "https://www.rightmove.co.uk/properties/93489711",
+   "https://www.onthemarket.com/details/20376299/"
   ],
   "source": "sweep",
   "added": "2026-10-27",
@@ -27796,7 +27804,9 @@
    "Found by ChatGPT sweep (live).",
    "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-09-23.",
    "Merged rightmove-93489711 into this home: same street, beds, baths and rent (31 Oct).",
-   "Price cut: £4,500 to £4,250 on the live adverts (16 Nov)."
+   "Price cut: £4,500 to £4,250 on the live adverts (16 Nov).",
+   "From an email on 2026-11-16: Reduced price properties in London (drawn area)",
+   "Same house as onthemarket-20376299 by its photos; merged (16 Nov)."
   ],
   "prices": [
    [
@@ -27813,6 +27823,11 @@
     "2026-11-16",
     4250,
     "rightmove"
+   ],
+   [
+    "2026-11-16",
+    4250,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -27831,7 +27846,10 @@
    "tritax": 58,
    "q5": 55,
    "wentworth": 31
-  }
+  },
+  "photos_seen": [
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/6f9b16755/93371175/6f9b1675553f7da4bcb175de341373ca_max_296x197.jpeg"
+  ]
  },
  {
   "id": "foxtons-ptny6431059",
@@ -30995,7 +31013,7 @@
   "id": "foxtons-chpk2613628",
   "title": "Merton Road, London, SW18, SW18 5AD",
   "area": "Wandsworth",
-  "rent": 4000,
+  "rent": 3650,
   "beds": 4,
   "baths": 2,
   "available": "",
@@ -31013,7 +31031,8 @@
   "added_at": "2026-11-03T18:08Z",
   "checked": "2026-11-16",
   "notes": [
-   "Found by ChatGPT sweep (unverified)."
+   "Found by ChatGPT sweep (unverified).",
+   "Price cut on Onthemarket: £4,000 to £3,650 (2026-11-16)."
   ],
   "prices": [
    [
@@ -31035,6 +31054,11 @@
     "2026-11-05",
     4000,
     "zoopla"
+   ],
+   [
+    "2026-11-16",
+    3650,
+    "onthemarket"
    ]
   ],
   "loc": [
@@ -31055,7 +31079,10 @@
   "not_same": [
    "zoopla-71562052"
   ],
-  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1793811413/82/63/162/chpk2613628/edited_chpk2613628-3.jpg"
+  "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1793811413/82/63/162/chpk2613628/edited_chpk2613628-3.jpg",
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20693269/1656992291/image-0-480x320.jpg"
+  ]
  },
  {
   "id": "zoopla-74669597",
@@ -33856,7 +33883,10 @@
    "q5": 42,
    "wentworth": 48
   },
-  "photo": "https://media.onthemarket.com/properties/20767295/1658955210/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20767295/1658955210/image-0-1024x1024.jpg",
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20767295/1658955210/image-0-480x320.jpg"
+  ]
  },
  {
   "id": "onthemarket-20766281",
@@ -33908,6 +33938,233 @@
    "q5": 49,
    "wentworth": 44
   },
-  "photo": "https://media.onthemarket.com/properties/20766281/1658937698/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20766281/1658937698/image-0-1024x1024.jpg",
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20766281/1658937698/image-0-480x320.jpg"
+  ]
+ },
+ {
+  "id": "onthemarket-20761370",
+  "title": "Mantilla Road, London SW17",
+  "area": "SW17",
+  "rent": 4200,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20761370/",
+  "links": [
+   "https://www.onthemarket.com/details/20761370/",
+   "https://www.rightmove.co.uk/properties/95499312",
+   "https://www.zoopla.co.uk/to-rent/details/74775155/",
+   "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2535902/mantilla-road/"
+  ],
+  "source": "alert",
+  "added": "2026-11-16",
+  "added_at": "2026-11-16T10:49Z",
+  "notes": [
+   "From an email on 2026-11-16: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-16",
+    4200,
+    "onthemarket"
+   ],
+   [
+    "2026-11-16",
+    4200,
+    "rightmove"
+   ],
+   [
+    "2026-11-16",
+    4200,
+    "zoopla"
+   ],
+   [
+    "2026-11-16",
+    4200,
+    "marshandparsons"
+   ]
+  ],
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20761370/1658869715/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/b9f3d9a25/95499312/b9f3d9a259af617f08cf65edabcf7d9c_max_296x197.jpeg",
+   "https://lid.zoocdn.com/645/430/68126880a39830f3b19475299e3abc155ae314c5.jpg"
+  ],
+  "photo": "http://media.onthemarket.com/properties/20761370/1658869715/image-0-480x320.jpg",
+  "loc": [
+   51.428059,
+   -0.153269
+  ],
+  "station": {
+   "name": "Tooting Bec",
+   "kind": "Tube",
+   "walk": 15
+  },
+  "commute": {
+   "lcp": 58,
+   "tritax": 55,
+   "q5": 52,
+   "wentworth": 50
+  }
+ },
+ {
+  "id": "rightmove-95497104",
+  "title": "Bullen Street, Battersea",
+  "area": "Battersea",
+  "rent": 3600,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/95497104",
+  "links": [
+   "https://www.rightmove.co.uk/properties/95497104",
+   "https://www.zoopla.co.uk/to-rent/details/74774695/"
+  ],
+  "source": "alert",
+  "added": "2026-11-16",
+  "added_at": "2026-11-16T13:47Z",
+  "notes": [
+   "From an email on 2026-11-16: fourguys, we've found you 5 properties in SW London house v4"
+  ],
+  "prices": [
+   [
+    "2026-11-16",
+    3600,
+    "rightmove"
+   ],
+   [
+    "2026-11-16",
+    3600,
+    "zoopla"
+   ]
+  ],
+  "photos_seen": [
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/77097ab61/95497104/77097ab61512eeba6e1d06a3f6ef5969_max_296x197.jpeg",
+   "https://lid.zoocdn.com/645/430/0044028ba52dc64b1e8c53de3dfe8563ed995f10.jpg"
+  ],
+  "photo": "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/77097ab61/95497104/77097ab61512eeba6e1d06a3f6ef5969_max_296x197.jpeg",
+  "loc": [
+   51.47267,
+   -0.17079
+  ],
+  "station": {
+   "name": "Imperial Wharf",
+   "kind": "Rail",
+   "walk": 14
+  },
+  "commute": {
+   "lcp": 53,
+   "tritax": 51,
+   "q5": 43,
+   "wentworth": 48
+  }
+ },
+ {
+  "id": "zoopla-74773767",
+  "title": "Putney, London SW15",
+  "area": "Putney",
+  "rent": 3600,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.zoopla.co.uk/to-rent/details/74773767/",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74773767/"
+  ],
+  "source": "alert",
+  "added": "2026-11-16",
+  "added_at": "2026-11-16T14:41Z",
+  "notes": [
+   "From an email on 2026-11-16: New listings: 6 new properties to rent in Putney"
+  ],
+  "prices": [
+   [
+    "2026-11-16",
+    3600,
+    "zoopla"
+   ]
+  ],
+  "photos_seen": [
+   "https://lid.zoocdn.com/645/430/28ffef9d09f34c47a9ef29126913e51082229fdf.jpg"
+  ],
+  "photo": "https://lid.zoocdn.com/645/430/28ffef9d09f34c47a9ef29126913e51082229fdf.jpg"
+ },
+ {
+  "id": "openrent-3112998",
+  "title": "Putney, SW15",
+  "area": "Putney",
+  "rent": 3600,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.openrent.co.uk/3112998",
+  "links": [
+   "https://www.openrent.co.uk/3112998"
+  ],
+  "source": "alert",
+  "added": "2026-11-16",
+  "added_at": "2026-11-16T17:47Z",
+  "notes": [
+   "From an email on 2026-11-16: New properties found for your search: Wandsworth, London"
+  ],
+  "prices": [
+   [
+    "2026-11-16",
+    3600,
+    "openrent"
+   ]
+  ]
+ },
+ {
+  "id": "openrent-3113509",
+  "title": "Danebury Avenue, SW15",
+  "area": "SW15",
+  "rent": 3600,
+  "beds": 6,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.openrent.co.uk/3113509",
+  "links": [
+   "https://www.openrent.co.uk/3113509"
+  ],
+  "source": "alert",
+  "added": "2026-11-16",
+  "added_at": "2026-11-16T17:47Z",
+  "notes": [
+   "From an email on 2026-11-16: New properties found for your search: Wandsworth, London"
+  ],
+  "prices": [
+   [
+    "2026-11-16",
+    3600,
+    "openrent"
+   ]
+  ],
+  "loc": [
+   51.4496369,
+   -0.24126
+  ],
+  "station": {
+   "name": "Barnes",
+   "kind": "Rail",
+   "walk": 31
+  },
+  "commute": {
+   "lcp": 66,
+   "tritax": 63,
+   "q5": 54,
+   "wentworth": 41
+  }
  }
 ]
