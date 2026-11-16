@@ -7603,7 +7603,8 @@
    "onthemarket-20683714"
   ],
   "photos_seen": [
-   "https://lid.zoocdn.com/645/430/85b4b9fb0a390e0f2dd78bcf170702ba1354cf3f.jpg"
+   "https://lid.zoocdn.com/645/430/85b4b9fb0a390e0f2dd78bcf170702ba1354cf3f.jpg",
+   "http://media.onthemarket.com/properties/20146250/1658623867/image-0-480x320.jpg"
   ]
  },
  {
@@ -31515,7 +31516,8 @@
   "photo": "https://media.onthemarket.com/properties/15859378/1657025000/image-0-1024x1024.jpg",
   "checked": "2026-11-15",
   "photos_seen": [
-   "http://media.onthemarket.com/properties/20759966/1658773916/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/20759966/1658773916/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/property-photo/1068ce9fd/95490078/1068ce9fd384b9891b8747f7958a7d9f.jpeg"
   ]
  },
  {
@@ -33639,5 +33641,37 @@
   },
   "ruled_out": "no sharers",
   "checked": "2026-11-15"
+ },
+ {
+  "id": "onthemarket-20760282",
+  "title": "Putney, London, SW15",
+  "area": "Putney",
+  "rent": 3600,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20760282/",
+  "links": [
+   "https://www.onthemarket.com/details/20760282/"
+  ],
+  "source": "alert",
+  "added": "2026-11-16",
+  "added_at": "2026-11-16T01:14Z",
+  "notes": [
+   "From an email on 2026-11-16: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-16",
+    3600,
+    "onthemarket"
+   ]
+  ],
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20760282/1658818979/image-0-480x320.jpg"
+  ],
+  "photo": "http://media.onthemarket.com/properties/20760282/1658818979/image-0-480x320.jpg"
  }
 ]
