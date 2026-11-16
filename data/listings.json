@@ -6984,7 +6984,7 @@
    "Price changed from £4,800 to £4,300 (2026-10-26).",
    "Price changed from £4,300 to £3,800 (2026-10-30)."
   ],
-  "checked": "2026-11-15",
+  "checked": "2026-11-16",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -18113,7 +18113,7 @@
   "baths": 2,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.rightmove.co.uk/properties/93456366",
   "links": [
    "https://www.rightmove.co.uk/properties/93456366",
@@ -18124,7 +18124,9 @@
   "checked": "2026-11-16",
   "notes": [
    "Found by ChatGPT sweep (live).",
-   "Taken down on Rightmove; Zoopla advert not checked yet (16 Nov)."
+   "Taken down on Rightmove; Zoopla advert not checked yet (16 Nov).",
+   "ChatGPT sweep says removed (2026-11-16).",
+   "Advert taken down on Rightmove (16 Nov)."
   ],
   "station": {
    "name": "Clapham North",
@@ -18156,11 +18158,9 @@
   "down": [
    "https://www.rightmove.co.uk/properties/93456366"
   ],
-  "unconfirmed": "2026-11-16",
   "off_market": {
-   "why": "Taken down on Rightmove; Zoopla advert not checked yet",
-   "checked": "2026-11-16",
-   "unconfirmed": true
+   "why": "Advert taken down on Rightmove",
+   "checked": "2026-11-16"
   }
  },
  {
@@ -20769,7 +20769,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-15",
+  "checked": "2026-11-16",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Bathrooms corrected to 2 from the advert (31 Oct)."
@@ -21413,7 +21413,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-15",
+  "checked": "2026-11-16",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21698,7 +21698,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-15",
+  "checked": "2026-11-16",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -22382,7 +22382,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-15",
+  "checked": "2026-11-16",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -22476,7 +22476,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-15",
+  "checked": "2026-11-16",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -22662,7 +22662,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-15",
+  "checked": "2026-11-16",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Bathrooms corrected to 1 from the advert (31 Oct)."
@@ -24958,7 +24958,8 @@
    "ChatGPT sweep says live: still available (2026-11-14).",
    "Taken down on Rightmove; Zoopla advert not checked yet (15 Nov).",
    "ChatGPT sweep says live: still available (2026-11-15).",
-   "Taken down on Rightmove; Zoopla advert not checked yet (16 Nov)."
+   "Taken down on Rightmove; Zoopla advert not checked yet (16 Nov).",
+   "ChatGPT sweep says live: still available (2026-11-16)."
   ],
   "prices": [
    [
@@ -24991,13 +24992,7 @@
   },
   "down": [
    "https://www.rightmove.co.uk/properties/94604028"
-  ],
-  "unconfirmed": "2026-11-16",
-  "off_market": {
-   "why": "Taken down on Rightmove; Zoopla advert not checked yet",
-   "checked": "2026-11-16",
-   "unconfirmed": true
-  }
+  ]
  },
  {
   "id": "rightmove-94611774",
@@ -26514,7 +26509,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-11-15",
+  "checked": "2026-11-16",
   "notes": [
    "Found by ChatGPT sweep (unverified)."
   ],
@@ -26805,7 +26800,7 @@
   ],
   "source": "search",
   "added": "2026-10-25",
-  "checked": "2026-11-15",
+  "checked": "2026-11-16",
   "notes": [
    "Missed by the sweep; found in a portal coverage check on 25 Oct (OpenRent private landlord)."
   ],
@@ -28953,8 +28948,8 @@
   "beds": 4,
   "baths": 2,
   "available": "",
-  "sharers": "unknown",
-  "status": "new",
+  "sharers": "ok",
+  "status": "gone",
   "url": "https://www.foxtons.co.uk/properties-to-rent/w12/chpk2297386",
   "links": [
    "https://www.foxtons.co.uk/properties-to-rent/w12/chpk2297386",
@@ -28968,7 +28963,9 @@
   "notes": [
    "Found by ChatGPT sweep (unverified).",
    "Let agreed on OnTheMarket, still live on Foxtons (13 Nov).",
-   "Let agreed on OnTheMarket; Zoopla advert not checked yet (16 Nov)."
+   "Let agreed on OnTheMarket; Zoopla advert not checked yet (16 Nov).",
+   "ChatGPT sweep says let agreed (2026-11-16).",
+   "Let agreed on OnTheMarket (16 Nov)."
   ],
   "prices": [
    [
@@ -29019,11 +29016,9 @@
    "https://www.rightmove.co.uk/properties/95352576"
   ],
   "off_market": {
-   "why": "Let agreed on OnTheMarket; Zoopla advert not checked yet",
-   "checked": "2026-11-16",
-   "unconfirmed": true
-  },
-  "unconfirmed": "2026-11-16"
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-11-16"
+  }
  },
  {
   "id": "ellisonsuk-34970827",
@@ -29661,7 +29656,10 @@
   "status": "new",
   "url": "https://www.rightmove.co.uk/properties/94585347",
   "links": [
-   "https://www.rightmove.co.uk/properties/94585347"
+   "https://www.rightmove.co.uk/properties/94585347",
+   "https://www.onthemarket.com/details/20601586/",
+   "https://www.zoopla.co.uk/to-rent/details/74571986/",
+   "https://www.thechantgroup.co.uk/property/tct261173l/w12/percy-road/flat/4-bedrooms"
   ],
   "source": "backfill",
   "added": "2026-10-31",
@@ -30060,7 +30058,10 @@
    "tritax": 46,
    "q5": 45,
    "wentworth": 49
-  }
+  },
+  "not_same": [
+   "onthemarket-20767295"
+  ]
  },
  {
   "id": "rightmove-92270673",
@@ -30402,7 +30403,7 @@
     "openrent"
    ]
   ],
-  "checked": "2026-11-15",
+  "checked": "2026-11-16",
   "loc": [
    51.44339,
    -0.1345781
@@ -30546,7 +30547,7 @@
   "source": "sweep",
   "added": "2026-11-02",
   "added_at": "2026-11-02T18:09Z",
-  "checked": "2026-11-15",
+  "checked": "2026-11-16",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -30667,7 +30668,7 @@
    "q5": 23,
    "wentworth": 49
   },
-  "checked": "2026-11-15"
+  "checked": "2026-11-16"
  },
  {
   "id": "onthemarket-20679740",
@@ -31694,7 +31695,7 @@
   "source": "sweep",
   "added": "2026-11-06",
   "added_at": "2026-11-06T18:04Z",
-  "checked": "2026-11-15",
+  "checked": "2026-11-16",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -32541,7 +32542,8 @@
   "checked": "2026-11-16",
   "notes": [
    "Found by ChatGPT sweep (live).",
-   "Taken down on Rightmove; Zoopla advert not checked yet (16 Nov)."
+   "Taken down on Rightmove; Zoopla advert not checked yet (16 Nov).",
+   "ChatGPT sweep says live: still available (2026-11-16)."
   ],
   "prices": [
    [
@@ -32571,13 +32573,7 @@
   ],
   "down": [
    "https://www.rightmove.co.uk/properties/95327973"
-  ],
-  "unconfirmed": "2026-11-16",
-  "off_market": {
-   "why": "Taken down on Rightmove; Zoopla advert not checked yet",
-   "checked": "2026-11-16",
-   "unconfirmed": true
-  }
+  ]
  },
  {
   "id": "zoopla-59529898",
@@ -32997,7 +32993,7 @@
   "baths": 2,
   "available": "2027-01-05",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.zoopla.co.uk/to-rent/details/74745839/",
   "links": [
    "https://www.zoopla.co.uk/to-rent/details/74745839/",
@@ -33010,7 +33006,9 @@
   "checked": "2026-11-16",
   "notes": [
    "Found by ChatGPT sweep (live).",
-   "Let agreed on OnTheMarket; Zoopla advert not checked yet (16 Nov)."
+   "Let agreed on OnTheMarket; Zoopla advert not checked yet (16 Nov).",
+   "ChatGPT sweep says let agreed (2026-11-16).",
+   "Let agreed on OnTheMarket (16 Nov)."
   ],
   "prices": [
    [
@@ -33054,11 +33052,9 @@
    "https://www.onthemarket.com/details/20739115/",
    "https://www.rightmove.co.uk/properties/95372829"
   ],
-  "unconfirmed": "2026-11-16",
   "off_market": {
-   "why": "Let agreed on OnTheMarket; Zoopla advert not checked yet",
-   "checked": "2026-11-16",
-   "unconfirmed": true
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-11-16"
   }
  },
  {
@@ -33107,7 +33103,7 @@
    "q5": 49,
    "wentworth": 55
   },
-  "checked": "2026-11-15"
+  "checked": "2026-11-16"
  },
  {
   "id": "onthemarket-20742584",
@@ -33329,7 +33325,7 @@
   "source": "sweep",
   "added": "2026-11-12",
   "added_at": "2026-11-12T18:08Z",
-  "checked": "2026-11-15",
+  "checked": "2026-11-16",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -33805,5 +33801,113 @@
    "wentworth": 43
   },
   "checked": "2026-11-16"
+ },
+ {
+  "id": "onthemarket-20767295",
+  "title": "Lodsworth House, Dagnall Street, Battersea, SW11 5DS",
+  "area": "Battersea",
+  "rent": 3500,
+  "beds": 4,
+  "baths": 1,
+  "available": "2026-12-09",
+  "sharers": "ok",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/95536524",
+  "links": [
+   "https://www.onthemarket.com/details/20767295/",
+   "https://www.rightmove.co.uk/properties/95536524",
+   "https://www.zoopla.co.uk/to-rent/details/71721035/",
+   "https://www.bairstoweves.co.uk/properties/22317040/lettings/000645581"
+  ],
+  "source": "sweep",
+  "added": "2026-11-16",
+  "added_at": "2026-11-16T18:10Z",
+  "checked": "2026-11-16",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-11-16",
+    3500,
+    "rightmove"
+   ],
+   [
+    "2026-11-16",
+    3500,
+    "onthemarket"
+   ]
+  ],
+  "loc": [
+   51.473155,
+   -0.156634
+  ],
+  "station": {
+   "name": "Queenstown Road",
+   "kind": "Rail",
+   "walk": 12
+  },
+  "not_same": [
+   "rightmove-92745345"
+  ],
+  "commute": {
+   "lcp": 46,
+   "tritax": 45,
+   "q5": 42,
+   "wentworth": 48
+  },
+  "photo": "https://media.onthemarket.com/properties/20767295/1658955210/image-0-1024x1024.jpg"
+ },
+ {
+  "id": "onthemarket-20766281",
+  "title": "Dover House Road London SW15, SW15 5AT",
+  "area": "Putney",
+  "rent": 4950,
+  "beds": 4,
+  "baths": 2,
+  "available": "2027-01-16",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/95532252",
+  "links": [
+   "https://www.onthemarket.com/details/20766281/",
+   "https://www.rightmove.co.uk/properties/95532252",
+   "https://www.zoopla.co.uk/to-rent/details/74780345/"
+  ],
+  "source": "sweep",
+  "added": "2026-11-16",
+  "added_at": "2026-11-16T18:10Z",
+  "checked": "2026-11-16",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-11-16",
+    4950,
+    "rightmove"
+   ],
+   [
+    "2026-11-16",
+    4950,
+    "onthemarket"
+   ]
+  ],
+  "loc": [
+   51.461614,
+   -0.238364
+  ],
+  "station": {
+   "name": "Barnes",
+   "kind": "Rail",
+   "walk": 10
+  },
+  "commute": {
+   "lcp": 62,
+   "tritax": 59,
+   "q5": 49,
+   "wentworth": 44
+  },
+  "photo": "https://media.onthemarket.com/properties/20766281/1658937698/image-0-1024x1024.jpg"
  }
 ]
