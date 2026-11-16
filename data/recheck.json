@@ -12,6 +12,16 @@
   ]
  },
  {
+  "id": "rightmove-93456366",
+  "title": "Aristotle Road, Clapham",
+  "rent": 4700,
+  "why": "Taken down on Rightmove; Zoopla advert not checked yet",
+  "since": "2026-11-16",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74309587/"
+  ]
+ },
+ {
   "id": "onthemarket-20344440",
   "title": "Harbut Road, London SW11",
   "rent": 5000,
@@ -30,6 +40,46 @@
   "links": [
    "https://www.openrent.co.uk/property-to-rent/london/4-bed-terraced-house-gaskarth-road-sw12/3039135",
    "https://www.zoopla.co.uk/to-rent/details/74524542/"
+  ]
+ },
+ {
+  "id": "zoopla-74575023",
+  "title": "Alderbrook Road, London SW12",
+  "rent": 3950,
+  "why": "Taken down on Rightmove; Zoopla advert not checked yet",
+  "since": "2026-11-16",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74575023/"
+  ]
+ },
+ {
+  "id": "foxtons-chpk2297386",
+  "title": "Uxbridge Road, W12 8NR",
+  "rent": 3900,
+  "why": "Let agreed on OnTheMarket; Zoopla advert not checked yet",
+  "since": "2026-11-16",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74741560/"
+  ]
+ },
+ {
+  "id": "rightmove-95327973",
+  "title": "Tooting Bec, London, SW17, SW17 7NE",
+  "rent": 4775,
+  "why": "Taken down on Rightmove; Zoopla advert not checked yet",
+  "since": "2026-11-16",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74735584/"
+  ]
+ },
+ {
+  "id": "zoopla-74745839",
+  "title": "Hamilton Mews, London SW18, SW18 5AY",
+  "rent": 4250,
+  "why": "Let agreed on OnTheMarket; Zoopla advert not checked yet",
+  "since": "2026-11-16",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74745839/"
   ]
  }
 ]
