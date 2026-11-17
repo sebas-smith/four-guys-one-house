@@ -24496,6 +24496,11 @@
   "not_same": [
    "openrent-3055584",
    "openrent-3070568"
+  ],
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/17937659/1655355127/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/d710b478f/94460625/d710b478fd4fe73a697d63eeb5bdb6f4_max_296x197.jpeg",
+   "https://lid.zoocdn.com/645/430/e055523a2ac76e205b462be7d69c0ff66c2f8552.jpg"
   ]
  },
  {
@@ -26670,7 +26675,7 @@
   "id": "openrent-3079838",
   "title": "college court w6",
   "area": "Hammersmith",
-  "rent": 4500,
+  "rent": 4250,
   "beds": 4,
   "baths": 2,
   "available": "2026-11-02",
@@ -26701,7 +26706,8 @@
    "From an email on 2026-11-10: New properties in London (drawn area)",
    "Same house as onthemarket-20725672 by its photos; merged (10 Nov).",
    "From an email on 2026-11-10: New listings: 3 new properties to rent in Putney",
-   "Same house as zoopla-74729160 by its photos; merged (10 Nov)."
+   "Same house as zoopla-74729160 by its photos; merged (10 Nov).",
+   "Price cut on Rightmove: £4,500 to £4,250 (2026-11-17)."
   ],
   "prices": [
    [
@@ -26743,6 +26749,11 @@
     "2026-11-10",
     4500,
     "zoopla"
+   ],
+   [
+    "2026-11-17",
+    4250,
+    "rightmove"
    ]
   ],
   "station": {
@@ -26761,7 +26772,10 @@
    "tritax": 40,
    "q5": 39,
    "wentworth": 35
-  }
+  },
+  "photos_seen": [
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/374904a6e/95259129/374904a6ecce6c93d97fe03feef480d6_max_296x197.jpeg"
+  ]
  },
  {
   "id": "rightmove-94605714",
@@ -27164,7 +27178,9 @@
    "https://www.zoopla.co.uk/to-rent/details/74770199/",
    "https://www.onthemarket.com/details/20757638/",
    "https://www.zoopla.co.uk/to-rent/details/74778445/",
-   "https://www.onthemarket.com/details/20764664/"
+   "https://www.onthemarket.com/details/20764664/",
+   "https://www.zoopla.co.uk/to-rent/details/74787641/",
+   "https://www.onthemarket.com/details/20771994/"
   ],
   "source": "agent",
   "added": "2026-10-26",
@@ -27333,7 +27349,8 @@
    "http://media.onthemarket.com/properties/20754588/1658471260/image-0-480x320.jpg",
    "http://media.onthemarket.com/properties/20495575/1658264364/image-0-480x320.jpg",
    "http://media.onthemarket.com/properties/20757638/1658622253/image-0-480x320.jpg",
-   "http://media.onthemarket.com/properties/20764664/1658914542/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/20764664/1658914542/image-0-480x320.jpg",
+   "http://media.onthemarket.com/properties/20771994/1659129606/image-0-480x320.jpg"
   ]
  },
  {
@@ -27932,7 +27949,8 @@
    "https://www.rightmove.co.uk/properties/93371175",
    "https://www.rightmove.co.uk/properties/93489711",
    "https://www.onthemarket.com/details/20376299/",
-   "https://www.zoopla.co.uk/to-rent/details/74292374/"
+   "https://www.zoopla.co.uk/to-rent/details/74292374/",
+   "https://www.zoopla.co.uk/to-rent/details/74317858/"
   ],
   "source": "sweep",
   "added": "2026-10-27",
@@ -27943,7 +27961,9 @@
    "Merged rightmove-93489711 into this home: same street, beds, baths and rent (31 Oct).",
    "Price cut: £4,500 to £4,250 on the live adverts (16 Nov).",
    "From an email on 2026-11-16: Reduced price properties in London (drawn area)",
-   "Same house as onthemarket-20376299 by its photos; merged (16 Nov)."
+   "Same house as onthemarket-20376299 by its photos; merged (16 Nov).",
+   "From an email on 2026-11-17: Price reduced: 3 properties to rent in Putney",
+   "Same house as zoopla-74317858 by its photos; merged (17 Nov)."
   ],
   "prices": [
    [
@@ -27965,6 +27985,11 @@
     "2026-11-16",
     4250,
     "onthemarket"
+   ],
+   [
+    "2026-11-17",
+    4250,
+    "zoopla"
    ]
   ],
   "station": {
@@ -27985,7 +28010,9 @@
    "wentworth": 31
   },
   "photos_seen": [
-   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/6f9b16755/93371175/6f9b1675553f7da4bcb175de341373ca_max_296x197.jpeg"
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/6f9b16755/93371175/6f9b1675553f7da4bcb175de341373ca_max_296x197.jpeg",
+   "http://media.onthemarket.com/properties/20397950/1659100126/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/ceb064a71/93489711/ceb064a717117913b9f80be39993557d_max_296x197.jpeg"
   ]
  },
  {
@@ -31187,7 +31214,8 @@
   "notes": [
    "Found by ChatGPT sweep (unverified).",
    "Price cut on Onthemarket: £4,000 to £3,650 (2026-11-16).",
-   "Price cut on Rightmove: £4,000 to £3,650 (2026-11-16)."
+   "Price cut on Rightmove: £4,000 to £3,650 (2026-11-16).",
+   "Price cut on Zoopla: £4,000 to £3,650 (2026-11-17)."
   ],
   "prices": [
    [
@@ -31219,6 +31247,11 @@
     "2026-11-16",
     3650,
     "rightmove"
+   ],
+   [
+    "2026-11-17",
+    3650,
+    "zoopla"
    ]
   ],
   "loc": [
@@ -31242,7 +31275,8 @@
   "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1793811413/82/63/162/chpk2613628/edited_chpk2613628-3.jpg",
   "photos_seen": [
    "http://media.onthemarket.com/properties/20693269/1656992291/image-0-480x320.jpg",
-   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/f4f135421/95128860/f4f1354219114d8f411c52dc64c3ad54_max_296x197.jpeg"
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/f4f135421/95128860/f4f1354219114d8f411c52dc64c3ad54_max_296x197.jpeg",
+   "https://lid.zoocdn.com/645/430/b01a9a926ece963c757e061e820ea0db3d09d15a.jpg"
   ]
  },
  {
@@ -33269,17 +33303,25 @@
   "status": "new",
   "url": "https://www.openrent.co.uk/3108274",
   "links": [
-   "https://www.openrent.co.uk/3108274"
+   "https://www.openrent.co.uk/3108274",
+   "https://www.openrent.co.uk/3114150"
   ],
   "source": "alert",
   "added": "2026-11-11",
   "added_at": "2026-11-11T18:04Z",
   "notes": [
-   "From an email on 2026-11-11: New properties found for your search: Wandsworth, London"
+   "From an email on 2026-11-11: New properties found for your search: Wandsworth, London",
+   "From an email on 2026-11-17: New properties found for your search: Wandsworth, London",
+   "Same house as openrent-3114150 by its photos; merged (17 Nov)."
   ],
   "prices": [
    [
     "2026-11-11",
+    4500,
+    "openrent"
+   ],
+   [
+    "2026-11-17",
     4500,
     "openrent"
    ]
@@ -34063,7 +34105,8 @@
   "photo": "https://media.onthemarket.com/properties/20767295/1658955210/image-0-1024x1024.jpg",
   "photos_seen": [
    "http://media.onthemarket.com/properties/20767295/1658955210/image-0-480x320.jpg",
-   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/e8d997613/95536524/e8d997613826816c2ac8d8cede654003_max_296x197.jpeg"
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/e8d997613/95536524/e8d997613826816c2ac8d8cede654003_max_296x197.jpeg",
+   "https://lid.zoocdn.com/645/430/d0badef0652ec82b538976f2713917e1b6179c3e.jpg"
   ]
  },
  {
@@ -34120,7 +34163,8 @@
   "photo": "https://media.onthemarket.com/properties/20766281/1658937698/image-0-1024x1024.jpg",
   "photos_seen": [
    "http://media.onthemarket.com/properties/20766281/1658937698/image-0-480x320.jpg",
-   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/3585612ae/95532252/3585612ae26e58988378c4b62393f214_max_296x197.jpeg"
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/3585612ae/95532252/3585612ae26e58988378c4b62393f214_max_296x197.jpeg",
+   "https://lid.zoocdn.com/645/430/29bd1ab0615c463755a2bc5865d0cec5cb097ffb.jpg"
   ]
  },
  {
@@ -34392,7 +34436,8 @@
   ],
   "photos_seen": [
    "http://media.onthemarket.com/properties/20767446/1658958885/image-0-480x320.jpg",
-   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/12a9dc967/95538192/12a9dc9671a8d8dcc102daa210b01c31_max_296x197.jpeg"
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/12a9dc967/95538192/12a9dc9671a8d8dcc102daa210b01c31_max_296x197.jpeg",
+   "https://lid.zoocdn.com/645/430/266e7b88fc1686d003f1dae5a45b09b050b74e47.jpg"
   ],
   "photo": "http://media.onthemarket.com/properties/20767446/1658958885/image-0-480x320.jpg",
   "loc": [
@@ -34448,7 +34493,9 @@
    ]
   ],
   "photos_seen": [
-   "http://media.onthemarket.com/properties/18735490/1659074461/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/18735490/1659074461/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/2660f0bb8/95550195/2660f0bb89d1d240490739e1c1cec793_max_296x197.jpeg",
+   "https://lid.zoocdn.com/645/430/6cb72a6c4bdd7f64173bfd1e0a86b17fd95b7dee.jpg"
   ],
   "photo": "http://media.onthemarket.com/properties/18735490/1659074461/image-0-480x320.jpg",
   "loc": [
@@ -34516,7 +34563,11 @@
    "kind": "Tube",
    "walk": 12
   },
-  "photo": "https://media.onthemarket.com/properties/20773432/1659148755/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20773432/1659148755/image-0-1024x1024.jpg",
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20773432/1659148755/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/e1e741608/95576745/e1e7416087ce32283f2c0980d3029d4f_max_296x197.jpeg"
+  ]
  },
  {
   "id": "john-d-wood-22318481",
@@ -34569,7 +34620,12 @@
    "q5": 50,
    "wentworth": 36
   },
-  "photo": "https://media.onthemarket.com/properties/20769497/1659084120/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20769497/1659084120/image-0-1024x1024.jpg",
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20769497/1659084120/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/c03de7185/95551794/c03de71852454911d90a1edcfe532a5d_max_296x197.jpeg",
+   "https://lid.zoocdn.com/645/430/cb8e40a55b888c6b2bfaf26ce8e32b8d5d4669c8.jpg"
+  ]
  },
  {
   "id": "zoopla-74787479",
@@ -34661,5 +34717,66 @@
    "wentworth": 43
   },
   "photo": "https://media.rightmove.co.uk/dir/property-photo/a94e0e0e5/95581752/a94e0e0e52028791209ffc8e7428d92a_max_476x317.jpeg"
+ },
+ {
+  "id": "rightmove-89648727",
+  "title": "Averill Street, Hammersmith, London, W6",
+  "area": "Hammersmith",
+  "rent": 5000,
+  "beds": 5,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/89648727",
+  "links": [
+   "https://www.rightmove.co.uk/properties/89648727",
+   "https://www.onthemarket.com/details/19710300/",
+   "https://www.zoopla.co.uk/to-rent/details/73444251/"
+  ],
+  "source": "alert",
+  "added": "2026-11-17",
+  "added_at": "2026-11-17T11:12Z",
+  "notes": [
+   "From an email on 2026-11-17: fourguys, we've found you 4 properties in SW London house v4"
+  ],
+  "prices": [
+   [
+    "2026-11-17",
+    5000,
+    "rightmove"
+   ],
+   [
+    "2026-11-17",
+    5000,
+    "onthemarket"
+   ],
+   [
+    "2026-11-17",
+    5000,
+    "zoopla"
+   ]
+  ],
+  "photos_seen": [
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/015d09673/89648727/015d09673f689fae742b47bbf2205403_max_296x197.jpeg",
+   "http://media.onthemarket.com/properties/19710300/1659092133/image-0-480x320.jpg",
+   "https://lid.zoocdn.com/645/430/f8f11e070810b6066f95a0da5bbd9f5a0d5d27fd.jpg"
+  ],
+  "photo": "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/015d09673/89648727/015d09673f689fae742b47bbf2205403_max_296x197.jpeg",
+  "loc": [
+   51.484478,
+   -0.218457
+  ],
+  "station": {
+   "name": "Barons Court",
+   "kind": "Tube",
+   "walk": 12
+  },
+  "commute": {
+   "lcp": 42,
+   "tritax": 48,
+   "q5": 48,
+   "wentworth": 38
+  }
  }
 ]
