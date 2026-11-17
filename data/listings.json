@@ -27664,7 +27664,10 @@
    "q5": 57,
    "wentworth": 32
   },
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/05e9b153a/94578009/05e9b153ac45dbc5ba1d99347660febe_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/05e9b153a/94578009/05e9b153ac45dbc5ba1d99347660febe_max_476x317.jpeg",
+  "not_same": [
+   "onthemarket-18735490"
+  ]
  },
  {
   "id": "zoopla-73581398",
@@ -34228,6 +34231,56 @@
    "tritax": 44,
    "q5": 43,
    "wentworth": 38
+  }
+ },
+ {
+  "id": "onthemarket-18735490",
+  "title": "Riverview Grove, Chiswick, W4",
+  "area": "Chiswick",
+  "rent": 4500,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/18735490/",
+  "links": [
+   "https://www.onthemarket.com/details/18735490/"
+  ],
+  "source": "alert",
+  "added": "2026-11-17",
+  "added_at": "2026-11-17T10:05Z",
+  "notes": [
+   "From an email on 2026-11-17: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-17",
+    4500,
+    "onthemarket"
+   ]
+  ],
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/18735490/1659074461/image-0-480x320.jpg"
+  ],
+  "photo": "http://media.onthemarket.com/properties/18735490/1659074461/image-0-480x320.jpg",
+  "loc": [
+   51.484313,
+   -0.274838
+  ],
+  "station": {
+   "name": "Chiswick",
+   "kind": "Rail",
+   "walk": 9
+  },
+  "not_same": [
+   "barnardmarcus-22233505"
+  ],
+  "commute": {
+   "lcp": 65,
+   "tritax": 63,
+   "q5": 52,
+   "wentworth": 32
   }
  }
 ]

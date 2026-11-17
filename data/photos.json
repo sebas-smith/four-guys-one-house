@@ -229,6 +229,23 @@
 ],
 "read": "2026-11-10"
 },
+"https://www.onthemarket.com/details/18735490/": {
+"hashes": [
+"330f4f4b5f534f8f",
+"5fb3abcbcb638d1d",
+"878dcdcdc5c4ccbc",
+"cbcfcbcbedccd8d8",
+"050c2d25cdcdc705",
+"0f0e9c8c8dc9dd1e",
+"0707262e2e2d2506",
+"9fc6c6c6c69c9c3e",
+"0f0dc94d4d05c98d",
+"239fe246d26a5667",
+"8fcfcacccdc6c789",
+"4c2bb39393971313"
+],
+"read": "2026-11-17"
+},
 "https://www.onthemarket.com/details/18863172/": {
 "hashes": [
 "c6ccd13137528c4d",
@@ -617,6 +634,19 @@
 "9a1e989abcc9e281"
 ],
 "read": "2026-11-10"
+},
+"https://www.onthemarket.com/details/20599647/": {
+"hashes": [
+"603624ac2c3cb0b3",
+"e2d4c4e4cc4d0f9a",
+"251f1717169ed6ce",
+"8f06068684d9d9e6",
+"7c766e66725e4664",
+"ec6c686868e99d06",
+"7e4ee6ba9a862e2e",
+"974f4f4fcf6c6ecf"
+],
+"read": "2026-11-17"
 },
 "https://www.onthemarket.com/details/20601917/": {
 "hashes": [
@@ -1669,6 +1699,19 @@
 "099ccc2e2d253e3e"
 ],
 "read": "2026-11-10"
+},
+"https://www.rightmove.co.uk/properties/94578009": {
+"hashes": [
+"683624ac2c3cb0b3",
+"e6d4c4e4cc4d8f9a",
+"251f1717169ed6ce",
+"8f06068684d9d9e6",
+"7c766e66725e4664",
+"ec6c686868e99d06",
+"7e4ee6ba9a862e2e",
+"174f4f4fcf6c6ecf"
+],
+"read": "2026-11-17"
 },
 "https://www.rightmove.co.uk/properties/94585347": {
 "hashes": [
