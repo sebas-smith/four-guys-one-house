@@ -31032,7 +31032,8 @@
   "checked": "2026-11-16",
   "notes": [
    "Found by ChatGPT sweep (unverified).",
-   "Price cut on Onthemarket: £4,000 to £3,650 (2026-11-16)."
+   "Price cut on Onthemarket: £4,000 to £3,650 (2026-11-16).",
+   "Price cut on Rightmove: £4,000 to £3,650 (2026-11-16)."
   ],
   "prices": [
    [
@@ -31059,6 +31060,11 @@
     "2026-11-16",
     3650,
     "onthemarket"
+   ],
+   [
+    "2026-11-16",
+    3650,
+    "rightmove"
    ]
   ],
   "loc": [
@@ -31081,7 +31087,8 @@
   ],
   "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1793811413/82/63/162/chpk2613628/edited_chpk2613628-3.jpg",
   "photos_seen": [
-   "http://media.onthemarket.com/properties/20693269/1656992291/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/20693269/1656992291/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/f4f135421/95128860/f4f1354219114d8f411c52dc64c3ad54_max_296x197.jpeg"
   ]
  },
  {
@@ -33885,7 +33892,8 @@
   },
   "photo": "https://media.onthemarket.com/properties/20767295/1658955210/image-0-1024x1024.jpg",
   "photos_seen": [
-   "http://media.onthemarket.com/properties/20767295/1658955210/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/20767295/1658955210/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/e8d997613/95536524/e8d997613826816c2ac8d8cede654003_max_296x197.jpeg"
   ]
  },
  {
@@ -33940,7 +33948,8 @@
   },
   "photo": "https://media.onthemarket.com/properties/20766281/1658937698/image-0-1024x1024.jpg",
   "photos_seen": [
-   "http://media.onthemarket.com/properties/20766281/1658937698/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/20766281/1658937698/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/3585612ae/95532252/3585612ae26e58988378c4b62393f214_max_296x197.jpeg"
   ]
  },
  {
@@ -34165,6 +34174,60 @@
    "tritax": 63,
    "q5": 54,
    "wentworth": 41
+  }
+ },
+ {
+  "id": "onthemarket-20767446",
+  "title": "Musard Road, London, W6",
+  "area": "W6",
+  "rent": 5000,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20767446/",
+  "links": [
+   "https://www.onthemarket.com/details/20767446/",
+   "https://www.rightmove.co.uk/properties/95538192"
+  ],
+  "source": "alert",
+  "added": "2026-11-16",
+  "added_at": "2026-11-16T18:38Z",
+  "notes": [
+   "From an email on 2026-11-16: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-16",
+    5000,
+    "onthemarket"
+   ],
+   [
+    "2026-11-16",
+    5000,
+    "rightmove"
+   ]
+  ],
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20767446/1658958885/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/12a9dc967/95538192/12a9dc9671a8d8dcc102daa210b01c31_max_296x197.jpeg"
+  ],
+  "photo": "http://media.onthemarket.com/properties/20767446/1658958885/image-0-480x320.jpg",
+  "loc": [
+   51.4860574,
+   -0.2113169
+  ],
+  "station": {
+   "name": "Barons Court",
+   "kind": "Tube",
+   "walk": 9
+  },
+  "commute": {
+   "lcp": 45,
+   "tritax": 44,
+   "q5": 43,
+   "wentworth": 38
   }
  }
 ]
