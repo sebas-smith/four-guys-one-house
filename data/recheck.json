@@ -33,26 +33,6 @@
   ]
  },
  {
-  "id": "zoopla-74516794",
-  "title": "Chartfield Avenue, London SW15",
-  "rent": 4500,
-  "why": "Let agreed on OnTheMarket; Zoopla advert not checked yet",
-  "since": "2026-11-17",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74516794/"
-  ]
- },
- {
-  "id": "rightmove-94316217",
-  "title": "Broadwater Road, Tooting",
-  "rent": 2995,
-  "why": "Taken down on OnTheMarket; Zoopla advert not checked yet",
-  "since": "2026-11-17",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74510752/"
-  ]
- },
- {
   "id": "openrent-3039135",
   "title": "gaskarth road sw12",
   "rent": 4999,
@@ -61,57 +41,6 @@
   "links": [
    "https://www.openrent.co.uk/property-to-rent/london/4-bed-terraced-house-gaskarth-road-sw12/3039135",
    "https://www.zoopla.co.uk/to-rent/details/74524542/"
-  ]
- },
- {
-  "id": "zoopla-74575023",
-  "title": "Alderbrook Road, London SW12",
-  "rent": 3950,
-  "why": "Taken down on Rightmove; Zoopla advert not checked yet",
-  "since": "2026-11-17",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74575023/"
-  ]
- },
- {
-  "id": "zoopla-74636546",
-  "title": "Flanders Crescent, Tooting SW17",
-  "rent": 2619,
-  "why": "Taken down on Rightmove; Zoopla advert not checked yet",
-  "since": "2026-11-17",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74636546/"
-  ]
- },
- {
-  "id": "onthemarket-20725252",
-  "title": "Patience Road, LONDON, SW11 2PY",
-  "rent": 4199,
-  "why": "Taken down on OnTheMarket; Zoopla advert not checked yet",
-  "since": "2026-11-17",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74728441/"
-  ]
- },
- {
-  "id": "rightmove-95327973",
-  "title": "Tooting Bec, London, SW17, SW17 7NE",
-  "rent": 4775,
-  "why": "Taken down on Rightmove; Zoopla advert not checked yet",
-  "since": "2026-11-17",
-  "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74735584/"
-  ]
- },
- {
-  "id": "rightmove-95423547",
-  "title": "Aristotle Road, \nClapham North, SW4, SW4 7UZ",
-  "rent": 4500,
-  "why": "Let agreed on Rightmove; Chestertons advert not checked yet",
-  "since": "2026-11-17",
-  "links": [
-   "https://www.chestertons.co.uk/properties/22308829/lettings/JCC260066",
-   "https://www.zoopla.co.uk/to-rent/details/74758203/"
   ]
  }
 ]
