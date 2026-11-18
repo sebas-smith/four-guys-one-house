@@ -192,6 +192,23 @@
 ],
 "read": "2026-11-10"
 },
+"https://www.onthemarket.com/details/16222723/": {
+"hashes": [
+"0f0323272b3bc02e",
+"7e5549393aea6b49",
+"4e3c949e377e1b3b",
+"3d3d3d3d1d3bf9cb",
+"8141414141d1d1c9",
+"6c36939b279e1b33",
+"0e7c34141470d414",
+"8f83a3a7a5c9d836",
+"9d99994989c9c1c1",
+"47676733231377c5",
+"073c3c3c3c3876c2",
+"0f3f1b1b131974c6"
+],
+"read": "2026-11-18"
+},
 "https://www.onthemarket.com/details/16589505/": {
 "hashes": [
 "246069686aa9cfcc",
@@ -709,6 +726,23 @@
 ],
 "read": "2026-11-10"
 },
+"https://www.onthemarket.com/details/20630963/": {
+"hashes": [
+"9c5e22586b3b3418",
+"1f5e8b9b91939486",
+"8387ab87cec696a3",
+"c7d9cd4dcd4d0d3b",
+"0dc3cbdbfa6efbd3",
+"39ddad8ddcf0b839",
+"6373736767466667",
+"5d4c4e0f6f6f9f0b",
+"696b4b62626b4c2b",
+"20b3b39293938a89",
+"33715d4d4cc68c44",
+"2b6f266e6cfa6524"
+],
+"read": "2026-11-18"
+},
 "https://www.onthemarket.com/details/20659623/": {
 "hashes": [
 "4f076d2d0d979e3f",
@@ -942,6 +976,20 @@
 ],
 "read": "2026-11-12"
 },
+"https://www.onthemarket.com/details/20744762/": {
+"hashes": [
+"08249aeaaccb6d2c",
+"33333132b2b7e979",
+"6f2634376767c7d1",
+"193656d3d36423b1",
+"7f3c9c4c66e4c61b",
+"7ffc7332b6948e3f",
+"f9e3e3f31d470732",
+"01d86860e464e418",
+"774d272f6e6f6fc7"
+],
+"read": "2026-11-18"
+},
 "https://www.onthemarket.com/details/20757113/": {
 "hashes": [
 "4f076d2d0d979e3f",
@@ -986,6 +1034,45 @@
 "0604242c24ec6252"
 ],
 "read": "2026-11-16"
+},
+"https://www.onthemarket.com/details/20776881/": {
+"hashes": [
+"6fbdbb8dabcb9c3f",
+"6464249cd944c052",
+"0fa9b199dbdad97d",
+"fe8ecee76dcd4f3d",
+"dccc7fce66d0d8a0",
+"d4626368f0e0e0b8",
+"c6e633d39270ee9a",
+"eefcf2f2e8d8f4e4",
+"b8b2b3aa9ae6b262",
+"f0e1c3d3d2f8f4ec",
+"1b4b0d090b282979",
+"f3d6ce6ece662633"
+],
+"read": "2026-11-18"
+},
+"https://www.onthemarket.com/details/20778647/": {
+"hashes": [
+"0b1303332a08070f",
+"ff3b6f696a6a6e7f",
+"c7770b0b2f2b3737",
+"6a687a8eae8a1406",
+"25818392d2e3e3a0",
+"6d5c4444969ccdc0",
+"0e22223333312406",
+"4eca0606369e4e06",
+"06365276646474d9",
+"9f8f8f0e3ecf4b31"
+],
+"read": "2026-11-18"
+},
+"https://www.onthemarket.com/details/20779832/": {
+"hashes": [
+"0607270696064707",
+"0607270696064707"
+],
+"read": "2026-11-18"
 },
 "https://www.onthemarket.com/details/7288266/": {
 "hashes": [
@@ -1812,6 +1899,23 @@
 ],
 "read": "2026-11-10"
 },
+"https://www.rightmove.co.uk/properties/94757757": {
+"hashes": [
+"9c5e22506b3b1418",
+"1b5e8b9b91939486",
+"8387ab87cec696a3",
+"c7d9cdcdcd4d0d3b",
+"1dc3cbdbfa6efbd3",
+"39dd8c8dccf0b839",
+"6273736767466667",
+"5d4c4e0f6f6f9f0b",
+"69694b62626b4c2b",
+"20b3b39293938b89",
+"3371594d4cc68c44",
+"2b6f266e6cfa6524"
+],
+"read": "2026-11-18"
+},
 "https://www.rightmove.co.uk/properties/94936611": {
 "hashes": [
 "f6969796bbab4f03"
@@ -2229,6 +2333,38 @@
 ],
 "read": "2026-11-16"
 },
+"https://www.rightmove.co.uk/properties/95596944": {
+"hashes": [
+"6fbdbb8dabcb9c3f",
+"6464249cd844c052",
+"0f89b199dbdad97d",
+"fe8ecee76dcd4f3d",
+"dcdc7fce66d0d8a0",
+"d062e3e8f0e0e0b0",
+"c6e633d39270ee9b",
+"eefcf2f2e8d8f4e4",
+"b0b0b3a29ae6b262",
+"f0e0c3d3d2f8f4ec",
+"1b5b0d090b282979",
+"f3c6ce6ece662633"
+],
+"read": "2026-11-18"
+},
+"https://www.rightmove.co.uk/properties/95608572": {
+"hashes": [
+"0b1303332a08070f",
+"ff3f6f696a6a6e7f",
+"c7770b0b2f2b3737",
+"6a687a8eae8a1406",
+"25818392d2e3e3a0",
+"6d5c4444969ccdc0",
+"0e22223333312406",
+"4eca0606369e4e06",
+"06365276646474d9",
+"9f8f8f0e2ecf0b31"
+],
+"read": "2026-11-18"
+},
 "https://www.zoopla.co.uk/to-rent/details/67769547/": {
 "hashes": [
 "1c058b1bbacb0e0e",
@@ -2511,11 +2647,29 @@
 ],
 "read": "2026-11-17"
 },
+"img:http://media.onthemarket.com/properties/20744762/1658166129/image-0-480x320.jpg": {
+"hashes": [
+"08249aeaaccb6d2c"
+],
+"read": "2026-11-18"
+},
+"img:http://media.onthemarket.com/properties/20779832/1659353817/image-0-480x320.jpg": {
+"hashes": [
+"0607270696064707"
+],
+"read": "2026-11-18"
+},
 "img:https://imagescdn.openrent.co.uk/listings/3108274/o_1k75g3vou1v9k16r31c011e731sdr0.JPG": {
 "hashes": [
 "4939b6c335574b43"
 ],
 "read": "2026-11-11"
+},
+"img:https://imagescdn.openrent.co.uk/listings/3108937/o_1k76bi98pfdnq7i140r1sg51kc3c.JPG": {
+"hashes": [
+"0a249aeaaccb6d2c"
+],
+"read": "2026-11-18"
 },
 "img:https://imagescdn.openrent.co.uk/listings/3114150/o_1k7im21761q4ror2cr2127h1cff6.JPG": {
 "hashes": [
@@ -2523,11 +2677,23 @@
 ],
 "read": "2026-11-17"
 },
+"img:https://lid.zoocdn.com/645/430/0a251eed7d2ea63489840c01eba71bc19a4a86c9.jpg": {
+"hashes": [
+"e8c0c8e0f8ece8d8"
+],
+"read": "2026-11-18"
+},
 "img:https://lid.zoocdn.com/645/430/52749cea86f236875b89c5d504f9f7cd94988cfc.jpg": {
 "hashes": [
 "0306d2b93535353e"
 ],
 "read": "2026-11-11"
+},
+"img:https://lid.zoocdn.com/645/430/dcf3ad41a17615fe57483f8ac667302f0017c9ff.jpg": {
+"hashes": [
+"0607270696064707"
+],
+"read": "2026-11-18"
 },
 "img:https://lid.zoocdn.com/645/430/f5a3a526c425b98448785791248fe14ee23342ed.jpg": {
 "hashes": [

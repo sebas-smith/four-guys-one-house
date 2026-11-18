@@ -21643,7 +21643,7 @@
   "id": "zoopla-74509837",
   "title": "Deal Road, Tooting SW17",
   "area": "Tooting",
-  "rent": 3200,
+  "rent": 2950,
   "beds": 4,
   "baths": 1,
   "available": "2026-11-14",
@@ -21659,7 +21659,8 @@
   "added": "2026-10-18",
   "checked": "2026-11-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Price cut on Onthemarket: £3,200 to £2,950 (2026-11-18)."
   ],
   "station": {
    "name": "Tooting",
@@ -21681,6 +21682,11 @@
     "2026-11-03",
     3200,
     "onthemarket"
+   ],
+   [
+    "2026-11-18",
+    2950,
+    "onthemarket"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -21694,7 +21700,10 @@
    "tritax": 52,
    "q5": 51,
    "wentworth": 49
-  }
+  },
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20553364/1659347845/image-0-480x320.jpg"
+  ]
  },
  {
   "id": "onthemarket-20462346",
@@ -26225,7 +26234,10 @@
    "tritax": 49,
    "q5": 48,
    "wentworth": 38
-  }
+  },
+  "not_same": [
+   "onthemarket-20776881"
+  ]
  },
  {
   "id": "zoopla-74588671",
@@ -26766,7 +26778,8 @@
    "From an email on 2026-11-10: New listings: 3 new properties to rent in Putney",
    "Same house as zoopla-74729160 by its photos; merged (10 Nov).",
    "Price cut on Rightmove: £4,500 to £4,250 (2026-11-17).",
-   "Price cut on Onthemarket: £4,500 to £4,250 (2026-11-18)."
+   "Price cut on Onthemarket: £4,500 to £4,250 (2026-11-18).",
+   "Price cut on Zoopla: £4,500 to £4,250 (2026-11-18)."
   ],
   "prices": [
    [
@@ -26818,6 +26831,11 @@
     "2026-11-18",
     4250,
     "onthemarket"
+   ],
+   [
+    "2026-11-18",
+    4250,
+    "zoopla"
    ]
   ],
   "station": {
@@ -26839,7 +26857,10 @@
   },
   "photos_seen": [
    "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/374904a6e/95259129/374904a6ecce6c93d97fe03feef480d6_max_296x197.jpeg",
-   "http://media.onthemarket.com/properties/20725149/1658554195/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/20725149/1658554195/image-0-480x320.jpg",
+   "http://media.onthemarket.com/properties/20725672/1657650954/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/490672461/95300265/490672461d8829b1febdd59012a640e6_max_296x197.jpeg",
+   "https://lid.zoocdn.com/645/430/fe58f618b86ed348c35d2cdd36319a8b84aff327.jpg"
   ]
  },
  {
@@ -27245,7 +27266,9 @@
    "https://www.zoopla.co.uk/to-rent/details/74778445/",
    "https://www.onthemarket.com/details/20764664/",
    "https://www.zoopla.co.uk/to-rent/details/74787641/",
-   "https://www.onthemarket.com/details/20771994/"
+   "https://www.onthemarket.com/details/20771994/",
+   "https://www.onthemarket.com/details/20778994/",
+   "https://www.zoopla.co.uk/to-rent/details/74798518/"
   ],
   "source": "agent",
   "added": "2026-10-26",
@@ -27415,7 +27438,8 @@
    "http://media.onthemarket.com/properties/20495575/1658264364/image-0-480x320.jpg",
    "http://media.onthemarket.com/properties/20757638/1658622253/image-0-480x320.jpg",
    "http://media.onthemarket.com/properties/20764664/1658914542/image-0-480x320.jpg",
-   "http://media.onthemarket.com/properties/20771994/1659129606/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/20771994/1659129606/image-0-480x320.jpg",
+   "http://media.onthemarket.com/properties/20778994/1659342424/image-0-480x320.jpg"
   ]
  },
  {
@@ -27431,7 +27455,8 @@
   "url": "https://www.onthemarket.com/details/20630963/",
   "links": [
    "https://www.onthemarket.com/details/20630963/",
-   "https://www.rightmove.co.uk/properties/94757757"
+   "https://www.rightmove.co.uk/properties/94757757",
+   "https://www.zoopla.co.uk/to-rent/details/74796806/"
   ],
   "source": "alert",
   "added": "2026-10-26",
@@ -27450,6 +27475,11 @@
     "2026-10-27",
     3450,
     "rightmove"
+   ],
+   [
+    "2026-11-18",
+    3450,
+    "zoopla"
    ]
   ],
   "checked": "2026-11-18",
@@ -27468,7 +27498,13 @@
    "tritax": 52,
    "q5": 49,
    "wentworth": 44
-  }
+  },
+  "photos_seen": [
+   "https://lid.zoocdn.com/645/430/5180248b9fcf3c9b229ceafd381ac67acab26493.jpg"
+  ],
+  "not_same": [
+   "onthemarket-20778647"
+  ]
  },
  {
   "id": "onthemarket-20631317",
@@ -28077,7 +28113,8 @@
   "photos_seen": [
    "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/6f9b16755/93371175/6f9b1675553f7da4bcb175de341373ca_max_296x197.jpeg",
    "http://media.onthemarket.com/properties/20397950/1659100126/image-0-480x320.jpg",
-   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/ceb064a71/93489711/ceb064a717117913b9f80be39993557d_max_296x197.jpeg"
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/ceb064a71/93489711/ceb064a717117913b9f80be39993557d_max_296x197.jpeg",
+   "https://lid.zoocdn.com/645/430/fd5b8cca96783f191c50e0ee45a96f904d839821.jpg"
   ]
  },
  {
@@ -30080,7 +30117,8 @@
   "status": "new",
   "url": "https://www.rightmove.co.uk/properties/94042167",
   "links": [
-   "https://www.rightmove.co.uk/properties/94042167"
+   "https://www.rightmove.co.uk/properties/94042167",
+   "https://www.zoopla.co.uk/to-rent/details/74447349/"
   ],
   "source": "backfill",
   "added": "2026-10-31",
@@ -30099,6 +30137,11 @@
     "2026-11-18",
     3050,
     "rightmove"
+   ],
+   [
+    "2026-11-18",
+    3050,
+    "zoopla"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/50930673e/94042167/50930673e6f5db9c3469b347889214ad_max_476x317.jpeg",
@@ -30120,6 +30163,10 @@
   },
   "not_same": [
    "rightmove-90558783"
+  ],
+  "photos_seen": [
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/6cce7714f/94042167/6cce7714f7930de1e1c77588fe574b71_max_296x197.jpeg",
+   "https://lid.zoocdn.com/645/430/8ebbaba338ee3adb54c69b5d348e3d99ae754a4a.jpg"
   ]
  },
  {
@@ -33595,14 +33642,18 @@
   "links": [
    "https://www.onthemarket.com/details/20744762/",
    "https://www.zoopla.co.uk/to-rent/details/74753990/",
-   "https://www.openrent.co.uk/3108937"
+   "https://www.openrent.co.uk/3108937",
+   "https://www.zoopla.co.uk/to-rent/details/74798239/",
+   "https://www.onthemarket.com/details/20779832/"
   ],
   "source": "sweep",
   "added": "2026-11-12",
   "added_at": "2026-11-12T18:08Z",
   "checked": "2026-11-18",
   "notes": [
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "From an email on 2026-11-18: New listings: 9 new properties to rent in Putney",
+   "Same house as zoopla-74798239 by its photos; merged (18 Nov)."
   ],
   "prices": [
    [
@@ -33619,6 +33670,16 @@
     "2026-11-12",
     5000,
     "openrent"
+   ],
+   [
+    "2026-11-18",
+    5000,
+    "zoopla"
+   ],
+   [
+    "2026-11-18",
+    5000,
+    "onthemarket"
    ]
   ],
   "loc": [
@@ -34656,7 +34717,8 @@
   "photo": "https://media.onthemarket.com/properties/20773432/1659148755/image-0-1024x1024.jpg",
   "photos_seen": [
    "http://media.onthemarket.com/properties/20773432/1659148755/image-0-480x320.jpg",
-   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/e1e741608/95576745/e1e7416087ce32283f2c0980d3029d4f_max_296x197.jpeg"
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/e1e741608/95576745/e1e7416087ce32283f2c0980d3029d4f_max_296x197.jpeg",
+   "https://lid.zoocdn.com/645/430/ef217cd71e5c524315cc50aecd9701a5b7baa947.jpg"
   ]
  },
  {
@@ -34815,7 +34877,8 @@
   "photo": "https://media.rightmove.co.uk/dir/property-photo/a94e0e0e5/95581752/a94e0e0e52028791209ffc8e7428d92a_max_476x317.jpeg",
   "photos_seen": [
    "https://media.rightmove.co.uk/property-photo/a94e0e0e5/95581752/a94e0e0e52028791209ffc8e7428d92a.jpeg",
-   "http://media.onthemarket.com/properties/20775989/1659222806/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/20775989/1659222806/image-0-480x320.jpg",
+   "https://lid.zoocdn.com/645/430/4950c6f41b9679c5cf7474baa6599ca8901ebc24.jpg"
   ]
  },
  {
@@ -34879,5 +34942,201 @@
    "wentworth": 38
   },
   "checked": "2026-11-18"
+ },
+ {
+  "id": "onthemarket-20776881",
+  "title": "Crefeld Close, London, W6",
+  "area": "W6",
+  "rent": 4000,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20776881/",
+  "links": [
+   "https://www.onthemarket.com/details/20776881/",
+   "https://www.rightmove.co.uk/properties/95596944",
+   "https://www.zoopla.co.uk/to-rent/details/74794569/"
+  ],
+  "source": "alert",
+  "added": "2026-11-18",
+  "added_at": "2026-11-18T10:24Z",
+  "notes": [
+   "From an email on 2026-11-18: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-18",
+    4000,
+    "onthemarket"
+   ],
+   [
+    "2026-11-18",
+    4000,
+    "rightmove"
+   ],
+   [
+    "2026-11-18",
+    4000,
+    "zoopla"
+   ]
+  ],
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20776881/1659304012/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/68adc88f4/95596944/68adc88f4fb0d8860ab57d858f1b6c36_max_296x197.jpeg",
+   "https://lid.zoocdn.com/645/430/e8d63b7e00e84a1bc44419a632472517de0b5768.jpg"
+  ],
+  "photo": "http://media.onthemarket.com/properties/20776881/1659304012/image-0-480x320.jpg",
+  "loc": [
+   51.483161,
+   -0.215305
+  ],
+  "station": {
+   "name": "Barons Court",
+   "kind": "Tube",
+   "walk": 13
+  },
+  "not_same": [
+   "onthemarket-16222723"
+  ],
+  "commute": {
+   "lcp": 46,
+   "tritax": 49,
+   "q5": 47,
+   "wentworth": 38
+  }
+ },
+ {
+  "id": "onthemarket-20778647",
+  "title": "Arcadian Place, Southfields, London, SW18",
+  "area": "Southfields",
+  "rent": 3450,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20778647/",
+  "links": [
+   "https://www.onthemarket.com/details/20778647/",
+   "https://www.rightmove.co.uk/properties/95608572"
+  ],
+  "source": "alert",
+  "added": "2026-11-18",
+  "added_at": "2026-11-18T12:48Z",
+  "notes": [
+   "From an email on 2026-11-18: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-18",
+    3450,
+    "onthemarket"
+   ],
+   [
+    "2026-11-18",
+    3450,
+    "rightmove"
+   ]
+  ],
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20778647/1659336329/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/7bf813e33/95608572/7bf813e33fd0cf15631ec2789338fc7f_max_296x197.jpeg"
+  ],
+  "photo": "http://media.onthemarket.com/properties/20778647/1659336329/image-0-480x320.jpg",
+  "loc": [
+   51.447338,
+   -0.207561
+  ],
+  "station": {
+   "name": "Southfields",
+   "kind": "Tube",
+   "walk": 3
+  },
+  "not_same": [
+   "onthemarket-20630963"
+  ],
+  "commute": {
+   "lcp": 52,
+   "tritax": 50,
+   "q5": 46,
+   "wentworth": 44
+  }
+ },
+ {
+  "id": "zoopla-74798404",
+  "title": "Braybrook Street, London, 0 W12",
+  "area": "W12",
+  "rent": 3000,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.zoopla.co.uk/to-rent/details/74798404/",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74798404/"
+  ],
+  "source": "alert",
+  "added": "2026-11-18",
+  "added_at": "2026-11-18T15:12Z",
+  "notes": [
+   "From an email on 2026-11-18: New listings: 9 new properties to rent in Putney"
+  ],
+  "prices": [
+   [
+    "2026-11-18",
+    3000,
+    "zoopla"
+   ]
+  ],
+  "photos_seen": [
+   "https://lid.zoocdn.com/645/430/6f5a78b121819d8ba2009723cb6b229f8244ecac.jpg"
+  ],
+  "photo": "https://lid.zoocdn.com/645/430/6f5a78b121819d8ba2009723cb6b229f8244ecac.jpg",
+  "loc": [
+   51.5169468,
+   -0.2431983
+  ],
+  "station": {
+   "name": "East Acton",
+   "kind": "Tube",
+   "walk": 5
+  },
+  "commute": {
+   "lcp": 36,
+   "tritax": 40,
+   "q5": 50,
+   "wentworth": 41
+  }
+ },
+ {
+  "id": "zoopla-74796157",
+  "title": "Macmillan Way, London SW17",
+  "area": "SW17",
+  "rent": 3500,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.zoopla.co.uk/to-rent/details/74796157/",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74796157/"
+  ],
+  "source": "alert",
+  "added": "2026-11-18",
+  "added_at": "2026-11-18T15:12Z",
+  "notes": [
+   "From an email on 2026-11-18: New listings: 9 new properties to rent in Putney"
+  ],
+  "prices": [
+   [
+    "2026-11-18",
+    3500,
+    "zoopla"
+   ]
+  ]
  }
 ]
