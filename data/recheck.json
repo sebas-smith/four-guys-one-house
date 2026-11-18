@@ -11,15 +11,25 @@
   ]
  },
  {
-  "id": "openrent-3036762",
-  "title": "Standen Road",
-  "rent": 4650,
-  "why": "Taken down on Rightmove; OpenRent advert not checked yet",
-  "since": "2026-11-13",
+  "id": "rightmove-93960771",
+  "title": "Brathway Road",
+  "rent": 3800,
+  "why": "Let agreed on Rightmove; Zoopla advert not checked yet",
+  "since": "2026-11-18",
   "links": [
-   "https://www.openrent.co.uk/property-to-rent/london/4-bed-terraced-house-standen-road-sw18/3036762",
-   "https://www.openrent.co.uk/property-to-rent/london/4-bed-terraced-house-stander-road-sw18/3036762",
-   "https://www.zoopla.co.uk/to-rent/details/74216202/"
+   "https://www.zoopla.co.uk/to-rent/details/73573147/",
+   "https://www.johndwood.co.uk/properties/22191327/lettings/SOL230069"
+  ]
+ },
+ {
+  "id": "rightmove-94297608",
+  "title": "Clapham Common, London, SW4",
+  "rent": 4000,
+  "why": "Taken down on OnTheMarket; OpenRent advert not checked yet",
+  "since": "2026-11-18",
+  "links": [
+   "https://www.openrent.co.uk/property-to-rent/london/4-bed-flat-clapham-common-sw4/1432305",
+   "https://www.zoopla.co.uk/to-rent/details/74507408/"
   ]
  },
  {
@@ -33,14 +43,34 @@
   ]
  },
  {
-  "id": "openrent-3039135",
-  "title": "gaskarth road sw12",
-  "rent": 4999,
-  "why": "Taken down on OnTheMarket; OpenRent advert not checked yet",
-  "since": "2026-11-13",
+  "id": "zoopla-74575023",
+  "title": "Alderbrook Road, London SW12",
+  "rent": 3950,
+  "why": "Taken down on Rightmove; Zoopla advert not checked yet",
+  "since": "2026-11-18",
   "links": [
-   "https://www.openrent.co.uk/property-to-rent/london/4-bed-terraced-house-gaskarth-road-sw12/3039135",
-   "https://www.zoopla.co.uk/to-rent/details/74524542/"
+   "https://www.zoopla.co.uk/to-rent/details/74575023/"
+  ]
+ },
+ {
+  "id": "rightmove-95327973",
+  "title": "Tooting Bec, London, SW17, SW17 7NE",
+  "rent": 4775,
+  "why": "Taken down on Rightmove; Zoopla advert not checked yet",
+  "since": "2026-11-18",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74735584/"
+  ]
+ },
+ {
+  "id": "rightmove-95375640",
+  "title": "Hebdon Road, \nTooting, SW17, SW17 7NS",
+  "rent": 3500,
+  "why": "Taken down on Rightmove; Zoopla advert not checked yet",
+  "since": "2026-11-18",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/72614145/",
+   "https://www.chestertons.co.uk/properties/22305136/lettings/WLS250146"
   ]
  }
 ]
