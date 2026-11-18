@@ -12522,7 +12522,7 @@
   "id": "zoopla-68271860",
   "title": "Deeside Road",
   "area": "Tooting / Earlsfield fringe",
-  "rent": 3700,
+  "rent": 3400,
   "beds": 4,
   "baths": 2,
   "available": "2026-10-17",
@@ -12538,7 +12538,8 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-09-25.",
    "Price changed from £4,500 to £3,700 (2026-10-18).",
-   "Found by ChatGPT sweep (live)."
+   "Found by ChatGPT sweep (live).",
+   "Price cut on Onthemarket: £3,700 to £3,400 (2026-11-18)."
   ],
   "checked": "2026-11-17",
   "station": {
@@ -12561,6 +12562,11 @@
     "2026-11-03",
     3700,
     "onthemarket"
+   ],
+   [
+    "2026-11-18",
+    3400,
+    "onthemarket"
    ]
   ],
   "photo": "https://lid.zoocdn.com/u/480/360/af6c6cf23e8b8ffb0102c1cc47fb887ffb51cd0c.jpg",
@@ -12576,6 +12582,9 @@
   },
   "not_same": [
    "rightmove-94271229"
+  ],
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/15776036/1659223518/image-0-480x320.jpg"
   ]
  },
  {
@@ -26707,7 +26716,8 @@
    "Same house as onthemarket-20725672 by its photos; merged (10 Nov).",
    "From an email on 2026-11-10: New listings: 3 new properties to rent in Putney",
    "Same house as zoopla-74729160 by its photos; merged (10 Nov).",
-   "Price cut on Rightmove: £4,500 to £4,250 (2026-11-17)."
+   "Price cut on Rightmove: £4,500 to £4,250 (2026-11-17).",
+   "Price cut on Onthemarket: £4,500 to £4,250 (2026-11-18)."
   ],
   "prices": [
    [
@@ -26754,6 +26764,11 @@
     "2026-11-17",
     4250,
     "rightmove"
+   ],
+   [
+    "2026-11-18",
+    4250,
+    "onthemarket"
    ]
   ],
   "station": {
@@ -26774,7 +26789,8 @@
    "wentworth": 35
   },
   "photos_seen": [
-   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/374904a6e/95259129/374904a6ecce6c93d97fe03feef480d6_max_296x197.jpeg"
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/374904a6e/95259129/374904a6ecce6c93d97fe03feef480d6_max_296x197.jpeg",
+   "http://media.onthemarket.com/properties/20725149/1658554195/image-0-480x320.jpg"
   ]
  },
  {
@@ -34685,7 +34701,8 @@
   "links": [
    "https://www.rightmove.co.uk/properties/95581752",
    "https://www.zoopla.co.uk/to-rent/details/74791227/",
-   "https://www.chestertons.co.uk/properties/22320426/lettings/WLS260290"
+   "https://www.chestertons.co.uk/properties/22320426/lettings/WLS260290",
+   "https://www.onthemarket.com/details/20775989/"
   ],
   "source": "sweep",
   "added": "2026-11-17",
@@ -34699,6 +34716,11 @@
     "2026-11-17",
     4000,
     "rightmove"
+   ],
+   [
+    "2026-11-18",
+    4000,
+    "onthemarket"
    ]
   ],
   "loc": [
@@ -34716,7 +34738,11 @@
    "q5": 54,
    "wentworth": 43
   },
-  "photo": "https://media.rightmove.co.uk/dir/property-photo/a94e0e0e5/95581752/a94e0e0e52028791209ffc8e7428d92a_max_476x317.jpeg"
+  "photo": "https://media.rightmove.co.uk/dir/property-photo/a94e0e0e5/95581752/a94e0e0e52028791209ffc8e7428d92a_max_476x317.jpeg",
+  "photos_seen": [
+   "https://media.rightmove.co.uk/property-photo/a94e0e0e5/95581752/a94e0e0e52028791209ffc8e7428d92a.jpeg",
+   "http://media.onthemarket.com/properties/20775989/1659222806/image-0-480x320.jpg"
+  ]
  },
  {
   "id": "rightmove-89648727",
