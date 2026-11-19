@@ -31447,6 +31447,7 @@
    "wentworth": 44
   },
   "not_same": [
+   "onthemarket-20789672",
    "zoopla-71562052"
   ],
   "photo": "https://web-prod-page-assets.foxtons.co.uk/protog/1793811413/82/63/162/chpk2613628/edited_chpk2613628-3.jpg",
@@ -35578,7 +35579,8 @@
   ],
   "photos_seen": [
    "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/f41e91c2b/95657874/f41e91c2b40fefefe06daad0d6bd14c5_max_296x197.jpeg",
-   "http://media.onthemarket.com/properties/20788551/1659602541/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/20788551/1659602541/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/15781202d/95663610/15781202d1506cc9caf3fbf1aa709869_max_296x197.jpeg"
   ],
   "photo": "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/f41e91c2b/95657874/f41e91c2b40fefefe06daad0d6bd14c5_max_296x197.jpeg",
   "loc": [
@@ -35699,5 +35701,109 @@
    "wentworth": 50
   },
   "photo": "https://media.onthemarket.com/properties/20780779/1659369816/image-0-1024x1024.jpg"
+ },
+ {
+  "id": "openrent-3067571",
+  "title": "Bloemfontein Road, W12",
+  "area": "W12",
+  "rent": 3250,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.openrent.co.uk/3067571",
+  "links": [
+   "https://www.openrent.co.uk/3067571"
+  ],
+  "source": "alert",
+  "added": "2026-11-19",
+  "added_at": "2026-11-19T17:32Z",
+  "notes": [
+   "From an email on 2026-11-19: New properties found for your search: Hammersmith, London"
+  ],
+  "prices": [
+   [
+    "2026-11-19",
+    3250,
+    "openrent"
+   ]
+  ],
+  "photos_seen": [
+   "https://imagescdn.openrent.co.uk/listings/3067571/o_1k7plc4bd1m5j1u0818rn3rv1ui20.JPG"
+  ],
+  "photo": "https://imagescdn.openrent.co.uk/listings/3067571/o_1k7plc4bd1m5j1u0818rn3rv1ui20.JPG",
+  "loc": [
+   51.5130549,
+   -0.2351797
+  ],
+  "station": {
+   "name": "White City",
+   "kind": "Tube",
+   "walk": 12
+  },
+  "commute": {
+   "lcp": 39,
+   "tritax": 43,
+   "q5": 55,
+   "wentworth": 40
+  }
+ },
+ {
+  "id": "onthemarket-20789672",
+  "title": "Merton Road, Tooting, SW18 5SW",
+  "area": "Tooting",
+  "rent": 3600,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20789672/",
+  "links": [
+   "https://www.onthemarket.com/details/20789672/",
+   "https://www.rightmove.co.uk/properties/95670834"
+  ],
+  "source": "alert",
+  "added": "2026-11-19",
+  "added_at": "2026-11-19T19:21Z",
+  "notes": [
+   "From an email on 2026-11-19: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-19",
+    3600,
+    "onthemarket"
+   ],
+   [
+    "2026-11-19",
+    3600,
+    "rightmove"
+   ]
+  ],
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20789672/1659622027/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/41e9114d8/95670834/41e9114d89a1157bf4b9e0452b59b7bd_max_296x197.jpeg"
+  ],
+  "photo": "http://media.onthemarket.com/properties/20789672/1659622027/image-0-480x320.jpg",
+  "loc": [
+   51.4509081,
+   -0.19899
+  ],
+  "station": {
+   "name": "Southfields",
+   "kind": "Tube",
+   "walk": 13
+  },
+  "not_same": [
+   "foxtons-chpk2613628"
+  ],
+  "commute": {
+   "lcp": 60,
+   "tritax": 56,
+   "q5": 47,
+   "wentworth": 45
+  }
  }
 ]
