@@ -6093,7 +6093,11 @@
   "off_market": {
    "why": "Advert taken down on Rightmove",
    "checked": "2026-11-19"
-  }
+  },
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20472941/1649637216/image-0-480x320.jpg",
+   "https://lid.zoocdn.com/645/430/5b68e4f7fb1729d8a72db0383b8aba4c53255f20.jpg"
+  ]
  },
  {
   "id": "openrent-3009117",
@@ -25902,7 +25906,8 @@
    ]
   ],
   "not_same": [
-   "jacksons-20627612"
+   "jacksons-20627612",
+   "rightmove-95640420"
   ],
   "station": {
    "name": "Haydons Road",
@@ -27306,7 +27311,9 @@
    "https://www.zoopla.co.uk/to-rent/details/74787641/",
    "https://www.onthemarket.com/details/20771994/",
    "https://www.onthemarket.com/details/20778994/",
-   "https://www.zoopla.co.uk/to-rent/details/74798518/"
+   "https://www.zoopla.co.uk/to-rent/details/74798518/",
+   "https://www.onthemarket.com/details/20784487/",
+   "https://www.zoopla.co.uk/to-rent/details/74808048/"
   ],
   "source": "agent",
   "added": "2026-10-26",
@@ -27479,7 +27486,8 @@
    "http://media.onthemarket.com/properties/20757638/1658622253/image-0-480x320.jpg",
    "http://media.onthemarket.com/properties/20764664/1658914542/image-0-480x320.jpg",
    "http://media.onthemarket.com/properties/20771994/1659129606/image-0-480x320.jpg",
-   "http://media.onthemarket.com/properties/20778994/1659342424/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/20778994/1659342424/image-0-480x320.jpg",
+   "http://media.onthemarket.com/properties/20784487/1659530559/image-0-480x320.jpg"
   ]
  },
  {
@@ -30307,7 +30315,10 @@
    "tritax": 51,
    "q5": 56,
    "wentworth": 34
-  }
+  },
+  "not_same": [
+   "onthemarket-20786240"
+  ]
  },
  {
   "id": "rightmove-91608771",
@@ -30588,7 +30599,10 @@
    "tritax": 52,
    "q5": 52,
    "wentworth": 31
-  }
+  },
+  "not_same": [
+   "rightmove-95657874"
+  ]
  },
  {
   "id": "rightmove-90558783",
@@ -35241,7 +35255,8 @@
   "links": [
    "https://www.rightmove.co.uk/properties/95626656",
    "https://www.chestertons.co.uk/properties/22323249/lettings/PUL070085",
-   "https://www.onthemarket.com/details/5155293/"
+   "https://www.onthemarket.com/details/5155293/",
+   "https://www.zoopla.co.uk/to-rent/details/68438014/"
   ],
   "source": "sweep",
   "added": "2026-11-18",
@@ -35260,6 +35275,11 @@
     "2026-11-19",
     3200,
     "onthemarket"
+   ],
+   [
+    "2026-11-19",
+    3200,
+    "zoopla"
    ]
   ],
   "loc": [
@@ -35280,7 +35300,8 @@
   "photo": "https://media.rightmove.co.uk/dir/property-photo/6c979f76e/95626656/6c979f76e59654590f81198160eb120e_max_476x317.jpeg",
   "photos_seen": [
    "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/6c979f76e/95626656/6c979f76e59654590f81198160eb120e_max_296x197.jpeg",
-   "http://media.onthemarket.com/properties/5155293/1659439038/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/5155293/1659439038/image-0-480x320.jpg",
+   "https://lid.zoocdn.com/645/430/4d1031e9bb53805a9cb312b09123bb83b74a6941.jpg"
   ]
  },
  {
@@ -35295,7 +35316,8 @@
   "status": "new",
   "url": "https://www.onthemarket.com/details/20782224/",
   "links": [
-   "https://www.onthemarket.com/details/20782224/"
+   "https://www.onthemarket.com/details/20782224/",
+   "https://www.zoopla.co.uk/to-rent/details/74800835/"
   ],
   "source": "alert",
   "added": "2026-11-18",
@@ -35308,10 +35330,16 @@
     "2026-11-18",
     4500,
     "onthemarket"
+   ],
+   [
+    "2026-11-19",
+    4500,
+    "zoopla"
    ]
   ],
   "photos_seen": [
-   "http://media.onthemarket.com/properties/20782224/1659392726/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/20782224/1659392726/image-0-480x320.jpg",
+   "https://lid.zoocdn.com/645/430/6950652a918360027f87500be68d8d042a11bd3b.jpg"
   ],
   "photo": "http://media.onthemarket.com/properties/20782224/1659392726/image-0-480x320.jpg",
   "loc": [
@@ -35330,5 +35358,290 @@
    "wentworth": 42
   },
   "checked": "2026-11-19"
+ },
+ {
+  "id": "rightmove-95640420",
+  "title": "Garratt Lane, SW18",
+  "area": "SW18",
+  "rent": 4500,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/95640420",
+  "links": [
+   "https://www.rightmove.co.uk/properties/95640420",
+   "https://www.zoopla.co.uk/to-rent/details/74805814/"
+  ],
+  "source": "alert",
+  "added": "2026-11-19",
+  "added_at": "2026-11-19T10:51Z",
+  "notes": [
+   "From an email on 2026-11-19: fourguys, we've found you 1 property in SW London house v4"
+  ],
+  "prices": [
+   [
+    "2026-11-19",
+    4500,
+    "rightmove"
+   ],
+   [
+    "2026-11-19",
+    4500,
+    "zoopla"
+   ]
+  ],
+  "photos_seen": [
+   "https://media.rightmove.co.uk/property-photo/06be97011/95640420/06be970119c6f94a1c08a6f3367d6031.jpeg",
+   "https://lid.zoocdn.com/645/430/bb91e6cd0d7300229eca041d188667404aa186d6.jpg"
+  ],
+  "photo": "https://media.rightmove.co.uk/property-photo/06be97011/95640420/06be970119c6f94a1c08a6f3367d6031.jpeg",
+  "loc": [
+   51.438944,
+   -0.187033
+  ],
+  "station": {
+   "name": "Earlsfield",
+   "kind": "Rail",
+   "walk": 6
+  },
+  "not_same": [
+   "rightmove-93951570"
+  ],
+  "commute": {
+   "lcp": 49,
+   "tritax": 49,
+   "q5": 38,
+   "wentworth": 49
+  }
+ },
+ {
+  "id": "onthemarket-20785680",
+  "title": "Trevelyan Road, London SW17",
+  "area": "SW17",
+  "rent": 4350,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20785680/",
+  "links": [
+   "https://www.onthemarket.com/details/20785680/",
+   "https://www.zoopla.co.uk/to-rent/details/58545586/",
+   "https://www.rightmove.co.uk/properties/95647848"
+  ],
+  "source": "alert",
+  "added": "2026-11-19",
+  "added_at": "2026-11-19T12:21Z",
+  "notes": [
+   "From an email on 2026-11-19: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-19",
+    4350,
+    "onthemarket"
+   ],
+   [
+    "2026-11-19",
+    4350,
+    "zoopla"
+   ],
+   [
+    "2026-11-19",
+    4350,
+    "rightmove"
+   ]
+  ],
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20785680/1659552368/image-0-480x320.jpg",
+   "https://lid.zoocdn.com/645/430/9136e67326cb84602ebfc36829c21ecf048e5c16.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/6a5539f66/95647848/6a5539f66c865a9c4745b1071355fd86_max_296x197.jpeg"
+  ],
+  "photo": "http://media.onthemarket.com/properties/20785680/1659552368/image-0-480x320.jpg",
+  "loc": [
+   51.422968,
+   -0.168352
+  ],
+  "station": {
+   "name": "Tooting Broadway",
+   "kind": "Tube",
+   "walk": 9
+  },
+  "commute": {
+   "lcp": 52,
+   "tritax": 50,
+   "q5": 48,
+   "wentworth": 46
+  }
+ },
+ {
+  "id": "onthemarket-20786240",
+  "title": "Beaumont Road, LONDON",
+  "area": "",
+  "rent": 4200,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20786240/",
+  "links": [
+   "https://www.onthemarket.com/details/20786240/",
+   "https://www.zoopla.co.uk/to-rent/details/74806873/",
+   "https://www.rightmove.co.uk/properties/95652813"
+  ],
+  "source": "alert",
+  "added": "2026-11-19",
+  "added_at": "2026-11-19T13:06Z",
+  "notes": [
+   "From an email on 2026-11-19: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-19",
+    4200,
+    "onthemarket"
+   ],
+   [
+    "2026-11-19",
+    4200,
+    "zoopla"
+   ],
+   [
+    "2026-11-19",
+    4200,
+    "rightmove"
+   ]
+  ],
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20786240/1659560429/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/b3cfee195/95652813/b3cfee19578142895d1a55050627eea5_max_296x197.jpeg"
+  ],
+  "photo": "http://media.onthemarket.com/properties/20786240/1659560429/image-0-480x320.jpg",
+  "loc": [
+   51.500114,
+   -0.266301
+  ],
+  "station": {
+   "name": "South Acton",
+   "kind": "Overground",
+   "walk": 4
+  },
+  "not_same": [
+   "rightmove-94843401"
+  ],
+  "commute": {
+   "lcp": 51,
+   "tritax": 51,
+   "q5": 54,
+   "wentworth": 34
+  }
+ },
+ {
+  "id": "rightmove-95657874",
+  "title": "Barrowgate Road",
+  "area": "",
+  "rent": 4750,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/95657874",
+  "links": [
+   "https://www.rightmove.co.uk/properties/95657874",
+   "https://www.onthemarket.com/details/20788551/"
+  ],
+  "source": "alert",
+  "added": "2026-11-19",
+  "added_at": "2026-11-19T15:51Z",
+  "notes": [
+   "From an email on 2026-11-19: fourguys, we've found you 4 properties in SW London house v4"
+  ],
+  "prices": [
+   [
+    "2026-11-19",
+    4750,
+    "rightmove"
+   ],
+   [
+    "2026-11-19",
+    4750,
+    "onthemarket"
+   ]
+  ],
+  "photos_seen": [
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/f41e91c2b/95657874/f41e91c2b40fefefe06daad0d6bd14c5_max_296x197.jpeg",
+   "http://media.onthemarket.com/properties/20788551/1659602541/image-0-480x320.jpg"
+  ],
+  "photo": "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/f41e91c2b/95657874/f41e91c2b40fefefe06daad0d6bd14c5_max_296x197.jpeg",
+  "loc": [
+   51.488916,
+   -0.26864
+  ],
+  "station": {
+   "name": "Gunnersbury",
+   "kind": "Tube",
+   "walk": 9
+  },
+  "not_same": [
+   "rightmove-91831659"
+  ],
+  "commute": {
+   "lcp": 55,
+   "tritax": 56,
+   "q5": 53,
+   "wentworth": 31
+  }
+ },
+ {
+  "id": "rightmove-95651175",
+  "title": "Pearson House, London, SW15",
+  "area": "SW15",
+  "rent": 3800,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/95651175",
+  "links": [
+   "https://www.rightmove.co.uk/properties/95651175"
+  ],
+  "source": "alert",
+  "added": "2026-11-19",
+  "added_at": "2026-11-19T15:51Z",
+  "notes": [
+   "From an email on 2026-11-19: fourguys, we've found you 4 properties in SW London house v4"
+  ],
+  "prices": [
+   [
+    "2026-11-19",
+    3800,
+    "rightmove"
+   ]
+  ],
+  "photos_seen": [
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/1806cc6e1/95651175/1806cc6e1f8fdac188f743b393715543_max_296x197.jpeg"
+  ],
+  "photo": "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/1806cc6e1/95651175/1806cc6e1f8fdac188f743b393715543_max_296x197.jpeg",
+  "loc": [
+   51.47092,
+   -0.226874
+  ],
+  "station": {
+   "name": "Barnes",
+   "kind": "Rail",
+   "walk": 18
+  },
+  "commute": {
+   "lcp": 62,
+   "tritax": 58,
+   "q5": 54,
+   "wentworth": 45
+  }
  }
 ]
