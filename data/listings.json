@@ -7036,7 +7036,7 @@
    "Price changed from £4,800 to £4,300 (2026-10-26).",
    "Price changed from £4,300 to £3,800 (2026-10-30)."
   ],
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -20937,7 +20937,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Bathrooms corrected to 2 from the advert (31 Oct)."
@@ -21592,7 +21592,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21891,7 +21891,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -22575,7 +22575,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -22669,7 +22669,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -22855,7 +22855,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Bathrooms corrected to 1 from the advert (31 Oct)."
@@ -25184,7 +25184,8 @@
    "ChatGPT sweep says live: still available (2026-11-17).",
    "Taken down on Rightmove; Zoopla advert not checked yet (18 Nov).",
    "ChatGPT sweep says live: still available (2026-11-18).",
-   "Taken down on Rightmove; Zoopla advert not checked yet (19 Nov)."
+   "Taken down on Rightmove; Zoopla advert not checked yet (19 Nov).",
+   "ChatGPT sweep says live: still available (2026-11-19)."
   ],
   "prices": [
    [
@@ -25217,13 +25218,7 @@
   },
   "down": [
    "https://www.rightmove.co.uk/properties/94604028"
-  ],
-  "unconfirmed": "2026-11-19",
-  "off_market": {
-   "why": "Taken down on Rightmove; Zoopla advert not checked yet",
-   "checked": "2026-11-19",
-   "unconfirmed": true
-  }
+  ]
  },
  {
   "id": "rightmove-94611774",
@@ -26756,7 +26751,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "notes": [
    "Found by ChatGPT sweep (unverified)."
   ],
@@ -27072,7 +27067,7 @@
   ],
   "source": "search",
   "added": "2026-10-25",
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "notes": [
    "Missed by the sweep; found in a portal coverage check on 25 Oct (OpenRent private landlord)."
   ],
@@ -30784,7 +30779,7 @@
     "openrent"
    ]
   ],
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "loc": [
    51.44339,
    -0.1345781
@@ -30928,7 +30923,7 @@
   "source": "sweep",
   "added": "2026-11-02",
   "added_at": "2026-11-02T18:09Z",
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -31049,7 +31044,7 @@
    "q5": 23,
    "wentworth": 49
   },
-  "checked": "2026-11-18"
+  "checked": "2026-11-19"
  },
  {
   "id": "onthemarket-20679740",
@@ -32099,7 +32094,7 @@
   "source": "sweep",
   "added": "2026-11-06",
   "added_at": "2026-11-06T18:04Z",
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -32963,7 +32958,8 @@
    "ChatGPT sweep says live: still available (2026-11-17).",
    "Taken down on Rightmove; Zoopla advert not checked yet (18 Nov).",
    "ChatGPT sweep says live: still available (2026-11-18).",
-   "Taken down on Rightmove; Zoopla advert not checked yet (19 Nov)."
+   "Taken down on Rightmove; Zoopla advert not checked yet (19 Nov).",
+   "ChatGPT sweep says live: still available (2026-11-19)."
   ],
   "prices": [
    [
@@ -32993,13 +32989,7 @@
   ],
   "down": [
    "https://www.rightmove.co.uk/properties/95327973"
-  ],
-  "unconfirmed": "2026-11-19",
-  "off_market": {
-   "why": "Taken down on Rightmove; Zoopla advert not checked yet",
-   "checked": "2026-11-19",
-   "unconfirmed": true
-  }
+  ]
  },
  {
   "id": "zoopla-59529898",
@@ -33548,7 +33538,7 @@
    "q5": 49,
    "wentworth": 55
   },
-  "checked": "2026-11-18"
+  "checked": "2026-11-19"
  },
  {
   "id": "onthemarket-20742584",
@@ -33796,7 +33786,7 @@
   "source": "sweep",
   "added": "2026-11-12",
   "added_at": "2026-11-12T18:08Z",
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -34590,7 +34580,7 @@
     "zoopla"
    ]
   ],
-  "checked": "2026-11-18"
+  "checked": "2026-11-19"
  },
  {
   "id": "openrent-3113509",
@@ -34634,7 +34624,7 @@
    "q5": 54,
    "wentworth": 41
   },
-  "checked": "2026-11-18"
+  "checked": "2026-11-19"
  },
  {
   "id": "onthemarket-20767446",
@@ -34882,7 +34872,7 @@
   "source": "sweep",
   "added": "2026-11-17",
   "added_at": "2026-11-17T18:05Z",
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Price changed from £3,400 to £3,600 (2026-11-18)."
@@ -35219,7 +35209,7 @@
   "area": "SW17",
   "rent": 3500,
   "beds": 4,
-  "baths": null,
+  "baths": 2,
   "available": "",
   "sharers": "unknown",
   "status": "new",
@@ -35239,7 +35229,8 @@
     3500,
     "zoopla"
    ]
-  ]
+  ],
+  "checked": "2026-11-19"
  },
  {
   "id": "rightmove-95626656",
@@ -35310,14 +35301,15 @@
   "area": "SW15",
   "rent": 4500,
   "beds": 4,
-  "baths": null,
-  "available": "",
+  "baths": 1,
+  "available": "2026-12-05",
   "sharers": "unknown",
   "status": "new",
   "url": "https://www.onthemarket.com/details/20782224/",
   "links": [
    "https://www.onthemarket.com/details/20782224/",
-   "https://www.zoopla.co.uk/to-rent/details/74800835/"
+   "https://www.zoopla.co.uk/to-rent/details/74800835/",
+   "https://www.johndwood.co.uk/properties/22323391/lettings/RIL260040"
   ],
   "source": "alert",
   "added": "2026-11-18",
@@ -35543,17 +35535,20 @@
  {
   "id": "rightmove-95657874",
   "title": "Barrowgate Road",
-  "area": "",
+  "area": "Chiswick",
   "rent": 4750,
   "beds": 4,
-  "baths": null,
-  "available": "",
+  "baths": 2,
+  "available": "2027-01-29",
   "sharers": "unknown",
   "status": "new",
   "url": "https://www.rightmove.co.uk/properties/95657874",
   "links": [
    "https://www.rightmove.co.uk/properties/95657874",
-   "https://www.onthemarket.com/details/20788551/"
+   "https://www.onthemarket.com/details/20788551/",
+   "https://www.zoopla.co.uk/to-rent/details/74809305/",
+   "https://www.chestertons.co.uk/properties/22325551/lettings/CLL190112",
+   "https://www.foxtons.co.uk/properties-to-rent/w4/chwk0003092"
   ],
   "source": "alert",
   "added": "2026-11-19",
@@ -35595,7 +35590,8 @@
    "tritax": 56,
    "q5": 53,
    "wentworth": 31
-  }
+  },
+  "checked": "2026-11-19"
  },
  {
   "id": "rightmove-95651175",
@@ -35643,5 +35639,57 @@
    "q5": 54,
    "wentworth": 45
   }
+ },
+ {
+  "id": "onthemarket-20780779",
+  "title": "Noyna Road, London SW17, SW17 7PQ",
+  "area": "Tooting",
+  "rent": 4300,
+  "beds": 4,
+  "baths": 3,
+  "available": "2027-01-22",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.zoopla.co.uk/to-rent/details/74799371/",
+  "links": [
+   "https://www.onthemarket.com/details/20780779/",
+   "https://www.zoopla.co.uk/to-rent/details/74799371/",
+   "https://www.winkworth.co.uk/properties/to-let/noyna-road-london-sw17/TOO260608"
+  ],
+  "source": "sweep",
+  "added": "2026-11-19",
+  "added_at": "2026-11-19T18:11Z",
+  "checked": "2026-11-19",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-11-19",
+    4300,
+    "zoopla"
+   ],
+   [
+    "2026-11-19",
+    4300,
+    "onthemarket"
+   ]
+  ],
+  "loc": [
+   51.435721,
+   -0.161494
+  ],
+  "station": {
+   "name": "Tooting Bec",
+   "kind": "Tube",
+   "walk": 2
+  },
+  "commute": {
+   "lcp": 43,
+   "tritax": 41,
+   "q5": 39,
+   "wentworth": 50
+  },
+  "photo": "https://media.onthemarket.com/properties/20780779/1659369816/image-0-1024x1024.jpg"
  }
 ]
