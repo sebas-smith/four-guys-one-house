@@ -35309,7 +35309,8 @@
   "links": [
    "https://www.onthemarket.com/details/20782224/",
    "https://www.zoopla.co.uk/to-rent/details/74800835/",
-   "https://www.johndwood.co.uk/properties/22323391/lettings/RIL260040"
+   "https://www.johndwood.co.uk/properties/22323391/lettings/RIL260040",
+   "https://www.rightmove.co.uk/properties/95628171"
   ],
   "source": "alert",
   "added": "2026-11-18",
@@ -35327,6 +35328,11 @@
     "2026-11-19",
     4500,
     "zoopla"
+   ],
+   [
+    "2026-11-19",
+    4500,
+    "rightmove"
    ]
   ],
   "photos_seen": [
@@ -35548,7 +35554,9 @@
    "https://www.onthemarket.com/details/20788551/",
    "https://www.zoopla.co.uk/to-rent/details/74809305/",
    "https://www.chestertons.co.uk/properties/22325551/lettings/CLL190112",
-   "https://www.foxtons.co.uk/properties-to-rent/w4/chwk0003092"
+   "https://www.foxtons.co.uk/properties-to-rent/w4/chwk0003092",
+   "https://www.rightmove.co.uk/properties/95663610",
+   "https://www.zoopla.co.uk/to-rent/details/68203028/"
   ],
   "source": "alert",
   "added": "2026-11-19",
