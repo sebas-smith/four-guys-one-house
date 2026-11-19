@@ -22,13 +22,23 @@
   ]
  },
  {
-  "id": "onthemarket-20344440",
-  "title": "Harbut Road, London SW11",
-  "rent": 5000,
-  "why": "Let agreed on marshandparsons; Zoopla advert not checked yet",
-  "since": "2026-11-14",
+  "id": "zoopla-74575023",
+  "title": "Alderbrook Road, London SW12",
+  "rent": 3950,
+  "why": "Taken down on Rightmove; Zoopla advert not checked yet",
+  "since": "2026-11-19",
   "links": [
-   "https://www.zoopla.co.uk/to-rent/details/74249254/"
+   "https://www.zoopla.co.uk/to-rent/details/74575023/"
+  ]
+ },
+ {
+  "id": "rightmove-95327973",
+  "title": "Tooting Bec, London, SW17, SW17 7NE",
+  "rent": 4775,
+  "why": "Taken down on Rightmove; Zoopla advert not checked yet",
+  "since": "2026-11-19",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74735584/"
   ]
  },
  {
@@ -40,6 +50,17 @@
   "links": [
    "https://www.zoopla.co.uk/to-rent/details/72614145/",
    "https://www.chestertons.co.uk/properties/22305136/lettings/WLS250146"
+  ]
+ },
+ {
+  "id": "rampton-baseley-22307051",
+  "title": "Ellerton Road, London, SW18",
+  "rent": 4300,
+  "why": "Taken down on OnTheMarket; ramptonbaseley advert not checked yet",
+  "since": "2026-11-19",
+  "links": [
+   "https://www.ramptonbaseley.com/properties/22307051/lettings/BEL170119",
+   "https://www.zoopla.co.uk/to-rent/details/60350627/"
   ]
  }
 ]
