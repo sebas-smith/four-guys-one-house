@@ -30596,6 +30596,7 @@
    "wentworth": 31
   },
   "not_same": [
+   "onthemarket-8737954",
    "rightmove-95657874"
   ]
  },
@@ -35371,7 +35372,8 @@
   "url": "https://www.rightmove.co.uk/properties/95640420",
   "links": [
    "https://www.rightmove.co.uk/properties/95640420",
-   "https://www.zoopla.co.uk/to-rent/details/74805814/"
+   "https://www.zoopla.co.uk/to-rent/details/74805814/",
+   "https://www.onthemarket.com/details/20790392/"
   ],
   "source": "alert",
   "added": "2026-11-19",
@@ -35389,11 +35391,17 @@
     "2026-11-19",
     4500,
     "zoopla"
+   ],
+   [
+    "2026-11-20",
+    4500,
+    "onthemarket"
    ]
   ],
   "photos_seen": [
    "https://media.rightmove.co.uk/property-photo/06be97011/95640420/06be970119c6f94a1c08a6f3367d6031.jpeg",
-   "https://lid.zoocdn.com/645/430/bb91e6cd0d7300229eca041d188667404aa186d6.jpg"
+   "https://lid.zoocdn.com/645/430/bb91e6cd0d7300229eca041d188667404aa186d6.jpg",
+   "http://media.onthemarket.com/properties/20790392/1659705225/image-0-480x320.jpg"
   ],
   "photo": "https://media.rightmove.co.uk/property-photo/06be97011/95640420/06be970119c6f94a1c08a6f3367d6031.jpeg",
   "loc": [
@@ -35557,13 +35565,16 @@
    "https://www.chestertons.co.uk/properties/22325551/lettings/CLL190112",
    "https://www.foxtons.co.uk/properties-to-rent/w4/chwk0003092",
    "https://www.rightmove.co.uk/properties/95663610",
-   "https://www.zoopla.co.uk/to-rent/details/68203028/"
+   "https://www.zoopla.co.uk/to-rent/details/68203028/",
+   "https://www.onthemarket.com/details/8737954/"
   ],
   "source": "alert",
   "added": "2026-11-19",
   "added_at": "2026-11-19T15:51Z",
   "notes": [
-   "From an email on 2026-11-19: fourguys, we've found you 4 properties in SW London house v4"
+   "From an email on 2026-11-19: fourguys, we've found you 4 properties in SW London house v4",
+   "From an email on 2026-11-20: New properties in London (drawn area)",
+   "Same house as onthemarket-8737954 by its photos; merged (20 Nov)."
   ],
   "prices": [
    [
@@ -35573,6 +35584,11 @@
    ],
    [
     "2026-11-19",
+    4750,
+    "onthemarket"
+   ],
+   [
+    "2026-11-20",
     4750,
     "onthemarket"
    ]
