@@ -29970,7 +29970,7 @@
   "id": "rightmove-94449267",
   "title": "Shuttleworth Road, SW11",
   "area": "SW11",
-  "rent": 4950,
+  "rent": 4800,
   "beds": 4,
   "baths": 3,
   "available": "",
@@ -29985,7 +29985,8 @@
   "added_at": "2026-10-31T12:03Z",
   "notes": [
    "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-10-19.",
-   "Price cut: £5,000 to £4,950 on the live adverts (10 Nov)."
+   "Price cut: £5,000 to £4,950 on the live adverts (10 Nov).",
+   "Price cut on Rightmove: £4,950 to £4,800 (2026-11-20)."
   ],
   "prices": [
    [
@@ -29996,6 +29997,11 @@
    [
     "2026-11-10",
     4950,
+    "rightmove"
+   ],
+   [
+    "2026-11-20",
+    4800,
     "rightmove"
    ]
   ],
@@ -30018,6 +30024,9 @@
   },
   "not_same": [
    "rightmove-89936199"
+  ],
+  "photos_seen": [
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/408f5f2b2/94449267/408f5f2b22e6c3930b45ef31130fc8f1_max_296x197.jpeg"
   ]
  },
  {
@@ -35999,7 +36008,12 @@
    "q5": 39,
    "wentworth": 52
   },
-  "photo": "https://media.onthemarket.com/properties/20793864/1659789842/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20793864/1659789842/image-0-1024x1024.jpg",
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20793864/1659789842/image-0-480x320.jpg",
+   "https://lid.zoocdn.com/645/430/4bf8d2ef639d151608f633a2f4041c5551e2e21a.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/9c3efd06e/95697654/9c3efd06e232d9b7b2afb2d5de10bb22_max_296x197.jpeg"
+  ]
  },
  {
   "id": "onthemarket-20794094",
@@ -36051,7 +36065,12 @@
    "q5": 44,
    "wentworth": 55
   },
-  "photo": "https://media.onthemarket.com/properties/20794094/1659793490/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20794094/1659793490/image-0-1024x1024.jpg",
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20794094/1659793490/image-0-480x320.jpg",
+   "https://lid.zoocdn.com/645/430/38ff7407553b536e86d0b0b9b57129464feac3b5.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/b9681ace8/95699082/b9681ace8b0f0c351b36fb365c4ae1db_max_296x197.jpeg"
+  ]
  },
  {
   "id": "zoopla-74816875",
@@ -36194,7 +36213,11 @@
    "tritax": 53,
    "q5": 52,
    "wentworth": 51
-  }
+  },
+  "photos_seen": [
+   "https://lid.zoocdn.com/645/430/333bb412a06c239132176818576f454db948ddf7.jpg"
+  ],
+  "photo": "https://lid.zoocdn.com/645/430/333bb412a06c239132176818576f454db948ddf7.jpg"
  },
  {
   "id": "onthemarket-19340363",
@@ -36246,6 +36269,119 @@
    "q5": 51,
    "wentworth": 49
   },
-  "photo": "https://media.onthemarket.com/properties/19340363/1659789208/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/19340363/1659789208/image-0-1024x1024.jpg",
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/19340363/1659789208/image-0-480x320.jpg",
+   "https://lid.zoocdn.com/645/430/7256af9ca0c006a28cc2d83a8c3489e5c0ab06aa.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/db343f043/95697261/db343f04331dea4a1dc4c559ac529509_max_296x197.jpeg"
+  ]
+ },
+ {
+  "id": "rightmove-95690313",
+  "title": "Englewood Road, London",
+  "area": "",
+  "rent": 4600,
+  "beds": 5,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/95690313",
+  "links": [
+   "https://www.rightmove.co.uk/properties/95690313"
+  ],
+  "source": "alert",
+  "added": "2026-11-20",
+  "added_at": "2026-11-20T13:16Z",
+  "notes": [
+   "From an email on 2026-11-20: fourguys, we've found you 2 properties in SW London house v4"
+  ],
+  "prices": [
+   [
+    "2026-11-20",
+    4600,
+    "rightmove"
+   ]
+  ],
+  "photos_seen": [
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/efaf62694/95690313/efaf6269482849562318dc5b0f9b64b8_max_296x197.jpeg"
+  ],
+  "photo": "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/efaf62694/95690313/efaf6269482849562318dc5b0f9b64b8_max_296x197.jpeg",
+  "loc": [
+   51.451939,
+   -0.143411
+  ],
+  "station": {
+   "name": "Clapham South",
+   "kind": "Tube",
+   "walk": 5
+  },
+  "commute": {
+   "lcp": 44,
+   "tritax": 42,
+   "q5": 40,
+   "wentworth": 54
+  }
+ },
+ {
+  "id": "onthemarket-20795803",
+  "title": "Crusoe Road, Mitcham CR4",
+  "area": "CR4",
+  "rent": 3200,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20795803/",
+  "links": [
+   "https://www.onthemarket.com/details/20795803/",
+   "https://www.zoopla.co.uk/to-rent/details/74819371/",
+   "https://www.rightmove.co.uk/properties/95708160"
+  ],
+  "source": "alert",
+  "added": "2026-11-20",
+  "added_at": "2026-11-20T17:07Z",
+  "notes": [
+   "From an email on 2026-11-20: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-20",
+    3200,
+    "onthemarket"
+   ],
+   [
+    "2026-11-20",
+    3200,
+    "zoopla"
+   ],
+   [
+    "2026-11-20",
+    3200,
+    "rightmove"
+   ]
+  ],
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20795803/1659815941/image-0-480x320.jpg",
+   "https://lid.zoocdn.com/645/430/bf25fb3d9622fc702a3b99eb7581ced92b72e99d.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/1eb036707/95708160/1eb036707f9cfd26bc437e1ad891cb0f_max_296x197.jpeg"
+  ],
+  "photo": "http://media.onthemarket.com/properties/20795803/1659815941/image-0-480x320.jpg",
+  "loc": [
+   51.417018,
+   -0.164061
+  ],
+  "station": {
+   "name": "Tooting",
+   "kind": "Rail",
+   "walk": 6
+  },
+  "commute": {
+   "lcp": 55,
+   "tritax": 52,
+   "q5": 53,
+   "wentworth": 49
+  }
  }
 ]
