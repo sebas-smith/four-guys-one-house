@@ -7066,7 +7066,7 @@
    "Price changed from £4,800 to £4,300 (2026-10-26).",
    "Price changed from £4,300 to £3,800 (2026-10-30)."
   ],
-  "checked": "2026-11-20",
+  "checked": "2026-11-21",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -20984,7 +20984,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-20",
+  "checked": "2026-11-21",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Bathrooms corrected to 2 from the advert (31 Oct)."
@@ -21639,7 +21639,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-20",
+  "checked": "2026-11-21",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21938,7 +21938,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-20",
+  "checked": "2026-11-21",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -22628,7 +22628,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-20",
+  "checked": "2026-11-21",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -22722,7 +22722,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-20",
+  "checked": "2026-11-21",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -22908,7 +22908,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-20",
+  "checked": "2026-11-21",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Bathrooms corrected to 1 from the advert (31 Oct)."
@@ -25262,7 +25262,8 @@
    "ChatGPT sweep says live: still available (2026-11-19).",
    "Taken down on Rightmove; Zoopla advert not checked yet (20 Nov).",
    "ChatGPT sweep says live: still available (2026-11-20).",
-   "Taken down on Rightmove; Zoopla advert not checked yet (21 Nov)."
+   "Taken down on Rightmove; Zoopla advert not checked yet (21 Nov).",
+   "ChatGPT sweep says live: still available (2026-11-21)."
   ],
   "prices": [
    [
@@ -25295,13 +25296,7 @@
   },
   "down": [
    "https://www.rightmove.co.uk/properties/94604028"
-  ],
-  "unconfirmed": "2026-11-21",
-  "off_market": {
-   "why": "Taken down on Rightmove; Zoopla advert not checked yet",
-   "checked": "2026-11-21",
-   "unconfirmed": true
-  }
+  ]
  },
  {
   "id": "rightmove-94611774",
@@ -26844,7 +26839,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-11-20",
+  "checked": "2026-11-21",
   "notes": [
    "Found by ChatGPT sweep (unverified)."
   ],
@@ -27160,7 +27155,7 @@
   ],
   "source": "search",
   "added": "2026-10-25",
-  "checked": "2026-11-20",
+  "checked": "2026-11-21",
   "notes": [
    "Missed by the sweep; found in a portal coverage check on 25 Oct (OpenRent private landlord)."
   ],
@@ -28117,7 +28112,8 @@
    "Merged rightmove-94516866 into this home: same street, beds, baths and rent (31 Oct).",
    "Taken down on Rightmove; Zoopla advert not checked yet (20 Nov).",
    "ChatGPT sweep says live: still available (2026-11-20).",
-   "Taken down on Rightmove; Zoopla advert not checked yet (21 Nov)."
+   "Taken down on Rightmove; Zoopla advert not checked yet (21 Nov).",
+   "ChatGPT sweep says live: still available (2026-11-21)."
   ],
   "prices": [
    [
@@ -28162,13 +28158,7 @@
    "https://www.rightmove.co.uk/properties/94553118",
    "https://www.onthemarket.com/details/20076158/",
    "https://www.rightmove.co.uk/properties/94516866"
-  ],
-  "unconfirmed": "2026-11-21",
-  "off_market": {
-   "why": "Taken down on Rightmove; Zoopla advert not checked yet",
-   "checked": "2026-11-21",
-   "unconfirmed": true
-  }
+  ]
  },
  {
   "id": "zoopla-73900859",
@@ -30955,7 +30945,7 @@
     "openrent"
    ]
   ],
-  "checked": "2026-11-20",
+  "checked": "2026-11-21",
   "loc": [
    51.44339,
    -0.1345781
@@ -31099,7 +31089,7 @@
   "source": "sweep",
   "added": "2026-11-02",
   "added_at": "2026-11-02T18:09Z",
-  "checked": "2026-11-20",
+  "checked": "2026-11-21",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -31220,7 +31210,7 @@
    "q5": 23,
    "wentworth": 49
   },
-  "checked": "2026-11-20"
+  "checked": "2026-11-21"
  },
  {
   "id": "onthemarket-20679740",
@@ -32271,7 +32261,7 @@
   "source": "sweep",
   "added": "2026-11-06",
   "added_at": "2026-11-06T18:04Z",
-  "checked": "2026-11-20",
+  "checked": "2026-11-21",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -33158,7 +33148,8 @@
    "Taken down on Rightmove; Zoopla advert not checked yet (20 Nov).",
    "Price changed from £4,775 to £4,750 (2026-11-20).",
    "ChatGPT sweep says live: still available (2026-11-20).",
-   "Taken down on Rightmove; Zoopla advert not checked yet (21 Nov)."
+   "Taken down on Rightmove; Zoopla advert not checked yet (21 Nov).",
+   "ChatGPT sweep says live: still available (2026-11-21)."
   ],
   "prices": [
    [
@@ -33193,13 +33184,7 @@
   ],
   "down": [
    "https://www.rightmove.co.uk/properties/95327973"
-  ],
-  "unconfirmed": "2026-11-21",
-  "off_market": {
-   "why": "Taken down on Rightmove; Zoopla advert not checked yet",
-   "checked": "2026-11-21",
-   "unconfirmed": true
-  }
+  ]
  },
  {
   "id": "zoopla-59529898",
@@ -33748,7 +33733,7 @@
    "q5": 49,
    "wentworth": 55
   },
-  "checked": "2026-11-20"
+  "checked": "2026-11-21"
  },
  {
   "id": "onthemarket-20742584",
@@ -33996,7 +33981,7 @@
   "source": "sweep",
   "added": "2026-11-12",
   "added_at": "2026-11-12T18:08Z",
-  "checked": "2026-11-20",
+  "checked": "2026-11-21",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -34812,7 +34797,7 @@
     "zoopla"
    ]
   ],
-  "checked": "2026-11-20"
+  "checked": "2026-11-21"
  },
  {
   "id": "openrent-3113509",
@@ -34856,7 +34841,7 @@
    "q5": 54,
    "wentworth": 41
   },
-  "checked": "2026-11-20"
+  "checked": "2026-11-21"
  },
  {
   "id": "onthemarket-20767446",
@@ -35109,7 +35094,7 @@
   "source": "sweep",
   "added": "2026-11-17",
   "added_at": "2026-11-17T18:05Z",
-  "checked": "2026-11-20",
+  "checked": "2026-11-21",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Price changed from £3,400 to £3,600 (2026-11-18)."
@@ -35467,7 +35452,7 @@
     "zoopla"
    ]
   ],
-  "checked": "2026-11-20"
+  "checked": "2026-11-21"
  },
  {
   "id": "rightmove-95626656",
@@ -35879,7 +35864,7 @@
   "baths": 3,
   "available": "2027-01-22",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.zoopla.co.uk/to-rent/details/74799371/",
   "links": [
    "https://www.onthemarket.com/details/20780779/",
@@ -35892,7 +35877,9 @@
   "checked": "2026-11-21",
   "notes": [
    "Found by ChatGPT sweep (live).",
-   "Let agreed on OnTheMarket; Zoopla advert not checked yet (21 Nov)."
+   "Let agreed on OnTheMarket; Zoopla advert not checked yet (21 Nov).",
+   "ChatGPT sweep says let agreed (2026-11-21).",
+   "Let agreed on OnTheMarket (21 Nov)."
   ],
   "prices": [
    [
@@ -35925,11 +35912,9 @@
   "down": [
    "https://www.onthemarket.com/details/20780779/"
   ],
-  "unconfirmed": "2026-11-21",
   "off_market": {
-   "why": "Let agreed on OnTheMarket; Zoopla advert not checked yet",
-   "checked": "2026-11-21",
-   "unconfirmed": true
+   "why": "Let agreed on OnTheMarket",
+   "checked": "2026-11-21"
   }
  },
  {
@@ -35978,7 +35963,7 @@
    "q5": 55,
    "wentworth": 40
   },
-  "checked": "2026-11-20"
+  "checked": "2026-11-21"
  },
  {
   "id": "onthemarket-20789672",
@@ -36176,7 +36161,7 @@
   "source": "sweep",
   "added": "2026-11-20",
   "added_at": "2026-11-20T18:11Z",
-  "checked": "2026-11-20",
+  "checked": "2026-11-21",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -36275,7 +36260,7 @@
   "source": "sweep",
   "added": "2026-11-20",
   "added_at": "2026-11-20T18:11Z",
-  "checked": "2026-11-20",
+  "checked": "2026-11-21",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -36472,5 +36457,49 @@
    "wentworth": 49
   },
   "checked": "2026-11-21"
+ },
+ {
+  "id": "jorgensen-turner-4030",
+  "title": "22 Collingbourne Road, Shepherds Bush, W12 0JQ",
+  "area": "Shepherd's Bush",
+  "rent": 4799,
+  "beds": 4,
+  "baths": 3,
+  "available": "",
+  "sharers": "ok",
+  "status": "new",
+  "url": "https://jorgensenturner.com/properties/letting/uncategorized/london/collingbourne-road-shepherds-bush-w12/",
+  "links": [
+   "https://jorgensenturner.com/properties/letting/uncategorized/london/collingbourne-road-shepherds-bush-w12/"
+  ],
+  "source": "sweep",
+  "added": "2026-11-21",
+  "added_at": "2026-11-21T18:06Z",
+  "checked": "2026-11-21",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-11-21",
+    4799,
+    "jorgensenturner"
+   ]
+  ],
+  "loc": [
+   51.508804321289,
+   -0.23490299284458
+  ],
+  "station": {
+   "name": "Shepherd's Bush Market",
+   "kind": "Tube",
+   "walk": 11
+  },
+  "commute": {
+   "lcp": 37,
+   "tritax": 40,
+   "q5": 54,
+   "wentworth": 40
+  }
  }
 ]
