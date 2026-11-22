@@ -7051,7 +7051,7 @@
   "baths": 3,
   "available": "2026-11-09",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.openrent.co.uk/property-to-rent/london/4-bed-terraced-house-ravensbury-road-sw18/3054795",
   "links": [
    "https://www.openrent.co.uk/property-to-rent/london/4-bed-terraced-house-ravensbury-road-sw18/3054795",
@@ -7063,9 +7063,10 @@
    "Imported from the old ChatGPT tracker (status: recheck). Last checked 2026-10-05.",
    "Price changed from £3,340 to £4,800 (2026-10-18).",
    "Price changed from £4,800 to £4,300 (2026-10-26).",
-   "Price changed from £4,300 to £3,800 (2026-10-30)."
+   "Price changed from £4,300 to £3,800 (2026-10-30).",
+   "ChatGPT sweep says let agreed (2026-11-22)."
   ],
-  "checked": "2026-11-21",
+  "checked": "2026-11-22",
   "station": {
    "name": "Earlsfield",
    "kind": "Rail",
@@ -7102,6 +7103,10 @@
    "tritax": 50,
    "q5": 39,
    "wentworth": 48
+  },
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-11-22"
   }
  },
  {
@@ -17957,7 +17962,7 @@
   "id": "rightmove-94297608",
   "title": "Clapham Common, London, SW4",
   "area": "Clapham Common",
-  "rent": 4000,
+  "rent": 4400,
   "beds": 4,
   "baths": 1,
   "available": "2026-10-28",
@@ -17984,7 +17989,9 @@
    "Price cut on Rightmove: £4,200 to £4,100 (2026-11-10).",
    "Price cut on Onthemarket: £4,100 to £4,000 (2026-11-12).",
    "Price cut on Rightmove: £4,100 to £4,000 (2026-11-12).",
-   "Taken down on OnTheMarket; OpenRent advert not checked yet (18 Nov)."
+   "Taken down on OnTheMarket; OpenRent advert not checked yet (18 Nov).",
+   "Price changed from £4,000 to £4,400 (2026-11-22).",
+   "ChatGPT sweep says live: still available (2026-11-22)."
   ],
   "station": {
    "name": "Clapham Common",
@@ -18046,6 +18053,11 @@
     "2026-11-12",
     4000,
     "rightmove"
+   ],
+   [
+    "2026-11-22",
+    4400,
+    "rightmove"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -18067,13 +18079,7 @@
   "down": [
    "https://www.onthemarket.com/details/20550409/",
    "https://www.rightmove.co.uk/properties/94297608"
-  ],
-  "unconfirmed": "2026-11-18",
-  "off_market": {
-   "why": "Taken down on OnTheMarket; OpenRent advert not checked yet",
-   "checked": "2026-11-22",
-   "unconfirmed": true
-  }
+  ]
  },
  {
   "id": "onthemarket-20530138",
@@ -20983,7 +20989,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-21",
+  "checked": "2026-11-22",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Bathrooms corrected to 2 from the advert (31 Oct)."
@@ -21638,7 +21644,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-21",
+  "checked": "2026-11-22",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -21937,7 +21943,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-21",
+  "checked": "2026-11-22",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -22627,7 +22633,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-21",
+  "checked": "2026-11-22",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -22721,7 +22727,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-21",
+  "checked": "2026-11-22",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -22895,7 +22901,7 @@
   "id": "openrent-3040857",
   "title": "badric court sw11",
   "area": "Wandsworth",
-  "rent": 3200,
+  "rent": 2995,
   "beds": 5,
   "baths": 1,
   "available": "Today",
@@ -22907,10 +22913,11 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-21",
+  "checked": "2026-11-22",
   "notes": [
    "Found by ChatGPT sweep (live).",
-   "Bathrooms corrected to 1 from the advert (31 Oct)."
+   "Bathrooms corrected to 1 from the advert (31 Oct).",
+   "Price changed from £3,200 to £2,995 (2026-11-22)."
   ],
   "station": {
    "name": "Clapham Junction",
@@ -22921,6 +22928,11 @@
    [
     "2026-10-18",
     3200,
+    "openrent"
+   ],
+   [
+    "2026-11-22",
+    2995,
     "openrent"
    ]
   ],
@@ -23004,7 +23016,8 @@
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Bathrooms corrected to 2 from the advert (31 Oct).",
-   "Taken down on OnTheMarket; OpenRent advert not checked yet (21 Nov)."
+   "Taken down on OnTheMarket; OpenRent advert not checked yet (21 Nov).",
+   "ChatGPT sweep says live: still available (2026-11-22)."
   ],
   "station": {
    "name": "Tooting Broadway",
@@ -23037,13 +23050,7 @@
   },
   "down": [
    "https://www.onthemarket.com/details/20348079/"
-  ],
-  "unconfirmed": "2026-11-21",
-  "off_market": {
-   "why": "Taken down on OnTheMarket; OpenRent advert not checked yet",
-   "checked": "2026-11-22",
-   "unconfirmed": true
-  }
+  ]
  },
  {
   "id": "rightmove-93086517",
@@ -25263,7 +25270,8 @@
    "ChatGPT sweep says live: still available (2026-11-20).",
    "Taken down on Rightmove; Zoopla advert not checked yet (21 Nov).",
    "ChatGPT sweep says live: still available (2026-11-21).",
-   "Taken down on Rightmove; Zoopla advert not checked yet (22 Nov)."
+   "Taken down on Rightmove; Zoopla advert not checked yet (22 Nov).",
+   "ChatGPT sweep says live: still available (2026-11-22)."
   ],
   "prices": [
    [
@@ -25296,13 +25304,7 @@
   },
   "down": [
    "https://www.rightmove.co.uk/properties/94604028"
-  ],
-  "unconfirmed": "2026-11-22",
-  "off_market": {
-   "why": "Taken down on Rightmove; Zoopla advert not checked yet",
-   "checked": "2026-11-22",
-   "unconfirmed": true
-  }
+  ]
  },
  {
   "id": "rightmove-94611774",
@@ -26845,7 +26847,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-11-21",
+  "checked": "2026-11-22",
   "notes": [
    "Found by ChatGPT sweep (unverified)."
   ],
@@ -27161,7 +27163,7 @@
   ],
   "source": "search",
   "added": "2026-10-25",
-  "checked": "2026-11-21",
+  "checked": "2026-11-22",
   "notes": [
    "Missed by the sweep; found in a portal coverage check on 25 Oct (OpenRent private landlord)."
   ],
@@ -28117,7 +28119,8 @@
    "ChatGPT sweep says live: still available (2026-11-20).",
    "Taken down on Rightmove; Zoopla advert not checked yet (21 Nov).",
    "ChatGPT sweep says live: still available (2026-11-21).",
-   "Taken down on Rightmove; Zoopla advert not checked yet (22 Nov)."
+   "Taken down on Rightmove; Zoopla advert not checked yet (22 Nov).",
+   "ChatGPT sweep says live: still available (2026-11-22)."
   ],
   "prices": [
    [
@@ -28162,13 +28165,7 @@
    "https://www.rightmove.co.uk/properties/94553118",
    "https://www.onthemarket.com/details/20076158/",
    "https://www.rightmove.co.uk/properties/94516866"
-  ],
-  "unconfirmed": "2026-11-22",
-  "off_market": {
-   "why": "Taken down on Rightmove; Zoopla advert not checked yet",
-   "checked": "2026-11-22",
-   "unconfirmed": true
-  }
+  ]
  },
  {
   "id": "zoopla-73900859",
@@ -28788,7 +28785,7 @@
   "baths": 2,
   "available": "",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/20647670/",
   "links": [
    "https://www.onthemarket.com/details/20647670/",
@@ -28799,7 +28796,9 @@
   "added": "2026-10-29",
   "notes": [
    "From an email on 2026-10-29: New properties in London (drawn area)",
-   "Taken down on OnTheMarket; Zoopla advert not checked yet (20 Nov)."
+   "Taken down on OnTheMarket; Zoopla advert not checked yet (20 Nov).",
+   "ChatGPT sweep says let agreed (2026-11-22).",
+   "Advert taken down on OnTheMarket (22 Nov)."
   ],
   "prices": [
    [
@@ -28839,11 +28838,9 @@
   "down": [
    "https://www.onthemarket.com/details/20647670/"
   ],
-  "unconfirmed": "2026-11-20",
   "off_market": {
-   "why": "Taken down on OnTheMarket; Zoopla advert not checked yet",
-   "checked": "2026-11-22",
-   "unconfirmed": true
+   "why": "Advert taken down on OnTheMarket",
+   "checked": "2026-11-22"
   }
  },
  {
@@ -30955,7 +30952,7 @@
     "openrent"
    ]
   ],
-  "checked": "2026-11-21",
+  "checked": "2026-11-22",
   "loc": [
    51.44339,
    -0.1345781
@@ -31099,7 +31096,7 @@
   "source": "sweep",
   "added": "2026-11-02",
   "added_at": "2026-11-02T18:09Z",
-  "checked": "2026-11-21",
+  "checked": "2026-11-22",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -31182,7 +31179,7 @@
   "id": "openrent-2738801",
   "title": "Paxton Terrace, SW1V",
   "area": "Pimlico",
-  "rent": 4300,
+  "rent": 4500,
   "beds": 4,
   "baths": 2,
   "available": "2026-12-05",
@@ -31196,12 +31193,18 @@
   "added": "2026-11-02",
   "added_at": "2026-11-02T17:46Z",
   "notes": [
-   "From an email on 2026-11-02: New properties found for your search: Wandsworth, London"
+   "From an email on 2026-11-02: New properties found for your search: Wandsworth, London",
+   "Price changed from £4,300 to £4,500 (2026-11-22)."
   ],
   "prices": [
    [
     "2026-11-02",
     4300,
+    "openrent"
+   ],
+   [
+    "2026-11-22",
+    4500,
     "openrent"
    ]
   ],
@@ -31220,7 +31223,7 @@
    "q5": 23,
    "wentworth": 49
   },
-  "checked": "2026-11-21"
+  "checked": "2026-11-22"
  },
  {
   "id": "onthemarket-20679740",
@@ -32271,7 +32274,7 @@
   "source": "sweep",
   "added": "2026-11-06",
   "added_at": "2026-11-06T18:04Z",
-  "checked": "2026-11-21",
+  "checked": "2026-11-22",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -33160,7 +33163,8 @@
    "ChatGPT sweep says live: still available (2026-11-20).",
    "Taken down on Rightmove; Zoopla advert not checked yet (21 Nov).",
    "ChatGPT sweep says live: still available (2026-11-21).",
-   "Taken down on Rightmove; Zoopla advert not checked yet (22 Nov)."
+   "Taken down on Rightmove; Zoopla advert not checked yet (22 Nov).",
+   "ChatGPT sweep says live: still available (2026-11-22)."
   ],
   "prices": [
    [
@@ -33195,13 +33199,7 @@
   ],
   "down": [
    "https://www.rightmove.co.uk/properties/95327973"
-  ],
-  "unconfirmed": "2026-11-22",
-  "off_market": {
-   "why": "Taken down on Rightmove; Zoopla advert not checked yet",
-   "checked": "2026-11-22",
-   "unconfirmed": true
-  }
+  ]
  },
  {
   "id": "zoopla-59529898",
@@ -33702,10 +33700,10 @@
   "area": "SW12",
   "rent": 4500,
   "beds": 5,
-  "baths": null,
+  "baths": 2,
   "available": "",
-  "sharers": "unknown",
-  "status": "new",
+  "sharers": "ok",
+  "status": "gone",
   "url": "https://www.openrent.co.uk/3108274",
   "links": [
    "https://www.openrent.co.uk/3108274",
@@ -33717,7 +33715,8 @@
   "notes": [
    "From an email on 2026-11-11: New properties found for your search: Wandsworth, London",
    "From an email on 2026-11-17: New properties found for your search: Wandsworth, London",
-   "Same house as openrent-3114150 by its photos; merged (17 Nov)."
+   "Same house as openrent-3114150 by its photos; merged (17 Nov).",
+   "ChatGPT sweep says let agreed (2026-11-22)."
   ],
   "prices": [
    [
@@ -33750,7 +33749,11 @@
    "q5": 49,
    "wentworth": 55
   },
-  "checked": "2026-11-21"
+  "checked": "2026-11-22",
+  "off_market": {
+   "why": "ChatGPT sweep says let agreed",
+   "checked": "2026-11-22"
+  }
  },
  {
   "id": "onthemarket-20742584",
@@ -33998,7 +34001,7 @@
   "source": "sweep",
   "added": "2026-11-12",
   "added_at": "2026-11-12T18:08Z",
-  "checked": "2026-11-21",
+  "checked": "2026-11-22",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -34823,7 +34826,7 @@
     "zoopla"
    ]
   ],
-  "checked": "2026-11-21"
+  "checked": "2026-11-22"
  },
  {
   "id": "openrent-3113509",
@@ -34831,9 +34834,9 @@
   "area": "SW15",
   "rent": 3600,
   "beds": 6,
-  "baths": null,
+  "baths": 2,
   "available": "",
-  "sharers": "unknown",
+  "sharers": "ok",
   "status": "new",
   "url": "https://www.openrent.co.uk/3113509",
   "links": [
@@ -34867,7 +34870,7 @@
    "q5": 54,
    "wentworth": 41
   },
-  "checked": "2026-11-21"
+  "checked": "2026-11-22"
  },
  {
   "id": "onthemarket-20767446",
@@ -35120,7 +35123,7 @@
   "source": "sweep",
   "added": "2026-11-17",
   "added_at": "2026-11-17T18:05Z",
-  "checked": "2026-11-21",
+  "checked": "2026-11-22",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Price changed from £3,400 to £3,600 (2026-11-18)."
@@ -35478,7 +35481,7 @@
     "zoopla"
    ]
   ],
-  "checked": "2026-11-21"
+  "checked": "2026-11-22"
  },
  {
   "id": "rightmove-95626656",
@@ -35949,8 +35952,8 @@
   "area": "W12",
   "rent": 3250,
   "beds": 4,
-  "baths": null,
-  "available": "",
+  "baths": 1,
+  "available": "2026-11-27",
   "sharers": "unknown",
   "status": "new",
   "url": "https://www.openrent.co.uk/3067571",
@@ -35989,7 +35992,7 @@
    "q5": 55,
    "wentworth": 40
   },
-  "checked": "2026-11-21"
+  "checked": "2026-11-22"
  },
  {
   "id": "onthemarket-20789672",
@@ -36187,7 +36190,7 @@
   "source": "sweep",
   "added": "2026-11-20",
   "added_at": "2026-11-20T18:11Z",
-  "checked": "2026-11-21",
+  "checked": "2026-11-22",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -36286,7 +36289,7 @@
   "source": "sweep",
   "added": "2026-11-20",
   "added_at": "2026-11-20T18:11Z",
-  "checked": "2026-11-21",
+  "checked": "2026-11-22",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -36501,7 +36504,7 @@
   "source": "sweep",
   "added": "2026-11-21",
   "added_at": "2026-11-21T18:06Z",
-  "checked": "2026-11-21",
+  "checked": "2026-11-22",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
