@@ -1,16 +1,5 @@
 [
  {
-  "id": "openrent-3009117",
-  "title": "Pentney Road",
-  "rent": 4400,
-  "why": "Taken down on Rightmove; OpenRent advert not checked yet",
-  "since": "2026-11-17",
-  "links": [
-   "https://www.openrent.co.uk/property-to-rent/london/4-bed-terraced-house-pentney-road-sw12/3009117",
-   "https://www.zoopla.co.uk/to-rent/details/74127850/"
-  ]
- },
- {
   "id": "rightmove-94297608",
   "title": "Clapham Common, London, SW4",
   "rent": 4000,
@@ -33,6 +22,28 @@
   ]
  },
  {
+  "id": "zoopla-74575023",
+  "title": "Alderbrook Road, London SW12",
+  "rent": 3950,
+  "why": "Taken down on Rightmove; Zoopla advert not checked yet",
+  "since": "2026-11-22",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74575023/"
+  ]
+ },
+ {
+  "id": "zoopla-73581398",
+  "title": "Malthouse Drive, Chiswick W4",
+  "rent": 4850,
+  "why": "Taken down on Rightmove; Zoopla advert not checked yet",
+  "since": "2026-11-22",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/73581398/",
+   "https://www.zoopla.co.uk/to-rent/details/73899589/",
+   "https://www.hamptons.co.uk/properties/22167218/lettings/P326803"
+  ]
+ },
+ {
   "id": "onthemarket-20647670",
   "title": "Gassiot Road, London, SW17",
   "rent": 4650,
@@ -41,6 +52,16 @@
   "links": [
    "https://www.zoopla.co.uk/to-rent/details/74628382/",
    "https://www.openrent.co.uk/3091800"
+  ]
+ },
+ {
+  "id": "rightmove-95327973",
+  "title": "Tooting Bec, London, SW17, SW17 7NE",
+  "rent": 4750,
+  "why": "Taken down on Rightmove; Zoopla advert not checked yet",
+  "since": "2026-11-22",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74735584/"
   ]
  },
  {
