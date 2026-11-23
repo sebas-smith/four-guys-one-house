@@ -1,13 +1,87 @@
 [
  {
-  "id": "rightmove-95375640",
-  "title": "Hebdon Road, \nTooting, SW17, SW17 7NS",
-  "rent": 3500,
-  "why": "Taken down on Rightmove; Zoopla advert not checked yet",
-  "since": "2026-11-18",
+  "id": "rightmove-94297608",
+  "title": "Clapham Common, London, SW4",
+  "rent": 4400,
+  "why": "Taken down on OnTheMarket; OpenRent advert not checked yet",
+  "since": "2026-11-23",
   "links": [
-   "https://www.zoopla.co.uk/to-rent/details/72614145/",
-   "https://www.chestertons.co.uk/properties/22305136/lettings/WLS250146"
+   "https://www.openrent.co.uk/property-to-rent/london/4-bed-flat-clapham-common-sw4/1432305",
+   "https://www.zoopla.co.uk/to-rent/details/74507408/"
+  ]
+ },
+ {
+  "id": "openrent-3038288",
+  "title": "himley road sw17",
+  "rent": 3500,
+  "why": "Taken down on OnTheMarket; OpenRent advert not checked yet",
+  "since": "2026-11-23",
+  "links": [
+   "https://www.openrent.co.uk/property-to-rent/london/5-bed-terraced-house-himley-road-sw17/3038288",
+   "https://www.zoopla.co.uk/to-rent/details/74255921/"
+  ]
+ },
+ {
+  "id": "rightmove-93086517",
+  "title": "Himley Road, London, SW17",
+  "rent": 4750,
+  "why": "Taken down on OnTheMarket; OpenRent advert not checked yet",
+  "since": "2026-11-23",
+  "links": [
+   "https://www.openrent.co.uk/property-to-rent/london/5-bed-terraced-house-himley-road-sw17/3028772",
+   "https://www.zoopla.co.uk/to-rent/details/74147798/"
+  ]
+ },
+ {
+  "id": "zoopla-74575023",
+  "title": "Alderbrook Road, London SW12",
+  "rent": 3950,
+  "why": "Taken down on Rightmove; Zoopla advert not checked yet",
+  "since": "2026-11-23",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74575023/"
+  ]
+ },
+ {
+  "id": "rightmove-94314492",
+  "title": "Prothero Road, Fulham",
+  "rent": 4250,
+  "why": "Let agreed on Rightmove; Zoopla advert not checked yet",
+  "since": "2026-11-23",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74510179/"
+  ]
+ },
+ {
+  "id": "foxtons-chpk2207750",
+  "title": "Field Road , Barons Court , W6",
+  "rent": 3250,
+  "why": "Taken down on Foxtons; Zoopla advert not checked yet",
+  "since": "2026-11-23",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74331009/"
+  ]
+ },
+ {
+  "id": "zoopla-73581398",
+  "title": "Malthouse Drive, Chiswick W4",
+  "rent": 4850,
+  "why": "Taken down on Rightmove; Zoopla advert not checked yet",
+  "since": "2026-11-23",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/73581398/",
+   "https://www.zoopla.co.uk/to-rent/details/73899589/",
+   "https://www.hamptons.co.uk/properties/22167218/lettings/P326803"
+  ]
+ },
+ {
+  "id": "rightmove-95327973",
+  "title": "Tooting Bec, London, SW17, SW17 7NE",
+  "rent": 4750,
+  "why": "Taken down on Rightmove; Zoopla advert not checked yet",
+  "since": "2026-11-23",
+  "links": [
+   "https://www.zoopla.co.uk/to-rent/details/74735584/"
   ]
  },
  {
