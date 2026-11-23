@@ -16551,7 +16551,10 @@
    "tritax": 44,
    "q5": 42,
    "wentworth": 48
-  }
+  },
+  "not_same": [
+   "onthemarket-18198277"
+  ]
  },
  {
   "id": "zoopla-74430828",
@@ -16886,6 +16889,9 @@
    "http://media.onthemarket.com/properties/20759595/1658758424/image-0-480x320.jpg",
    "https://imagescdn.openrent.co.uk/listings/3110909/o_1k7ctbnimmm71kaag6g1rka1teoa.JPG",
    "https://media.rightmove.co.uk/property-photo/9aefa2a0a/95488416/9aefa2a0a7b8cfc2b2e820b907972e72.jpeg"
+  ],
+  "not_same": [
+   "onthemarket-20776881"
   ]
  },
  {
@@ -27418,7 +27424,9 @@
    "https://www.zoopla.co.uk/to-rent/details/74815760/",
    "https://www.onthemarket.com/details/20792795/",
    "https://www.onthemarket.com/details/20797925/",
-   "https://www.zoopla.co.uk/to-rent/details/74822957/"
+   "https://www.zoopla.co.uk/to-rent/details/74822957/",
+   "https://www.zoopla.co.uk/to-rent/details/74827565/",
+   "https://www.onthemarket.com/details/20801006/"
   ],
   "source": "agent",
   "added": "2026-10-26",
@@ -27602,7 +27610,8 @@
    "http://media.onthemarket.com/properties/20778994/1659342424/image-0-480x320.jpg",
    "http://media.onthemarket.com/properties/20784487/1659530559/image-0-480x320.jpg",
    "http://media.onthemarket.com/properties/20792795/1659771183/image-0-480x320.jpg",
-   "http://media.onthemarket.com/properties/20797925/1659946541/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/20797925/1659946541/image-0-480x320.jpg",
+   "http://media.onthemarket.com/properties/20801006/1660171825/image-0-480x320.jpg"
   ]
  },
  {
@@ -35280,7 +35289,7 @@
   "id": "onthemarket-20776881",
   "title": "Crefeld Close, London, W6",
   "area": "W6",
-  "rent": 4000,
+  "rent": 3700,
   "beds": 4,
   "baths": null,
   "available": "",
@@ -35296,7 +35305,8 @@
   "added": "2026-11-18",
   "added_at": "2026-11-18T10:24Z",
   "notes": [
-   "From an email on 2026-11-18: New properties in London (drawn area)"
+   "From an email on 2026-11-18: New properties in London (drawn area)",
+   "Price cut on Onthemarket: £4,000 to £3,700 (2026-11-23)."
   ],
   "prices": [
    [
@@ -35313,6 +35323,11 @@
     "2026-11-18",
     4000,
     "zoopla"
+   ],
+   [
+    "2026-11-23",
+    3700,
+    "onthemarket"
    ]
   ],
   "photos_seen": [
@@ -35331,7 +35346,8 @@
    "walk": 13
   },
   "not_same": [
-   "onthemarket-16222723"
+   "onthemarket-16222723",
+   "openrent-2991842"
   ],
   "commute": {
    "lcp": 46,
@@ -36529,6 +36545,56 @@
    "tritax": 40,
    "q5": 54,
    "wentworth": 40
+  }
+ },
+ {
+  "id": "onthemarket-18198277",
+  "title": "Tooting High Street, London SW17",
+  "area": "Tooting",
+  "rent": 3600,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/18198277/",
+  "links": [
+   "https://www.onthemarket.com/details/18198277/"
+  ],
+  "source": "alert",
+  "added": "2026-11-23",
+  "added_at": "2026-11-23T11:05Z",
+  "notes": [
+   "From an email on 2026-11-23: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-23",
+    3600,
+    "onthemarket"
+   ]
+  ],
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/18198277/1660182400/image-0-480x320.jpg"
+  ],
+  "photo": "http://media.onthemarket.com/properties/18198277/1660182400/image-0-480x320.jpg",
+  "loc": [
+   51.428913,
+   -0.167407
+  ],
+  "station": {
+   "name": "Tooting Broadway",
+   "kind": "Tube",
+   "walk": 2
+  },
+  "not_same": [
+   "zoopla-74411323"
+  ],
+  "commute": {
+   "lcp": 45,
+   "tritax": 43,
+   "q5": 41,
+   "wentworth": 47
   }
  }
 ]
