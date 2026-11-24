@@ -5366,7 +5366,9 @@
    "Price cut: £4,500 to £4,450 on the live adverts (18 Nov).",
    "Price cut: £4,450 to £4,400 on the live adverts (21 Nov).",
    "Price rise: £4,400 to £4,500 on the live adverts (23 Nov).",
-   "Price rise on Rightmove: £4,500 to £4,650 (2026-11-23)."
+   "Price rise on Rightmove: £4,500 to £4,650 (2026-11-23).",
+   "Price rise on Onthemarket: £4,500 to £4,650 (2026-11-24).",
+   "Price rise on Rightmove: £4,500 to £4,650 (2026-11-24)."
   ],
   "checked": "2026-11-24",
   "station": {
@@ -5529,6 +5531,11 @@
     "2026-11-24",
     4500,
     "rightmove"
+   ],
+   [
+    "2026-11-24",
+    4650,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/c1884ddc6/94093686/c1884ddc65530d8c9d8eb7ef7dcb0e44_max_476x317.jpeg",
@@ -5549,7 +5556,9 @@
   "photos_seen": [
    "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/c1884ddc6/94093686/c1884ddc65530d8c9d8eb7ef7dcb0e44_max_296x197.jpeg",
    "https://media.rightmove.co.uk/property-photo/c1884ddc6/94093686/c1884ddc65530d8c9d8eb7ef7dcb0e44.jpeg",
-   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/2935f31c8/95072430/2935f31c8db332c240f685147d232513_max_296x197.jpeg"
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/2935f31c8/95072430/2935f31c8db332c240f685147d232513_max_296x197.jpeg",
+   "http://media.onthemarket.com/properties/20408114/1654121247/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/3dadf5f10/94771239/3dadf5f10b989ebdf78b52b3c28ba203_max_296x197.jpeg"
   ]
  },
  {
@@ -7708,7 +7717,9 @@
    "From an email on 2026-11-13: fourguys, we've found you 2 properties in SW London house v4",
    "Same house as rightmove-95466834 by its photos; merged (14 Nov).",
    "Price cut: £3,900 to £3,850 on the live adverts (19 Nov).",
-   "Price cut: £3,850 to £3,750 on the live adverts (24 Nov)."
+   "Price cut: £3,850 to £3,750 on the live adverts (24 Nov).",
+   "Price rise on Onthemarket: £3,750 to £3,800 (2026-11-24).",
+   "Price cut on Onthemarket: £3,800 to £3,750 (2026-11-24)."
   ],
   "checked": "2026-11-24",
   "station": {
@@ -7761,6 +7772,16 @@
     "2026-11-24",
     3750,
     "onthemarket"
+   ],
+   [
+    "2026-11-24",
+    3800,
+    "onthemarket"
+   ],
+   [
+    "2026-11-24",
+    3750,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/b025a63d7/150435635/b025a63d74b58e23403f1013dc0e4b32_max_476x317.jpeg",
@@ -7779,7 +7800,11 @@
   ],
   "photos_seen": [
    "https://lid.zoocdn.com/645/430/85b4b9fb0a390e0f2dd78bcf170702ba1354cf3f.jpg",
-   "http://media.onthemarket.com/properties/20146250/1658623867/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/20146250/1658623867/image-0-480x320.jpg",
+   "http://media.onthemarket.com/properties/20146250/1658496087/image-0-480x320.jpg",
+   "http://media.onthemarket.com/properties/15240088/1659348378/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/3e399e08c/95466834/3e399e08cdc801b31e864be8eb6db3ee_max_296x197.jpeg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/b025a63d7/150435635/b025a63d74b58e23403f1013dc0e4b32_max_296x197.jpeg"
   ]
  },
  {
@@ -27574,7 +27599,9 @@
    "https://www.onthemarket.com/details/20797925/",
    "https://www.zoopla.co.uk/to-rent/details/74822957/",
    "https://www.zoopla.co.uk/to-rent/details/74827565/",
-   "https://www.onthemarket.com/details/20801006/"
+   "https://www.onthemarket.com/details/20801006/",
+   "https://www.onthemarket.com/details/20809050/",
+   "https://www.zoopla.co.uk/to-rent/details/74837967/"
   ],
   "source": "agent",
   "added": "2026-10-26",
@@ -27762,7 +27789,8 @@
    "http://media.onthemarket.com/properties/20784487/1659530559/image-0-480x320.jpg",
    "http://media.onthemarket.com/properties/20792795/1659771183/image-0-480x320.jpg",
    "http://media.onthemarket.com/properties/20797925/1659946541/image-0-480x320.jpg",
-   "http://media.onthemarket.com/properties/20801006/1660171825/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/20801006/1660171825/image-0-480x320.jpg",
+   "http://media.onthemarket.com/properties/20809050/1660379400/image-0-480x320.jpg"
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket, still live on Rightmove",
@@ -30295,7 +30323,8 @@
   ],
   "photos_seen": [
    "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/408f5f2b2/94449267/408f5f2b22e6c3930b45ef31130fc8f1_max_296x197.jpeg",
-   "http://media.onthemarket.com/properties/20584759/1653240771/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/20584759/1653240771/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/64c4eb60b/95796621/64c4eb60bf6c0ca368f724f42e891f5a_max_296x197.jpeg"
   ],
   "ruled_out": "no sharers"
  },
@@ -30315,14 +30344,17 @@
    "https://www.marshandparsons.co.uk/properties-to-rent/london/property/VBR2482905/abdale-road/",
    "https://www.onthemarket.com/details/20526997/",
    "https://www.onthemarket.com/details/20812331/",
-   "https://www.zoopla.co.uk/to-rent/details/74841817/"
+   "https://www.zoopla.co.uk/to-rent/details/74841817/",
+   "https://www.rightmove.co.uk/properties/95810694"
   ],
   "source": "backfill",
   "added": "2026-10-31",
   "added_at": "2026-10-31T12:03Z",
   "notes": [
    "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-10-12.",
-   "Price changed from £5,000 to £4,800 (2026-11-14)."
+   "Price changed from £5,000 to £4,800 (2026-11-14).",
+   "From an email on 2026-11-24: fourguys, we've found you 3 properties in SW London house v4",
+   "Same house as rightmove-95810694 by its photos; merged (24 Nov)."
   ],
   "prices": [
    [
@@ -30344,6 +30376,11 @@
     "2026-11-15",
     4800,
     "onthemarket"
+   ],
+   [
+    "2026-11-24",
+    4800,
+    "rightmove"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/c14d748ee/94212078/c14d748ee9a4f1bfc26f91d1f36be95d_max_476x317.jpeg",
@@ -30365,7 +30402,8 @@
   },
   "photos_seen": [
    "http://media.onthemarket.com/properties/20526997/1651493170/image-0-480x320.jpg",
-   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/c14d748ee/94212078/c14d748ee9a4f1bfc26f91d1f36be95d_max_296x197.jpeg"
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/c14d748ee/94212078/c14d748ee9a4f1bfc26f91d1f36be95d_max_296x197.jpeg",
+   "http://media.onthemarket.com/properties/20812331/1660457065/image-0-480x320.jpg"
   ]
  },
  {
@@ -35553,7 +35591,8 @@
   "added_at": "2026-11-18T10:24Z",
   "notes": [
    "From an email on 2026-11-18: New properties in London (drawn area)",
-   "Price cut on Onthemarket: £4,000 to £3,700 (2026-11-23)."
+   "Price cut on Onthemarket: £4,000 to £3,700 (2026-11-23).",
+   "Price cut on Zoopla: £4,000 to £3,700 (2026-11-24)."
   ],
   "prices": [
    [
@@ -35580,6 +35619,11 @@
     "2026-11-23",
     3700,
     "rightmove"
+   ],
+   [
+    "2026-11-24",
+    3700,
+    "zoopla"
    ]
   ],
   "photos_seen": [
@@ -36838,7 +36882,8 @@
   ],
   "photos_seen": [
    "http://media.onthemarket.com/properties/18198277/1660182400/image-0-480x320.jpg",
-   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/047677926/95744406/047677926bd611b6d570cba3e2070357_max_296x197.jpeg"
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/047677926/95744406/047677926bd611b6d570cba3e2070357_max_296x197.jpeg",
+   "https://lid.zoocdn.com/645/430/4ce8a1677d0e703712e5255b946aed6777110aaf.jpg"
   ],
   "photo": "http://media.onthemarket.com/properties/18198277/1660182400/image-0-480x320.jpg",
   "loc": [
@@ -36875,7 +36920,8 @@
   "links": [
    "https://www.winkworth.co.uk/properties/to-let/john-hunter-avenue-london-sw17/TOO260623",
    "https://www.onthemarket.com/details/20806854/",
-   "https://www.rightmove.co.uk/properties/95779014"
+   "https://www.rightmove.co.uk/properties/95779014",
+   "https://www.zoopla.co.uk/to-rent/details/74834941/"
   ],
   "source": "sweep",
   "added": "2026-11-23",
@@ -36899,6 +36945,11 @@
     "2026-11-24",
     4400,
     "rightmove"
+   ],
+   [
+    "2026-11-24",
+    4400,
+    "zoopla"
    ]
   ],
   "loc": [
@@ -36918,7 +36969,8 @@
   },
   "photos_seen": [
    "http://media.onthemarket.com/properties/20806854/1660273942/image-0-480x320.jpg",
-   "https://media.rightmove.co.uk/property-photo/2c43e8385/95779014/2c43e83854db0b3c32c457ea945ae073.jpeg"
+   "https://media.rightmove.co.uk/property-photo/2c43e8385/95779014/2c43e83854db0b3c32c457ea945ae073.jpeg",
+   "https://lid.zoocdn.com/645/430/8a6a39bcbaa44e92c8590446fe709184cd9302a3.jpg"
   ],
   "photo": "http://media.onthemarket.com/properties/20806854/1660273942/image-0-480x320.jpg"
  },
@@ -36935,7 +36987,8 @@
   "url": "https://www.onthemarket.com/details/20802643/",
   "links": [
    "https://www.onthemarket.com/details/20802643/",
-   "https://www.rightmove.co.uk/properties/95751228"
+   "https://www.rightmove.co.uk/properties/95751228",
+   "https://www.zoopla.co.uk/to-rent/details/74829757/"
   ],
   "source": "alert",
   "added": "2026-11-23",
@@ -36953,11 +37006,17 @@
     "2026-11-23",
     5000,
     "rightmove"
+   ],
+   [
+    "2026-11-24",
+    5000,
+    "zoopla"
    ]
   ],
   "photos_seen": [
    "http://media.onthemarket.com/properties/20802643/1660205752/image-0-480x320.jpg",
-   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/68bc0777d/95751228/68bc0777d00ae731b911f1c89610d354_max_296x197.jpeg"
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/68bc0777d/95751228/68bc0777d00ae731b911f1c89610d354_max_296x197.jpeg",
+   "https://lid.zoocdn.com/645/430/0e5a9f0fe32d3811d0a7c1c71ba8996e92c7b315.jpg"
   ],
   "photo": "http://media.onthemarket.com/properties/20802643/1660205752/image-0-480x320.jpg",
   "loc": [
@@ -36976,5 +37035,99 @@
    "wentworth": 40
   },
   "checked": "2026-11-24"
+ },
+ {
+  "id": "onthemarket-20809784",
+  "title": "Shuttleworth Road, London, SW11",
+  "area": "SW11",
+  "rent": 4800,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20809784/",
+  "links": [
+   "https://www.onthemarket.com/details/20809784/"
+  ],
+  "source": "alert",
+  "added": "2026-11-24",
+  "added_at": "2026-11-24T12:21Z",
+  "notes": [
+   "From an email on 2026-11-24: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-24",
+    4800,
+    "onthemarket"
+   ]
+  ],
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20809784/1660390339/image-0-480x320.jpg"
+  ],
+  "photo": "http://media.onthemarket.com/properties/20809784/1660390339/image-0-480x320.jpg",
+  "loc": [
+   51.473317,
+   -0.167824
+  ],
+  "station": {
+   "name": "Clapham Junction",
+   "kind": "Rail",
+   "walk": 16
+  },
+  "commute": {
+   "lcp": 48,
+   "tritax": 51,
+   "q5": 45,
+   "wentworth": 47
+  }
+ },
+ {
+  "id": "openrent-2935203",
+  "title": "Larkhall Rise, SW4",
+  "area": "SW4",
+  "rent": 4000,
+  "beds": 5,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.openrent.co.uk/2935203",
+  "links": [
+   "https://www.openrent.co.uk/2935203"
+  ],
+  "source": "alert",
+  "added": "2026-11-24",
+  "added_at": "2026-11-24T17:51Z",
+  "notes": [
+   "From an email on 2026-11-24: New properties found for your search: Wandsworth, London"
+  ],
+  "prices": [
+   [
+    "2026-11-24",
+    4000,
+    "openrent"
+   ]
+  ],
+  "photos_seen": [
+   "https://imagescdn.openrent.co.uk/listings/2935203/o_1k8523brr78k1tfr1j0gvn3p3g0.JPG"
+  ],
+  "photo": "https://imagescdn.openrent.co.uk/listings/2935203/o_1k8523brr78k1tfr1j0gvn3p3g0.JPG",
+  "loc": [
+   51.4680439,
+   -0.1385459
+  ],
+  "station": {
+   "name": "Wandsworth Road",
+   "kind": "Overground",
+   "walk": 3
+  },
+  "commute": {
+   "lcp": 45,
+   "tritax": 43,
+   "q5": 32,
+   "wentworth": 53
+  }
  }
 ]
