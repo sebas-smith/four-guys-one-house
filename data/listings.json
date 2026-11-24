@@ -5365,7 +5365,8 @@
    "Price cut on Rightmove: £4,750 to £4,500 (2026-11-14).",
    "Price cut: £4,500 to £4,450 on the live adverts (18 Nov).",
    "Price cut: £4,450 to £4,400 on the live adverts (21 Nov).",
-   "Price rise: £4,400 to £4,500 on the live adverts (23 Nov)."
+   "Price rise: £4,400 to £4,500 on the live adverts (23 Nov).",
+   "Price rise on Rightmove: £4,500 to £4,650 (2026-11-23)."
   ],
   "checked": "2026-11-23",
   "station": {
@@ -5518,6 +5519,11 @@
     "2026-11-23",
     4500,
     "onthemarket"
+   ],
+   [
+    "2026-11-23",
+    4650,
+    "rightmove"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/c1884ddc6/94093686/c1884ddc65530d8c9d8eb7ef7dcb0e44_max_476x317.jpeg",
@@ -5537,7 +5543,8 @@
   ],
   "photos_seen": [
    "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/c1884ddc6/94093686/c1884ddc65530d8c9d8eb7ef7dcb0e44_max_296x197.jpeg",
-   "https://media.rightmove.co.uk/property-photo/c1884ddc6/94093686/c1884ddc65530d8c9d8eb7ef7dcb0e44.jpeg"
+   "https://media.rightmove.co.uk/property-photo/c1884ddc6/94093686/c1884ddc65530d8c9d8eb7ef7dcb0e44.jpeg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/2935f31c8/95072430/2935f31c8db332c240f685147d232513_max_296x197.jpeg"
   ]
  },
  {
@@ -36714,7 +36721,8 @@
    ]
   ],
   "photos_seen": [
-   "http://media.onthemarket.com/properties/18198277/1660182400/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/18198277/1660182400/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/047677926/95744406/047677926bd611b6d570cba3e2070357_max_296x197.jpeg"
   ],
   "photo": "http://media.onthemarket.com/properties/18198277/1660182400/image-0-480x320.jpg",
   "loc": [
@@ -36749,7 +36757,8 @@
   "status": "new",
   "url": "https://www.winkworth.co.uk/properties/to-let/john-hunter-avenue-london-sw17/TOO260623",
   "links": [
-   "https://www.winkworth.co.uk/properties/to-let/john-hunter-avenue-london-sw17/TOO260623"
+   "https://www.winkworth.co.uk/properties/to-let/john-hunter-avenue-london-sw17/TOO260623",
+   "https://www.onthemarket.com/details/20806854/"
   ],
   "source": "sweep",
   "added": "2026-11-23",
@@ -36763,6 +36772,11 @@
     "2026-11-23",
     4400,
     "winkworth"
+   ],
+   [
+    "2026-11-23",
+    4400,
+    "onthemarket"
    ]
   ],
   "loc": [
@@ -36779,6 +36793,64 @@
    "tritax": 53,
    "q5": 51,
    "wentworth": 49
+  },
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20806854/1660273942/image-0-480x320.jpg"
+  ],
+  "photo": "http://media.onthemarket.com/properties/20806854/1660273942/image-0-480x320.jpg"
+ },
+ {
+  "id": "onthemarket-20802643",
+  "title": "Dunraven Road, London W12",
+  "area": "W12",
+  "rent": 5000,
+  "beds": 5,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20802643/",
+  "links": [
+   "https://www.onthemarket.com/details/20802643/",
+   "https://www.rightmove.co.uk/properties/95751228"
+  ],
+  "source": "alert",
+  "added": "2026-11-23",
+  "added_at": "2026-11-23T13:25Z",
+  "notes": [
+   "From an email on 2026-11-23: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-23",
+    5000,
+    "onthemarket"
+   ],
+   [
+    "2026-11-23",
+    5000,
+    "rightmove"
+   ]
+  ],
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20802643/1660205752/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/68bc0777d/95751228/68bc0777d00ae731b911f1c89610d354_max_296x197.jpeg"
+  ],
+  "photo": "http://media.onthemarket.com/properties/20802643/1660205752/image-0-480x320.jpg",
+  "loc": [
+   51.509633,
+   -0.236757
+  ],
+  "station": {
+   "name": "Shepherd's Bush Market",
+   "kind": "Tube",
+   "walk": 13
+  },
+  "commute": {
+   "lcp": 39,
+   "tritax": 42,
+   "q5": 56,
+   "wentworth": 40
   }
  }
 ]
