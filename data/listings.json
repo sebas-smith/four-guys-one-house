@@ -30927,7 +30927,8 @@
    "onthemarket-20767295"
   ],
   "photos_seen": [
-   "http://media.onthemarket.com/properties/20266565/1660623940/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/20266565/1660623940/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/ecb16a4cb/92745345/ecb16a4cb063cd49d6f6394627991233_max_296x197.jpeg"
   ],
   "down": [
    "https://www.onthemarket.com/details/20710688/"
@@ -31904,6 +31905,10 @@
   "not_same": [
    "onthemarket-20629394",
    "rightmove-150435635"
+  ],
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20683714/1658629778/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/8cf2579ca/95074983/8cf2579ca488a1d26d80dd5b8faae6ce_max_296x197.jpeg"
   ]
  },
  {
@@ -37286,6 +37291,57 @@
    "q5": 49,
    "wentworth": 37
   },
-  "photo": "https://media.onthemarket.com/properties/20818144/1660669249/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20818144/1660669249/image-0-1024x1024.jpg",
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20818144/1660669249/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/9d53cbb27/95844474/9d53cbb2767b6539089a54de0b14a9ad_max_296x197.jpeg"
+  ]
+ },
+ {
+  "id": "rightmove-95847972",
+  "title": "Portland Road, Tottenham, Haringey, London, N15",
+  "area": "",
+  "rent": 4000,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/95847972",
+  "links": [
+   "https://www.rightmove.co.uk/properties/95847972"
+  ],
+  "source": "alert",
+  "added": "2026-11-25",
+  "added_at": "2026-11-25T20:25Z",
+  "notes": [
+   "From an email on 2026-11-25: fourguys, we've found you 1 property in SW London house v4"
+  ],
+  "prices": [
+   [
+    "2026-11-25",
+    4000,
+    "rightmove"
+   ]
+  ],
+  "photos_seen": [
+   "https://media.rightmove.co.uk/property-photo/4fb1300e5/95847972/4fb1300e5344935eb14e3376e080e3d7.jpeg"
+  ],
+  "photo": "https://media.rightmove.co.uk/property-photo/4fb1300e5/95847972/4fb1300e5344935eb14e3376e080e3d7.jpeg",
+  "loc": [
+   51.510682,
+   -0.21094
+  ],
+  "station": {
+   "name": "Shepherd's Bush",
+   "kind": "Overground",
+   "walk": 12
+  },
+  "commute": {
+   "lcp": 35,
+   "tritax": 39,
+   "q5": 49,
+   "wentworth": 44
+  }
  }
 ]
