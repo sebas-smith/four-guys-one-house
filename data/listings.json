@@ -27601,7 +27601,10 @@
    "https://www.zoopla.co.uk/to-rent/details/74827565/",
    "https://www.onthemarket.com/details/20801006/",
    "https://www.onthemarket.com/details/20809050/",
-   "https://www.zoopla.co.uk/to-rent/details/74837967/"
+   "https://www.zoopla.co.uk/to-rent/details/74837967/",
+   "https://www.onthemarket.com/details/20815315/",
+   "https://www.onthemarket.com/details/20815310/",
+   "https://www.zoopla.co.uk/to-rent/details/74846163/"
   ],
   "source": "agent",
   "added": "2026-10-26",
@@ -27790,7 +27793,9 @@
    "http://media.onthemarket.com/properties/20792795/1659771183/image-0-480x320.jpg",
    "http://media.onthemarket.com/properties/20797925/1659946541/image-0-480x320.jpg",
    "http://media.onthemarket.com/properties/20801006/1660171825/image-0-480x320.jpg",
-   "http://media.onthemarket.com/properties/20809050/1660379400/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/20809050/1660379400/image-0-480x320.jpg",
+   "http://media.onthemarket.com/properties/20815315/1660606882/image-0-480x320.jpg",
+   "http://media.onthemarket.com/properties/20815310/1660606864/image-0-480x320.jpg"
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket, still live on Rightmove",
@@ -30324,7 +30329,8 @@
   "photos_seen": [
    "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/408f5f2b2/94449267/408f5f2b22e6c3930b45ef31130fc8f1_max_296x197.jpeg",
    "http://media.onthemarket.com/properties/20584759/1653240771/image-0-480x320.jpg",
-   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/64c4eb60b/95796621/64c4eb60bf6c0ca368f724f42e891f5a_max_296x197.jpeg"
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/64c4eb60b/95796621/64c4eb60bf6c0ca368f724f42e891f5a_max_296x197.jpeg",
+   "https://lid.zoocdn.com/645/430/c7815d61031cccbb4912f7f59e3b52b7d0d8f13b.jpg"
   ],
   "ruled_out": "no sharers"
  },
@@ -30403,7 +30409,8 @@
   "photos_seen": [
    "http://media.onthemarket.com/properties/20526997/1651493170/image-0-480x320.jpg",
    "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/c14d748ee/94212078/c14d748ee9a4f1bfc26f91d1f36be95d_max_296x197.jpeg",
-   "http://media.onthemarket.com/properties/20812331/1660457065/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/20812331/1660457065/image-0-480x320.jpg",
+   "https://lid.zoocdn.com/645/430/b0a44a2d9ced4cbb57eb75303ad3ec1d94bac4d7.jpg"
   ]
  },
  {
@@ -30785,7 +30792,7 @@
   "id": "rightmove-92745345",
   "title": "Rowditch Lane, Battersea, SW11",
   "area": "Battersea",
-  "rent": 3800,
+  "rent": 3500,
   "beds": 4,
   "baths": 1,
   "available": "",
@@ -30807,7 +30814,8 @@
    "Price cut on Rightmove: £4,000 to £3,800 (2026-11-04).",
    "Merged in onthemarket-20266565: the same house (same photos; both eXp UK) (4 Nov check).",
    "From an email on 2026-11-07: New properties in London (drawn area)",
-   "Same house as onthemarket-20710688 by its photos; merged (10 Nov)."
+   "Same house as onthemarket-20710688 by its photos; merged (10 Nov).",
+   "Price cut on Onthemarket: £3,800 to £3,500 (2026-11-25)."
   ],
   "prices": [
    [
@@ -30834,6 +30842,11 @@
     "2026-11-07",
     3800,
     "onthemarket"
+   ],
+   [
+    "2026-11-25",
+    3500,
+    "onthemarket"
    ]
   ],
   "photo": "https://media.rightmove.co.uk/dir/property-photo/908fd60a5/92745345/908fd60a560050113f4feb73c4b90161_max_476x317.jpeg",
@@ -30855,6 +30868,9 @@
   },
   "not_same": [
    "onthemarket-20767295"
+  ],
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20266565/1660623940/image-0-480x320.jpg"
   ]
  },
  {
@@ -31505,7 +31521,8 @@
    "Price cut on Onthemarket: £4,200 to £4,000 (2026-11-09).",
    "Price cut on Rightmove: £4,200 to £4,000 (2026-11-09).",
    "Price cut: £4,000 to £3,600 on the live adverts (13 Nov).",
-   "Price cut: £3,600 to £3,400 on the live adverts (24 Nov)."
+   "Price cut: £3,600 to £3,400 on the live adverts (24 Nov).",
+   "Price cut on Zoopla: £3,600 to £3,400 (2026-11-25)."
   ],
   "prices": [
    [
@@ -31552,6 +31569,11 @@
     "2026-11-24",
     3400,
     "rightmove"
+   ],
+   [
+    "2026-11-25",
+    3400,
+    "zoopla"
    ]
   ],
   "loc": [
