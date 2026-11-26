@@ -20135,7 +20135,7 @@
   "id": "rightmove-94306125",
   "title": "Carlton Drive, Putney Hill, SW15",
   "area": "Putney",
-  "rent": 3500,
+  "rent": 3250,
   "beds": 4,
   "baths": 2,
   "available": "2026-12-04",
@@ -20157,7 +20157,9 @@
    "Prices differ across sites: £4,000 vs £3,850. Showing the lower; see price history.",
    "Price cut on Rightmove: £3,850 to £3,600 (2026-10-28).",
    "Price cut on Onthemarket: £3,600 to £3,500 (2026-11-03).",
-   "Price cut on Zoopla: £3,850 to £3,600 (2026-10-28)."
+   "Price cut on Zoopla: £3,850 to £3,600 (2026-10-28).",
+   "Price cut on Rightmove: £3,500 to £3,250 (2026-11-26).",
+   "Price cut on Zoopla: £3,600 to £3,250 (2026-11-26)."
   ],
   "station": {
    "name": "East Putney",
@@ -20204,6 +20206,16 @@
     "2026-11-04",
     3500,
     "rightmove"
+   ],
+   [
+    "2026-11-26",
+    3250,
+    "rightmove"
+   ],
+   [
+    "2026-11-26",
+    3250,
+    "zoopla"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -20217,7 +20229,11 @@
    "tritax": 46,
    "q5": 44,
    "wentworth": 44
-  }
+  },
+  "photos_seen": [
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/9e7e43ed7/94306125/9e7e43ed70a7295f649a369329d1e0e1_max_296x197.jpeg",
+   "https://lid.zoocdn.com/645/430/ff0fbadbaca1dab49f5d321e6c1ac5dbaff0a2f8.jpg"
+  ]
  },
  {
   "id": "zoopla-74516794",
@@ -37160,7 +37176,8 @@
   "status": "new",
   "url": "https://www.onthemarket.com/details/20809784/",
   "links": [
-   "https://www.onthemarket.com/details/20809784/"
+   "https://www.onthemarket.com/details/20809784/",
+   "https://www.zoopla.co.uk/to-rent/details/74857692/"
   ],
   "source": "alert",
   "added": "2026-11-24",
@@ -37173,10 +37190,16 @@
     "2026-11-24",
     4800,
     "onthemarket"
+   ],
+   [
+    "2026-11-26",
+    4800,
+    "zoopla"
    ]
   ],
   "photos_seen": [
-   "http://media.onthemarket.com/properties/20809784/1660390339/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/20809784/1660390339/image-0-480x320.jpg",
+   "https://lid.zoocdn.com/645/430/625927815eb1f2ab9c5fe212f010aa5eec9fc8dc.jpg"
   ],
   "photo": "http://media.onthemarket.com/properties/20809784/1660390339/image-0-480x320.jpg",
   "loc": [
@@ -37194,7 +37217,10 @@
    "q5": 45,
    "wentworth": 47
   },
-  "checked": "2026-11-25"
+  "checked": "2026-11-25",
+  "not_same": [
+   "onthemarket-20824133"
+  ]
  },
  {
   "id": "openrent-2935203",
@@ -37297,7 +37323,8 @@
   "photo": "https://media.onthemarket.com/properties/20818144/1660669249/image-0-1024x1024.jpg",
   "photos_seen": [
    "http://media.onthemarket.com/properties/20818144/1660669249/image-0-480x320.jpg",
-   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/9d53cbb27/95844474/9d53cbb2767b6539089a54de0b14a9ad_max_296x197.jpeg"
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/9d53cbb27/95844474/9d53cbb2767b6539089a54de0b14a9ad_max_296x197.jpeg",
+   "https://lid.zoocdn.com/645/430/fd8669dd9234ce1ef8a06275c96c0491fe0a7a88.jpg"
   ]
  },
  {
@@ -37312,7 +37339,8 @@
   "status": "new",
   "url": "https://www.rightmove.co.uk/properties/95847972",
   "links": [
-   "https://www.rightmove.co.uk/properties/95847972"
+   "https://www.rightmove.co.uk/properties/95847972",
+   "https://www.zoopla.co.uk/to-rent/details/74850237/"
   ],
   "source": "alert",
   "added": "2026-11-25",
@@ -37325,10 +37353,16 @@
     "2026-11-25",
     4000,
     "rightmove"
+   ],
+   [
+    "2026-11-26",
+    4000,
+    "zoopla"
    ]
   ],
   "photos_seen": [
-   "https://media.rightmove.co.uk/property-photo/4fb1300e5/95847972/4fb1300e5344935eb14e3376e080e3d7.jpeg"
+   "https://media.rightmove.co.uk/property-photo/4fb1300e5/95847972/4fb1300e5344935eb14e3376e080e3d7.jpeg",
+   "https://lid.zoocdn.com/645/430/0f45bc3d378eef69f1a69c9057fd3a5989919c79.jpg"
   ],
   "photo": "https://media.rightmove.co.uk/property-photo/4fb1300e5/95847972/4fb1300e5344935eb14e3376e080e3d7.jpeg",
   "loc": [
@@ -37395,6 +37429,103 @@
    "tritax": 58,
    "q5": 56,
    "wentworth": 31
+  }
+ },
+ {
+  "id": "onthemarket-20824133",
+  "title": "Shuttleworth Road, London, SW11",
+  "area": "SW11",
+  "rent": 4800,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20824133/",
+  "links": [
+   "https://www.onthemarket.com/details/20824133/"
+  ],
+  "source": "alert",
+  "added": "2026-11-26",
+  "added_at": "2026-11-26T13:01Z",
+  "notes": [
+   "From an email on 2026-11-26: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-26",
+    4800,
+    "onthemarket"
+   ]
+  ],
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20824133/1660978566/image-0-480x320.jpg"
+  ],
+  "photo": "http://media.onthemarket.com/properties/20824133/1660978566/image-0-480x320.jpg",
+  "loc": [
+   51.473346,
+   -0.16782
+  ],
+  "station": {
+   "name": "Clapham Junction",
+   "kind": "Rail",
+   "walk": 16
+  },
+  "not_same": [
+   "onthemarket-20809784"
+  ],
+  "commute": {
+   "lcp": 48,
+   "tritax": 51,
+   "q5": 45,
+   "wentworth": 47
+  }
+ },
+ {
+  "id": "onthemarket-20347585",
+  "title": "Sir Alexander Road, LONDON",
+  "area": "",
+  "rent": 3500,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20347585/",
+  "links": [
+   "https://www.onthemarket.com/details/20347585/"
+  ],
+  "source": "alert",
+  "added": "2026-11-26",
+  "added_at": "2026-11-26T13:13Z",
+  "notes": [
+   "From an email on 2026-11-26: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-26",
+    3500,
+    "onthemarket"
+   ]
+  ],
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20347585/1660980802/image-0-480x320.jpg"
+  ],
+  "photo": "http://media.onthemarket.com/properties/20347585/1660980802/image-0-480x320.jpg",
+  "loc": [
+   51.509252,
+   -0.248243
+  ],
+  "station": {
+   "name": "East Acton",
+   "kind": "Tube",
+   "walk": 13
+  },
+  "commute": {
+   "lcp": 43,
+   "tritax": 49,
+   "q5": 60,
+   "wentworth": 39
   }
  }
 ]
