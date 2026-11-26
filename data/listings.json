@@ -28533,6 +28533,9 @@
    "http://media.onthemarket.com/properties/20397950/1659100126/image-0-480x320.jpg",
    "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/ceb064a71/93489711/ceb064a717117913b9f80be39993557d_max_296x197.jpeg",
    "https://lid.zoocdn.com/645/430/fd5b8cca96783f191c50e0ee45a96f904d839821.jpg"
+  ],
+  "not_same": [
+   "onthemarket-20495570"
   ]
  },
  {
@@ -37342,6 +37345,56 @@
    "tritax": 39,
    "q5": 49,
    "wentworth": 44
+  }
+ },
+ {
+  "id": "onthemarket-20495570",
+  "title": "Waldeck Road, London, W4",
+  "area": "W4",
+  "rent": 4250,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20495570/",
+  "links": [
+   "https://www.onthemarket.com/details/20495570/"
+  ],
+  "source": "alert",
+  "added": "2026-11-26",
+  "added_at": "2026-11-26T00:00Z",
+  "notes": [
+   "From an email on 2026-11-26: New properties in London (drawn area)"
+  ],
+  "prices": [
+   [
+    "2026-11-26",
+    4250,
+    "onthemarket"
+   ]
+  ],
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20495570/1660741511/image-0-480x320.jpg"
+  ],
+  "photo": "http://media.onthemarket.com/properties/20495570/1660741511/image-0-480x320.jpg",
+  "loc": [
+   51.488284,
+   -0.28374
+  ],
+  "station": {
+   "name": "Kew Bridge",
+   "kind": "Rail",
+   "walk": 6
+  },
+  "not_same": [
+   "onthemarket-20397950"
+  ],
+  "commute": {
+   "lcp": 61,
+   "tritax": 58,
+   "q5": 56,
+   "wentworth": 31
   }
  }
 ]
