@@ -393,7 +393,7 @@
   "notes": [
    "Imported from the old ChatGPT tracker (status: unavailable)."
   ],
-  "checked": "2026-10-18",
+  "checked": "2026-11-26",
   "station": {
    "name": "Tooting Bec",
    "kind": "Tube",
@@ -4414,7 +4414,7 @@
    "Marked gone: advert shows let agreed (2026-10-20).",
    "Advert live on Zoopla (25 Oct)."
   ],
-  "checked": "2026-10-31",
+  "checked": "2026-11-26",
   "station": {
    "name": "Tooting Bec",
    "kind": "Tube",
@@ -7247,7 +7247,7 @@
   "baths": 1,
   "available": "Today",
   "sharers": "unknown",
-  "status": "new",
+  "status": "gone",
   "url": "https://www.zoopla.co.uk/to-rent/details/74358549/",
   "links": [
    "https://www.openrent.co.uk/property-to-rent/london/4-bed-flat-gilbey-road-sw17/3055584",
@@ -7258,7 +7258,9 @@
   "added": "2026-09-29",
   "notes": [
    "Imported from the old ChatGPT tracker (status: verified). Last checked 2026-10-05.",
-   "Taken down on OnTheMarket; OpenRent advert not checked yet (26 Nov)."
+   "Taken down on OnTheMarket; OpenRent advert not checked yet (26 Nov).",
+   "ChatGPT sweep says let agreed (2026-11-26).",
+   "Advert taken down on OnTheMarket (26 Nov)."
   ],
   "checked": "2026-11-26",
   "station": {
@@ -7290,16 +7292,15 @@
    "wentworth": 47
   },
   "not_same": [
+   "openrent-3070568",
    "zoopla-71454331"
   ],
   "down": [
    "https://www.onthemarket.com/details/20429980/"
   ],
-  "unconfirmed": "2026-11-26",
   "off_market": {
-   "why": "Taken down on OnTheMarket; OpenRent advert not checked yet",
-   "checked": "2026-11-26",
-   "unconfirmed": true
+   "why": "Advert taken down on OnTheMarket",
+   "checked": "2026-11-26"
   }
  },
  {
@@ -7684,6 +7685,7 @@
    "wentworth": 47
   },
   "not_same": [
+   "openrent-3055584",
    "zoopla-71454331"
   ]
  },
@@ -12797,6 +12799,11 @@
     "2026-11-18",
     3400,
     "onthemarket"
+   ],
+   [
+    "2026-11-26",
+    3400,
+    "zoopla"
    ]
   ],
   "photo": "https://lid.zoocdn.com/u/480/360/af6c6cf23e8b8ffb0102c1cc47fb887ffb51cd0c.jpg",
@@ -18165,7 +18172,8 @@
    "ChatGPT sweep says live: still available (2026-11-24).",
    "Taken down on OnTheMarket; OpenRent advert not checked yet (25 Nov).",
    "ChatGPT sweep says live: still available (2026-11-25).",
-   "Taken down on OnTheMarket; OpenRent advert not checked yet (26 Nov)."
+   "Taken down on OnTheMarket; OpenRent advert not checked yet (26 Nov).",
+   "ChatGPT sweep says live: still available (2026-11-26)."
   ],
   "station": {
    "name": "Clapham Common",
@@ -18253,13 +18261,7 @@
   "down": [
    "https://www.onthemarket.com/details/20550409/",
    "https://www.rightmove.co.uk/properties/94297608"
-  ],
-  "unconfirmed": "2026-11-26",
-  "off_market": {
-   "why": "Taken down on OnTheMarket; OpenRent advert not checked yet",
-   "checked": "2026-11-26",
-   "unconfirmed": true
-  }
+  ]
  },
  {
   "id": "onthemarket-20530138",
@@ -21196,7 +21198,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-25",
+  "checked": "2026-11-26",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Bathrooms corrected to 2 from the advert (31 Oct)."
@@ -21851,7 +21853,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-25",
+  "checked": "2026-11-26",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -22150,7 +22152,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-25",
+  "checked": "2026-11-26",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -22840,7 +22842,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-25",
+  "checked": "2026-11-26",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -22934,7 +22936,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-25",
+  "checked": "2026-11-26",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -23120,7 +23122,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-18",
-  "checked": "2026-11-25",
+  "checked": "2026-11-26",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Bathrooms corrected to 1 from the advert (31 Oct).",
@@ -23231,7 +23233,8 @@
    "ChatGPT sweep says live: still available (2026-11-24).",
    "Taken down on OnTheMarket; OpenRent advert not checked yet (25 Nov).",
    "ChatGPT sweep says live: still available (2026-11-25).",
-   "Taken down on OnTheMarket; OpenRent advert not checked yet (26 Nov)."
+   "Taken down on OnTheMarket; OpenRent advert not checked yet (26 Nov).",
+   "ChatGPT sweep says live: still available (2026-11-26)."
   ],
   "station": {
    "name": "Tooting Broadway",
@@ -23264,13 +23267,7 @@
   },
   "down": [
    "https://www.onthemarket.com/details/20348079/"
-  ],
-  "unconfirmed": "2026-11-26",
-  "off_market": {
-   "why": "Taken down on OnTheMarket; OpenRent advert not checked yet",
-   "checked": "2026-11-26",
-   "unconfirmed": true
-  }
+  ]
  },
  {
   "id": "rightmove-93086517",
@@ -25509,7 +25506,8 @@
    "ChatGPT sweep says live: still available (2026-11-24).",
    "Taken down on Rightmove; Zoopla advert not checked yet (25 Nov).",
    "ChatGPT sweep says live: still available (2026-11-25).",
-   "Taken down on Rightmove; Zoopla advert not checked yet (26 Nov)."
+   "Taken down on Rightmove; Zoopla advert not checked yet (26 Nov).",
+   "ChatGPT sweep says live: still available (2026-11-26)."
   ],
   "prices": [
    [
@@ -25542,13 +25540,7 @@
   },
   "down": [
    "https://www.rightmove.co.uk/properties/94604028"
-  ],
-  "unconfirmed": "2026-11-26",
-  "off_market": {
-   "why": "Taken down on Rightmove; Zoopla advert not checked yet",
-   "checked": "2026-11-26",
-   "unconfirmed": true
-  }
+  ]
  },
  {
   "id": "rightmove-94611774",
@@ -27125,7 +27117,7 @@
   ],
   "source": "sweep",
   "added": "2026-10-25",
-  "checked": "2026-11-25",
+  "checked": "2026-11-26",
   "notes": [
    "Found by ChatGPT sweep (unverified)."
   ],
@@ -28436,7 +28428,8 @@
    "ChatGPT sweep says live: still available (2026-11-24).",
    "Taken down on Rightmove; Zoopla advert not checked yet (25 Nov).",
    "ChatGPT sweep says live: still available (2026-11-25).",
-   "Taken down on Rightmove; Zoopla advert not checked yet (26 Nov)."
+   "Taken down on Rightmove; Zoopla advert not checked yet (26 Nov).",
+   "ChatGPT sweep says live: still available (2026-11-26)."
   ],
   "prices": [
    [
@@ -28481,13 +28474,7 @@
    "https://www.rightmove.co.uk/properties/94553118",
    "https://www.onthemarket.com/details/20076158/",
    "https://www.rightmove.co.uk/properties/94516866"
-  ],
-  "unconfirmed": "2026-11-26",
-  "off_market": {
-   "why": "Taken down on Rightmove; Zoopla advert not checked yet",
-   "checked": "2026-11-26",
-   "unconfirmed": true
-  }
+  ]
  },
  {
   "id": "zoopla-73900859",
@@ -29400,9 +29387,9 @@
   "rent": 3750,
   "beds": 4,
   "baths": 2,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
+  "available": "2026-11-06",
+  "sharers": "ok",
+  "status": "gone",
   "url": "https://www.onthemarket.com/details/8910110/",
   "links": [
    "https://www.onthemarket.com/details/8910110/",
@@ -29416,7 +29403,9 @@
    "From an email on 2026-10-30: New properties in London (drawn area)",
    "Added 2026-10-31 from a search of the whole area: on Rightmove since 2026-08-27.",
    "Merged rightmove-92469873 into this home: same street, beds, baths and rent (31 Oct).",
-   "Taken down on OnTheMarket; Zoopla advert not checked yet (26 Nov)."
+   "Taken down on OnTheMarket; Zoopla advert not checked yet (26 Nov).",
+   "ChatGPT sweep says removed (2026-11-26).",
+   "Advert taken down on OnTheMarket (26 Nov)."
   ],
   "prices": [
    [
@@ -29437,6 +29426,11 @@
    [
     "2026-10-31",
     3800,
+    "rightmove"
+   ],
+   [
+    "2026-11-26",
+    3750,
     "rightmove"
    ]
   ],
@@ -29463,11 +29457,9 @@
    "https://www.rightmove.co.uk/properties/94928766",
    "https://www.rightmove.co.uk/properties/92469873"
   ],
-  "unconfirmed": "2026-11-26",
   "off_market": {
-   "why": "Taken down on OnTheMarket; Zoopla advert not checked yet",
-   "checked": "2026-11-26",
-   "unconfirmed": true
+   "why": "Advert taken down on OnTheMarket",
+   "checked": "2026-11-26"
   }
  },
  {
@@ -31376,7 +31368,7 @@
     "openrent"
    ]
   ],
-  "checked": "2026-11-25",
+  "checked": "2026-11-26",
   "loc": [
    51.44339,
    -0.1345781
@@ -31523,7 +31515,7 @@
   "source": "sweep",
   "added": "2026-11-02",
   "added_at": "2026-11-02T18:09Z",
-  "checked": "2026-11-25",
+  "checked": "2026-11-26",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -32738,7 +32730,7 @@
   "source": "sweep",
   "added": "2026-11-06",
   "added_at": "2026-11-06T18:04Z",
-  "checked": "2026-11-25",
+  "checked": "2026-11-26",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -33660,7 +33652,8 @@
    "ChatGPT sweep says live: still available (2026-11-24).",
    "Taken down on Rightmove; Zoopla advert not checked yet (25 Nov).",
    "ChatGPT sweep says live: still available (2026-11-25).",
-   "Taken down on Rightmove; Zoopla advert not checked yet (26 Nov)."
+   "Taken down on Rightmove; Zoopla advert not checked yet (26 Nov).",
+   "ChatGPT sweep says live: still available (2026-11-26)."
   ],
   "prices": [
    [
@@ -33695,13 +33688,7 @@
   ],
   "down": [
    "https://www.rightmove.co.uk/properties/95327973"
-  ],
-  "unconfirmed": "2026-11-26",
-  "off_market": {
-   "why": "Taken down on Rightmove; Zoopla advert not checked yet",
-   "checked": "2026-11-26",
-   "unconfirmed": true
-  }
+  ]
  },
  {
   "id": "zoopla-59529898",
@@ -34496,7 +34483,7 @@
   "source": "sweep",
   "added": "2026-11-12",
   "added_at": "2026-11-12T18:08Z",
-  "checked": "2026-11-25",
+  "checked": "2026-11-26",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Taken down on Zoopla; Zoopla advert not checked yet (24 Nov).",
@@ -35333,7 +35320,7 @@
     "zoopla"
    ]
   ],
-  "checked": "2026-11-25"
+  "checked": "2026-11-26"
  },
  {
   "id": "openrent-3113509",
@@ -35377,7 +35364,7 @@
    "q5": 54,
    "wentworth": 41
   },
-  "checked": "2026-11-25"
+  "checked": "2026-11-26"
  },
  {
   "id": "onthemarket-20767446",
@@ -35630,7 +35617,7 @@
   "source": "sweep",
   "added": "2026-11-17",
   "added_at": "2026-11-17T18:05Z",
-  "checked": "2026-11-25",
+  "checked": "2026-11-26",
   "notes": [
    "Found by ChatGPT sweep (live).",
    "Price changed from £3,400 to £3,600 (2026-11-18)."
@@ -36006,7 +35993,7 @@
     "zoopla"
    ]
   ],
-  "checked": "2026-11-25"
+  "checked": "2026-11-26"
  },
  {
   "id": "rightmove-95626656",
@@ -36518,7 +36505,7 @@
    "q5": 55,
    "wentworth": 40
   },
-  "checked": "2026-11-25"
+  "checked": "2026-11-26"
  },
  {
   "id": "onthemarket-20789672",
@@ -36717,7 +36704,7 @@
   "source": "sweep",
   "added": "2026-11-20",
   "added_at": "2026-11-20T18:11Z",
-  "checked": "2026-11-25",
+  "checked": "2026-11-26",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -36816,7 +36803,7 @@
   "source": "sweep",
   "added": "2026-11-20",
   "added_at": "2026-11-20T18:11Z",
-  "checked": "2026-11-25",
+  "checked": "2026-11-26",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -37031,7 +37018,7 @@
   "source": "sweep",
   "added": "2026-11-21",
   "added_at": "2026-11-21T18:06Z",
-  "checked": "2026-11-25",
+  "checked": "2026-11-26",
   "notes": [
    "Found by ChatGPT sweep (live)."
   ],
@@ -37255,14 +37242,15 @@
   "area": "SW11",
   "rent": 4800,
   "beds": 4,
-  "baths": null,
-  "available": "",
-  "sharers": "unknown",
-  "status": "new",
+  "baths": 3,
+  "available": "2027-01-06",
+  "sharers": "no",
+  "status": "no",
   "url": "https://www.onthemarket.com/details/20809784/",
   "links": [
    "https://www.onthemarket.com/details/20809784/",
-   "https://www.zoopla.co.uk/to-rent/details/74857692/"
+   "https://www.zoopla.co.uk/to-rent/details/74857692/",
+   "https://www.rightmove.co.uk/properties/95879472"
   ],
   "source": "alert",
   "added": "2026-11-24",
@@ -37280,6 +37268,11 @@
     "2026-11-26",
     4800,
     "zoopla"
+   ],
+   [
+    "2026-11-26",
+    4800,
+    "rightmove"
    ]
   ],
   "photos_seen": [
@@ -37305,7 +37298,8 @@
   "checked": "2026-11-26",
   "not_same": [
    "onthemarket-20824133"
-  ]
+  ],
+  "ruled_out": "no sharers"
  },
  {
   "id": "openrent-2935203",
@@ -37353,7 +37347,7 @@
    "q5": 32,
    "wentworth": 53
   },
-  "checked": "2026-11-25"
+  "checked": "2026-11-26"
  },
  {
   "id": "onthemarket-20818144",
@@ -37616,5 +37610,57 @@
    "wentworth": 39
   },
   "checked": "2026-11-26"
+ },
+ {
+  "id": "onthemarket-20824993",
+  "title": "Colinette Road, London SW15, SW15 6QQ",
+  "area": "Putney",
+  "rent": 4800,
+  "beds": 4,
+  "baths": 3,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/95884185",
+  "links": [
+   "https://www.onthemarket.com/details/20824993/",
+   "https://www.rightmove.co.uk/properties/95884185",
+   "https://www.zoopla.co.uk/to-rent/details/74858642/"
+  ],
+  "source": "sweep",
+  "added": "2026-11-26",
+  "added_at": "2026-11-26T18:08Z",
+  "checked": "2026-11-26",
+  "notes": [
+   "Found by ChatGPT sweep (live)."
+  ],
+  "prices": [
+   [
+    "2026-11-26",
+    4800,
+    "rightmove"
+   ],
+   [
+    "2026-11-26",
+    4800,
+    "onthemarket"
+   ]
+  ],
+  "loc": [
+   51.461,
+   -0.230086
+  ],
+  "station": {
+   "name": "Barnes",
+   "kind": "Rail",
+   "walk": 16
+  },
+  "commute": {
+   "lcp": 60,
+   "tritax": 60,
+   "q5": 50,
+   "wentworth": 45
+  },
+  "photo": "https://media.onthemarket.com/properties/20824993/1660991981/image-0-1024x1024.jpg"
  }
 ]
