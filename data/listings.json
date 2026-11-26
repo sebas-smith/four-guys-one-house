@@ -12818,7 +12818,8 @@
    "wentworth": 48
   },
   "not_same": [
-   "rightmove-94271229"
+   "rightmove-94271229",
+   "rightmove-95881362"
   ],
   "photos_seen": [
    "http://media.onthemarket.com/properties/15776036/1659223518/image-0-480x320.jpg"
@@ -27700,7 +27701,8 @@
    "https://www.zoopla.co.uk/to-rent/details/74837967/",
    "https://www.onthemarket.com/details/20815315/",
    "https://www.onthemarket.com/details/20815310/",
-   "https://www.zoopla.co.uk/to-rent/details/74846163/"
+   "https://www.zoopla.co.uk/to-rent/details/74846163/",
+   "https://www.onthemarket.com/details/20824983/"
   ],
   "source": "agent",
   "added": "2026-10-26",
@@ -27896,7 +27898,8 @@
    "http://media.onthemarket.com/properties/20801006/1660171825/image-0-480x320.jpg",
    "http://media.onthemarket.com/properties/20809050/1660379400/image-0-480x320.jpg",
    "http://media.onthemarket.com/properties/20815315/1660606882/image-0-480x320.jpg",
-   "http://media.onthemarket.com/properties/20815310/1660606864/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/20815310/1660606864/image-0-480x320.jpg",
+   "http://media.onthemarket.com/properties/20824983/1660991906/image-0-480x320.jpg"
   ],
   "off_market": {
    "why": "Let agreed on OnTheMarket, still live on Rightmove",
@@ -37277,7 +37280,8 @@
   ],
   "photos_seen": [
    "http://media.onthemarket.com/properties/20809784/1660390339/image-0-480x320.jpg",
-   "https://lid.zoocdn.com/645/430/625927815eb1f2ab9c5fe212f010aa5eec9fc8dc.jpg"
+   "https://lid.zoocdn.com/645/430/625927815eb1f2ab9c5fe212f010aa5eec9fc8dc.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/2cda75d3c/95879472/2cda75d3cefd1eefe62499f58f8e8415_max_296x197.jpeg"
   ],
   "photo": "http://media.onthemarket.com/properties/20809784/1660390339/image-0-480x320.jpg",
   "loc": [
@@ -37575,7 +37579,8 @@
   "status": "new",
   "url": "https://www.onthemarket.com/details/20347585/",
   "links": [
-   "https://www.onthemarket.com/details/20347585/"
+   "https://www.onthemarket.com/details/20347585/",
+   "https://www.rightmove.co.uk/properties/95881131"
   ],
   "source": "alert",
   "added": "2026-11-26",
@@ -37588,10 +37593,16 @@
     "2026-11-26",
     3500,
     "onthemarket"
+   ],
+   [
+    "2026-11-26",
+    3500,
+    "rightmove"
    ]
   ],
   "photos_seen": [
-   "http://media.onthemarket.com/properties/20347585/1660980802/image-0-480x320.jpg"
+   "http://media.onthemarket.com/properties/20347585/1660980802/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/dc972eafb/95881131/dc972eafb81e5ba2d67236a2b8656d80_max_296x197.jpeg"
   ],
   "photo": "http://media.onthemarket.com/properties/20347585/1660980802/image-0-480x320.jpg",
   "loc": [
@@ -37661,6 +37672,128 @@
    "q5": 50,
    "wentworth": 45
   },
-  "photo": "https://media.onthemarket.com/properties/20824993/1660991981/image-0-1024x1024.jpg"
+  "photo": "https://media.onthemarket.com/properties/20824993/1660991981/image-0-1024x1024.jpg",
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20824993/1660991981/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/91e14a010/95884185/91e14a0109fed9329c2bf33ca9065e4f_max_296x197.jpeg"
+  ]
+ },
+ {
+  "id": "rightmove-95881362",
+  "title": "Deeside Road, Wandsworth, London",
+  "area": "Wandsworth",
+  "rent": 3200,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.rightmove.co.uk/properties/95881362",
+  "links": [
+   "https://www.rightmove.co.uk/properties/95881362"
+  ],
+  "source": "alert",
+  "added": "2026-11-26",
+  "added_at": "2026-11-26T17:41Z",
+  "notes": [
+   "From an email on 2026-11-26: fourguys, we've found you 4 properties in SW London house v4",
+   "Price cut on Rightmove: £3,300 to £3,200 (2026-11-26)."
+  ],
+  "prices": [
+   [
+    "2026-11-26",
+    3300,
+    "rightmove"
+   ],
+   [
+    "2026-11-26",
+    3200,
+    "rightmove"
+   ]
+  ],
+  "photos_seen": [
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/890c281af/95881362/890c281af3d5501e98997bb8ae5bc530_max_296x197.jpeg"
+  ],
+  "photo": "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/890c281af/95881362/890c281af3d5501e98997bb8ae5bc530_max_296x197.jpeg",
+  "loc": [
+   51.435675,
+   -0.179781
+  ],
+  "station": {
+   "name": "Earlsfield",
+   "kind": "Rail",
+   "walk": 15
+  },
+  "not_same": [
+   "zoopla-68271860"
+  ],
+  "commute": {
+   "lcp": 55,
+   "tritax": 53,
+   "q5": 49,
+   "wentworth": 48
+  }
+ },
+ {
+  "id": "onthemarket-20827203",
+  "title": "Ground floor 22 Strickland Row, London",
+  "area": "SW18",
+  "rent": 3400,
+  "beds": 4,
+  "baths": null,
+  "available": "",
+  "sharers": "unknown",
+  "status": "new",
+  "url": "https://www.onthemarket.com/details/20827203/",
+  "links": [
+   "https://www.onthemarket.com/details/20827203/",
+   "https://www.rightmove.co.uk/properties/95896140",
+   "https://www.openrent.co.uk/3126533"
+  ],
+  "source": "alert",
+  "added": "2026-11-26",
+  "added_at": "2026-11-26T19:12Z",
+  "notes": [
+   "From an email on 2026-11-26: New properties in London (drawn area)",
+   "From an email on 2026-11-26: New properties found for your search: Wandsworth, London",
+   "Same house as openrent-3126533 by its photos; merged (26 Nov)."
+  ],
+  "prices": [
+   [
+    "2026-11-26",
+    3400,
+    "onthemarket"
+   ],
+   [
+    "2026-11-26",
+    3400,
+    "rightmove"
+   ],
+   [
+    "2026-11-26",
+    3400,
+    "openrent"
+   ]
+  ],
+  "photos_seen": [
+   "http://media.onthemarket.com/properties/20827203/1661032084/image-0-480x320.jpg",
+   "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/71f5f5739/95896140/71f5f57393ae774aae6417faae8220a0_max_296x197.jpeg"
+  ],
+  "photo": "http://media.onthemarket.com/properties/20827203/1661032084/image-0-480x320.jpg",
+  "loc": [
+   51.4477,
+   -0.178959
+  ],
+  "station": {
+   "name": "Earlsfield",
+   "kind": "Rail",
+   "walk": 14
+  },
+  "commute": {
+   "lcp": 62,
+   "tritax": 61,
+   "q5": 55,
+   "wentworth": 50
+  }
  }
 ]

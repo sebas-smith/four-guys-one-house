@@ -1348,6 +1348,23 @@
 ],
 "read": "2026-11-26"
 },
+"https://www.onthemarket.com/details/20827203/": {
+"hashes": [
+"b4b4f5b5a567cb1d",
+"676b7a7b7acad2b6",
+"c686868783c7a264",
+"3f3dadada7256d9d",
+"727832313c040606",
+"1f15143537272727",
+"6775713567763ee7",
+"c6c7c7c7cd0f3db2",
+"999a9a9eae86948e",
+"0501010101010111",
+"323236b6773f0e26",
+"3a3a3a3a383824cc"
+],
+"read": "2026-11-26"
+},
 "https://www.onthemarket.com/details/7288266/": {
 "hashes": [
 "0f4943674d859d9c",
@@ -2877,6 +2894,40 @@
 ],
 "read": "2026-11-24"
 },
+"https://www.rightmove.co.uk/properties/95881362": {
+"hashes": [
+"ffadae37591b8d5c",
+"3965edefbaf0e4cc",
+"9aba989898f0c6c7",
+"4ca02fae38383436",
+"0f37331b26669f33",
+"830b7b1b1e46643a",
+"cdf3f2f033711101",
+"032632363673c90c",
+"87869696d9c4c6e7",
+"cdf1f3f333f19181",
+"cdf1f3f333f39181",
+"2713132f2d1f1e3b"
+],
+"read": "2026-11-26"
+},
+"https://www.rightmove.co.uk/properties/95896140": {
+"hashes": [
+"f575f3d7a5a7ca1c",
+"666e7a3a79ca5676",
+"c7c7c7c7c7c7c5a4",
+"3fbdadada7a76ddd",
+"323033313d058504",
+"1b15153737272727",
+"33337335267c3c67",
+"454747474f0f1972",
+"dadadedcccc6dccc",
+"030303030b030303",
+"34343494263e0e26",
+"1a1a181838b8b14d"
+],
+"read": "2026-11-26"
+},
 "https://www.zoopla.co.uk/to-rent/details/67769547/": {
 "hashes": [
 "1c058b1bbacb0e0e",
@@ -3179,6 +3230,12 @@
 ],
 "read": "2026-11-18"
 },
+"img:http://media.onthemarket.com/properties/20827203/1661032084/image-0-480x320.jpg": {
+"hashes": [
+"b4b4f5b5a567cb1d"
+],
+"read": "2026-11-26"
+},
 "img:https://imagescdn.openrent.co.uk/listings/3108274/o_1k75g3vou1v9k16r31c011e731sdr0.JPG": {
 "hashes": [
 "4939b6c335574b43"
@@ -3196,6 +3253,12 @@
 "4939b6c335574b43"
 ],
 "read": "2026-11-17"
+},
+"img:https://imagescdn.openrent.co.uk/listings/3126533/o_1k8cat28rc5v14qqqdp4ppt38c.JPG": {
+"hashes": [
+"f5f573d7a5e74a0d"
+],
+"read": "2026-11-26"
 },
 "img:https://lid.zoocdn.com/645/430/0a251eed7d2ea63489840c01eba71bc19a4a86c9.jpg": {
 "hashes": [
@@ -3232,6 +3295,12 @@
 "6b6b0f2e2e4f570f"
 ],
 "read": "2026-11-17"
+},
+"img:https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/71f5f5739/95896140/71f5f57393ae774aae6417faae8220a0_max_296x197.jpeg": {
+"hashes": [
+"f575f3d7a5a7ca0c"
+],
+"read": "2026-11-26"
 },
 "img:https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/ceb064a71/93489711/ceb064a717117913b9f80be39993557d_max_296x197.jpeg": {
 "hashes": [
