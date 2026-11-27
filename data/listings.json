@@ -17057,7 +17057,8 @@
   "photos_seen": [
    "http://media.onthemarket.com/properties/20759595/1658758424/image-0-480x320.jpg",
    "https://imagescdn.openrent.co.uk/listings/3110909/o_1k7ctbnimmm71kaag6g1rka1teoa.JPG",
-   "https://media.rightmove.co.uk/property-photo/9aefa2a0a/95488416/9aefa2a0a7b8cfc2b2e820b907972e72.jpeg"
+   "https://media.rightmove.co.uk/property-photo/9aefa2a0a/95488416/9aefa2a0a7b8cfc2b2e820b907972e72.jpeg",
+   "http://media.onthemarket.com/properties/20759595/1659386706/image-0-480x320.jpg"
   ],
   "not_same": [
    "onthemarket-20776881"
@@ -20204,7 +20205,8 @@
    "Price cut on Onthemarket: £3,600 to £3,500 (2026-11-03).",
    "Price cut on Zoopla: £3,850 to £3,600 (2026-10-28).",
    "Price cut on Rightmove: £3,500 to £3,250 (2026-11-26).",
-   "Price cut on Zoopla: £3,600 to £3,250 (2026-11-26)."
+   "Price cut on Zoopla: £3,600 to £3,250 (2026-11-26).",
+   "Price cut on Onthemarket: £3,500 to £3,250 (2026-11-27)."
   ],
   "station": {
    "name": "East Putney",
@@ -20261,6 +20263,11 @@
     "2026-11-26",
     3250,
     "zoopla"
+   ],
+   [
+    "2026-11-27",
+    3250,
+    "onthemarket"
    ]
   ],
   "added_at": "2026-10-18T16:08Z",
@@ -20277,7 +20284,8 @@
   },
   "photos_seen": [
    "https://media.rightmove.co.uk/dir/crop/10:9-16:9/property-photo/9e7e43ed7/94306125/9e7e43ed70a7295f649a369329d1e0e1_max_296x197.jpeg",
-   "https://lid.zoocdn.com/645/430/ff0fbadbaca1dab49f5d321e6c1ac5dbaff0a2f8.jpg"
+   "https://lid.zoocdn.com/645/430/ff0fbadbaca1dab49f5d321e6c1ac5dbaff0a2f8.jpg",
+   "http://media.onthemarket.com/properties/17725282/1652096148/image-0-480x320.jpg"
   ]
  },
  {
